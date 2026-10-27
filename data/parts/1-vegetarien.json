@@ -1,0 +1,3887 @@
+[
+  {
+    "titre": "Frittata courgette, menthe et feta",
+    "categorie": "plat",
+    "temps": 25,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "courgette",
+        "nom": "courgette",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "feta",
+        "nom": "feta",
+        "qte": 80,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "menthe",
+        "nom": "menthe fraîche",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four en mode grill à 220 °C.",
+      "Émincer l'oignon et couper la courgette en fines demi-rondelles.",
+      "Faire revenir l'oignon et la courgette 8 minutes dans l'huile d'olive, dans une poêle allant au four.",
+      "Battre les œufs avec le sel, le poivre et la menthe ciselée, puis les verser sur les légumes.",
+      "Émietter la feta par-dessus et cuire 4 minutes à feu doux, jusqu'à ce que les bords prennent.",
+      "Passer la poêle 5 minutes sous le grill pour gonfler et dorer le dessus."
+    ],
+    "astuce": "Froide, elle se coupe en carrés pour un pique-nique ou un lunch du lendemain."
+  },
+  {
+    "titre": "Shakshuka poivrons et tomates",
+    "categorie": "plat",
+    "temps": 30,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 4,
+        "unite": "pièce"
+      },
+      {
+        "cle": "poivron",
+        "nom": "poivrons rouges",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "tomate_concassee",
+        "nom": "tomates concassées",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousses d'ail",
+        "qte": 2,
+        "unite": "gousse"
+      },
+      {
+        "cle": "cumin",
+        "nom": "cumin",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "paprika",
+        "nom": "paprika",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "coriandre",
+        "nom": "coriandre",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Émincer l'oignon, l'ail et les poivrons en lanières.",
+      "Les faire fondre 10 minutes dans l'huile d'olive à feu moyen dans une grande poêle.",
+      "Ajouter le cumin et le paprika, remuer 1 minute, puis verser les tomates concassées et laisser mijoter 8 minutes.",
+      "Creuser quatre puits dans la sauce et y casser les œufs.",
+      "Couvrir et cuire 6 à 8 minutes à feu doux, jusqu'à ce que les blancs soient pris et les jaunes encore coulants.",
+      "Parsemer de coriandre et servir directement dans la poêle."
+    ],
+    "astuce": "Accompagner de pain pour saucer ; sans pain, la recette reste sans gluten."
+  },
+  {
+    "titre": "Œufs brouillés crémeux aux champignons et ciboulette",
+    "categorie": "plat",
+    "temps": 15,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "champignon",
+        "nom": "champignons de Paris",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 20,
+        "unite": "g"
+      },
+      {
+        "cle": "creme",
+        "nom": "crème",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "ciboulette",
+        "nom": "ciboulette",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Émincer les champignons et les faire sauter 5 minutes dans la moitié du beurre jusqu'à évaporation de leur eau. Saler.",
+      "Battre les œufs avec le sel et le poivre.",
+      "Faire fondre le reste du beurre à feu très doux dans une casserole, verser les œufs et remuer sans arrêt avec une spatule.",
+      "Quand les œufs commencent à prendre en petits grumeaux crémeux, retirer du feu et ajouter la crème.",
+      "Incorporer les champignons et parsemer de ciboulette ciselée."
+    ],
+    "astuce": "Servis sur une tranche de pain grillé, ils font un souper express qui sauve les champignons un peu ridés."
+  },
+  {
+    "titre": "Omelette roulée aux épinards et chèvre",
+    "categorie": "plat",
+    "temps": 15,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 4,
+        "unite": "pièce"
+      },
+      {
+        "cle": "epinard",
+        "nom": "pousses d'épinards",
+        "qte": 120,
+        "unite": "g"
+      },
+      {
+        "cle": "chevre",
+        "nom": "fromage de chèvre frais",
+        "qte": 80,
+        "unite": "g"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousse d'ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 15,
+        "unite": "g"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Faire tomber les épinards 2 minutes à la poêle avec l'ail haché et une noix de beurre. Saler, réserver.",
+      "Battre les œufs avec le sel et le poivre.",
+      "Faire fondre le reste du beurre dans la poêle, verser la moitié des œufs et cuire 2 minutes à feu moyen.",
+      "Garnir avec la moitié des épinards et du chèvre émietté, rouler l'omelette et la glisser sur l'assiette.",
+      "Recommencer avec le reste pour la deuxième omelette."
+    ],
+    "astuce": "Les épinards qui commencent à flétrir conviennent parfaitement : ils seront cuits de toute façon."
+  },
+  {
+    "titre": "Œufs cocotte poireau et gruyère",
+    "categorie": "plat",
+    "temps": 25,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 4,
+        "unite": "pièce"
+      },
+      {
+        "cle": "poireau",
+        "nom": "poireau",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "creme",
+        "nom": "crème",
+        "qte": 4,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "gruyere",
+        "nom": "gruyère râpé",
+        "qte": 40,
+        "unite": "g"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 10,
+        "unite": "g"
+      },
+      {
+        "cle": "muscade",
+        "nom": "muscade",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 180 °C et faire chauffer de l'eau pour le bain-marie.",
+      "Émincer finement le poireau et le faire fondre 8 minutes dans le beurre à feu doux. Saler, poivrer.",
+      "Répartir le poireau dans 4 ramequins, ajouter une cuillère de crème, puis casser un œuf dans chacun.",
+      "Parsemer de gruyère et d'un peu de muscade.",
+      "Placer les ramequins dans un plat rempli d'eau chaude à mi-hauteur et cuire 12 minutes au four."
+    ],
+    "astuce": "Le vert du poireau, émincé très fin, fond aussi bien que le blanc : inutile de le jeter."
+  },
+  {
+    "titre": "Tortilla espagnole aux pommes de terre",
+    "categorie": "plat",
+    "temps": 45,
+    "difficulte": "moyen",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pomme_de_terre",
+        "nom": "pommes de terre",
+        "qte": 500,
+        "unite": "g"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 5,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Éplucher les pommes de terre et les couper en fines lamelles, émincer l'oignon.",
+      "Les cuire 20 minutes à feu doux dans l'huile d'olive dans une poêle, en remuant, jusqu'à ce qu'elles soient tendres sans trop dorer.",
+      "Battre les œufs avec le sel, y ajouter les pommes de terre égouttées et laisser reposer 5 minutes.",
+      "Remettre un filet d'huile dans la poêle, verser le mélange et cuire 6 minutes à feu doux.",
+      "Retourner la tortilla à l'aide d'une assiette et cuire encore 4 minutes."
+    ],
+    "astuce": "Elle se garde 2 jours au frigo et se mange froide, en tranches."
+  },
+  {
+    "titre": "Omelette aux pommes de terre et fromage à raclette",
+    "categorie": "plat",
+    "temps": 25,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 4,
+        "unite": "pièce"
+      },
+      {
+        "cle": "pomme_de_terre",
+        "nom": "pommes de terre cuites",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "raclette",
+        "nom": "fromage à raclette",
+        "qte": 80,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 15,
+        "unite": "g"
+      },
+      {
+        "cle": "cornichon",
+        "nom": "cornichons",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Couper les pommes de terre cuites en dés et émincer l'oignon.",
+      "Faire dorer les pommes de terre et l'oignon 8 minutes dans le beurre.",
+      "Battre les œufs avec le sel et le poivre et les verser dans la poêle.",
+      "Disposer les tranches de fromage à raclette sur le dessus, couvrir et cuire 5 minutes à feu doux.",
+      "Servir avec quelques cornichons."
+    ],
+    "astuce": "Idéal pour finir le fromage et les pommes de terre en robe des champs d'une soirée raclette."
+  },
+  {
+    "titre": "Œufs au plat sur poêlée de légumes du soleil",
+    "categorie": "plat",
+    "temps": 30,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 4,
+        "unite": "pièce"
+      },
+      {
+        "cle": "aubergine",
+        "nom": "aubergine",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "courgette",
+        "nom": "courgette",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "poivron",
+        "nom": "poivron",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "tomate",
+        "nom": "tomates",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousse d'ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "herbes_provence",
+        "nom": "herbes de Provence",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Couper l'aubergine, la courgette, le poivron et les tomates en petits dés.",
+      "Faire revenir l'aubergine 5 minutes dans l'huile, puis ajouter la courgette et le poivron et cuire 8 minutes.",
+      "Ajouter les tomates, l'ail haché et les herbes, saler et laisser compoter 7 minutes.",
+      "Casser les œufs sur les légumes, couvrir et cuire 5 minutes à feu doux.",
+      "Poivrer et servir aussitôt."
+    ],
+    "astuce": "Une bonne façon d'écouler les fins de légumes d'été ; le reste de poêlée se congèle sans les œufs."
+  },
+  {
+    "titre": "Omelette brocoli et cheddar façon gratinée",
+    "categorie": "plat",
+    "temps": 20,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 4,
+        "unite": "pièce"
+      },
+      {
+        "cle": "brocoli",
+        "nom": "brocoli",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "fromage_rape",
+        "nom": "fromage râpé (cheddar ou gruyère)",
+        "qte": 50,
+        "unite": "g"
+      },
+      {
+        "cle": "lait",
+        "nom": "lait",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 15,
+        "unite": "g"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Détailler le brocoli en petits bouquets et émincer la tige pelée.",
+      "Cuire le brocoli 4 minutes dans l'eau bouillante salée, puis l'égoutter.",
+      "Battre les œufs avec le lait, le sel et le poivre.",
+      "Faire fondre le beurre dans la poêle, ajouter le brocoli puis les œufs et cuire 4 minutes à feu moyen.",
+      "Parsemer de fromage, couvrir 2 minutes pour le faire fondre et plier l'omelette en deux."
+    ],
+    "astuce": "La tige du brocoli, épluchée, est aussi tendre que les fleurettes."
+  },
+  {
+    "titre": "Œufs pochés à la sauce tomate et basilic",
+    "categorie": "plat",
+    "temps": 25,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 4,
+        "unite": "pièce"
+      },
+      {
+        "cle": "tomate_concassee",
+        "nom": "coulis de tomate",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousses d'ail",
+        "qte": 2,
+        "unite": "gousse"
+      },
+      {
+        "cle": "mozzarella",
+        "nom": "mozzarella",
+        "qte": 125,
+        "unite": "g"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "basilic",
+        "nom": "basilic",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Faire revenir l'ail haché 1 minute dans l'huile, ajouter le coulis, saler et mijoter 10 minutes.",
+      "Creuser quatre creux dans la sauce et y casser les œufs.",
+      "Ajouter la mozzarella en morceaux entre les œufs.",
+      "Couvrir et cuire 7 minutes à feu doux.",
+      "Parsemer de basilic déchiré et servir avec du pain ou de la polenta."
+    ],
+    "astuce": "Un pot de sauce tomate entamé trouve ici une seconde vie."
+  },
+  {
+    "titre": "Omelette au chou, oignon et paprika",
+    "categorie": "plat",
+    "temps": 20,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 4,
+        "unite": "pièce"
+      },
+      {
+        "cle": "chou",
+        "nom": "chou blanc ou vert",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "paprika",
+        "nom": "paprika",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "huile",
+        "nom": "huile",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Émincer très finement le chou et l'oignon.",
+      "Les faire revenir 10 minutes à feu moyen dans l'huile, en remuant, jusqu'à ce qu'ils dorent légèrement.",
+      "Ajouter le paprika, saler et poivrer.",
+      "Verser les œufs battus sur le chou et cuire 5 minutes à feu doux, couvert."
+    ],
+    "astuce": "Parfait pour utiliser un quart de chou oublié au fond du bac à légumes."
+  },
+  {
+    "titre": "Frittata de pâtes aux restes",
+    "categorie": "plat",
+    "temps": 25,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pates",
+        "nom": "pâtes cuites (spaghetti, penne…)",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 4,
+        "unite": "pièce"
+      },
+      {
+        "cle": "parmesan",
+        "nom": "parmesan râpé",
+        "qte": 40,
+        "unite": "g"
+      },
+      {
+        "cle": "tomate_cerise",
+        "nom": "tomates cerises",
+        "qte": 100,
+        "unite": "g",
+        "optionnel": true
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "persil",
+        "nom": "persil",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Battre les œufs avec le parmesan, le persil haché, le sel et le poivre.",
+      "Y mélanger les pâtes cuites et les tomates cerises coupées en deux.",
+      "Chauffer l'huile dans une poêle, verser le mélange en tassant et cuire 8 minutes à feu moyen-doux.",
+      "Retourner à l'aide d'une assiette et cuire encore 5 minutes jusqu'à ce que ce soit bien doré."
+    ],
+    "astuce": "Les pâtes déjà en sauce fonctionnent aussi : la frittata n'en sera que plus moelleuse."
+  },
+  {
+    "titre": "Spaghetti à la courgette, citron et parmesan",
+    "categorie": "plat",
+    "temps": 20,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pates",
+        "nom": "spaghetti",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "courgette",
+        "nom": "courgettes",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "citron",
+        "nom": "citron (zeste et jus)",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "parmesan",
+        "nom": "parmesan",
+        "qte": 40,
+        "unite": "g"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousse d'ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "basilic",
+        "nom": "basilic",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Cuire les spaghetti dans une grande casserole d'eau salée selon le paquet.",
+      "Pendant ce temps, râper grossièrement les courgettes.",
+      "Faire revenir l'ail haché dans l'huile, ajouter les courgettes et cuire 4 minutes à feu vif.",
+      "Égoutter les pâtes en gardant une louche d'eau de cuisson et les mélanger aux courgettes.",
+      "Ajouter le zeste et un filet de jus de citron, le parmesan et un peu d'eau de cuisson pour lier. Poivrer et servir avec le basilic."
+    ],
+    "astuce": "Les courgettes trop grosses ou un peu molles sont parfaites râpées."
+  },
+  {
+    "titre": "Penne crème, champignons et épinards",
+    "categorie": "plat",
+    "temps": 25,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pates",
+        "nom": "penne",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "champignon",
+        "nom": "champignons",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "epinard",
+        "nom": "épinards",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "creme",
+        "nom": "crème",
+        "qte": 15,
+        "unite": "cl"
+      },
+      {
+        "cle": "echalote",
+        "nom": "échalote",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "parmesan",
+        "nom": "parmesan",
+        "qte": 30,
+        "unite": "g",
+        "optionnel": true
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 15,
+        "unite": "g"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Cuire les penne dans l'eau bouillante salée.",
+      "Faire revenir l'échalote émincée dans le beurre, ajouter les champignons tranchés et cuire 6 minutes.",
+      "Ajouter les épinards et les laisser tomber 2 minutes.",
+      "Verser la crème, saler, poivrer et laisser réduire 3 minutes.",
+      "Mélanger avec les pâtes égouttées et servir avec le parmesan."
+    ],
+    "astuce": "Des épinards surgelés font l'affaire : les ajouter directement à la crème."
+  },
+  {
+    "titre": "Pâtes au pesto, haricots verts et pommes de terre",
+    "categorie": "plat",
+    "temps": 25,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pates",
+        "nom": "trofie ou fusilli",
+        "qte": 180,
+        "unite": "g"
+      },
+      {
+        "cle": "pomme_de_terre",
+        "nom": "pomme de terre",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "haricot_vert",
+        "nom": "haricots verts",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "pesto",
+        "nom": "pesto",
+        "qte": 4,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "parmesan",
+        "nom": "parmesan",
+        "qte": 20,
+        "unite": "g",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Éplucher la pomme de terre et la couper en petits dés, équeuter et couper les haricots en tronçons.",
+      "Porter une grande casserole d'eau salée à ébullition, y cuire la pomme de terre 5 minutes.",
+      "Ajouter les pâtes et les haricots verts et cuire le temps indiqué sur le paquet.",
+      "Égoutter en gardant un peu d'eau, puis mélanger avec le pesto et 2 cuillères d'eau de cuisson.",
+      "Servir avec du parmesan râpé."
+    ],
+    "astuce": "Tout cuit dans la même casserole : moins de vaisselle et d'énergie."
+  },
+  {
+    "titre": "Pâtes à la sauce tomate express et olives",
+    "categorie": "plat",
+    "temps": 20,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pates",
+        "nom": "spaghetti",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "tomate_concassee",
+        "nom": "tomates concassées",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "olive",
+        "nom": "olives noires",
+        "qte": 50,
+        "unite": "g"
+      },
+      {
+        "cle": "capre",
+        "nom": "câpres",
+        "qte": 1,
+        "unite": "c. à s.",
+        "optionnel": true
+      },
+      {
+        "cle": "ail",
+        "nom": "gousses d'ail",
+        "qte": 2,
+        "unite": "gousse"
+      },
+      {
+        "cle": "piment_poudre",
+        "nom": "piment",
+        "qte": 1,
+        "unite": "pincée",
+        "optionnel": true
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "persil",
+        "nom": "persil",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Cuire les pâtes dans l'eau bouillante salée.",
+      "Faire revenir l'ail émincé et le piment 1 minute dans l'huile d'olive.",
+      "Ajouter les tomates, les olives coupées et les câpres, puis mijoter 10 minutes.",
+      "Mélanger avec les pâtes égouttées et parsemer de persil."
+    ],
+    "astuce": "Un fond de bocal d'olives ou de câpres se termine ainsi sans effort."
+  },
+  {
+    "titre": "Macaronis au fromage et brocoli",
+    "categorie": "plat",
+    "temps": 25,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pates",
+        "nom": "macaronis",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "brocoli",
+        "nom": "brocoli",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "lait",
+        "nom": "lait",
+        "qte": 25,
+        "unite": "cl"
+      },
+      {
+        "cle": "farine",
+        "nom": "farine",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 20,
+        "unite": "g"
+      },
+      {
+        "cle": "gruyere",
+        "nom": "gruyère râpé",
+        "qte": 80,
+        "unite": "g"
+      },
+      {
+        "cle": "moutarde",
+        "nom": "moutarde",
+        "qte": 1,
+        "unite": "c. à c.",
+        "optionnel": true
+      },
+      {
+        "cle": "muscade",
+        "nom": "muscade",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Cuire les macaronis dans l'eau salée ; ajouter les bouquets de brocoli 4 minutes avant la fin.",
+      "Faire fondre le beurre dans une casserole, ajouter la farine et remuer 1 minute.",
+      "Verser le lait petit à petit en fouettant et laisser épaissir 3 minutes.",
+      "Hors du feu, ajouter le gruyère, la moutarde, la muscade, le sel et le poivre.",
+      "Mélanger la sauce avec les pâtes et le brocoli égouttés."
+    ],
+    "astuce": "Tous les restes de fromages à pâte dure se mélangent dans la sauce."
+  },
+  {
+    "titre": "Tagliatelles au poireau et chèvre",
+    "categorie": "plat",
+    "temps": 25,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pates",
+        "nom": "tagliatelles",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "poireau",
+        "nom": "poireaux",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "chevre",
+        "nom": "fromage de chèvre",
+        "qte": 80,
+        "unite": "g"
+      },
+      {
+        "cle": "creme",
+        "nom": "crème",
+        "qte": 10,
+        "unite": "cl"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 15,
+        "unite": "g"
+      },
+      {
+        "cle": "noix",
+        "nom": "noix",
+        "qte": 20,
+        "unite": "g",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Émincer les poireaux et les faire fondre 10 minutes dans le beurre à feu doux, avec un peu de sel.",
+      "Cuire les tagliatelles dans l'eau bouillante salée.",
+      "Ajouter la crème et le chèvre émietté aux poireaux et laisser fondre 2 minutes.",
+      "Mélanger avec les pâtes égouttées, poivrer et parsemer de noix concassées."
+    ],
+    "astuce": "Une bûche de chèvre un peu sèche fond très bien dans la sauce."
+  },
+  {
+    "titre": "Pâtes aux légumes rôtis et feta",
+    "categorie": "plat",
+    "temps": 40,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pates",
+        "nom": "fusilli",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "aubergine",
+        "nom": "aubergine",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "poivron",
+        "nom": "poivron",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "tomate_cerise",
+        "nom": "tomates cerises",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon_rouge",
+        "nom": "oignon rouge",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "feta",
+        "nom": "feta",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "herbes_provence",
+        "nom": "origan",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 210 °C.",
+      "Couper l'aubergine, le poivron et l'oignon en morceaux, les étaler sur une plaque avec les tomates cerises, l'huile, l'origan et le sel.",
+      "Placer la feta au centre et rôtir 25 minutes.",
+      "Pendant ce temps, cuire les pâtes dans l'eau salée.",
+      "Écraser la feta avec les légumes rôtis et mélanger avec les pâtes égouttées."
+    ],
+    "astuce": "Les légumes rôtis en surplus se gardent 3 jours au frigo et garnissent une tartine."
+  },
+  {
+    "titre": "Pâtes crémeuses à la courge et sauge",
+    "categorie": "plat",
+    "temps": 30,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pates",
+        "nom": "pâtes courtes",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "courge",
+        "nom": "courge butternut",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "parmesan",
+        "nom": "parmesan",
+        "qte": 30,
+        "unite": "g"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 20,
+        "unite": "g"
+      },
+      {
+        "cle": "herbes",
+        "nom": "sauge fraîche",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "muscade",
+        "nom": "muscade",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Éplucher la courge et la couper en petits dés, émincer l'oignon.",
+      "Les faire revenir 3 minutes dans le beurre, ajouter un verre d'eau, couvrir et cuire 15 minutes.",
+      "Cuire les pâtes dans l'eau salée.",
+      "Écraser la courge à la fourchette pour obtenir une sauce, ajouter un peu d'eau de cuisson, le parmesan, la muscade et le poivre.",
+      "Mélanger avec les pâtes et servir avec quelques feuilles de sauge dorées au beurre."
+    ],
+    "astuce": "Un reste de purée ou de soupe de courge peut remplacer la courge fraîche."
+  },
+  {
+    "titre": "Spaghetti aglio, olio et brocoli",
+    "categorie": "plat",
+    "temps": 20,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pates",
+        "nom": "spaghetti",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "brocoli",
+        "nom": "brocoli",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousses d'ail",
+        "qte": 3,
+        "unite": "gousse"
+      },
+      {
+        "cle": "piment_poudre",
+        "nom": "piment",
+        "qte": 1,
+        "unite": "pincée"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 4,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "citron",
+        "nom": "citron (zeste)",
+        "qte": 1,
+        "unite": "pièce",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Cuire les spaghetti dans l'eau salée, en ajoutant les petits bouquets de brocoli 5 minutes avant la fin.",
+      "Faire chauffer doucement l'huile avec l'ail en fines lamelles et le piment 3 minutes, sans brunir l'ail.",
+      "Égoutter pâtes et brocoli en gardant une louche d'eau de cuisson.",
+      "Les mélanger dans la poêle avec l'huile aillée et un peu d'eau de cuisson pour émulsionner.",
+      "Saler, poivrer et râper le zeste de citron."
+    ],
+    "astuce": "Le brocoli très cuit s'écrase et nappe les pâtes : c'est voulu."
+  },
+  {
+    "titre": "Pâtes au chou-fleur doré et raisins secs",
+    "categorie": "plat",
+    "temps": 30,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pates",
+        "nom": "pâtes courtes",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "chou_fleur",
+        "nom": "chou-fleur",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "raisin_sec",
+        "nom": "raisins secs",
+        "qte": 30,
+        "unite": "g"
+      },
+      {
+        "cle": "pignon",
+        "nom": "pignons de pin",
+        "qte": 20,
+        "unite": "g",
+        "optionnel": true
+      },
+      {
+        "cle": "ail",
+        "nom": "gousse d'ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "persil",
+        "nom": "persil",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Couper le chou-fleur en petits bouquets et faire tremper les raisins dans de l'eau tiède.",
+      "Faire dorer le chou-fleur 12 minutes dans l'huile à feu moyen, en remuant.",
+      "Cuire les pâtes dans l'eau salée.",
+      "Ajouter l'ail haché, les raisins égouttés et les pignons au chou-fleur et cuire 2 minutes.",
+      "Mélanger avec les pâtes et un peu d'eau de cuisson, puis parsemer de persil."
+    ],
+    "astuce": "Les feuilles vertes du chou-fleur se poêlent avec les bouquets."
+  },
+  {
+    "titre": "Pâtes à la ricotta, petits pois et menthe",
+    "categorie": "plat",
+    "temps": 15,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pates",
+        "nom": "farfalle",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "petit_pois",
+        "nom": "petits pois surgelés",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "ricotta",
+        "nom": "ricotta",
+        "qte": 125,
+        "unite": "g"
+      },
+      {
+        "cle": "parmesan",
+        "nom": "parmesan",
+        "qte": 20,
+        "unite": "g"
+      },
+      {
+        "cle": "citron",
+        "nom": "citron (zeste)",
+        "qte": 1,
+        "unite": "pièce",
+        "optionnel": true
+      },
+      {
+        "cle": "menthe",
+        "nom": "menthe",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Cuire les pâtes dans l'eau salée et ajouter les petits pois 3 minutes avant la fin.",
+      "Dans un saladier, mélanger la ricotta, le parmesan, le zeste de citron, le sel et le poivre.",
+      "Égoutter en gardant une louche d'eau, puis délayer la ricotta avec un peu de cette eau.",
+      "Mélanger le tout et parsemer de menthe ciselée."
+    ],
+    "astuce": "Un pot de ricotta entamé se termine ainsi en 15 minutes."
+  },
+  {
+    "titre": "Pâtes au gorgonzola et noix",
+    "categorie": "plat",
+    "temps": 15,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pates",
+        "nom": "penne",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "bleu",
+        "nom": "gorgonzola",
+        "qte": 80,
+        "unite": "g"
+      },
+      {
+        "cle": "creme",
+        "nom": "crème",
+        "qte": 10,
+        "unite": "cl"
+      },
+      {
+        "cle": "noix",
+        "nom": "noix",
+        "qte": 30,
+        "unite": "g"
+      },
+      {
+        "cle": "poire",
+        "nom": "poire",
+        "qte": 1,
+        "unite": "pièce",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Cuire les pâtes dans l'eau bouillante salée.",
+      "Faire fondre le gorgonzola dans la crème à feu doux, en remuant.",
+      "Mélanger avec les pâtes égouttées et poivrer.",
+      "Servir avec les noix concassées et la poire en fines lamelles."
+    ],
+    "astuce": "Tous les fromages bleus et les croûtes de brie fondent bien dans cette sauce."
+  },
+  {
+    "titre": "Pâtes au pesto de fanes et amandes",
+    "categorie": "plat",
+    "temps": 20,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pates",
+        "nom": "pâtes",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "carotte",
+        "nom": "fanes de carottes ou de radis",
+        "qte": 50,
+        "unite": "g"
+      },
+      {
+        "cle": "amande",
+        "nom": "amandes",
+        "qte": 30,
+        "unite": "g"
+      },
+      {
+        "cle": "parmesan",
+        "nom": "parmesan",
+        "qte": 30,
+        "unite": "g"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousse d'ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 6,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Laver soigneusement les fanes et garder les feuilles tendres.",
+      "Mixer les fanes avec les amandes, l'ail, le parmesan, l'huile et une pincée de sel.",
+      "Cuire les pâtes dans l'eau salée.",
+      "Mélanger les pâtes avec le pesto et un peu d'eau de cuisson."
+    ],
+    "astuce": "Le pesto se garde 4 jours au frigo sous une fine couche d'huile."
+  },
+  {
+    "titre": "Risotto aux champignons",
+    "categorie": "plat",
+    "temps": 35,
+    "difficulte": "moyen",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc"
+    ],
+    "ingredients": [
+      {
+        "cle": "riz_risotto",
+        "nom": "riz à risotto",
+        "qte": 160,
+        "unite": "g"
+      },
+      {
+        "cle": "champignon",
+        "nom": "champignons",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "echalote",
+        "nom": "échalote",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "vin_blanc",
+        "nom": "vin blanc",
+        "qte": 5,
+        "unite": "cl",
+        "optionnel": true
+      },
+      {
+        "cle": "bouillon",
+        "nom": "bouillon de légumes",
+        "qte": 75,
+        "unite": "cl"
+      },
+      {
+        "cle": "parmesan",
+        "nom": "parmesan",
+        "qte": 40,
+        "unite": "g"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 30,
+        "unite": "g"
+      },
+      {
+        "cle": "persil",
+        "nom": "persil",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Faire chauffer le bouillon et le garder frémissant.",
+      "Faire dorer les champignons émincés 5 minutes dans la moitié du beurre, puis réserver.",
+      "Dans la même casserole, faire suer l'échalote hachée, ajouter le riz et le nacrer 2 minutes.",
+      "Déglacer au vin blanc, puis ajouter le bouillon louche par louche pendant 18 minutes, en remuant.",
+      "Hors du feu, incorporer les champignons, le reste du beurre et le parmesan. Couvrir 2 minutes et servir avec le persil."
+    ],
+    "astuce": "Sans vin, remplacer par un trait de jus de citron en fin de cuisson. Vérifier que le bouillon est sans gluten."
+  },
+  {
+    "titre": "Risotto à la courge et romarin",
+    "categorie": "plat",
+    "temps": 40,
+    "difficulte": "moyen",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "riz_risotto",
+        "nom": "riz à risotto",
+        "qte": 160,
+        "unite": "g"
+      },
+      {
+        "cle": "courge",
+        "nom": "courge (potimarron ou butternut)",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "bouillon",
+        "nom": "bouillon de légumes",
+        "qte": 80,
+        "unite": "cl"
+      },
+      {
+        "cle": "parmesan",
+        "nom": "parmesan",
+        "qte": 40,
+        "unite": "g"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 25,
+        "unite": "g"
+      },
+      {
+        "cle": "herbes_provence",
+        "nom": "romarin",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Couper la courge en petits dés et faire chauffer le bouillon.",
+      "Faire suer l'oignon haché dans le beurre, ajouter la courge et le romarin et cuire 5 minutes.",
+      "Ajouter le riz et le nacrer 2 minutes.",
+      "Verser le bouillon louche par louche pendant 18 minutes, en remuant ; la courge fond en partie et rend le risotto crémeux.",
+      "Hors du feu, incorporer le parmesan, poivrer et laisser reposer 2 minutes."
+    ],
+    "astuce": "Le potimarron n'a pas besoin d'être épluché."
+  },
+  {
+    "titre": "Risotto aux petits pois et citron",
+    "categorie": "plat",
+    "temps": 30,
+    "difficulte": "moyen",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "riz_risotto",
+        "nom": "riz à risotto",
+        "qte": 160,
+        "unite": "g"
+      },
+      {
+        "cle": "petit_pois",
+        "nom": "petits pois",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "bouillon",
+        "nom": "bouillon de légumes",
+        "qte": 75,
+        "unite": "cl"
+      },
+      {
+        "cle": "parmesan",
+        "nom": "parmesan",
+        "qte": 30,
+        "unite": "g"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 25,
+        "unite": "g"
+      },
+      {
+        "cle": "menthe",
+        "nom": "menthe",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Faire chauffer le bouillon.",
+      "Faire suer l'oignon haché dans la moitié du beurre, ajouter le riz et le nacrer 2 minutes.",
+      "Ajouter le bouillon louche par louche pendant 18 minutes en remuant ; ajouter les petits pois à mi-cuisson.",
+      "Hors du feu, ajouter le zeste et le jus d'un demi-citron, le reste du beurre et le parmesan.",
+      "Servir avec un peu de menthe ciselée."
+    ],
+    "astuce": "Les restes de risotto se façonnent en galettes poêlées le lendemain."
+  },
+  {
+    "titre": "Risotto aux poireaux et gruyère",
+    "categorie": "plat",
+    "temps": 35,
+    "difficulte": "moyen",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "riz_risotto",
+        "nom": "riz à risotto",
+        "qte": 160,
+        "unite": "g"
+      },
+      {
+        "cle": "poireau",
+        "nom": "poireau",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "bouillon",
+        "nom": "bouillon de légumes",
+        "qte": 75,
+        "unite": "cl"
+      },
+      {
+        "cle": "gruyere",
+        "nom": "gruyère râpé",
+        "qte": 60,
+        "unite": "g"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 25,
+        "unite": "g"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Faire chauffer le bouillon.",
+      "Émincer le poireau et le faire fondre 5 minutes dans le beurre.",
+      "Ajouter le riz et le nacrer 2 minutes.",
+      "Verser le bouillon louche par louche pendant 18 minutes, en remuant.",
+      "Hors du feu, incorporer le gruyère, poivrer et servir bien crémeux."
+    ],
+    "astuce": "Un reste de vacherin ou de tomme remplace très bien le gruyère."
+  },
+  {
+    "titre": "Riz sauté aux légumes et œuf",
+    "categorie": "plat",
+    "temps": 20,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "riz",
+        "nom": "riz cuit de la veille",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "carotte",
+        "nom": "carotte",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "petit_pois",
+        "nom": "petits pois",
+        "qte": 80,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon_nouveau",
+        "nom": "oignons nouveaux",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "sauce_soja",
+        "nom": "sauce soja",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "gingembre",
+        "nom": "gingembre",
+        "qte": 1,
+        "unite": "c. à c.",
+        "optionnel": true
+      },
+      {
+        "cle": "huile",
+        "nom": "huile",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Couper la carotte en petits dés et émincer les oignons nouveaux.",
+      "Faire sauter la carotte 4 minutes dans l'huile très chaude avec le gingembre râpé, ajouter les petits pois et le blanc des oignons.",
+      "Pousser les légumes sur le côté, brouiller les œufs dans la poêle, puis mélanger.",
+      "Ajouter le riz froid et le faire sauter 5 minutes à feu vif.",
+      "Assaisonner de sauce soja et parsemer du vert des oignons."
+    ],
+    "astuce": "Le riz froid de la veille donne un meilleur résultat que du riz fraîchement cuit. Avec du tamari, la recette devient sans gluten."
+  },
+  {
+    "titre": "Riz au chou et carottes caramélisés au sésame",
+    "categorie": "plat",
+    "temps": 25,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "riz",
+        "nom": "riz cuit",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "chou",
+        "nom": "chou",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "carotte",
+        "nom": "carottes",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousse d'ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "sauce_soja",
+        "nom": "sauce soja",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "miel",
+        "nom": "sirop d'érable",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "graine",
+        "nom": "graines de sésame",
+        "qte": 1,
+        "unite": "c. à s.",
+        "optionnel": true
+      },
+      {
+        "cle": "huile",
+        "nom": "huile",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Émincer finement le chou et couper les carottes en bâtonnets.",
+      "Faire sauter les légumes 8 minutes dans l'huile très chaude, jusqu'à ce qu'ils colorent.",
+      "Ajouter l'ail haché, la sauce soja et le sirop d'érable et remuer 1 minute.",
+      "Ajouter le riz et le faire sauter 4 minutes.",
+      "Parsemer de graines de sésame grillées."
+    ],
+    "astuce": "Le chou rouge rend le plat très coloré."
+  },
+  {
+    "titre": "Riz aux légumes façon paella végétarienne",
+    "categorie": "plat",
+    "temps": 45,
+    "difficulte": "moyen",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "riz",
+        "nom": "riz rond",
+        "qte": 180,
+        "unite": "g"
+      },
+      {
+        "cle": "poivron",
+        "nom": "poivron rouge",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "haricot_vert",
+        "nom": "haricots verts",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "tomate",
+        "nom": "tomates",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "artichaut",
+        "nom": "cœurs d'artichaut",
+        "qte": 100,
+        "unite": "g",
+        "optionnel": true
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousses d'ail",
+        "qte": 2,
+        "unite": "gousse"
+      },
+      {
+        "cle": "paprika",
+        "nom": "paprika fumé",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "curcuma",
+        "nom": "curcuma",
+        "qte": 0.5,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "bouillon",
+        "nom": "bouillon de légumes",
+        "qte": 50,
+        "unite": "cl"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 1,
+        "unite": "pièce",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Faire revenir l'oignon, l'ail et le poivron émincés 6 minutes dans l'huile d'olive dans une grande poêle.",
+      "Ajouter les tomates râpées, le paprika et le curcuma et cuire 3 minutes.",
+      "Ajouter le riz, bien l'enrober, puis verser le bouillon chaud et les haricots verts coupés.",
+      "Disposer les artichauts, puis cuire 20 minutes à feu doux sans remuer.",
+      "Laisser reposer 5 minutes hors du feu et servir avec des quartiers de citron."
+    ],
+    "astuce": "Un fond de croûte légèrement grillée au fond de la poêle est recherchée : c'est le meilleur."
+  },
+  {
+    "titre": "Riz crémeux aux épinards et feta",
+    "categorie": "plat",
+    "temps": 30,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "riz",
+        "nom": "riz",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "epinard",
+        "nom": "épinards",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "feta",
+        "nom": "feta",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "aneth",
+        "nom": "aneth",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "eau",
+        "nom": "eau",
+        "qte": 40,
+        "unite": "cl"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Faire revenir l'oignon haché 3 minutes dans l'huile d'olive.",
+      "Ajouter le riz, puis l'eau et une pincée de sel ; couvrir et cuire 15 minutes à feu doux.",
+      "Ajouter les épinards hachés, couvrir à nouveau et cuire 4 minutes.",
+      "Incorporer le jus de citron, la feta émiettée et l'aneth, puis poivrer."
+    ],
+    "astuce": "Inspiré du spanakorizo grec, il se mange aussi tiède le lendemain."
+  },
+  {
+    "titre": "Curry de légumes au lait de coco et riz",
+    "categorie": "plat",
+    "temps": 35,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "riz",
+        "nom": "riz basmati",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "lait_coco",
+        "nom": "lait de coco",
+        "qte": 200,
+        "unite": "ml"
+      },
+      {
+        "cle": "chou_fleur",
+        "nom": "chou-fleur",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "carotte",
+        "nom": "carotte",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "epinard",
+        "nom": "épinards",
+        "qte": 80,
+        "unite": "g",
+        "optionnel": true
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "curry",
+        "nom": "curry en poudre",
+        "qte": 2,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "gingembre",
+        "nom": "gingembre",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "huile",
+        "nom": "huile",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Cuire le riz selon le paquet.",
+      "Faire revenir l'oignon haché et le gingembre râpé dans l'huile 3 minutes, ajouter le curry et remuer 1 minute.",
+      "Ajouter le chou-fleur en bouquets et la carotte en rondelles, puis le lait de coco et un demi-verre d'eau.",
+      "Couvrir et mijoter 15 minutes, ajouter les épinards les 2 dernières minutes.",
+      "Saler et servir avec le riz."
+    ],
+    "astuce": "Accepte tous les légumes qui traînent : courgette, brocoli, poivron, patate douce."
+  },
+  {
+    "titre": "Semoule aux légumes rôtis et yaourt à l'ail",
+    "categorie": "plat",
+    "temps": 35,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "semoule",
+        "nom": "semoule",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "courgette",
+        "nom": "courgette",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "poivron",
+        "nom": "poivron",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oignon_rouge",
+        "nom": "oignon rouge",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "yaourt",
+        "nom": "yaourt nature",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousse d'ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "cumin",
+        "nom": "cumin",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "menthe",
+        "nom": "menthe",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "eau",
+        "nom": "eau bouillante",
+        "qte": 15,
+        "unite": "cl"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 210 °C.",
+      "Couper les légumes en morceaux, les mélanger avec 2 cuillères d'huile, le cumin et le sel, et les rôtir 25 minutes.",
+      "Verser l'eau bouillante salée sur la semoule avec le reste d'huile, couvrir 5 minutes puis égrener.",
+      "Mélanger le yaourt avec l'ail râpé, du sel et la menthe.",
+      "Servir la semoule garnie de légumes rôtis et de sauce au yaourt."
+    ],
+    "astuce": "Le yaourt à l'ail se garde 2 jours et accompagne aussi des pommes de terre."
+  },
+  {
+    "titre": "Boulgour pilaf aux aubergines et tomates",
+    "categorie": "plat",
+    "temps": 35,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "boulgour",
+        "nom": "boulgour",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "aubergine",
+        "nom": "aubergine",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "tomate",
+        "nom": "tomates",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "concentre_tomate",
+        "nom": "concentré de tomate",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "cumin",
+        "nom": "cumin",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "eau",
+        "nom": "eau",
+        "qte": 30,
+        "unite": "cl"
+      },
+      {
+        "cle": "persil",
+        "nom": "persil",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Couper l'aubergine en dés et la faire dorer 8 minutes dans 2 cuillères d'huile, puis réserver.",
+      "Faire revenir l'oignon haché dans le reste d'huile, ajouter le concentré, le cumin et les tomates en dés, cuire 3 minutes.",
+      "Ajouter le boulgour et l'eau, saler, couvrir et cuire 12 minutes à feu doux.",
+      "Incorporer l'aubergine, couvrir hors du feu 5 minutes et parsemer de persil."
+    ],
+    "astuce": "Délicieux avec un yaourt nature si l'on n'est pas vegan."
+  },
+  {
+    "titre": "Quinoa sauté aux légumes et œuf mollet",
+    "categorie": "plat",
+    "temps": 30,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "quinoa",
+        "nom": "quinoa",
+        "qte": 120,
+        "unite": "g"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "brocoli",
+        "nom": "brocoli",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "carotte",
+        "nom": "carotte",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "poivron",
+        "nom": "poivron",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousse d'ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "sauce_soja",
+        "nom": "tamari",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "huile",
+        "nom": "huile",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Rincer le quinoa et le cuire 12 minutes dans deux fois son volume d'eau salée.",
+      "Cuire les œufs 6 minutes dans l'eau bouillante, les refroidir et les écaler.",
+      "Faire sauter le brocoli, la carotte et le poivron coupés en petits morceaux 6 minutes dans l'huile avec l'ail.",
+      "Ajouter le quinoa et le tamari, sauter 2 minutes.",
+      "Servir surmonté d'un œuf mollet coupé en deux."
+    ],
+    "astuce": "Utiliser du tamari (et non de la sauce soja classique) pour rester sans gluten."
+  },
+  {
+    "titre": "Semoule épicée aux carottes, courgette et raisins secs",
+    "categorie": "plat",
+    "temps": 25,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "semoule",
+        "nom": "semoule",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "carotte",
+        "nom": "carottes",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "courgette",
+        "nom": "courgette",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "raisin_sec",
+        "nom": "raisins secs",
+        "qte": 30,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "cumin",
+        "nom": "cumin",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "cannelle",
+        "nom": "cannelle",
+        "qte": 1,
+        "unite": "pincée"
+      },
+      {
+        "cle": "bouillon",
+        "nom": "bouillon de légumes",
+        "qte": 30,
+        "unite": "cl"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "coriandre",
+        "nom": "coriandre",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Couper les carottes et la courgette en petits dés, émincer l'oignon.",
+      "Les faire revenir 10 minutes dans l'huile avec le cumin et la cannelle.",
+      "Ajouter les raisins et le bouillon, porter à ébullition.",
+      "Hors du feu, verser la semoule, couvrir 5 minutes puis égrener à la fourchette.",
+      "Parsemer de coriandre."
+    ],
+    "astuce": "Une poignée d'amandes grillées ajoute du croquant."
+  },
+  {
+    "titre": "Poêlée de pommes de terre, champignons et œuf",
+    "categorie": "plat",
+    "temps": 30,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pomme_de_terre",
+        "nom": "pommes de terre",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "champignon",
+        "nom": "champignons",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 15,
+        "unite": "g"
+      },
+      {
+        "cle": "huile",
+        "nom": "huile",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "persil",
+        "nom": "persil",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Couper les pommes de terre en dés de 1,5 cm et les faire dorer 15 minutes dans l'huile, couvert les 8 premières minutes.",
+      "Ajouter l'oignon émincé et les champignons tranchés et cuire 6 minutes à découvert.",
+      "Ajouter le beurre, saler, poivrer et parsemer de persil.",
+      "Faire cuire les œufs au plat à part et les poser sur la poêlée."
+    ],
+    "astuce": "Des pommes de terre déjà cuites raccourcissent la cuisson à 10 minutes."
+  },
+  {
+    "titre": "Röstis de pommes de terre et carotte, crème à la ciboulette",
+    "categorie": "plat",
+    "temps": 35,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pomme_de_terre",
+        "nom": "pommes de terre",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "carotte",
+        "nom": "carotte",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œuf",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "fromage_blanc",
+        "nom": "séré ou fromage blanc",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "ciboulette",
+        "nom": "ciboulette",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "huile",
+        "nom": "huile",
+        "qte": 4,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Râper les pommes de terre et la carotte, puis les presser fortement dans un torchon pour en retirer l'eau.",
+      "Mélanger avec l'œuf, le sel et le poivre.",
+      "Former des galettes fines et les cuire 5 minutes de chaque côté dans l'huile chaude, à feu moyen.",
+      "Mélanger le séré avec la ciboulette ciselée, le sel et le poivre.",
+      "Servir les röstis bien croustillants avec la crème."
+    ],
+    "astuce": "Les pommes de terre qui commencent à germer conviennent, il suffit de retirer les germes."
+  },
+  {
+    "titre": "Purée de pommes de terre au céleri et œufs mollets",
+    "categorie": "plat",
+    "temps": 35,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pomme_de_terre",
+        "nom": "pommes de terre",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "celeri",
+        "nom": "céleri-rave",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 4,
+        "unite": "pièce"
+      },
+      {
+        "cle": "lait",
+        "nom": "lait",
+        "qte": 10,
+        "unite": "cl"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 30,
+        "unite": "g"
+      },
+      {
+        "cle": "epinard",
+        "nom": "épinards",
+        "qte": 100,
+        "unite": "g",
+        "optionnel": true
+      },
+      {
+        "cle": "muscade",
+        "nom": "muscade",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Éplucher les pommes de terre et le céleri, les couper en morceaux et les cuire 20 minutes à l'eau salée.",
+      "Cuire les œufs 6 minutes dans l'eau bouillante, les refroidir et les écaler.",
+      "Égoutter les légumes et les écraser avec le lait chaud, le beurre, la muscade, le sel et le poivre.",
+      "Faire tomber les épinards 2 minutes à la poêle si on en a.",
+      "Servir la purée avec les épinards et les œufs mollets coupés en deux."
+    ],
+    "astuce": "Le reste de purée se transforme en galettes poêlées le lendemain."
+  },
+  {
+    "titre": "Pommes de terre sautées aux poivrons et paprika, œufs brouillés",
+    "categorie": "plat",
+    "temps": 30,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pomme_de_terre",
+        "nom": "pommes de terre",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "poivron",
+        "nom": "poivrons",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 3,
+        "unite": "pièce"
+      },
+      {
+        "cle": "paprika",
+        "nom": "paprika fumé",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Couper les pommes de terre en dés et les faire dorer 12 minutes dans l'huile d'olive.",
+      "Ajouter les poivrons et l'oignon émincés et cuire 8 minutes.",
+      "Saupoudrer de paprika, saler et poivrer.",
+      "Verser les œufs battus et remuer doucement 2 minutes jusqu'à ce qu'ils soient juste pris."
+    ],
+    "astuce": "Un reste de poivron grillé ou de ratatouille s'ajoute volontiers."
+  },
+  {
+    "titre": "Pommes de terre écrasées, poireaux à la crème et œuf poché",
+    "categorie": "plat",
+    "temps": 35,
+    "difficulte": "moyen",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pomme_de_terre",
+        "nom": "pommes de terre",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "poireau",
+        "nom": "poireaux",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "creme",
+        "nom": "crème",
+        "qte": 10,
+        "unite": "cl"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "vinaigre",
+        "nom": "vinaigre",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 20,
+        "unite": "g"
+      },
+      {
+        "cle": "moutarde",
+        "nom": "moutarde",
+        "qte": 1,
+        "unite": "c. à c.",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Cuire les pommes de terre en morceaux 18 minutes dans l'eau salée, puis les écraser grossièrement avec la moitié du beurre.",
+      "Faire fondre les poireaux émincés 10 minutes dans le reste du beurre, ajouter la crème et la moutarde, laisser réduire 2 minutes.",
+      "Porter une casserole d'eau vinaigrée à frémissement, y glisser les œufs un à un et les pocher 3 minutes.",
+      "Dresser l'écrasé, napper de poireaux à la crème et poser l'œuf poché dessus."
+    ],
+    "astuce": "Les pommes de terre ne s'épluchent pas forcément : la peau apporte du goût."
+  },
+  {
+    "titre": "Gnocchis poêlés aux tomates cerises et mozzarella",
+    "categorie": "plat",
+    "temps": 20,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "gnocchi",
+        "nom": "gnocchis",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "tomate_cerise",
+        "nom": "tomates cerises",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "mozzarella",
+        "nom": "mozzarella",
+        "qte": 125,
+        "unite": "g"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousse d'ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "basilic",
+        "nom": "basilic",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Faire dorer les gnocchis crus 6 minutes dans l'huile d'olive, en remuant, jusqu'à ce qu'ils soient croustillants.",
+      "Ajouter les tomates cerises coupées en deux et l'ail haché et cuire 4 minutes jusqu'à ce qu'elles éclatent.",
+      "Ajouter la mozzarella en morceaux, couvrir 2 minutes pour la faire fondre.",
+      "Poivrer et parsemer de basilic."
+    ],
+    "astuce": "Les gnocchis poêlés sans précuisson restent moelleux à l'intérieur."
+  },
+  {
+    "titre": "Gnocchis au beurre de sauge et courge rôtie",
+    "categorie": "plat",
+    "temps": 35,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "gnocchi",
+        "nom": "gnocchis",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "courge",
+        "nom": "courge",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 30,
+        "unite": "g"
+      },
+      {
+        "cle": "herbes",
+        "nom": "sauge fraîche",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "parmesan",
+        "nom": "parmesan",
+        "qte": 30,
+        "unite": "g"
+      },
+      {
+        "cle": "noisette",
+        "nom": "noisettes",
+        "qte": 20,
+        "unite": "g",
+        "optionnel": true
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 200 °C, couper la courge en dés, les mélanger avec l'huile et le sel et les rôtir 25 minutes.",
+      "Cuire les gnocchis dans l'eau bouillante salée ; les égoutter dès qu'ils remontent à la surface.",
+      "Faire mousser le beurre avec les feuilles de sauge jusqu'à ce qu'il devienne noisette.",
+      "Mélanger les gnocchis et la courge dans le beurre, ajouter le parmesan et les noisettes concassées."
+    ],
+    "astuce": "Sans sauge, un peu de thym ou de romarin fait aussi bien."
+  },
+  {
+    "titre": "Gnocchis aux épinards et gorgonzola",
+    "categorie": "plat",
+    "temps": 15,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "gnocchi",
+        "nom": "gnocchis",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "epinard",
+        "nom": "épinards",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "bleu",
+        "nom": "gorgonzola",
+        "qte": 70,
+        "unite": "g"
+      },
+      {
+        "cle": "creme",
+        "nom": "crème",
+        "qte": 10,
+        "unite": "cl"
+      },
+      {
+        "cle": "noix",
+        "nom": "noix",
+        "qte": 20,
+        "unite": "g",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Cuire les gnocchis dans l'eau salée et les égoutter dès qu'ils remontent.",
+      "Faire fondre le gorgonzola dans la crème, ajouter les épinards et les laisser tomber 2 minutes.",
+      "Ajouter les gnocchis, mélanger et poivrer.",
+      "Parsemer de noix concassées."
+    ],
+    "astuce": "Les gnocchis entamés se congèlent crus, étalés sur une plaque, puis en sachet."
+  },
+  {
+    "titre": "Polenta crémeuse aux champignons poêlés",
+    "categorie": "plat",
+    "temps": 25,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "polenta",
+        "nom": "polenta instantanée",
+        "qte": 120,
+        "unite": "g"
+      },
+      {
+        "cle": "champignon",
+        "nom": "champignons",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "lait",
+        "nom": "lait",
+        "qte": 30,
+        "unite": "cl"
+      },
+      {
+        "cle": "eau",
+        "nom": "eau",
+        "qte": 30,
+        "unite": "cl"
+      },
+      {
+        "cle": "parmesan",
+        "nom": "parmesan",
+        "qte": 40,
+        "unite": "g"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousse d'ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 25,
+        "unite": "g"
+      },
+      {
+        "cle": "persil",
+        "nom": "persil",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Porter le lait et l'eau salés à ébullition, verser la polenta en pluie et cuire 5 minutes en remuant.",
+      "Hors du feu, incorporer le parmesan et la moitié du beurre.",
+      "Faire sauter les champignons émincés 6 minutes à feu vif dans le reste du beurre, ajouter l'ail haché et le persil.",
+      "Servir la polenta nappée de champignons."
+    ],
+    "astuce": "La polenta refroidie se coupe en tranches à griller le lendemain."
+  },
+  {
+    "titre": "Poêlée de légumes d'automne et œuf au plat",
+    "categorie": "plat",
+    "temps": 35,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "courge",
+        "nom": "courge",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "chou_bruxelles",
+        "nom": "choux de Bruxelles",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon_rouge",
+        "nom": "oignon rouge",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "herbes_provence",
+        "nom": "thym",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "vinaigre",
+        "nom": "vinaigre balsamique",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Couper la courge en dés et les choux de Bruxelles en deux, émincer l'oignon.",
+      "Faire dorer la courge et les choux 15 minutes dans l'huile, à feu moyen, en couvrant les 8 premières minutes.",
+      "Ajouter l'oignon et le thym et cuire 5 minutes, puis déglacer au vinaigre.",
+      "Cuire les œufs au plat à part et les poser sur la poêlée."
+    ],
+    "astuce": "Les choux de Bruxelles un peu jaunis se rattrapent en retirant les premières feuilles."
+  },
+  {
+    "titre": "Wok de légumes croquants et nouilles au gingembre",
+    "categorie": "plat",
+    "temps": 25,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pates",
+        "nom": "nouilles de blé",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "brocoli",
+        "nom": "brocoli",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "poivron",
+        "nom": "poivron",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "carotte",
+        "nom": "carotte",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "chou",
+        "nom": "chou chinois ou blanc",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "gingembre",
+        "nom": "gingembre",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "ail",
+        "nom": "gousse d'ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "sauce_soja",
+        "nom": "sauce soja",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "huile",
+        "nom": "huile",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "cacahuete",
+        "nom": "cacahuètes",
+        "qte": 20,
+        "unite": "g",
+        "optionnel": true
+      },
+      {
+        "cle": "citron_vert",
+        "nom": "citron vert",
+        "qte": 1,
+        "unite": "pièce",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Cuire les nouilles selon le paquet, les égoutter et les passer sous l'eau froide.",
+      "Couper tous les légumes en fines lanières ou petits bouquets.",
+      "Faire sauter le gingembre et l'ail 30 secondes dans l'huile très chaude, puis ajouter les légumes et sauter 5 minutes à feu vif.",
+      "Ajouter les nouilles et la sauce soja, mélanger 2 minutes.",
+      "Servir avec les cacahuètes concassées et un filet de citron vert."
+    ],
+    "astuce": "Le wok accepte tous les légumes : un excellent vide-frigo de fin de semaine."
+  },
+  {
+    "titre": "Aubergines et courgettes sautées à la tomate, mozzarella et riz",
+    "categorie": "plat",
+    "temps": 35,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "riz",
+        "nom": "riz",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "aubergine",
+        "nom": "aubergine",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "courgette",
+        "nom": "courgette",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "tomate_concassee",
+        "nom": "tomates concassées",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "mozzarella",
+        "nom": "mozzarella",
+        "qte": 125,
+        "unite": "g"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousses d'ail",
+        "qte": 2,
+        "unite": "gousse"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "basilic",
+        "nom": "basilic",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Cuire le riz selon le paquet.",
+      "Couper l'aubergine et la courgette en dés et les faire dorer 10 minutes dans l'huile.",
+      "Ajouter l'ail haché et les tomates, saler et mijoter 10 minutes.",
+      "Ajouter la mozzarella en morceaux, couvrir 2 minutes hors du feu.",
+      "Servir sur le riz avec du basilic."
+    ],
+    "astuce": "La sauce aux légumes se congèle très bien et dépanne pour des pâtes."
+  }
+]

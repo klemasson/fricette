@@ -1,0 +1,2997 @@
+[
+  {
+    "titre": "Pain perdu à la cannelle",
+    "categorie": "dessert",
+    "temps": 20,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pain",
+        "nom": "pain rassis",
+        "qte": 8,
+        "unite": "tranche"
+      },
+      {
+        "cle": "lait",
+        "nom": "lait",
+        "qte": 300,
+        "unite": "ml"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 3,
+        "unite": "pièce"
+      },
+      {
+        "cle": "sucre",
+        "nom": "sucre",
+        "qte": 50,
+        "unite": "g"
+      },
+      {
+        "cle": "cannelle",
+        "nom": "cannelle",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 30,
+        "unite": "g"
+      }
+    ],
+    "etapes": [
+      "Fouetter les œufs avec le lait, la moitié du sucre et la cannelle dans une assiette creuse.",
+      "Tremper chaque tranche de pain quelques secondes de chaque côté, plus longtemps si le pain est très sec.",
+      "Faire fondre le beurre dans une poêle à feu moyen et dorer les tranches 2 à 3 minutes par face.",
+      "Saupoudrer du reste de sucre en fin de cuisson pour caraméliser légèrement, puis servir tiède."
+    ],
+    "astuce": "Plus le pain est dur, meilleur est le pain perdu : il absorbe sans se défaire."
+  },
+  {
+    "titre": "Banana bread aux bananes très mûres",
+    "categorie": "dessert",
+    "temps": 70,
+    "difficulte": "facile",
+    "portions": 8,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "banane",
+        "nom": "bananes bien noires",
+        "qte": 3,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre fondu",
+        "qte": 80,
+        "unite": "g"
+      },
+      {
+        "cle": "sucre",
+        "nom": "sucre roux",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "farine",
+        "nom": "farine",
+        "qte": 220,
+        "unite": "g"
+      },
+      {
+        "cle": "levure",
+        "nom": "levure chimique",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "cannelle",
+        "nom": "cannelle",
+        "qte": 1,
+        "unite": "c. à c.",
+        "optionnel": true
+      },
+      {
+        "cle": "noix",
+        "nom": "cerneaux de noix",
+        "qte": 50,
+        "unite": "g",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 180 °C et beurrer un moule à cake.",
+      "Écraser les bananes à la fourchette, puis ajouter les œufs, le beurre fondu et le sucre.",
+      "Incorporer la farine, la levure et la cannelle sans trop mélanger, puis les noix concassées.",
+      "Verser dans le moule et cuire 50 à 55 minutes : la lame d'un couteau doit ressortir sèche.",
+      "Laisser tiédir 10 minutes avant de démouler."
+    ],
+    "astuce": "Les bananes tachées que personne ne veut plus manger sont justement les plus sucrées : on peut les congeler pelées en attendant de faire le cake."
+  },
+  {
+    "titre": "Crumble aux pommes et flocons d'avoine",
+    "categorie": "dessert",
+    "temps": 45,
+    "difficulte": "facile",
+    "portions": 6,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pomme",
+        "nom": "pommes un peu fripées",
+        "qte": 1,
+        "unite": "kg"
+      },
+      {
+        "cle": "cannelle",
+        "nom": "cannelle",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "farine",
+        "nom": "farine",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "flocon_avoine",
+        "nom": "flocons d'avoine",
+        "qte": 50,
+        "unite": "g"
+      },
+      {
+        "cle": "sucre",
+        "nom": "sucre roux",
+        "qte": 80,
+        "unite": "g"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre froid",
+        "qte": 100,
+        "unite": "g"
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 190 °C.",
+      "Éplucher les pommes, les couper en dés et les étaler dans un plat avec la cannelle.",
+      "Sabler du bout des doigts la farine, les flocons, le sucre et le beurre en dés jusqu'à obtenir de grosses miettes.",
+      "Répartir la pâte à crumble sur les fruits et enfourner 30 à 35 minutes, jusqu'à ce que le dessus soit bien doré."
+    ],
+    "astuce": "Les pommes abîmées font très bien l'affaire : il suffit de retirer les parties meurtries."
+  },
+  {
+    "titre": "Crumble poires et chocolat",
+    "categorie": "dessert",
+    "temps": 45,
+    "difficulte": "facile",
+    "portions": 6,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "poire",
+        "nom": "poires bien mûres",
+        "qte": 5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "chocolat",
+        "nom": "chocolat noir",
+        "qte": 80,
+        "unite": "g"
+      },
+      {
+        "cle": "farine",
+        "nom": "farine",
+        "qte": 120,
+        "unite": "g"
+      },
+      {
+        "cle": "amande",
+        "nom": "poudre d'amande",
+        "qte": 40,
+        "unite": "g"
+      },
+      {
+        "cle": "sucre",
+        "nom": "sucre",
+        "qte": 80,
+        "unite": "g"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre froid",
+        "qte": 100,
+        "unite": "g"
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 180 °C.",
+      "Peler et couper les poires en morceaux, les disposer dans un plat et parsemer de chocolat concassé.",
+      "Mélanger farine, poudre d'amande et sucre, puis ajouter le beurre en dés et sabler du bout des doigts.",
+      "Couvrir les fruits avec le crumble et cuire 30 minutes environ, jusqu'à belle coloration."
+    ],
+    "astuce": "Des poires trop mûres pour être croquées deviennent fondantes et parfumées à la cuisson."
+  },
+  {
+    "titre": "Crumble aux fruits rouges surgelés",
+    "categorie": "dessert",
+    "temps": 40,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "fruits_rouges",
+        "nom": "fruits rouges (frais ou surgelés)",
+        "qte": 500,
+        "unite": "g"
+      },
+      {
+        "cle": "sucre",
+        "nom": "sucre",
+        "qte": 70,
+        "unite": "g"
+      },
+      {
+        "cle": "farine",
+        "nom": "farine",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "noisette",
+        "nom": "poudre de noisette",
+        "qte": 40,
+        "unite": "g"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre froid",
+        "qte": 80,
+        "unite": "g"
+      },
+      {
+        "cle": "yaourt",
+        "nom": "yaourt nature, pour servir",
+        "qte": 1,
+        "unite": "pot",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 190 °C.",
+      "Mettre les fruits rouges dans un plat avec 1 cuillère à soupe de sucre, sans les décongeler.",
+      "Sabler la farine, la poudre de noisette, le reste du sucre et le beurre jusqu'à obtenir une texture de sable grossier.",
+      "Recouvrir les fruits et cuire 25 à 30 minutes ; servir tiède avec une cuillerée de yaourt."
+    ],
+    "astuce": "La pâte à crumble crue se congèle très bien en sachet : de quoi sauver des fruits à la dernière minute."
+  },
+  {
+    "titre": "Compote pommes-poires sans sucre ajouté",
+    "categorie": "dessert",
+    "temps": 30,
+    "difficulte": "facile",
+    "portions": 6,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pomme",
+        "nom": "pommes",
+        "qte": 800,
+        "unite": "g"
+      },
+      {
+        "cle": "poire",
+        "nom": "poires",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "eau",
+        "nom": "eau",
+        "qte": 100,
+        "unite": "ml"
+      },
+      {
+        "cle": "vanille",
+        "nom": "gousse de vanille",
+        "qte": 1,
+        "unite": "pièce",
+        "optionnel": true
+      },
+      {
+        "cle": "citron",
+        "nom": "jus de citron",
+        "qte": 1,
+        "unite": "c. à s."
+      }
+    ],
+    "etapes": [
+      "Éplucher les fruits, retirer les cœurs et les couper en morceaux.",
+      "Les mettre dans une casserole avec l'eau, le jus de citron et la gousse de vanille fendue.",
+      "Couvrir et cuire 20 minutes à feu doux en remuant de temps en temps.",
+      "Retirer la vanille, écraser à la fourchette ou mixer selon la texture souhaitée."
+    ],
+    "astuce": "Se garde 5 jours au frigo dans un bocal fermé, ou se congèle en portions."
+  },
+  {
+    "titre": "Clafoutis aux cerises",
+    "categorie": "dessert",
+    "temps": 50,
+    "difficulte": "facile",
+    "portions": 6,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "cerise",
+        "nom": "cerises",
+        "qte": 500,
+        "unite": "g"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 3,
+        "unite": "pièce"
+      },
+      {
+        "cle": "sucre",
+        "nom": "sucre",
+        "qte": 80,
+        "unite": "g"
+      },
+      {
+        "cle": "farine",
+        "nom": "farine",
+        "qte": 70,
+        "unite": "g"
+      },
+      {
+        "cle": "lait",
+        "nom": "lait",
+        "qte": 300,
+        "unite": "ml"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre pour le plat",
+        "qte": 10,
+        "unite": "g"
+      },
+      {
+        "cle": "vanille",
+        "nom": "sucre vanillé",
+        "qte": 1,
+        "unite": "c. à c.",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 180 °C et beurrer un plat à gratin.",
+      "Laver et équeuter les cerises, puis les répartir dans le plat.",
+      "Fouetter les œufs avec le sucre et la vanille, ajouter la farine puis le lait petit à petit pour éviter les grumeaux.",
+      "Verser l'appareil sur les cerises et cuire 35 minutes, jusqu'à ce que le clafoutis soit doré et pris."
+    ],
+    "astuce": "Hors saison, le même appareil accueille des prunes, des poires ou des abricots trop mûrs."
+  },
+  {
+    "titre": "Clafoutis aux prunes et amandes",
+    "categorie": "dessert",
+    "temps": 50,
+    "difficulte": "facile",
+    "portions": 6,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "prune",
+        "nom": "prunes ou quetsches",
+        "qte": 600,
+        "unite": "g"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 3,
+        "unite": "pièce"
+      },
+      {
+        "cle": "sucre",
+        "nom": "sucre",
+        "qte": 80,
+        "unite": "g"
+      },
+      {
+        "cle": "amande",
+        "nom": "poudre d'amande",
+        "qte": 50,
+        "unite": "g"
+      },
+      {
+        "cle": "farine",
+        "nom": "farine",
+        "qte": 40,
+        "unite": "g"
+      },
+      {
+        "cle": "lait",
+        "nom": "lait",
+        "qte": 250,
+        "unite": "ml"
+      },
+      {
+        "cle": "creme",
+        "nom": "crème",
+        "qte": 100,
+        "unite": "ml"
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 180 °C.",
+      "Couper les prunes en deux, les dénoyauter et les disposer côté peau en dessous dans un plat beurré.",
+      "Fouetter les œufs et le sucre, ajouter la poudre d'amande, la farine, puis le lait et la crème.",
+      "Verser sur les fruits et cuire 35 à 40 minutes. Servir tiède ou froid."
+    ],
+    "astuce": "Les prunes un peu acides gagnent à être saupoudrées d'une cuillère de sucre avant d'ajouter l'appareil."
+  },
+  {
+    "titre": "Gâteau au yaourt de base",
+    "categorie": "dessert",
+    "temps": 50,
+    "difficulte": "facile",
+    "portions": 8,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "yaourt",
+        "nom": "yaourt nature (le pot sert de mesure)",
+        "qte": 1,
+        "unite": "pot"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 3,
+        "unite": "pièce"
+      },
+      {
+        "cle": "sucre",
+        "nom": "sucre (2 pots)",
+        "qte": 2,
+        "unite": "pot"
+      },
+      {
+        "cle": "farine",
+        "nom": "farine (3 pots)",
+        "qte": 3,
+        "unite": "pot"
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre (½ pot)",
+        "qte": 0.5,
+        "unite": "pot"
+      },
+      {
+        "cle": "levure",
+        "nom": "levure chimique",
+        "qte": 2,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "citron",
+        "nom": "zeste de citron",
+        "qte": 1,
+        "unite": "pièce",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 180 °C et huiler un moule rond de 24 cm.",
+      "Verser le yaourt dans un saladier et utiliser le pot vide pour mesurer les autres ingrédients.",
+      "Ajouter les œufs et le sucre, fouetter, puis incorporer la farine, la levure, l'huile et le zeste.",
+      "Verser dans le moule et cuire 35 minutes, jusqu'à ce qu'une lame ressorte sèche."
+    ],
+    "astuce": "Parfait pour finir un yaourt dont la date approche ; on peut ajouter des dés de pomme ou de poire dans la pâte."
+  },
+  {
+    "titre": "Moelleux au chocolat express",
+    "categorie": "dessert",
+    "temps": 35,
+    "difficulte": "facile",
+    "portions": 6,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "chocolat",
+        "nom": "chocolat noir pâtissier",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 120,
+        "unite": "g"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 4,
+        "unite": "pièce"
+      },
+      {
+        "cle": "sucre",
+        "nom": "sucre",
+        "qte": 120,
+        "unite": "g"
+      },
+      {
+        "cle": "farine",
+        "nom": "farine",
+        "qte": 50,
+        "unite": "g"
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 180 °C et beurrer un moule de 22 cm.",
+      "Faire fondre le chocolat et le beurre au bain-marie ou 1 minute au micro-ondes, puis lisser.",
+      "Fouetter les œufs avec le sucre jusqu'à ce que le mélange blanchisse, ajouter le chocolat puis la farine.",
+      "Verser dans le moule et cuire 18 à 20 minutes : le centre doit rester légèrement tremblotant."
+    ],
+    "astuce": "Les restes de tablettes et de chocolats de Noël se recyclent parfaitement ici."
+  },
+  {
+    "titre": "Mousse au chocolat aérienne",
+    "categorie": "dessert",
+    "temps": 20,
+    "difficulte": "moyen",
+    "portions": 6,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "chocolat",
+        "nom": "chocolat noir",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs très frais",
+        "qte": 6,
+        "unite": "pièce"
+      },
+      {
+        "cle": "sucre",
+        "nom": "sucre",
+        "qte": 30,
+        "unite": "g"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": 1,
+        "unite": "pincée"
+      }
+    ],
+    "etapes": [
+      "Faire fondre le chocolat au bain-marie, puis le laisser tiédir quelques minutes.",
+      "Séparer les blancs des jaunes et incorporer les jaunes un par un au chocolat.",
+      "Monter les blancs en neige ferme avec la pincée de sel, en ajoutant le sucre à la fin.",
+      "Incorporer délicatement les blancs au chocolat en trois fois, à la spatule, en soulevant la masse.",
+      "Répartir dans des verrines et réserver au moins 3 heures au réfrigérateur avant de servir."
+    ],
+    "astuce": "Choisir un chocolat sans gluten certifié si nécessaire ; la mousse se garde 2 jours au frais."
+  },
+  {
+    "titre": "Riz au lait vanillé",
+    "categorie": "dessert",
+    "temps": 50,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "riz",
+        "nom": "riz rond",
+        "qte": 120,
+        "unite": "g"
+      },
+      {
+        "cle": "lait",
+        "nom": "lait entier",
+        "qte": 1,
+        "unite": "l"
+      },
+      {
+        "cle": "sucre",
+        "nom": "sucre",
+        "qte": 70,
+        "unite": "g"
+      },
+      {
+        "cle": "vanille",
+        "nom": "gousse de vanille",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "cannelle",
+        "nom": "cannelle",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Rincer le riz puis le blanchir 2 minutes dans de l'eau bouillante, égoutter.",
+      "Porter le lait à frémissement avec la gousse de vanille fendue et grattée.",
+      "Ajouter le riz et cuire 35 à 40 minutes à feu très doux en remuant souvent.",
+      "Hors du feu, ajouter le sucre, retirer la gousse et laisser refroidir ; saupoudrer de cannelle au moment de servir."
+    ],
+    "astuce": "Une bonne façon d'écouler un litre de lait proche de sa date ; le riz au lait épaissit en refroidissant."
+  },
+  {
+    "titre": "Crème dessert au chocolat maison",
+    "categorie": "dessert",
+    "temps": 20,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "lait",
+        "nom": "lait",
+        "qte": 500,
+        "unite": "ml"
+      },
+      {
+        "cle": "chocolat",
+        "nom": "chocolat noir",
+        "qte": 80,
+        "unite": "g"
+      },
+      {
+        "cle": "sucre",
+        "nom": "sucre",
+        "qte": 50,
+        "unite": "g"
+      },
+      {
+        "cle": "farine",
+        "nom": "farine (ou maïzena)",
+        "qte": 30,
+        "unite": "g"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "jaunes d'œufs",
+        "qte": 2,
+        "unite": "pièce"
+      }
+    ],
+    "etapes": [
+      "Fouetter les jaunes avec le sucre et la farine dans un bol.",
+      "Chauffer le lait avec le chocolat en morceaux jusqu'à ce qu'il soit fondu.",
+      "Verser le lait chaud sur les jaunes en fouettant, puis remettre le tout dans la casserole.",
+      "Cuire à feu doux en remuant sans cesse 3 à 4 minutes, jusqu'à épaississement, puis répartir en ramequins et laisser prendre 2 heures au frais."
+    ],
+    "astuce": "Avec de la maïzena à la place de la farine, la crème devient sans gluten ; gardez les blancs pour des meringues."
+  },
+  {
+    "titre": "Tarte fine aux pommes",
+    "categorie": "dessert",
+    "temps": 45,
+    "difficulte": "facile",
+    "portions": 6,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pate_feuilletee",
+        "nom": "pâte feuilletée",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "pomme",
+        "nom": "pommes",
+        "qte": 4,
+        "unite": "pièce"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 30,
+        "unite": "g"
+      },
+      {
+        "cle": "sucre",
+        "nom": "sucre roux",
+        "qte": 40,
+        "unite": "g"
+      },
+      {
+        "cle": "confiture",
+        "nom": "confiture d'abricot",
+        "qte": 2,
+        "unite": "c. à s.",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 200 °C et dérouler la pâte sur une plaque recouverte de papier cuisson.",
+      "Couper les pommes en fines lamelles et les disposer en rosace en les faisant se chevaucher.",
+      "Parsemer de noisettes de beurre et de sucre roux.",
+      "Cuire 25 à 30 minutes, puis badigeonner de confiture tiédie pour faire briller."
+    ],
+    "astuce": "Pas besoin d'éplucher les pommes : la peau apporte de la couleur et évite du gaspillage."
+  },
+  {
+    "titre": "Poires rôties au miel et aux noix",
+    "categorie": "dessert",
+    "temps": 35,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "poire",
+        "nom": "poires",
+        "qte": 4,
+        "unite": "pièce"
+      },
+      {
+        "cle": "miel",
+        "nom": "miel",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 20,
+        "unite": "g"
+      },
+      {
+        "cle": "noix",
+        "nom": "cerneaux de noix",
+        "qte": 40,
+        "unite": "g"
+      },
+      {
+        "cle": "cannelle",
+        "nom": "cannelle",
+        "qte": 0.5,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "yaourt",
+        "nom": "yaourt grec",
+        "qte": 200,
+        "unite": "g",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 190 °C.",
+      "Couper les poires en deux, retirer le cœur et les placer dans un plat, face coupée vers le haut.",
+      "Arroser de miel, parsemer de beurre, de cannelle et de noix concassées.",
+      "Rôtir 25 minutes en arrosant à mi-cuisson avec le jus, puis servir avec le yaourt."
+    ],
+    "astuce": "Fonctionne aussi avec des pommes ou des pêches un peu farineuses."
+  },
+  {
+    "titre": "Tiramisu maison au café",
+    "categorie": "dessert",
+    "temps": 30,
+    "difficulte": "moyen",
+    "portions": 6,
+    "regimes": [
+      "vegetarien",
+      "sans_porc"
+    ],
+    "ingredients": [
+      {
+        "cle": "mascarpone",
+        "nom": "mascarpone",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs très frais",
+        "qte": 3,
+        "unite": "pièce"
+      },
+      {
+        "cle": "sucre",
+        "nom": "sucre",
+        "qte": 70,
+        "unite": "g"
+      },
+      {
+        "cle": "cafe",
+        "nom": "café fort refroidi",
+        "qte": 250,
+        "unite": "ml"
+      },
+      {
+        "cle": "pain_mie",
+        "nom": "biscuits à la cuillère (ou pain de mie rassis)",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "cacao",
+        "nom": "cacao en poudre",
+        "qte": 2,
+        "unite": "c. à s."
+      }
+    ],
+    "etapes": [
+      "Séparer les œufs ; fouetter les jaunes avec le sucre jusqu'à blanchiment, puis ajouter le mascarpone.",
+      "Monter les blancs en neige et les incorporer délicatement à la crème au mascarpone.",
+      "Tremper rapidement les biscuits dans le café additionné d'un trait d'amaretto ou de marsala, et en tapisser le fond d'un plat.",
+      "Alterner couches de crème et de biscuits en terminant par la crème.",
+      "Réserver au moins 6 heures au frais et saupoudrer de cacao juste avant de servir."
+    ],
+    "astuce": "Des fonds de brioche ou de pain de mie rassis remplacent très bien les biscuits ; sans alcool, il suffit de l'omettre."
+  },
+  {
+    "titre": "Panna cotta vanille et coulis de fruits rouges",
+    "categorie": "dessert",
+    "temps": 20,
+    "difficulte": "moyen",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "creme",
+        "nom": "crème entière",
+        "qte": 400,
+        "unite": "ml"
+      },
+      {
+        "cle": "lait",
+        "nom": "lait",
+        "qte": 100,
+        "unite": "ml"
+      },
+      {
+        "cle": "sucre",
+        "nom": "sucre",
+        "qte": 60,
+        "unite": "g"
+      },
+      {
+        "cle": "vanille",
+        "nom": "gousse de vanille",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "gelifiant",
+        "nom": "agar-agar",
+        "qte": 2,
+        "unite": "g"
+      },
+      {
+        "cle": "fruits_rouges",
+        "nom": "fruits rouges",
+        "qte": 200,
+        "unite": "g"
+      }
+    ],
+    "etapes": [
+      "Porter la crème, le lait, 40 g de sucre et la vanille grattée à ébullition avec l'agar-agar, puis laisser bouillir 2 minutes en fouettant.",
+      "Répartir dans 4 verrines et laisser refroidir avant de placer 3 heures au réfrigérateur.",
+      "Cuire les fruits rouges 5 minutes avec le reste du sucre, puis mixer et filtrer si souhaité.",
+      "Napper les panna cotta de coulis froid au moment de servir."
+    ],
+    "astuce": "Bon moyen de finir un fond de crème liquide ; le coulis se fait aussi avec des fraises molles."
+  },
+  {
+    "titre": "Cake aux fruits de fin de corbeille",
+    "categorie": "dessert",
+    "temps": 65,
+    "difficulte": "facile",
+    "portions": 8,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pomme",
+        "nom": "pomme",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "poire",
+        "nom": "poire",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "raisin_sec",
+        "nom": "raisins secs",
+        "qte": 60,
+        "unite": "g"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 3,
+        "unite": "pièce"
+      },
+      {
+        "cle": "sucre",
+        "nom": "sucre",
+        "qte": 120,
+        "unite": "g"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre fondu",
+        "qte": 120,
+        "unite": "g"
+      },
+      {
+        "cle": "farine",
+        "nom": "farine",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "levure",
+        "nom": "levure chimique",
+        "qte": 2,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "orange",
+        "nom": "zeste d'orange",
+        "qte": 1,
+        "unite": "pièce",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 180 °C et chemiser un moule à cake.",
+      "Couper les fruits en petits dés, les mélanger avec les raisins secs et 1 cuillère à soupe de farine.",
+      "Fouetter les œufs et le sucre, ajouter le beurre fondu, puis la farine, la levure et le zeste.",
+      "Incorporer les fruits, verser dans le moule et cuire 45 à 50 minutes."
+    ],
+    "astuce": "Fariner les fruits les empêche de tomber au fond ; tous les fruits un peu tristes de la corbeille conviennent."
+  },
+  {
+    "titre": "Cookies aux pépites de chocolat",
+    "categorie": "dessert",
+    "temps": 30,
+    "difficulte": "facile",
+    "portions": 8,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "beurre",
+        "nom": "beurre mou",
+        "qte": 110,
+        "unite": "g"
+      },
+      {
+        "cle": "sucre",
+        "nom": "sucre roux",
+        "qte": 120,
+        "unite": "g"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œuf",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "farine",
+        "nom": "farine",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "levure",
+        "nom": "levure chimique",
+        "qte": 0.5,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "chocolat",
+        "nom": "chocolat haché ou pépites",
+        "qte": 120,
+        "unite": "g"
+      },
+      {
+        "cle": "sel",
+        "nom": "fleur de sel",
+        "qte": 1,
+        "unite": "pincée"
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 180 °C.",
+      "Crémer le beurre et le sucre, puis ajouter l'œuf.",
+      "Incorporer la farine, la levure et le sel, puis le chocolat concassé.",
+      "Former 16 boules, les espacer sur une plaque et cuire 10 à 12 minutes : les bords doivent être dorés et le centre encore mou."
+    ],
+    "astuce": "Les boules de pâte crue se congèlent : on cuit juste ce qu'il faut, quand il faut."
+  },
+  {
+    "titre": "Muffins aux myrtilles et yaourt",
+    "categorie": "dessert",
+    "temps": 35,
+    "difficulte": "facile",
+    "portions": 6,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "fruits_rouges",
+        "nom": "myrtilles",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "yaourt",
+        "nom": "yaourt nature",
+        "qte": 125,
+        "unite": "g"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 80,
+        "unite": "ml"
+      },
+      {
+        "cle": "sucre",
+        "nom": "sucre",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "farine",
+        "nom": "farine",
+        "qte": 220,
+        "unite": "g"
+      },
+      {
+        "cle": "levure",
+        "nom": "levure chimique",
+        "qte": 2,
+        "unite": "c. à c."
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 190 °C et garnir 12 moules à muffins de caissettes.",
+      "Mélanger d'un côté le yaourt, les œufs, l'huile et le sucre, de l'autre la farine et la levure.",
+      "Réunir les deux mélanges en quelques coups de spatule seulement, puis ajouter les myrtilles.",
+      "Remplir les moules aux trois quarts et cuire 20 minutes."
+    ],
+    "astuce": "Ne pas trop mélanger la pâte : c'est le secret de muffins bien levés et moelleux."
+  },
+  {
+    "titre": "Crêpes au lait",
+    "categorie": "dessert",
+    "temps": 40,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "farine",
+        "nom": "farine",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 3,
+        "unite": "pièce"
+      },
+      {
+        "cle": "lait",
+        "nom": "lait",
+        "qte": 500,
+        "unite": "ml"
+      },
+      {
+        "cle": "sucre",
+        "nom": "sucre",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre fondu",
+        "qte": 30,
+        "unite": "g"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": 1,
+        "unite": "pincée"
+      },
+      {
+        "cle": "confiture",
+        "nom": "confiture, pour garnir",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Mettre la farine, le sucre et le sel dans un saladier, creuser un puits et y casser les œufs.",
+      "Fouetter en versant le lait petit à petit pour obtenir une pâte lisse, puis ajouter le beurre fondu.",
+      "Laisser reposer 15 minutes si possible.",
+      "Cuire les crêpes dans une poêle chaude légèrement graissée, environ 1 minute par face."
+    ],
+    "astuce": "Les crêpes en trop se congèlent séparées par du papier cuisson et se réchauffent en 30 secondes à la poêle."
+  },
+  {
+    "titre": "Salade de fruits à la menthe",
+    "categorie": "dessert",
+    "temps": 15,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "orange",
+        "nom": "oranges",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "pomme",
+        "nom": "pomme",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "kiwi",
+        "nom": "kiwis",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "banane",
+        "nom": "banane",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "citron",
+        "nom": "jus de citron",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "miel",
+        "nom": "sirop d'érable",
+        "qte": 1,
+        "unite": "c. à s.",
+        "optionnel": true
+      },
+      {
+        "cle": "menthe",
+        "nom": "menthe fraîche",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Peler les oranges à vif au-dessus d'un saladier pour récupérer le jus, puis les couper en quartiers.",
+      "Couper la pomme, les kiwis et la banane en morceaux et les ajouter aussitôt.",
+      "Arroser de jus de citron et de sirop d'érable, mélanger délicatement.",
+      "Parsemer de menthe ciselée et servir bien frais."
+    ],
+    "astuce": "Tous les fruits un peu marqués de la corbeille y trouvent leur place une fois les parties abîmées retirées."
+  },
+  {
+    "titre": "Pudding de pain aux raisins",
+    "categorie": "dessert",
+    "temps": 60,
+    "difficulte": "facile",
+    "portions": 6,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pain",
+        "nom": "pain rassis",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "lait",
+        "nom": "lait",
+        "qte": 600,
+        "unite": "ml"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 3,
+        "unite": "pièce"
+      },
+      {
+        "cle": "sucre",
+        "nom": "sucre",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "raisin_sec",
+        "nom": "raisins secs",
+        "qte": 80,
+        "unite": "g"
+      },
+      {
+        "cle": "cannelle",
+        "nom": "cannelle",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 20,
+        "unite": "g"
+      }
+    ],
+    "etapes": [
+      "Couper le pain en morceaux et le laisser tremper 15 minutes dans le lait tiède.",
+      "Préchauffer le four à 180 °C et beurrer un moule.",
+      "Écraser le pain à la fourchette, ajouter les œufs battus, le sucre, la cannelle et les raisins secs.",
+      "Verser dans le moule et cuire 40 minutes, jusqu'à ce que le dessus soit doré et ferme."
+    ],
+    "astuce": "Tous les restes de pain conviennent : baguette, pain complet, croûtes de brioche."
+  },
+  {
+    "titre": "Gâteau aux carottes et noix",
+    "categorie": "dessert",
+    "temps": 60,
+    "difficulte": "facile",
+    "portions": 8,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "carotte",
+        "nom": "carottes râpées",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 3,
+        "unite": "pièce"
+      },
+      {
+        "cle": "sucre",
+        "nom": "sucre roux",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 120,
+        "unite": "ml"
+      },
+      {
+        "cle": "farine",
+        "nom": "farine",
+        "qte": 180,
+        "unite": "g"
+      },
+      {
+        "cle": "levure",
+        "nom": "levure chimique",
+        "qte": 2,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "cannelle",
+        "nom": "cannelle",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "noix",
+        "nom": "noix concassées",
+        "qte": 80,
+        "unite": "g"
+      },
+      {
+        "cle": "fromage_frais",
+        "nom": "fromage frais pour le glaçage",
+        "qte": 150,
+        "unite": "g",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 180 °C et chemiser un moule de 22 cm.",
+      "Fouetter les œufs et le sucre, puis ajouter l'huile.",
+      "Incorporer la farine, la levure et la cannelle, puis les carottes râpées et les noix.",
+      "Cuire 40 minutes, laisser refroidir, puis napper si souhaité de fromage frais sucré d'une cuillère de sucre."
+    ],
+    "astuce": "Les carottes un peu molles du fond du bac à légumes sont parfaites ici, on ne voit pas la différence."
+  },
+  {
+    "titre": "Pommes au four farcies",
+    "categorie": "dessert",
+    "temps": 45,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pomme",
+        "nom": "pommes",
+        "qte": 4,
+        "unite": "pièce"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 30,
+        "unite": "g"
+      },
+      {
+        "cle": "sucre",
+        "nom": "sucre roux",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "raisin_sec",
+        "nom": "raisins secs",
+        "qte": 30,
+        "unite": "g"
+      },
+      {
+        "cle": "noisette",
+        "nom": "noisettes concassées",
+        "qte": 30,
+        "unite": "g"
+      },
+      {
+        "cle": "cannelle",
+        "nom": "cannelle",
+        "qte": 0.5,
+        "unite": "c. à c."
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 180 °C.",
+      "Évider les pommes avec un vide-pomme sans les percer jusqu'en bas.",
+      "Mélanger le beurre mou, le sucre, les raisins, les noisettes et la cannelle, puis farcir les pommes.",
+      "Ajouter un fond d'eau dans le plat et cuire 30 à 35 minutes, jusqu'à ce qu'elles soient tendres."
+    ],
+    "astuce": "Un reste de confiture ou de pâte à tartiner fait aussi une très bonne farce."
+  },
+  {
+    "titre": "Fondant banane-chocolat sans farine",
+    "categorie": "dessert",
+    "temps": 40,
+    "difficulte": "facile",
+    "portions": 6,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "banane",
+        "nom": "bananes très mûres",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "chocolat",
+        "nom": "chocolat noir",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 60,
+        "unite": "g"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 3,
+        "unite": "pièce"
+      },
+      {
+        "cle": "amande",
+        "nom": "poudre d'amande",
+        "qte": 60,
+        "unite": "g"
+      },
+      {
+        "cle": "sucre",
+        "nom": "sucre",
+        "qte": 40,
+        "unite": "g"
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 180 °C et chemiser un moule de 20 cm.",
+      "Faire fondre le chocolat avec le beurre.",
+      "Écraser les bananes, ajouter les œufs et le sucre, puis le chocolat fondu et la poudre d'amande.",
+      "Verser dans le moule et cuire 22 à 25 minutes ; laisser refroidir avant de démouler."
+    ],
+    "astuce": "La banane remplace une partie du sucre : plus elle est noire, plus le gâteau est doux."
+  },
+  {
+    "titre": "Compote d'abricots rôtis",
+    "categorie": "dessert",
+    "temps": 30,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "abricot",
+        "nom": "abricots bien mûrs",
+        "qte": 700,
+        "unite": "g"
+      },
+      {
+        "cle": "miel",
+        "nom": "miel",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "vanille",
+        "nom": "extrait de vanille",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "amande",
+        "nom": "amandes effilées",
+        "qte": 20,
+        "unite": "g",
+        "optionnel": true
+      },
+      {
+        "cle": "fromage_blanc",
+        "nom": "fromage blanc",
+        "qte": 300,
+        "unite": "g",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 200 °C.",
+      "Couper les abricots en deux, les dénoyauter et les étaler dans un plat.",
+      "Arroser de miel et de vanille et rôtir 20 minutes, jusqu'à ce qu'ils s'affaissent.",
+      "Écraser grossièrement à la fourchette et servir tiède sur du fromage blanc, parsemé d'amandes grillées."
+    ],
+    "astuce": "Rôtir plutôt que bouillir concentre le goût des abricots un peu fades ou trop mous."
+  },
+  {
+    "titre": "Mug cake au chocolat",
+    "categorie": "dessert",
+    "temps": 5,
+    "difficulte": "facile",
+    "portions": 1,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "farine",
+        "nom": "farine",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "cacao",
+        "nom": "cacao en poudre",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sucre",
+        "nom": "sucre",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œuf",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "lait",
+        "nom": "lait",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "chocolat",
+        "nom": "carré de chocolat",
+        "qte": 1,
+        "unite": "pièce",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Mélanger farine, cacao et sucre directement dans une grande tasse.",
+      "Ajouter l'œuf, le lait et l'huile et fouetter à la fourchette jusqu'à obtenir une pâte lisse.",
+      "Enfoncer le carré de chocolat au centre.",
+      "Cuire 1 minute 10 à 1 minute 30 au micro-ondes (800 W) et déguster aussitôt."
+    ],
+    "astuce": "Idéal pour finir un fond de lait ou un dernier œuf sans lancer tout un gâteau."
+  },
+  {
+    "titre": "Fraises au yaourt et sablé émietté",
+    "categorie": "dessert",
+    "temps": 15,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "fraise",
+        "nom": "fraises",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "yaourt",
+        "nom": "yaourt grec",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "miel",
+        "nom": "miel",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "pain_mie",
+        "nom": "restes de biscuits ou pain de mie toasté",
+        "qte": 80,
+        "unite": "g"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 15,
+        "unite": "g"
+      },
+      {
+        "cle": "basilic",
+        "nom": "basilic ou menthe",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Couper les fraises en morceaux et les mélanger avec 1 cuillère de miel ; laisser macérer 10 minutes.",
+      "Émietter les biscuits ou le pain et les faire dorer 3 minutes à la poêle avec le beurre et le reste du miel.",
+      "Dans des verres, alterner yaourt, fraises et miettes croustillantes.",
+      "Décorer de quelques feuilles de basilic ciselées et servir aussitôt."
+    ],
+    "astuce": "Les fraises un peu molles sont idéales macérées : elles rendent un jus sirupeux."
+  },
+  {
+    "titre": "Gratin de fruits au sabayon léger",
+    "categorie": "dessert",
+    "temps": 25,
+    "difficulte": "moyen",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "fruits_rouges",
+        "nom": "fruits rouges",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "peche",
+        "nom": "pêches ou nectarines",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "jaunes d'œufs",
+        "qte": 3,
+        "unite": "pièce"
+      },
+      {
+        "cle": "sucre",
+        "nom": "sucre",
+        "qte": 50,
+        "unite": "g"
+      },
+      {
+        "cle": "orange",
+        "nom": "jus d'orange",
+        "qte": 1,
+        "unite": "pièce"
+      }
+    ],
+    "etapes": [
+      "Préchauffer le gril du four à 240 °C.",
+      "Couper les pêches en lamelles et les répartir avec les fruits rouges dans 4 plats à gratin individuels.",
+      "Fouetter les jaunes, le sucre et le jus d'orange au bain-marie 6 à 8 minutes, jusqu'à ce que le mélange soit mousseux et épais.",
+      "Napper les fruits de sabayon et passer 2 à 3 minutes sous le gril, jusqu'à coloration."
+    ],
+    "astuce": "Les blancs restants se gardent 3 jours au frais pour des meringues ou un clafoutis."
+  },
+  {
+    "titre": "Porridge pomme-cannelle",
+    "categorie": "petit-dejeuner",
+    "temps": 10,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "flocon_avoine",
+        "nom": "flocons d'avoine",
+        "qte": 80,
+        "unite": "g"
+      },
+      {
+        "cle": "lait",
+        "nom": "lait",
+        "qte": 400,
+        "unite": "ml"
+      },
+      {
+        "cle": "pomme",
+        "nom": "pomme",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "cannelle",
+        "nom": "cannelle",
+        "qte": 0.5,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "miel",
+        "nom": "miel ou sirop d'érable",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "noix",
+        "nom": "noix concassées",
+        "qte": 20,
+        "unite": "g",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Râper la pomme avec la peau.",
+      "Mettre les flocons, le lait, la pomme râpée et la cannelle dans une casserole.",
+      "Cuire 5 à 6 minutes à feu doux en remuant, jusqu'à consistance crémeuse.",
+      "Servir dans des bols, arroser de miel et parsemer de noix."
+    ],
+    "astuce": "Avec un lait végétal et du sirop d'érable, le porridge devient vegan ; choisir des flocons certifiés pour une version sans gluten."
+  },
+  {
+    "titre": "Pancakes à la banane",
+    "categorie": "petit-dejeuner",
+    "temps": 25,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "banane",
+        "nom": "banane mûre",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "lait",
+        "nom": "lait",
+        "qte": 250,
+        "unite": "ml"
+      },
+      {
+        "cle": "farine",
+        "nom": "farine",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "levure",
+        "nom": "levure chimique",
+        "qte": 2,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "sucre",
+        "nom": "sucre",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre pour la poêle",
+        "qte": 10,
+        "unite": "g"
+      },
+      {
+        "cle": "miel",
+        "nom": "sirop d'érable",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Écraser la banane en purée, puis ajouter les œufs et le lait.",
+      "Incorporer la farine, la levure et le sucre sans trop fouetter : quelques grumeaux ne gênent pas.",
+      "Chauffer une poêle légèrement beurrée à feu moyen et y verser des petites louches de pâte.",
+      "Retourner quand des bulles apparaissent à la surface, après 2 minutes environ, et cuire encore 1 minute.",
+      "Servir avec du sirop d'érable et des fruits frais."
+    ],
+    "astuce": "Une demi-banane trop mûre oubliée sur le comptoir suffit à parfumer toute la pâte."
+  },
+  {
+    "titre": "Overnight oats aux fruits rouges",
+    "categorie": "petit-dejeuner",
+    "temps": 5,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "flocon_avoine",
+        "nom": "flocons d'avoine",
+        "qte": 80,
+        "unite": "g"
+      },
+      {
+        "cle": "yaourt",
+        "nom": "yaourt nature",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "lait",
+        "nom": "lait",
+        "qte": 150,
+        "unite": "ml"
+      },
+      {
+        "cle": "graine",
+        "nom": "graines de chia",
+        "qte": 1,
+        "unite": "c. à s.",
+        "optionnel": true
+      },
+      {
+        "cle": "fruits_rouges",
+        "nom": "fruits rouges",
+        "qte": 120,
+        "unite": "g"
+      },
+      {
+        "cle": "miel",
+        "nom": "miel",
+        "qte": 1,
+        "unite": "c. à s."
+      }
+    ],
+    "etapes": [
+      "Mélanger les flocons, le yaourt, le lait, les graines de chia et le miel dans deux bocaux.",
+      "Ajouter les fruits rouges par-dessus, fermer et placer une nuit au réfrigérateur.",
+      "Le matin, remuer, ajouter un peu de lait si c'est trop épais et déguster froid."
+    ],
+    "astuce": "Se prépare jusqu'à 2 jours à l'avance : pratique pour écouler yaourts et fruits avant qu'ils ne tournent."
+  },
+  {
+    "titre": "Granola maison miel et noisettes",
+    "categorie": "petit-dejeuner",
+    "temps": 35,
+    "difficulte": "facile",
+    "portions": 8,
+    "regimes": [
+      "vegetarien",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "flocon_avoine",
+        "nom": "flocons d'avoine",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "noisette",
+        "nom": "noisettes concassées",
+        "qte": 80,
+        "unite": "g"
+      },
+      {
+        "cle": "graine",
+        "nom": "graines de tournesol ou de courge",
+        "qte": 50,
+        "unite": "g"
+      },
+      {
+        "cle": "miel",
+        "nom": "miel",
+        "qte": 4,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "cannelle",
+        "nom": "cannelle",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "raisin_sec",
+        "nom": "raisins secs",
+        "qte": 60,
+        "unite": "g",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 160 °C.",
+      "Mélanger flocons, noisettes, graines et cannelle, puis ajouter le miel et l'huile tiédis et bien enrober.",
+      "Étaler sur une plaque recouverte de papier cuisson et cuire 25 minutes en remuant toutes les 8 minutes.",
+      "Laisser refroidir complètement à plat, ajouter les raisins secs et conserver en bocal hermétique."
+    ],
+    "astuce": "Se garde 3 semaines en bocal ; un bon moyen de finir les fonds de sachets de fruits secs et de graines."
+  },
+  {
+    "titre": "Smoothie bowl banane et fruits rouges",
+    "categorie": "petit-dejeuner",
+    "temps": 10,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "banane",
+        "nom": "bananes congelées en rondelles",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "fruits_rouges",
+        "nom": "fruits rouges surgelés",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "yaourt",
+        "nom": "yaourt nature",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "kiwi",
+        "nom": "kiwi",
+        "qte": 1,
+        "unite": "pièce",
+        "optionnel": true
+      },
+      {
+        "cle": "graine",
+        "nom": "graines",
+        "qte": 1,
+        "unite": "c. à s.",
+        "optionnel": true
+      },
+      {
+        "cle": "noix_coco",
+        "nom": "noix de coco râpée",
+        "qte": 1,
+        "unite": "c. à s.",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Mixer les bananes congelées, les fruits rouges et le yaourt jusqu'à obtenir une texture épaisse de glace.",
+      "Répartir dans deux bols.",
+      "Garnir de rondelles de kiwi, de graines et de coco râpée, puis déguster aussitôt."
+    ],
+    "astuce": "Congeler les bananes trop mûres en rondelles : c'est la base parfaite des smoothie bowls."
+  },
+  {
+    "titre": "Œufs au plat sur toast",
+    "categorie": "petit-dejeuner",
+    "temps": 10,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 4,
+        "unite": "pièce"
+      },
+      {
+        "cle": "pain",
+        "nom": "pain de campagne",
+        "qte": 4,
+        "unite": "tranche"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 15,
+        "unite": "g"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel, poivre",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "ciboulette",
+        "nom": "ciboulette",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "tomate",
+        "nom": "tomate en tranches",
+        "qte": 1,
+        "unite": "pièce",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Griller les tranches de pain au grille-pain ou à la poêle.",
+      "Faire fondre le beurre dans une poêle à feu moyen et y casser les œufs.",
+      "Cuire 3 à 4 minutes, jusqu'à ce que le blanc soit pris et le jaune encore coulant.",
+      "Déposer les œufs sur les toasts, saler, poivrer et parsemer de ciboulette."
+    ],
+    "astuce": "Un pain de 2 ou 3 jours redevient croustillant une fois grillé."
+  },
+  {
+    "titre": "Tartines ricotta, miel et figues",
+    "categorie": "petit-dejeuner",
+    "temps": 10,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pain",
+        "nom": "pain au levain",
+        "qte": 4,
+        "unite": "tranche"
+      },
+      {
+        "cle": "ricotta",
+        "nom": "ricotta ou sérac",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "figue",
+        "nom": "figues",
+        "qte": 3,
+        "unite": "pièce"
+      },
+      {
+        "cle": "miel",
+        "nom": "miel",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "noix",
+        "nom": "cerneaux de noix",
+        "qte": 20,
+        "unite": "g",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Toaster les tranches de pain.",
+      "Les tartiner généreusement de ricotta.",
+      "Couper les figues en quartiers et les déposer dessus.",
+      "Arroser de miel et parsemer de noix concassées."
+    ],
+    "astuce": "Hors saison des figues, des lamelles de poire ou de pomme font tout aussi bien l'affaire."
+  },
+  {
+    "titre": "Bircher muesli maison",
+    "categorie": "petit-dejeuner",
+    "temps": 15,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "flocon_avoine",
+        "nom": "flocons d'avoine",
+        "qte": 120,
+        "unite": "g"
+      },
+      {
+        "cle": "lait",
+        "nom": "lait",
+        "qte": 200,
+        "unite": "ml"
+      },
+      {
+        "cle": "yaourt",
+        "nom": "yaourt nature",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "pomme",
+        "nom": "pommes",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "citron",
+        "nom": "jus de citron",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "noisette",
+        "nom": "noisettes concassées",
+        "qte": 40,
+        "unite": "g"
+      },
+      {
+        "cle": "miel",
+        "nom": "miel",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "fruits_rouges",
+        "nom": "petits fruits de saison",
+        "qte": 100,
+        "unite": "g",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Faire tremper les flocons dans le lait au moins 1 heure, ou toute la nuit au frais.",
+      "Râper les pommes avec la peau et les arroser aussitôt de jus de citron.",
+      "Mélanger flocons, yaourt, pommes râpées, miel et noisettes.",
+      "Servir frais, garni de petits fruits."
+    ],
+    "astuce": "Se garde 2 jours au frigo ; les pommes un peu farineuses y passent inaperçues une fois râpées."
+  },
+  {
+    "titre": "French toast à la poêle et fruits poêlés",
+    "categorie": "petit-dejeuner",
+    "temps": 20,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pain_mie",
+        "nom": "pain de mie ou brioche rassis",
+        "qte": 4,
+        "unite": "tranche"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "lait",
+        "nom": "lait",
+        "qte": 120,
+        "unite": "ml"
+      },
+      {
+        "cle": "vanille",
+        "nom": "extrait de vanille",
+        "qte": 0.5,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 20,
+        "unite": "g"
+      },
+      {
+        "cle": "banane",
+        "nom": "banane",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "miel",
+        "nom": "sirop d'érable",
+        "qte": 2,
+        "unite": "c. à s."
+      }
+    ],
+    "etapes": [
+      "Battre les œufs avec le lait et la vanille dans une assiette creuse.",
+      "Tremper les tranches 10 secondes de chaque côté.",
+      "Les dorer 2 minutes par face dans la moitié du beurre, puis réserver au chaud.",
+      "Dans la même poêle, faire revenir la banane en rondelles 2 minutes avec le reste du beurre et le sirop d'érable, puis la verser sur les toasts."
+    ],
+    "astuce": "Version petit-déj du pain perdu, idéale pour les fins de paquets de pain de mie."
+  },
+  {
+    "titre": "Œufs brouillés crémeux sur pain grillé",
+    "categorie": "petit-dejeuner",
+    "temps": 10,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 4,
+        "unite": "pièce"
+      },
+      {
+        "cle": "creme",
+        "nom": "crème",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 15,
+        "unite": "g"
+      },
+      {
+        "cle": "pain",
+        "nom": "pain",
+        "qte": 2,
+        "unite": "tranche"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel, poivre",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "ciboulette",
+        "nom": "ciboulette",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Battre les œufs avec une pincée de sel.",
+      "Faire fondre le beurre à feu doux, verser les œufs et remuer sans cesse à la spatule pendant 3 à 4 minutes.",
+      "Retirer du feu quand ils sont encore un peu baveux et ajouter la crème.",
+      "Servir aussitôt sur le pain grillé, poivrer et parsemer de ciboulette."
+    ],
+    "astuce": "Une cuillère de fromage frais ou un reste de fromage râpé remplace bien la crème."
+  },
+  {
+    "titre": "Porridge chocolat-banane vegan",
+    "categorie": "petit-dejeuner",
+    "temps": 10,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "flocon_avoine",
+        "nom": "flocons d'avoine",
+        "qte": 80,
+        "unite": "g"
+      },
+      {
+        "cle": "lait_vegetal",
+        "nom": "lait d'avoine",
+        "qte": 400,
+        "unite": "ml"
+      },
+      {
+        "cle": "banane",
+        "nom": "banane mûre",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "cacao",
+        "nom": "cacao en poudre",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "cacahuete",
+        "nom": "beurre de cacahuète",
+        "qte": 1,
+        "unite": "c. à s.",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Écraser la moitié de la banane et couper l'autre en rondelles.",
+      "Cuire les flocons dans le lait végétal avec la banane écrasée et le cacao 5 minutes en remuant.",
+      "Servir garni des rondelles de banane et d'une cuillère de beurre de cacahuète."
+    ],
+    "astuce": "La banane mûre sucre naturellement le porridge : pas besoin d'ajouter de sucre."
+  },
+  {
+    "titre": "Tartine avocat et œuf mollet",
+    "categorie": "petit-dejeuner",
+    "temps": 15,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pain",
+        "nom": "pain complet",
+        "qte": 2,
+        "unite": "tranche"
+      },
+      {
+        "cle": "avocat",
+        "nom": "avocat bien mûr",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "citron",
+        "nom": "jus de citron",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel, poivre",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "piment_poudre",
+        "nom": "piment",
+        "qte": 1,
+        "unite": "pincée",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Plonger les œufs dans l'eau bouillante 6 minutes, puis les passer sous l'eau froide et les écaler.",
+      "Écraser l'avocat avec le jus de citron, saler et poivrer.",
+      "Griller le pain et le tartiner d'avocat.",
+      "Couper les œufs en deux sur les tartines et ajouter une pincée de piment."
+    ],
+    "astuce": "Un avocat trop mûr pour une salade est parfait écrasé sur une tartine."
+  },
+  {
+    "titre": "Barres de céréales aux fruits secs",
+    "categorie": "gouter",
+    "temps": 35,
+    "difficulte": "facile",
+    "portions": 8,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "flocon_avoine",
+        "nom": "flocons d'avoine",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "miel",
+        "nom": "miel",
+        "qte": 4,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 50,
+        "unite": "g"
+      },
+      {
+        "cle": "amande",
+        "nom": "amandes concassées",
+        "qte": 60,
+        "unite": "g"
+      },
+      {
+        "cle": "raisin_sec",
+        "nom": "raisins secs ou abricots secs",
+        "qte": 60,
+        "unite": "g"
+      },
+      {
+        "cle": "graine",
+        "nom": "graines",
+        "qte": 30,
+        "unite": "g",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 170 °C et chemiser un moule carré de 20 cm.",
+      "Faire fondre le beurre avec le miel.",
+      "Mélanger avec les flocons, les amandes, les fruits secs et les graines.",
+      "Tasser fermement dans le moule et cuire 20 minutes ; découper en barres seulement une fois complètement refroidi."
+    ],
+    "astuce": "Bien tasser la préparation avec le dos d'une cuillère pour que les barres se tiennent."
+  },
+  {
+    "titre": "Smoothie banane, yaourt et avoine",
+    "categorie": "gouter",
+    "temps": 5,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "banane",
+        "nom": "banane mûre",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "yaourt",
+        "nom": "yaourt nature",
+        "qte": 125,
+        "unite": "g"
+      },
+      {
+        "cle": "lait",
+        "nom": "lait",
+        "qte": 250,
+        "unite": "ml"
+      },
+      {
+        "cle": "flocon_avoine",
+        "nom": "flocons d'avoine",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "miel",
+        "nom": "miel",
+        "qte": 1,
+        "unite": "c. à c.",
+        "optionnel": true
+      },
+      {
+        "cle": "cannelle",
+        "nom": "cannelle",
+        "qte": 1,
+        "unite": "pincée",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Mettre tous les ingrédients dans le blender.",
+      "Mixer 1 minute jusqu'à obtenir une boisson lisse et onctueuse.",
+      "Servir aussitôt, éventuellement avec un glaçon."
+    ],
+    "astuce": "Les flocons rendent le smoothie plus rassasiant pour tenir jusqu'au repas du soir."
+  },
+  {
+    "titre": "Smoothie vert kiwi-pomme-épinards",
+    "categorie": "gouter",
+    "temps": 5,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "kiwi",
+        "nom": "kiwis",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "pomme",
+        "nom": "pomme",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "epinard",
+        "nom": "pousses d'épinards",
+        "qte": 40,
+        "unite": "g"
+      },
+      {
+        "cle": "banane",
+        "nom": "banane",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "eau",
+        "nom": "eau froide",
+        "qte": 200,
+        "unite": "ml"
+      },
+      {
+        "cle": "citron",
+        "nom": "jus de citron",
+        "qte": 1,
+        "unite": "c. à c."
+      }
+    ],
+    "etapes": [
+      "Peler les kiwis et la banane, couper la pomme en morceaux sans l'éplucher.",
+      "Mixer tous les ingrédients jusqu'à ce que le smoothie soit bien lisse.",
+      "Rallonger d'un peu d'eau si besoin et servir frais."
+    ],
+    "astuce": "Les fonds de sachets d'épinards un peu flétris disparaissent sans trace dans ce smoothie."
+  },
+  {
+    "titre": "Compote de pommes au four à la vanille",
+    "categorie": "gouter",
+    "temps": 40,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pomme",
+        "nom": "pommes",
+        "qte": 1,
+        "unite": "kg"
+      },
+      {
+        "cle": "sucre",
+        "nom": "sucre roux",
+        "qte": 2,
+        "unite": "c. à s.",
+        "optionnel": true
+      },
+      {
+        "cle": "vanille",
+        "nom": "gousse de vanille",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "eau",
+        "nom": "eau",
+        "qte": 50,
+        "unite": "ml"
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 180 °C.",
+      "Couper les pommes en quartiers en retirant le cœur, sans les éplucher, et les mettre dans un plat avec l'eau, le sucre et la vanille fendue.",
+      "Couvrir de papier aluminium et cuire 30 minutes, jusqu'à ce qu'elles soient très tendres.",
+      "Mixer ou passer au moulin à légumes pour retirer les peaux, puis laisser refroidir."
+    ],
+    "astuce": "La cuisson au four caramélise légèrement les pommes et donne une compote plus parfumée."
+  },
+  {
+    "titre": "Cake marbré au yaourt",
+    "categorie": "gouter",
+    "temps": 60,
+    "difficulte": "facile",
+    "portions": 8,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "yaourt",
+        "nom": "yaourt nature",
+        "qte": 125,
+        "unite": "g"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 3,
+        "unite": "pièce"
+      },
+      {
+        "cle": "sucre",
+        "nom": "sucre",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 80,
+        "unite": "ml"
+      },
+      {
+        "cle": "farine",
+        "nom": "farine",
+        "qte": 220,
+        "unite": "g"
+      },
+      {
+        "cle": "levure",
+        "nom": "levure chimique",
+        "qte": 2,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "cacao",
+        "nom": "cacao en poudre",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "vanille",
+        "nom": "extrait de vanille",
+        "qte": 1,
+        "unite": "c. à c."
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 180 °C et chemiser un moule à cake.",
+      "Fouetter les œufs et le sucre, ajouter le yaourt, l'huile et la vanille, puis la farine et la levure.",
+      "Séparer la pâte en deux et ajouter le cacao dans une moitié.",
+      "Verser les deux pâtes en alternance dans le moule et tracer quelques zigzags avec un couteau.",
+      "Cuire 45 minutes, jusqu'à ce qu'une lame ressorte sèche."
+    ],
+    "astuce": "Bien emballé, ce cake reste moelleux 4 jours et se tranche facilement pour les boîtes à goûter."
+  },
+  {
+    "titre": "Energy balls dattes-cacao",
+    "categorie": "gouter",
+    "temps": 15,
+    "difficulte": "facile",
+    "portions": 6,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "raisin_sec",
+        "nom": "dattes ou raisins secs",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "amande",
+        "nom": "amandes",
+        "qte": 80,
+        "unite": "g"
+      },
+      {
+        "cle": "flocon_avoine",
+        "nom": "flocons d'avoine",
+        "qte": 50,
+        "unite": "g"
+      },
+      {
+        "cle": "cacao",
+        "nom": "cacao en poudre",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "noix_coco",
+        "nom": "noix de coco râpée",
+        "qte": 30,
+        "unite": "g"
+      }
+    ],
+    "etapes": [
+      "Faire tremper les fruits secs 10 minutes dans de l'eau chaude s'ils sont durs, puis les égoutter.",
+      "Mixer les amandes et les flocons en poudre grossière, puis ajouter les fruits secs et le cacao et mixer jusqu'à ce que la pâte forme une boule.",
+      "Former des boules de la taille d'une noix et les rouler dans la noix de coco.",
+      "Réserver 30 minutes au frais avant de déguster."
+    ],
+    "astuce": "Se gardent une semaine au frigo dans une boîte : utilisez les fonds de sachets de fruits secs."
+  },
+  {
+    "titre": "Muffins pomme et flocons d'avoine",
+    "categorie": "gouter",
+    "temps": 35,
+    "difficulte": "facile",
+    "portions": 6,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pomme",
+        "nom": "pommes",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "flocon_avoine",
+        "nom": "flocons d'avoine",
+        "qte": 80,
+        "unite": "g"
+      },
+      {
+        "cle": "farine",
+        "nom": "farine",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "levure",
+        "nom": "levure chimique",
+        "qte": 2,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "lait",
+        "nom": "lait",
+        "qte": 150,
+        "unite": "ml"
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 60,
+        "unite": "ml"
+      },
+      {
+        "cle": "sucre",
+        "nom": "sucre roux",
+        "qte": 80,
+        "unite": "g"
+      },
+      {
+        "cle": "cannelle",
+        "nom": "cannelle",
+        "qte": 1,
+        "unite": "c. à c."
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 180 °C et préparer 12 caissettes à muffins.",
+      "Râper une pomme et couper l'autre en petits dés.",
+      "Mélanger œufs, lait, huile et sucre, puis ajouter farine, flocons, levure et cannelle.",
+      "Incorporer les pommes, remplir les caissettes et cuire 20 à 22 minutes."
+    ],
+    "astuce": "Les pommes farineuses dont personne ne veut gardent ici tout leur moelleux."
+  },
+  {
+    "titre": "Galettes de flocons à la banane",
+    "categorie": "gouter",
+    "temps": 25,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "banane",
+        "nom": "bananes très mûres",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "flocon_avoine",
+        "nom": "flocons d'avoine",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "chocolat",
+        "nom": "pépites de chocolat noir",
+        "qte": 40,
+        "unite": "g",
+        "optionnel": true
+      },
+      {
+        "cle": "cannelle",
+        "nom": "cannelle",
+        "qte": 0.5,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "noix",
+        "nom": "noix concassées",
+        "qte": 30,
+        "unite": "g",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 180 °C.",
+      "Écraser les bananes en purée et y mélanger les flocons, la cannelle, les pépites et les noix.",
+      "Déposer des petits tas sur une plaque recouverte de papier cuisson et les aplatir légèrement.",
+      "Cuire 15 minutes, jusqu'à ce que les galettes soient dorées sur les bords, puis laisser refroidir sur la plaque."
+    ],
+    "astuce": "Deux ingrédients de base suffisent : la recette idéale pour sauver des bananes noircies. Vérifier que le chocolat est sans lait pour la version vegan."
+  }
+]

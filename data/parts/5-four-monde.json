@@ -1,0 +1,4000 @@
+[
+  {
+    "titre": "Gratin dauphinois du dimanche",
+    "categorie": "plat",
+    "temps": 90,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pomme_de_terre",
+        "nom": "pommes de terre à chair farineuse",
+        "qte": 1,
+        "unite": "kg"
+      },
+      {
+        "cle": "lait",
+        "nom": "lait entier",
+        "qte": 40,
+        "unite": "cl"
+      },
+      {
+        "cle": "creme",
+        "nom": "crème entière",
+        "qte": 20,
+        "unite": "cl"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousse d'ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 15,
+        "unite": "g"
+      },
+      {
+        "cle": "muscade",
+        "nom": "noix de muscade",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 160 °C et frotter un plat à gratin avec la gousse d'ail coupée, puis le beurrer.",
+      "Éplucher les pommes de terre et les couper en rondelles de 3 mm sans les rincer.",
+      "Porter le lait et la crème à frémissement avec le sel, le poivre et une pincée de muscade, ajouter les pommes de terre et cuire 10 minutes en remuant doucement.",
+      "Verser le tout dans le plat en tassant légèrement les rondelles.",
+      "Enfourner 1 heure, jusqu'à ce que le dessus soit doré et que la pointe d'un couteau s'enfonce sans résistance."
+    ],
+    "astuce": "L'amidon des pommes de terre non rincées fait épaissir la crème : pas besoin de fromage pour un gratin fondant."
+  },
+  {
+    "titre": "Gratin de courgettes à la feta",
+    "categorie": "plat",
+    "temps": 50,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "courgette",
+        "nom": "courgettes",
+        "qte": 800,
+        "unite": "g"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 3,
+        "unite": "pièce"
+      },
+      {
+        "cle": "creme",
+        "nom": "crème à cuisiner",
+        "qte": 15,
+        "unite": "cl"
+      },
+      {
+        "cle": "feta",
+        "nom": "feta",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousse d'ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "herbes_provence",
+        "nom": "thym",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "menthe",
+        "nom": "menthe fraîche",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 190 °C.",
+      "Couper les courgettes en demi-rondelles et les faire revenir 8 minutes à l'huile d'olive avec l'ail haché et le thym, jusqu'à ce qu'elles rendent leur eau.",
+      "Égoutter les courgettes et les étaler dans un plat à gratin.",
+      "Battre les œufs avec la crème, poivrer légèrement et verser sur les légumes, puis émietter la feta par-dessus.",
+      "Cuire 25 minutes, jusqu'à ce que l'appareil soit pris et doré, et parsemer de menthe ciselée avant de servir."
+    ],
+    "astuce": "La feta est déjà salée : goûter avant d'ajouter du sel. Parfait pour écouler les grosses courgettes de fin d'été."
+  },
+  {
+    "titre": "Gratin de chou-fleur à la béchamel",
+    "categorie": "plat",
+    "temps": 50,
+    "difficulte": "moyen",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "chou_fleur",
+        "nom": "chou-fleur",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 40,
+        "unite": "g"
+      },
+      {
+        "cle": "farine",
+        "nom": "farine",
+        "qte": 40,
+        "unite": "g"
+      },
+      {
+        "cle": "lait",
+        "nom": "lait",
+        "qte": 50,
+        "unite": "cl"
+      },
+      {
+        "cle": "gruyere",
+        "nom": "gruyère râpé",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "muscade",
+        "nom": "muscade",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 200 °C. Détailler le chou-fleur en bouquets et les cuire 8 minutes à l'eau bouillante salée, puis bien les égoutter.",
+      "Faire fondre le beurre dans une casserole, ajouter la farine et remuer 1 minute.",
+      "Verser le lait froid en fouettant et laisser épaissir 5 minutes à feu doux ; saler, poivrer, râper un peu de muscade et incorporer la moitié du gruyère.",
+      "Disposer le chou-fleur dans un plat, napper de béchamel et couvrir du reste de fromage.",
+      "Gratiner 20 minutes, jusqu'à ce que le dessus soit bien doré."
+    ],
+    "astuce": "Les tiges et feuilles tendres du chou-fleur se gratinent aussi : les couper finement et les ajouter aux bouquets."
+  },
+  {
+    "titre": "Gratin de pâtes au jambon",
+    "categorie": "plat",
+    "temps": 35,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pates",
+        "nom": "coquillettes ou macaronis",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "jambon",
+        "nom": "jambon blanc",
+        "qte": 3,
+        "unite": "tranche"
+      },
+      {
+        "cle": "creme",
+        "nom": "crème",
+        "qte": 15,
+        "unite": "cl"
+      },
+      {
+        "cle": "lait",
+        "nom": "lait",
+        "qte": 10,
+        "unite": "cl"
+      },
+      {
+        "cle": "emmental",
+        "nom": "emmental râpé",
+        "qte": 80,
+        "unite": "g"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œuf",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 200 °C et cuire les pâtes 2 minutes de moins que le temps indiqué.",
+      "Couper le jambon en lanières. Mélanger la crème, le lait et l'œuf, saler et poivrer.",
+      "Mélanger les pâtes égouttées, le jambon et la moitié de l'emmental dans un plat beurré.",
+      "Verser l'appareil crème-œuf, couvrir du reste de fromage et enfourner 15 minutes jusqu'à ce que ce soit doré."
+    ],
+    "astuce": "Idéal pour finir un reste de pâtes déjà cuites : sauter alors la première étape."
+  },
+  {
+    "titre": "Endives au jambon gratinées",
+    "categorie": "plat",
+    "temps": 60,
+    "difficulte": "moyen",
+    "portions": 4,
+    "regimes": [
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "endive",
+        "nom": "endives",
+        "qte": 8,
+        "unite": "pièce"
+      },
+      {
+        "cle": "jambon",
+        "nom": "jambon blanc",
+        "qte": 8,
+        "unite": "tranche"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 40,
+        "unite": "g"
+      },
+      {
+        "cle": "farine",
+        "nom": "farine",
+        "qte": 40,
+        "unite": "g"
+      },
+      {
+        "cle": "lait",
+        "nom": "lait",
+        "qte": 50,
+        "unite": "cl"
+      },
+      {
+        "cle": "gruyere",
+        "nom": "gruyère râpé",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "citron",
+        "nom": "jus de citron",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "muscade",
+        "nom": "muscade",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Retirer le cône amer à la base des endives et les cuire 20 minutes à couvert dans une poêle avec une noisette de beurre, le jus de citron et un fond d'eau.",
+      "Les presser délicatement entre deux assiettes pour retirer un maximum d'eau.",
+      "Préparer une béchamel avec le reste du beurre, la farine et le lait ; assaisonner de sel, poivre et muscade.",
+      "Préchauffer le four à 200 °C. Rouler chaque endive dans une tranche de jambon et les ranger dans un plat.",
+      "Napper de béchamel, parsemer de gruyère et gratiner 25 minutes."
+    ],
+    "astuce": "Bien égoutter les endives évite un gratin qui « nage » : c'est le secret d'une sauce bien nappante."
+  },
+  {
+    "titre": "Quiche lorraine maison",
+    "categorie": "plat",
+    "temps": 55,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pate_brisee",
+        "nom": "pâte brisée",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "lardons",
+        "nom": "lardons fumés",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 3,
+        "unite": "pièce"
+      },
+      {
+        "cle": "creme",
+        "nom": "crème entière",
+        "qte": 20,
+        "unite": "cl"
+      },
+      {
+        "cle": "lait",
+        "nom": "lait",
+        "qte": 10,
+        "unite": "cl"
+      },
+      {
+        "cle": "muscade",
+        "nom": "muscade",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 200 °C et foncer un moule à tarte avec la pâte, puis piquer le fond à la fourchette.",
+      "Faire dorer les lardons à sec 5 minutes et les égoutter sur du papier absorbant.",
+      "Battre les œufs avec la crème et le lait, poivrer et ajouter un peu de muscade (peu de sel, les lardons le sont déjà).",
+      "Répartir les lardons sur la pâte, verser l'appareil et enfourner 35 minutes, jusqu'à ce que la quiche soit gonflée et dorée."
+    ],
+    "astuce": "Se garde 3 jours au frigo et se réchauffe 10 minutes à 180 °C pour retrouver une pâte croustillante."
+  },
+  {
+    "titre": "Quiche poireaux et chèvre",
+    "categorie": "plat",
+    "temps": 60,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pate_brisee",
+        "nom": "pâte brisée",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "poireau",
+        "nom": "poireaux",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "chevre",
+        "nom": "bûche de chèvre",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 3,
+        "unite": "pièce"
+      },
+      {
+        "cle": "creme",
+        "nom": "crème",
+        "qte": 20,
+        "unite": "cl"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 20,
+        "unite": "g"
+      },
+      {
+        "cle": "noix",
+        "nom": "cerneaux de noix",
+        "qte": 30,
+        "unite": "g",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 190 °C et foncer un moule avec la pâte.",
+      "Émincer finement les poireaux et les faire fondre 15 minutes au beurre à feu doux, avec une pincée de sel.",
+      "Battre les œufs avec la crème, saler et poivrer, puis ajouter les poireaux.",
+      "Verser sur la pâte, disposer les rondelles de chèvre et les noix concassées.",
+      "Cuire 35 minutes, jusqu'à ce que le dessus soit doré."
+    ],
+    "astuce": "Le vert des poireaux convient très bien ici, il suffit de l'émincer plus finement et de le cuire 5 minutes de plus."
+  },
+  {
+    "titre": "Tarte fine tomates, moutarde et mozzarella",
+    "categorie": "plat",
+    "temps": 40,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pate_feuilletee",
+        "nom": "pâte feuilletée",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "tomate",
+        "nom": "tomates",
+        "qte": 4,
+        "unite": "pièce"
+      },
+      {
+        "cle": "moutarde",
+        "nom": "moutarde forte",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "mozzarella",
+        "nom": "mozzarella",
+        "qte": 125,
+        "unite": "g"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "herbes_provence",
+        "nom": "herbes de Provence",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "basilic",
+        "nom": "basilic",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 200 °C et dérouler la pâte sur une plaque recouverte de papier cuisson.",
+      "Étaler la moutarde sur la pâte en laissant un bord de 2 cm.",
+      "Couper les tomates en rondelles, les égoutter quelques minutes sur du papier absorbant puis les disposer en rosace avec des tranches de mozzarella.",
+      "Arroser d'huile d'olive, saupoudrer d'herbes, saler, poivrer et cuire 25 à 30 minutes.",
+      "Parsemer de basilic à la sortie du four."
+    ],
+    "astuce": "Excellente façon d'utiliser des tomates un peu molles : elles confisent à la cuisson."
+  },
+  {
+    "titre": "Pizza maison légumes grillés",
+    "categorie": "plat",
+    "temps": 45,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pate_pizza",
+        "nom": "pâte à pizza",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "tomate_concassee",
+        "nom": "sauce tomate (passata)",
+        "qte": 15,
+        "unite": "cl"
+      },
+      {
+        "cle": "poivron",
+        "nom": "poivron",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "courgette",
+        "nom": "courgette",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oignon_rouge",
+        "nom": "oignon rouge",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "mozzarella",
+        "nom": "mozzarella",
+        "qte": 125,
+        "unite": "g"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "herbes_provence",
+        "nom": "origan",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 240 °C avec la plaque à l'intérieur.",
+      "Couper le poivron et la courgette en fines lamelles, l'oignon en rondelles, et les mélanger avec 1 cuillère d'huile, du sel et du poivre.",
+      "Étaler la pâte sur du papier cuisson, la napper de sauce tomate assaisonnée d'origan.",
+      "Répartir les légumes et la mozzarella en morceaux, arroser du reste d'huile.",
+      "Glisser sur la plaque chaude et cuire 12 à 15 minutes, jusqu'à ce que les bords soient bien dorés."
+    ],
+    "astuce": "La plaque préchauffée donne une pâte croustillante dessous, comme au four à pizza."
+  },
+  {
+    "titre": "Pizza blanche pommes de terre et lardons",
+    "categorie": "plat",
+    "temps": 40,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pate_pizza",
+        "nom": "pâte à pizza",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "creme",
+        "nom": "crème épaisse",
+        "qte": 10,
+        "unite": "cl"
+      },
+      {
+        "cle": "pomme_de_terre",
+        "nom": "pommes de terre cuites",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "lardons",
+        "nom": "lardons",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "reblochon",
+        "nom": "reblochon ou raclette",
+        "qte": 120,
+        "unite": "g"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 240 °C.",
+      "Faire revenir les lardons et l'oignon émincé 5 minutes à la poêle.",
+      "Étaler la pâte, la tartiner de crème poivrée en laissant les bords libres.",
+      "Couper les pommes de terre en fines rondelles et les répartir avec les lardons, l'oignon et le fromage en tranches.",
+      "Cuire 12 à 15 minutes jusqu'à ce que le fromage bouillonne."
+    ],
+    "astuce": "Une pizza façon tartiflette qui recycle des pommes de terre vapeur de la veille."
+  },
+  {
+    "titre": "Lasagnes à la bolognaise",
+    "categorie": "plat",
+    "temps": 105,
+    "difficulte": "moyen",
+    "portions": 4,
+    "regimes": [
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pates_lasagne",
+        "nom": "feuilles de lasagne",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "boeuf_hache",
+        "nom": "bœuf haché",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "tomate_concassee",
+        "nom": "tomates concassées",
+        "qte": 800,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "carotte",
+        "nom": "carotte",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousses d'ail",
+        "qte": 2,
+        "unite": "gousse"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 40,
+        "unite": "g"
+      },
+      {
+        "cle": "farine",
+        "nom": "farine",
+        "qte": 40,
+        "unite": "g"
+      },
+      {
+        "cle": "lait",
+        "nom": "lait",
+        "qte": 50,
+        "unite": "cl"
+      },
+      {
+        "cle": "parmesan",
+        "nom": "parmesan râpé",
+        "qte": 60,
+        "unite": "g"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "herbes_provence",
+        "nom": "origan",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Hacher l'oignon, la carotte et l'ail, les faire suer 5 minutes à l'huile d'olive puis ajouter la viande et la faire dorer.",
+      "Ajouter les tomates et l'origan, saler, poivrer et laisser mijoter 30 minutes à couvert.",
+      "Préparer une béchamel : faire fondre le beurre, ajouter la farine, puis le lait en fouettant jusqu'à épaississement.",
+      "Préchauffer le four à 180 °C. Dans un plat, alterner sauce bolognaise, feuilles de lasagne et béchamel sur trois couches.",
+      "Terminer par la béchamel et le parmesan, puis cuire 40 minutes. Laisser reposer 10 minutes avant de couper."
+    ],
+    "astuce": "Les lasagnes se congèlent très bien en portions : pratique pour un soir pressé."
+  },
+  {
+    "titre": "Lasagnes épinards et ricotta",
+    "categorie": "plat",
+    "temps": 70,
+    "difficulte": "moyen",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pates_lasagne",
+        "nom": "feuilles de lasagne",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "epinard",
+        "nom": "épinards frais ou surgelés",
+        "qte": 500,
+        "unite": "g"
+      },
+      {
+        "cle": "ricotta",
+        "nom": "ricotta",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "tomate_concassee",
+        "nom": "passata",
+        "qte": 50,
+        "unite": "cl"
+      },
+      {
+        "cle": "mozzarella",
+        "nom": "mozzarella",
+        "qte": 125,
+        "unite": "g"
+      },
+      {
+        "cle": "parmesan",
+        "nom": "parmesan",
+        "qte": 40,
+        "unite": "g"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousse d'ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "muscade",
+        "nom": "muscade",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 180 °C. Faire tomber les épinards 5 minutes avec l'ail et l'huile, puis les presser pour retirer l'eau et les hacher.",
+      "Mélanger les épinards avec la ricotta, la moitié du parmesan, du sel, du poivre et de la muscade.",
+      "Assaisonner la passata. Dans un plat, alterner sauce tomate, lasagnes et mélange épinards-ricotta sur trois couches.",
+      "Finir par de la sauce, la mozzarella en tranches et le reste du parmesan.",
+      "Cuire 40 minutes et laisser reposer 5 minutes."
+    ],
+    "astuce": "Remplacer la ricotta par du séré ou du fromage blanc égoutté si c'est ce qu'il reste au frigo."
+  },
+  {
+    "titre": "Croque-monsieur au four",
+    "categorie": "plat",
+    "temps": 20,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pain_mie",
+        "nom": "tranches de pain de mie",
+        "qte": 4,
+        "unite": "tranche"
+      },
+      {
+        "cle": "jambon",
+        "nom": "jambon blanc",
+        "qte": 2,
+        "unite": "tranche"
+      },
+      {
+        "cle": "gruyere",
+        "nom": "gruyère râpé",
+        "qte": 80,
+        "unite": "g"
+      },
+      {
+        "cle": "creme",
+        "nom": "crème épaisse",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 15,
+        "unite": "g"
+      },
+      {
+        "cle": "moutarde",
+        "nom": "moutarde",
+        "qte": 1,
+        "unite": "c. à c.",
+        "optionnel": true
+      },
+      {
+        "cle": "salade",
+        "nom": "salade verte",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 220 °C.",
+      "Mélanger la crème avec la moitié du gruyère, poivrer.",
+      "Beurrer les tranches de pain sur une face, tartiner l'autre face de moutarde, puis garnir deux tranches de jambon et d'un peu du mélange crémeux.",
+      "Refermer, côté beurré à l'extérieur, napper le dessus du reste du mélange et du gruyère.",
+      "Cuire 10 à 12 minutes jusqu'à ce que ce soit gratiné et servir avec une salade."
+    ],
+    "astuce": "Le pain de mie un peu rassis fonctionne parfaitement, et une tranche d'œuf au plat dessus en fait un croque-madame."
+  },
+  {
+    "titre": "Feuilleté saumon et épinards",
+    "categorie": "plat",
+    "temps": 45,
+    "difficulte": "moyen",
+    "portions": 4,
+    "regimes": [
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pate_feuilletee",
+        "nom": "pâtes feuilletées",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "saumon",
+        "nom": "pavés de saumon sans peau",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "epinard",
+        "nom": "pousses d'épinard",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "fromage_frais",
+        "nom": "fromage frais ail et fines herbes",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "jaune d'œuf",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "citron",
+        "nom": "citron (zeste)",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 200 °C. Faire tomber les épinards 2 minutes à la poêle et bien les presser.",
+      "Étaler une pâte sur une plaque, tartiner le centre de fromage frais en laissant 3 cm de bord.",
+      "Ajouter les épinards, le saumon coupé en gros morceaux, le zeste de citron, du sel et du poivre.",
+      "Couvrir avec la seconde pâte, souder les bords en les pinçant et dorer au jaune d'œuf ; faire deux petites cheminées.",
+      "Cuire 30 minutes jusqu'à ce que le feuilleté soit bien doré."
+    ],
+    "astuce": "Le saumon peut être remplacé par du cabillaud ou un reste de poulet rôti effiloché."
+  },
+  {
+    "titre": "Clafoutis salé tomates cerises et basilic",
+    "categorie": "plat",
+    "temps": 45,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "tomate_cerise",
+        "nom": "tomates cerises",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 3,
+        "unite": "pièce"
+      },
+      {
+        "cle": "farine",
+        "nom": "farine",
+        "qte": 60,
+        "unite": "g"
+      },
+      {
+        "cle": "lait",
+        "nom": "lait",
+        "qte": 25,
+        "unite": "cl"
+      },
+      {
+        "cle": "parmesan",
+        "nom": "parmesan râpé",
+        "qte": 50,
+        "unite": "g"
+      },
+      {
+        "cle": "basilic",
+        "nom": "basilic",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 180 °C et huiler un plat.",
+      "Fouetter les œufs avec la farine, puis délayer avec le lait jusqu'à obtenir une pâte lisse.",
+      "Ajouter le parmesan, le basilic ciselé, du sel et du poivre.",
+      "Répartir les tomates cerises dans le plat et verser la pâte par-dessus.",
+      "Cuire 30 minutes, jusqu'à ce que le clafoutis soit gonflé et doré."
+    ],
+    "astuce": "Se mange tiède ou froid, avec une salade : idéal en pique-nique."
+  },
+  {
+    "titre": "Clafoutis salé courgette, chèvre et menthe",
+    "categorie": "plat",
+    "temps": 45,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "courgette",
+        "nom": "courgettes",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "chevre",
+        "nom": "fromage de chèvre frais",
+        "qte": 120,
+        "unite": "g"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 3,
+        "unite": "pièce"
+      },
+      {
+        "cle": "farine",
+        "nom": "farine",
+        "qte": 50,
+        "unite": "g"
+      },
+      {
+        "cle": "lait",
+        "nom": "lait",
+        "qte": 20,
+        "unite": "cl"
+      },
+      {
+        "cle": "menthe",
+        "nom": "menthe fraîche",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 180 °C.",
+      "Couper les courgettes en dés et les faire revenir 5 minutes à l'huile d'olive.",
+      "Fouetter œufs, farine et lait, saler, poivrer et ajouter la menthe ciselée.",
+      "Répartir les courgettes et le chèvre émietté dans un plat huilé, couvrir de pâte.",
+      "Enfourner 30 minutes."
+    ],
+    "astuce": "Recette souple : tous les légumes cuits qui traînent (poivron, aubergine, brocoli) peuvent remplacer la courgette."
+  },
+  {
+    "titre": "Tomates farcies à la viande",
+    "categorie": "plat",
+    "temps": 70,
+    "difficulte": "moyen",
+    "portions": 4,
+    "regimes": [
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "tomate",
+        "nom": "grosses tomates",
+        "qte": 8,
+        "unite": "pièce"
+      },
+      {
+        "cle": "boeuf_hache",
+        "nom": "bœuf haché",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousses d'ail",
+        "qte": 2,
+        "unite": "gousse"
+      },
+      {
+        "cle": "persil",
+        "nom": "persil",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "chapelure",
+        "nom": "chapelure",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œuf",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "riz",
+        "nom": "riz",
+        "qte": 120,
+        "unite": "g"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 180 °C. Découper un chapeau aux tomates, les évider et réserver la pulpe ; saler l'intérieur et les retourner pour qu'elles s'égouttent.",
+      "Mélanger la viande avec l'oignon et l'ail hachés, le persil, la chapelure, l'œuf, du sel et du poivre.",
+      "Farcir les tomates, remettre les chapeaux et les ranger dans un plat.",
+      "Répartir le riz cru et la pulpe hachée autour, ajouter 15 cl d'eau et un filet d'huile.",
+      "Cuire 50 minutes : le riz cuit dans le jus des tomates."
+    ],
+    "astuce": "Un reste de viande cuite (rôti, pot-au-feu) haché fait aussi une très bonne farce."
+  },
+  {
+    "titre": "Courgettes rondes farcies au boulgour",
+    "categorie": "plat",
+    "temps": 55,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "courgette",
+        "nom": "courgettes rondes",
+        "qte": 4,
+        "unite": "pièce"
+      },
+      {
+        "cle": "boulgour",
+        "nom": "boulgour",
+        "qte": 80,
+        "unite": "g"
+      },
+      {
+        "cle": "feta",
+        "nom": "feta",
+        "qte": 80,
+        "unite": "g"
+      },
+      {
+        "cle": "tomate",
+        "nom": "tomate",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "menthe",
+        "nom": "menthe",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "cumin",
+        "nom": "cumin",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 190 °C. Couper le chapeau des courgettes, les évider et hacher la chair.",
+      "Cuire le boulgour 10 minutes dans deux fois son volume d'eau salée.",
+      "Faire revenir l'oignon et la chair de courgette 5 minutes à l'huile, ajouter la tomate en dés et le cumin.",
+      "Mélanger avec le boulgour, la feta émiettée et la menthe, puis farcir les courgettes.",
+      "Remettre les chapeaux et cuire 30 minutes dans un plat avec un fond d'eau."
+    ],
+    "astuce": "Ça marche aussi avec des poivrons ou de petites courges coupées en deux."
+  },
+  {
+    "titre": "Rösti croustillant à la poêle",
+    "categorie": "plat",
+    "temps": 45,
+    "difficulte": "moyen",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pomme_de_terre",
+        "nom": "pommes de terre fermes cuites la veille",
+        "qte": 600,
+        "unite": "g"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 30,
+        "unite": "g"
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs (au plat)",
+        "qte": 2,
+        "unite": "pièce",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Éplucher les pommes de terre froides et les râper avec une grosse râpe ; saler et poivrer.",
+      "Chauffer la moitié du beurre et l'huile dans une poêle de 24 cm, ajouter les pommes de terre et les tasser légèrement en galette.",
+      "Cuire 12 à 15 minutes à feu moyen sans remuer, jusqu'à ce que le dessous soit bien doré.",
+      "Retourner la galette à l'aide d'une assiette, ajouter le reste du beurre sur les bords et cuire encore 10 minutes.",
+      "Servir tel quel ou surmonté d'un œuf au plat."
+    ],
+    "astuce": "Les pommes de terre cuites en robe des champs la veille donnent un rösti qui se tient sans farine ni œuf."
+  },
+  {
+    "titre": "Rösti au fromage et lardons",
+    "categorie": "plat",
+    "temps": 50,
+    "difficulte": "moyen",
+    "portions": 2,
+    "regimes": [
+      "sans_gluten",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pomme_de_terre",
+        "nom": "pommes de terre crues",
+        "qte": 600,
+        "unite": "g"
+      },
+      {
+        "cle": "lardons",
+        "nom": "lardons",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "raclette",
+        "nom": "fromage à raclette",
+        "qte": 4,
+        "unite": "tranche"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 30,
+        "unite": "g"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Râper les pommes de terre, les presser fortement dans un torchon pour retirer l'eau.",
+      "Faire dorer les lardons et l'oignon émincé 5 minutes, puis les mélanger aux pommes de terre ; poivrer.",
+      "Faire fondre la moitié du beurre dans une poêle, y tasser le mélange et cuire 15 minutes à feu moyen à couvert.",
+      "Retourner, ajouter le reste du beurre, déposer les tranches de raclette et cuire 12 minutes à couvert jusqu'à ce que le fromage soit fondu."
+    ],
+    "astuce": "Bien presser les pommes de terre crues est indispensable pour une galette croustillante."
+  },
+  {
+    "titre": "Malakoffs revisités au four",
+    "categorie": "plat",
+    "temps": 40,
+    "difficulte": "moyen",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_porc"
+    ],
+    "ingredients": [
+      {
+        "cle": "pain",
+        "nom": "tranches de pain rassis",
+        "qte": 4,
+        "unite": "tranche"
+      },
+      {
+        "cle": "gruyere",
+        "nom": "gruyère râpé",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "farine",
+        "nom": "farine",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "ail",
+        "nom": "gousse d'ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "vin_blanc",
+        "nom": "vin blanc sec",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "muscade",
+        "nom": "muscade",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "cornichon",
+        "nom": "cornichons",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "salade",
+        "nom": "salade verte",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 220 °C et frotter les tranches de pain avec l'ail.",
+      "Mélanger le gruyère, les œufs, la farine, le vin blanc, le poivre et la muscade pour obtenir une pâte épaisse.",
+      "Former un dôme généreux de ce mélange sur chaque tranche de pain.",
+      "Cuire 12 à 15 minutes sur une plaque, jusqu'à ce que les malakoffs soient gonflés et dorés.",
+      "Servir aussitôt avec des cornichons et une salade."
+    ],
+    "astuce": "Version sans friteuse des beignets vaudois, parfaite pour du pain de la veille."
+  },
+  {
+    "titre": "Macaronis du chalet (älplermagronen)",
+    "categorie": "plat",
+    "temps": 40,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pates",
+        "nom": "macaronis",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "pomme_de_terre",
+        "nom": "pommes de terre",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignons",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "creme",
+        "nom": "crème",
+        "qte": 15,
+        "unite": "cl"
+      },
+      {
+        "cle": "gruyere",
+        "nom": "gruyère râpé",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 20,
+        "unite": "g"
+      },
+      {
+        "cle": "pomme",
+        "nom": "pommes (compote)",
+        "qte": 2,
+        "unite": "pièce",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Éplucher les pommes de terre, les couper en dés de 1 cm et les cuire 5 minutes à l'eau bouillante salée.",
+      "Ajouter les macaronis dans la même eau et cuire le temps indiqué sur le paquet.",
+      "Pendant ce temps, faire dorer les oignons en rondelles dans le beurre 15 minutes, jusqu'à ce qu'ils soient bien caramélisés.",
+      "Égoutter pâtes et pommes de terre, les remettre dans la casserole avec la crème et le fromage, poivrer et mélanger à feu doux 2 minutes.",
+      "Servir couvert d'oignons dorés, avec une compote de pommes rapide à côté."
+    ],
+    "astuce": "La compote de pommes en accompagnement est la tradition d'alpage : une bonne façon de sauver des pommes abîmées."
+  },
+  {
+    "titre": "Papet vaudois aux saucisses",
+    "categorie": "plat",
+    "temps": 60,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "sans_gluten"
+    ],
+    "ingredients": [
+      {
+        "cle": "poireau",
+        "nom": "poireaux",
+        "qte": 1,
+        "unite": "kg"
+      },
+      {
+        "cle": "pomme_de_terre",
+        "nom": "pommes de terre",
+        "qte": 500,
+        "unite": "g"
+      },
+      {
+        "cle": "saucisse",
+        "nom": "saucisses aux choux ou saucissons",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "creme",
+        "nom": "crème",
+        "qte": 10,
+        "unite": "cl"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 20,
+        "unite": "g"
+      },
+      {
+        "cle": "vin_blanc",
+        "nom": "vin blanc",
+        "qte": 10,
+        "unite": "cl"
+      },
+      {
+        "cle": "bouillon",
+        "nom": "bouillon",
+        "qte": 20,
+        "unite": "cl"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Laver et couper les poireaux en tronçons de 2 cm, les faire suer 5 minutes au beurre.",
+      "Ajouter les pommes de terre en dés, le vin blanc et le bouillon, saler peu et poivrer.",
+      "Poser les saucisses entières sur les légumes, couvrir et laisser mijoter 40 minutes à feu doux.",
+      "Retirer les saucisses, incorporer la crème aux légumes et servir avec les saucisses tranchées."
+    ],
+    "astuce": "Utiliser aussi le vert des poireaux : il apporte de la couleur et rien ne se perd."
+  },
+  {
+    "titre": "Croûte au fromage du chalet",
+    "categorie": "plat",
+    "temps": 25,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [],
+    "ingredients": [
+      {
+        "cle": "pain",
+        "nom": "tranches de pain rassis",
+        "qte": 4,
+        "unite": "tranche"
+      },
+      {
+        "cle": "vin_blanc",
+        "nom": "vin blanc sec",
+        "qte": 8,
+        "unite": "cl"
+      },
+      {
+        "cle": "gruyere",
+        "nom": "gruyère en tranches",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "jambon",
+        "nom": "jambon",
+        "qte": 2,
+        "unite": "tranche",
+        "optionnel": true
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 2,
+        "unite": "pièce",
+        "optionnel": true
+      },
+      {
+        "cle": "ail",
+        "nom": "gousse d'ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 220 °C.",
+      "Frotter les tranches de pain avec l'ail et les disposer dans un plat, puis les arroser de vin blanc.",
+      "Ajouter éventuellement une demi-tranche de jambon sur chaque tranche, puis couvrir de gruyère.",
+      "Cuire 12 minutes jusqu'à ce que le fromage soit fondu et doré ; poivrer.",
+      "Servir avec un œuf au plat posé dessus si désiré."
+    ],
+    "astuce": "Le vin peut être remplacé par du lait pour une version sans alcool, plus douce."
+  },
+  {
+    "titre": "Raclette au four sur pommes de terre",
+    "categorie": "plat",
+    "temps": 45,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_gluten",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pomme_de_terre",
+        "nom": "pommes de terre",
+        "qte": 600,
+        "unite": "g"
+      },
+      {
+        "cle": "raclette",
+        "nom": "fromage à raclette",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "cornichon",
+        "nom": "cornichons",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "jambon_cru",
+        "nom": "viande séchée ou jambon cru",
+        "qte": 80,
+        "unite": "g",
+        "optionnel": true
+      },
+      {
+        "cle": "paprika",
+        "nom": "paprika",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Cuire les pommes de terre entières en robe des champs 20 minutes à l'eau salée.",
+      "Préchauffer le four à 220 °C. Couper les pommes de terre en deux et les ranger dans un plat, face coupée vers le haut.",
+      "Ajouter l'oignon en fines rondelles puis couvrir de tranches de raclette.",
+      "Gratiner 8 à 10 minutes, saupoudrer de paprika et de poivre.",
+      "Servir avec les cornichons et la viande séchée."
+    ],
+    "astuce": "Pas d'appareil à raclette ? Le four fait aussi bien, et c'est parfait pour finir quelques tranches de fromage."
+  },
+  {
+    "titre": "Tartiflette maison",
+    "categorie": "plat",
+    "temps": 70,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "sans_gluten"
+    ],
+    "ingredients": [
+      {
+        "cle": "pomme_de_terre",
+        "nom": "pommes de terre",
+        "qte": 1,
+        "unite": "kg"
+      },
+      {
+        "cle": "reblochon",
+        "nom": "reblochon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "lardons",
+        "nom": "lardons fumés",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignons",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "creme",
+        "nom": "crème",
+        "qte": 10,
+        "unite": "cl"
+      },
+      {
+        "cle": "vin_blanc",
+        "nom": "vin blanc sec",
+        "qte": 10,
+        "unite": "cl"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Cuire les pommes de terre épluchées et coupées en gros dés 15 minutes à l'eau salée.",
+      "Faire revenir les lardons et les oignons émincés 10 minutes, déglacer au vin blanc.",
+      "Préchauffer le four à 200 °C. Mélanger pommes de terre, lardons et oignons dans un plat, poivrer et napper de crème.",
+      "Couper le reblochon en deux dans l'épaisseur et le poser croûte vers le haut.",
+      "Cuire 25 minutes jusqu'à ce que le fromage soit fondu et doré."
+    ],
+    "astuce": "Les restes se réchauffent très bien à la poêle, façon galette croustillante."
+  },
+  {
+    "titre": "Fondue poêlée au pain et tomates",
+    "categorie": "plat",
+    "temps": 25,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_porc"
+    ],
+    "ingredients": [
+      {
+        "cle": "pain",
+        "nom": "pain rassis",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "gruyere",
+        "nom": "gruyère râpé",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "vin_blanc",
+        "nom": "vin blanc sec",
+        "qte": 10,
+        "unite": "cl"
+      },
+      {
+        "cle": "tomate",
+        "nom": "tomates",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousse d'ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 20,
+        "unite": "g"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Couper le pain en cubes et les faire dorer 5 minutes dans le beurre avec l'ail haché.",
+      "Ajouter les tomates en dés et cuire 3 minutes.",
+      "Verser le vin blanc, laisser réduire 1 minute, puis battre les œufs avec le fromage et les verser sur le pain.",
+      "Remuer à feu doux 2 à 3 minutes, jusqu'à ce que le fromage file et que les œufs soient juste pris ; poivrer et servir."
+    ],
+    "astuce": "Une fondue « à la poêle » qui recycle le pain sec et les fonds de fromage du frigo."
+  },
+  {
+    "titre": "Gratin de polenta au fromage d'alpage",
+    "categorie": "plat",
+    "temps": 45,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "polenta",
+        "nom": "polenta",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "lait",
+        "nom": "lait",
+        "qte": 30,
+        "unite": "cl"
+      },
+      {
+        "cle": "eau",
+        "nom": "eau",
+        "qte": 30,
+        "unite": "cl"
+      },
+      {
+        "cle": "comte",
+        "nom": "comté ou fromage d'alpage râpé",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "champignon",
+        "nom": "champignons",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 20,
+        "unite": "g"
+      },
+      {
+        "cle": "persil",
+        "nom": "persil",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Porter le lait et l'eau salés à ébullition, verser la polenta en pluie et cuire 5 minutes en remuant.",
+      "Hors du feu, ajouter la moitié du fromage, verser dans un plat beurré et laisser tiédir.",
+      "Préchauffer le four à 200 °C. Faire sauter les champignons émincés 8 minutes au beurre, saler et poivrer.",
+      "Répartir les champignons sur la polenta, couvrir du reste du fromage et gratiner 15 minutes.",
+      "Parsemer de persil avant de servir."
+    ],
+    "astuce": "Un reste de polenta froide se coupe en tranches et se gratine directement."
+  },
+  {
+    "titre": "Curry de légumes au lait de coco",
+    "categorie": "plat",
+    "temps": 35,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "patate_douce",
+        "nom": "patate douce",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "pois_chiche",
+        "nom": "pois chiches cuits",
+        "qte": 240,
+        "unite": "g"
+      },
+      {
+        "cle": "epinard",
+        "nom": "épinards",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "lait_coco",
+        "nom": "lait de coco",
+        "qte": 20,
+        "unite": "cl"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousse d'ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "gingembre",
+        "nom": "gingembre frais râpé",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "curry",
+        "nom": "curry en poudre",
+        "qte": 2,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "riz",
+        "nom": "riz basmati",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "coriandre",
+        "nom": "coriandre",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Faire revenir l'oignon émincé, l'ail et le gingembre râpé 3 minutes dans l'huile, puis ajouter le curry et remuer 1 minute.",
+      "Ajouter la patate douce en dés de 2 cm, le lait de coco et 10 cl d'eau, saler et cuire 15 minutes à couvert.",
+      "Pendant ce temps, cuire le riz.",
+      "Ajouter les pois chiches égouttés et les épinards, poursuivre 5 minutes.",
+      "Servir sur le riz, parsemé de coriandre."
+    ],
+    "astuce": "Toutes les fins de légumes s'y prêtent : courge, chou-fleur, carotte, petits pois surgelés."
+  },
+  {
+    "titre": "Curry de poulet doux",
+    "categorie": "plat",
+    "temps": 35,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "poulet",
+        "nom": "blancs de poulet",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousses d'ail",
+        "qte": 2,
+        "unite": "gousse"
+      },
+      {
+        "cle": "tomate_concassee",
+        "nom": "tomates concassées",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "yaourt",
+        "nom": "yaourt nature",
+        "qte": 1,
+        "unite": "pot"
+      },
+      {
+        "cle": "curry",
+        "nom": "garam masala ou curry",
+        "qte": 2,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "curcuma",
+        "nom": "curcuma",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "huile",
+        "nom": "huile",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "riz",
+        "nom": "riz basmati",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "coriandre",
+        "nom": "coriandre",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Couper le poulet en cubes et le mélanger avec la moitié du yaourt, le curcuma et une pincée de sel.",
+      "Faire fondre l'oignon émincé et l'ail dans l'huile 5 minutes, ajouter le curry et cuire 1 minute.",
+      "Ajouter le poulet, le faire saisir 5 minutes, puis verser les tomates et mijoter 15 minutes.",
+      "Hors du feu, incorporer le reste du yaourt. Servir avec le riz cuit et la coriandre."
+    ],
+    "astuce": "Le yaourt hors du feu évite qu'il tranche et adoucit le piquant."
+  },
+  {
+    "titre": "Wok de nouilles au poulet et légumes",
+    "categorie": "plat",
+    "temps": 25,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pates",
+        "nom": "nouilles chinoises aux œufs",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "poulet",
+        "nom": "filet de poulet",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "carotte",
+        "nom": "carotte",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "poivron",
+        "nom": "poivron",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "chou",
+        "nom": "chou chinois ou chou blanc",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "sauce_soja",
+        "nom": "sauce soja",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "gingembre",
+        "nom": "gingembre",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "ail",
+        "nom": "gousse d'ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "graine",
+        "nom": "graines de sésame",
+        "qte": 1,
+        "unite": "c. à s.",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Cuire les nouilles selon le paquet, les égoutter et les rincer à l'eau froide.",
+      "Couper le poulet en lanières et les légumes en fins bâtonnets.",
+      "Saisir le poulet 4 minutes à feu vif dans le wok huilé, puis ajouter l'ail et le gingembre.",
+      "Ajouter les légumes et sauter 4 minutes en gardant du croquant.",
+      "Ajouter les nouilles et la sauce soja, mélanger 2 minutes et parsemer de sésame."
+    ],
+    "astuce": "Vider le bac à légumes : brocoli, champignons, courgette ou pousses d'épinard conviennent tous."
+  },
+  {
+    "titre": "Nouilles sautées au tofu et brocoli",
+    "categorie": "plat",
+    "temps": 25,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pates",
+        "nom": "nouilles de blé",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "tofu",
+        "nom": "tofu ferme",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "brocoli",
+        "nom": "brocoli",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon_nouveau",
+        "nom": "oignons nouveaux",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "sauce_soja",
+        "nom": "sauce soja",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "miel",
+        "nom": "sirop d'érable",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "ail",
+        "nom": "gousse d'ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "cacahuete",
+        "nom": "cacahuètes",
+        "qte": 30,
+        "unite": "g",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Cuire les nouilles, les égoutter. Blanchir les bouquets de brocoli 3 minutes.",
+      "Couper le tofu en cubes et le faire dorer 8 minutes dans l'huile très chaude.",
+      "Ajouter l'ail et le brocoli, sauter 2 minutes.",
+      "Ajouter les nouilles, la sauce soja et le sirop, mélanger 2 minutes.",
+      "Servir avec les oignons nouveaux émincés et les cacahuètes concassées."
+    ],
+    "astuce": "Bien sécher le tofu dans un torchon avant cuisson : il dore beaucoup mieux."
+  },
+  {
+    "titre": "Quesadillas haricots rouges et maïs",
+    "categorie": "plat",
+    "temps": 20,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "tortilla",
+        "nom": "tortillas de blé",
+        "qte": 4,
+        "unite": "pièce"
+      },
+      {
+        "cle": "haricot_rouge",
+        "nom": "haricots rouges",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "mais",
+        "nom": "maïs",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "emmental",
+        "nom": "emmental ou cheddar râpé",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "cumin",
+        "nom": "cumin",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "oignon_rouge",
+        "nom": "oignon rouge",
+        "qte": 0.5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "avocat",
+        "nom": "avocat",
+        "qte": 1,
+        "unite": "pièce",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Écraser grossièrement les haricots égouttés avec le cumin et une pincée de sel.",
+      "Étaler la purée sur deux tortillas, ajouter le maïs, l'oignon haché finement et le fromage, puis couvrir avec les deux autres tortillas.",
+      "Cuire chaque quesadilla 3 minutes par face dans une poêle sèche, en pressant légèrement.",
+      "Couper en quartiers et servir avec l'avocat écrasé."
+    ],
+    "astuce": "Les quesadillas recyclent n'importe quel reste : poulet, légumes grillés, fond de fromage."
+  },
+  {
+    "titre": "Tacos de bœuf épicé",
+    "categorie": "plat",
+    "temps": 25,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "tortilla",
+        "nom": "petites tortillas",
+        "qte": 6,
+        "unite": "pièce"
+      },
+      {
+        "cle": "boeuf_hache",
+        "nom": "bœuf haché",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "paprika",
+        "nom": "paprika fumé",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "cumin",
+        "nom": "cumin",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "salade",
+        "nom": "laitue",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "tomate",
+        "nom": "tomate",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "citron_vert",
+        "nom": "citron vert",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "yaourt",
+        "nom": "yaourt grec",
+        "qte": 3,
+        "unite": "c. à s.",
+        "optionnel": true
+      },
+      {
+        "cle": "huile",
+        "nom": "huile",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Faire revenir l'oignon haché 3 minutes, ajouter le bœuf et cuire 6 minutes en l'émiettant.",
+      "Ajouter paprika, cumin, sel, poivre et un trait d'eau, mijoter 2 minutes.",
+      "Réchauffer les tortillas à sec dans une poêle.",
+      "Garnir de viande, de laitue émincée, de tomate en dés, d'un filet de citron vert et d'une cuillère de yaourt."
+    ],
+    "astuce": "La viande se remplace par des lentilles cuites pour une version végétarienne aussi gourmande."
+  },
+  {
+    "titre": "Burritos au riz et poulet",
+    "categorie": "plat",
+    "temps": 30,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "tortilla",
+        "nom": "grandes tortillas",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "poulet",
+        "nom": "poulet cuit",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "riz",
+        "nom": "riz cuit",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "haricot_rouge",
+        "nom": "haricots noirs ou rouges",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "poivron",
+        "nom": "poivron",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "fromage_rape",
+        "nom": "fromage râpé",
+        "qte": 60,
+        "unite": "g"
+      },
+      {
+        "cle": "piment_poudre",
+        "nom": "piment en poudre",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "huile",
+        "nom": "huile",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Faire revenir le poivron en lanières 5 minutes dans l'huile.",
+      "Ajouter le poulet effiloché, les haricots égouttés, le riz, une pincée de piment et de sel, et réchauffer 3 minutes.",
+      "Répartir sur les tortillas tiédies, parsemer de fromage.",
+      "Rabattre les côtés puis rouler serré ; dorer les burritos 2 minutes de chaque côté dans la poêle."
+    ],
+    "astuce": "Parfait pour recycler un reste de riz et de poulet rôti."
+  },
+  {
+    "titre": "Chili sin carne",
+    "categorie": "plat",
+    "temps": 45,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "haricot_rouge",
+        "nom": "haricots rouges",
+        "qte": 500,
+        "unite": "g"
+      },
+      {
+        "cle": "lentille_corail",
+        "nom": "lentilles corail",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "tomate_concassee",
+        "nom": "tomates concassées",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "poivron",
+        "nom": "poivron",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousses d'ail",
+        "qte": 2,
+        "unite": "gousse"
+      },
+      {
+        "cle": "mais",
+        "nom": "maïs",
+        "qte": 140,
+        "unite": "g"
+      },
+      {
+        "cle": "cumin",
+        "nom": "cumin",
+        "qte": 2,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "paprika",
+        "nom": "paprika fumé",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "piment_poudre",
+        "nom": "piment",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "riz",
+        "nom": "riz",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Faire revenir l'oignon, l'ail et le poivron en dés 5 minutes dans l'huile.",
+      "Ajouter les épices, puis les tomates, les lentilles rincées et 30 cl d'eau ; saler.",
+      "Laisser mijoter 20 minutes en remuant de temps en temps.",
+      "Ajouter les haricots égouttés et le maïs, cuire encore 10 minutes.",
+      "Servir avec le riz cuit."
+    ],
+    "astuce": "Encore meilleur le lendemain ; se congèle sans problème."
+  },
+  {
+    "titre": "Chili con carne express",
+    "categorie": "plat",
+    "temps": 45,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "boeuf_hache",
+        "nom": "bœuf haché",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "haricot_rouge",
+        "nom": "haricots rouges",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "tomate_concassee",
+        "nom": "tomates concassées",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "concentre_tomate",
+        "nom": "concentré de tomate",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignons",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "poivron",
+        "nom": "poivron rouge",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "cumin",
+        "nom": "cumin",
+        "qte": 2,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "piment_poudre",
+        "nom": "piment de Cayenne",
+        "qte": 0.5,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "huile",
+        "nom": "huile",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "chocolat",
+        "nom": "carré de chocolat noir",
+        "qte": 1,
+        "unite": "pièce",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Faire dorer les oignons et le poivron en dés 5 minutes dans l'huile.",
+      "Ajouter la viande et la cuire 5 minutes en l'émiettant.",
+      "Ajouter concentré, épices, tomates et 15 cl d'eau, saler et poivrer.",
+      "Mijoter 20 minutes, ajouter les haricots égouttés et le carré de chocolat, puis cuire encore 10 minutes."
+    ],
+    "astuce": "Le carré de chocolat arrondit l'acidité de la tomate, comme dans certaines recettes mexicaines."
+  },
+  {
+    "titre": "Couscous aux légumes et pois chiches",
+    "categorie": "plat",
+    "temps": 50,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "semoule",
+        "nom": "semoule moyenne",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "carotte",
+        "nom": "carottes",
+        "qte": 3,
+        "unite": "pièce"
+      },
+      {
+        "cle": "courgette",
+        "nom": "courgettes",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "navet",
+        "nom": "navets",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "pois_chiche",
+        "nom": "pois chiches cuits",
+        "qte": 240,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "concentre_tomate",
+        "nom": "concentré de tomate",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "cumin",
+        "nom": "cumin",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "cannelle",
+        "nom": "cannelle",
+        "qte": 0.5,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "raisin_sec",
+        "nom": "raisins secs",
+        "qte": 30,
+        "unite": "g",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Faire revenir l'oignon émincé dans 2 cuillères d'huile, ajouter le concentré, le cumin et la cannelle.",
+      "Ajouter les carottes et les navets en gros morceaux, couvrir d'1 litre d'eau, saler et cuire 20 minutes.",
+      "Ajouter les courgettes et les pois chiches, cuire encore 15 minutes.",
+      "Verser 25 cl d'eau bouillante salée sur la semoule avec le reste d'huile, couvrir 5 minutes puis égrener à la fourchette avec les raisins.",
+      "Servir la semoule arrosée de légumes et de bouillon."
+    ],
+    "astuce": "Le bouillon restant fait une excellente soupe le lendemain avec un peu de vermicelle."
+  },
+  {
+    "titre": "Tajine de poulet aux carottes et citron",
+    "categorie": "plat",
+    "temps": 60,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "poulet",
+        "nom": "cuisses de poulet",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "carotte",
+        "nom": "carottes",
+        "qte": 3,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "olive",
+        "nom": "olives vertes",
+        "qte": 60,
+        "unite": "g"
+      },
+      {
+        "cle": "curcuma",
+        "nom": "curcuma",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "gingembre",
+        "nom": "gingembre en poudre ou frais",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "coriandre",
+        "nom": "coriandre",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Faire dorer les cuisses de poulet 8 minutes dans l'huile dans une cocotte.",
+      "Ajouter l'oignon émincé, le curcuma et le gingembre, remuer 2 minutes.",
+      "Ajouter les carottes en rondelles épaisses, le jus et le zeste du citron, 20 cl d'eau, saler et poivrer.",
+      "Couvrir et mijoter 35 minutes à feu doux, ajouter les olives les 10 dernières minutes.",
+      "Parsemer de coriandre et servir avec de la semoule ou du pain."
+    ],
+    "astuce": "Pas de tajine ? Une cocotte en fonte à couvercle donne le même résultat fondant."
+  },
+  {
+    "titre": "Pad thaï simplifié aux crevettes",
+    "categorie": "plat",
+    "temps": 30,
+    "difficulte": "moyen",
+    "portions": 2,
+    "regimes": [
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pates",
+        "nom": "nouilles de riz",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "crevette",
+        "nom": "crevettes décortiquées",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "nuoc_mam",
+        "nom": "sauce poisson",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sucre",
+        "nom": "sucre roux",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "citron_vert",
+        "nom": "citron vert",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oignon_nouveau",
+        "nom": "oignons nouveaux",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "cacahuete",
+        "nom": "cacahuètes grillées",
+        "qte": 40,
+        "unite": "g"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousse d'ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "coriandre",
+        "nom": "coriandre",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Faire tremper les nouilles de riz 10 minutes dans l'eau très chaude, puis les égoutter.",
+      "Mélanger la sauce poisson, le sucre et le jus d'un demi citron vert.",
+      "Faire sauter l'ail et les crevettes 3 minutes dans l'huile au wok, pousser sur le côté et brouiller les œufs.",
+      "Ajouter les nouilles et la sauce, sauter 2 minutes jusqu'à ce qu'elles soient enrobées.",
+      "Servir avec les oignons nouveaux, les cacahuètes concassées, la coriandre et le reste du citron vert."
+    ],
+    "astuce": "Utiliser des nouilles 100 % riz pour une version sans gluten ; le tofu remplace bien les crevettes."
+  },
+  {
+    "titre": "Bibimbap simplifié au bœuf",
+    "categorie": "plat",
+    "temps": 35,
+    "difficulte": "moyen",
+    "portions": 2,
+    "regimes": [
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "riz",
+        "nom": "riz rond",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "boeuf",
+        "nom": "bœuf en fines lanières",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "carotte",
+        "nom": "carotte",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "epinard",
+        "nom": "épinards",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "champignon",
+        "nom": "champignons",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "sauce_soja",
+        "nom": "sauce soja",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "ail",
+        "nom": "gousse d'ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "piment_poudre",
+        "nom": "piment",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "huile",
+        "nom": "huile",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "graine",
+        "nom": "graines de sésame",
+        "qte": 1,
+        "unite": "c. à s.",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Cuire le riz. Faire mariner le bœuf avec 2 cuillères de sauce soja et l'ail râpé.",
+      "Faire sauter séparément, avec un peu d'huile, la carotte en julienne (3 minutes), les champignons émincés (4 minutes) et les épinards (1 minute).",
+      "Saisir le bœuf 2 minutes à feu vif.",
+      "Cuire les œufs au plat en gardant le jaune coulant.",
+      "Répartir le riz dans des bols, disposer légumes et bœuf en sections, poser l'œuf, arroser du reste de soja relevé de piment et parsemer de sésame."
+    ],
+    "astuce": "Le concept du bol permet de finir de petites quantités de plusieurs légumes à la fois."
+  },
+  {
+    "titre": "Riz sauté aux œufs et petits pois",
+    "categorie": "plat",
+    "temps": 20,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_lactose",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "riz",
+        "nom": "riz cuit de la veille",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 3,
+        "unite": "pièce"
+      },
+      {
+        "cle": "petit_pois",
+        "nom": "petits pois surgelés",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "carotte",
+        "nom": "carotte",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oignon_nouveau",
+        "nom": "oignons nouveaux",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "sauce_soja",
+        "nom": "sauce soja",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "jambon",
+        "nom": "dés de jambon",
+        "qte": 80,
+        "unite": "g",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Couper la carotte en petits dés et la faire sauter 3 minutes dans l'huile très chaude avec les petits pois.",
+      "Pousser les légumes sur le côté, brouiller les œufs battus jusqu'à ce qu'ils soient presque pris.",
+      "Ajouter le riz froid et le jambon, sauter 5 minutes à feu vif en remuant sans cesse.",
+      "Arroser de sauce soja et parsemer d'oignons nouveaux."
+    ],
+    "astuce": "Le riz doit être froid : du riz fraîchement cuit colle et devient pâteux."
+  },
+  {
+    "titre": "Riz sauté ananas et crevettes",
+    "categorie": "plat",
+    "temps": 20,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "riz",
+        "nom": "riz cuit",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "crevette",
+        "nom": "crevettes",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "ananas",
+        "nom": "ananas frais ou en boîte",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "poivron",
+        "nom": "poivron",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "curry",
+        "nom": "curry",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "nuoc_mam",
+        "nom": "sauce poisson",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "huile",
+        "nom": "huile",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "coriandre",
+        "nom": "coriandre",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Faire sauter le poivron en dés 3 minutes dans l'huile, ajouter les crevettes et cuire 2 minutes.",
+      "Brouiller les œufs dans le wok.",
+      "Ajouter le riz, le curry et l'ananas en dés, sauter 4 minutes à feu vif.",
+      "Assaisonner de sauce poisson et parsemer de coriandre."
+    ],
+    "astuce": "L'ananas un peu trop mûr est parfait ici : il caramélise davantage."
+  },
+  {
+    "titre": "Poke bowl saumon et avocat",
+    "categorie": "plat",
+    "temps": 30,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "riz",
+        "nom": "riz rond",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "saumon",
+        "nom": "saumon très frais",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "avocat",
+        "nom": "avocat",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "concombre",
+        "nom": "concombre",
+        "qte": 0.5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "radis",
+        "nom": "radis",
+        "qte": 4,
+        "unite": "pièce"
+      },
+      {
+        "cle": "sauce_soja",
+        "nom": "sauce soja",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "vinaigre",
+        "nom": "vinaigre de riz ou de cidre",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "citron_vert",
+        "nom": "citron vert",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "graine",
+        "nom": "graines de sésame",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sucre",
+        "nom": "sucre",
+        "qte": 1,
+        "unite": "c. à c."
+      }
+    ],
+    "etapes": [
+      "Cuire le riz, l'assaisonner avec le vinaigre et le sucre, puis laisser tiédir.",
+      "Couper le saumon en cubes et le mariner 10 minutes avec la sauce soja et le jus de citron vert.",
+      "Trancher l'avocat, le concombre et les radis.",
+      "Répartir le riz dans des bols, disposer le saumon et les légumes, arroser de marinade et parsemer de sésame."
+    ],
+    "astuce": "Le saumon cru doit être extra-frais ; sinon, le saisir 2 minutes par face à la poêle."
+  },
+  {
+    "titre": "Buddha bowl quinoa et légumes rôtis",
+    "categorie": "plat",
+    "temps": 40,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "quinoa",
+        "nom": "quinoa",
+        "qte": 120,
+        "unite": "g"
+      },
+      {
+        "cle": "patate_douce",
+        "nom": "patate douce",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "pois_chiche",
+        "nom": "pois chiches",
+        "qte": 240,
+        "unite": "g"
+      },
+      {
+        "cle": "chou",
+        "nom": "chou rouge",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "avocat",
+        "nom": "avocat",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "tahini",
+        "nom": "tahini",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "paprika",
+        "nom": "paprika",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 200 °C. Couper la patate douce en cubes, la mélanger avec les pois chiches égouttés, l'huile, le paprika et du sel, puis rôtir 25 minutes.",
+      "Rincer le quinoa et le cuire 12 minutes dans deux fois son volume d'eau salée.",
+      "Émincer finement le chou rouge et trancher l'avocat.",
+      "Délayer le tahini avec le jus du citron et 3 cuillères d'eau.",
+      "Composer les bols avec le quinoa, les légumes rôtis, le chou et l'avocat, puis napper de sauce."
+    ],
+    "astuce": "Le bowl accueille toutes les fins de légumes rôtis : betterave, carotte, brocoli, courge."
+  },
+  {
+    "titre": "Moussaka légère",
+    "categorie": "plat",
+    "temps": 90,
+    "difficulte": "moyen",
+    "portions": 4,
+    "regimes": [
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "aubergine",
+        "nom": "aubergines",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "agneau",
+        "nom": "agneau ou bœuf haché",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "tomate_concassee",
+        "nom": "tomates concassées",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousses d'ail",
+        "qte": 2,
+        "unite": "gousse"
+      },
+      {
+        "cle": "cannelle",
+        "nom": "cannelle",
+        "qte": 0.5,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "yaourt",
+        "nom": "yaourt grec",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œuf",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "parmesan",
+        "nom": "parmesan râpé",
+        "qte": 40,
+        "unite": "g"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 200 °C. Trancher les aubergines en rondelles de 1 cm, les badigeonner d'huile et les rôtir 20 minutes sur une plaque.",
+      "Faire revenir l'oignon et l'ail, ajouter la viande et la dorer, puis les tomates et la cannelle ; saler, poivrer et mijoter 20 minutes.",
+      "Mélanger le yaourt, l'œuf et la moitié du parmesan.",
+      "Dans un plat, alterner aubergines et sauce viande, couvrir de l'appareil au yaourt et du reste de parmesan.",
+      "Baisser le four à 180 °C et cuire 35 minutes. Laisser reposer 10 minutes."
+    ],
+    "astuce": "Rôtir les aubergines au lieu de les frire économise beaucoup d'huile."
+  },
+  {
+    "titre": "Paella simplifiée poulet et chorizo",
+    "categorie": "plat",
+    "temps": 50,
+    "difficulte": "moyen",
+    "portions": 4,
+    "regimes": [
+      "sans_gluten",
+      "sans_lactose",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "riz",
+        "nom": "riz rond",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "poulet",
+        "nom": "hauts de cuisse de poulet",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "chorizo",
+        "nom": "chorizo",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "poivron",
+        "nom": "poivron rouge",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "petit_pois",
+        "nom": "petits pois",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "tomate_concassee",
+        "nom": "tomates concassées",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "bouillon",
+        "nom": "bouillon de volaille",
+        "qte": 80,
+        "unite": "cl"
+      },
+      {
+        "cle": "curcuma",
+        "nom": "curcuma ou safran",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "paprika",
+        "nom": "paprika fumé",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Faire dorer le poulet en morceaux 8 minutes dans l'huile dans une grande poêle, ajouter le chorizo en rondelles 2 minutes.",
+      "Ajouter l'oignon et le poivron émincés, cuire 5 minutes, puis les tomates et les épices.",
+      "Verser le riz, remuer 1 minute, puis ajouter le bouillon chaud ; saler.",
+      "Cuire 18 minutes sans remuer, ajouter les petits pois à mi-cuisson.",
+      "Couvrir d'un torchon 5 minutes hors du feu et servir avec des quartiers de citron."
+    ],
+    "astuce": "Ne pas remuer le riz : une fine croûte dorée se forme au fond, c'est le meilleur."
+  },
+  {
+    "titre": "Gnocchis à la sorrentine",
+    "categorie": "plat",
+    "temps": 35,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "gnocchi",
+        "nom": "gnocchis",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "tomate_concassee",
+        "nom": "passata",
+        "qte": 30,
+        "unite": "cl"
+      },
+      {
+        "cle": "mozzarella",
+        "nom": "mozzarella",
+        "qte": 125,
+        "unite": "g"
+      },
+      {
+        "cle": "parmesan",
+        "nom": "parmesan",
+        "qte": 30,
+        "unite": "g"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousse d'ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "basilic",
+        "nom": "basilic",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 220 °C.",
+      "Faire revenir l'ail dans l'huile, ajouter la passata, saler, poivrer et cuire 10 minutes avec quelques feuilles de basilic.",
+      "Cuire les gnocchis à l'eau bouillante salée jusqu'à ce qu'ils remontent, puis les égoutter et les mélanger à la sauce.",
+      "Verser dans un plat, couvrir de mozzarella en morceaux et de parmesan.",
+      "Gratiner 10 minutes et servir avec du basilic frais."
+    ],
+    "astuce": "Les gnocchis peuvent aller directement de la poêle au four : il suffit de les faire sauter 5 minutes."
+  },
+  {
+    "titre": "Dahl de lentilles corail",
+    "categorie": "plat",
+    "temps": 30,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "lentille_corail",
+        "nom": "lentilles corail",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "lait_coco",
+        "nom": "lait de coco",
+        "qte": 20,
+        "unite": "cl"
+      },
+      {
+        "cle": "tomate_concassee",
+        "nom": "tomates concassées",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousses d'ail",
+        "qte": 2,
+        "unite": "gousse"
+      },
+      {
+        "cle": "gingembre",
+        "nom": "gingembre",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "curry",
+        "nom": "curry",
+        "qte": 2,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "huile",
+        "nom": "huile",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 0.5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "riz",
+        "nom": "riz basmati",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Faire revenir l'oignon, l'ail et le gingembre 3 minutes dans l'huile, ajouter le curry.",
+      "Ajouter les lentilles rincées, les tomates, le lait de coco et 30 cl d'eau ; saler.",
+      "Cuire 20 minutes à feu doux en remuant, jusqu'à ce que les lentilles soient fondantes.",
+      "Ajouter un filet de jus de citron et servir avec le riz."
+    ],
+    "astuce": "Une poignée d'épinards ou de carottes râpées ajoutée en fin de cuisson enrichit le plat sans effort."
+  },
+  {
+    "titre": "Wok de bœuf aux poivrons et oignons",
+    "categorie": "plat",
+    "temps": 25,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "boeuf",
+        "nom": "bœuf (rumsteck)",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "poivron",
+        "nom": "poivrons",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "sauce_soja",
+        "nom": "sauce soja",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "miel",
+        "nom": "miel",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "gingembre",
+        "nom": "gingembre",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "ail",
+        "nom": "gousse d'ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "huile",
+        "nom": "huile",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "riz",
+        "nom": "riz",
+        "qte": 150,
+        "unite": "g"
+      }
+    ],
+    "etapes": [
+      "Cuire le riz. Couper le bœuf en fines lanières et le mélanger avec la sauce soja, le miel, l'ail et le gingembre.",
+      "Saisir le bœuf 2 minutes à feu très vif dans le wok huilé et le réserver.",
+      "Faire sauter les poivrons et l'oignon en lanières 4 minutes.",
+      "Remettre le bœuf et sa marinade, mélanger 1 minute et servir avec le riz."
+    ],
+    "astuce": "Placer la viande 20 minutes au congélateur avant de la trancher permet des lanières très fines."
+  }
+]

@@ -1,0 +1,4003 @@
+[
+  {
+    "titre": "Pavé de saumon poêlé, poireaux fondants à la crème",
+    "categorie": "plat",
+    "temps": 30,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "saumon",
+        "nom": "pavés de saumon",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "poireau",
+        "nom": "poireaux",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "creme",
+        "nom": "crème à cuisiner",
+        "qte": 10,
+        "unite": "cl"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 15,
+        "unite": "g"
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 0.5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "riz",
+        "nom": "riz basmati",
+        "qte": 140,
+        "unite": "g",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Faire cuire le riz selon les indications du paquet si on l'utilise.",
+      "Couper les poireaux en fines rondelles, les laver puis les faire fondre 15 minutes à feu doux dans le beurre avec un fond d'eau, à couvert.",
+      "Ajouter la crème, saler, poivrer et laisser réduire 3 minutes.",
+      "Pendant ce temps, saisir les pavés de saumon côté peau 5 minutes dans une poêle chaude, puis 2 minutes de l'autre côté.",
+      "Servir le saumon sur les poireaux et arroser d'un filet de jus de citron."
+    ],
+    "astuce": "Le vert des poireaux est aussi bon que le blanc : émincez-le très fin et prolongez un peu la cuisson."
+  },
+  {
+    "titre": "Saumon laqué soja-miel, brocoli et riz",
+    "categorie": "plat",
+    "temps": 30,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "saumon",
+        "nom": "pavés de saumon",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "sauce_soja",
+        "nom": "sauce soja",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "miel",
+        "nom": "miel",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "gingembre",
+        "nom": "gingembre frais",
+        "qte": 10,
+        "unite": "g"
+      },
+      {
+        "cle": "ail",
+        "nom": "ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "brocoli",
+        "nom": "brocoli",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "riz",
+        "nom": "riz",
+        "qte": 140,
+        "unite": "g"
+      },
+      {
+        "cle": "graine",
+        "nom": "graines de sésame",
+        "qte": 1,
+        "unite": "c. à c.",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Cuire le riz selon le paquet.",
+      "Mélanger la sauce soja, le miel, le gingembre râpé et l'ail écrasé.",
+      "Détailler le brocoli en fleurettes et le cuire 5 minutes à la vapeur ou à l'eau bouillante salée.",
+      "Saisir le saumon 4 minutes côté peau dans une poêle huilée, le retourner, verser la sauce et laisser caraméliser 2 à 3 minutes en arrosant.",
+      "Servir avec le riz et le brocoli, parsemer de sésame."
+    ],
+    "astuce": "Les tiges du brocoli se pèlent et se coupent en bâtonnets : elles cuisent en même temps que les fleurettes."
+  },
+  {
+    "titre": "Saumon en papillote, courgette et tomates cerises",
+    "categorie": "plat",
+    "temps": 30,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "saumon",
+        "nom": "pavés de saumon",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "courgette",
+        "nom": "courgette",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "tomate_cerise",
+        "nom": "tomates cerises",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "aneth",
+        "nom": "aneth",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 200 °C.",
+      "Couper la courgette en fines rondelles et les tomates cerises en deux.",
+      "Répartir les légumes sur deux grandes feuilles de papier cuisson, poser le saumon dessus, ajouter des rondelles de citron, l'huile, le sel et le poivre.",
+      "Fermer hermétiquement les papillotes et enfourner 18 minutes.",
+      "Ouvrir à table et parsemer d'aneth."
+    ],
+    "astuce": "Toute fin de légume tendre (poivron, fenouil, épinards) trouve sa place dans la papillote."
+  },
+  {
+    "titre": "Cabillaud au beurre citronné et purée de carottes",
+    "categorie": "plat",
+    "temps": 35,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "poisson_blanc",
+        "nom": "dos de cabillaud",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "carotte",
+        "nom": "carottes",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "pomme_de_terre",
+        "nom": "pomme de terre",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 30,
+        "unite": "g"
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "persil",
+        "nom": "persil",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Éplucher les carottes et la pomme de terre, les couper en morceaux et les cuire 20 minutes à l'eau salée.",
+      "Égoutter et écraser avec la moitié du beurre, saler et poivrer.",
+      "Cuire le cabillaud 3 à 4 minutes de chaque côté dans une poêle avec le reste du beurre, jusqu'à ce que la chair s'effeuille.",
+      "Hors du feu, ajouter le jus de citron dans le beurre de la poêle et en napper le poisson.",
+      "Servir avec la purée et le persil haché."
+    ],
+    "astuce": "Une purée de carottes un peu ancienne retrouve du peps avec une pincée de cumin."
+  },
+  {
+    "titre": "Filets de perche meunière, pommes vapeur",
+    "categorie": "plat",
+    "temps": 30,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "poisson_blanc",
+        "nom": "filets de perche",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "farine",
+        "nom": "farine",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 40,
+        "unite": "g"
+      },
+      {
+        "cle": "pomme_de_terre",
+        "nom": "pommes de terre",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "persil",
+        "nom": "persil",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Cuire les pommes de terre épluchées 20 minutes à la vapeur.",
+      "Saler, poivrer et fariner légèrement les filets de perche en tapotant pour retirer l'excédent.",
+      "Faire mousser le beurre dans une grande poêle et dorer les filets 1 à 2 minutes par face.",
+      "Arroser de jus de citron, parsemer de persil haché et servir aussitôt avec les pommes vapeur."
+    ],
+    "astuce": "Avec une farine de riz ou de maïs, la recette devient sans gluten."
+  },
+  {
+    "titre": "Colin à la tomate et aux olives",
+    "categorie": "plat",
+    "temps": 30,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "poisson_blanc",
+        "nom": "filets de colin",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "tomate_concassee",
+        "nom": "tomates concassées",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "olive",
+        "nom": "olives noires",
+        "qte": 50,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "ail",
+        "nom": "ail",
+        "qte": 2,
+        "unite": "gousse"
+      },
+      {
+        "cle": "herbes_provence",
+        "nom": "thym ou origan",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "semoule",
+        "nom": "semoule",
+        "qte": 120,
+        "unite": "g",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Faire revenir l'oignon et l'ail émincés 5 minutes dans l'huile d'olive.",
+      "Ajouter les tomates, les herbes et les olives, saler, poivrer et laisser mijoter 10 minutes.",
+      "Déposer le colin dans la sauce, couvrir et cuire 8 minutes à feu doux.",
+      "Servir avec de la semoule ou du pain pour saucer."
+    ],
+    "astuce": "Des câpres ou un fond de poivron grillé remplacent volontiers les olives."
+  },
+  {
+    "titre": "Curry de poisson blanc au lait de coco",
+    "categorie": "plat",
+    "temps": 30,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "poisson_blanc",
+        "nom": "cabillaud ou lieu",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "lait_coco",
+        "nom": "lait de coco",
+        "qte": 200,
+        "unite": "ml"
+      },
+      {
+        "cle": "curry",
+        "nom": "pâte ou poudre de curry",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "poivron",
+        "nom": "poivron rouge",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "epinard",
+        "nom": "pousses d'épinards",
+        "qte": 80,
+        "unite": "g"
+      },
+      {
+        "cle": "riz",
+        "nom": "riz basmati",
+        "qte": 140,
+        "unite": "g"
+      },
+      {
+        "cle": "huile",
+        "nom": "huile",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "coriandre",
+        "nom": "coriandre",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Cuire le riz selon le paquet.",
+      "Faire revenir l'oignon et le poivron émincés 5 minutes dans l'huile, ajouter le curry et remuer 1 minute.",
+      "Verser le lait de coco, porter à frémissement puis ajouter le poisson en gros cubes.",
+      "Cuire 6 minutes à petit feu, ajouter les épinards et laisser tomber 1 minute.",
+      "Saler et servir sur le riz avec la coriandre."
+    ],
+    "astuce": "Le poisson surgelé convient très bien : ajoutez-le encore gelé et comptez 3 minutes de plus."
+  },
+  {
+    "titre": "Pâtes au thon, tomate et câpres",
+    "categorie": "plat",
+    "temps": 20,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pates",
+        "nom": "spaghetti",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "thon",
+        "nom": "thon en boîte",
+        "qte": 1,
+        "unite": "boîte"
+      },
+      {
+        "cle": "tomate_concassee",
+        "nom": "tomates concassées",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "capre",
+        "nom": "câpres",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "ail",
+        "nom": "ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "persil",
+        "nom": "persil",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Cuire les pâtes dans une grande casserole d'eau salée.",
+      "Faire revenir l'ail émincé dans l'huile 1 minute, ajouter les tomates et laisser réduire 10 minutes.",
+      "Ajouter le thon égoutté émietté et les câpres, réchauffer 2 minutes, poivrer.",
+      "Mélanger avec les pâtes égouttées et parsemer de persil."
+    ],
+    "astuce": "Gardez une louche d'eau de cuisson pour détendre la sauce si elle a trop réduit."
+  },
+  {
+    "titre": "Galettes de thon et pommes de terre",
+    "categorie": "plat",
+    "temps": 35,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "thon",
+        "nom": "thon en boîte",
+        "qte": 1,
+        "unite": "boîte"
+      },
+      {
+        "cle": "pomme_de_terre",
+        "nom": "pommes de terre",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œuf",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oignon_nouveau",
+        "nom": "oignon nouveau",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "chapelure",
+        "nom": "chapelure",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "huile",
+        "nom": "huile",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 0.5,
+        "unite": "pièce",
+        "optionnel": true
+      },
+      {
+        "cle": "salade",
+        "nom": "salade verte",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Cuire les pommes de terre épluchées 20 minutes à l'eau salée, les égoutter et les écraser.",
+      "Mélanger avec le thon égoutté, l'œuf, l'oignon nouveau ciselé, sel et poivre.",
+      "Former 6 galettes et les passer dans la chapelure.",
+      "Les dorer 3 à 4 minutes de chaque côté dans l'huile chaude.",
+      "Servir avec un quartier de citron et de la salade."
+    ],
+    "astuce": "Un reste de purée de la veille fait parfaitement l'affaire à la place des pommes de terre."
+  },
+  {
+    "titre": "Riz sauté au thon et petits pois",
+    "categorie": "plat",
+    "temps": 20,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "riz",
+        "nom": "riz cuit de la veille",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "thon",
+        "nom": "thon en boîte",
+        "qte": 1,
+        "unite": "boîte"
+      },
+      {
+        "cle": "petit_pois",
+        "nom": "petits pois surgelés",
+        "qte": 120,
+        "unite": "g"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oignon_nouveau",
+        "nom": "oignons nouveaux",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "sauce_soja",
+        "nom": "sauce soja",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "huile",
+        "nom": "huile",
+        "qte": 1,
+        "unite": "c. à s."
+      }
+    ],
+    "etapes": [
+      "Chauffer l'huile dans une grande poêle ou un wok, faire revenir le blanc des oignons nouveaux 1 minute.",
+      "Ajouter les petits pois et le riz, faire sauter 5 minutes à feu vif.",
+      "Pousser le riz sur le côté, y casser les œufs et les brouiller avant de tout mélanger.",
+      "Ajouter le thon émietté et la sauce soja, sauter encore 2 minutes et parsemer du vert des oignons."
+    ],
+    "astuce": "Le riz froid de la veille ne colle pas : c'est le meilleur allié de ce plat."
+  },
+  {
+    "titre": "Wraps au thon, maïs et crudités",
+    "categorie": "plat",
+    "temps": 15,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "tortilla",
+        "nom": "tortillas",
+        "qte": 4,
+        "unite": "pièce"
+      },
+      {
+        "cle": "thon",
+        "nom": "thon en boîte",
+        "qte": 1,
+        "unite": "boîte"
+      },
+      {
+        "cle": "mais",
+        "nom": "maïs",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "fromage_frais",
+        "nom": "fromage frais",
+        "qte": 60,
+        "unite": "g"
+      },
+      {
+        "cle": "carotte",
+        "nom": "carotte",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "salade",
+        "nom": "feuilles de salade",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 0.5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Mélanger le thon égoutté, le maïs, le fromage frais, le jus de citron, sel et poivre.",
+      "Râper la carotte.",
+      "Tartiner les tortillas de la préparation, ajouter la carotte et la salade.",
+      "Rouler serré et couper en deux."
+    ],
+    "astuce": "Un reste de concombre, de poivron ou d'avocat se glisse très bien dans les wraps."
+  },
+  {
+    "titre": "Tortilla espagnole au thon et poivron",
+    "categorie": "plat",
+    "temps": 40,
+    "difficulte": "moyen",
+    "portions": 2,
+    "regimes": [
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "pomme_de_terre",
+        "nom": "pommes de terre",
+        "qte": 350,
+        "unite": "g"
+      },
+      {
+        "cle": "thon",
+        "nom": "thon en boîte",
+        "qte": 1,
+        "unite": "boîte"
+      },
+      {
+        "cle": "poivron",
+        "nom": "poivron",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Couper les pommes de terre en fines lamelles, l'oignon et le poivron en lanières.",
+      "Les cuire 20 minutes à feu moyen dans l'huile d'olive, à couvert, en remuant de temps en temps.",
+      "Battre les œufs avec sel et poivre, ajouter les légumes et le thon émietté.",
+      "Reverser dans la poêle et cuire 6 minutes à feu doux, puis retourner à l'aide d'une assiette et cuire encore 4 minutes."
+    ],
+    "astuce": "Froide le lendemain, elle se transporte très bien pour un pique-nique."
+  },
+  {
+    "titre": "Sardines poêlées sur pain grillé, tomates et oignon rouge",
+    "categorie": "plat",
+    "temps": 15,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "sardine",
+        "nom": "sardines à l'huile",
+        "qte": 2,
+        "unite": "boîte"
+      },
+      {
+        "cle": "pain",
+        "nom": "pain de campagne",
+        "qte": 4,
+        "unite": "tranche"
+      },
+      {
+        "cle": "tomate",
+        "nom": "tomates",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oignon_rouge",
+        "nom": "oignon rouge",
+        "qte": 0.5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "ail",
+        "nom": "ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 0.5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "persil",
+        "nom": "persil",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Griller les tranches de pain et les frotter avec la gousse d'ail coupée.",
+      "Couper les tomates en dés et l'oignon rouge très finement, arroser de jus de citron.",
+      "Réchauffer les sardines égouttées 2 minutes par face dans une poêle.",
+      "Garnir les tartines de tomates, poser les sardines dessus, poivrer et parsemer de persil."
+    ],
+    "astuce": "Le pain rassis est idéal : il grille mieux et ne s'imbibe pas trop."
+  },
+  {
+    "titre": "Spaghetti aux sardines, citron et chapelure dorée",
+    "categorie": "plat",
+    "temps": 20,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pates",
+        "nom": "spaghetti",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "sardine",
+        "nom": "sardines à l'huile",
+        "qte": 1,
+        "unite": "boîte"
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "ail",
+        "nom": "ail",
+        "qte": 2,
+        "unite": "gousse"
+      },
+      {
+        "cle": "chapelure",
+        "nom": "chapelure ou pain rassis mixé",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "piment_poudre",
+        "nom": "piment",
+        "qte": 1,
+        "unite": "pincée",
+        "optionnel": true
+      },
+      {
+        "cle": "persil",
+        "nom": "persil",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Cuire les spaghetti dans l'eau bouillante salée.",
+      "Dorer la chapelure à sec dans une poêle 2 minutes, réserver.",
+      "Dans la même poêle, faire revenir l'ail émincé avec un peu d'huile des sardines, ajouter les sardines et les écraser grossièrement.",
+      "Ajouter les pâtes égouttées, le zeste et le jus du citron, le piment et une louche d'eau de cuisson, mélanger.",
+      "Servir parsemé de chapelure et de persil."
+    ],
+    "astuce": "Le maquereau en boîte fonctionne exactement de la même façon."
+  },
+  {
+    "titre": "Rillettes de maquereau en assiette complète",
+    "categorie": "plat",
+    "temps": 15,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "sardine",
+        "nom": "maquereau en boîte",
+        "qte": 2,
+        "unite": "boîte"
+      },
+      {
+        "cle": "fromage_frais",
+        "nom": "fromage frais",
+        "qte": 80,
+        "unite": "g"
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "ciboulette",
+        "nom": "ciboulette",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "pomme_de_terre",
+        "nom": "pommes de terre",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "concombre",
+        "nom": "concombre",
+        "qte": 0.5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "radis",
+        "nom": "radis",
+        "qte": 6,
+        "unite": "pièce",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Cuire les pommes de terre en robe des champs 20 minutes à l'eau salée.",
+      "Écraser le maquereau égoutté à la fourchette avec le fromage frais, le jus de citron et la ciboulette ciselée, poivrer.",
+      "Couper le concombre et les radis en rondelles.",
+      "Servir les pommes de terre tièdes coupées en deux avec les rillettes et les crudités."
+    ],
+    "astuce": "Les rillettes se gardent 2 jours au frais dans un bocal fermé."
+  },
+  {
+    "titre": "Tagliatelle au saumon fumé et petits pois",
+    "categorie": "plat",
+    "temps": 20,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pates",
+        "nom": "tagliatelle",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "saumon_fume",
+        "nom": "saumon fumé",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "petit_pois",
+        "nom": "petits pois",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "creme",
+        "nom": "crème",
+        "qte": 15,
+        "unite": "cl"
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 0.5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "aneth",
+        "nom": "aneth",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Cuire les tagliatelle dans l'eau salée, ajouter les petits pois 4 minutes avant la fin.",
+      "Chauffer doucement la crème avec le zeste du citron et du poivre.",
+      "Égoutter pâtes et petits pois, les mélanger à la crème.",
+      "Ajouter le saumon fumé en lanières hors du feu et l'aneth."
+    ],
+    "astuce": "Les chutes de saumon fumé, vendues moins cher, sont parfaites ici."
+  },
+  {
+    "titre": "Pommes de terre farcies au saumon fumé et fromage blanc",
+    "categorie": "plat",
+    "temps": 50,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pomme_de_terre",
+        "nom": "grosses pommes de terre",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "saumon_fume",
+        "nom": "saumon fumé",
+        "qte": 80,
+        "unite": "g"
+      },
+      {
+        "cle": "fromage_blanc",
+        "nom": "fromage blanc",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "ciboulette",
+        "nom": "ciboulette",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 0.5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "epinard",
+        "nom": "pousses d'épinards",
+        "qte": 60,
+        "unite": "g",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 200 °C.",
+      "Piquer les pommes de terre et les cuire 45 minutes au four, jusqu'à ce qu'elles soient tendres.",
+      "Mélanger le fromage blanc, la ciboulette, le jus de citron, sel et poivre.",
+      "Fendre les pommes de terre, les garnir de fromage blanc, de saumon fumé et de quelques pousses d'épinards."
+    ],
+    "astuce": "Pour gagner du temps, précuire les pommes de terre 8 minutes au micro-ondes avant de finir 15 minutes au four."
+  },
+  {
+    "titre": "Crevettes sautées à l'ail, nouilles et légumes",
+    "categorie": "plat",
+    "temps": 20,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "crevette",
+        "nom": "crevettes décortiquées",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "pates",
+        "nom": "nouilles",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "poivron",
+        "nom": "poivron",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "carotte",
+        "nom": "carotte",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "ail",
+        "nom": "ail",
+        "qte": 2,
+        "unite": "gousse"
+      },
+      {
+        "cle": "sauce_soja",
+        "nom": "sauce soja",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "huile",
+        "nom": "huile",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "citron_vert",
+        "nom": "citron vert",
+        "qte": 0.5,
+        "unite": "pièce",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Cuire les nouilles selon le paquet et les égoutter.",
+      "Couper le poivron et la carotte en fines lanières.",
+      "Faire sauter les légumes 4 minutes à feu vif dans l'huile, ajouter l'ail et les crevettes et cuire 3 minutes jusqu'à ce qu'elles soient roses.",
+      "Ajouter les nouilles et la sauce soja, sauter 1 minute et servir avec un trait de citron vert."
+    ],
+    "astuce": "Une poignée de chou émincé ou de pousses d'épinards complète bien le wok."
+  },
+  {
+    "titre": "Risotto aux crevettes et courgette",
+    "categorie": "plat",
+    "temps": 35,
+    "difficulte": "moyen",
+    "portions": 2,
+    "regimes": [
+      "sans_gluten",
+      "sans_porc"
+    ],
+    "ingredients": [
+      {
+        "cle": "riz_risotto",
+        "nom": "riz à risotto",
+        "qte": 160,
+        "unite": "g"
+      },
+      {
+        "cle": "crevette",
+        "nom": "crevettes décortiquées",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "courgette",
+        "nom": "courgette",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "echalote",
+        "nom": "échalote",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "vin_blanc",
+        "nom": "vin blanc",
+        "qte": 5,
+        "unite": "cl"
+      },
+      {
+        "cle": "bouillon",
+        "nom": "bouillon de légumes chaud",
+        "qte": 70,
+        "unite": "cl"
+      },
+      {
+        "cle": "parmesan",
+        "nom": "parmesan",
+        "qte": 30,
+        "unite": "g"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 15,
+        "unite": "g"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Faire revenir l'échalote ciselée dans l'huile, ajouter le riz et le nacrer 2 minutes.",
+      "Déglacer au vin blanc, puis ajouter le bouillon louche par louche en remuant, pendant 18 minutes.",
+      "À mi-cuisson, ajouter la courgette en petits dés.",
+      "Saisir les crevettes 2 minutes dans une poêle chaude.",
+      "Hors du feu, incorporer le beurre et le parmesan au risotto, servir avec les crevettes."
+    ],
+    "astuce": "Vérifiez que votre bouillon cube est sans gluten ; sans vin, remplacez par un trait de jus de citron en fin de cuisson."
+  },
+  {
+    "titre": "Moules marinières et frites au four",
+    "categorie": "plat",
+    "temps": 45,
+    "difficulte": "moyen",
+    "portions": 2,
+    "regimes": [
+      "sans_gluten",
+      "sans_porc"
+    ],
+    "ingredients": [
+      {
+        "cle": "moule",
+        "nom": "moules",
+        "qte": 1.5,
+        "unite": "kg"
+      },
+      {
+        "cle": "echalote",
+        "nom": "échalotes",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "vin_blanc",
+        "nom": "vin blanc",
+        "qte": 15,
+        "unite": "cl"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 20,
+        "unite": "g"
+      },
+      {
+        "cle": "persil",
+        "nom": "persil",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "pomme_de_terre",
+        "nom": "pommes de terre",
+        "qte": 600,
+        "unite": "g"
+      },
+      {
+        "cle": "huile",
+        "nom": "huile",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 220 °C. Couper les pommes de terre en frites, les mélanger avec l'huile et le sel et les cuire 35 minutes en les retournant à mi-cuisson.",
+      "Gratter et rincer les moules, jeter celles qui restent ouvertes quand on les tapote.",
+      "Faire fondre les échalotes ciselées dans le beurre 3 minutes dans une grande casserole.",
+      "Ajouter les moules et le vin blanc, couvrir et cuire 5 à 6 minutes à feu vif en secouant, jusqu'à ce qu'elles s'ouvrent.",
+      "Parsemer de persil, poivrer et servir avec les frites."
+    ],
+    "astuce": "Le jus de cuisson filtré se congèle et parfume une soupe de poisson ou un risotto."
+  },
+  {
+    "titre": "Moules au curry et lait de coco",
+    "categorie": "plat",
+    "temps": 30,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "moule",
+        "nom": "moules",
+        "qte": 1.5,
+        "unite": "kg"
+      },
+      {
+        "cle": "lait_coco",
+        "nom": "lait de coco",
+        "qte": 200,
+        "unite": "ml"
+      },
+      {
+        "cle": "curry",
+        "nom": "curry",
+        "qte": 2,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "ail",
+        "nom": "ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "tomate",
+        "nom": "tomate",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "coriandre",
+        "nom": "coriandre",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "riz",
+        "nom": "riz",
+        "qte": 120,
+        "unite": "g",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Nettoyer les moules en éliminant celles qui sont ouvertes ou cassées.",
+      "Faire revenir l'oignon et l'ail émincés dans une grande casserole avec un peu d'eau, ajouter le curry et la tomate en dés.",
+      "Verser le lait de coco, porter à ébullition puis ajouter les moules.",
+      "Couvrir et cuire 6 minutes à feu vif en remuant à mi-cuisson.",
+      "Parsemer de coriandre et servir avec du riz ou du pain."
+    ],
+    "astuce": "Un reste de poivron ou de carotte en julienne s'ajoute avec l'oignon."
+  },
+  {
+    "titre": "Brochettes de crevettes, poivron et riz au citron",
+    "categorie": "plat",
+    "temps": 30,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "crevette",
+        "nom": "gambas décortiquées",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "poivron",
+        "nom": "poivron",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oignon_rouge",
+        "nom": "oignon rouge",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "paprika",
+        "nom": "paprika",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "riz",
+        "nom": "riz",
+        "qte": 140,
+        "unite": "g"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Cuire le riz et y ajouter le zeste du citron une fois cuit.",
+      "Mariner les crevettes 10 minutes avec l'huile, le paprika, le jus de citron, sel et poivre.",
+      "Couper le poivron et l'oignon en morceaux et les enfiler en alternance avec les crevettes sur des piques.",
+      "Griller les brochettes 6 à 8 minutes à la plancha ou sous le gril du four en les retournant."
+    ],
+    "astuce": "Des tranches de courgette remplacent bien le poivron sur les piques."
+  },
+  {
+    "titre": "Quinoa sauté au surimi, maïs et concombre",
+    "categorie": "plat",
+    "temps": 20,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "quinoa",
+        "nom": "quinoa",
+        "qte": 140,
+        "unite": "g"
+      },
+      {
+        "cle": "surimi",
+        "nom": "bâtonnets de surimi",
+        "qte": 8,
+        "unite": "pièce"
+      },
+      {
+        "cle": "mais",
+        "nom": "maïs",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "concombre",
+        "nom": "concombre",
+        "qte": 0.5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oignon_nouveau",
+        "nom": "oignon nouveau",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "sauce_soja",
+        "nom": "sauce soja",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "huile",
+        "nom": "huile",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "citron_vert",
+        "nom": "citron vert",
+        "qte": 0.5,
+        "unite": "pièce"
+      }
+    ],
+    "etapes": [
+      "Rincer le quinoa et le cuire 12 minutes à l'eau, puis l'égoutter.",
+      "Faire sauter le quinoa et le maïs 3 minutes dans l'huile chaude.",
+      "Ajouter le surimi coupé en tronçons et la sauce soja, réchauffer 1 minute.",
+      "Servir tiède avec le concombre en dés, l'oignon nouveau émincé et un trait de citron vert."
+    ],
+    "astuce": "Le surimi contient souvent du blé : vérifiez l'étiquette si vous évitez le gluten."
+  },
+  {
+    "titre": "Omelette roulée au surimi et ciboulette, riz sauté aux légumes",
+    "categorie": "plat",
+    "temps": 25,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 4,
+        "unite": "pièce"
+      },
+      {
+        "cle": "surimi",
+        "nom": "bâtonnets de surimi",
+        "qte": 6,
+        "unite": "pièce"
+      },
+      {
+        "cle": "ciboulette",
+        "nom": "ciboulette",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "riz",
+        "nom": "riz cuit",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "carotte",
+        "nom": "carotte",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "courgette",
+        "nom": "courgette",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "sauce_soja",
+        "nom": "sauce soja",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "huile",
+        "nom": "huile",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Couper la carotte et la courgette en petits dés et les faire sauter 6 minutes dans la moitié de l'huile, ajouter le riz et la sauce soja et réchauffer 3 minutes.",
+      "Battre les œufs avec la ciboulette, sel et poivre, effilocher le surimi.",
+      "Cuire l'omelette à feu doux dans le reste de l'huile, répartir le surimi dessus quand elle est presque prise.",
+      "Rouler l'omelette, la couper en tronçons et servir sur le riz sauté."
+    ],
+    "astuce": "Le riz sauté accueille tous les petits restes de légumes du bac."
+  },
+  {
+    "titre": "Cabillaud en croûte d'herbes, haricots verts",
+    "categorie": "plat",
+    "temps": 30,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "poisson_blanc",
+        "nom": "dos de cabillaud",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "chapelure",
+        "nom": "chapelure ou pain rassis mixé",
+        "qte": 4,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "persil",
+        "nom": "persil",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "ail",
+        "nom": "ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre mou",
+        "qte": 25,
+        "unite": "g"
+      },
+      {
+        "cle": "haricot_vert",
+        "nom": "haricots verts",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 0.5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 200 °C.",
+      "Mélanger la chapelure, le persil haché, l'ail écrasé, le beurre mou, sel et poivre.",
+      "Poser le cabillaud dans un plat, le couvrir de la croûte en pressant et enfourner 15 minutes.",
+      "Pendant ce temps, cuire les haricots verts 8 minutes à l'eau bouillante salée.",
+      "Servir avec un filet de citron."
+    ],
+    "astuce": "Le pain rassis mixé et congelé sous forme de chapelure se garde des mois."
+  },
+  {
+    "titre": "Dahl de lentilles corail aux épinards",
+    "categorie": "plat",
+    "temps": 30,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "lentille_corail",
+        "nom": "lentilles corail",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "lait_coco",
+        "nom": "lait de coco",
+        "qte": 200,
+        "unite": "ml"
+      },
+      {
+        "cle": "tomate_concassee",
+        "nom": "tomates concassées",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "ail",
+        "nom": "ail",
+        "qte": 2,
+        "unite": "gousse"
+      },
+      {
+        "cle": "gingembre",
+        "nom": "gingembre",
+        "qte": 10,
+        "unite": "g"
+      },
+      {
+        "cle": "curry",
+        "nom": "curry ou garam masala",
+        "qte": 2,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "epinard",
+        "nom": "épinards",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "riz",
+        "nom": "riz basmati",
+        "qte": 140,
+        "unite": "g"
+      },
+      {
+        "cle": "huile",
+        "nom": "huile",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Cuire le riz selon le paquet.",
+      "Faire revenir l'oignon émincé 5 minutes dans l'huile, ajouter l'ail, le gingembre râpé et le curry et remuer 1 minute.",
+      "Ajouter les lentilles rincées, les tomates, le lait de coco et 30 cl d'eau, cuire 15 minutes à feu doux en remuant.",
+      "Incorporer les épinards et laisser tomber 2 minutes, saler.",
+      "Servir avec le riz."
+    ],
+    "astuce": "Le dahl épaissit en refroidissant : détendez-le avec un peu d'eau en le réchauffant."
+  },
+  {
+    "titre": "Dahl de lentilles corail à la courge",
+    "categorie": "plat",
+    "temps": 35,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "lentille_corail",
+        "nom": "lentilles corail",
+        "qte": 120,
+        "unite": "g"
+      },
+      {
+        "cle": "courge",
+        "nom": "courge butternut",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "curcuma",
+        "nom": "curcuma",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "cumin",
+        "nom": "cumin",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "lait_coco",
+        "nom": "lait de coco",
+        "qte": 150,
+        "unite": "ml"
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 0.5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "huile",
+        "nom": "huile",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "coriandre",
+        "nom": "coriandre",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Éplucher la courge et la couper en dés de 2 cm.",
+      "Faire revenir l'oignon émincé dans l'huile avec le cumin et le curcuma 3 minutes.",
+      "Ajouter la courge, les lentilles rincées, le lait de coco et 40 cl d'eau, cuire 20 minutes à couvert.",
+      "Saler, ajouter le jus de citron et écraser grossièrement une partie de la courge.",
+      "Parsemer de coriandre et servir avec du riz ou du pain plat."
+    ],
+    "astuce": "La patate douce ou la carotte remplacent la courge sans rien changer d'autre."
+  },
+  {
+    "titre": "Lentilles vertes mijotées aux carottes",
+    "categorie": "plat",
+    "temps": 45,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "lentille",
+        "nom": "lentilles vertes",
+        "qte": 160,
+        "unite": "g"
+      },
+      {
+        "cle": "carotte",
+        "nom": "carottes",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "celeri",
+        "nom": "branche de céleri",
+        "qte": 1,
+        "unite": "pièce",
+        "optionnel": true
+      },
+      {
+        "cle": "herbes_provence",
+        "nom": "thym et laurier",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "moutarde",
+        "nom": "moutarde",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "vinaigre",
+        "nom": "vinaigre",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Faire revenir l'oignon émincé dans l'huile, ajouter les carottes et le céleri en dés.",
+      "Ajouter les lentilles rincées, les herbes et trois fois leur volume d'eau froide.",
+      "Cuire 30 minutes à frémissement, sans saler, jusqu'à ce que les lentilles soient tendres.",
+      "Égoutter si besoin, saler, poivrer et assaisonner avec la moutarde et le vinaigre."
+    ],
+    "astuce": "Avec un œuf poché par-dessus, c'est un repas complet ; la version reste vegan sans."
+  },
+  {
+    "titre": "Boulettes de lentilles, sauce tomate",
+    "categorie": "plat",
+    "temps": 50,
+    "difficulte": "moyen",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "lentille",
+        "nom": "lentilles cuites",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "chapelure",
+        "nom": "chapelure",
+        "qte": 50,
+        "unite": "g"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œuf",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "ail",
+        "nom": "ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "cumin",
+        "nom": "cumin",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "tomate_concassee",
+        "nom": "tomates concassées",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "pates",
+        "nom": "spaghetti",
+        "qte": 160,
+        "unite": "g",
+        "optionnel": true
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 200 °C.",
+      "Mixer grossièrement les lentilles avec la moitié de l'oignon, l'ail, le cumin, l'œuf, la chapelure, sel et poivre.",
+      "Former une douzaine de boulettes, les poser sur une plaque huilée et cuire 20 minutes en les retournant à mi-cuisson.",
+      "Faire revenir le reste de l'oignon dans l'huile, ajouter les tomates et cuire 15 minutes.",
+      "Plonger les boulettes dans la sauce et servir avec des pâtes ou du pain."
+    ],
+    "astuce": "Si la pâte colle trop aux mains, ajoutez une cuillère de chapelure et mouillez-vous les mains."
+  },
+  {
+    "titre": "Lentilles au lait de coco et patate douce",
+    "categorie": "plat",
+    "temps": 40,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "lentille",
+        "nom": "lentilles brunes",
+        "qte": 140,
+        "unite": "g"
+      },
+      {
+        "cle": "patate_douce",
+        "nom": "patate douce",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "lait_coco",
+        "nom": "lait de coco",
+        "qte": 200,
+        "unite": "ml"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "gingembre",
+        "nom": "gingembre",
+        "qte": 10,
+        "unite": "g"
+      },
+      {
+        "cle": "curry",
+        "nom": "curry",
+        "qte": 2,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "huile",
+        "nom": "huile",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Faire revenir l'oignon et le gingembre dans l'huile, ajouter le curry.",
+      "Ajouter les lentilles rincées et 50 cl d'eau, cuire 15 minutes.",
+      "Ajouter la patate douce en dés et le lait de coco, poursuivre 15 minutes jusqu'à ce que tout soit tendre.",
+      "Saler et servir tel quel ou avec du riz."
+    ],
+    "astuce": "Se congèle très bien en portions."
+  },
+  {
+    "titre": "Chili sin carne aux haricots rouges",
+    "categorie": "plat",
+    "temps": 40,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "haricot_rouge",
+        "nom": "haricots rouges en boîte",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "tomate_concassee",
+        "nom": "tomates concassées",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "poivron",
+        "nom": "poivron",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "ail",
+        "nom": "ail",
+        "qte": 2,
+        "unite": "gousse"
+      },
+      {
+        "cle": "mais",
+        "nom": "maïs",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "cumin",
+        "nom": "cumin",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "paprika",
+        "nom": "paprika",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "piment_poudre",
+        "nom": "piment",
+        "qte": 1,
+        "unite": "pincée"
+      },
+      {
+        "cle": "riz",
+        "nom": "riz",
+        "qte": 140,
+        "unite": "g"
+      },
+      {
+        "cle": "huile",
+        "nom": "huile",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Cuire le riz selon le paquet.",
+      "Faire revenir l'oignon, l'ail et le poivron en dés 5 minutes dans l'huile, ajouter les épices.",
+      "Ajouter les tomates, les haricots rincés et le maïs, saler et poivrer.",
+      "Laisser mijoter 25 minutes à couvert en remuant de temps en temps.",
+      "Servir avec le riz."
+    ],
+    "astuce": "Une carotte râpée ou une courgette en dés se fondent dans la sauce et allongent le chili."
+  },
+  {
+    "titre": "Burritos aux haricots noirs et patate douce",
+    "categorie": "plat",
+    "temps": 35,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "haricot_rouge",
+        "nom": "haricots noirs ou rouges",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "patate_douce",
+        "nom": "patate douce",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "tortilla",
+        "nom": "tortillas",
+        "qte": 4,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oignon_rouge",
+        "nom": "oignon rouge",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "cumin",
+        "nom": "cumin",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "avocat",
+        "nom": "avocat",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "citron_vert",
+        "nom": "citron vert",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "salade",
+        "nom": "salade",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "huile",
+        "nom": "huile",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Couper la patate douce en petits dés et la poêler 15 minutes à couvert dans l'huile avec le cumin.",
+      "Ajouter l'oignon émincé et les haricots égouttés, écraser légèrement et cuire 5 minutes, saler.",
+      "Écraser l'avocat avec le jus du citron vert et une pincée de sel.",
+      "Garnir les tortillas chaudes de haricots, d'avocat et de salade, puis les rouler."
+    ],
+    "astuce": "Les burritos garnis se réchauffent 3 minutes à la poêle pour une version croustillante."
+  },
+  {
+    "titre": "Haricots blancs à la tomate et au romarin",
+    "categorie": "plat",
+    "temps": 25,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "haricot_blanc",
+        "nom": "haricots blancs en boîte",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "tomate_concassee",
+        "nom": "tomates concassées",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "ail",
+        "nom": "ail",
+        "qte": 2,
+        "unite": "gousse"
+      },
+      {
+        "cle": "herbes_provence",
+        "nom": "romarin",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "epinard",
+        "nom": "épinards",
+        "qte": 100,
+        "unite": "g",
+        "optionnel": true
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Faire revenir l'oignon et l'ail émincés dans l'huile 5 minutes avec le romarin.",
+      "Ajouter les tomates et laisser réduire 8 minutes.",
+      "Ajouter les haricots rincés, saler, poivrer et mijoter 8 minutes.",
+      "Incorporer les épinards en fin de cuisson et servir avec du pain grillé."
+    ],
+    "astuce": "Un pain rassis grillé et frotté à l'ail est l'accompagnement idéal."
+  },
+  {
+    "titre": "Haricots blancs, poireaux et champignons à la moutarde",
+    "categorie": "plat",
+    "temps": 30,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "haricot_blanc",
+        "nom": "haricots blancs ou cocos",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "poireau",
+        "nom": "poireau",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "champignon",
+        "nom": "champignons de Paris",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "moutarde",
+        "nom": "moutarde à l'ancienne",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "creme",
+        "nom": "crème",
+        "qte": 10,
+        "unite": "cl"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 15,
+        "unite": "g"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Émincer le poireau et les champignons.",
+      "Faire fondre le poireau 8 minutes dans le beurre, ajouter les champignons et cuire 6 minutes à feu vif.",
+      "Ajouter les haricots égouttés, la crème et la moutarde, mijoter 5 minutes.",
+      "Saler, poivrer et servir avec des pommes de terre ou du pain."
+    ],
+    "astuce": "Remplacez la crème par du lait végétal ou de la crème d'avoine pour une version vegan."
+  },
+  {
+    "titre": "Falafels au four, sauce yaourt et crudités",
+    "categorie": "plat",
+    "temps": 45,
+    "difficulte": "moyen",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pois_chiche",
+        "nom": "pois chiches cuits",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 0.5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "ail",
+        "nom": "ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "persil",
+        "nom": "persil",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "cumin",
+        "nom": "cumin",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "farine",
+        "nom": "farine",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "yaourt",
+        "nom": "yaourt nature",
+        "qte": 1,
+        "unite": "pot"
+      },
+      {
+        "cle": "concombre",
+        "nom": "concombre",
+        "qte": 0.5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "tomate",
+        "nom": "tomates",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "pain",
+        "nom": "pains pita",
+        "qte": 2,
+        "unite": "pièce",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 200 °C.",
+      "Mixer les pois chiches égouttés avec l'oignon, l'ail, le persil, le cumin, la farine, sel et poivre, sans réduire en purée lisse.",
+      "Former 12 boulettes aplaties, les badigeonner d'huile et les cuire 25 minutes en les retournant à mi-cuisson.",
+      "Mélanger le yaourt avec un peu de concombre râpé, sel et poivre.",
+      "Servir les falafels avec la sauce, les tomates et le reste du concombre en dés, dans des pitas si on le souhaite."
+    ],
+    "astuce": "Avec de la farine de pois chiche et sans pita, les falafels sont sans gluten."
+  },
+  {
+    "titre": "Curry de pois chiches au chou-fleur",
+    "categorie": "plat",
+    "temps": 35,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pois_chiche",
+        "nom": "pois chiches",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "chou_fleur",
+        "nom": "chou-fleur",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "lait_coco",
+        "nom": "lait de coco",
+        "qte": 200,
+        "unite": "ml"
+      },
+      {
+        "cle": "tomate_concassee",
+        "nom": "tomates concassées",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "curry",
+        "nom": "curry",
+        "qte": 2,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "gingembre",
+        "nom": "gingembre",
+        "qte": 10,
+        "unite": "g"
+      },
+      {
+        "cle": "riz",
+        "nom": "riz",
+        "qte": 140,
+        "unite": "g"
+      },
+      {
+        "cle": "huile",
+        "nom": "huile",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Cuire le riz selon le paquet.",
+      "Faire revenir l'oignon et le gingembre dans l'huile, ajouter le curry.",
+      "Ajouter le chou-fleur en petites fleurettes, les tomates et le lait de coco, cuire 12 minutes à couvert.",
+      "Ajouter les pois chiches égouttés et poursuivre 5 minutes, saler.",
+      "Servir avec le riz."
+    ],
+    "astuce": "Le trognon du chou-fleur, émincé finement, cuit avec le reste."
+  },
+  {
+    "titre": "Pois chiches rôtis, patate douce et sauce tahini",
+    "categorie": "plat",
+    "temps": 40,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pois_chiche",
+        "nom": "pois chiches",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "patate_douce",
+        "nom": "patate douce",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon_rouge",
+        "nom": "oignon rouge",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "paprika",
+        "nom": "paprika",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "tahini",
+        "nom": "tahini",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "persil",
+        "nom": "persil",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 210 °C.",
+      "Couper la patate douce en cubes et l'oignon en quartiers, les mélanger avec les pois chiches égouttés et séchés, l'huile, le paprika, sel et poivre.",
+      "Étaler sur une plaque et rôtir 30 minutes en remuant à mi-cuisson.",
+      "Délayer le tahini avec le jus de citron et 3 cuillères d'eau.",
+      "Servir arrosé de sauce et parsemé de persil."
+    ],
+    "astuce": "Bien sécher les pois chiches dans un torchon les rend croustillants."
+  },
+  {
+    "titre": "Houmous en plat complet, légumes rôtis et œuf",
+    "categorie": "plat",
+    "temps": 40,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pois_chiche",
+        "nom": "pois chiches",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "tahini",
+        "nom": "tahini",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "ail",
+        "nom": "ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "courgette",
+        "nom": "courgette",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "poivron",
+        "nom": "poivron",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "paprika",
+        "nom": "paprika",
+        "qte": 1,
+        "unite": "pincée",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 210 °C et rôtir la courgette et le poivron en morceaux avec 1 cuillère d'huile pendant 25 minutes.",
+      "Mixer les pois chiches égouttés avec le tahini, le jus de citron, l'ail, 2 cuillères d'huile, sel et quelques cuillères d'eau jusqu'à obtenir une texture lisse.",
+      "Cuire les œufs 7 minutes à l'eau bouillante, les refroidir et les écaler.",
+      "Étaler le houmous dans les assiettes, garnir de légumes rôtis et d'œufs coupés en deux, saupoudrer de paprika."
+    ],
+    "astuce": "L'aubergine ou la carotte rôtie sont aussi très bonnes sur le houmous."
+  },
+  {
+    "titre": "Ragoût de pois chiches aux épinards et cumin",
+    "categorie": "plat",
+    "temps": 25,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pois_chiche",
+        "nom": "pois chiches",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "epinard",
+        "nom": "épinards",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "tomate_concassee",
+        "nom": "tomates concassées",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "ail",
+        "nom": "ail",
+        "qte": 2,
+        "unite": "gousse"
+      },
+      {
+        "cle": "cumin",
+        "nom": "cumin",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "paprika",
+        "nom": "paprika",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Faire revenir l'oignon et l'ail émincés dans l'huile avec les épices 4 minutes.",
+      "Ajouter les tomates et les pois chiches égouttés, mijoter 10 minutes.",
+      "Ajouter les épinards par poignées et laisser tomber 3 minutes.",
+      "Saler, poivrer et servir avec du pain ou de la semoule."
+    ],
+    "astuce": "Les épinards surgelés conviennent : comptez 5 minutes de cuisson en plus."
+  },
+  {
+    "titre": "Tajine de pois chiches, carottes et raisins secs",
+    "categorie": "plat",
+    "temps": 45,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pois_chiche",
+        "nom": "pois chiches",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "carotte",
+        "nom": "carottes",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "courgette",
+        "nom": "courgette",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "raisin_sec",
+        "nom": "raisins secs",
+        "qte": 30,
+        "unite": "g"
+      },
+      {
+        "cle": "cumin",
+        "nom": "cumin",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "cannelle",
+        "nom": "cannelle",
+        "qte": 0.5,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "curcuma",
+        "nom": "curcuma",
+        "qte": 0.5,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "semoule",
+        "nom": "semoule",
+        "qte": 140,
+        "unite": "g"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "coriandre",
+        "nom": "coriandre",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Faire revenir l'oignon émincé dans l'huile avec les épices 3 minutes.",
+      "Ajouter les carottes en rondelles et 30 cl d'eau, cuire 15 minutes à couvert.",
+      "Ajouter la courgette en morceaux, les pois chiches et les raisins secs, poursuivre 12 minutes.",
+      "Verser la même quantité d'eau bouillante salée que de semoule, couvrir 5 minutes puis égrainer.",
+      "Servir le tajine sur la semoule avec la coriandre."
+    ],
+    "astuce": "Remplacez la semoule par du quinoa pour une version sans gluten."
+  },
+  {
+    "titre": "Shakshuka aux pois chiches",
+    "categorie": "plat",
+    "temps": 30,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 4,
+        "unite": "pièce"
+      },
+      {
+        "cle": "pois_chiche",
+        "nom": "pois chiches",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "tomate_concassee",
+        "nom": "tomates concassées",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "poivron",
+        "nom": "poivron",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "cumin",
+        "nom": "cumin",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "paprika",
+        "nom": "paprika",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "coriandre",
+        "nom": "coriandre",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Faire revenir l'oignon et le poivron émincés 8 minutes dans l'huile, ajouter les épices.",
+      "Ajouter les tomates et les pois chiches, saler, poivrer et cuire 10 minutes.",
+      "Creuser 4 puits dans la sauce, y casser les œufs, couvrir et cuire 6 à 8 minutes jusqu'à ce que les blancs soient pris.",
+      "Parsemer de coriandre et servir avec du pain."
+    ],
+    "astuce": "Une poignée de feta émiettée en fin de cuisson est délicieuse (mais plus sans lactose)."
+  },
+  {
+    "titre": "Tofu sauté aux légumes et sauce soja",
+    "categorie": "plat",
+    "temps": 25,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "tofu",
+        "nom": "tofu ferme",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "brocoli",
+        "nom": "brocoli",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "poivron",
+        "nom": "poivron",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "carotte",
+        "nom": "carotte",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "sauce_soja",
+        "nom": "sauce soja",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "ail",
+        "nom": "ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "gingembre",
+        "nom": "gingembre",
+        "qte": 10,
+        "unite": "g"
+      },
+      {
+        "cle": "huile",
+        "nom": "huile",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "riz",
+        "nom": "riz",
+        "qte": 140,
+        "unite": "g"
+      }
+    ],
+    "etapes": [
+      "Cuire le riz selon le paquet.",
+      "Couper le tofu en cubes, le presser dans un torchon et le dorer 8 minutes dans l'huile chaude, réserver.",
+      "Faire sauter les légumes en petits morceaux 5 minutes à feu vif avec l'ail et le gingembre.",
+      "Remettre le tofu, ajouter la sauce soja et 2 cuillères d'eau, sauter 1 minute.",
+      "Servir sur le riz."
+    ],
+    "astuce": "Avec du tamari à la place de la sauce soja, le plat devient sans gluten."
+  },
+  {
+    "titre": "Tofu croustillant au paprika, haricots verts et pommes de terre",
+    "categorie": "plat",
+    "temps": 40,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "tofu",
+        "nom": "tofu ferme",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "paprika",
+        "nom": "paprika fumé",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "pomme_de_terre",
+        "nom": "pommes de terre",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "haricot_vert",
+        "nom": "haricots verts",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "ail",
+        "nom": "ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 210 °C.",
+      "Couper les pommes de terre en quartiers, les mélanger avec 1 cuillère d'huile et du sel et les rôtir 30 minutes.",
+      "Couper le tofu en cubes, le mélanger avec le paprika, 1 cuillère d'huile et du sel, et l'ajouter sur la plaque pour les 20 dernières minutes.",
+      "Cuire les haricots verts 8 minutes à l'eau salée et les poêler 2 minutes avec l'ail et le reste d'huile.",
+      "Servir le tout ensemble, poivré."
+    ],
+    "astuce": "Un tofu bien pressé 15 minutes sous un poids devient beaucoup plus croustillant."
+  },
+  {
+    "titre": "Tofu brouillé aux champignons et épinards",
+    "categorie": "plat",
+    "temps": 15,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "tofu",
+        "nom": "tofu ferme",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "champignon",
+        "nom": "champignons",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "epinard",
+        "nom": "épinards",
+        "qte": 80,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon_nouveau",
+        "nom": "oignon nouveau",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "curcuma",
+        "nom": "curcuma",
+        "qte": 0.5,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "pain",
+        "nom": "pain grillé",
+        "qte": 2,
+        "unite": "tranche",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Faire revenir les champignons émincés 5 minutes dans l'huile.",
+      "Émietter le tofu à la fourchette dans la poêle, ajouter le curcuma, sel et poivre, cuire 4 minutes.",
+      "Ajouter les épinards et l'oignon nouveau émincé, laisser tomber 2 minutes.",
+      "Servir chaud, avec du pain grillé si on le souhaite."
+    ],
+    "astuce": "Les tomates cerises ou un reste de poivron trouvent aussi leur place dans la poêlée."
+  },
+  {
+    "titre": "Curry vert de tofu, courgette et haricots verts",
+    "categorie": "plat",
+    "temps": 30,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "tofu",
+        "nom": "tofu ferme",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "courgette",
+        "nom": "courgette",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "haricot_vert",
+        "nom": "haricots verts",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "lait_coco",
+        "nom": "lait de coco",
+        "qte": 250,
+        "unite": "ml"
+      },
+      {
+        "cle": "curry",
+        "nom": "pâte de curry vert",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "citron_vert",
+        "nom": "citron vert",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "riz",
+        "nom": "riz thaï",
+        "qte": 140,
+        "unite": "g"
+      },
+      {
+        "cle": "huile",
+        "nom": "huile",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "basilic",
+        "nom": "basilic",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Cuire le riz selon le paquet.",
+      "Faire revenir la pâte de curry 1 minute dans l'huile, verser le lait de coco et porter à frémissement.",
+      "Ajouter les haricots verts coupés en deux et cuire 5 minutes, puis la courgette et le tofu en dés pour 6 minutes.",
+      "Assaisonner avec le jus de citron vert et du sel, parsemer de basilic et servir avec le riz."
+    ],
+    "astuce": "Vérifiez l'étiquette : certaines pâtes de curry contiennent de la sauce poisson."
+  },
+  {
+    "titre": "Tofu fumé, chou et pommes de terre poêlés",
+    "categorie": "plat",
+    "temps": 35,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "tofu",
+        "nom": "tofu fumé",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "chou",
+        "nom": "chou blanc ou frisé",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "pomme_de_terre",
+        "nom": "pommes de terre",
+        "qte": 350,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "cumin",
+        "nom": "cumin ou carvi",
+        "qte": 0.5,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "moutarde",
+        "nom": "moutarde",
+        "qte": 1,
+        "unite": "c. à c.",
+        "optionnel": true
+      },
+      {
+        "cle": "huile",
+        "nom": "huile",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Cuire les pommes de terre en dés 10 minutes à l'eau salée et les égoutter.",
+      "Les dorer 10 minutes dans l'huile avec l'oignon émincé.",
+      "Ajouter le chou finement émincé et le cumin, couvrir et cuire 8 minutes en remuant.",
+      "Ajouter le tofu fumé en dés et poêler 4 minutes, poivrer et servir avec la moutarde."
+    ],
+    "astuce": "Un quart de chou entamé trouve ici une belle seconde vie."
+  },
+  {
+    "titre": "Galettes de lentilles corail et carotte",
+    "categorie": "plat",
+    "temps": 35,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "lentille_corail",
+        "nom": "lentilles corail",
+        "qte": 120,
+        "unite": "g"
+      },
+      {
+        "cle": "carotte",
+        "nom": "carotte",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œuf",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "farine",
+        "nom": "farine",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "cumin",
+        "nom": "cumin",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "oignon_nouveau",
+        "nom": "oignon nouveau",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "yaourt",
+        "nom": "yaourt nature",
+        "qte": 1,
+        "unite": "pot"
+      },
+      {
+        "cle": "huile",
+        "nom": "huile",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "salade",
+        "nom": "salade verte",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Cuire les lentilles 10 minutes dans deux fois leur volume d'eau jusqu'à absorption, laisser tiédir.",
+      "Ajouter la carotte râpée, l'œuf, la farine, le cumin, l'oignon nouveau ciselé, sel et poivre.",
+      "Former 6 galettes et les dorer 3 minutes de chaque côté dans l'huile chaude.",
+      "Servir avec le yaourt assaisonné et une salade."
+    ],
+    "astuce": "Une courgette râpée et bien pressée remplace volontiers la carotte."
+  },
+  {
+    "titre": "Haricots rouges au riz façon créole",
+    "categorie": "plat",
+    "temps": 40,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "haricot_rouge",
+        "nom": "haricots rouges",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "riz",
+        "nom": "riz",
+        "qte": 140,
+        "unite": "g"
+      },
+      {
+        "cle": "lait_coco",
+        "nom": "lait de coco",
+        "qte": 150,
+        "unite": "ml"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "ail",
+        "nom": "ail",
+        "qte": 2,
+        "unite": "gousse"
+      },
+      {
+        "cle": "herbes_provence",
+        "nom": "thym",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "piment",
+        "nom": "piment",
+        "qte": 1,
+        "unite": "pièce",
+        "optionnel": true
+      },
+      {
+        "cle": "oignon_nouveau",
+        "nom": "oignons nouveaux",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "huile",
+        "nom": "huile",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Faire revenir l'oignon et l'ail émincés dans l'huile 5 minutes avec le thym.",
+      "Ajouter le riz rincé, les haricots égouttés, le lait de coco et 25 cl d'eau, saler.",
+      "Poser le piment entier sur le dessus, couvrir et cuire 18 minutes à feu doux.",
+      "Retirer le piment, laisser reposer 5 minutes couvert puis égrainer.",
+      "Servir parsemé d'oignons nouveaux émincés."
+    ],
+    "astuce": "Délicieux avec une tranche d'ananas ou de mangue poêlée à côté."
+  },
+  {
+    "titre": "Lentilles corail, boulgour et poivrons à la turque",
+    "categorie": "plat",
+    "temps": 35,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "lentille_corail",
+        "nom": "lentilles corail",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "boulgour",
+        "nom": "boulgour",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "poivron",
+        "nom": "poivron rouge",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "concentre_tomate",
+        "nom": "concentré de tomate",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "paprika",
+        "nom": "paprika",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "cumin",
+        "nom": "cumin",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "menthe",
+        "nom": "menthe",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Faire revenir l'oignon et le poivron en dés 6 minutes dans l'huile, ajouter le concentré et les épices.",
+      "Ajouter les lentilles rincées, le boulgour et 50 cl d'eau, saler.",
+      "Cuire 15 minutes à couvert à feu doux jusqu'à absorption, puis laisser reposer 5 minutes.",
+      "Arroser de jus de citron, parsemer de menthe et servir tiède."
+    ],
+    "astuce": "Encore meilleur le lendemain, à température ambiante, avec un peu de yaourt."
+  },
+  {
+    "titre": "Tofu et aubergine fondante, sauce cacahuète",
+    "categorie": "plat",
+    "temps": 35,
+    "difficulte": "moyen",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "tofu",
+        "nom": "tofu ferme",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "aubergine",
+        "nom": "aubergine",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "cacahuete",
+        "nom": "beurre de cacahuète",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sauce_soja",
+        "nom": "sauce soja",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "citron_vert",
+        "nom": "citron vert",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "ail",
+        "nom": "ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "riz",
+        "nom": "riz",
+        "qte": 140,
+        "unite": "g"
+      },
+      {
+        "cle": "huile",
+        "nom": "huile",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "coriandre",
+        "nom": "coriandre",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Cuire le riz selon le paquet.",
+      "Couper l'aubergine en cubes et la cuire 12 minutes à couvert dans 2 cuillères d'huile, en remuant, jusqu'à ce qu'elle soit fondante.",
+      "Dorer le tofu en dés 6 minutes dans le reste d'huile.",
+      "Mélanger le beurre de cacahuète, la sauce soja, le jus du citron vert, l'ail écrasé et 4 cuillères d'eau chaude.",
+      "Réunir aubergine et tofu, napper de sauce, réchauffer 1 minute et servir sur le riz avec la coriandre."
+    ],
+    "astuce": "La sauce cacahuète se garde 3 jours au frais et assaisonne aussi les nouilles."
+  }
+]
