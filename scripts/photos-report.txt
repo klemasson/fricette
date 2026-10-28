@@ -1,0 +1,25 @@
+Dernière génération : 2026-10-28 18:25 UTC
+Photos au total : 6
+
+shard 0/10: 1 photo(s) à générer
+[transformers] Token indices sequence length is longer than the specified maximum sequence length for this model (81 > 77). Running this sequence through the model will result in indexing errors
+shard 0: 1/1 photo(s) créée(s)
+shard 1/10: 1 photo(s) à générer
+[transformers] Token indices sequence length is longer than the specified maximum sequence length for this model (98 > 77). Running this sequence through the model will result in indexing errors
+shard 1: 1/1 photo(s) créée(s)
+shard 2/10: 1 photo(s) à générer
+[transformers] Token indices sequence length is longer than the specified maximum sequence length for this model (91 > 77). Running this sequence through the model will result in indexing errors
+shard 2: 1/1 photo(s) créée(s)
+shard 3/10: 1 photo(s) à générer
+[transformers] Token indices sequence length is longer than the specified maximum sequence length for this model (98 > 77). Running this sequence through the model will result in indexing errors
+shard 3: 1/1 photo(s) créée(s)
+shard 4/10: 1 photo(s) à générer
+[transformers] Token indices sequence length is longer than the specified maximum sequence length for this model (91 > 77). Running this sequence through the model will result in indexing errors
+shard 4: 1/1 photo(s) créée(s)
+shard 5/10: 1 photo(s) à générer
+[transformers] Token indices sequence length is longer than the specified maximum sequence length for this model (80 > 77). Running this sequence through the model will result in indexing errors
+shard 5: 1/1 photo(s) créée(s)
+shard 6/10: 0 photo(s) à générer
+shard 7/10: 0 photo(s) à générer
+shard 8/10: 0 photo(s) à générer
+shard 9/10: 0 photo(s) à générer
