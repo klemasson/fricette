@@ -194,3 +194,72 @@ footer .in { display: flex; justify-content: space-between; gap: 12px; flex-wrap
 .auth .cta { justify-self: stretch; }
 .auth .status { margin: 0; }
 .recipes.favs + .recipes { padding-top: 48px; }
+
+/* --- Téléphone : tout plus compact, recettes visibles plus vite --- */
+.float-cta { display: none; }
+@media (max-width: 600px) {
+  .nav { padding-block: 14px; }
+  .nav .badge { display: none; }
+  .hero { padding-block: 0 28px; gap: 0; }
+  .hero h1 { font-size: clamp(2rem, 9vw, 2.6rem); }
+  .hero p { margin: 12px 0 18px; font-size: 1rem; }
+  .hero-art { display: none; }
+  .hero .cta { width: 100%; }
+  .facts { margin-top: 16px; gap: 6px 14px; font-size: 0.85rem; }
+
+  .fridge { padding-block: 28px; }
+  .sec { margin-bottom: 14px; }
+  .sec h2 { font-size: 1.7rem; }
+
+  /* Ajout : ingrédient sur toute la largeur, puis quantité + unité + bouton sur une ligne */
+  .addrow { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) auto; gap: 8px; margin-bottom: 14px; }
+  .addrow input#ing { grid-column: 1 / -1; }
+  .addrow button { grid-column: auto; padding: 10px 18px; }
+  .addrow input, .addrow select { padding: 10px 12px; }
+
+  /* Étiquettes du frigo plus serrées */
+  .tokens { gap: 6px; }
+  .token { padding: 3px 4px 3px 7px; gap: 4px; font-size: 0.92rem; }
+  .token .ico { width: 18px; height: 18px; }
+  .token input { width: 44px; padding: 2px 5px; font-size: 0.82rem; }
+  .token select { font-size: 0.82rem; max-width: 64px; field-sizing: content; }
+  .token .x { width: 24px; height: 24px; }
+
+  /* Filtres : une seule ligne qui défile */
+  .filters, .opts { flex-wrap: nowrap; overflow-x: auto; margin-inline: calc(-1 * max(20px, env(safe-area-inset-left, 0px))); padding-inline: max(20px, env(safe-area-inset-left, 0px)); scrollbar-width: none; }
+  .filters::-webkit-scrollbar, .opts::-webkit-scrollbar { display: none; }
+  .filters { margin-top: 16px; }
+  .f { white-space: nowrap; flex: none; padding: 6px 12px; font-size: 0.88rem; }
+  .opts select { flex: none; padding: 6px 10px; font-size: 0.88rem; }
+  .actions { margin-top: 16px; }
+
+  /* Recettes : cartes horizontales, photo à gauche */
+  .recipes { padding-block: 28px 40px; }
+  .recipes.favs + .recipes { padding-top: 28px; }
+  .legend { display: none; }
+  .grid { gap: 10px; }
+  .card { border-radius: 18px; }
+  .card-hit { flex-direction: row; align-items: stretch; }
+  .card .art { width: 112px; flex: none; aspect-ratio: auto; min-height: 112px; }
+  .card .score { top: auto; bottom: 6px; right: auto; left: 6px; padding: 2px 7px; font-size: 0.75rem; }
+  .card .txt { padding: 12px 14px; gap: 4px; align-content: center; }
+  .card .txt h3 { font-size: 1.02rem; line-height: 1.2; }
+  .card .meta, .card .miss { font-size: 0.84rem; }
+  .fav { top: 6px; left: 6px; width: 30px; height: 30px; }
+  .fav .heart { width: 16px; height: 16px; }
+  .card.ai .fav { top: 6px; }
+  .chef-tag { top: auto; bottom: 6px; left: auto; right: 6px; font-size: 0.7rem; }
+
+  /* Bouton flottant pour sauter aux recettes */
+  .float-cta {
+    display: block; position: fixed; z-index: 20;
+    left: 50%; transform: translateX(-50%);
+    bottom: calc(16px + env(safe-area-inset-bottom, 0px));
+    background: var(--ink); color: var(--bg); border-radius: 999px;
+    padding: 13px 22px; font-weight: 700; box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25); white-space: nowrap;
+  }
+
+  footer { padding-bottom: calc(84px + env(safe-area-inset-bottom, 0px)); }
+  dialog.sheet { width: calc(100vw - 16px); max-height: calc(100dvh - 16px); border-radius: 22px; }
+  .sheet .art { aspect-ratio: 16 / 9; }
+}

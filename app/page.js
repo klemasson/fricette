@@ -53,6 +53,14 @@ export default function Home() {
   const [email, setEmail] = useState("");
   const [showRestore, setShowRestore] = useState(false);
   const fileRef = useRef(null);
+  const [menuVisible, setMenuVisible] = useState(true);
+  useEffect(() => {
+    const el = document.getElementById("menu");
+    if (!el || !("IntersectionObserver" in window)) return;
+    const io = new IntersectionObserver(([e]) => setMenuVisible(e.isIntersecting || e.boundingClientRect.top < 0), { threshold: 0 });
+    io.observe(el);
+    return () => io.disconnect();
+  }, []);
   const aiRef = useRef(null);
   const sheetRef = useRef(null);
   const [openRecipe, setOpenRecipe] = useState(null);
@@ -508,6 +516,12 @@ export default function Home() {
           )}
         </div>
       </section>
+
+      {!menuVisible && results.length > 0 && (
+        <button type="button" className="float-cta" onClick={() => document.getElementById("menu")?.scrollIntoView({ behavior: "smooth" })}>
+          Voir les {results.length} recettes ↓
+        </button>
+      )}
 
       <footer>
         <div className="in">
