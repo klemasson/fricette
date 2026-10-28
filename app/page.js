@@ -253,7 +253,7 @@ export default function Home() {
               Voir ce que je peux cuisiner
             </button>
             <div className="facts">
-              <span><Ico fam="vert" rot={0} />300 recettes gratuites</span>
+              <span><Ico fam="vert" rot={0} />{carnet?.length || 600} recettes gratuites</span>
               <span><Ico fam="jaune" rot={0} />les quantités comptent</span>
               <span><Ico fam="rouge" rot={0} />zéro gaspi</span>
             </div>

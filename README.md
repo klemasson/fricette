@@ -2,12 +2,12 @@
 
 Fricette, c'est un site qui propose des recettes à partir de ce qu'il y a dans ton frigo, avec les quantités.
 
-- **Gratuit et illimité** : un carnet de plus de 300 recettes, intégré au site. La recherche se fait dans le navigateur du visiteur : elle ne te coûte rien, même avec beaucoup de monde.
+- **Gratuit et illimité** : un carnet de 600 recettes, chacune avec sa photo, intégré au site. La recherche se fait dans le navigateur du visiteur : elle ne te coûte rien, même avec beaucoup de monde.
 - **1 recette « du chef » offerte par jour** : inventée par Claude pour le frigo exact du visiteur.
 - **Lancement 100 % gratuit** : tant que Stripe n'est pas configuré, il n'y a ni prix ni bouton « S'abonner » sur le site. Quand le visiteur a utilisé sa recette du chef, on lui dit simplement de revenir demain.
 - **Plus tard, si tu veux** : un abonnement mensuel (Stripe) pour des recettes du chef sans compter. Tout est déjà prêt dans le code, il suffit de suivre l'étape 7.
 
-> **Lancement sans IA (ta configuration actuelle) :** aucune clé n'est nécessaire. Saute les étapes 1, 5 et 7 : le site fonctionne avec le carnet de 300 recettes, sans fichier `.env.local`. Le bouton du chef et l'analyse de photo n'apparaissent que si une clé d'IA est ajoutée plus tard.
+> **Lancement sans IA (ta configuration actuelle) :** aucune clé n'est nécessaire. Saute les étapes 1, 5 et 7 : le site fonctionne avec le carnet de 600 recettes, sans fichier `.env.local`. Le bouton du chef et l'analyse de photo n'apparaissent que si une clé d'IA est ajoutée plus tard.
 
 Ce guide part de zéro. Compte environ 1 h la première fois, tout se fait dans le navigateur.
 Coche chaque case au fur et à mesure.
@@ -188,38 +188,14 @@ Pour en ajouter : écris-les dans un de ces fichiers (ou dans un nouveau `data/p
 
 Les ingrédients doivent utiliser les clés de `data/vocab.js`. Pour qu'un nouvel ingrédient soit reconnu, ajoute-le à cette liste avec ses synonymes.
 
-## Étape 9 · Générer les photos des recettes (IA)
+## Étape 9 · Photos des recettes (automatique)
 
-Sans photo, chaque recette affiche une illustration dessinée automatiquement. Ce script crée une vraie photo pour chacune des 300 recettes avec un générateur d'images (Flux), en une seule fois. Coût : environ 0,003 $ par photo, soit à peu près **1 $ pour tout le carnet**. Compte 15 à 30 minutes.
+Chaque recette a une photo générée par IA (modèle libre LCM Dreamshaper v7), dans `public/photos/`.
+Elles sont créées automatiquement par GitHub (onglet **Actions** du dépôt, « Photos des recettes ») dès qu'une recette est ajoutée ou modifiée dans `data/parts/` : rien à payer, rien à installer. La description en anglais de chaque plat, utilisée par le générateur, est dans `data/photo-prompts.json`.
 
-**À faire une seule fois sur ton ordinateur :**
-
-- [ ] Installe **Node.js** (version LTS) depuis [nodejs.org](https://nodejs.org), comme n'importe quelle application.
-- [ ] Crée un compte sur [replicate.com](https://replicate.com), ajoute un moyen de paiement (Billing), puis va dans **Account → API tokens** et copie le jeton (`r8_…`).
-- [ ] Décompresse `fricette.zip` dans un dossier, par ex. `Documents/fricette`.
-- [ ] Dans ce dossier, crée un fichier `.env.local` contenant la ligne :
-  ```
-  REPLICATE_API_TOKEN=r8_…
-  ```
-
-**Générer les photos :**
-
-- [ ] Ouvre le **Terminal** (Mac : Applications → Utilitaires → Terminal ; Windows : « Invite de commandes »).
-- [ ] Tape `cd ` (avec un espace), glisse le dossier `fricette` dans la fenêtre, puis appuie sur Entrée.
-- [ ] Tape `npm install` puis Entrée (une seule fois, 1 à 2 minutes).
-- [ ] Essaie d'abord sur 5 recettes : `npm run photos -- --limit 5`. Regarde les images créées dans `public/photos/`.
-- [ ] Si elles te plaisent, lance tout : `npm run photos`. Les photos déjà faites ne sont pas refaites ; en cas d'erreur, relance simplement la commande.
-
-**Mettre en ligne :**
-
-- [ ] Envoie sur ton hébergement Infomaniak (gestionnaire de fichiers ou SFTP) le dossier `public/photos/` et le fichier `public/carnet.json`, en remplaçant l'ancien.
-- [ ] Redémarre le site.
-
-**Astuces :**
-- Une photo ne te plaît pas ? Refais-la : `npm run photos -- --only identifiant-de-la-recette --force` (l'identifiant est le nom du fichier dans `public/photos/`).
-- Pour des photos plus belles (mais environ 10 fois plus chères), ajoute dans `.env.local` : `REPLICATE_MODEL=black-forest-labs/flux-1.1-pro`.
-- Tu peux aussi remplacer n'importe quelle photo par la tienne : même nom de fichier, puis `npm run carnet`.
-- Le site indique discrètement que les photos sont générées par IA, et les conditions le précisent.
+- Refaire une photo : supprime son fichier dans `public/photos/` sur GitHub, puis lance « Photos des recettes » depuis l'onglet **Actions** (bouton **Run workflow**).
+- Remplacer une photo par la tienne : dépose ton image sous le même nom (format `.webp`, `.jpg` ou `.png`).
+- Le résultat de la dernière génération est dans `scripts/photos-report.txt`.
 
 ## Mettre à jour le site chez Infomaniak
 
