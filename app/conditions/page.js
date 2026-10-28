@@ -26,6 +26,9 @@ export default function Conditions() {
         <li>La liste de ton frigo est enregistrée uniquement dans ton navigateur.</li>
         <li>La recherche de recettes se fait directement dans ton navigateur : ta liste n'est pas envoyée à nos serveurs.</li>
         <li>Un cookie technique anonyme peut être déposé pour le bon fonctionnement du site.</li>
+        <li>Si tu crées un compte, nous enregistrons ton adresse e-mail, ton mot de passe sous forme chiffrée (nous ne pouvons pas le lire) et la liste de tes recettes favorites, sur notre hébergement en Suisse (Infomaniak). Un cookie de connexion te garde connecté·e pendant 6 mois.</li>
+        <li>Tu peux supprimer ton compte et tes favoris à tout moment, en bas de la page d'accueil (« Supprimer mon compte »). Sans compte, tes favoris restent uniquement dans ton navigateur.</li>
+        <li>Ton adresse e-mail n'est jamais transmise à des tiers ni utilisée pour de la publicité.</li>
         <li>Aucune publicité, aucun traceur publicitaire.</li>
       </ul>
       <p>Pour toute demande concernant tes données : [À COMPLÉTER : e-mail de contact].</p>

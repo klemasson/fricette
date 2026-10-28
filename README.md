@@ -209,3 +209,12 @@ Quand tu reçois une nouvelle version de `fricette.zip` :
    npm install && npm run build
    ```
 3. Sur la page du site, clique sur **Redémarrer**.
+
+## Comptes et favoris
+
+Les visiteurs peuvent créer un compte (e-mail + mot de passe) pour retrouver leurs recettes favorites sur tous leurs appareils. Sans compte, les favoris restent dans leur navigateur et sont repris automatiquement à la création du compte.
+
+- Les données sont dans un petit fichier de base de données, `~/fricette-data/fricette.db`, **en dehors** du dossier du site : il ne bouge pas quand tu mets le code à jour. La console du site indique son emplacement au démarrage (`[db] base de données : …`).
+- **Sauvegarde** : Infomaniak sauvegarde ton hébergement automatiquement. Avant de retirer ou recréer le site, copie ce fichier par précaution (console SSH : `cp ~/fricette-data/fricette.db ~/fricette-data/sauvegarde.db`).
+- **Mot de passe oublié** : il n'y a pas encore d'envoi d'e-mail automatique. En attendant, la personne peut t'écrire ; tu peux alors supprimer son compte pour qu'elle en recrée un.
+- Le message « SQLite is an experimental feature » dans la console est normal.

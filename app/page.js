@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
-import { suggest, familyOfName } from "@/lib/match";
+import { suggest, pick, familyOfName } from "@/lib/match";
 import { FAM, iconSvg, artSvg } from "@/lib/art";
 
 const UNITS = ["", "pièce", "g", "kg", "ml", "cl", "l", "tranche", "botte", "boîte", "pot", "c. à s.", "c. à c.", "gousse"];
@@ -56,6 +56,12 @@ export default function Home() {
   const aiRef = useRef(null);
   const sheetRef = useRef(null);
   const [openRecipe, setOpenRecipe] = useState(null);
+  // Compte et favoris
+  const [user, setUser] = useState(null);
+  const [favs, setFavs] = useState([]);
+  const [favShown, setFavShown] = useState(PAGE);
+  const [auth, setAuth] = useState({ mode: "login", email: "", password: "", error: "", busy: false });
+  const authRef = useRef(null);
   const loaded = useRef(false);
   const ticker = useRef(null);
 
@@ -77,6 +83,12 @@ export default function Home() {
     } catch {}
     loaded.current = true;
     fetch("/carnet.json").then((r) => r.json()).then(setCarnet).catch(() => setCarnet([]));
+    let local = [];
+    try { local = JSON.parse(localStorage.getItem("frc-favs") || "[]"); } catch {}
+    setFavs(Array.isArray(local) ? local : []);
+    fetch("/api/me", { cache: "no-store" }).then((r) => r.json()).then((d) => {
+      if (d.user) { setUser(d.user); setFavs(d.favorites || []); }
+    }).catch(() => {});
     refreshStatus();
     const p = new URLSearchParams(window.location.search).get("paiement");
     const msgs = {
@@ -233,6 +245,74 @@ export default function Home() {
     requestAnimationFrame(() => sheetRef.current?.showModal?.());
   }
 
+  const favSet = new Set(favs);
+  const favRecipes = carnet ? pick(carnet, favs, fridge, opts) : [];
+
+  function saveLocalFavs(list) {
+    try { localStorage.setItem("frc-favs", JSON.stringify(list)); } catch {}
+  }
+
+  async function toggleFav(id) {
+    const on = !favSet.has(id);
+    const next = on ? [id, ...favs.filter((x) => x !== id)] : favs.filter((x) => x !== id);
+    setFavs(next);
+    if (!user) {
+      saveLocalFavs(next);
+      if (on && next.length === 1) setStatus({ text: "Ajoutée à tes favoris. Crée un compte pour les retrouver sur tous tes appareils.", err: false });
+      return;
+    }
+    try {
+      const r = await fetch("/api/favorites", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ id, on }) });
+      const d = await r.json();
+      if (r.ok) setFavs(d.favorites);
+      else { setFavs(favs); setStatus({ text: d.error || "Impossible d'enregistrer ce favori.", err: true }); }
+    } catch {
+      setFavs(favs);
+      setStatus({ text: "Connexion perdue : le favori n'a pas été enregistré.", err: true });
+    }
+  }
+
+  function openAuth(mode) {
+    setAuth({ mode, email: user?.email || "", password: "", error: "", busy: false });
+    requestAnimationFrame(() => authRef.current?.showModal?.());
+  }
+
+  async function submitAuth(e) {
+    e.preventDefault();
+    setAuth((a) => ({ ...a, busy: true, error: "" }));
+    const { mode, email: em, password } = auth;
+    try {
+      let r;
+      if (mode === "delete") {
+        r = await fetch("/api/me", { method: "DELETE", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ password }) });
+      } else {
+        r = await fetch(`/api/auth/${mode}`, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ email: em, password, favorites: user ? [] : favs }),
+        });
+      }
+      const d = await r.json().catch(() => ({}));
+      if (!r.ok) return setAuth((a) => ({ ...a, busy: false, error: d.error || "Une erreur est survenue." }));
+      if (mode === "delete") {
+        setUser(null); setFavs([]); saveLocalFavs([]);
+        setStatus({ text: "Ton compte et tes favoris ont été supprimés.", err: false });
+      } else {
+        setUser(d.user); setFavs(d.favorites || []); saveLocalFavs([]);
+        setStatus({ text: mode === "signup" ? "Compte créé ! Tes favoris sont enregistrés." : "Te revoilà ! Tes favoris sont là.", err: false });
+      }
+      authRef.current?.close();
+    } catch {
+      setAuth((a) => ({ ...a, busy: false, error: "Connexion perdue. Réessaie." }));
+    }
+  }
+
+  async function logout() {
+    await fetch("/api/auth/logout", { method: "POST" }).catch(() => {});
+    setUser(null); setFavs([]);
+    setStatus({ text: "Tu es déconnecté·e.", err: false });
+  }
+
   const TYPES = [["", "De tout"], ["plats", "Un plat"], ["soupes-salades", "Soupe & salade"], ["sucre", "Sucré"]];
 
   return (
@@ -240,7 +320,15 @@ export default function Home() {
       <header className="in">
         <nav className="nav">
           <a className="logo" href="/"><Ico fam="rouge" rot={0} />fricette</a>
-          {badge}
+          <div className="nav-right">
+            {badge}
+            {favs.length > 0 && (
+              <a className="nav-link" href="#favoris"><Heart on /> {favs.length}</a>
+            )}
+            {user
+              ? <button className="nav-link" type="button" onClick={logout} title={user.email}>Se déconnecter</button>
+              : <button className="btn small" type="button" onClick={() => openAuth("login")}>Se connecter</button>}
+          </div>
         </nav>
         <div className="hero">
           <div>
@@ -362,6 +450,27 @@ export default function Home() {
         </div>
       </section>
 
+      {favs.length > 0 && (
+        <section className="recipes favs" id="favoris" aria-label="Mes favoris">
+          <div className="in">
+            <div className="sec">
+              <h2>Mes favoris</h2>
+              <span>
+                {user
+                  ? `${favs.length} recette${favs.length > 1 ? "s" : ""} · enregistrés sur ton compte`
+                  : <>Enregistrés sur cet appareil · <button className="link" type="button" onClick={() => openAuth("signup")}>crée un compte</button> pour les garder partout</>}
+              </span>
+            </div>
+            <div className="grid">
+              {favRecipes.slice(0, favShown).map((r) => <Card key={"f" + r.id} r={r} onOpen={openSheet} fav onFav={toggleFav} />)}
+            </div>
+            {favRecipes.length > favShown && (
+              <button className="ghost more" type="button" onClick={() => setFavShown((n) => n + PAGE)}>Voir plus de favoris</button>
+            )}
+          </div>
+        </section>
+      )}
+
       <section className="recipes" id="menu" aria-label="Recettes">
         <div className="in">
           <div className="sec">
@@ -390,7 +499,7 @@ export default function Home() {
             </p>
           )}
           <div className="grid">
-            {results.slice(0, shown).map((r) => <Card key={r.id} r={r} onOpen={openSheet} />)}
+            {results.slice(0, shown).map((r) => <Card key={r.id} r={r} onOpen={openSheet} fav={favSet.has(r.id)} onFav={toggleFav} />)}
           </div>
           {results.length > shown && (
             <button className="ghost more" type="button" onClick={() => setShown((n) => n + PAGE)}>
@@ -404,6 +513,7 @@ export default function Home() {
         <div className="in">
           <div>
             <span>fricette · fait avec amour et des restes</span>
+            {user && <> · <span>{user.email}</span> · <button className="link" type="button" onClick={() => openAuth("delete")}>Supprimer mon compte</button></>}
             {info?.pro ? (
               <> · <button className="link" onClick={goPortal}>Gérer mon abonnement</button></>
             ) : info?.billing && info.restore ? (
@@ -421,7 +531,41 @@ export default function Home() {
       </footer>
 
       <dialog className="sheet" ref={sheetRef} onClose={() => setOpenRecipe(null)} onClick={(e) => { if (e.target === sheetRef.current) sheetRef.current.close(); }}>
-        {openRecipe && <Sheet r={openRecipe} onClose={() => sheetRef.current?.close()} />}
+        {openRecipe && <Sheet r={openRecipe} onClose={() => sheetRef.current?.close()} fav={favSet.has(openRecipe.id)} onFav={openRecipe.id ? toggleFav : null} />}
+      </dialog>
+
+      <dialog className="sheet auth" ref={authRef} onClick={(e) => { if (e.target === authRef.current) authRef.current.close(); }}>
+        <form className="auth-body" onSubmit={submitAuth}>
+          <button className="close" type="button" onClick={() => authRef.current?.close()} aria-label="Fermer">×</button>
+          {auth.mode === "delete" ? (
+            <>
+              <h2>Supprimer mon compte</h2>
+              <p className="muted">Ton compte et tous tes favoris seront effacés définitivement. Confirme avec ton mot de passe.</p>
+            </>
+          ) : (
+            <>
+              <h2>{auth.mode === "signup" ? "Créer un compte" : "Se connecter"}</h2>
+              <p className="muted">Retrouve tes recettes favorites sur ton téléphone comme sur ton ordinateur. C'est gratuit.</p>
+              <div className="tabs" role="tablist">
+                <button type="button" role="tab" aria-selected={auth.mode === "login"} className="f" aria-pressed={auth.mode === "login"} onClick={() => setAuth((a) => ({ ...a, mode: "login", error: "" }))}>J'ai un compte</button>
+                <button type="button" role="tab" aria-selected={auth.mode === "signup"} className="f" aria-pressed={auth.mode === "signup"} onClick={() => setAuth((a) => ({ ...a, mode: "signup", error: "" }))}>Créer un compte</button>
+              </div>
+              <label className="field">E-mail
+                <input id="auth-email" type="email" required autoComplete="email" value={auth.email} onChange={(e) => setAuth((a) => ({ ...a, email: e.target.value }))} />
+              </label>
+            </>
+          )}
+          <label className="field">Mot de passe{auth.mode === "signup" && <small> (8 caractères minimum)</small>}
+            <input id="auth-password" type="password" required minLength={auth.mode === "signup" ? 8 : undefined}
+              autoComplete={auth.mode === "signup" ? "new-password" : "current-password"}
+              value={auth.password} onChange={(e) => setAuth((a) => ({ ...a, password: e.target.value }))} />
+          </label>
+          {auth.error && <p className="status err">{auth.error}</p>}
+          <button className="cta" type="submit" disabled={auth.busy}>
+            {auth.mode === "delete" ? "Supprimer définitivement" : auth.mode === "signup" ? "Créer mon compte" : "Me connecter"}
+          </button>
+          {auth.mode === "login" && <p className="muted small">Mot de passe oublié ? Écris-nous à l'adresse indiquée dans les conditions.</p>}
+        </form>
       </dialog>
     </div>
   );
@@ -442,30 +586,50 @@ function summary(r) {
   return { ings, have, missing, short, pct, fams };
 }
 
-function Card({ r, ai, onOpen }) {
-  const { missing, short, pct, fams } = summary(r);
+function Heart({ on }) {
   return (
-    <button type="button" className={"card" + (ai ? " ai" : "")} onClick={() => onOpen(r)}>
-      <div className="art">
-        {r.photo
-          ? <img src={r.photo} alt="" loading="lazy" />
-          : <div className="fill" dangerouslySetInnerHTML={{ __html: artSvg(r.titre, fams) }} />}
-        {ai && <span className="chef-tag">Le chef</span>}
-        <span className="score">{pct} %</span>
-      </div>
-      <div className="txt">
-        <h3>{r.titre}</h3>
-        <div className="meta">{[r.temps && `${r.temps} min`, r.difficulte, `${r.portions} pers.`].filter(Boolean).join(" · ")}</div>
-        <div className={"miss" + (missing.length ? "" : " ok")}>
-          {missing.length ? `Il manque : ${missing.map((m) => m.nom).join(", ")}` : "Tu as tout"}
-          {short.length > 0 && <span className="juste"> · un peu juste : {short.map((m) => m.nom).join(", ")}</span>}
-        </div>
-      </div>
+    <svg className={"heart" + (on ? " on" : "")} viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M12 20.5s-7.5-4.6-9.3-9.2C1.4 8 3.4 4.5 7 4.5c2.1 0 3.6 1.2 5 3 1.4-1.8 2.9-3 5-3 3.6 0 5.6 3.5 4.3 6.8-1.8 4.6-9.3 9.2-9.3 9.2z" />
+    </svg>
+  );
+}
+
+function FavButton({ on, onClick, label = true }) {
+  return (
+    <button type="button" className={"fav" + (on ? " on" : "") + (label ? " labelled" : "")} aria-pressed={!!on}
+      aria-label={on ? "Retirer des favoris" : "Ajouter aux favoris"} onClick={(e) => { e.stopPropagation(); onClick(); }}>
+      <Heart on={on} />{label && <span>{on ? "Dans mes favoris" : "Ajouter aux favoris"}</span>}
     </button>
   );
 }
 
-function Sheet({ r, onClose }) {
+function Card({ r, ai, onOpen, fav, onFav }) {
+  const { missing, short, pct, fams } = summary(r);
+  return (
+    <div className={"card" + (ai ? " ai" : "")}>
+      <button type="button" className="card-hit" onClick={() => onOpen(r)}>
+        <div className="art">
+          {r.photo
+            ? <img src={r.photo} alt="" loading="lazy" />
+            : <div className="fill" dangerouslySetInnerHTML={{ __html: artSvg(r.titre, fams) }} />}
+          {ai && <span className="chef-tag">Le chef</span>}
+          <span className="score">{pct} %</span>
+        </div>
+        <div className="txt">
+          <h3>{r.titre}</h3>
+          <div className="meta">{[r.temps && `${r.temps} min`, r.difficulte, `${r.portions} pers.`].filter(Boolean).join(" · ")}</div>
+          <div className={"miss" + (missing.length ? "" : " ok")}>
+            {missing.length ? `Il manque : ${missing.map((m) => m.nom).join(", ")}` : "Tu as tout"}
+            {short.length > 0 && <span className="juste"> · un peu juste : {short.map((m) => m.nom).join(", ")}</span>}
+          </div>
+        </div>
+      </button>
+      {onFav && r.id && <FavButton on={fav} onClick={() => onFav(r.id)} label={false} />}
+    </div>
+  );
+}
+
+function Sheet({ r, onClose, fav, onFav }) {
   const { ings, missing, fams } = summary(r);
   return (
     <article>
@@ -476,6 +640,7 @@ function Sheet({ r, onClose }) {
       <div className="sheet-body">
         <div>
           <h2>{r.titre}</h2>
+          {onFav && <div style={{ marginTop: 10 }}><FavButton on={fav} onClick={() => onFav(r.id)} /></div>}
           <div className="meta" style={{ marginTop: 6 }}>
             {[r.temps && `${r.temps} min`, r.difficulte, `${r.portions} pers.`].filter(Boolean).join(" · ")}
             {" · "}
