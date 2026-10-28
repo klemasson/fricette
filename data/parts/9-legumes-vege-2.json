@@ -1,0 +1,4192 @@
+[
+  {
+    "titre": "Galettes de chou-fleur au parmesan, sauce yaourt-citron",
+    "categorie": "plat",
+    "temps": 40,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "chou_fleur",
+        "nom": "chou-fleur",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "parmesan",
+        "nom": "parmesan râpé",
+        "qte": 40,
+        "unite": "g"
+      },
+      {
+        "cle": "farine",
+        "nom": "farine",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "ail",
+        "nom": "ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "yaourt",
+        "nom": "yaourt nature",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "persil",
+        "nom": "persil",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Couper le chou-fleur en petits bouquets et le cuire 8 minutes à l'eau bouillante salée, puis bien l'égoutter.",
+      "L'écraser grossièrement à la fourchette et le laisser tiédir 5 minutes.",
+      "Ajouter les œufs, le parmesan, la farine, l'ail râpé, du sel et du poivre, puis mélanger.",
+      "Chauffer l'huile dans une poêle et y déposer des cuillerées de pâte aplaties ; cuire 4 minutes par face à feu moyen.",
+      "Mélanger le yaourt avec le jus d'un demi-citron, du sel et le persil haché, et servir avec les galettes chaudes."
+    ],
+    "astuce": "Les tiges et feuilles tendres du chou-fleur se râpent dans la pâte : rien ne se perd."
+  },
+  {
+    "titre": "Chou-fleur rôti au curcuma, pois chiches et sauce tahini",
+    "categorie": "plat",
+    "temps": 40,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "chou_fleur",
+        "nom": "chou-fleur",
+        "qte": 500,
+        "unite": "g"
+      },
+      {
+        "cle": "pois_chiche",
+        "nom": "pois chiches cuits",
+        "qte": 240,
+        "unite": "g"
+      },
+      {
+        "cle": "curcuma",
+        "nom": "curcuma",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "cumin",
+        "nom": "cumin",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "tahini",
+        "nom": "tahini",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "ail",
+        "nom": "ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "coriandre",
+        "nom": "coriandre",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 210 °C.",
+      "Couper le chou-fleur en bouquets, égoutter et sécher les pois chiches.",
+      "Mélanger le tout sur une plaque avec l'huile, le curcuma, le cumin, du sel et du poivre.",
+      "Rôtir 25 minutes en remuant à mi-cuisson, jusqu'à ce que les bouquets soient bien dorés.",
+      "Fouetter le tahini avec le jus du citron, l'ail râpé et 3 c. à s. d'eau froide jusqu'à obtenir une sauce lisse.",
+      "Napper les légumes de sauce et parsemer de coriandre."
+    ],
+    "astuce": "Ajouter un reste de riz ou de semoule sur la plaque les 5 dernières minutes pour en faire un plat complet."
+  },
+  {
+    "titre": "Steaks de chou-fleur, polenta crémeuse et noisettes",
+    "categorie": "plat",
+    "temps": 40,
+    "difficulte": "moyen",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "chou_fleur",
+        "nom": "chou-fleur",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "polenta",
+        "nom": "polenta",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "lait",
+        "nom": "lait",
+        "qte": 300,
+        "unite": "ml"
+      },
+      {
+        "cle": "eau",
+        "nom": "eau",
+        "qte": 200,
+        "unite": "ml"
+      },
+      {
+        "cle": "parmesan",
+        "nom": "parmesan",
+        "qte": 30,
+        "unite": "g"
+      },
+      {
+        "cle": "noisette",
+        "nom": "noisettes",
+        "qte": 30,
+        "unite": "g"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 20,
+        "unite": "g"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "herbes_provence",
+        "nom": "thym",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 220 °C.",
+      "Couper le chou-fleur en deux tranches épaisses de 2 cm au centre ; garder les bouquets restants pour un autre plat.",
+      "Badigeonner les tranches d'huile, de thym, de sel et de poivre, puis les rôtir 25 minutes en les retournant à mi-cuisson.",
+      "Porter le lait et l'eau salés à ébullition, verser la polenta en pluie et cuire 8 minutes en remuant.",
+      "Incorporer le beurre et le parmesan hors du feu.",
+      "Torréfier les noisettes concassées 3 minutes à sec et en parsemer les steaks servis sur la polenta."
+    ],
+    "astuce": "Les bouquets restants se congèlent crus, prêts pour une soupe ou un curry."
+  },
+  {
+    "titre": "Brocoli rôti, quinoa et sauce cacahuète",
+    "categorie": "plat",
+    "temps": 30,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "brocoli",
+        "nom": "brocoli",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "quinoa",
+        "nom": "quinoa",
+        "qte": 140,
+        "unite": "g"
+      },
+      {
+        "cle": "cacahuete",
+        "nom": "beurre de cacahuète",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "citron_vert",
+        "nom": "citron vert",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "gingembre",
+        "nom": "gingembre",
+        "qte": 10,
+        "unite": "g"
+      },
+      {
+        "cle": "sucre",
+        "nom": "sucre roux",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "graine",
+        "nom": "graines de sésame",
+        "qte": 1,
+        "unite": "c. à s.",
+        "optionnel": true
+      },
+      {
+        "cle": "piment",
+        "nom": "piment frais",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 220 °C et rincer le quinoa.",
+      "Cuire le quinoa 12 minutes dans deux fois son volume d'eau salée, puis le laisser gonfler à couvert.",
+      "Couper le brocoli en bouquets, émincer la tige pelée, mélanger avec l'huile et du sel, puis rôtir 15 minutes.",
+      "Mélanger le beurre de cacahuète, le jus du citron vert, le gingembre râpé, le sucre et 3 c. à s. d'eau chaude.",
+      "Servir le brocoli sur le quinoa, napper de sauce et parsemer de sésame et de piment."
+    ],
+    "astuce": "La tige du brocoli, pelée, est aussi tendre que les bouquets : à rôtir en bâtonnets."
+  },
+  {
+    "titre": "Gratin de brocoli et pommes de terre au comté",
+    "categorie": "plat",
+    "temps": 55,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "brocoli",
+        "nom": "brocoli",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "pomme_de_terre",
+        "nom": "pommes de terre",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "creme",
+        "nom": "crème",
+        "qte": 150,
+        "unite": "ml"
+      },
+      {
+        "cle": "lait",
+        "nom": "lait",
+        "qte": 100,
+        "unite": "ml"
+      },
+      {
+        "cle": "comte",
+        "nom": "comté râpé",
+        "qte": 70,
+        "unite": "g"
+      },
+      {
+        "cle": "ail",
+        "nom": "ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "muscade",
+        "nom": "muscade",
+        "qte": 1,
+        "unite": "pincée"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 200 °C.",
+      "Éplucher les pommes de terre, les couper en rondelles de 5 mm et les cuire 8 minutes à l'eau salée ; ajouter le brocoli en bouquets pour les 3 dernières minutes.",
+      "Égoutter et disposer dans un plat frotté à l'ail.",
+      "Mélanger la crème, le lait, la muscade, du sel et du poivre, puis verser sur les légumes.",
+      "Couvrir de comté et enfourner 25 minutes jusqu'à ce que le dessus soit doré."
+    ],
+    "astuce": "Un reste de gratin se réchauffe 10 minutes au four à 180 °C sans se dessécher."
+  },
+  {
+    "titre": "Pâtes au brocoli, ricotta et zeste de citron",
+    "categorie": "plat",
+    "temps": 20,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pates",
+        "nom": "orecchiette ou penne",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "brocoli",
+        "nom": "brocoli",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "ricotta",
+        "nom": "ricotta",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "citron",
+        "nom": "citron non traité",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "ail",
+        "nom": "ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "parmesan",
+        "nom": "parmesan",
+        "qte": 20,
+        "unite": "g"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "piment_poudre",
+        "nom": "piment",
+        "qte": 1,
+        "unite": "pincée",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Porter une grande casserole d'eau salée à ébullition.",
+      "Cuire les pâtes et ajouter le brocoli en petits bouquets 4 minutes avant la fin de cuisson.",
+      "Pendant ce temps, mélanger la ricotta avec le zeste du citron, l'ail râpé, du sel et du poivre.",
+      "Égoutter en gardant une louche d'eau de cuisson, puis remettre dans la casserole.",
+      "Ajouter la ricotta, l'huile et un peu d'eau de cuisson pour obtenir une sauce crémeuse, puis servir avec le parmesan et le piment."
+    ],
+    "astuce": "Le brocoli trop cuit s'écrase dans la sauce : c'est voulu, il la rend plus onctueuse."
+  },
+  {
+    "titre": "Kale à l'ail, haricots blancs et œuf poché",
+    "categorie": "plat",
+    "temps": 25,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "chou",
+        "nom": "chou kale",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "haricot_blanc",
+        "nom": "haricots blancs cuits",
+        "qte": 240,
+        "unite": "g"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "ail",
+        "nom": "ail",
+        "qte": 2,
+        "unite": "gousse"
+      },
+      {
+        "cle": "vinaigre",
+        "nom": "vinaigre",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "pain",
+        "nom": "pain de campagne",
+        "qte": 2,
+        "unite": "tranche",
+        "optionnel": true
+      },
+      {
+        "cle": "piment_poudre",
+        "nom": "piment en poudre",
+        "qte": 1,
+        "unite": "pincée",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Retirer les grosses côtes du kale et émincer les feuilles.",
+      "Faire revenir l'ail émincé 1 minute dans l'huile, ajouter le kale et 3 c. à s. d'eau, puis cuire 6 minutes à couvert.",
+      "Ajouter les haricots égouttés, saler, poivrer et réchauffer 4 minutes.",
+      "Porter une casserole d'eau frémissante avec le vinaigre, y glisser les œufs un à un et les pocher 3 minutes.",
+      "Servir les œufs sur les légumes, avec le piment et une tranche de pain grillé."
+    ],
+    "astuce": "Les côtes du kale, émincées finement, se mettent dans une soupe ou une poêlée."
+  },
+  {
+    "titre": "Stoemp au chou frisé et œuf au plat",
+    "categorie": "plat",
+    "temps": 40,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "chou",
+        "nom": "chou frisé",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "pomme_de_terre",
+        "nom": "pommes de terre",
+        "qte": 500,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 30,
+        "unite": "g"
+      },
+      {
+        "cle": "lait",
+        "nom": "lait",
+        "qte": 100,
+        "unite": "ml"
+      },
+      {
+        "cle": "moutarde",
+        "nom": "moutarde",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "muscade",
+        "nom": "muscade",
+        "qte": 1,
+        "unite": "pincée"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Éplucher les pommes de terre, les couper en morceaux et les cuire 20 minutes à l'eau salée.",
+      "Émincer le chou et l'ajouter dans la casserole pour les 8 dernières minutes.",
+      "Faire fondre l'oignon émincé dans la moitié du beurre 8 minutes.",
+      "Égoutter, écraser grossièrement avec le lait chaud, le reste du beurre, la moutarde, la muscade et l'oignon.",
+      "Cuire les œufs au plat et les servir sur le stoemp."
+    ],
+    "astuce": "Fonctionne aussi avec des épinards, des poireaux ou des carottes à la place du chou."
+  },
+  {
+    "titre": "Chou blanc braisé au cumin et pois chiches",
+    "categorie": "plat",
+    "temps": 35,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "chou",
+        "nom": "chou blanc",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "pois_chiche",
+        "nom": "pois chiches cuits",
+        "qte": 240,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "tomate_concassee",
+        "nom": "tomates concassées",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "cumin",
+        "nom": "cumin",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "paprika",
+        "nom": "paprika",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 0.5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "persil",
+        "nom": "persil",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Émincer finement le chou et l'oignon.",
+      "Faire revenir l'oignon 5 minutes dans l'huile, ajouter le cumin et le paprika, puis le chou ; cuire 5 minutes en remuant.",
+      "Ajouter les tomates, les pois chiches égouttés et 10 cl d'eau, saler et poivrer.",
+      "Couvrir et laisser braiser 20 minutes à feu doux, jusqu'à ce que le chou soit fondant.",
+      "Arroser de jus de citron et parsemer de persil avant de servir."
+    ],
+    "astuce": "Encore meilleur le lendemain ; se sert avec du riz, du pain ou de la semoule."
+  },
+  {
+    "titre": "Chou rouge braisé aux pommes et à la cannelle",
+    "categorie": "accompagnement",
+    "temps": 50,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "chou",
+        "nom": "chou rouge",
+        "qte": 500,
+        "unite": "g"
+      },
+      {
+        "cle": "pomme",
+        "nom": "pommes",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "vinaigre",
+        "nom": "vinaigre de cidre",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sucre",
+        "nom": "sucre",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "cannelle",
+        "nom": "cannelle",
+        "qte": 0.5,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "herbes_provence",
+        "nom": "feuille de laurier",
+        "qte": 1,
+        "unite": "pièce",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Émincer finement le chou rouge et l'oignon, couper les pommes en dés.",
+      "Faire revenir l'oignon 3 minutes dans l'huile dans une cocotte.",
+      "Ajouter le chou, les pommes, le vinaigre, le sucre, la cannelle, le laurier, du sel et 10 cl d'eau.",
+      "Couvrir et cuire 40 minutes à feu doux en remuant de temps en temps, en ajoutant un peu d'eau si besoin.",
+      "Rectifier l'assaisonnement en sucre et en vinaigre avant de servir."
+    ],
+    "astuce": "Il se congèle très bien en portions et accompagne marrons, spätzli ou galettes de légumes."
+  },
+  {
+    "titre": "Rouleaux de chou farcis au riz et aux champignons",
+    "categorie": "plat",
+    "temps": 70,
+    "difficulte": "moyen",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "chou",
+        "nom": "grandes feuilles de chou vert",
+        "qte": 6,
+        "unite": "pièce"
+      },
+      {
+        "cle": "riz",
+        "nom": "riz",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "champignon",
+        "nom": "champignons de Paris",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "carotte",
+        "nom": "carotte",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "tomate_concassee",
+        "nom": "coulis de tomate",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "paprika",
+        "nom": "paprika",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "aneth",
+        "nom": "aneth",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Blanchir les feuilles de chou 3 minutes à l'eau bouillante salée, les égoutter et retirer la partie dure de la côte.",
+      "Cuire le riz 10 minutes à l'eau salée et l'égoutter.",
+      "Faire revenir l'oignon, la carotte râpée et les champignons hachés 8 minutes dans l'huile, puis mélanger avec le riz, le paprika, du sel et du poivre.",
+      "Répartir la farce sur les feuilles, rouler en repliant les côtés et placer dans un plat, jointure dessous.",
+      "Verser le coulis de tomate, couvrir et cuire 35 minutes au four à 180 °C.",
+      "Parsemer d'aneth avant de servir."
+    ],
+    "astuce": "Le cœur du chou non utilisé s'émince en salade ou dans une poêlée."
+  },
+  {
+    "titre": "Poireaux rôtis, lentilles et œuf mollet",
+    "categorie": "plat",
+    "temps": 40,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "poireau",
+        "nom": "poireaux",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "lentille",
+        "nom": "lentilles vertes",
+        "qte": 120,
+        "unite": "g"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "moutarde",
+        "nom": "moutarde",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "vinaigre",
+        "nom": "vinaigre de vin",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 4,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "echalote",
+        "nom": "échalote",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "herbes_provence",
+        "nom": "thym",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Cuire les lentilles 25 minutes dans trois fois leur volume d'eau avec le thym, puis saler et égoutter.",
+      "Préchauffer le four à 200 °C, couper les poireaux en tronçons de 5 cm, les arroser de 2 c. à s. d'huile, saler et rôtir 25 minutes.",
+      "Cuire les œufs 6 minutes à l'eau bouillante, les refroidir et les écaler.",
+      "Fouetter la moutarde, le vinaigre, l'échalote hachée et le reste d'huile, puis mélanger avec les lentilles tièdes.",
+      "Servir les lentilles avec les poireaux et les œufs coupés en deux."
+    ],
+    "astuce": "Le vert des poireaux peut se rôtir aussi : il devient croustillant comme des chips."
+  },
+  {
+    "titre": "Feuilleté de poireaux à la moutarde et gruyère",
+    "categorie": "plat",
+    "temps": 45,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pate_feuilletee",
+        "nom": "pâte feuilletée",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "poireau",
+        "nom": "poireaux",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "moutarde",
+        "nom": "moutarde à l'ancienne",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "creme",
+        "nom": "crème épaisse",
+        "qte": 80,
+        "unite": "g"
+      },
+      {
+        "cle": "gruyere",
+        "nom": "gruyère râpé",
+        "qte": 60,
+        "unite": "g"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 15,
+        "unite": "g"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œuf",
+        "qte": 1,
+        "unite": "pièce",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 200 °C.",
+      "Émincer les poireaux et les faire fondre 10 minutes dans le beurre, saler et poivrer.",
+      "Dérouler la pâte sur une plaque, la piquer et tracer un rebord de 2 cm avec la pointe d'un couteau.",
+      "Étaler la moutarde mélangée à la crème, puis les poireaux et le gruyère, sans couvrir le rebord.",
+      "Dorer le rebord à l'œuf battu et cuire 25 minutes jusqu'à ce que la pâte soit bien gonflée.",
+      "Servir avec une salade verte."
+    ],
+    "astuce": "Un reste de feuilleté se réchauffe à la poêle à couvert pour rester croustillant dessous."
+  },
+  {
+    "titre": "Steaks de céleri-rave, crème aux champignons",
+    "categorie": "plat",
+    "temps": 50,
+    "difficulte": "moyen",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "celeri",
+        "nom": "céleri-rave",
+        "qte": 600,
+        "unite": "g"
+      },
+      {
+        "cle": "champignon",
+        "nom": "champignons",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "echalote",
+        "nom": "échalote",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "creme",
+        "nom": "crème",
+        "qte": 100,
+        "unite": "ml"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 20,
+        "unite": "g"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "herbes_provence",
+        "nom": "thym",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "persil",
+        "nom": "persil",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 200 °C.",
+      "Éplucher le céleri et le couper en 4 tranches de 1,5 cm d'épaisseur.",
+      "Les badigeonner d'huile, de thym, de sel et de poivre, puis les rôtir 30 minutes en les retournant à mi-cuisson.",
+      "Faire revenir l'échalote et les champignons émincés 8 minutes dans le beurre.",
+      "Ajouter la crème, saler, poivrer et laisser réduire 3 minutes.",
+      "Napper les steaks de sauce et parsemer de persil."
+    ],
+    "astuce": "Les chutes de céleri se glissent dans une purée ou une soupe."
+  },
+  {
+    "titre": "Gratin de céleri-rave et pommes de terre au bleu",
+    "categorie": "plat",
+    "temps": 60,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "celeri",
+        "nom": "céleri-rave",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "pomme_de_terre",
+        "nom": "pommes de terre",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "bleu",
+        "nom": "fromage bleu",
+        "qte": 60,
+        "unite": "g"
+      },
+      {
+        "cle": "creme",
+        "nom": "crème",
+        "qte": 150,
+        "unite": "ml"
+      },
+      {
+        "cle": "lait",
+        "nom": "lait",
+        "qte": 100,
+        "unite": "ml"
+      },
+      {
+        "cle": "ail",
+        "nom": "ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "noix",
+        "nom": "noix",
+        "qte": 20,
+        "unite": "g",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 190 °C.",
+      "Éplucher le céleri et les pommes de terre et les couper en fines lamelles de 3 mm.",
+      "Chauffer la crème et le lait avec l'ail écrasé, la moitié du bleu émietté, du sel et du poivre jusqu'à ce que le fromage fonde.",
+      "Disposer les légumes en couches dans un plat et verser la crème.",
+      "Parsemer du reste de bleu et des noix concassées, puis cuire 45 minutes jusqu'à ce que la pointe d'un couteau s'enfonce sans résistance."
+    ],
+    "astuce": "Remplacer le bleu par un reste de gruyère ou de raclette selon ce qu'il reste au frigo."
+  },
+  {
+    "titre": "Fenouil braisé à l'orange et aux olives",
+    "categorie": "accompagnement",
+    "temps": 35,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "fenouil",
+        "nom": "fenouils",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "orange",
+        "nom": "orange",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "olive",
+        "nom": "olives noires",
+        "qte": 40,
+        "unite": "g"
+      },
+      {
+        "cle": "ail",
+        "nom": "ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "herbes_provence",
+        "nom": "thym",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Couper les fenouils en quartiers en gardant un peu de base pour qu'ils se tiennent ; réserver les plumets.",
+      "Les dorer 5 minutes par face dans l'huile à feu moyen.",
+      "Ajouter l'ail écrasé, le thym, le jus de l'orange et 5 cl d'eau, saler et poivrer.",
+      "Couvrir et braiser 20 minutes à feu doux jusqu'à ce que le fenouil soit tendre.",
+      "Ajouter les olives, laisser réduire le jus 2 minutes et parsemer des plumets hachés."
+    ],
+    "astuce": "Excellent avec du riz, de la polenta ou des pois chiches pour en faire un plat."
+  },
+  {
+    "titre": "Fenouil gratiné au parmesan et tomates",
+    "categorie": "accompagnement",
+    "temps": 45,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "fenouil",
+        "nom": "fenouils",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "tomate",
+        "nom": "tomates",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "parmesan",
+        "nom": "parmesan râpé",
+        "qte": 40,
+        "unite": "g"
+      },
+      {
+        "cle": "chapelure",
+        "nom": "chapelure",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "ail",
+        "nom": "ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 200 °C.",
+      "Couper les fenouils en lamelles de 1 cm et les cuire 8 minutes à l'eau bouillante salée, puis égoutter.",
+      "Les disposer dans un plat avec les tomates en rondelles et l'ail émincé, saler, poivrer et arroser d'huile.",
+      "Mélanger le parmesan et la chapelure et en couvrir les légumes.",
+      "Gratiner 20 minutes jusqu'à ce que le dessus soit doré."
+    ],
+    "astuce": "Un pain rassis mixé remplace parfaitement la chapelure."
+  },
+  {
+    "titre": "Risotto à la betterave et au chèvre",
+    "categorie": "plat",
+    "temps": 35,
+    "difficulte": "moyen",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "riz_risotto",
+        "nom": "riz à risotto",
+        "qte": 160,
+        "unite": "g"
+      },
+      {
+        "cle": "betterave",
+        "nom": "betterave cuite",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "chevre",
+        "nom": "fromage de chèvre frais",
+        "qte": 80,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "bouillon",
+        "nom": "bouillon de légumes",
+        "qte": 700,
+        "unite": "ml"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 15,
+        "unite": "g"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "noix",
+        "nom": "noix",
+        "qte": 20,
+        "unite": "g",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Mixer la moitié de la betterave en purée et couper le reste en petits dés.",
+      "Faire revenir l'oignon haché 3 minutes dans l'huile, ajouter le riz et le nacrer 2 minutes.",
+      "Verser le bouillon chaud louche par louche en remuant, pendant 18 minutes.",
+      "Incorporer la purée et les dés de betterave à mi-cuisson.",
+      "Hors du feu, ajouter le beurre, saler, poivrer, puis servir avec le chèvre émietté et les noix."
+    ],
+    "astuce": "Le risotto restant se façonne en galettes à dorer à la poêle le lendemain."
+  },
+  {
+    "titre": "Betteraves rôties, boulgour et feta au miel",
+    "categorie": "plat",
+    "temps": 45,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "betterave",
+        "nom": "betteraves crues",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "boulgour",
+        "nom": "boulgour",
+        "qte": 140,
+        "unite": "g"
+      },
+      {
+        "cle": "feta",
+        "nom": "feta",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "miel",
+        "nom": "miel",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "vinaigre",
+        "nom": "vinaigre balsamique",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "menthe",
+        "nom": "menthe",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "graine",
+        "nom": "graines de courge",
+        "qte": 1,
+        "unite": "c. à s.",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 200 °C.",
+      "Éplucher les betteraves, les couper en quartiers, les mélanger avec 2 c. à s. d'huile et du sel et les rôtir 35 minutes.",
+      "Cuire le boulgour 10 minutes dans une fois et demie son volume d'eau salée, puis le laisser gonfler à couvert.",
+      "Mélanger le miel, le vinaigre et le reste d'huile et en arroser les betteraves chaudes.",
+      "Servir sur le boulgour avec la feta émiettée, la menthe et les graines de courge."
+    ],
+    "astuce": "Les fanes des betteraves se cuisinent comme des épinards, revenues à l'ail."
+  },
+  {
+    "titre": "Galettes de betterave et pomme de terre, crème à l'aneth",
+    "categorie": "plat",
+    "temps": 35,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "betterave",
+        "nom": "betterave crue",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "pomme_de_terre",
+        "nom": "pommes de terre",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œuf",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "farine",
+        "nom": "farine",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 0.5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "creme",
+        "nom": "crème épaisse",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "aneth",
+        "nom": "aneth",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 4,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Éplucher et râper la betterave, les pommes de terre et l'oignon, puis presser le tout dans un torchon pour retirer l'eau.",
+      "Mélanger avec l'œuf, la farine, du sel et du poivre.",
+      "Chauffer l'huile dans une grande poêle et y déposer 6 tas de mélange aplatis.",
+      "Cuire 5 minutes par face à feu moyen jusqu'à ce qu'elles soient croustillantes.",
+      "Mélanger la crème avec l'aneth haché et un peu de sel, et servir avec les galettes."
+    ],
+    "astuce": "Porter des gants ou se rincer vite les mains : la betterave crue tache."
+  },
+  {
+    "titre": "Navets et carottes glacés, polenta au gruyère",
+    "categorie": "plat",
+    "temps": 40,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "navet",
+        "nom": "navets",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "carotte",
+        "nom": "carottes",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "polenta",
+        "nom": "polenta",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "gruyere",
+        "nom": "gruyère râpé",
+        "qte": 50,
+        "unite": "g"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 30,
+        "unite": "g"
+      },
+      {
+        "cle": "miel",
+        "nom": "miel",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "eau",
+        "nom": "eau",
+        "qte": 500,
+        "unite": "ml"
+      },
+      {
+        "cle": "persil",
+        "nom": "persil",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Éplucher les navets et les carottes et les couper en morceaux de taille égale.",
+      "Les mettre dans une sauteuse avec 20 g de beurre, le miel, du sel et de l'eau à hauteur.",
+      "Cuire à découvert 20 minutes à feu moyen jusqu'à évaporation, puis rouler les légumes dans le glaçage.",
+      "Pendant ce temps, porter l'eau salée à ébullition, verser la polenta et cuire 8 minutes en remuant.",
+      "Incorporer le gruyère et le reste du beurre, puis servir avec les légumes glacés et le persil."
+    ],
+    "astuce": "Les fanes de navet se hachent et s'ajoutent à la polenta en fin de cuisson."
+  },
+  {
+    "titre": "Gratin de navets à la raclette",
+    "categorie": "plat",
+    "temps": 50,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "navet",
+        "nom": "navets",
+        "qte": 500,
+        "unite": "g"
+      },
+      {
+        "cle": "pomme_de_terre",
+        "nom": "pomme de terre",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "raclette",
+        "nom": "fromage à raclette",
+        "qte": 120,
+        "unite": "g"
+      },
+      {
+        "cle": "creme",
+        "nom": "crème",
+        "qte": 100,
+        "unite": "ml"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "muscade",
+        "nom": "muscade",
+        "qte": 1,
+        "unite": "pincée"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 200 °C.",
+      "Éplucher les navets et la pomme de terre, les couper en rondelles fines et les cuire 8 minutes à l'eau salée.",
+      "Égoutter et disposer dans un plat avec l'oignon émincé.",
+      "Verser la crème assaisonnée de muscade, de sel et de poivre.",
+      "Couvrir de tranches de raclette et enfourner 25 minutes jusqu'à ce que le fromage soit doré."
+    ],
+    "astuce": "La pomme de terre adoucit le goût du navet ; un panais fait aussi l'affaire."
+  },
+  {
+    "titre": "Courge rôtie farcie au quinoa, pomme et noix",
+    "categorie": "plat",
+    "temps": 55,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "courge",
+        "nom": "petite courge butternut",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "quinoa",
+        "nom": "quinoa",
+        "qte": 80,
+        "unite": "g"
+      },
+      {
+        "cle": "pomme",
+        "nom": "pomme",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "noix",
+        "nom": "noix",
+        "qte": 30,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon_rouge",
+        "nom": "oignon rouge",
+        "qte": 0.5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "herbes_provence",
+        "nom": "romarin",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "salade",
+        "nom": "roquette",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 200 °C.",
+      "Couper la courge en deux dans la longueur, retirer les graines, badigeonner d'huile, saler et rôtir 35 minutes face coupée dessous.",
+      "Cuire le quinoa 12 minutes à l'eau salée et l'égoutter.",
+      "Faire revenir l'oignon et la pomme en dés 5 minutes dans le reste d'huile avec le romarin, puis mélanger avec le quinoa et les noix.",
+      "Garnir les demi-courges, enfourner encore 10 minutes et servir avec de la roquette."
+    ],
+    "astuce": "Les graines de courge, rincées et séchées, se grillent 10 minutes au four avec du sel."
+  },
+  {
+    "titre": "Curry doux de potiron, épinards et pois chiches",
+    "categorie": "plat",
+    "temps": 35,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "courge",
+        "nom": "potiron",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "epinard",
+        "nom": "épinards",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "pois_chiche",
+        "nom": "pois chiches cuits",
+        "qte": 240,
+        "unite": "g"
+      },
+      {
+        "cle": "lait_coco",
+        "nom": "lait de coco",
+        "qte": 200,
+        "unite": "ml"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "curry",
+        "nom": "curry doux",
+        "qte": 2,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "gingembre",
+        "nom": "gingembre",
+        "qte": 10,
+        "unite": "g"
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "riz",
+        "nom": "riz basmati",
+        "qte": 140,
+        "unite": "g"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Cuire le riz selon le paquet.",
+      "Faire revenir l'oignon haché et le gingembre râpé 4 minutes dans l'huile, puis ajouter le curry 1 minute.",
+      "Ajouter le potiron en cubes de 2 cm, le lait de coco et 10 cl d'eau, saler, couvrir et cuire 15 minutes.",
+      "Ajouter les pois chiches égouttés et les épinards, puis cuire encore 5 minutes jusqu'à ce que les épinards soient tombés.",
+      "Servir avec le riz."
+    ],
+    "astuce": "Les épinards surgelés conviennent : les ajouter directement, sans les décongeler."
+  },
+  {
+    "titre": "Polenta grillée, courge rôtie et chèvre",
+    "categorie": "plat",
+    "temps": 50,
+    "difficulte": "moyen",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "polenta",
+        "nom": "polenta",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "courge",
+        "nom": "potimarron",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "chevre",
+        "nom": "bûche de chèvre",
+        "qte": 80,
+        "unite": "g"
+      },
+      {
+        "cle": "eau",
+        "nom": "eau",
+        "qte": 500,
+        "unite": "ml"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "miel",
+        "nom": "miel",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "herbes_provence",
+        "nom": "thym",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "noisette",
+        "nom": "noisettes",
+        "qte": 20,
+        "unite": "g",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Porter l'eau salée à ébullition, verser la polenta en pluie, cuire 8 minutes en remuant puis l'étaler sur 1,5 cm dans un plat huilé ; laisser prendre 20 minutes.",
+      "Préchauffer le four à 210 °C, couper le potimarron (avec la peau) en quartiers, l'arroser de 2 c. à s. d'huile, de thym et de sel, et le rôtir 25 minutes.",
+      "Couper la polenta en rectangles et les dorer 4 minutes par face dans le reste d'huile.",
+      "Disposer le potimarron et le chèvre en rondelles sur la polenta, arroser de miel et passer 3 minutes sous le gril.",
+      "Parsemer de noisettes concassées et poivrer."
+    ],
+    "astuce": "La polenta peut être préparée la veille : elle se tranche encore mieux bien froide."
+  },
+  {
+    "titre": "Patates douces farcies aux haricots noirs et maïs",
+    "categorie": "plat",
+    "temps": 55,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "patate_douce",
+        "nom": "patates douces moyennes",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "haricot_rouge",
+        "nom": "haricots noirs cuits",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "mais",
+        "nom": "maïs",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "tomate",
+        "nom": "tomate",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oignon_rouge",
+        "nom": "oignon rouge",
+        "qte": 0.5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "cumin",
+        "nom": "cumin",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "citron_vert",
+        "nom": "citron vert",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "avocat",
+        "nom": "avocat",
+        "qte": 1,
+        "unite": "pièce",
+        "optionnel": true
+      },
+      {
+        "cle": "coriandre",
+        "nom": "coriandre",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 200 °C, piquer les patates douces à la fourchette et les cuire 45 minutes sur une plaque.",
+      "Faire revenir l'oignon haché 3 minutes dans l'huile, ajouter le cumin, les haricots égouttés et le maïs, puis chauffer 5 minutes.",
+      "Ajouter la tomate en dés et le jus d'un demi-citron vert, saler et poivrer.",
+      "Fendre les patates douces, écraser légèrement la chair et les garnir du mélange.",
+      "Servir avec l'avocat en dés, la coriandre et le reste du citron vert en quartiers."
+    ],
+    "astuce": "Les patates douces se cuisent aussi 10 minutes au micro-ondes, puis 10 minutes au four pour la peau."
+  },
+  {
+    "titre": "Galettes de patate douce et pois chiches",
+    "categorie": "plat",
+    "temps": 40,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "patate_douce",
+        "nom": "patate douce",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "pois_chiche",
+        "nom": "pois chiches cuits",
+        "qte": 240,
+        "unite": "g"
+      },
+      {
+        "cle": "farine",
+        "nom": "farine de pois chiche ou de blé",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "cumin",
+        "nom": "cumin",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "ail",
+        "nom": "ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "persil",
+        "nom": "persil",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "salade",
+        "nom": "jeunes pousses",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Éplucher la patate douce, la couper en cubes et la cuire 12 minutes à la vapeur.",
+      "Écraser la patate douce avec les pois chiches égouttés, l'ail râpé, le cumin, le persil haché, la farine, du sel et du poivre.",
+      "Façonner 6 galettes avec les mains humides et les laisser reposer 10 minutes au frais.",
+      "Les dorer 4 minutes par face dans l'huile chaude à feu moyen.",
+      "Servir avec une salade de jeunes pousses."
+    ],
+    "astuce": "Avec de la farine de pois chiche, la recette est sans gluten."
+  },
+  {
+    "titre": "Gnocchis de patate douce au beurre noisette et sauge",
+    "categorie": "plat",
+    "temps": 60,
+    "difficulte": "moyen",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "patate_douce",
+        "nom": "patate douce",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "farine",
+        "nom": "farine",
+        "qte": 180,
+        "unite": "g"
+      },
+      {
+        "cle": "parmesan",
+        "nom": "parmesan",
+        "qte": 40,
+        "unite": "g"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 40,
+        "unite": "g"
+      },
+      {
+        "cle": "herbes",
+        "nom": "feuilles de sauge",
+        "qte": 8,
+        "unite": "pièce"
+      },
+      {
+        "cle": "muscade",
+        "nom": "muscade",
+        "qte": 1,
+        "unite": "pincée"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Cuire la patate douce entière piquée 45 minutes au four à 200 °C, puis récupérer la chair et la laisser tiédir.",
+      "Écraser finement la chair avec la moitié du parmesan, la muscade et du sel, puis ajouter la farine petit à petit jusqu'à obtenir une pâte souple qui ne colle plus.",
+      "Rouler la pâte en boudins de 2 cm et couper des tronçons de 2 cm.",
+      "Les plonger dans l'eau bouillante salée et les retirer 1 minute après qu'ils remontent à la surface.",
+      "Faire mousser le beurre avec la sauge jusqu'à ce qu'il soit noisette, y rouler les gnocchis 2 minutes et servir avec le reste du parmesan."
+    ],
+    "astuce": "Les gnocchis crus se congèlent étalés sur une plaque, puis se cuisent sans décongélation."
+  },
+  {
+    "titre": "Crêpes épinards-ricotta gratinées",
+    "categorie": "plat",
+    "temps": 50,
+    "difficulte": "moyen",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "farine",
+        "nom": "farine",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "lait",
+        "nom": "lait",
+        "qte": 250,
+        "unite": "ml"
+      },
+      {
+        "cle": "epinard",
+        "nom": "épinards",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "ricotta",
+        "nom": "ricotta",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "tomate_concassee",
+        "nom": "coulis de tomate",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "mozzarella",
+        "nom": "mozzarella",
+        "qte": 80,
+        "unite": "g"
+      },
+      {
+        "cle": "muscade",
+        "nom": "muscade",
+        "qte": 1,
+        "unite": "pincée"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 10,
+        "unite": "g"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Fouetter la farine, les œufs, le lait et une pincée de sel, puis cuire 6 crêpes dans une poêle beurrée.",
+      "Faire tomber les épinards 4 minutes dans une poêle, les presser pour retirer l'eau et les hacher.",
+      "Mélanger les épinards avec la ricotta, la muscade, du sel et du poivre.",
+      "Garnir et rouler les crêpes, les ranger dans un plat et napper de coulis de tomate.",
+      "Couvrir de mozzarella en morceaux et gratiner 20 minutes au four à 200 °C."
+    ],
+    "astuce": "Un reste de crêpes de la veille fait parfaitement l'affaire."
+  },
+  {
+    "titre": "Tofu aux épinards à l'indienne",
+    "categorie": "plat",
+    "temps": 30,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "tofu",
+        "nom": "tofu ferme",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "epinard",
+        "nom": "épinards",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "ail",
+        "nom": "ail",
+        "qte": 2,
+        "unite": "gousse"
+      },
+      {
+        "cle": "gingembre",
+        "nom": "gingembre",
+        "qte": 15,
+        "unite": "g"
+      },
+      {
+        "cle": "curry",
+        "nom": "garam masala",
+        "qte": 2,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "lait_coco",
+        "nom": "lait de coco",
+        "qte": 100,
+        "unite": "ml"
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "riz",
+        "nom": "riz basmati",
+        "qte": 140,
+        "unite": "g"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Cuire le riz selon le paquet.",
+      "Couper le tofu en cubes et le dorer 6 minutes dans 1 c. à s. d'huile, puis le réserver.",
+      "Faire revenir l'oignon, l'ail et le gingembre hachés 4 minutes dans le reste d'huile, puis ajouter le garam masala.",
+      "Ajouter les épinards et les laisser tomber 5 minutes, puis mixer grossièrement avec le lait de coco.",
+      "Remettre dans la poêle avec le tofu, saler, chauffer 3 minutes et servir avec le riz."
+    ],
+    "astuce": "Des épinards un peu fatigués conviennent parfaitement : ils sont mixés."
+  },
+  {
+    "titre": "Tartines de champignons à l'ail et œuf poché",
+    "categorie": "plat",
+    "temps": 20,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pain",
+        "nom": "pain de campagne",
+        "qte": 2,
+        "unite": "tranche"
+      },
+      {
+        "cle": "champignon",
+        "nom": "champignons mélangés",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "ail",
+        "nom": "ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 20,
+        "unite": "g"
+      },
+      {
+        "cle": "persil",
+        "nom": "persil",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "vinaigre",
+        "nom": "vinaigre",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Émincer les champignons et les saisir 6 minutes à feu vif dans le beurre, sans remuer au début pour qu'ils dorent.",
+      "Ajouter l'ail et le persil hachés, saler, poivrer et cuire encore 1 minute.",
+      "Pocher les œufs 3 minutes dans une eau frémissante vinaigrée.",
+      "Griller les tranches de pain et les frotter d'ail si désiré.",
+      "Répartir les champignons sur les tartines et poser un œuf poché dessus."
+    ],
+    "astuce": "Idéal pour finir un pain rassis et des champignons un peu ridés."
+  },
+  {
+    "titre": "Stroganoff de champignons au paprika et riz",
+    "categorie": "plat",
+    "temps": 30,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "champignon",
+        "nom": "champignons de Paris",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "paprika",
+        "nom": "paprika",
+        "qte": 2,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "creme",
+        "nom": "crème épaisse",
+        "qte": 120,
+        "unite": "g"
+      },
+      {
+        "cle": "moutarde",
+        "nom": "moutarde",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "riz",
+        "nom": "riz",
+        "qte": 140,
+        "unite": "g"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 20,
+        "unite": "g"
+      },
+      {
+        "cle": "persil",
+        "nom": "persil",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Cuire le riz selon le paquet.",
+      "Faire revenir l'oignon émincé 4 minutes dans le beurre.",
+      "Ajouter les champignons en quartiers et cuire 8 minutes à feu vif jusqu'à évaporation de leur eau.",
+      "Saupoudrer de paprika, ajouter la crème et la moutarde, saler, poivrer et laisser mijoter 3 minutes.",
+      "Servir sur le riz avec du persil."
+    ],
+    "astuce": "Un trait de jus de cornichon dans la sauce rappelle la version d'origine."
+  },
+  {
+    "titre": "Bourguignon de champignons et carottes, purée",
+    "categorie": "plat",
+    "temps": 60,
+    "difficulte": "moyen",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_lactose",
+      "sans_porc"
+    ],
+    "ingredients": [
+      {
+        "cle": "champignon",
+        "nom": "champignons de Paris",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "carotte",
+        "nom": "carottes",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignons",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "vin_rouge",
+        "nom": "vin rouge",
+        "qte": 200,
+        "unite": "ml"
+      },
+      {
+        "cle": "concentre_tomate",
+        "nom": "concentré de tomate",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "farine",
+        "nom": "farine",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "bouillon",
+        "nom": "bouillon de légumes",
+        "qte": 200,
+        "unite": "ml"
+      },
+      {
+        "cle": "herbes_provence",
+        "nom": "thym et laurier",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "pomme_de_terre",
+        "nom": "pommes de terre",
+        "qte": 500,
+        "unite": "g"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 4,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Dorer les champignons en quartiers 6 minutes dans 1 c. à s. d'huile et les réserver.",
+      "Faire revenir les oignons et les carottes en rondelles 5 minutes dans 1 c. à s. d'huile, saupoudrer de farine et ajouter le concentré de tomate.",
+      "Verser le vin, le bouillon et les herbes, puis remettre les champignons ; couvrir et mijoter 35 minutes.",
+      "Pendant ce temps, cuire les pommes de terre 20 minutes à l'eau salée et les écraser avec le reste d'huile et un peu d'eau de cuisson.",
+      "Rectifier l'assaisonnement et servir le bourguignon sur la purée."
+    ],
+    "astuce": "Le bourguignon est encore meilleur réchauffé le lendemain."
+  },
+  {
+    "titre": "Endives braisées à l'orange, quinoa et noix",
+    "categorie": "plat",
+    "temps": 35,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "endive",
+        "nom": "endives",
+        "qte": 4,
+        "unite": "pièce"
+      },
+      {
+        "cle": "orange",
+        "nom": "orange",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "quinoa",
+        "nom": "quinoa",
+        "qte": 140,
+        "unite": "g"
+      },
+      {
+        "cle": "noix",
+        "nom": "noix",
+        "qte": 30,
+        "unite": "g"
+      },
+      {
+        "cle": "sucre",
+        "nom": "sucre",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "persil",
+        "nom": "persil",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Rincer le quinoa et le cuire 12 minutes à l'eau salée, puis l'égoutter.",
+      "Couper les endives en deux dans la longueur et les dorer 4 minutes face coupée dans l'huile.",
+      "Saupoudrer de sucre, verser le jus de l'orange, saler, poivrer, couvrir et braiser 15 minutes à feu doux.",
+      "Ajouter le zeste d'orange et les noix concassées 2 minutes avant la fin.",
+      "Servir les endives et leur jus sur le quinoa, avec du persil."
+    ],
+    "astuce": "Le sucre et l'orange adoucissent l'amertume ; retirer le petit cône dur à la base si les endives sont grosses."
+  },
+  {
+    "titre": "Gratin d'endives au chèvre et à la poire",
+    "categorie": "plat",
+    "temps": 45,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "endive",
+        "nom": "endives",
+        "qte": 4,
+        "unite": "pièce"
+      },
+      {
+        "cle": "poire",
+        "nom": "poire",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "chevre",
+        "nom": "bûche de chèvre",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "creme",
+        "nom": "crème",
+        "qte": 100,
+        "unite": "ml"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 15,
+        "unite": "g"
+      },
+      {
+        "cle": "miel",
+        "nom": "miel",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "noix",
+        "nom": "noix",
+        "qte": 20,
+        "unite": "g",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 200 °C.",
+      "Couper les endives en deux et les faire dorer 8 minutes dans le beurre.",
+      "Les ranger dans un plat avec la poire en lamelles, saler, poivrer et verser la crème.",
+      "Couvrir de rondelles de chèvre, arroser de miel et parsemer de noix.",
+      "Gratiner 20 minutes jusqu'à ce que le chèvre soit doré et servir avec du pain ou des pommes de terre."
+    ],
+    "astuce": "Une poire trop mûre pour être croquée est parfaite ici."
+  },
+  {
+    "titre": "Aubergines farcies au boulgour et feta",
+    "categorie": "plat",
+    "temps": 60,
+    "difficulte": "moyen",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "aubergine",
+        "nom": "aubergines",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "boulgour",
+        "nom": "boulgour",
+        "qte": 80,
+        "unite": "g"
+      },
+      {
+        "cle": "feta",
+        "nom": "feta",
+        "qte": 80,
+        "unite": "g"
+      },
+      {
+        "cle": "tomate",
+        "nom": "tomates",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "cumin",
+        "nom": "cumin",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "menthe",
+        "nom": "menthe",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 200 °C, couper les aubergines en deux, quadriller la chair, arroser d'huile, saler et rôtir 25 minutes.",
+      "Cuire le boulgour 10 minutes à l'eau salée et l'égoutter.",
+      "Évider les aubergines en laissant 1 cm de chair, hacher la chair prélevée.",
+      "Faire revenir l'oignon 4 minutes, ajouter la chair d'aubergine, les tomates en dés et le cumin, et cuire 5 minutes avant d'ajouter le boulgour.",
+      "Farcir les aubergines, parsemer de feta émiettée et enfourner 15 minutes.",
+      "Servir avec de la menthe ciselée."
+    ],
+    "astuce": "Un reste de riz ou de quinoa remplace le boulgour, sans gluten."
+  },
+  {
+    "titre": "Curry d'aubergines et pois chiches au lait de coco",
+    "categorie": "plat",
+    "temps": 40,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "aubergine",
+        "nom": "aubergine",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "pois_chiche",
+        "nom": "pois chiches cuits",
+        "qte": 240,
+        "unite": "g"
+      },
+      {
+        "cle": "tomate_concassee",
+        "nom": "tomates concassées",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "lait_coco",
+        "nom": "lait de coco",
+        "qte": 200,
+        "unite": "ml"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "ail",
+        "nom": "ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "curry",
+        "nom": "curry",
+        "qte": 2,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "riz",
+        "nom": "riz",
+        "qte": 140,
+        "unite": "g"
+      },
+      {
+        "cle": "coriandre",
+        "nom": "coriandre",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Cuire le riz selon le paquet.",
+      "Couper l'aubergine en cubes et la dorer 8 minutes dans 2 c. à s. d'huile.",
+      "Ajouter le reste d'huile, l'oignon et l'ail hachés, puis le curry et cuire 3 minutes.",
+      "Verser les tomates, le lait de coco et les pois chiches égouttés, saler et mijoter 15 minutes.",
+      "Servir avec le riz et la coriandre."
+    ],
+    "astuce": "Le curry se congèle bien ; ajouter des épinards en fin de cuisson pour plus de vert."
+  },
+  {
+    "titre": "Haricots verts sautés au tofu, sésame et gingembre",
+    "categorie": "plat",
+    "temps": 25,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "haricot_vert",
+        "nom": "haricots verts",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "tofu",
+        "nom": "tofu ferme",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "gingembre",
+        "nom": "gingembre",
+        "qte": 15,
+        "unite": "g"
+      },
+      {
+        "cle": "ail",
+        "nom": "ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "sauce_soja",
+        "nom": "sauce soja",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "graine",
+        "nom": "graines de sésame",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "riz",
+        "nom": "riz",
+        "qte": 140,
+        "unite": "g"
+      }
+    ],
+    "etapes": [
+      "Cuire le riz selon le paquet.",
+      "Équeuter les haricots et les cuire 5 minutes à l'eau bouillante salée, puis les refroidir.",
+      "Couper le tofu en cubes et le dorer 6 minutes à feu vif dans l'huile.",
+      "Ajouter l'ail et le gingembre hachés, puis les haricots et sauter 3 minutes.",
+      "Verser la sauce soja, parsemer de sésame et servir avec le riz."
+    ],
+    "astuce": "Avec du tamari à la place de la sauce soja, le plat devient sans gluten."
+  },
+  {
+    "titre": "Ragoût de haricots verts, tomates et pois chiches",
+    "categorie": "plat",
+    "temps": 35,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "haricot_vert",
+        "nom": "haricots verts",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "pois_chiche",
+        "nom": "pois chiches cuits",
+        "qte": 240,
+        "unite": "g"
+      },
+      {
+        "cle": "tomate_concassee",
+        "nom": "tomates concassées",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "ail",
+        "nom": "ail",
+        "qte": 2,
+        "unite": "gousse"
+      },
+      {
+        "cle": "paprika",
+        "nom": "paprika",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "pain",
+        "nom": "pain",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Équeuter les haricots et les couper en deux.",
+      "Faire revenir l'oignon et l'ail émincés 4 minutes dans l'huile avec le paprika.",
+      "Ajouter les tomates, les haricots et 10 cl d'eau, saler et poivrer.",
+      "Couvrir et mijoter 20 minutes, jusqu'à ce que les haricots soient bien tendres.",
+      "Ajouter les pois chiches égouttés pour les 5 dernières minutes et servir avec du pain."
+    ],
+    "astuce": "Une recette idéale pour des haricots un peu flétris, qui deviennent fondants en mijotant."
+  },
+  {
+    "titre": "Petits pois à la française végétariens",
+    "categorie": "accompagnement",
+    "temps": 25,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "petit_pois",
+        "nom": "petits pois",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "salade",
+        "nom": "laitue",
+        "qte": 0.5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oignon_nouveau",
+        "nom": "oignons nouveaux",
+        "qte": 4,
+        "unite": "pièce"
+      },
+      {
+        "cle": "carotte",
+        "nom": "carotte",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 25,
+        "unite": "g"
+      },
+      {
+        "cle": "sucre",
+        "nom": "sucre",
+        "qte": 1,
+        "unite": "pincée"
+      },
+      {
+        "cle": "bouillon",
+        "nom": "bouillon de légumes",
+        "qte": 100,
+        "unite": "ml"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Émincer les oignons nouveaux et couper la carotte en fines rondelles.",
+      "Les faire suer 3 minutes dans le beurre.",
+      "Ajouter les petits pois, le bouillon, le sucre, du sel et du poivre ; couvrir et cuire 12 minutes à feu doux.",
+      "Ajouter la laitue émincée et cuire 3 minutes, juste le temps qu'elle tombe.",
+      "Servir tel quel ou avec un œuf mollet pour un repas léger."
+    ],
+    "astuce": "Les feuilles extérieures de la laitue, trop dures en salade, conviennent parfaitement ici."
+  },
+  {
+    "titre": "Galettes de petits pois, feta et menthe",
+    "categorie": "plat",
+    "temps": 30,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "petit_pois",
+        "nom": "petits pois",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "feta",
+        "nom": "feta",
+        "qte": 80,
+        "unite": "g"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "farine",
+        "nom": "farine",
+        "qte": 4,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "menthe",
+        "nom": "menthe",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 0.5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "yaourt",
+        "nom": "yaourt nature",
+        "qte": 125,
+        "unite": "g"
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Cuire les petits pois 4 minutes à l'eau bouillante et les égoutter.",
+      "Les écraser grossièrement, puis ajouter la feta émiettée, les œufs, la farine, la menthe ciselée, le zeste du citron et du poivre.",
+      "Déposer des cuillerées de pâte dans l'huile chaude et les aplatir légèrement.",
+      "Cuire 3 minutes par face jusqu'à ce qu'elles soient dorées.",
+      "Servir avec le yaourt relevé d'un filet de jus de citron et d'un peu de sel."
+    ],
+    "astuce": "Les petits pois surgelés font très bien l'affaire toute l'année."
+  },
+  {
+    "titre": "Galettes de maïs et courgette, salsa tomate",
+    "categorie": "plat",
+    "temps": 30,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "mais",
+        "nom": "maïs",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "courgette",
+        "nom": "courgette",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "farine",
+        "nom": "farine",
+        "qte": 60,
+        "unite": "g"
+      },
+      {
+        "cle": "tomate",
+        "nom": "tomates",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oignon_rouge",
+        "nom": "oignon rouge",
+        "qte": 0.5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "citron_vert",
+        "nom": "citron vert",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "coriandre",
+        "nom": "coriandre",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Râper la courgette, la saler et la presser après 5 minutes pour retirer l'eau.",
+      "Mélanger la courgette, le maïs égoutté, les œufs, la farine, du sel et du poivre.",
+      "Cuire des cuillerées de pâte 3 minutes par face dans l'huile chaude.",
+      "Préparer la salsa avec les tomates et l'oignon en petits dés, le jus du citron vert, la coriandre et du sel.",
+      "Servir les galettes chaudes avec la salsa."
+    ],
+    "astuce": "Une fin de boîte de maïs et une courgette oubliée suffisent pour un repas."
+  },
+  {
+    "titre": "Bowl de polenta, haricots rouges, maïs et avocat",
+    "categorie": "plat",
+    "temps": 30,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "polenta",
+        "nom": "polenta",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "haricot_rouge",
+        "nom": "haricots rouges cuits",
+        "qte": 240,
+        "unite": "g"
+      },
+      {
+        "cle": "mais",
+        "nom": "maïs",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "avocat",
+        "nom": "avocat",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "tomate_cerise",
+        "nom": "tomates cerises",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "cumin",
+        "nom": "cumin",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "paprika",
+        "nom": "paprika fumé",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "citron_vert",
+        "nom": "citron vert",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "eau",
+        "nom": "eau",
+        "qte": 500,
+        "unite": "ml"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Porter l'eau salée à ébullition, verser la polenta en pluie et cuire 8 minutes en remuant, puis ajouter 1 c. à s. d'huile.",
+      "Chauffer les haricots égouttés et le maïs 5 minutes avec le reste d'huile, le cumin et le paprika, saler.",
+      "Couper l'avocat et les tomates cerises, les arroser de jus de citron vert.",
+      "Répartir la polenta dans deux bols et garnir de haricots, de maïs, d'avocat et de tomates."
+    ],
+    "astuce": "Une polenta restée prise au frigo se coupe en dés et se dore à la poêle pour ce bowl."
+  },
+  {
+    "titre": "Risotto aux asperges vertes et citron",
+    "categorie": "plat",
+    "temps": 35,
+    "difficulte": "moyen",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "asperge",
+        "nom": "asperges vertes",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "riz_risotto",
+        "nom": "riz à risotto",
+        "qte": 160,
+        "unite": "g"
+      },
+      {
+        "cle": "echalote",
+        "nom": "échalote",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "bouillon",
+        "nom": "bouillon de légumes",
+        "qte": 700,
+        "unite": "ml"
+      },
+      {
+        "cle": "citron",
+        "nom": "citron non traité",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "parmesan",
+        "nom": "parmesan",
+        "qte": 40,
+        "unite": "g"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 20,
+        "unite": "g"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Casser la base dure des asperges, couper les pointes et tailler les tiges en rondelles.",
+      "Faire revenir l'échalote 2 minutes dans l'huile, ajouter le riz et le nacrer 2 minutes.",
+      "Verser le bouillon chaud louche par louche en remuant, pendant 18 minutes ; ajouter les rondelles à mi-cuisson et les pointes 5 minutes avant la fin.",
+      "Hors du feu, incorporer le beurre, le parmesan, le zeste et un filet de jus de citron.",
+      "Poivrer et servir aussitôt."
+    ],
+    "astuce": "Les bases dures des asperges parfument le bouillon : les y faire infuser 15 minutes."
+  },
+  {
+    "titre": "Tartines d'asperges, ricotta et œuf mollet",
+    "categorie": "plat",
+    "temps": 20,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "asperge",
+        "nom": "asperges vertes",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "pain",
+        "nom": "pain de campagne",
+        "qte": 2,
+        "unite": "tranche"
+      },
+      {
+        "cle": "ricotta",
+        "nom": "ricotta",
+        "qte": 120,
+        "unite": "g"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 0.5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "ciboulette",
+        "nom": "ciboulette",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Cuire les œufs 6 minutes à l'eau bouillante, puis les refroidir et les écaler.",
+      "Poêler les asperges 6 minutes dans l'huile en les roulant, saler.",
+      "Griller le pain et le tartiner de ricotta assaisonnée de zeste de citron, de sel et de poivre.",
+      "Disposer les asperges et les œufs coupés en deux, puis parsemer de ciboulette."
+    ],
+    "astuce": "Le pain un peu rassis se grille mieux et tient la garniture sans ramollir."
+  },
+  {
+    "titre": "Bowl de quinoa, kale massé et patate douce rôtie",
+    "categorie": "plat",
+    "temps": 40,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "quinoa",
+        "nom": "quinoa",
+        "qte": 120,
+        "unite": "g"
+      },
+      {
+        "cle": "chou",
+        "nom": "chou kale",
+        "qte": 120,
+        "unite": "g"
+      },
+      {
+        "cle": "patate_douce",
+        "nom": "patate douce",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "pois_chiche",
+        "nom": "pois chiches cuits",
+        "qte": 120,
+        "unite": "g"
+      },
+      {
+        "cle": "tahini",
+        "nom": "tahini",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "paprika",
+        "nom": "paprika",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "graine",
+        "nom": "graines de tournesol",
+        "qte": 1,
+        "unite": "c. à s.",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 210 °C, couper la patate douce en cubes, mélanger avec 2 c. à s. d'huile, le paprika et du sel, puis rôtir 25 minutes avec les pois chiches.",
+      "Cuire le quinoa 12 minutes à l'eau salée et l'égoutter.",
+      "Émincer le kale sans les côtes et le masser 2 minutes avec le reste d'huile, un peu de jus de citron et du sel pour l'attendrir.",
+      "Fouetter le tahini avec le reste du jus de citron et 3 c. à s. d'eau.",
+      "Répartir le quinoa, le kale, la patate douce et les pois chiches dans des bols, napper de sauce et parsemer de graines."
+    ],
+    "astuce": "Le kale massé se garde 2 jours au frigo sans flétrir, pratique pour les lunchs."
+  },
+  {
+    "titre": "Boulgour aux poireaux et champignons",
+    "categorie": "plat",
+    "temps": 30,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "boulgour",
+        "nom": "boulgour",
+        "qte": 140,
+        "unite": "g"
+      },
+      {
+        "cle": "poireau",
+        "nom": "poireau",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "champignon",
+        "nom": "champignons",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "bouillon",
+        "nom": "bouillon de légumes",
+        "qte": 300,
+        "unite": "ml"
+      },
+      {
+        "cle": "ail",
+        "nom": "ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "herbes_provence",
+        "nom": "thym",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "persil",
+        "nom": "persil",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Émincer le poireau et les champignons.",
+      "Faire revenir le poireau 5 minutes dans l'huile, puis ajouter les champignons, l'ail et le thym et cuire 5 minutes.",
+      "Ajouter le boulgour, remuer 1 minute, puis verser le bouillon chaud.",
+      "Couvrir et cuire 12 minutes à feu doux jusqu'à absorption du liquide.",
+      "Laisser reposer 5 minutes, égrener à la fourchette et servir avec du persil."
+    ],
+    "astuce": "Un reste se mange froid en salade avec un filet de citron."
+  },
+  {
+    "titre": "Polenta au four aux épinards et gorgonzola",
+    "categorie": "plat",
+    "temps": 45,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "polenta",
+        "nom": "polenta",
+        "qte": 120,
+        "unite": "g"
+      },
+      {
+        "cle": "epinard",
+        "nom": "épinards",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "bleu",
+        "nom": "gorgonzola",
+        "qte": 80,
+        "unite": "g"
+      },
+      {
+        "cle": "lait",
+        "nom": "lait",
+        "qte": 300,
+        "unite": "ml"
+      },
+      {
+        "cle": "eau",
+        "nom": "eau",
+        "qte": 300,
+        "unite": "ml"
+      },
+      {
+        "cle": "ail",
+        "nom": "ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 15,
+        "unite": "g"
+      },
+      {
+        "cle": "noix",
+        "nom": "noix",
+        "qte": 20,
+        "unite": "g",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 200 °C.",
+      "Porter le lait et l'eau salés à ébullition, verser la polenta en pluie et cuire 8 minutes en remuant.",
+      "Faire tomber les épinards 4 minutes avec l'ail dans le beurre, saler et poivrer.",
+      "Étaler la polenta dans un plat beurré, couvrir d'épinards et de gorgonzola en morceaux.",
+      "Enfourner 15 minutes, parsemer de noix et servir."
+    ],
+    "astuce": "Le gorgonzola peut être remplacé par n'importe quel reste de fromage qui fond."
+  },
+  {
+    "titre": "Gnocchis poêlés au kale, noix et parmesan",
+    "categorie": "plat",
+    "temps": 20,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "gnocchi",
+        "nom": "gnocchis",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "chou",
+        "nom": "chou kale",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "noix",
+        "nom": "noix",
+        "qte": 30,
+        "unite": "g"
+      },
+      {
+        "cle": "parmesan",
+        "nom": "parmesan",
+        "qte": 30,
+        "unite": "g"
+      },
+      {
+        "cle": "ail",
+        "nom": "ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 20,
+        "unite": "g"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 0.5,
+        "unite": "pièce",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Dorer les gnocchis 8 minutes dans l'huile et le beurre à feu moyen, sans les précuire.",
+      "Ajouter l'ail émincé et le kale émincé sans ses côtes, avec 2 c. à s. d'eau.",
+      "Cuire 4 minutes en remuant jusqu'à ce que le kale soit tendre.",
+      "Ajouter les noix concassées, saler, poivrer et un filet de citron.",
+      "Servir avec le parmesan."
+    ],
+    "astuce": "Le kale peut être remplacé par des épinards ou du chou frisé."
+  },
+  {
+    "titre": "Choux de Bruxelles rôtis, purée et noisettes",
+    "categorie": "plat",
+    "temps": 45,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "chou_bruxelles",
+        "nom": "choux de Bruxelles",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "pomme_de_terre",
+        "nom": "pommes de terre",
+        "qte": 500,
+        "unite": "g"
+      },
+      {
+        "cle": "noisette",
+        "nom": "noisettes",
+        "qte": 30,
+        "unite": "g"
+      },
+      {
+        "cle": "lait",
+        "nom": "lait",
+        "qte": 120,
+        "unite": "ml"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 30,
+        "unite": "g"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "miel",
+        "nom": "miel",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "vinaigre",
+        "nom": "vinaigre balsamique",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 210 °C.",
+      "Couper les choux de Bruxelles en deux, les mélanger avec l'huile et du sel et les rôtir 25 minutes face coupée dessous.",
+      "Cuire les pommes de terre en morceaux 20 minutes à l'eau salée, puis les écraser avec le lait chaud et le beurre.",
+      "Mélanger le miel et le vinaigre et en arroser les choux à la sortie du four.",
+      "Servir sur la purée avec les noisettes torréfiées et concassées."
+    ],
+    "astuce": "Rôtis, les choux de Bruxelles perdent leur amertume : idéal pour les convertir."
+  }
+]

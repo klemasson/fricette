@@ -1,0 +1,3017 @@
+[
+  {
+    "titre": "Omelette jambon-fromage baveuse",
+    "categorie": "plat",
+    "temps": 10,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_gluten",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "jambon",
+        "nom": "jambon blanc",
+        "qte": 2,
+        "unite": "tranche"
+      },
+      {
+        "cle": "gruyere",
+        "nom": "gruyère râpé",
+        "qte": 60,
+        "unite": "g"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 15,
+        "unite": "g"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel, poivre",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "ciboulette",
+        "nom": "ciboulette",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Couper le jambon en lanières.",
+      "Battre les œufs à la fourchette avec une pincée de sel et du poivre, sans les faire mousser.",
+      "Faire fondre le beurre dans une poêle à feu moyen, verser les œufs et ramener les bords vers le centre avec une spatule pendant 1 minute.",
+      "Répartir le jambon et le gruyère sur une moitié quand le dessus est encore baveux.",
+      "Replier l'omelette, laisser 30 secondes de plus et servir aussitôt."
+    ],
+    "astuce": "Les fins de fromages (comté, emmental, raclette) se mélangent très bien ici : râpez tout ce qui traîne."
+  },
+  {
+    "titre": "Œufs gratinés au gruyère et à la crème",
+    "categorie": "plat",
+    "temps": 20,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 4,
+        "unite": "pièce"
+      },
+      {
+        "cle": "creme",
+        "nom": "crème entière",
+        "qte": 15,
+        "unite": "cl"
+      },
+      {
+        "cle": "gruyere",
+        "nom": "gruyère râpé",
+        "qte": 70,
+        "unite": "g"
+      },
+      {
+        "cle": "muscade",
+        "nom": "noix de muscade",
+        "qte": 1,
+        "unite": "pincée"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 10,
+        "unite": "g"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel, poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 200 °C et beurrer un petit plat à gratin.",
+      "Assaisonner la crème de sel, poivre et muscade, puis la verser dans le plat.",
+      "Casser les œufs un à un sur la crème en les espaçant.",
+      "Parsemer de gruyère en évitant de couvrir complètement les jaunes.",
+      "Enfourner 10 à 12 minutes, jusqu'à ce que les blancs soient pris et le fromage doré."
+    ],
+    "astuce": "Servir avec du pain grillé ou des pommes de terre de la veille réchauffées dans le même four."
+  },
+  {
+    "titre": "Tagliatelles crème, ail et parmesan",
+    "categorie": "plat",
+    "temps": 15,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pates",
+        "nom": "tagliatelles",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "creme",
+        "nom": "crème liquide",
+        "qte": 20,
+        "unite": "cl"
+      },
+      {
+        "cle": "parmesan",
+        "nom": "parmesan râpé",
+        "qte": 50,
+        "unite": "g"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousses d'ail",
+        "qte": 2,
+        "unite": "gousse"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 15,
+        "unite": "g"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel, poivre",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "persil",
+        "nom": "persil",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Cuire les tagliatelles dans une grande casserole d'eau salée selon le temps indiqué.",
+      "Pendant ce temps, faire revenir l'ail émincé dans le beurre 1 minute à feu doux sans le colorer.",
+      "Ajouter la crème et laisser frémir 3 minutes.",
+      "Égoutter les pâtes en gardant un fond d'eau de cuisson, les verser dans la sauce avec le parmesan.",
+      "Mélanger hors du feu en ajoutant un peu d'eau de cuisson si la sauce est trop épaisse, poivrer généreusement."
+    ],
+    "astuce": "Un reste de crème entamée ou un fond de mascarpone fait parfaitement l'affaire."
+  },
+  {
+    "titre": "Penne à l'arrabbiata",
+    "categorie": "plat",
+    "temps": 20,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pates",
+        "nom": "penne",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "tomate_concassee",
+        "nom": "tomates concassées",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousses d'ail",
+        "qte": 2,
+        "unite": "gousse"
+      },
+      {
+        "cle": "piment_poudre",
+        "nom": "piment de Cayenne ou flocons de piment",
+        "qte": 1,
+        "unite": "pincée"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "persil",
+        "nom": "persil",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Faire chauffer l'huile d'olive dans une sauteuse avec l'ail écrasé et le piment, 1 minute à feu doux.",
+      "Ajouter les tomates concassées, saler et laisser mijoter 12 minutes à petit feu.",
+      "Cuire les penne al dente dans l'eau bouillante salée.",
+      "Égoutter les pâtes et les mélanger 1 minute dans la sauce sur le feu.",
+      "Servir parsemé de persil si on en a."
+    ],
+    "astuce": "Doser le piment selon les goûts ; la sauce se garde 3 jours au frigo et se congèle très bien."
+  },
+  {
+    "titre": "Pommes de terre et œufs durs, sauce moutarde",
+    "categorie": "plat",
+    "temps": 30,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pomme_de_terre",
+        "nom": "pommes de terre",
+        "qte": 500,
+        "unite": "g"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 4,
+        "unite": "pièce"
+      },
+      {
+        "cle": "moutarde",
+        "nom": "moutarde",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 20,
+        "unite": "g"
+      },
+      {
+        "cle": "farine",
+        "nom": "farine",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "lait",
+        "nom": "lait",
+        "qte": 25,
+        "unite": "cl"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel, poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Cuire les pommes de terre épluchées et coupées en morceaux 20 minutes dans l'eau salée.",
+      "Cuire les œufs 9 minutes dans l'eau bouillante, les refroidir et les écaler.",
+      "Faire fondre le beurre, ajouter la farine, mélanger 1 minute puis verser le lait en fouettant jusqu'à épaississement, environ 4 minutes.",
+      "Hors du feu, incorporer la moutarde, saler et poivrer.",
+      "Servir les pommes de terre et les œufs coupés en deux nappés de sauce."
+    ],
+    "astuce": "Un classique des fins de mois : la sauce moutarde accepte aussi un reste de crème à la place d'une partie du lait."
+  },
+  {
+    "titre": "Bol de riz, œuf au plat et sauce soja",
+    "categorie": "plat",
+    "temps": 20,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "riz",
+        "nom": "riz",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 4,
+        "unite": "pièce"
+      },
+      {
+        "cle": "sauce_soja",
+        "nom": "sauce soja",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "oignon_nouveau",
+        "nom": "oignon nouveau",
+        "qte": 1,
+        "unite": "pièce",
+        "optionnel": true
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "graine",
+        "nom": "graines de sésame",
+        "qte": 1,
+        "unite": "c. à c.",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Cuire le riz selon les indications du paquet, ou réchauffer un reste de riz à la poêle.",
+      "Faire chauffer l'huile dans une poêle bien chaude et y cuire les œufs au plat 3 minutes, jusqu'à ce que les bords soient croustillants.",
+      "Répartir le riz chaud dans deux bols et poser deux œufs sur chacun.",
+      "Arroser de sauce soja et parsemer d'oignon nouveau émincé et de sésame."
+    ],
+    "astuce": "Crever le jaune et tout mélanger : le jaune coulant fait office de sauce. Idéal pour le riz de la veille."
+  },
+  {
+    "titre": "Coquillettes jambon-gruyère à la poêle",
+    "categorie": "plat",
+    "temps": 15,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pates",
+        "nom": "coquillettes",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "jambon",
+        "nom": "jambon blanc",
+        "qte": 3,
+        "unite": "tranche"
+      },
+      {
+        "cle": "gruyere",
+        "nom": "gruyère râpé",
+        "qte": 80,
+        "unite": "g"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 20,
+        "unite": "g"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel, poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Cuire les coquillettes dans l'eau bouillante salée, puis les égoutter en gardant une louche d'eau de cuisson.",
+      "Couper le jambon en petits carrés.",
+      "Faire fondre le beurre dans une poêle, y faire sauter le jambon 2 minutes.",
+      "Ajouter les coquillettes, le gruyère et un peu d'eau de cuisson, mélanger jusqu'à ce que le fromage file.",
+      "Poivrer et servir bien chaud."
+    ],
+    "astuce": "Laisser les pâtes accrocher un peu au fond de la poêle donne des morceaux gratinés très appréciés des enfants."
+  },
+  {
+    "titre": "Pâtes au thon et crème citronnée",
+    "categorie": "plat",
+    "temps": 15,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pates",
+        "nom": "fusilli",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "thon",
+        "nom": "thon au naturel",
+        "qte": 1,
+        "unite": "boîte"
+      },
+      {
+        "cle": "creme",
+        "nom": "crème liquide",
+        "qte": 15,
+        "unite": "cl"
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel, poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Cuire les pâtes dans l'eau bouillante salée.",
+      "Faire revenir l'oignon émincé dans l'huile 5 minutes jusqu'à ce qu'il soit tendre.",
+      "Ajouter la crème, le zeste et le jus d'un demi-citron, puis le thon égoutté et émietté ; chauffer 2 minutes.",
+      "Mélanger les pâtes égouttées à la sauce, poivrer et ajuster avec le reste de jus de citron."
+    ],
+    "astuce": "Le thon à l'huile marche aussi : utiliser alors son huile pour faire revenir l'oignon."
+  },
+  {
+    "titre": "Poulet à la crème moutardée",
+    "categorie": "plat",
+    "temps": 25,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "poulet",
+        "nom": "blancs de poulet",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "creme",
+        "nom": "crème entière",
+        "qte": 20,
+        "unite": "cl"
+      },
+      {
+        "cle": "moutarde",
+        "nom": "moutarde à l'ancienne",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 15,
+        "unite": "g"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel, poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Couper le poulet en lanières et émincer l'oignon.",
+      "Faire dorer le poulet dans le beurre 5 minutes à feu vif, saler, puis le réserver.",
+      "Dans la même poêle, faire fondre l'oignon 5 minutes à feu moyen.",
+      "Ajouter la crème et la moutarde, porter à frémissement puis remettre le poulet et laisser mijoter 5 minutes.",
+      "Poivrer et servir avec du riz, des pâtes ou des pommes de terre."
+    ],
+    "astuce": "Ne pas faire bouillir la sauce après l'ajout de moutarde, elle deviendrait amère."
+  },
+  {
+    "titre": "Poulet et riz au curcuma en une casserole",
+    "categorie": "plat",
+    "temps": 30,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "poulet",
+        "nom": "cuisses ou blancs de poulet désossés",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "riz",
+        "nom": "riz long",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "curcuma",
+        "nom": "curcuma",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "bouillon",
+        "nom": "bouillon de volaille",
+        "qte": 35,
+        "unite": "cl"
+      },
+      {
+        "cle": "huile",
+        "nom": "huile",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel, poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Couper le poulet en morceaux et l'oignon en dés.",
+      "Faire dorer le poulet dans l'huile 5 minutes dans une casserole, ajouter l'oignon et cuire 3 minutes.",
+      "Ajouter le riz et le curcuma, remuer 1 minute pour bien enrober les grains.",
+      "Verser le bouillon chaud, couvrir et cuire 15 minutes à feu doux sans remuer.",
+      "Laisser reposer 5 minutes à couvert, égrener à la fourchette et rectifier l'assaisonnement."
+    ],
+    "astuce": "Ajouter une poignée de petits pois surgelés 5 minutes avant la fin pour un plat complet."
+  },
+  {
+    "titre": "Poêlée de bœuf haché et pommes de terre au paprika",
+    "categorie": "plat",
+    "temps": 30,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "boeuf_hache",
+        "nom": "bœuf haché ou steaks hachés émiettés",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "pomme_de_terre",
+        "nom": "pommes de terre",
+        "qte": 500,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "paprika",
+        "nom": "paprika",
+        "qte": 2,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "huile",
+        "nom": "huile",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel, poivre",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "persil",
+        "nom": "persil",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Couper les pommes de terre en petits dés de 1,5 cm.",
+      "Les faire dorer dans l'huile à feu moyen 15 minutes en remuant souvent, à couvert les 5 premières minutes.",
+      "Ajouter l'oignon émincé et cuire 3 minutes.",
+      "Ajouter le bœuf haché et le paprika, émietter et cuire 5 minutes jusqu'à ce que la viande soit bien saisie.",
+      "Saler, poivrer et parsemer de persil."
+    ],
+    "astuce": "Un œuf au plat posé dessus transforme cette poêlée en plat encore plus généreux."
+  },
+  {
+    "titre": "Coquillettes aux lardons et oignons fondants",
+    "categorie": "plat",
+    "temps": 20,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_lactose",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pates",
+        "nom": "coquillettes",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "lardons",
+        "nom": "lardons fumés",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignons",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "huile",
+        "nom": "huile",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Émincer finement les oignons.",
+      "Faire revenir les lardons à sec dans une poêle 4 minutes, puis ajouter l'huile et les oignons.",
+      "Cuire 10 minutes à feu doux en remuant, jusqu'à ce que les oignons soient fondants et dorés.",
+      "Pendant ce temps, cuire les coquillettes dans l'eau peu salée (les lardons le sont déjà).",
+      "Mélanger les pâtes égouttées avec les lardons et oignons, ajouter une cuillère d'eau de cuisson et poivrer."
+    ],
+    "astuce": "Pour une version plus gourmande, ajouter un reste de fromage râpé au moment de servir."
+  },
+  {
+    "titre": "Saucisses et pommes de terre rôties à la moutarde",
+    "categorie": "plat",
+    "temps": 40,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_gluten",
+      "sans_lactose",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "saucisse",
+        "nom": "saucisses (chipolatas, saucisses de veau…)",
+        "qte": 4,
+        "unite": "pièce"
+      },
+      {
+        "cle": "pomme_de_terre",
+        "nom": "pommes de terre",
+        "qte": 600,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "moutarde",
+        "nom": "moutarde",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "huile",
+        "nom": "huile",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "herbes_provence",
+        "nom": "thym ou herbes de Provence",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel, poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 210 °C.",
+      "Couper les pommes de terre en quartiers et l'oignon en lamelles épaisses.",
+      "Mélanger l'huile, la moutarde, le thym, du sel et du poivre, puis en enrober les pommes de terre et l'oignon sur une plaque.",
+      "Enfourner 15 minutes, ajouter les saucisses piquées à la fourchette et poursuivre 20 minutes en retournant à mi-cuisson."
+    ],
+    "astuce": "Vérifier la composition des saucisses si l'on cuisine sans gluten : certaines contiennent de la chapelure."
+  },
+  {
+    "titre": "Courgettes poêlées aux œufs brouillés",
+    "categorie": "plat",
+    "temps": 20,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "courgette",
+        "nom": "courgettes",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 4,
+        "unite": "pièce"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousse d'ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel, poivre",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "basilic",
+        "nom": "basilic",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Couper les courgettes en demi-rondelles fines.",
+      "Les faire sauter dans l'huile d'olive à feu vif 8 minutes jusqu'à ce qu'elles soient dorées, ajouter l'ail haché la dernière minute et saler.",
+      "Baisser le feu, verser les œufs battus avec sel et poivre.",
+      "Remuer doucement 2 minutes jusqu'à ce que les œufs soient pris mais encore crémeux, puis servir avec le basilic."
+    ],
+    "astuce": "Un reste de parmesan ou de feta émiettée par-dessus est bienvenu si l'on n'est pas sans lactose."
+  },
+  {
+    "titre": "Pâtes poêlées aux tomates fraîches et mozzarella",
+    "categorie": "plat",
+    "temps": 20,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pates",
+        "nom": "pâtes courtes",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "tomate",
+        "nom": "tomates bien mûres",
+        "qte": 3,
+        "unite": "pièce"
+      },
+      {
+        "cle": "mozzarella",
+        "nom": "mozzarella",
+        "qte": 125,
+        "unite": "g"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousse d'ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel, poivre",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "basilic",
+        "nom": "basilic",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Cuire les pâtes dans l'eau bouillante salée.",
+      "Couper les tomates en dés et la mozzarella en cubes.",
+      "Faire chauffer l'huile avec l'ail écrasé, ajouter les tomates et les cuire 5 minutes à feu vif pour qu'elles rendent leur jus.",
+      "Ajouter les pâtes égouttées, mélanger, puis éteindre le feu et incorporer la mozzarella pour qu'elle fonde à peine.",
+      "Poivrer et servir avec quelques feuilles de basilic."
+    ],
+    "astuce": "Parfait pour les tomates un peu ramollies qu'on n'ose plus mettre en salade."
+  },
+  {
+    "titre": "Épinards à la crème et œufs mollets",
+    "categorie": "plat",
+    "temps": 20,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "epinard",
+        "nom": "épinards frais ou surgelés",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 4,
+        "unite": "pièce"
+      },
+      {
+        "cle": "creme",
+        "nom": "crème",
+        "qte": 10,
+        "unite": "cl"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousse d'ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 10,
+        "unite": "g"
+      },
+      {
+        "cle": "muscade",
+        "nom": "muscade",
+        "qte": 1,
+        "unite": "pincée"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel, poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Plonger les œufs 6 minutes dans l'eau bouillante, puis les refroidir dans l'eau froide et les écaler délicatement.",
+      "Faire fondre le beurre avec l'ail haché, ajouter les épinards et les faire tomber 3 à 5 minutes (ou décongeler les surgelés).",
+      "Ajouter la crème, la muscade, saler, poivrer et laisser réduire 3 minutes.",
+      "Servir les épinards dans des assiettes creuses avec les œufs mollets ouverts dessus."
+    ],
+    "astuce": "Accompagner de pain grillé ou de riz pour un repas complet."
+  },
+  {
+    "titre": "Pudding salé de pain rassis au gruyère",
+    "categorie": "plat",
+    "temps": 45,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pain",
+        "nom": "pain rassis",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "gruyere",
+        "nom": "gruyère râpé",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 3,
+        "unite": "pièce"
+      },
+      {
+        "cle": "lait",
+        "nom": "lait",
+        "qte": 30,
+        "unite": "cl"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 15,
+        "unite": "g"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel, poivre, muscade",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 180 °C et beurrer un plat à gratin.",
+      "Faire fondre l'oignon émincé dans le reste de beurre 5 minutes.",
+      "Couper le pain en cubes et le disposer dans le plat avec l'oignon et les deux tiers du gruyère.",
+      "Battre les œufs avec le lait, sel, poivre et muscade, verser sur le pain et laisser imbiber 10 minutes en appuyant.",
+      "Parsemer du reste de fromage et cuire 25 minutes jusqu'à ce que le dessus soit doré et gonflé."
+    ],
+    "astuce": "Ajouter un reste de jambon, d'épinards ou de légumes rôtis entre les cubes de pain."
+  },
+  {
+    "titre": "Lentilles et riz aux oignons frits",
+    "categorie": "plat",
+    "temps": 40,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "lentille",
+        "nom": "lentilles vertes ou brunes",
+        "qte": 120,
+        "unite": "g"
+      },
+      {
+        "cle": "riz",
+        "nom": "riz long",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignons",
+        "qte": 3,
+        "unite": "pièce"
+      },
+      {
+        "cle": "cumin",
+        "nom": "cumin",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "huile",
+        "nom": "huile",
+        "qte": 4,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel, poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Cuire les lentilles rincées 10 minutes dans 60 cl d'eau, sans sel.",
+      "Ajouter le riz, le cumin et une bonne pincée de sel, couvrir et cuire 15 minutes à feu doux jusqu'à absorption.",
+      "Pendant ce temps, émincer finement les oignons et les faire frire dans l'huile à feu moyen 15 minutes en remuant, jusqu'à ce qu'ils soient bien bruns et croustillants.",
+      "Mélanger la moitié des oignons et leur huile aux lentilles et au riz, servir avec le reste des oignons dessus."
+    ],
+    "astuce": "Inspiré de la mujaddara libanaise : un yaourt nature à côté l'accompagne très bien si l'on n'est pas vegan."
+  },
+  {
+    "titre": "Riz pilaf aux carottes et cumin",
+    "categorie": "plat",
+    "temps": 30,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "riz",
+        "nom": "riz basmati",
+        "qte": 160,
+        "unite": "g"
+      },
+      {
+        "cle": "carotte",
+        "nom": "carottes",
+        "qte": 3,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "cumin",
+        "nom": "cumin",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "bouillon",
+        "nom": "bouillon de légumes",
+        "qte": 35,
+        "unite": "cl"
+      },
+      {
+        "cle": "huile",
+        "nom": "huile",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "raisin_sec",
+        "nom": "raisins secs",
+        "qte": 30,
+        "unite": "g",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Râper grossièrement les carottes et émincer l'oignon.",
+      "Faire revenir l'oignon et les carottes dans l'huile 5 minutes avec le cumin.",
+      "Ajouter le riz rincé et le nacrer 1 minute en remuant.",
+      "Verser le bouillon chaud et les raisins secs, couvrir et cuire 12 minutes à feu très doux.",
+      "Laisser reposer 5 minutes hors du feu avant d'égrener à la fourchette."
+    ],
+    "astuce": "Les carottes un peu molles sont parfaites ici ; ajouter un œuf au plat pour un repas plus nourrissant."
+  },
+  {
+    "titre": "Omelette soufflée au comté",
+    "categorie": "plat",
+    "temps": 15,
+    "difficulte": "moyen",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "comte",
+        "nom": "comté râpé",
+        "qte": 70,
+        "unite": "g"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 20,
+        "unite": "g"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel, poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Séparer les blancs des jaunes. Battre les jaunes avec le sel, le poivre et les deux tiers du comté.",
+      "Monter les blancs en neige ferme et les incorporer délicatement aux jaunes.",
+      "Faire fondre le beurre dans une grande poêle à feu doux, verser l'appareil et couvrir.",
+      "Cuire 6 à 8 minutes jusqu'à ce que le dessous soit doré et le dessus presque pris.",
+      "Parsemer du reste de comté, plier en deux et glisser sur l'assiette."
+    ],
+    "astuce": "Le gruyère, l'emmental ou un reste de raclette remplacent sans problème le comté."
+  },
+  {
+    "titre": "Pommes de terre à la crème et aux oignons à la poêle",
+    "categorie": "plat",
+    "temps": 35,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pomme_de_terre",
+        "nom": "pommes de terre",
+        "qte": 600,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignons",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "creme",
+        "nom": "crème",
+        "qte": 20,
+        "unite": "cl"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 20,
+        "unite": "g"
+      },
+      {
+        "cle": "muscade",
+        "nom": "muscade",
+        "qte": 1,
+        "unite": "pincée"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel, poivre",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "ciboulette",
+        "nom": "ciboulette",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Éplucher les pommes de terre et les couper en rondelles de 5 mm.",
+      "Faire fondre les oignons émincés dans le beurre 5 minutes dans une grande sauteuse.",
+      "Ajouter les pommes de terre, saler et faire revenir 5 minutes.",
+      "Verser la crème et 10 cl d'eau, ajouter la muscade, couvrir et cuire 20 minutes à feu doux en remuant délicatement.",
+      "Poivrer et parsemer de ciboulette avant de servir."
+    ],
+    "astuce": "Un gratin dauphinois sans four : ajouter un reste de fromage râpé sur le dessus en fin de cuisson et couvrir 2 minutes."
+  },
+  {
+    "titre": "Riz au fromage façon montagnarde",
+    "categorie": "plat",
+    "temps": 25,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "riz",
+        "nom": "riz rond ou long",
+        "qte": 160,
+        "unite": "g"
+      },
+      {
+        "cle": "raclette",
+        "nom": "fromage à raclette ou gruyère",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "bouillon",
+        "nom": "bouillon de légumes",
+        "qte": 50,
+        "unite": "cl"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 20,
+        "unite": "g"
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Faire revenir l'oignon haché dans la moitié du beurre 3 minutes.",
+      "Ajouter le riz, remuer 1 minute, puis verser le bouillon chaud.",
+      "Cuire à petit feu, à découvert, 16 à 18 minutes en remuant de temps en temps, jusqu'à ce que le riz soit tendre et encore un peu liquide.",
+      "Hors du feu, incorporer le fromage coupé en dés et le reste du beurre, couvrir 2 minutes puis poivrer."
+    ],
+    "astuce": "Une façon de finir les croûtes et talons de fromage : tout fond dans le riz chaud."
+  },
+  {
+    "titre": "Omelette au thon et oignon",
+    "categorie": "plat",
+    "temps": 15,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "thon",
+        "nom": "thon en boîte",
+        "qte": 1,
+        "unite": "boîte"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel, poivre",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "persil",
+        "nom": "persil",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Faire fondre l'oignon émincé dans l'huile 5 minutes à feu moyen.",
+      "Battre les œufs avec le thon égoutté et émietté, du poivre, peu de sel et le persil.",
+      "Verser sur les oignons, cuire 4 minutes à feu doux en ramenant les bords vers le centre.",
+      "Plier l'omelette et servir chaud ou tiède avec une salade."
+    ],
+    "astuce": "Froide et coupée en carrés, elle se glisse dans une boîte à lunch."
+  },
+  {
+    "titre": "Œufs cocotte au jambon et à la crème",
+    "categorie": "plat",
+    "temps": 20,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_gluten",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 4,
+        "unite": "pièce"
+      },
+      {
+        "cle": "jambon",
+        "nom": "jambon blanc",
+        "qte": 2,
+        "unite": "tranche"
+      },
+      {
+        "cle": "creme",
+        "nom": "crème épaisse",
+        "qte": 4,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "fromage_rape",
+        "nom": "fromage râpé",
+        "qte": 30,
+        "unite": "g"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 10,
+        "unite": "g"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel, poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 180 °C et faire chauffer de l'eau pour le bain-marie.",
+      "Beurrer quatre ramequins, y répartir le jambon coupé en petits morceaux et une cuillère de crème.",
+      "Casser un œuf dans chaque ramequin, saler, poivrer et parsemer de fromage.",
+      "Poser les ramequins dans un plat, verser l'eau chaude à mi-hauteur et enfourner 10 à 12 minutes, jusqu'à ce que le blanc soit pris et le jaune coulant."
+    ],
+    "astuce": "Servir avec des mouillettes de pain rassis grillé."
+  },
+  {
+    "titre": "Pommes de terre sautées au jambon et à l'oignon",
+    "categorie": "plat",
+    "temps": 30,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_gluten",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pomme_de_terre",
+        "nom": "pommes de terre",
+        "qte": 600,
+        "unite": "g"
+      },
+      {
+        "cle": "jambon",
+        "nom": "jambon blanc",
+        "qte": 3,
+        "unite": "tranche"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 20,
+        "unite": "g"
+      },
+      {
+        "cle": "huile",
+        "nom": "huile",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel, poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Couper les pommes de terre en cubes, les cuire 8 minutes dans l'eau salée bouillante et bien les égoutter.",
+      "Les faire dorer dans l'huile et le beurre à feu moyen-vif 12 minutes en les retournant régulièrement.",
+      "Ajouter l'oignon émincé et le jambon en lanières, poursuivre 5 minutes.",
+      "Saler, poivrer et servir avec une salade verte."
+    ],
+    "astuce": "Des pommes de terre cuites de la veille permettent de sauter la précuisson."
+  },
+  {
+    "titre": "Gratin de pommes de terre au jambon et gruyère",
+    "categorie": "plat",
+    "temps": 60,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_gluten",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pomme_de_terre",
+        "nom": "pommes de terre",
+        "qte": 600,
+        "unite": "g"
+      },
+      {
+        "cle": "jambon",
+        "nom": "jambon blanc",
+        "qte": 3,
+        "unite": "tranche"
+      },
+      {
+        "cle": "gruyere",
+        "nom": "gruyère râpé",
+        "qte": 80,
+        "unite": "g"
+      },
+      {
+        "cle": "creme",
+        "nom": "crème",
+        "qte": 15,
+        "unite": "cl"
+      },
+      {
+        "cle": "lait",
+        "nom": "lait",
+        "qte": 15,
+        "unite": "cl"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousse d'ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel, poivre, muscade",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 190 °C et frotter un plat à gratin avec la gousse d'ail coupée.",
+      "Éplucher et couper les pommes de terre en rondelles fines.",
+      "Alterner dans le plat des couches de pommes de terre, de jambon en lanières et de gruyère, en salant légèrement.",
+      "Mélanger la crème, le lait, la muscade et le poivre, verser sur le gratin et finir par du fromage.",
+      "Cuire 45 minutes, jusqu'à ce que la pointe d'un couteau traverse facilement les pommes de terre."
+    ],
+    "astuce": "Couvrir d'une feuille de papier cuisson si le dessus dore trop vite."
+  },
+  {
+    "titre": "Poulet au paprika et pommes de terre en cocotte",
+    "categorie": "plat",
+    "temps": 45,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "poulet",
+        "nom": "hauts de cuisse de poulet",
+        "qte": 4,
+        "unite": "pièce"
+      },
+      {
+        "cle": "pomme_de_terre",
+        "nom": "pommes de terre",
+        "qte": 500,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "paprika",
+        "nom": "paprika",
+        "qte": 2,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "ail",
+        "nom": "gousses d'ail",
+        "qte": 2,
+        "unite": "gousse"
+      },
+      {
+        "cle": "huile",
+        "nom": "huile",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel, poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Frotter le poulet avec le paprika, du sel et du poivre.",
+      "Le faire dorer côté peau 6 minutes dans l'huile dans une cocotte, puis le retourner 2 minutes.",
+      "Ajouter l'oignon émincé, l'ail écrasé et les pommes de terre coupées en gros morceaux, mélanger.",
+      "Verser 15 cl d'eau, couvrir et cuire 30 minutes à feu doux en remuant une fois.",
+      "Retirer le couvercle les 5 dernières minutes pour faire réduire le jus."
+    ],
+    "astuce": "Les pilons ou les cuisses entières fonctionnent aussi : compter 10 minutes de plus."
+  },
+  {
+    "titre": "Pâtes au poulet, crème et ail",
+    "categorie": "plat",
+    "temps": 20,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pates",
+        "nom": "penne",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "poulet",
+        "nom": "blanc de poulet",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "creme",
+        "nom": "crème liquide",
+        "qte": 20,
+        "unite": "cl"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousses d'ail",
+        "qte": 2,
+        "unite": "gousse"
+      },
+      {
+        "cle": "huile",
+        "nom": "huile",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel, poivre",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "fromage_rape",
+        "nom": "fromage râpé",
+        "qte": 30,
+        "unite": "g",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Cuire les pâtes dans l'eau bouillante salée.",
+      "Couper le poulet en petits dés, le saler et le faire dorer dans l'huile 6 minutes.",
+      "Ajouter l'ail haché, cuire 30 secondes, puis verser la crème et laisser frémir 3 minutes.",
+      "Ajouter les pâtes égouttées, mélanger, poivrer et servir avec le fromage râpé."
+    ],
+    "astuce": "Un reste de poulet rôti effiloché remplace le blanc cru : l'ajouter directement dans la crème."
+  },
+  {
+    "titre": "Coquillettes au bœuf haché en une casserole",
+    "categorie": "plat",
+    "temps": 25,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pates",
+        "nom": "coquillettes",
+        "qte": 180,
+        "unite": "g"
+      },
+      {
+        "cle": "boeuf_hache",
+        "nom": "bœuf haché",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "concentre_tomate",
+        "nom": "concentré de tomate",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "bouillon",
+        "nom": "bouillon de bœuf",
+        "qte": 50,
+        "unite": "cl"
+      },
+      {
+        "cle": "huile",
+        "nom": "huile",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel, poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Faire revenir l'oignon haché dans l'huile 3 minutes dans une grande casserole.",
+      "Ajouter le bœuf haché, l'émietter et le saisir 4 minutes.",
+      "Incorporer le concentré de tomate, puis verser le bouillon chaud et porter à ébullition.",
+      "Ajouter les coquillettes et cuire 10 à 12 minutes à petit bouillon en remuant souvent, jusqu'à ce que le liquide soit presque absorbé.",
+      "Poivrer et laisser reposer 2 minutes avant de servir."
+    ],
+    "astuce": "Une seule casserole à laver ; ajouter du fromage râpé sur le dessus si l'on mange du lactose."
+  },
+  {
+    "titre": "Riz sauté au bœuf haché et oignon",
+    "categorie": "plat",
+    "temps": 20,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "riz",
+        "nom": "riz cuit (de la veille)",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "boeuf_hache",
+        "nom": "bœuf haché",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "sauce_soja",
+        "nom": "sauce soja",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "ail",
+        "nom": "gousse d'ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "huile",
+        "nom": "huile",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "oignon_nouveau",
+        "nom": "oignon nouveau",
+        "qte": 1,
+        "unite": "pièce",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Faire chauffer l'huile dans une grande poêle ou un wok à feu vif.",
+      "Saisir le bœuf haché 4 minutes en l'émiettant, puis ajouter l'oignon émincé et l'ail haché, cuire 3 minutes.",
+      "Ajouter le riz froid, le faire sauter 5 minutes en l'égrenant.",
+      "Arroser de sauce soja, mélanger 1 minute et servir avec l'oignon nouveau ciselé."
+    ],
+    "astuce": "Le riz de la veille, bien sec, saute beaucoup mieux que du riz fraîchement cuit (compter 150 g de riz cru)."
+  },
+  {
+    "titre": "Pâtes aux saucisses et tomate",
+    "categorie": "plat",
+    "temps": 25,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_lactose",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pates",
+        "nom": "pâtes courtes",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "saucisse",
+        "nom": "saucisses",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "tomate_concassee",
+        "nom": "tomates concassées",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "herbes_provence",
+        "nom": "origan ou herbes de Provence",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel, poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Retirer la peau des saucisses et émietter la chair.",
+      "La faire dorer dans l'huile 5 minutes, ajouter l'oignon haché et cuire 3 minutes.",
+      "Verser les tomates et les herbes, saler légèrement et laisser mijoter 12 minutes.",
+      "Pendant ce temps, cuire les pâtes, les égoutter et les mélanger à la sauce."
+    ],
+    "astuce": "Une seule saucisse suffit si l'on ajoute une courgette en dés avec l'oignon."
+  },
+  {
+    "titre": "Omelette aux lardons et croûtons",
+    "categorie": "plat",
+    "temps": 15,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_lactose",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "lardons",
+        "nom": "lardons",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "pain",
+        "nom": "pain rassis",
+        "qte": 60,
+        "unite": "g"
+      },
+      {
+        "cle": "huile",
+        "nom": "huile",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "ciboulette",
+        "nom": "ciboulette",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Couper le pain en petits cubes.",
+      "Faire revenir les lardons à sec 4 minutes, ajouter l'huile et les cubes de pain, dorer 3 minutes.",
+      "Battre les œufs avec du poivre (pas de sel, les lardons suffisent) et la ciboulette.",
+      "Verser sur les lardons et croûtons, cuire 3 minutes à feu moyen et servir baveuse."
+    ],
+    "astuce": "Excellente façon d'utiliser un bout de baguette dur comme du bois."
+  },
+  {
+    "titre": "Lentilles aux lardons et oignon",
+    "categorie": "plat",
+    "temps": 35,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_gluten",
+      "sans_lactose",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "lentille",
+        "nom": "lentilles vertes",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "lardons",
+        "nom": "lardons fumés",
+        "qte": 120,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "herbes_provence",
+        "nom": "thym et laurier",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "moutarde",
+        "nom": "moutarde",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "poivre",
+        "nom": "sel, poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Rincer les lentilles et les cuire 25 minutes dans trois fois leur volume d'eau avec le thym et le laurier, sans sel.",
+      "Pendant ce temps, faire dorer les lardons à sec 5 minutes, ajouter l'oignon émincé et cuire 5 minutes.",
+      "Égoutter les lentilles en gardant un peu d'eau de cuisson, les ajouter aux lardons avec la moutarde.",
+      "Mélanger 2 minutes sur le feu avec un peu d'eau de cuisson, saler si besoin et poivrer."
+    ],
+    "astuce": "Les lentilles cuites se gardent 4 jours au frigo et finissent très bien en salade le lendemain."
+  },
+  {
+    "titre": "Riz aux courgettes et parmesan",
+    "categorie": "plat",
+    "temps": 25,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "riz",
+        "nom": "riz",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "courgette",
+        "nom": "courgettes",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "parmesan",
+        "nom": "parmesan râpé",
+        "qte": 40,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "bouillon",
+        "nom": "bouillon de légumes",
+        "qte": 35,
+        "unite": "cl"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel, poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Faire revenir l'oignon haché dans l'huile 3 minutes.",
+      "Ajouter les courgettes râpées grossièrement et cuire 3 minutes.",
+      "Ajouter le riz, mélanger, verser le bouillon chaud, couvrir et cuire 15 minutes à feu doux.",
+      "Hors du feu, incorporer le parmesan, poivrer et laisser reposer 2 minutes."
+    ],
+    "astuce": "Râpées, les grosses courgettes un peu fatiguées fondent dans le riz et le rendent crémeux."
+  },
+  {
+    "titre": "Tomates sautées aux œufs à la chinoise",
+    "categorie": "plat",
+    "temps": 15,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "tomate",
+        "nom": "tomates",
+        "qte": 3,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 4,
+        "unite": "pièce"
+      },
+      {
+        "cle": "sucre",
+        "nom": "sucre",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "oignon_nouveau",
+        "nom": "oignon nouveau",
+        "qte": 1,
+        "unite": "pièce",
+        "optionnel": true
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Couper les tomates en quartiers et battre les œufs avec une pincée de sel.",
+      "Cuire les œufs dans la moitié de l'huile bien chaude 1 minute en gros morceaux encore moelleux, puis les réserver.",
+      "Faire sauter les tomates dans le reste d'huile 3 minutes avec le sucre et une pincée de sel, jusqu'à ce qu'elles rendent leur jus.",
+      "Remettre les œufs, mélanger 30 secondes et servir sur du riz, parsemé d'oignon nouveau."
+    ],
+    "astuce": "Un plat familial chinois prêt en dix minutes ; les tomates très mûres font la meilleure sauce."
+  },
+  {
+    "titre": "Pâtes aux champignons, ail et persil",
+    "categorie": "plat",
+    "temps": 20,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pates",
+        "nom": "spaghetti",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "champignon",
+        "nom": "champignons de Paris",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousses d'ail",
+        "qte": 2,
+        "unite": "gousse"
+      },
+      {
+        "cle": "persil",
+        "nom": "persil",
+        "qte": 1,
+        "unite": "botte"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel, poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Cuire les spaghetti dans l'eau bouillante salée.",
+      "Émincer les champignons et les faire sauter dans l'huile à feu vif 6 minutes sans remuer trop souvent, pour qu'ils dorent.",
+      "Ajouter l'ail et le persil hachés, saler et cuire 1 minute.",
+      "Mélanger avec les pâtes égouttées et une louche d'eau de cuisson, poivrer et servir."
+    ],
+    "astuce": "Ne saler les champignons qu'à la fin, sinon ils rendent leur eau et ne dorent pas."
+  },
+  {
+    "titre": "Pommes de terre et épinards sautés à l'ail",
+    "categorie": "accompagnement",
+    "temps": 25,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pomme_de_terre",
+        "nom": "pommes de terre",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "epinard",
+        "nom": "épinards frais",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousses d'ail",
+        "qte": 2,
+        "unite": "gousse"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel, poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Couper les pommes de terre en dés et les cuire 8 minutes à l'eau salée, puis égoutter.",
+      "Les faire dorer dans l'huile d'olive 8 minutes à feu moyen-vif.",
+      "Ajouter l'ail émincé et les épinards, remuer 2 à 3 minutes jusqu'à ce qu'ils tombent.",
+      "Saler, poivrer et servir avec un œuf, un poisson ou une saucisse."
+    ],
+    "astuce": "Les épinards surgelés conviennent : bien les essorer après décongélation."
+  },
+  {
+    "titre": "Semoule au beurre, œufs mollets et cumin",
+    "categorie": "plat",
+    "temps": 15,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "semoule",
+        "nom": "semoule moyenne",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 4,
+        "unite": "pièce"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 20,
+        "unite": "g"
+      },
+      {
+        "cle": "cumin",
+        "nom": "cumin",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "paprika",
+        "nom": "paprika",
+        "qte": 1,
+        "unite": "pincée"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel, poivre",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "coriandre",
+        "nom": "coriandre",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Cuire les œufs 6 minutes dans l'eau bouillante, les refroidir et les écaler.",
+      "Verser 16 cl d'eau bouillante salée sur la semoule, couvrir et laisser gonfler 5 minutes.",
+      "Faire fondre le beurre avec le cumin 1 minute, le verser sur la semoule et égrener à la fourchette.",
+      "Servir la semoule avec les œufs ouverts en deux, saupoudrés de paprika et de coriandre."
+    ],
+    "astuce": "Ajouter des pois chiches ou des carottes râpées pour un bol plus copieux."
+  },
+  {
+    "titre": "Gnocchis poêlés au beurre et parmesan",
+    "categorie": "plat",
+    "temps": 15,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "gnocchi",
+        "nom": "gnocchis frais",
+        "qte": 500,
+        "unite": "g"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 30,
+        "unite": "g"
+      },
+      {
+        "cle": "parmesan",
+        "nom": "parmesan râpé",
+        "qte": 40,
+        "unite": "g"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousse d'ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "herbes_provence",
+        "nom": "thym ou romarin",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Faire fondre le beurre dans une grande poêle à feu moyen avec l'ail écrasé et le thym.",
+      "Ajouter les gnocchis crus en une seule couche et les laisser dorer 4 minutes sans y toucher.",
+      "Les retourner et cuire encore 4 minutes jusqu'à ce qu'ils soient croustillants.",
+      "Hors du feu, parsemer de parmesan, poivrer et servir aussitôt."
+    ],
+    "astuce": "Inutile de les pocher avant : les gnocchis frais du commerce cuisent directement à la poêle."
+  },
+  {
+    "titre": "Pâtes au citron et parmesan",
+    "categorie": "plat",
+    "temps": 15,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pates",
+        "nom": "spaghetti",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "citron",
+        "nom": "citron non traité",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "parmesan",
+        "nom": "parmesan râpé",
+        "qte": 50,
+        "unite": "g"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 25,
+        "unite": "g"
+      },
+      {
+        "cle": "poivre",
+        "nom": "sel, poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Cuire les spaghetti dans l'eau bouillante salée et réserver une tasse d'eau de cuisson.",
+      "Dans la casserole vide, faire fondre le beurre avec le zeste du citron.",
+      "Ajouter les pâtes égouttées, le jus d'un demi-citron, le parmesan et 5 cl d'eau de cuisson.",
+      "Mélanger vivement jusqu'à obtenir une sauce nappante, poivrer et ajuster le citron."
+    ],
+    "astuce": "Le zeste d'un citron déjà pressé (gardé au congélateur) parfume tout aussi bien."
+  },
+  {
+    "titre": "Quesadillas jambon-fromage",
+    "categorie": "plat",
+    "temps": 15,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "tortilla",
+        "nom": "tortillas de blé",
+        "qte": 4,
+        "unite": "pièce"
+      },
+      {
+        "cle": "jambon",
+        "nom": "jambon blanc",
+        "qte": 3,
+        "unite": "tranche"
+      },
+      {
+        "cle": "fromage_rape",
+        "nom": "fromage râpé",
+        "qte": 120,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon_rouge",
+        "nom": "oignon rouge",
+        "qte": 1,
+        "unite": "pièce",
+        "optionnel": true
+      },
+      {
+        "cle": "paprika",
+        "nom": "paprika",
+        "qte": 1,
+        "unite": "pincée",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Répartir la moitié du fromage sur deux tortillas, ajouter le jambon en morceaux, l'oignon émincé finement et le paprika.",
+      "Couvrir du reste du fromage puis des deux autres tortillas en appuyant.",
+      "Cuire chaque quesadilla dans une poêle sèche à feu moyen 3 minutes de chaque côté, jusqu'à ce que le fromage soit fondu.",
+      "Couper en triangles et servir avec une salade."
+    ],
+    "astuce": "Un reste de poulet, de maïs ou de haricots rouges se glisse aussi à l'intérieur."
+  },
+  {
+    "titre": "Pain perdu salé au fromage",
+    "categorie": "plat",
+    "temps": 20,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pain",
+        "nom": "pain rassis",
+        "qte": 4,
+        "unite": "tranche"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 3,
+        "unite": "pièce"
+      },
+      {
+        "cle": "lait",
+        "nom": "lait",
+        "qte": 15,
+        "unite": "cl"
+      },
+      {
+        "cle": "fromage_rape",
+        "nom": "fromage râpé",
+        "qte": 80,
+        "unite": "g"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 20,
+        "unite": "g"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel, poivre",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "herbes",
+        "nom": "fines herbes",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Battre les œufs avec le lait, du sel, du poivre et les herbes dans une assiette creuse.",
+      "Tremper les tranches de pain des deux côtés jusqu'à ce qu'elles soient bien imbibées.",
+      "Les cuire dans le beurre à feu moyen 3 minutes, puis les retourner.",
+      "Parsemer de fromage, couvrir et cuire encore 3 minutes jusqu'à ce que le fromage fonde.",
+      "Servir avec une salade verte ou des tomates."
+    ],
+    "astuce": "Plus le pain est sec, plus il absorbe : laisser tremper un peu plus longtemps les tranches très dures."
+  },
+  {
+    "titre": "Carottes glacées au beurre",
+    "categorie": "accompagnement",
+    "temps": 25,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "carotte",
+        "nom": "carottes",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 20,
+        "unite": "g"
+      },
+      {
+        "cle": "sucre",
+        "nom": "sucre",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel, poivre",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "persil",
+        "nom": "persil",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Éplucher les carottes et les couper en rondelles ou en bâtonnets réguliers.",
+      "Les mettre dans une sauteuse avec le beurre, le sucre, une pincée de sel et de l'eau à hauteur.",
+      "Cuire à découvert à feu moyen 15 à 20 minutes, jusqu'à évaporation complète de l'eau.",
+      "Rouler les carottes dans le beurre restant 2 minutes pour les faire briller, poivrer et parsemer de persil."
+    ],
+    "astuce": "Les carottes un peu ramollies retrouvent ici tout leur intérêt."
+  },
+  {
+    "titre": "Haricots verts à l'ail et au beurre",
+    "categorie": "accompagnement",
+    "temps": 20,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "haricot_vert",
+        "nom": "haricots verts frais ou surgelés",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousses d'ail",
+        "qte": 2,
+        "unite": "gousse"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 20,
+        "unite": "g"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel, poivre",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "persil",
+        "nom": "persil",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Équeuter les haricots frais si besoin.",
+      "Les cuire 8 minutes dans l'eau bouillante salée, puis les égoutter.",
+      "Faire fondre le beurre avec l'ail haché 1 minute sans colorer.",
+      "Ajouter les haricots, les faire sauter 3 minutes, saler, poivrer et parsemer de persil."
+    ],
+    "astuce": "Les restes se mangent froids en salade avec une vinaigrette à la moutarde."
+  },
+  {
+    "titre": "Poisson blanc au four sur lit de pommes de terre",
+    "categorie": "plat",
+    "temps": 45,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "poisson_blanc",
+        "nom": "filets de cabillaud ou de colin",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "pomme_de_terre",
+        "nom": "pommes de terre",
+        "qte": 500,
+        "unite": "g"
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "herbes_provence",
+        "nom": "thym",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel, poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 200 °C.",
+      "Couper les pommes de terre en rondelles fines et l'oignon en lamelles, les mélanger dans un plat avec 2 cuillères d'huile, le thym, du sel et du poivre.",
+      "Enfourner 25 minutes, jusqu'à ce que les pommes de terre soient tendres et commencent à dorer.",
+      "Poser les filets de poisson dessus, saler, arroser du reste d'huile et de rondelles de citron.",
+      "Remettre au four 12 minutes, jusqu'à ce que le poisson s'effeuille facilement."
+    ],
+    "astuce": "Les filets surgelés conviennent : les décongeler au frigo la veille et bien les éponger."
+  },
+  {
+    "titre": "Pâtes au saumon frais et crème",
+    "categorie": "plat",
+    "temps": 20,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pates",
+        "nom": "tagliatelles",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "saumon",
+        "nom": "pavé de saumon sans peau",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "creme",
+        "nom": "crème liquide",
+        "qte": 20,
+        "unite": "cl"
+      },
+      {
+        "cle": "echalote",
+        "nom": "échalote",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 10,
+        "unite": "g"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel, poivre",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "aneth",
+        "nom": "aneth",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Cuire les tagliatelles dans l'eau bouillante salée.",
+      "Couper le saumon en cubes de 2 cm.",
+      "Faire fondre l'échalote hachée dans le beurre 3 minutes, ajouter la crème et porter à frémissement.",
+      "Ajouter le saumon et cuire 3 à 4 minutes à feu doux, juste jusqu'à ce qu'il soit rosé à cœur.",
+      "Mélanger délicatement avec les pâtes égouttées, poivrer et parsemer d'aneth."
+    ],
+    "astuce": "Un oignon remplace l'échalote, et un zeste de citron relève très bien la sauce."
+  },
+  {
+    "titre": "Riz sauté aux crevettes à l'ail",
+    "categorie": "plat",
+    "temps": 20,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "riz",
+        "nom": "riz cuit (de la veille)",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "crevette",
+        "nom": "crevettes décortiquées",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousses d'ail",
+        "qte": 3,
+        "unite": "gousse"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "sauce_soja",
+        "nom": "sauce soja",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "oignon_nouveau",
+        "nom": "oignon nouveau",
+        "qte": 1,
+        "unite": "pièce",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Faire chauffer l'huile dans un wok ou une grande poêle à feu vif avec l'ail haché, 30 secondes.",
+      "Ajouter les crevettes et les saisir 2 à 3 minutes jusqu'à ce qu'elles soient roses, puis les réserver.",
+      "Verser le riz dans la poêle et le faire sauter 4 minutes.",
+      "Pousser le riz sur le côté, brouiller les œufs dans l'espace libre puis tout mélanger.",
+      "Remettre les crevettes, arroser de sauce soja et servir avec l'oignon nouveau."
+    ],
+    "astuce": "Les crevettes surgelées décongelées et bien épongées font parfaitement l'affaire."
+  },
+  {
+    "titre": "Tartines gratinées tomate-mozzarella",
+    "categorie": "plat",
+    "temps": 15,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pain",
+        "nom": "grandes tranches de pain de campagne",
+        "qte": 4,
+        "unite": "tranche"
+      },
+      {
+        "cle": "tomate",
+        "nom": "tomates",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "mozzarella",
+        "nom": "mozzarella",
+        "qte": 125,
+        "unite": "g"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousse d'ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "herbes_provence",
+        "nom": "origan",
+        "qte": 1,
+        "unite": "pincée"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel, poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four en position grill à 220 °C.",
+      "Frotter les tranches de pain avec l'ail coupé en deux et les arroser d'un filet d'huile.",
+      "Couvrir de rondelles de tomate, saler, puis de tranches de mozzarella et d'origan.",
+      "Passer sous le grill 6 à 8 minutes jusqu'à ce que la mozzarella soit fondue et dorée par endroits.",
+      "Arroser du reste d'huile, poivrer et servir avec une salade."
+    ],
+    "astuce": "Idéal pour le pain de la veille, qui croustille mieux qu'un pain frais."
+  },
+  {
+    "titre": "Riz à la tomate et feta au four",
+    "categorie": "plat",
+    "temps": 40,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "riz",
+        "nom": "riz long",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "tomate_concassee",
+        "nom": "tomates concassées",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "feta",
+        "nom": "feta",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "bouillon",
+        "nom": "bouillon de légumes",
+        "qte": 20,
+        "unite": "cl"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "herbes_provence",
+        "nom": "origan",
+        "qte": 1,
+        "unite": "c. à c."
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 200 °C.",
+      "Dans un plat à gratin, mélanger le riz rincé, l'oignon haché, les tomates, le bouillon chaud, l'origan et une cuillère d'huile.",
+      "Poser le bloc de feta au centre, arroser du reste d'huile et couvrir de papier aluminium.",
+      "Enfourner 30 minutes, puis découvrir et poursuivre 5 minutes.",
+      "Écraser la feta et la mélanger au riz avant de servir."
+    ],
+    "astuce": "Ajouter une poignée d'épinards ou de courgette râpée au mélange avant cuisson."
+  },
+  {
+    "titre": "Pommes de terre écrasées au fromage fondu",
+    "categorie": "accompagnement",
+    "temps": 30,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pomme_de_terre",
+        "nom": "pommes de terre",
+        "qte": 500,
+        "unite": "g"
+      },
+      {
+        "cle": "fromage_rape",
+        "nom": "fromage râpé (gruyère, emmental…)",
+        "qte": 60,
+        "unite": "g"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 20,
+        "unite": "g"
+      },
+      {
+        "cle": "lait",
+        "nom": "lait",
+        "qte": 5,
+        "unite": "cl"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel, poivre",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "ciboulette",
+        "nom": "ciboulette",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Cuire les pommes de terre non épluchées 20 à 25 minutes dans l'eau salée, puis les égoutter.",
+      "Les écraser grossièrement à la fourchette avec la peau, le beurre et le lait chaud.",
+      "Incorporer le fromage râpé pour qu'il file, saler et poivrer.",
+      "Parsemer de ciboulette et servir avec une viande, un poisson ou un œuf."
+    ],
+    "astuce": "Garder la peau évite les épluchures et donne plus de goût."
+  }
+]

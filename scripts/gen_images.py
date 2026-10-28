@@ -41,16 +41,15 @@ pipe.scheduler = LCMScheduler.from_config(pipe.scheduler.config)
 pipe.set_progress_bar_config(disable=True)
 
 BASICS = {"sel", "poivre", "huile", "huile_olive", "farine", "sucre", "beurre", "vinaigre", "eau"}
-STYLE = ("professional food photography, appetizing home-cooked dish, served on a simple matte ceramic plate, "
-         "light natural wood table, soft natural window daylight, three-quarter overhead view, shallow depth of field, "
-         "realistic textures, minimal modern styling, muted pastel background, no text, no hands")
+# Style court : le modèle ne lit que ~77 jetons, la description du plat passe en premier.
+STYLE = "close-up food photography, appetizing, natural daylight, vibrant colors, sharp focus, wooden table"
 
 def prompt_for(r):
     desc = prompts.get(r["id"])
     if not desc:
         main = ", ".join(i["nom"] for i in r["ingredients"] if i["cle"] not in BASICS and not i.get("optionnel"))[:120]
         desc = f'{r["titre"]} ({main})'
-    return f"{desc}. {STYLE}"
+    return f"{desc}, {STYLE}"
 
 def seed_for(s):
     h = 2166136261
@@ -63,8 +62,10 @@ for r in todo:
     t = time.time()
     try:
         g = torch.Generator().manual_seed(seed_for(r["id"]))
-        img = pipe(prompt=prompt_for(r), num_inference_steps=4, guidance_scale=8.0,
-                   width=640, height=448, generator=g).images[0]
+        img = pipe(prompt=prompt_for(r), num_inference_steps=6, guidance_scale=8.0,
+                   width=672, height=480, generator=g).images[0]
+        # On rogne le bord droit et le bas, où le modèle dessine parfois un faux texte.
+        img = img.crop((0, 0, 640, 448))
         img.save(out / f'{r["id"]}.webp', "WEBP", quality=80, method=6)
         done += 1
         print(f"ok {r['id']} ({time.time() - t:.1f}s)", flush=True)
