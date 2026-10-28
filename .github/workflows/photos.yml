@@ -1,0 +1,92 @@
+# Génère automatiquement les photos manquantes des recettes, puis les ajoute au dépôt.
+# Se lance à chaque modification des recettes, ou à la main (onglet Actions > Photos des recettes > Run workflow).
+name: Photos des recettes
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "data/parts/**"
+      - "data/photo-prompts.json"
+      - "scripts/gen_images.py"
+      - "scripts/photos-config.json"
+      - ".github/workflows/photos.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: photos
+  cancel-in-progress: false
+
+env:
+  SHARDS: 10
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Construire le carnet
+        run: node scripts/build-carnet.mjs
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Installer le générateur d'images
+        run: |
+          pip install --quiet torch --index-url https://download.pytorch.org/whl/cpu
+          pip install --quiet "diffusers>=0.30" transformers accelerate safetensors pillow
+      - name: Cache du modèle
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: hf-lcm-dreamshaper-v7
+      - name: Générer les photos
+        run: |
+          LIMIT=$(node -e "try{console.log(require('./scripts/photos-config.json').limit||0)}catch{console.log(0)}")
+          python scripts/gen_images.py --shard ${{ matrix.shard }} --shards $SHARDS --limit $LIMIT --out out 2>&1 | tee out-log.txt
+          mkdir -p out && cp out-log.txt out/_log-${{ matrix.shard }}.txt
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: photos-${{ matrix.shard }}
+          path: out/
+          if-no-files-found: ignore
+          retention-days: 3
+
+  commit:
+    needs: generate
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - uses: actions/download-artifact@v4
+        with:
+          path: out
+          pattern: photos-*
+          merge-multiple: true
+      - name: Ajouter les photos au dépôt
+        run: |
+          mkdir -p public/photos
+          cp out/*.webp public/photos/ 2>/dev/null || true
+          { echo "Dernière génération : $(date -u '+%Y-%m-%d %H:%M UTC')"; echo "Photos au total : $(ls public/photos/*.webp 2>/dev/null | wc -l)"; echo; cat out/_log-*.txt 2>/dev/null | grep -E "ERREUR|Error|error|créée|à générer" | head -200; } > scripts/photos-report.txt
+          node scripts/build-carnet.mjs
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/photos public/carnet.json scripts/photos-report.txt
+          git diff --cached --quiet && echo "Rien de nouveau" && exit 0
+          git commit -m "Photos des recettes générées automatiquement"
+          git pull --rebase origin main
+          git push origin HEAD:main
