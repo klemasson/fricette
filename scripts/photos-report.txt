@@ -1,19 +1,23 @@
-Dernière génération : 2026-10-28 18:31 UTC
-Photos au total : 6
+Dernière génération : 2026-10-28 19:41 UTC
+Photos au total : 600
 
-shard 0/10: 1 photo(s) à générer
-shard 0: 1/1 photo(s) créée(s)
-shard 1/10: 1 photo(s) à générer
-shard 1: 1/1 photo(s) créée(s)
-shard 2/10: 1 photo(s) à générer
-shard 2: 1/1 photo(s) créée(s)
-shard 3/10: 1 photo(s) à générer
-shard 3: 1/1 photo(s) créée(s)
-shard 4/10: 1 photo(s) à générer
-shard 4: 1/1 photo(s) créée(s)
-shard 5/10: 1 photo(s) à générer
-shard 5: 1/1 photo(s) créée(s)
-shard 6/10: 0 photo(s) à générer
-shard 7/10: 0 photo(s) à générer
-shard 8/10: 0 photo(s) à générer
-shard 9/10: 0 photo(s) à générer
+shard 0/10: 60 photo(s) à générer
+shard 0: 60/60 photo(s) créée(s)
+shard 1/10: 60 photo(s) à générer
+shard 1: 60/60 photo(s) créée(s)
+shard 2/10: 60 photo(s) à générer
+shard 2: 60/60 photo(s) créée(s)
+shard 3/10: 60 photo(s) à générer
+shard 3: 60/60 photo(s) créée(s)
+shard 4/10: 59 photo(s) à générer
+shard 4: 59/59 photo(s) créée(s)
+shard 5/10: 59 photo(s) à générer
+shard 5: 59/59 photo(s) créée(s)
+shard 6/10: 59 photo(s) à générer
+shard 6: 59/59 photo(s) créée(s)
+shard 7/10: 59 photo(s) à générer
+shard 7: 59/59 photo(s) créée(s)
+shard 8/10: 59 photo(s) à générer
+shard 8: 59/59 photo(s) créée(s)
+shard 9/10: 59 photo(s) à générer
+shard 9: 59/59 photo(s) créée(s)
