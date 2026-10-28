@@ -1,0 +1,3830 @@
+[
+  {
+    "titre": "Poulet aux poireaux et moutarde à l'ancienne, riz",
+    "categorie": "plat",
+    "temps": 35,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "poulet",
+        "nom": "blancs de poulet",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "poireau",
+        "nom": "poireaux",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "moutarde",
+        "nom": "moutarde à l'ancienne",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "creme",
+        "nom": "crème à cuisiner",
+        "qte": 150,
+        "unite": "ml"
+      },
+      {
+        "cle": "riz",
+        "nom": "riz",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Cuire le riz dans une grande casserole d'eau salée selon le paquet, environ 12 minutes.",
+      "Émincer les poireaux en rondelles fines après les avoir bien rincés.",
+      "Couper le poulet en morceaux et le dorer 5 minutes dans l'huile chaude, puis réserver.",
+      "Faire fondre les poireaux 8 minutes à feu moyen dans la même poêle avec un fond d'eau.",
+      "Remettre le poulet, ajouter la crème et la moutarde, saler, poivrer et laisser mijoter 5 minutes.",
+      "Servir sur le riz."
+    ],
+    "astuce": "Le vert des poireaux convient très bien ici s'il est émincé finement : rien à jeter."
+  },
+  {
+    "titre": "Cuisses de poulet rôties au potimarron et romarin",
+    "categorie": "plat",
+    "temps": 55,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "poulet",
+        "nom": "cuisses de poulet",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "courge",
+        "nom": "potimarron",
+        "qte": 500,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon_rouge",
+        "nom": "oignon rouge",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "ail",
+        "nom": "ail",
+        "qte": 3,
+        "unite": "gousse"
+      },
+      {
+        "cle": "herbes_provence",
+        "nom": "romarin",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 200 °C.",
+      "Couper le potimarron en quartiers sans l'éplucher, retirer les graines, et l'oignon en huit.",
+      "Mettre légumes et gousses d'ail entières dans un plat, arroser d'huile, saler, poivrer et parsemer de romarin.",
+      "Poser les cuisses de poulet par-dessus, peau vers le haut, salées et poivrées.",
+      "Enfourner 45 minutes en arrosant une fois avec le jus, jusqu'à ce que la peau soit bien dorée."
+    ],
+    "astuce": "Les graines du potimarron, rincées et grillées 10 minutes au four, font un apéro croquant."
+  },
+  {
+    "titre": "Poulet sauté au brocoli, gingembre et sauce soja",
+    "categorie": "plat",
+    "temps": 25,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "poulet",
+        "nom": "blancs de poulet",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "brocoli",
+        "nom": "brocoli",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "gingembre",
+        "nom": "gingembre frais",
+        "qte": 15,
+        "unite": "g"
+      },
+      {
+        "cle": "ail",
+        "nom": "ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "sauce_soja",
+        "nom": "sauce soja",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "miel",
+        "nom": "miel",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "riz",
+        "nom": "riz",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "graine",
+        "nom": "graines de sésame",
+        "qte": 1,
+        "unite": "c. à s.",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Cuire le riz selon le paquet.",
+      "Détailler le brocoli en petits bouquets et peler la tige pour la couper en bâtonnets.",
+      "Couper le poulet en lanières, râper le gingembre et hacher l'ail.",
+      "Saisir le poulet 4 minutes dans l'huile très chaude, ajouter le brocoli et 3 c. à s. d'eau, couvrir 4 minutes.",
+      "Ajouter ail, gingembre, sauce soja et miel, sauter encore 2 minutes et parsemer de sésame."
+    ],
+    "astuce": "Avec du tamari à la place de la sauce soja, la recette devient sans gluten."
+  },
+  {
+    "titre": "Émincé de dinde au paprika, poivrons et riz",
+    "categorie": "plat",
+    "temps": 30,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "dinde",
+        "nom": "escalopes de dinde",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "poivron",
+        "nom": "poivrons rouge et vert",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "paprika",
+        "nom": "paprika",
+        "qte": 2,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "tomate_concassee",
+        "nom": "tomates concassées",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "riz",
+        "nom": "riz",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Cuire le riz selon le paquet.",
+      "Émincer l'oignon et couper les poivrons en lanières.",
+      "Dorer la dinde coupée en lanières 4 minutes dans l'huile, réserver.",
+      "Faire revenir oignon et poivrons 8 minutes, saupoudrer de paprika et ajouter les tomates.",
+      "Remettre la dinde, saler, poivrer et mijoter 5 minutes avant de servir avec le riz."
+    ],
+    "astuce": "Un poivron un peu ridé fait parfaitement l'affaire dans une sauce mijotée."
+  },
+  {
+    "titre": "Poulet en cocotte aux carottes, cumin et miel",
+    "categorie": "plat",
+    "temps": 45,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "poulet",
+        "nom": "hauts de cuisse de poulet",
+        "qte": 4,
+        "unite": "pièce"
+      },
+      {
+        "cle": "carotte",
+        "nom": "carottes",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "cumin",
+        "nom": "cumin",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "miel",
+        "nom": "miel",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 0.5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "coriandre",
+        "nom": "coriandre",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Dorer les hauts de cuisse côté peau 6 minutes dans l'huile d'une cocotte, puis les retourner.",
+      "Ajouter l'oignon émincé et les carottes en rondelles épaisses, saupoudrer de cumin.",
+      "Verser 15 cl d'eau, le miel et le jus du demi-citron, saler et poivrer.",
+      "Couvrir et laisser mijoter 30 minutes à feu doux.",
+      "Servir parsemé de coriandre."
+    ],
+    "astuce": "Les carottes un peu molles retrouvent tout leur intérêt dans ce mijoté sucré-salé."
+  },
+  {
+    "titre": "Escalopes de dinde panées aux herbes, haricots verts à l'ail",
+    "categorie": "plat",
+    "temps": 30,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "dinde",
+        "nom": "escalopes de dinde",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œuf",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "chapelure",
+        "nom": "chapelure",
+        "qte": 50,
+        "unite": "g"
+      },
+      {
+        "cle": "herbes_provence",
+        "nom": "herbes de Provence",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "farine",
+        "nom": "farine",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "haricot_vert",
+        "nom": "haricots verts",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "ail",
+        "nom": "ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 0.5,
+        "unite": "pièce",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Cuire les haricots verts 8 minutes à l'eau bouillante salée, égoutter.",
+      "Mélanger la chapelure et les herbes ; battre l'œuf dans une assiette creuse.",
+      "Passer les escalopes dans la farine, l'œuf puis la chapelure.",
+      "Les cuire 3 à 4 minutes par face dans 2 c. à s. d'huile chaude.",
+      "Faire sauter les haricots 2 minutes avec le reste d'huile et l'ail haché, servir avec un quartier de citron."
+    ],
+    "astuce": "Du pain rassis mixé remplace très bien la chapelure du commerce."
+  },
+  {
+    "titre": "Poulet aux champignons et épinards, sauce au fromage frais",
+    "categorie": "plat",
+    "temps": 25,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "poulet",
+        "nom": "blancs de poulet",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "champignon",
+        "nom": "champignons de Paris",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "epinard",
+        "nom": "pousses d'épinards",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "fromage_frais",
+        "nom": "fromage frais ail et fines herbes",
+        "qte": 80,
+        "unite": "g"
+      },
+      {
+        "cle": "ail",
+        "nom": "ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "pates",
+        "nom": "tagliatelles",
+        "qte": 160,
+        "unite": "g",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Couper le poulet en dés et émincer les champignons.",
+      "Dorer le poulet 5 minutes dans l'huile, ajouter les champignons et l'ail haché, cuire 5 minutes.",
+      "Ajouter le fromage frais et 5 cl d'eau, remuer jusqu'à obtenir une sauce lisse.",
+      "Incorporer les épinards et laisser tomber 1 minute, saler et poivrer.",
+      "Servir tel quel ou avec des tagliatelles."
+    ],
+    "astuce": "Un reste de fromage frais un peu entamé est idéal pour cette sauce minute."
+  },
+  {
+    "titre": "Poulet à l'orange et carottes rôties",
+    "categorie": "plat",
+    "temps": 50,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "poulet",
+        "nom": "cuisses de poulet",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "orange",
+        "nom": "oranges",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "carotte",
+        "nom": "carottes",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "miel",
+        "nom": "miel",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "ail",
+        "nom": "ail",
+        "qte": 2,
+        "unite": "gousse"
+      },
+      {
+        "cle": "herbes_provence",
+        "nom": "thym",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 200 °C.",
+      "Mélanger le jus d'une orange, le miel, l'ail écrasé, le thym, sel et poivre.",
+      "Couper les carottes en bâtonnets et la seconde orange en quartiers, les disposer dans un plat avec l'huile.",
+      "Poser le poulet dessus et le badigeonner de la marinade.",
+      "Rôtir 45 minutes en arrosant deux fois avec le jus de cuisson."
+    ],
+    "astuce": "Le zeste de l'orange pressée, râpé avant de la couper, parfume aussi la marinade."
+  },
+  {
+    "titre": "Dinde à la crème de poivron et penne",
+    "categorie": "plat",
+    "temps": 30,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "dinde",
+        "nom": "escalopes de dinde",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "poivron",
+        "nom": "poivrons rouges",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "creme",
+        "nom": "crème à cuisiner",
+        "qte": 100,
+        "unite": "ml"
+      },
+      {
+        "cle": "pates",
+        "nom": "penne",
+        "qte": 160,
+        "unite": "g"
+      },
+      {
+        "cle": "paprika",
+        "nom": "paprika",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "basilic",
+        "nom": "basilic",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Faire fondre l'oignon et les poivrons en dés 10 minutes dans l'huile avec 5 cl d'eau, à couvert.",
+      "Cuire les penne selon le paquet.",
+      "Mixer les poivrons avec la crème et le paprika pour obtenir une sauce lisse.",
+      "Dorer la dinde en lanières 4 minutes dans la même poêle, verser la sauce et chauffer 2 minutes.",
+      "Mélanger avec les pâtes égouttées et servir avec du basilic."
+    ],
+    "astuce": "Une moitié de poivron restante peut compléter avec une tomate bien mûre."
+  },
+  {
+    "titre": "Poulet mariné au yaourt et aux épices, semoule aux carottes",
+    "categorie": "plat",
+    "temps": 35,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "poulet",
+        "nom": "blancs de poulet",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "yaourt",
+        "nom": "yaourt nature",
+        "qte": 1,
+        "unite": "pot"
+      },
+      {
+        "cle": "curry",
+        "nom": "garam masala",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "curcuma",
+        "nom": "curcuma",
+        "qte": 0.5,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "ail",
+        "nom": "ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "semoule",
+        "nom": "semoule",
+        "qte": 120,
+        "unite": "g"
+      },
+      {
+        "cle": "carotte",
+        "nom": "carotte",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "menthe",
+        "nom": "menthe",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Couper le poulet en dés et le mélanger avec la moitié du yaourt, les épices, l'ail râpé et du sel ; laisser reposer 10 minutes.",
+      "Râper la carotte, la mélanger à la semoule, verser 15 cl d'eau bouillante salée, couvrir 5 minutes puis égrainer.",
+      "Saisir le poulet dans l'huile 6 à 8 minutes jusqu'à ce qu'il soit bien doré.",
+      "Servir sur la semoule avec le reste de yaourt et un peu de menthe."
+    ],
+    "astuce": "La marinade peut se préparer le matin : le poulet n'en sera que plus tendre."
+  },
+  {
+    "titre": "Hauts de cuisse de poulet au four, pommes de terre et olives",
+    "categorie": "plat",
+    "temps": 55,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "poulet",
+        "nom": "hauts de cuisse de poulet",
+        "qte": 4,
+        "unite": "pièce"
+      },
+      {
+        "cle": "pomme_de_terre",
+        "nom": "pommes de terre",
+        "qte": 500,
+        "unite": "g"
+      },
+      {
+        "cle": "olive",
+        "nom": "olives vertes",
+        "qte": 60,
+        "unite": "g"
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "ail",
+        "nom": "ail",
+        "qte": 3,
+        "unite": "gousse"
+      },
+      {
+        "cle": "herbes_provence",
+        "nom": "origan",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 210 °C.",
+      "Couper les pommes de terre en quartiers et le citron en rondelles.",
+      "Mélanger pommes de terre, citron, ail en chemise, olives, huile, origan, sel et poivre dans un plat.",
+      "Ajouter le poulet assaisonné, peau vers le haut.",
+      "Cuire 45 minutes jusqu'à ce que les pommes de terre soient fondantes et la peau croustillante."
+    ],
+    "astuce": "Les olives d'un bocal entamé trouvent ici une belle utilisation."
+  },
+  {
+    "titre": "Dinde sautée au chou pointu et sésame",
+    "categorie": "plat",
+    "temps": 25,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "dinde",
+        "nom": "blanc de dinde",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "chou",
+        "nom": "chou pointu",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "carotte",
+        "nom": "carotte",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "sauce_soja",
+        "nom": "sauce soja",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "vinaigre",
+        "nom": "vinaigre de riz ou de cidre",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "graine",
+        "nom": "graines de sésame",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "gingembre",
+        "nom": "gingembre",
+        "qte": 10,
+        "unite": "g",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Émincer finement le chou et tailler la carotte en julienne.",
+      "Saisir la dinde en lanières 4 minutes dans l'huile, réserver.",
+      "Faire sauter le chou et la carotte 5 minutes à feu vif, avec le gingembre râpé si désiré.",
+      "Remettre la dinde, ajouter sauce soja et vinaigre, mélanger 1 minute.",
+      "Parsemer de sésame grillé et servir aussitôt."
+    ],
+    "astuce": "Un quart de chou qui traîne au frigo suffit pour deux."
+  },
+  {
+    "titre": "Bavette à l'échalote, frites de patate douce au four",
+    "categorie": "plat",
+    "temps": 40,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "boeuf",
+        "nom": "bavette",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "echalote",
+        "nom": "échalotes",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "patate_douce",
+        "nom": "patates douces",
+        "qte": 500,
+        "unite": "g"
+      },
+      {
+        "cle": "vinaigre",
+        "nom": "vinaigre de vin",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 20,
+        "unite": "g"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "paprika",
+        "nom": "paprika",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 220 °C.",
+      "Couper les patates douces en frites, les mélanger avec l'huile, le paprika et du sel, puis les étaler sur une plaque.",
+      "Enfourner 25 à 30 minutes en les retournant à mi-cuisson.",
+      "Saisir la bavette 2 à 3 minutes par face dans une poêle très chaude avec une noix de beurre, puis la laisser reposer.",
+      "Faire fondre les échalotes émincées 3 minutes dans la poêle avec le reste de beurre, déglacer au vinaigre et napper la viande."
+    ],
+    "astuce": "Sortir la viande du frigo 20 minutes avant la cuisson pour une cuisson plus homogène."
+  },
+  {
+    "titre": "Bœuf haché à la courge et au cumin, semoule",
+    "categorie": "plat",
+    "temps": 35,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "boeuf_hache",
+        "nom": "bœuf haché",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "courge",
+        "nom": "courge butternut",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "cumin",
+        "nom": "cumin",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "tomate_concassee",
+        "nom": "tomates concassées",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "semoule",
+        "nom": "semoule",
+        "qte": 120,
+        "unite": "g"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "coriandre",
+        "nom": "coriandre",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Peler la courge et la couper en petits dés, émincer l'oignon.",
+      "Faire revenir l'oignon dans l'huile, ajouter le bœuf et le cumin, cuire 5 minutes en égrainant.",
+      "Ajouter la courge, les tomates et 10 cl d'eau, couvrir et mijoter 15 minutes.",
+      "Préparer la semoule avec 15 cl d'eau bouillante salée, couvrir 5 minutes puis égrainer.",
+      "Servir le bœuf à la courge sur la semoule, avec de la coriandre."
+    ],
+    "astuce": "La courge entamée se garde quelques jours au frais, face coupée filmée."
+  },
+  {
+    "titre": "Keftas de bœuf, carottes rôties et yaourt à la menthe",
+    "categorie": "plat",
+    "temps": 40,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "boeuf_hache",
+        "nom": "bœuf haché",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 0.5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "cumin",
+        "nom": "cumin",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "persil",
+        "nom": "persil",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "carotte",
+        "nom": "carottes",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "yaourt",
+        "nom": "yaourt nature",
+        "qte": 1,
+        "unite": "pot"
+      },
+      {
+        "cle": "menthe",
+        "nom": "menthe",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 200 °C ; couper les carottes en bâtonnets, les huiler, saler et enfourner 30 minutes.",
+      "Mélanger le bœuf avec l'oignon râpé, le cumin, le persil haché, sel et poivre.",
+      "Former de petits boudins allongés et les dorer 8 à 10 minutes dans une poêle avec un filet d'huile.",
+      "Mélanger le yaourt avec la menthe ciselée et une pincée de sel.",
+      "Servir les keftas sur les carottes avec la sauce."
+    ],
+    "astuce": "Un peu de pain pita ou de semoule complète le plat pour les grands appétits."
+  },
+  {
+    "titre": "Bœuf sauté aux brocolis et à l'ail, riz",
+    "categorie": "plat",
+    "temps": 25,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "boeuf",
+        "nom": "rumsteck",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "brocoli",
+        "nom": "brocoli",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "ail",
+        "nom": "ail",
+        "qte": 2,
+        "unite": "gousse"
+      },
+      {
+        "cle": "sauce_soja",
+        "nom": "sauce soja",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sucre",
+        "nom": "sucre",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "riz",
+        "nom": "riz",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "oignon_nouveau",
+        "nom": "oignon nouveau",
+        "qte": 1,
+        "unite": "pièce",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Cuire le riz selon le paquet.",
+      "Couper le bœuf en fines lamelles contre le sens des fibres et le brocoli en petits bouquets.",
+      "Saisir le bœuf 2 minutes à feu vif dans l'huile, réserver.",
+      "Faire sauter le brocoli 4 minutes avec 3 c. à s. d'eau, ajouter l'ail haché, la sauce soja et le sucre.",
+      "Remettre le bœuf 1 minute, parsemer d'oignon nouveau et servir sur le riz."
+    ],
+    "astuce": "Placer le bœuf 15 minutes au congélateur facilite la découpe en lamelles fines."
+  },
+  {
+    "titre": "Ragoût de bœuf haché, lentilles et carottes",
+    "categorie": "plat",
+    "temps": 40,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "boeuf_hache",
+        "nom": "bœuf haché",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "lentille",
+        "nom": "lentilles vertes",
+        "qte": 120,
+        "unite": "g"
+      },
+      {
+        "cle": "carotte",
+        "nom": "carottes",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "concentre_tomate",
+        "nom": "concentré de tomate",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "herbes_provence",
+        "nom": "laurier et thym",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Faire revenir l'oignon émincé et les carottes en dés dans l'huile 5 minutes.",
+      "Ajouter le bœuf et le dorer en l'égrainant 4 minutes.",
+      "Incorporer le concentré de tomate, les lentilles rincées, les herbes et 50 cl d'eau.",
+      "Couvrir et mijoter 25 minutes jusqu'à ce que les lentilles soient tendres, saler en fin de cuisson.",
+      "Rectifier l'assaisonnement et servir bien chaud."
+    ],
+    "astuce": "Encore meilleur réchauffé le lendemain ; ajouter un peu d'eau si nécessaire."
+  },
+  {
+    "titre": "Steaks hachés, champignons à la crème et pommes de terre rissolées",
+    "categorie": "plat",
+    "temps": 35,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "boeuf_hache",
+        "nom": "steaks hachés",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "champignon",
+        "nom": "champignons de Paris",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "echalote",
+        "nom": "échalote",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "creme",
+        "nom": "crème",
+        "qte": 100,
+        "unite": "ml"
+      },
+      {
+        "cle": "pomme_de_terre",
+        "nom": "pommes de terre",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "persil",
+        "nom": "persil",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Couper les pommes de terre en petits dés et les faire rissoler 20 minutes dans l'huile, à couvert les 10 premières minutes.",
+      "Faire revenir l'échalote et les champignons émincés 6 minutes dans une autre poêle.",
+      "Ajouter la crème, saler, poivrer et laisser réduire 3 minutes.",
+      "Cuire les steaks hachés 3 minutes par face.",
+      "Servir les steaks nappés de champignons, avec les pommes de terre et du persil."
+    ],
+    "astuce": "Les champignons un peu tachés sont parfaits ici : il suffit de les essuyer."
+  },
+  {
+    "titre": "Émincé de bœuf au chou et carottes, nouilles sautées",
+    "categorie": "plat",
+    "temps": 30,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "boeuf",
+        "nom": "bœuf à griller",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "chou",
+        "nom": "chou blanc",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "carotte",
+        "nom": "carotte",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "pates",
+        "nom": "nouilles chinoises",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "sauce_soja",
+        "nom": "sauce soja",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "gingembre",
+        "nom": "gingembre",
+        "qte": 10,
+        "unite": "g"
+      },
+      {
+        "cle": "ail",
+        "nom": "ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 2,
+        "unite": "c. à s."
+      }
+    ],
+    "etapes": [
+      "Cuire les nouilles selon le paquet, égoutter et rincer à l'eau froide.",
+      "Émincer finement le chou, tailler la carotte en julienne, couper le bœuf en lamelles.",
+      "Saisir le bœuf 2 minutes dans 1 c. à s. d'huile, réserver.",
+      "Sauter chou et carotte 5 minutes avec le reste d'huile, l'ail et le gingembre râpés.",
+      "Ajouter nouilles, bœuf et sauce soja, mélanger 2 minutes à feu vif."
+    ],
+    "astuce": "Toute la fin d'un chou peut y passer, même le cœur émincé finement."
+  },
+  {
+    "titre": "Goulash de bœuf au paprika et pommes de terre",
+    "categorie": "plat",
+    "temps": 100,
+    "difficulte": "moyen",
+    "portions": 2,
+    "regimes": [
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "boeuf",
+        "nom": "bœuf à braiser",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignons",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "poivron",
+        "nom": "poivron rouge",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "paprika",
+        "nom": "paprika",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "concentre_tomate",
+        "nom": "concentré de tomate",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "pomme_de_terre",
+        "nom": "pommes de terre",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "cumin",
+        "nom": "cumin",
+        "qte": 0.5,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Couper le bœuf en cubes et le dorer en deux fois dans l'huile d'une cocotte, réserver.",
+      "Faire fondre les oignons émincés 8 minutes, ajouter le poivron en dés, le paprika, le cumin et le concentré de tomate.",
+      "Remettre la viande, couvrir d'eau à hauteur, saler, couvrir et mijoter 1 heure à feu doux.",
+      "Ajouter les pommes de terre en gros dés et poursuivre 25 minutes.",
+      "Rectifier l'assaisonnement avant de servir."
+    ],
+    "astuce": "Comme tous les mijotés, ce goulash se congèle très bien en portions."
+  },
+  {
+    "titre": "Médaillons de filet mignon au miel et carottes glacées",
+    "categorie": "plat",
+    "temps": 35,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_gluten",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "porc",
+        "nom": "filet mignon de porc",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "carotte",
+        "nom": "carottes",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "miel",
+        "nom": "miel",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 20,
+        "unite": "g"
+      },
+      {
+        "cle": "moutarde",
+        "nom": "moutarde",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "herbes_provence",
+        "nom": "thym",
+        "qte": 0.5,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Couper les carottes en rondelles, les mettre dans une poêle avec le beurre, une pincée de sel et de l'eau à mi-hauteur.",
+      "Cuire 15 minutes jusqu'à évaporation, puis laisser glacer 2 minutes.",
+      "Couper le filet mignon en médaillons de 2 cm et les saisir 3 minutes par face dans l'huile.",
+      "Ajouter le miel, la moutarde, le thym et 3 c. à s. d'eau, enrober la viande 1 minute.",
+      "Servir les médaillons nappés de sauce avec les carottes."
+    ],
+    "astuce": "Le filet mignon reste moelleux s'il est encore légèrement rosé à cœur."
+  },
+  {
+    "titre": "Saucisses au four, poivrons et pommes de terre grenaille",
+    "categorie": "plat",
+    "temps": 45,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_gluten",
+      "sans_lactose",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "saucisse",
+        "nom": "saucisses",
+        "qte": 4,
+        "unite": "pièce"
+      },
+      {
+        "cle": "pomme_de_terre",
+        "nom": "pommes de terre grenaille",
+        "qte": 500,
+        "unite": "g"
+      },
+      {
+        "cle": "poivron",
+        "nom": "poivrons",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oignon_rouge",
+        "nom": "oignon rouge",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "herbes_provence",
+        "nom": "herbes de Provence",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "moutarde",
+        "nom": "moutarde",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 200 °C.",
+      "Couper les grenailles en deux, les poivrons en lanières et l'oignon en quartiers.",
+      "Mélanger les légumes avec l'huile, les herbes, sel et poivre sur une plaque.",
+      "Enfourner 15 minutes, ajouter les saucisses piquées et poursuivre 25 minutes en retournant une fois.",
+      "Servir avec de la moutarde."
+    ],
+    "astuce": "Une seule plaque, peu de vaisselle : idéal pour vider le bac à légumes."
+  },
+  {
+    "titre": "Coquillettes aux poireaux et lardons",
+    "categorie": "plat",
+    "temps": 25,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pates",
+        "nom": "coquillettes",
+        "qte": 180,
+        "unite": "g"
+      },
+      {
+        "cle": "lardons",
+        "nom": "lardons",
+        "qte": 125,
+        "unite": "g"
+      },
+      {
+        "cle": "poireau",
+        "nom": "poireau",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "creme",
+        "nom": "crème",
+        "qte": 10,
+        "unite": "cl"
+      },
+      {
+        "cle": "fromage_rape",
+        "nom": "fromage râpé",
+        "qte": 30,
+        "unite": "g",
+        "optionnel": true
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Cuire les coquillettes selon le paquet.",
+      "Faire dorer les lardons à sec 4 minutes.",
+      "Ajouter le poireau émincé et 3 c. à s. d'eau, cuire 8 minutes à couvert.",
+      "Verser la crème, poivrer généreusement et laisser frémir 2 minutes.",
+      "Mélanger avec les pâtes égouttées et servir avec un peu de fromage râpé."
+    ],
+    "astuce": "Pas besoin de sel : les lardons assaisonnent déjà le plat."
+  },
+  {
+    "titre": "Poêlée de haricots verts, pommes de terre et lardons",
+    "categorie": "plat",
+    "temps": 35,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_gluten",
+      "sans_lactose",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "haricot_vert",
+        "nom": "haricots verts",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "pomme_de_terre",
+        "nom": "pommes de terre",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "lardons",
+        "nom": "lardons fumés",
+        "qte": 125,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "persil",
+        "nom": "persil",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Cuire les pommes de terre en dés 10 minutes et les haricots verts 7 minutes à l'eau salée, égoutter.",
+      "Faire dorer les lardons et l'oignon émincé 5 minutes dans une grande poêle.",
+      "Ajouter pommes de terre et haricots, faire sauter 8 minutes jusqu'à ce que tout soit doré.",
+      "Poivrer et parsemer de persil."
+    ],
+    "astuce": "Des haricots verts surgelés conviennent aussi, sans précuisson."
+  },
+  {
+    "titre": "Côtes de porc aux champignons et chou sauté",
+    "categorie": "plat",
+    "temps": 35,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_gluten",
+      "sans_lactose",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "porc",
+        "nom": "côtes de porc",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "champignon",
+        "nom": "champignons",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "chou",
+        "nom": "chou vert",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "ail",
+        "nom": "ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "moutarde",
+        "nom": "moutarde",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Émincer le chou et le blanchir 3 minutes à l'eau bouillante salée, égoutter.",
+      "Saisir les côtes de porc 4 à 5 minutes par face dans 1 c. à s. d'huile, réserver au chaud.",
+      "Faire revenir les champignons émincés 5 minutes dans la même poêle.",
+      "Ajouter le chou, l'ail haché et le reste d'huile, sauter 5 minutes, puis la moutarde délayée dans 3 c. à s. d'eau.",
+      "Servir les côtes sur le chou aux champignons."
+    ],
+    "astuce": "Les feuilles extérieures du chou, plus fermes, gagnent à être émincées très finement."
+  },
+  {
+    "titre": "Cervelas poêlés, chou rouge braisé aux pommes",
+    "categorie": "plat",
+    "temps": 45,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_gluten",
+      "sans_lactose",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "saucisse",
+        "nom": "cervelas",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "chou",
+        "nom": "chou rouge",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "pomme",
+        "nom": "pomme",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "vinaigre",
+        "nom": "vinaigre de cidre",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sucre",
+        "nom": "sucre",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "pomme_de_terre",
+        "nom": "pommes de terre vapeur",
+        "qte": 300,
+        "unite": "g",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Émincer finement le chou rouge et l'oignon, couper la pomme en dés.",
+      "Faire revenir l'oignon dans l'huile, ajouter chou, pomme, vinaigre, sucre, sel et 10 cl d'eau.",
+      "Couvrir et braiser 30 minutes à feu doux en remuant de temps en temps.",
+      "Inciser les cervelas en croix aux extrémités et les dorer 6 minutes à la poêle.",
+      "Servir sur le chou, avec des pommes de terre vapeur si désiré."
+    ],
+    "astuce": "Le chou rouge braisé se garde 3 jours au frais et se réchauffe très bien."
+  },
+  {
+    "titre": "Escalopes de veau au citron et épinards",
+    "categorie": "plat",
+    "temps": 25,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "veau",
+        "nom": "escalopes de veau fines",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "epinard",
+        "nom": "épinards frais",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "ail",
+        "nom": "ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "farine",
+        "nom": "farine",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 20,
+        "unite": "g"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "pomme_de_terre",
+        "nom": "pommes de terre vapeur",
+        "qte": 300,
+        "unite": "g",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Fariner légèrement les escalopes, saler et poivrer.",
+      "Les cuire 2 minutes par face dans l'huile et la moitié du beurre, réserver au chaud.",
+      "Déglacer la poêle avec le jus du citron et 3 c. à s. d'eau, ajouter le reste de beurre pour lier la sauce.",
+      "Dans une autre poêle, faire tomber les épinards 3 minutes avec l'ail haché.",
+      "Servir les escalopes nappées de sauce citronnée sur les épinards."
+    ],
+    "astuce": "Le zeste du citron, râpé avant de le presser, relève aussi les épinards."
+  },
+  {
+    "titre": "Émincé de veau aux poivrons et paprika, riz",
+    "categorie": "plat",
+    "temps": 30,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "veau",
+        "nom": "émincé de veau",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "poivron",
+        "nom": "poivrons",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "paprika",
+        "nom": "paprika",
+        "qte": 2,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "creme",
+        "nom": "crème",
+        "qte": 10,
+        "unite": "cl"
+      },
+      {
+        "cle": "riz",
+        "nom": "riz",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Cuire le riz selon le paquet.",
+      "Saisir le veau 3 minutes dans l'huile à feu vif, réserver.",
+      "Faire revenir l'oignon émincé et les poivrons en lanières 8 minutes.",
+      "Ajouter le paprika, la crème et le veau, saler, poivrer et chauffer 2 minutes sans bouillir fort.",
+      "Servir avec le riz."
+    ],
+    "astuce": "Un émincé de dinde remplace volontiers le veau pour un plat plus économique."
+  },
+  {
+    "titre": "Boulettes d'agneau au cumin, courgettes et semoule",
+    "categorie": "plat",
+    "temps": 40,
+    "difficulte": "moyen",
+    "portions": 2,
+    "regimes": [
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "agneau",
+        "nom": "agneau haché",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "ail",
+        "nom": "ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "cumin",
+        "nom": "cumin",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "menthe",
+        "nom": "menthe",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "courgette",
+        "nom": "courgettes",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "tomate_concassee",
+        "nom": "tomates concassées",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "semoule",
+        "nom": "semoule",
+        "qte": 120,
+        "unite": "g"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Mélanger l'agneau, l'ail râpé, le cumin, la menthe ciselée, sel et poivre, puis former une douzaine de boulettes.",
+      "Les dorer 6 minutes dans l'huile, ajouter les courgettes en demi-rondelles et cuire 3 minutes.",
+      "Verser les tomates, couvrir et mijoter 12 minutes.",
+      "Préparer la semoule avec 15 cl d'eau bouillante salée, couvrir 5 minutes puis égrainer.",
+      "Servir les boulettes et leur sauce sur la semoule."
+    ],
+    "astuce": "À défaut d'agneau haché, un mélange bœuf haché et cumin fonctionne très bien."
+  },
+  {
+    "titre": "Côtelettes d'agneau au romarin, purée de courge",
+    "categorie": "plat",
+    "temps": 35,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "agneau",
+        "nom": "côtelettes d'agneau",
+        "qte": 6,
+        "unite": "pièce"
+      },
+      {
+        "cle": "courge",
+        "nom": "courge",
+        "qte": 500,
+        "unite": "g"
+      },
+      {
+        "cle": "pomme_de_terre",
+        "nom": "pomme de terre",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "herbes_provence",
+        "nom": "romarin",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "ail",
+        "nom": "ail",
+        "qte": 2,
+        "unite": "gousse"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "muscade",
+        "nom": "muscade",
+        "qte": 1,
+        "unite": "pincée",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Cuire la courge et la pomme de terre en dés 15 minutes à l'eau salée.",
+      "Les écraser avec 1 c. à s. d'huile d'olive, sel, poivre et une pincée de muscade.",
+      "Frotter les côtelettes avec l'ail écrasé, le romarin et le reste d'huile.",
+      "Les saisir 2 à 3 minutes par face dans une poêle très chaude, saler en fin de cuisson.",
+      "Servir avec la purée de courge."
+    ],
+    "astuce": "La pomme de terre donne de la tenue à la purée quand la courge est très aqueuse."
+  },
+  {
+    "titre": "Saumon au four en croûte de moutarde, brocoli et pommes de terre",
+    "categorie": "plat",
+    "temps": 35,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "saumon",
+        "nom": "pavés de saumon",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "moutarde",
+        "nom": "moutarde à l'ancienne",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "miel",
+        "nom": "miel",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "brocoli",
+        "nom": "brocoli",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "pomme_de_terre",
+        "nom": "pommes de terre",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 0.5,
+        "unite": "pièce",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 200 °C.",
+      "Couper les pommes de terre en quartiers, les huiler, saler et enfourner 15 minutes sur une plaque.",
+      "Ajouter le brocoli en bouquets huilés et salés.",
+      "Poser le saumon sur la plaque, le napper de moutarde mélangée au miel et poursuivre 12 minutes.",
+      "Servir avec un quartier de citron."
+    ],
+    "astuce": "Un pavé de saumon surgelé se décongèle en une nuit au réfrigérateur."
+  },
+  {
+    "titre": "Saumon poêlé sur lentilles aux carottes",
+    "categorie": "plat",
+    "temps": 40,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "saumon",
+        "nom": "pavés de saumon",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "lentille",
+        "nom": "lentilles vertes",
+        "qte": 120,
+        "unite": "g"
+      },
+      {
+        "cle": "carotte",
+        "nom": "carottes",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "echalote",
+        "nom": "échalote",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "moutarde",
+        "nom": "moutarde",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "vinaigre",
+        "nom": "vinaigre",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "persil",
+        "nom": "persil",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Cuire les lentilles rincées 25 minutes dans de l'eau non salée avec les carottes en petits dés.",
+      "Égoutter, saler, et assaisonner avec l'échalote hachée, la moutarde, le vinaigre et 2 c. à s. d'huile.",
+      "Cuire le saumon côté peau 5 minutes dans le reste d'huile, puis 2 minutes de l'autre côté.",
+      "Servir le saumon sur les lentilles tièdes, parsemé de persil."
+    ],
+    "astuce": "Les lentilles se préparent la veille et se servent tièdes ou froides."
+  },
+  {
+    "titre": "Cabillaud sur lit de poireaux et pommes de terre au four",
+    "categorie": "plat",
+    "temps": 45,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "poisson_blanc",
+        "nom": "dos de cabillaud",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "poireau",
+        "nom": "poireaux",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "pomme_de_terre",
+        "nom": "pommes de terre",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 0.5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "herbes_provence",
+        "nom": "thym",
+        "qte": 0.5,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 200 °C.",
+      "Couper les pommes de terre en fines rondelles et les poireaux en tronçons fins.",
+      "Les mélanger avec l'huile, le thym, sel et poivre dans un plat, et cuire 25 minutes.",
+      "Poser le cabillaud dessus, saler, arroser de jus de citron et poursuivre 12 à 15 minutes.",
+      "Servir directement dans le plat."
+    ],
+    "astuce": "Le poisson est cuit quand sa chair se détache en lamelles nacrées."
+  },
+  {
+    "titre": "Colin pané maison, purée de petits pois",
+    "categorie": "plat",
+    "temps": 30,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "poisson_blanc",
+        "nom": "filets de colin",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œuf",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "chapelure",
+        "nom": "chapelure",
+        "qte": 50,
+        "unite": "g"
+      },
+      {
+        "cle": "farine",
+        "nom": "farine",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "petit_pois",
+        "nom": "petits pois surgelés",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 15,
+        "unite": "g"
+      },
+      {
+        "cle": "menthe",
+        "nom": "menthe",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 0.5,
+        "unite": "pièce",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Cuire les petits pois 6 minutes à l'eau salée, les égoutter et les mixer grossièrement avec le beurre et la menthe.",
+      "Couper le colin en morceaux, les passer dans la farine, l'œuf battu puis la chapelure.",
+      "Les dorer 3 minutes par face dans l'huile chaude.",
+      "Servir le poisson croustillant avec la purée et un quartier de citron."
+    ],
+    "astuce": "Les enfants adorent : c'est une version maison des bâtonnets de poisson."
+  },
+  {
+    "titre": "Boulettes de thon à la tomate, riz",
+    "categorie": "plat",
+    "temps": 35,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "thon",
+        "nom": "thon au naturel",
+        "qte": 2,
+        "unite": "boîte"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œuf",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "chapelure",
+        "nom": "chapelure",
+        "qte": 40,
+        "unite": "g"
+      },
+      {
+        "cle": "persil",
+        "nom": "persil",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "tomate_concassee",
+        "nom": "tomates concassées",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "ail",
+        "nom": "ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "riz",
+        "nom": "riz",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Cuire le riz selon le paquet.",
+      "Mélanger le thon bien égoutté, l'œuf, la chapelure, le persil haché, sel et poivre ; former 10 boulettes.",
+      "Les dorer délicatement 5 minutes dans l'huile.",
+      "Ajouter l'ail haché et les tomates, couvrir et mijoter 10 minutes.",
+      "Servir avec le riz."
+    ],
+    "astuce": "Si la pâte est trop molle, ajouter une cuillère de chapelure supplémentaire."
+  },
+  {
+    "titre": "Gratin de pommes de terre au thon et épinards",
+    "categorie": "plat",
+    "temps": 50,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pomme_de_terre",
+        "nom": "pommes de terre",
+        "qte": 500,
+        "unite": "g"
+      },
+      {
+        "cle": "thon",
+        "nom": "thon",
+        "qte": 1,
+        "unite": "boîte"
+      },
+      {
+        "cle": "epinard",
+        "nom": "épinards",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "creme",
+        "nom": "crème",
+        "qte": 20,
+        "unite": "cl"
+      },
+      {
+        "cle": "fromage_rape",
+        "nom": "fromage râpé",
+        "qte": 50,
+        "unite": "g"
+      },
+      {
+        "cle": "ail",
+        "nom": "ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "muscade",
+        "nom": "muscade",
+        "qte": 1,
+        "unite": "pincée"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 200 °C.",
+      "Cuire les pommes de terre en rondelles 8 minutes à l'eau salée, égoutter.",
+      "Faire tomber les épinards 2 minutes avec l'ail haché.",
+      "Alterner dans un plat pommes de terre, épinards et thon émietté, napper de crème assaisonnée de muscade, sel et poivre.",
+      "Parsemer de fromage et gratiner 25 minutes."
+    ],
+    "astuce": "Des épinards surgelés bien égouttés conviennent parfaitement."
+  },
+  {
+    "titre": "Pommes de terre écrasées aux sardines, citron et persil",
+    "categorie": "plat",
+    "temps": 30,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pomme_de_terre",
+        "nom": "pommes de terre",
+        "qte": 500,
+        "unite": "g"
+      },
+      {
+        "cle": "sardine",
+        "nom": "sardines à l'huile",
+        "qte": 1,
+        "unite": "boîte"
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "persil",
+        "nom": "persil",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "oignon_rouge",
+        "nom": "oignon rouge",
+        "qte": 0.5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "capre",
+        "nom": "câpres",
+        "qte": 1,
+        "unite": "c. à s.",
+        "optionnel": true
+      },
+      {
+        "cle": "salade",
+        "nom": "salade verte",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Cuire les pommes de terre entières 20 minutes à l'eau salée.",
+      "Les écraser grossièrement à la fourchette avec un peu de l'huile des sardines.",
+      "Ajouter le jus et le zeste du citron, l'oignon rouge haché finement, le persil et les câpres.",
+      "Déposer les sardines en morceaux par-dessus, poivrer et servir tiède avec une salade."
+    ],
+    "astuce": "L'huile de la boîte de sardines est savoureuse : elle remplace l'huile d'assaisonnement."
+  },
+  {
+    "titre": "Crevettes sautées aux poivrons et paprika fumé, riz",
+    "categorie": "plat",
+    "temps": 25,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "crevette",
+        "nom": "crevettes décortiquées",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "poivron",
+        "nom": "poivrons",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "ail",
+        "nom": "ail",
+        "qte": 2,
+        "unite": "gousse"
+      },
+      {
+        "cle": "paprika",
+        "nom": "paprika fumé",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "tomate_concassee",
+        "nom": "tomates concassées",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "riz",
+        "nom": "riz",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "persil",
+        "nom": "persil",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Cuire le riz selon le paquet.",
+      "Faire revenir l'oignon et les poivrons émincés 8 minutes dans l'huile.",
+      "Ajouter l'ail haché, le paprika et les tomates, mijoter 5 minutes.",
+      "Ajouter les crevettes et cuire 3 minutes jusqu'à ce qu'elles soient roses.",
+      "Servir sur le riz, parsemé de persil."
+    ],
+    "astuce": "Des crevettes surgelées se décongèlent en 10 minutes dans un bol d'eau froide."
+  },
+  {
+    "titre": "Linguine aux crevettes, tomates cerises et ail",
+    "categorie": "plat",
+    "temps": 25,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pates",
+        "nom": "linguine",
+        "qte": 180,
+        "unite": "g"
+      },
+      {
+        "cle": "crevette",
+        "nom": "crevettes décortiquées",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "tomate_cerise",
+        "nom": "tomates cerises",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "ail",
+        "nom": "ail",
+        "qte": 2,
+        "unite": "gousse"
+      },
+      {
+        "cle": "piment_poudre",
+        "nom": "piment",
+        "qte": 1,
+        "unite": "pincée",
+        "optionnel": true
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "basilic",
+        "nom": "basilic",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Cuire les linguine selon le paquet en gardant une louche d'eau de cuisson.",
+      "Faire revenir l'ail émincé dans l'huile 1 minute, ajouter les tomates cerises coupées en deux et cuire 5 minutes.",
+      "Ajouter les crevettes et le piment, cuire 3 minutes.",
+      "Mélanger avec les pâtes et un peu d'eau de cuisson pour lier la sauce.",
+      "Servir avec du basilic."
+    ],
+    "astuce": "Des tomates cerises un peu fripées donnent une sauce encore plus concentrée."
+  },
+  {
+    "titre": "Moules aux poireaux et à la crème",
+    "categorie": "plat",
+    "temps": 30,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "moule",
+        "nom": "moules",
+        "qte": 1,
+        "unite": "kg"
+      },
+      {
+        "cle": "poireau",
+        "nom": "poireau",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "echalote",
+        "nom": "échalote",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "creme",
+        "nom": "crème",
+        "qte": 15,
+        "unite": "cl"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 15,
+        "unite": "g"
+      },
+      {
+        "cle": "persil",
+        "nom": "persil",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "pain",
+        "nom": "pain",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Gratter et rincer les moules, jeter celles qui restent ouvertes après une petite tape.",
+      "Faire fondre le poireau émincé et l'échalote dans le beurre 8 minutes dans une grande casserole.",
+      "Ajouter les moules et 5 cl d'eau, couvrir et cuire 5 à 6 minutes à feu vif en secouant.",
+      "Retirer les moules ouvertes, ajouter la crème au jus et laisser réduire 2 minutes.",
+      "Napper les moules de sauce, poivrer, parsemer de persil et servir avec du pain."
+    ],
+    "astuce": "Le jus de cuisson restant fait une excellente base de soupe de poisson."
+  },
+  {
+    "titre": "Risotto au poireau et saumon fumé",
+    "categorie": "plat",
+    "temps": 35,
+    "difficulte": "moyen",
+    "portions": 2,
+    "regimes": [
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "riz_risotto",
+        "nom": "riz à risotto",
+        "qte": 160,
+        "unite": "g"
+      },
+      {
+        "cle": "poireau",
+        "nom": "poireau",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "saumon_fume",
+        "nom": "saumon fumé",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "bouillon",
+        "nom": "bouillon de légumes",
+        "qte": 70,
+        "unite": "cl"
+      },
+      {
+        "cle": "parmesan",
+        "nom": "parmesan",
+        "qte": 30,
+        "unite": "g"
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 0.5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "aneth",
+        "nom": "aneth",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Faire fondre le poireau émincé dans l'huile 5 minutes.",
+      "Ajouter le riz et le nacrer 2 minutes en remuant.",
+      "Verser le bouillon chaud louche par louche, en attendant qu'il soit absorbé, pendant 18 minutes.",
+      "Hors du feu, incorporer le parmesan et le zeste du citron.",
+      "Ajouter le saumon fumé en lanières, poivrer et parsemer d'aneth."
+    ],
+    "astuce": "Les chutes de saumon fumé, moins chères, conviennent parfaitement."
+  },
+  {
+    "titre": "Dorade au four, fenouil et tomates",
+    "categorie": "plat",
+    "temps": 40,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "poisson_blanc",
+        "nom": "filets de dorade",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "fenouil",
+        "nom": "fenouil",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "tomate",
+        "nom": "tomates",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "olive",
+        "nom": "olives noires",
+        "qte": 40,
+        "unite": "g"
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 0.5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "herbes_provence",
+        "nom": "thym",
+        "qte": 0.5,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 200 °C.",
+      "Émincer finement le fenouil et couper les tomates en quartiers.",
+      "Disposer les légumes dans un plat avec l'huile, le thym, sel et poivre, et cuire 20 minutes.",
+      "Poser les filets de dorade dessus avec les olives et des rondelles de citron.",
+      "Poursuivre la cuisson 10 à 12 minutes."
+    ],
+    "astuce": "Les pluches du fenouil, ciselées, remplacent l'aneth en garniture."
+  },
+  {
+    "titre": "Gratin de restes de poulet rôti aux poireaux",
+    "categorie": "plat",
+    "temps": 40,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "poulet",
+        "nom": "reste de poulet rôti",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "poireau",
+        "nom": "poireaux",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "creme",
+        "nom": "crème",
+        "qte": 15,
+        "unite": "cl"
+      },
+      {
+        "cle": "gruyere",
+        "nom": "gruyère râpé",
+        "qte": 50,
+        "unite": "g"
+      },
+      {
+        "cle": "moutarde",
+        "nom": "moutarde",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "pomme_de_terre",
+        "nom": "pommes de terre cuites",
+        "qte": 300,
+        "unite": "g",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 200 °C.",
+      "Faire fondre les poireaux émincés 10 minutes dans une poêle avec un fond d'eau.",
+      "Effilocher le poulet et le mélanger aux poireaux, à la crème et à la moutarde ; saler et poivrer.",
+      "Verser dans un plat, sur des rondelles de pommes de terre cuites si on en a, et couvrir de gruyère.",
+      "Gratiner 20 minutes."
+    ],
+    "astuce": "La carcasse du poulet donne un bouillon maison en 1 heure de frémissement."
+  },
+  {
+    "titre": "Quesadillas au reste de poulet, poivron et maïs",
+    "categorie": "plat",
+    "temps": 25,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "tortilla",
+        "nom": "tortillas",
+        "qte": 4,
+        "unite": "pièce"
+      },
+      {
+        "cle": "poulet",
+        "nom": "reste de poulet",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "poivron",
+        "nom": "poivron",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "mais",
+        "nom": "maïs",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "fromage_rape",
+        "nom": "fromage râpé",
+        "qte": 80,
+        "unite": "g"
+      },
+      {
+        "cle": "paprika",
+        "nom": "paprika",
+        "qte": 0.5,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "salade",
+        "nom": "salade verte",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Faire revenir le poivron en petits dés 5 minutes à sec ou avec un filet d'eau.",
+      "Ajouter le poulet effiloché, le maïs et le paprika, saler et poivrer.",
+      "Garnir la moitié de chaque tortilla de farce et de fromage, puis replier.",
+      "Dorer les quesadillas 2 à 3 minutes par face dans une poêle sans matière grasse.",
+      "Couper en triangles et servir avec une salade."
+    ],
+    "astuce": "Une fin de boîte de maïs ou de haricots rouges peut compléter la garniture."
+  },
+  {
+    "titre": "Parmentier de reste de rôti de bœuf aux champignons",
+    "categorie": "plat",
+    "temps": 50,
+    "difficulte": "moyen",
+    "portions": 2,
+    "regimes": [
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "boeuf",
+        "nom": "reste de rôti de bœuf",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "champignon",
+        "nom": "champignons",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "pomme_de_terre",
+        "nom": "pommes de terre",
+        "qte": 600,
+        "unite": "g"
+      },
+      {
+        "cle": "lait",
+        "nom": "lait",
+        "qte": 10,
+        "unite": "cl"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 20,
+        "unite": "g"
+      },
+      {
+        "cle": "fromage_rape",
+        "nom": "fromage râpé",
+        "qte": 40,
+        "unite": "g",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Cuire les pommes de terre épluchées 20 minutes à l'eau salée, puis les écraser avec le lait chaud et le beurre.",
+      "Faire revenir l'oignon et les champignons émincés 8 minutes.",
+      "Hacher finement le reste de rôti au couteau et l'ajouter aux champignons, saler et poivrer.",
+      "Étaler la viande dans un plat, couvrir de purée et parsemer de fromage.",
+      "Gratiner 20 minutes à 200 °C."
+    ],
+    "astuce": "Le jus du rôti, s'il en reste, rend la farce encore plus moelleuse."
+  },
+  {
+    "titre": "Pâtes au reste de jambon, petits pois et crème",
+    "categorie": "plat",
+    "temps": 20,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pates",
+        "nom": "farfalle",
+        "qte": 180,
+        "unite": "g"
+      },
+      {
+        "cle": "jambon",
+        "nom": "reste de jambon",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "petit_pois",
+        "nom": "petits pois",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "creme",
+        "nom": "crème",
+        "qte": 10,
+        "unite": "cl"
+      },
+      {
+        "cle": "parmesan",
+        "nom": "parmesan",
+        "qte": 20,
+        "unite": "g",
+        "optionnel": true
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Cuire les pâtes selon le paquet en ajoutant les petits pois 4 minutes avant la fin.",
+      "Couper le jambon en dés et le réchauffer 2 minutes à la poêle.",
+      "Ajouter la crème et poivrer.",
+      "Mélanger avec les pâtes et les petits pois égouttés, servir avec du parmesan."
+    ],
+    "astuce": "Un reste de jambon à l'os ou un jambon de la veille convient parfaitement."
+  },
+  {
+    "titre": "Pommes de terre sautées au reste de rôti de porc et chou",
+    "categorie": "plat",
+    "temps": 30,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_gluten",
+      "sans_lactose",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "porc",
+        "nom": "reste de rôti de porc",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "pomme_de_terre",
+        "nom": "pommes de terre cuites",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "chou",
+        "nom": "chou vert",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "moutarde",
+        "nom": "moutarde",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Émincer finement le chou et l'oignon, couper les pommes de terre et le rôti en dés.",
+      "Faire dorer les pommes de terre 10 minutes dans l'huile.",
+      "Ajouter l'oignon et le chou, cuire 8 minutes en remuant.",
+      "Ajouter le porc et la moutarde délayée dans 3 c. à s. d'eau, réchauffer 3 minutes.",
+      "Saler, poivrer et servir bien doré."
+    ],
+    "astuce": "Les pommes de terre cuites de la veille dorent mieux que des crues."
+  },
+  {
+    "titre": "Tourte feuilletée au reste de poulet et champignons",
+    "categorie": "plat",
+    "temps": 55,
+    "difficulte": "moyen",
+    "portions": 2,
+    "regimes": [
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pate_feuilletee",
+        "nom": "pâtes feuilletées",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "poulet",
+        "nom": "reste de poulet",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "champignon",
+        "nom": "champignons",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "creme",
+        "nom": "crème",
+        "qte": 15,
+        "unite": "cl"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "jaune d'œuf",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "herbes_provence",
+        "nom": "thym",
+        "qte": 0.5,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 190 °C.",
+      "Faire revenir l'oignon et les champignons émincés 8 minutes, ajouter le poulet effiloché, la crème, le thym, sel et poivre.",
+      "Foncer un moule avec une pâte, verser la garniture et couvrir de la seconde pâte en soudant les bords.",
+      "Badigeonner de jaune d'œuf et percer une cheminée au centre.",
+      "Cuire 35 minutes jusqu'à ce que la tourte soit bien dorée."
+    ],
+    "astuce": "Cette tourte accepte aussi un reste de légumes cuits : petits pois, carottes, poireaux."
+  },
+  {
+    "titre": "Galettes de restes de viande et purée",
+    "categorie": "plat",
+    "temps": 30,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "boeuf",
+        "nom": "reste de viande cuite (bœuf, pot-au-feu)",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "pomme_de_terre",
+        "nom": "reste de purée de pommes de terre",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œuf",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 0.5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "persil",
+        "nom": "persil",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "farine",
+        "nom": "farine",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "salade",
+        "nom": "salade verte",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Hacher finement la viande et l'oignon.",
+      "Mélanger avec la purée, l'œuf, le persil haché, sel et poivre.",
+      "Former 6 galettes et les fariner légèrement.",
+      "Les dorer 4 minutes par face dans l'huile chaude.",
+      "Servir avec une salade verte."
+    ],
+    "astuce": "Toute viande cuite convient : bœuf, veau, poulet ou un reste de rôti."
+  },
+  {
+    "titre": "Poêlée de penne au reste de poulet, brocoli et pesto",
+    "categorie": "plat",
+    "temps": 25,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pates",
+        "nom": "penne",
+        "qte": 180,
+        "unite": "g"
+      },
+      {
+        "cle": "poulet",
+        "nom": "reste de poulet rôti",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "brocoli",
+        "nom": "brocoli",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "pesto",
+        "nom": "pesto",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "tomate_cerise",
+        "nom": "tomates cerises",
+        "qte": 100,
+        "unite": "g",
+        "optionnel": true
+      },
+      {
+        "cle": "parmesan",
+        "nom": "parmesan",
+        "qte": 20,
+        "unite": "g",
+        "optionnel": true
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Cuire les penne selon le paquet en ajoutant le brocoli en petits bouquets 4 minutes avant la fin.",
+      "Faire revenir le poulet effiloché 3 minutes dans l'huile avec les tomates cerises coupées en deux.",
+      "Ajouter pâtes et brocoli égouttés, puis le pesto et un peu d'eau de cuisson.",
+      "Mélanger, poivrer et servir avec du parmesan."
+    ],
+    "astuce": "Un fond de pot de pesto suffit : délayez-le avec un peu d'eau de cuisson."
+  }
+]
