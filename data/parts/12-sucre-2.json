@@ -1,0 +1,3027 @@
+[
+  {
+    "titre": "Tarte aux pruneaux à la vaudoise",
+    "categorie": "dessert",
+    "temps": 60,
+    "difficulte": "facile",
+    "portions": 6,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pate_brisee",
+        "nom": "pâte brisée",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "prune",
+        "nom": "pruneaux (prunes fraîches) bien mûrs",
+        "qte": 700,
+        "unite": "g"
+      },
+      {
+        "cle": "sucre",
+        "nom": "sucre",
+        "qte": 4,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œuf",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "creme",
+        "nom": "crème entière",
+        "qte": 150,
+        "unite": "ml"
+      },
+      {
+        "cle": "cannelle",
+        "nom": "cannelle",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "noisette",
+        "nom": "poudre de noisette",
+        "qte": 2,
+        "unite": "c. à s."
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 200 °C et foncer un moule à tarte avec la pâte brisée.",
+      "Parsemer le fond de poudre de noisette pour absorber le jus des fruits.",
+      "Couper les pruneaux en deux, les dénoyauter et les ranger serrés, peau contre la pâte, en rosace.",
+      "Saupoudrer de 2 c. à s. de sucre et de cannelle, puis cuire 20 minutes.",
+      "Fouetter l'œuf, la crème et le reste du sucre, verser sur les fruits et poursuivre la cuisson 20 minutes.",
+      "Laisser tiédir avant de démouler et servir avec un peu de crème."
+    ],
+    "astuce": "Les pruneaux un peu fripés sont parfaits ici : leur jus concentré caramélise sans détremper la pâte."
+  },
+  {
+    "titre": "Gâteau du Vully sucré façon maison",
+    "categorie": "dessert",
+    "temps": 150,
+    "difficulte": "moyen",
+    "portions": 8,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "farine",
+        "nom": "farine",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "levure_boulanger",
+        "nom": "levure de boulanger sèche",
+        "qte": 7,
+        "unite": "g"
+      },
+      {
+        "cle": "lait",
+        "nom": "lait tiède",
+        "qte": 200,
+        "unite": "ml"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre mou",
+        "qte": 80,
+        "unite": "g"
+      },
+      {
+        "cle": "sucre",
+        "nom": "sucre",
+        "qte": 60,
+        "unite": "g"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": 1,
+        "unite": "pincée"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œuf",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "creme",
+        "nom": "crème épaisse",
+        "qte": 150,
+        "unite": "ml"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre froid en noisettes",
+        "qte": 40,
+        "unite": "g"
+      }
+    ],
+    "etapes": [
+      "Mélanger la farine, la levure, 2 c. à s. de sucre et le sel, ajouter le lait, l'œuf et 60 g de beurre mou, puis pétrir 8 minutes.",
+      "Laisser lever la pâte 1 heure sous un linge, jusqu'à ce qu'elle double.",
+      "Étaler la pâte dans une plaque beurrée sur 1,5 cm d'épaisseur et laisser reposer 20 minutes.",
+      "Préchauffer le four à 200 °C, faire des creux avec les doigts et y glisser les noisettes de beurre froid.",
+      "Napper de crème épaisse et saupoudrer généreusement du reste du sucre.",
+      "Cuire 20 à 25 minutes jusqu'à ce que le dessus soit doré et caramélisé, puis servir tiède."
+    ],
+    "astuce": "Le fond de crème d'un pot entamé suffit pour le nappage ; le gâteau se réchauffe 5 minutes au four le lendemain."
+  },
+  {
+    "titre": "Meringues double crème et petits fruits",
+    "categorie": "dessert",
+    "temps": 150,
+    "difficulte": "moyen",
+    "portions": 6,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "oeuf",
+        "nom": "blancs d'œufs",
+        "qte": 3,
+        "unite": "pièce"
+      },
+      {
+        "cle": "sucre",
+        "nom": "sucre",
+        "qte": 180,
+        "unite": "g"
+      },
+      {
+        "cle": "citron",
+        "nom": "jus de citron",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "creme",
+        "nom": "crème double ou crème entière",
+        "qte": 250,
+        "unite": "ml"
+      },
+      {
+        "cle": "fruits_rouges",
+        "nom": "fruits rouges",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "vanille",
+        "nom": "sucre vanillé",
+        "qte": 1,
+        "unite": "c. à c.",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 100 °C et tapisser une plaque de papier cuisson.",
+      "Monter les blancs en neige avec le jus de citron, puis ajouter le sucre en pluie en fouettant jusqu'à obtenir une meringue brillante et ferme.",
+      "Dresser des petits tas à la cuillère sur la plaque.",
+      "Cuire 2 heures, puis laisser sécher dans le four éteint, porte entrouverte.",
+      "Fouetter légèrement la crème avec la vanille et servir les meringues avec une généreuse cuillère de crème et les fruits rouges."
+    ],
+    "astuce": "Les blancs gardés d'une crème brûlée ou d'une sauce se conservent 3 jours au frais ou se congèlent : il suffit de les peser (environ 30 g par blanc)."
+  },
+  {
+    "titre": "Cuchaule simplifiée",
+    "categorie": "dessert",
+    "temps": 150,
+    "difficulte": "moyen",
+    "portions": 8,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "farine",
+        "nom": "farine",
+        "qte": 500,
+        "unite": "g"
+      },
+      {
+        "cle": "levure_boulanger",
+        "nom": "levure de boulanger sèche",
+        "qte": 7,
+        "unite": "g"
+      },
+      {
+        "cle": "lait",
+        "nom": "lait tiède",
+        "qte": 250,
+        "unite": "ml"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre fondu",
+        "qte": 60,
+        "unite": "g"
+      },
+      {
+        "cle": "sucre",
+        "nom": "sucre",
+        "qte": 60,
+        "unite": "g"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "curcuma",
+        "nom": "curcuma (à défaut de safran)",
+        "qte": 1,
+        "unite": "pincée"
+      }
+    ],
+    "etapes": [
+      "Délayer le curcuma dans le lait tiède avec la levure et laisser reposer 5 minutes.",
+      "Mélanger la farine, le sucre et le sel, ajouter le lait, un œuf et le beurre fondu, puis pétrir 10 minutes jusqu'à obtenir une pâte souple.",
+      "Laisser lever 1 heure à couvert.",
+      "Façonner une boule, la poser sur une plaque, la quadriller au couteau et laisser lever encore 30 minutes.",
+      "Préchauffer le four à 190 °C, dorer avec le second œuf battu et cuire 30 minutes."
+    ],
+    "astuce": "Servie avec de la moutarde de Bénichon ou de la confiture ; une fois rassise, elle fait un pain perdu excellent. Ajouter une pincée de safran si vous en avez."
+  },
+  {
+    "titre": "Financiers aux blancs d'œufs et amandes",
+    "categorie": "dessert",
+    "temps": 35,
+    "difficulte": "facile",
+    "portions": 6,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "oeuf",
+        "nom": "blancs d'œufs",
+        "qte": 3,
+        "unite": "pièce"
+      },
+      {
+        "cle": "amande",
+        "nom": "poudre d'amande",
+        "qte": 80,
+        "unite": "g"
+      },
+      {
+        "cle": "sucre",
+        "nom": "sucre",
+        "qte": 110,
+        "unite": "g"
+      },
+      {
+        "cle": "farine",
+        "nom": "farine",
+        "qte": 40,
+        "unite": "g"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 90,
+        "unite": "g"
+      },
+      {
+        "cle": "fruits_rouges",
+        "nom": "framboises",
+        "qte": 60,
+        "unite": "g",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 200 °C et beurrer 12 moules à financiers ou à muffins.",
+      "Faire fondre le beurre jusqu'à ce qu'il prenne une couleur noisette, puis le laisser tiédir.",
+      "Mélanger la poudre d'amande, le sucre et la farine, ajouter les blancs non montés et fouetter.",
+      "Incorporer le beurre noisette, remplir les moules aux trois quarts et piquer une framboise sur chacun.",
+      "Cuire 12 à 15 minutes jusqu'à ce que les bords soient dorés."
+    ],
+    "astuce": "La pâte se garde 2 jours au frigo : on cuit les financiers au fur et à mesure."
+  },
+  {
+    "titre": "Crème brûlée aux jaunes restants",
+    "categorie": "dessert",
+    "temps": 100,
+    "difficulte": "moyen",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "oeuf",
+        "nom": "jaunes d'œufs",
+        "qte": 4,
+        "unite": "pièce"
+      },
+      {
+        "cle": "creme",
+        "nom": "crème entière",
+        "qte": 300,
+        "unite": "ml"
+      },
+      {
+        "cle": "lait",
+        "nom": "lait",
+        "qte": 100,
+        "unite": "ml"
+      },
+      {
+        "cle": "sucre",
+        "nom": "sucre",
+        "qte": 60,
+        "unite": "g"
+      },
+      {
+        "cle": "sucre",
+        "nom": "sucre roux pour caraméliser",
+        "qte": 4,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "vanille",
+        "nom": "gousse de vanille ou extrait",
+        "qte": 1,
+        "unite": "pièce"
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 100 °C.",
+      "Chauffer la crème et le lait avec la vanille fendue, puis laisser infuser 10 minutes.",
+      "Blanchir les jaunes avec le sucre sans les faire mousser, puis verser la crème tiède en remuant.",
+      "Répartir dans 4 ramequins plats et cuire 50 minutes : le centre doit rester légèrement tremblotant.",
+      "Laisser refroidir puis réfrigérer au moins 2 heures.",
+      "Au moment de servir, saupoudrer de sucre roux et caraméliser au chalumeau ou sous le grill très chaud."
+    ],
+    "astuce": "Les blancs restants partent dans des financiers ou des meringues."
+  },
+  {
+    "titre": "Crème anglaise et pommes poêlées",
+    "categorie": "dessert",
+    "temps": 30,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "lait",
+        "nom": "lait",
+        "qte": 500,
+        "unite": "ml"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "jaunes d'œufs",
+        "qte": 4,
+        "unite": "pièce"
+      },
+      {
+        "cle": "sucre",
+        "nom": "sucre",
+        "qte": 70,
+        "unite": "g"
+      },
+      {
+        "cle": "vanille",
+        "nom": "extrait de vanille",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "pomme",
+        "nom": "pommes",
+        "qte": 3,
+        "unite": "pièce"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 20,
+        "unite": "g"
+      },
+      {
+        "cle": "cannelle",
+        "nom": "cannelle",
+        "qte": 1,
+        "unite": "pincée"
+      }
+    ],
+    "etapes": [
+      "Porter le lait à frémissement avec la vanille.",
+      "Fouetter les jaunes et 50 g de sucre, verser le lait chaud dessus, puis remettre dans la casserole.",
+      "Cuire à feu doux en remuant sans cesse jusqu'à ce que la crème nappe la cuillère (environ 82 °C), sans jamais bouillir.",
+      "Filtrer et laisser refroidir.",
+      "Couper les pommes en quartiers et les dorer 8 minutes dans le beurre avec le reste du sucre et la cannelle.",
+      "Servir les pommes tièdes nappées de crème anglaise froide."
+    ],
+    "astuce": "Si la crème commence à grainer, la mixer immédiatement : elle redevient lisse."
+  },
+  {
+    "titre": "Îles flottantes au caramel",
+    "categorie": "dessert",
+    "temps": 40,
+    "difficulte": "moyen",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "lait",
+        "nom": "lait",
+        "qte": 500,
+        "unite": "ml"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 4,
+        "unite": "pièce"
+      },
+      {
+        "cle": "sucre",
+        "nom": "sucre",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "vanille",
+        "nom": "extrait de vanille",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "amande",
+        "nom": "amandes effilées grillées",
+        "qte": 20,
+        "unite": "g",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Séparer les blancs des jaunes et préparer une crème anglaise avec le lait, la vanille, les jaunes et 60 g de sucre, puis la réfrigérer.",
+      "Monter les blancs en neige ferme en ajoutant 30 g de sucre.",
+      "Pocher des quenelles de blancs 1 minute de chaque côté dans de l'eau frémissante, puis les égoutter sur un linge.",
+      "Faire fondre le reste du sucre à sec jusqu'à obtenir un caramel blond.",
+      "Déposer les îles sur la crème, filer le caramel dessus et parsemer d'amandes."
+    ],
+    "astuce": "Une recette idéale pour écouler un litre de lait proche de la date et des œufs à finir."
+  },
+  {
+    "titre": "Tarte aux abricots et crème d'amande",
+    "categorie": "dessert",
+    "temps": 55,
+    "difficulte": "facile",
+    "portions": 6,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pate_brisee",
+        "nom": "pâte sablée",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "abricot",
+        "nom": "abricots bien mûrs",
+        "qte": 600,
+        "unite": "g"
+      },
+      {
+        "cle": "amande",
+        "nom": "poudre d'amande",
+        "qte": 80,
+        "unite": "g"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre mou",
+        "qte": 60,
+        "unite": "g"
+      },
+      {
+        "cle": "sucre",
+        "nom": "sucre",
+        "qte": 70,
+        "unite": "g"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œuf",
+        "qte": 1,
+        "unite": "pièce"
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 190 °C et foncer un moule avec la pâte.",
+      "Mélanger le beurre mou, le sucre, la poudre d'amande et l'œuf jusqu'à obtenir une crème lisse.",
+      "Étaler la crème d'amande sur le fond de tarte.",
+      "Disposer les abricots coupés en deux, face bombée vers le bas, en les serrant bien.",
+      "Cuire 35 minutes jusqu'à ce que la crème soit gonflée et dorée."
+    ],
+    "astuce": "Les abricots un peu trop mûrs rendent du jus que la crème d'amande absorbe : la tarte reste croustillante."
+  },
+  {
+    "titre": "Pêches rôties au yaourt et au miel",
+    "categorie": "dessert",
+    "temps": 30,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "peche",
+        "nom": "pêches ou nectarines",
+        "qte": 4,
+        "unite": "pièce"
+      },
+      {
+        "cle": "miel",
+        "nom": "miel",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 15,
+        "unite": "g"
+      },
+      {
+        "cle": "yaourt",
+        "nom": "yaourt grec",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "amande",
+        "nom": "amandes concassées",
+        "qte": 30,
+        "unite": "g"
+      },
+      {
+        "cle": "vanille",
+        "nom": "extrait de vanille",
+        "qte": 1,
+        "unite": "c. à c."
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 200 °C.",
+      "Couper les pêches en deux, les dénoyauter et les poser dans un plat, face coupée vers le haut.",
+      "Arroser de 2 c. à s. de miel, déposer une noisette de beurre sur chaque moitié et rôtir 20 minutes.",
+      "Mélanger le yaourt avec la vanille.",
+      "Servir les pêches tièdes sur le yaourt, avec le jus de cuisson, les amandes et un filet de miel."
+    ],
+    "astuce": "Parfait pour des pêches farineuses ou abîmées : la cuisson leur rend du fondant."
+  },
+  {
+    "titre": "Charlotte aux pommes au pain de mie",
+    "categorie": "dessert",
+    "temps": 60,
+    "difficulte": "facile",
+    "portions": 6,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pain_mie",
+        "nom": "tranches de pain de mie rassis",
+        "qte": 10,
+        "unite": "tranche"
+      },
+      {
+        "cle": "pomme",
+        "nom": "pommes",
+        "qte": 1,
+        "unite": "kg"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 80,
+        "unite": "g"
+      },
+      {
+        "cle": "sucre",
+        "nom": "sucre",
+        "qte": 80,
+        "unite": "g"
+      },
+      {
+        "cle": "cannelle",
+        "nom": "cannelle",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "citron",
+        "nom": "citron (jus)",
+        "qte": 0.5,
+        "unite": "pièce"
+      }
+    ],
+    "etapes": [
+      "Éplucher et couper les pommes en dés, puis les cuire 15 minutes à couvert avec 20 g de beurre, le sucre, la cannelle et le jus de citron jusqu'à obtenir une compote épaisse.",
+      "Préchauffer le four à 200 °C et faire fondre le reste du beurre.",
+      "Retirer la croûte du pain, badigeonner les tranches de beurre fondu et en tapisser un moule à charlotte en les faisant se chevaucher.",
+      "Remplir de compote, fermer avec des tranches de pain beurrées et tasser.",
+      "Cuire 30 minutes, laisser reposer 10 minutes puis démouler."
+    ],
+    "astuce": "Les croûtes retirées se mixent en chapelure ou se grillent pour un crumble."
+  },
+  {
+    "titre": "Gâteau au fromage blanc citronné",
+    "categorie": "dessert",
+    "temps": 75,
+    "difficulte": "facile",
+    "portions": 8,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "fromage_blanc",
+        "nom": "fromage blanc",
+        "qte": 500,
+        "unite": "g"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 3,
+        "unite": "pièce"
+      },
+      {
+        "cle": "sucre",
+        "nom": "sucre",
+        "qte": 120,
+        "unite": "g"
+      },
+      {
+        "cle": "farine",
+        "nom": "farine",
+        "qte": 50,
+        "unite": "g"
+      },
+      {
+        "cle": "citron",
+        "nom": "citron (zeste et jus)",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 20,
+        "unite": "g"
+      },
+      {
+        "cle": "vanille",
+        "nom": "extrait de vanille",
+        "qte": 1,
+        "unite": "c. à c."
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 170 °C et beurrer un moule de 22 cm.",
+      "Séparer les œufs et fouetter les jaunes avec le sucre jusqu'à ce que le mélange blanchisse.",
+      "Ajouter le fromage blanc, la farine, le zeste, le jus de citron et la vanille.",
+      "Monter les blancs en neige et les incorporer délicatement.",
+      "Verser dans le moule et cuire 45 minutes, puis laisser refroidir dans le four entrouvert pour éviter qu'il ne retombe trop."
+    ],
+    "astuce": "Le gâteau est encore meilleur le lendemain, bien froid ; le fromage blanc à quelques jours de la date est idéal."
+  },
+  {
+    "titre": "Tiramisu aux fraises sans café",
+    "categorie": "dessert",
+    "temps": 30,
+    "difficulte": "facile",
+    "portions": 6,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "mascarpone",
+        "nom": "mascarpone",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "sucre",
+        "nom": "sucre",
+        "qte": 60,
+        "unite": "g"
+      },
+      {
+        "cle": "fraise",
+        "nom": "fraises bien mûres",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "pain_mie",
+        "nom": "biscuits à la cuillère (ou pain de mie rassis)",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "orange",
+        "nom": "jus d'orange",
+        "qte": 100,
+        "unite": "ml"
+      }
+    ],
+    "etapes": [
+      "Mixer 150 g de fraises avec 1 c. à s. de sucre et le jus d'orange pour obtenir un coulis.",
+      "Couper le reste des fraises en dés.",
+      "Séparer les œufs, fouetter les jaunes avec le sucre puis ajouter le mascarpone ; monter les blancs en neige et les incorporer.",
+      "Tremper rapidement les biscuits dans le coulis et en tapisser le fond de verrines ou d'un plat.",
+      "Alterner fraises, crème et biscuits, terminer par la crème et réfrigérer au moins 3 heures."
+    ],
+    "astuce": "Les fraises trop mûres, molles ou abîmées partent dans le coulis : rien ne se perd."
+  },
+  {
+    "titre": "Poires Belle-Hélène maison",
+    "categorie": "dessert",
+    "temps": 35,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "poire",
+        "nom": "poires",
+        "qte": 4,
+        "unite": "pièce"
+      },
+      {
+        "cle": "sucre",
+        "nom": "sucre",
+        "qte": 80,
+        "unite": "g"
+      },
+      {
+        "cle": "eau",
+        "nom": "eau",
+        "qte": 750,
+        "unite": "ml"
+      },
+      {
+        "cle": "vanille",
+        "nom": "extrait de vanille",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "chocolat",
+        "nom": "chocolat noir",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "creme",
+        "nom": "crème liquide",
+        "qte": 100,
+        "unite": "ml"
+      },
+      {
+        "cle": "amande",
+        "nom": "amandes effilées",
+        "qte": 20,
+        "unite": "g",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Porter l'eau, le sucre et la vanille à ébullition.",
+      "Éplucher les poires en gardant la queue et les pocher 15 à 20 minutes à frémissement, selon leur maturité.",
+      "Laisser refroidir les poires dans leur sirop.",
+      "Chauffer la crème et la verser sur le chocolat cassé, puis lisser.",
+      "Servir les poires égouttées nappées de sauce chocolat chaude et parsemées d'amandes."
+    ],
+    "astuce": "Le sirop de pochage parfume un thé glacé ou une salade de fruits."
+  },
+  {
+    "titre": "Bananes rôties au caramel et cacahuètes",
+    "categorie": "dessert",
+    "temps": 20,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "banane",
+        "nom": "bananes bien mûres",
+        "qte": 4,
+        "unite": "pièce"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 30,
+        "unite": "g"
+      },
+      {
+        "cle": "sucre",
+        "nom": "sucre roux",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "creme",
+        "nom": "crème liquide",
+        "qte": 80,
+        "unite": "ml"
+      },
+      {
+        "cle": "cacahuete",
+        "nom": "cacahuètes grillées non salées",
+        "qte": 40,
+        "unite": "g"
+      },
+      {
+        "cle": "sel",
+        "nom": "fleur de sel",
+        "qte": 1,
+        "unite": "pincée"
+      }
+    ],
+    "etapes": [
+      "Couper les bananes en deux dans la longueur.",
+      "Faire fondre le beurre et le sucre dans une poêle jusqu'à obtenir un caramel blond.",
+      "Poser les bananes face coupée dans le caramel et les dorer 2 minutes de chaque côté.",
+      "Retirer les bananes, verser la crème dans la poêle et remuer 1 minute pour obtenir une sauce.",
+      "Servir les bananes nappées de sauce, avec les cacahuètes concassées et la fleur de sel."
+    ],
+    "astuce": "Les bananes tachetées sont les plus sucrées : on peut réduire le sucre de moitié."
+  },
+  {
+    "titre": "Gâteau de semoule à l'orange",
+    "categorie": "dessert",
+    "temps": 50,
+    "difficulte": "facile",
+    "portions": 6,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "lait",
+        "nom": "lait",
+        "qte": 750,
+        "unite": "ml"
+      },
+      {
+        "cle": "semoule",
+        "nom": "semoule fine",
+        "qte": 90,
+        "unite": "g"
+      },
+      {
+        "cle": "sucre",
+        "nom": "sucre",
+        "qte": 80,
+        "unite": "g"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "orange",
+        "nom": "orange (zeste)",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "raisin_sec",
+        "nom": "raisins secs",
+        "qte": 50,
+        "unite": "g",
+        "optionnel": true
+      },
+      {
+        "cle": "sucre",
+        "nom": "sucre pour le caramel",
+        "qte": 60,
+        "unite": "g"
+      }
+    ],
+    "etapes": [
+      "Faire un caramel blond avec 60 g de sucre et en napper le fond d'un moule.",
+      "Porter le lait à ébullition avec le zeste d'orange, verser la semoule en pluie et cuire 8 minutes en remuant.",
+      "Hors du feu, ajouter le sucre, les raisins et les œufs battus.",
+      "Verser dans le moule et cuire au four au bain-marie à 180 °C pendant 25 minutes.",
+      "Laisser refroidir complètement avant de démouler."
+    ],
+    "astuce": "Parfait pour un fond de bouteille de lait ; servir avec des quartiers d'orange."
+  },
+  {
+    "titre": "Flognarde aux pommes",
+    "categorie": "dessert",
+    "temps": 50,
+    "difficulte": "facile",
+    "portions": 6,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pomme",
+        "nom": "pommes",
+        "qte": 4,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 4,
+        "unite": "pièce"
+      },
+      {
+        "cle": "farine",
+        "nom": "farine",
+        "qte": 80,
+        "unite": "g"
+      },
+      {
+        "cle": "sucre",
+        "nom": "sucre",
+        "qte": 80,
+        "unite": "g"
+      },
+      {
+        "cle": "lait",
+        "nom": "lait",
+        "qte": 400,
+        "unite": "ml"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 30,
+        "unite": "g"
+      },
+      {
+        "cle": "cannelle",
+        "nom": "cannelle",
+        "qte": 1,
+        "unite": "pincée",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 200 °C et beurrer un plat.",
+      "Éplucher et couper les pommes en fines lamelles, puis les poêler 5 minutes dans le beurre.",
+      "Fouetter les œufs et le sucre, ajouter la farine puis le lait petit à petit pour obtenir une pâte lisse.",
+      "Ranger les pommes dans le plat, verser la pâte et saupoudrer de cannelle.",
+      "Cuire 30 minutes jusqu'à ce que la flognarde soit gonflée et dorée, puis servir tiède."
+    ],
+    "astuce": "Elle accepte aussi des poires fatiguées ou un mélange des deux."
+  },
+  {
+    "titre": "Tarte à la crème au sucre",
+    "categorie": "dessert",
+    "temps": 45,
+    "difficulte": "facile",
+    "portions": 6,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pate_brisee",
+        "nom": "pâte brisée",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "creme",
+        "nom": "crème entière",
+        "qte": 250,
+        "unite": "ml"
+      },
+      {
+        "cle": "sucre",
+        "nom": "sucre roux",
+        "qte": 80,
+        "unite": "g"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œuf",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "farine",
+        "nom": "farine",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "cannelle",
+        "nom": "cannelle",
+        "qte": 1,
+        "unite": "pincée",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 200 °C et foncer un moule avec la pâte.",
+      "Fouetter la crème, le sucre, l'œuf et la farine.",
+      "Verser sur la pâte et saupoudrer d'une pincée de cannelle.",
+      "Cuire 30 minutes : la crème doit être prise et légèrement caramélisée.",
+      "Laisser tiédir avant de couper."
+    ],
+    "astuce": "Une tarte de ménage à la vaudoise, idéale pour terminer un pot de crème."
+  },
+  {
+    "titre": "Soupe de fraises au basilic et citron vert",
+    "categorie": "dessert",
+    "temps": 15,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "fraise",
+        "nom": "fraises bien mûres",
+        "qte": 500,
+        "unite": "g"
+      },
+      {
+        "cle": "citron_vert",
+        "nom": "citron vert",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "sucre",
+        "nom": "sucre",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "basilic",
+        "nom": "basilic",
+        "qte": 6,
+        "unite": "pièce"
+      },
+      {
+        "cle": "eau",
+        "nom": "eau froide",
+        "qte": 100,
+        "unite": "ml"
+      }
+    ],
+    "etapes": [
+      "Mixer 200 g de fraises avec le jus du citron vert, le sucre et l'eau.",
+      "Couper le reste des fraises en quartiers.",
+      "Ciseler finement le basilic et l'ajouter à la soupe.",
+      "Répartir les fraises dans des assiettes creuses, verser la soupe et réfrigérer 30 minutes avant de servir."
+    ],
+    "astuce": "Les fraises les plus abîmées vont dans la partie mixée, les plus belles en morceaux."
+  },
+  {
+    "titre": "Glace minute banane et cacao",
+    "categorie": "dessert",
+    "temps": 10,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "banane",
+        "nom": "bananes très mûres congelées en rondelles",
+        "qte": 3,
+        "unite": "pièce"
+      },
+      {
+        "cle": "cacao",
+        "nom": "cacao en poudre",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "lait_vegetal",
+        "nom": "lait végétal",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "cacahuete",
+        "nom": "beurre de cacahuète",
+        "qte": 1,
+        "unite": "c. à s.",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Sortir les rondelles de banane du congélateur 5 minutes avant.",
+      "Mixer les bananes avec le cacao et le lait végétal en raclant les parois régulièrement.",
+      "Ajouter le beurre de cacahuète et mixer encore quelques secondes.",
+      "Servir immédiatement en texture soft, ou remettre 30 minutes au congélateur pour des boules."
+    ],
+    "astuce": "Congeler les bananes tachetées en rondelles dès qu'elles noircissent : c'est la base de cette glace."
+  },
+  {
+    "titre": "Yaourt glacé aux fruits rouges",
+    "categorie": "dessert",
+    "temps": 240,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "yaourt",
+        "nom": "yaourt nature ou grec",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "fruits_rouges",
+        "nom": "fruits rouges",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "miel",
+        "nom": "miel",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "citron",
+        "nom": "jus de citron",
+        "qte": 1,
+        "unite": "c. à s."
+      }
+    ],
+    "etapes": [
+      "Mixer les fruits rouges avec le miel et le jus de citron.",
+      "Mélanger le yaourt et la purée de fruits en gardant quelques marbrures.",
+      "Verser dans une boîte et congeler 3 h 30 en remuant à la fourchette toutes les heures.",
+      "Laisser reposer 10 minutes à température ambiante avant de servir."
+    ],
+    "astuce": "Une bonne façon de sauver plusieurs yaourts qui arrivent à date."
+  },
+  {
+    "titre": "Gâteau renversé aux prunes",
+    "categorie": "dessert",
+    "temps": 60,
+    "difficulte": "facile",
+    "portions": 8,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "prune",
+        "nom": "prunes",
+        "qte": 500,
+        "unite": "g"
+      },
+      {
+        "cle": "sucre",
+        "nom": "sucre",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 120,
+        "unite": "g"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 3,
+        "unite": "pièce"
+      },
+      {
+        "cle": "farine",
+        "nom": "farine",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "levure",
+        "nom": "levure chimique",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "cannelle",
+        "nom": "cannelle",
+        "qte": 1,
+        "unite": "c. à c."
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 180 °C.",
+      "Faire fondre 30 g de beurre et 50 g de sucre au fond d'un moule à manqué, puis y ranger les prunes coupées en deux, face coupée vers le bas.",
+      "Fouetter le reste du beurre fondu avec le reste du sucre et les œufs, puis ajouter la farine, la levure et la cannelle.",
+      "Verser la pâte sur les prunes et cuire 40 minutes.",
+      "Laisser reposer 5 minutes puis retourner sur un plat."
+    ],
+    "astuce": "Fonctionne avec des quetsches, des mirabelles ou des abricots bien mûrs."
+  },
+  {
+    "titre": "Brownie aux noix",
+    "categorie": "dessert",
+    "temps": 40,
+    "difficulte": "facile",
+    "portions": 8,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "chocolat",
+        "nom": "chocolat noir",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "sucre",
+        "nom": "sucre",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 3,
+        "unite": "pièce"
+      },
+      {
+        "cle": "farine",
+        "nom": "farine",
+        "qte": 70,
+        "unite": "g"
+      },
+      {
+        "cle": "noix",
+        "nom": "cerneaux de noix",
+        "qte": 80,
+        "unite": "g"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": 1,
+        "unite": "pincée"
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 180 °C et chemiser un moule carré de papier cuisson.",
+      "Faire fondre le chocolat et le beurre ensemble à feu doux.",
+      "Fouetter les œufs et le sucre, ajouter le chocolat fondu, puis la farine et le sel.",
+      "Incorporer les noix concassées et verser dans le moule.",
+      "Cuire 20 à 22 minutes : le centre doit rester fondant."
+    ],
+    "astuce": "Les restes de tablettes de chocolat entamées ou de chocolat de Pâques font très bien l'affaire."
+  },
+  {
+    "titre": "Sablés aux jaunes d'œufs",
+    "categorie": "dessert",
+    "temps": 60,
+    "difficulte": "facile",
+    "portions": 6,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "oeuf",
+        "nom": "jaunes d'œufs",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre demi-sel mou",
+        "qte": 125,
+        "unite": "g"
+      },
+      {
+        "cle": "sucre",
+        "nom": "sucre",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "farine",
+        "nom": "farine",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "vanille",
+        "nom": "extrait de vanille",
+        "qte": 1,
+        "unite": "c. à c."
+      }
+    ],
+    "etapes": [
+      "Mélanger les jaunes et le sucre, puis ajouter le beurre mou et la vanille.",
+      "Incorporer la farine du bout des doigts sans trop travailler la pâte.",
+      "Former un boudin, l'emballer et le réfrigérer 30 minutes.",
+      "Préchauffer le four à 180 °C, couper des rondelles de 1 cm et les poser sur une plaque.",
+      "Cuire 12 à 15 minutes jusqu'à ce que les bords soient dorés."
+    ],
+    "astuce": "Le boudin de pâte se congèle : on coupe et on cuit quelques sablés à la demande."
+  },
+  {
+    "titre": "Mousse de fromage blanc et coulis d'abricot",
+    "categorie": "dessert",
+    "temps": 25,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "fromage_blanc",
+        "nom": "fromage blanc",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "blancs d'œufs",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "sucre",
+        "nom": "sucre",
+        "qte": 50,
+        "unite": "g"
+      },
+      {
+        "cle": "vanille",
+        "nom": "extrait de vanille",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "abricot",
+        "nom": "abricots bien mûrs",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "citron",
+        "nom": "jus de citron",
+        "qte": 1,
+        "unite": "c. à s."
+      }
+    ],
+    "etapes": [
+      "Cuire les abricots dénoyautés 10 minutes avec 2 c. à s. de sucre et le jus de citron, puis les mixer et laisser refroidir.",
+      "Fouetter le fromage blanc avec la vanille et le reste du sucre.",
+      "Monter les blancs en neige ferme et les incorporer délicatement au fromage blanc.",
+      "Répartir dans des verrines en alternant avec le coulis et réfrigérer 1 heure."
+    ],
+    "astuce": "Hors saison, utiliser des abricots en conserve égouttés ou des abricots secs réhydratés."
+  },
+  {
+    "titre": "Bostock de pain rassis à la crème d'amande",
+    "categorie": "dessert",
+    "temps": 30,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pain_mie",
+        "nom": "tranches épaisses de brioche ou pain de mie rassis",
+        "qte": 4,
+        "unite": "tranche"
+      },
+      {
+        "cle": "amande",
+        "nom": "poudre d'amande",
+        "qte": 60,
+        "unite": "g"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre mou",
+        "qte": 40,
+        "unite": "g"
+      },
+      {
+        "cle": "sucre",
+        "nom": "sucre",
+        "qte": 50,
+        "unite": "g"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œuf",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "orange",
+        "nom": "jus d'orange",
+        "qte": 80,
+        "unite": "ml"
+      },
+      {
+        "cle": "amande",
+        "nom": "amandes effilées",
+        "qte": 20,
+        "unite": "g"
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 180 °C.",
+      "Mélanger le beurre mou, le sucre, la poudre d'amande et l'œuf pour obtenir une crème d'amande.",
+      "Imbiber légèrement les tranches de jus d'orange et les poser sur une plaque.",
+      "Étaler la crème d'amande, parsemer d'amandes effilées.",
+      "Cuire 15 à 18 minutes jusqu'à ce que le dessus soit doré."
+    ],
+    "astuce": "Une seconde vie pour la brioche du dimanche ou un pain de mie de plus de deux jours."
+  },
+  {
+    "titre": "Flan pâtissier sans pâte",
+    "categorie": "dessert",
+    "temps": 70,
+    "difficulte": "facile",
+    "portions": 6,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "lait",
+        "nom": "lait",
+        "qte": 750,
+        "unite": "ml"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 3,
+        "unite": "pièce"
+      },
+      {
+        "cle": "sucre",
+        "nom": "sucre",
+        "qte": 120,
+        "unite": "g"
+      },
+      {
+        "cle": "farine",
+        "nom": "fécule ou farine",
+        "qte": 70,
+        "unite": "g"
+      },
+      {
+        "cle": "vanille",
+        "nom": "extrait de vanille",
+        "qte": 2,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 10,
+        "unite": "g"
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 180 °C et beurrer un moule.",
+      "Porter 600 ml de lait à ébullition avec la vanille.",
+      "Fouetter les œufs, le sucre, la farine et le reste du lait froid.",
+      "Verser le lait chaud dessus, remettre sur le feu et cuire en fouettant jusqu'à épaississement.",
+      "Verser dans le moule et cuire 40 minutes jusqu'à ce que le dessus soit bien doré, puis réfrigérer 3 heures."
+    ],
+    "astuce": "Avec de la fécule de maïs à la place de la farine, il devient sans gluten."
+  },
+  {
+    "titre": "Pavlovas individuelles aux pêches et yaourt",
+    "categorie": "dessert",
+    "temps": 120,
+    "difficulte": "moyen",
+    "portions": 6,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "oeuf",
+        "nom": "blancs d'œufs",
+        "qte": 3,
+        "unite": "pièce"
+      },
+      {
+        "cle": "sucre",
+        "nom": "sucre",
+        "qte": 170,
+        "unite": "g"
+      },
+      {
+        "cle": "vinaigre",
+        "nom": "vinaigre blanc",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "yaourt",
+        "nom": "yaourt grec",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "miel",
+        "nom": "miel",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "peche",
+        "nom": "pêches bien mûres",
+        "qte": 3,
+        "unite": "pièce"
+      },
+      {
+        "cle": "menthe",
+        "nom": "menthe",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 110 °C.",
+      "Monter les blancs en neige, ajouter le sucre en pluie puis le vinaigre et fouetter jusqu'à obtenir une meringue très brillante.",
+      "Former 6 nids creusés au centre sur une plaque recouverte de papier cuisson.",
+      "Cuire 1 h 30, puis laisser refroidir dans le four éteint.",
+      "Mélanger le yaourt et le miel, garnir les nids juste avant de servir avec les pêches en dés et quelques feuilles de menthe."
+    ],
+    "astuce": "Les nids se gardent une semaine dans une boîte hermétique : garnir au dernier moment pour qu'ils restent croustillants."
+  },
+  {
+    "titre": "Bowl de yaourt grec, kiwi et graines",
+    "categorie": "petit-dejeuner",
+    "temps": 10,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "yaourt",
+        "nom": "yaourt grec",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "kiwi",
+        "nom": "kiwis",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "banane",
+        "nom": "banane",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "graine",
+        "nom": "graines de courge et de tournesol",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "miel",
+        "nom": "miel",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "noix_coco",
+        "nom": "noix de coco râpée",
+        "qte": 1,
+        "unite": "c. à s.",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Répartir le yaourt dans deux bols.",
+      "Éplucher les kiwis et la banane, puis les couper en rondelles.",
+      "Disposer les fruits sur le yaourt.",
+      "Parsemer de graines et de noix de coco, puis arroser d'un filet de miel."
+    ],
+    "astuce": "Faire griller les graines 3 minutes à sec à la poêle pour plus de croquant."
+  },
+  {
+    "titre": "Tartines au saumon fumé, fromage frais et aneth",
+    "categorie": "petit-dejeuner",
+    "temps": 10,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pain",
+        "nom": "tranches de pain complet",
+        "qte": 4,
+        "unite": "tranche"
+      },
+      {
+        "cle": "fromage_frais",
+        "nom": "fromage frais",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "saumon_fume",
+        "nom": "saumon fumé",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "aneth",
+        "nom": "aneth",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 0.5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "concombre",
+        "nom": "concombre",
+        "qte": 80,
+        "unite": "g"
+      }
+    ],
+    "etapes": [
+      "Griller le pain.",
+      "Mélanger le fromage frais avec un peu de zeste de citron et d'aneth ciselé.",
+      "Tartiner le pain, ajouter de fines rondelles de concombre puis le saumon fumé.",
+      "Arroser de quelques gouttes de citron et poivrer."
+    ],
+    "astuce": "Les chutes de saumon fumé, moins chères, conviennent parfaitement."
+  },
+  {
+    "titre": "Œufs cocotte aux épinards et à la crème",
+    "categorie": "petit-dejeuner",
+    "temps": 20,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 4,
+        "unite": "pièce"
+      },
+      {
+        "cle": "epinard",
+        "nom": "pousses d'épinards",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "creme",
+        "nom": "crème",
+        "qte": 4,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "gruyere",
+        "nom": "gruyère râpé",
+        "qte": 30,
+        "unite": "g"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 10,
+        "unite": "g"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel, poivre",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "pain",
+        "nom": "mouillettes de pain",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 180 °C et beurrer 4 ramequins.",
+      "Faire tomber les épinards 1 minute à la poêle et les répartir dans les ramequins.",
+      "Ajouter 1 c. à s. de crème, casser un œuf dans chaque ramequin, saler, poivrer et parsemer de gruyère.",
+      "Cuire au bain-marie 12 minutes : le blanc doit être pris et le jaune coulant.",
+      "Servir avec des mouillettes de pain grillé."
+    ],
+    "astuce": "Les épinards un peu flétris trouvent ici leur place."
+  },
+  {
+    "titre": "Porridge salé au fromage et œuf mollet",
+    "categorie": "petit-dejeuner",
+    "temps": 15,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "flocon_avoine",
+        "nom": "flocons d'avoine",
+        "qte": 80,
+        "unite": "g"
+      },
+      {
+        "cle": "lait",
+        "nom": "lait",
+        "qte": 300,
+        "unite": "ml"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "parmesan",
+        "nom": "parmesan râpé",
+        "qte": 30,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon_nouveau",
+        "nom": "oignon nouveau",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel, poivre",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "graine",
+        "nom": "graines de sésame",
+        "qte": 1,
+        "unite": "c. à c.",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Cuire les œufs 6 minutes dans l'eau bouillante, puis les plonger dans l'eau froide et les écaler.",
+      "Cuire les flocons dans le lait 5 minutes en remuant, puis saler et poivrer.",
+      "Ajouter le parmesan hors du feu.",
+      "Répartir dans des bols, poser l'œuf mollet coupé en deux, parsemer d'oignon nouveau émincé et de sésame."
+    ],
+    "astuce": "Un fond de fromage râpé ou une croûte de parmesan finement râpée fait aussi l'affaire."
+  },
+  {
+    "titre": "Porridge poire et gingembre",
+    "categorie": "petit-dejeuner",
+    "temps": 15,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "flocon_avoine",
+        "nom": "flocons d'avoine",
+        "qte": 80,
+        "unite": "g"
+      },
+      {
+        "cle": "lait_vegetal",
+        "nom": "lait d'avoine",
+        "qte": 350,
+        "unite": "ml"
+      },
+      {
+        "cle": "poire",
+        "nom": "poire bien mûre",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "gingembre",
+        "nom": "gingembre frais",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "miel",
+        "nom": "sirop d'érable",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "noix",
+        "nom": "noix",
+        "qte": 20,
+        "unite": "g"
+      }
+    ],
+    "etapes": [
+      "Couper la moitié de la poire en dés et râper l'autre moitié.",
+      "Porter le lait végétal à frémissement avec la poire râpée et le gingembre râpé.",
+      "Ajouter les flocons et cuire 5 minutes en remuant.",
+      "Servir avec les dés de poire, les noix concassées et un filet de sirop d'érable."
+    ],
+    "astuce": "Une poire trop mûre se râpe facilement et sucre naturellement le porridge."
+  },
+  {
+    "titre": "Galettes de sarrasin complètes",
+    "categorie": "petit-dejeuner",
+    "temps": 40,
+    "difficulte": "moyen",
+    "portions": 4,
+    "regimes": [
+      "sans_gluten",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "farine",
+        "nom": "farine de sarrasin",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "eau",
+        "nom": "eau",
+        "qte": 450,
+        "unite": "ml"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": 1,
+        "unite": "pincée"
+      },
+      {
+        "cle": "jambon",
+        "nom": "jambon",
+        "qte": 4,
+        "unite": "tranche"
+      },
+      {
+        "cle": "gruyere",
+        "nom": "gruyère râpé",
+        "qte": 120,
+        "unite": "g"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 30,
+        "unite": "g"
+      }
+    ],
+    "etapes": [
+      "Mélanger la farine de sarrasin, le sel, un œuf et l'eau jusqu'à obtenir une pâte lisse, puis laisser reposer 15 minutes.",
+      "Faire chauffer une grande poêle beurrée et y verser une louche de pâte en l'étalant finement.",
+      "Après 2 minutes, retourner la galette, parsemer de gruyère, poser une tranche de jambon et casser un œuf au centre.",
+      "Couvrir et cuire 3 à 4 minutes jusqu'à ce que le blanc soit pris.",
+      "Replier les bords en carré et servir aussitôt."
+    ],
+    "astuce": "Vérifier que la farine de sarrasin est pure pour garder la recette sans gluten."
+  },
+  {
+    "titre": "Pancakes épais au fromage blanc et myrtilles",
+    "categorie": "petit-dejeuner",
+    "temps": 30,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "fromage_blanc",
+        "nom": "fromage blanc",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "lait",
+        "nom": "lait",
+        "qte": 120,
+        "unite": "ml"
+      },
+      {
+        "cle": "farine",
+        "nom": "farine",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "levure",
+        "nom": "levure chimique",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "sucre",
+        "nom": "sucre",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "fruits_rouges",
+        "nom": "myrtilles",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 10,
+        "unite": "g"
+      }
+    ],
+    "etapes": [
+      "Fouetter le fromage blanc, les œufs, le lait et le sucre.",
+      "Ajouter la farine et la levure et mélanger juste ce qu'il faut.",
+      "Chauffer une poêle légèrement beurrée et y verser des petites louches de pâte.",
+      "Parsemer quelques myrtilles sur chaque pancake et cuire 2 minutes, retourner et cuire encore 1 à 2 minutes.",
+      "Servir avec le reste des myrtilles et un filet de miel."
+    ],
+    "astuce": "Le fromage blanc rend les pancakes moelleux : une excellente façon de finir un pot entamé."
+  },
+  {
+    "titre": "Muffins salés courgette et feta",
+    "categorie": "petit-dejeuner",
+    "temps": 40,
+    "difficulte": "facile",
+    "portions": 6,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "courgette",
+        "nom": "courgette",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "feta",
+        "nom": "feta",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "farine",
+        "nom": "farine",
+        "qte": 180,
+        "unite": "g"
+      },
+      {
+        "cle": "levure",
+        "nom": "levure chimique",
+        "qte": 2,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "lait",
+        "nom": "lait",
+        "qte": 100,
+        "unite": "ml"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 60,
+        "unite": "ml"
+      },
+      {
+        "cle": "menthe",
+        "nom": "menthe ou herbes",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 180 °C et préparer 12 moules à muffins.",
+      "Râper la courgette et la presser dans un linge pour retirer l'eau.",
+      "Fouetter les œufs, le lait et l'huile, puis ajouter la farine et la levure.",
+      "Incorporer la courgette, la feta émiettée et les herbes ciselées.",
+      "Remplir les moules aux deux tiers et cuire 22 à 25 minutes."
+    ],
+    "astuce": "Ils se congèlent très bien : 30 secondes au micro-ondes le matin suffisent."
+  },
+  {
+    "titre": "Muffins aux œufs, jambon et poivron",
+    "categorie": "petit-dejeuner",
+    "temps": 30,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "sans_gluten",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 6,
+        "unite": "pièce"
+      },
+      {
+        "cle": "jambon",
+        "nom": "jambon",
+        "qte": 2,
+        "unite": "tranche"
+      },
+      {
+        "cle": "poivron",
+        "nom": "poivron",
+        "qte": 0.5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "fromage_rape",
+        "nom": "fromage râpé",
+        "qte": 50,
+        "unite": "g"
+      },
+      {
+        "cle": "lait",
+        "nom": "lait",
+        "qte": 50,
+        "unite": "ml"
+      },
+      {
+        "cle": "ciboulette",
+        "nom": "ciboulette",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel, poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 180 °C et huiler 8 moules à muffins.",
+      "Couper le jambon et le poivron en petits dés.",
+      "Fouetter les œufs avec le lait, le sel et le poivre.",
+      "Répartir le jambon, le poivron et le fromage dans les moules, puis verser les œufs battus.",
+      "Cuire 18 à 20 minutes jusqu'à ce que les muffins soient gonflés et pris."
+    ],
+    "astuce": "Les fonds de légumes du frigo (champignons, épinards, tomates) remplacent le poivron."
+  },
+  {
+    "titre": "Pudding de chia au lait de coco et mangue",
+    "categorie": "petit-dejeuner",
+    "temps": 240,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "graine",
+        "nom": "graines de chia",
+        "qte": 4,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "lait_coco",
+        "nom": "lait de coco",
+        "qte": 250,
+        "unite": "ml"
+      },
+      {
+        "cle": "miel",
+        "nom": "sirop d'agave",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "mangue",
+        "nom": "mangue bien mûre",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "citron_vert",
+        "nom": "citron vert",
+        "qte": 0.5,
+        "unite": "pièce"
+      }
+    ],
+    "etapes": [
+      "Mélanger les graines de chia, le lait de coco et le sirop d'agave.",
+      "Laisser reposer 10 minutes, remuer à nouveau puis réfrigérer au moins 3 h 30 ou toute la nuit.",
+      "Mixer la moitié de la mangue avec le jus de citron vert et couper le reste en dés.",
+      "Servir le pudding avec la purée et les dés de mangue."
+    ],
+    "astuce": "La moitié de boîte de lait de coco restante d'un curry trouve ici un usage parfait."
+  },
+  {
+    "titre": "Pain perdu salé aux tomates et fromage",
+    "categorie": "petit-dejeuner",
+    "temps": 20,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pain",
+        "nom": "tranches de pain rassis",
+        "qte": 4,
+        "unite": "tranche"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "lait",
+        "nom": "lait",
+        "qte": 100,
+        "unite": "ml"
+      },
+      {
+        "cle": "tomate_cerise",
+        "nom": "tomates cerises",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "gruyere",
+        "nom": "gruyère râpé",
+        "qte": 50,
+        "unite": "g"
+      },
+      {
+        "cle": "herbes_provence",
+        "nom": "origan",
+        "qte": 1,
+        "unite": "pincée"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 15,
+        "unite": "g"
+      }
+    ],
+    "etapes": [
+      "Fouetter les œufs avec le lait, le sel, le poivre et l'origan.",
+      "Tremper les tranches de pain dans le mélange.",
+      "Les dorer 3 minutes de chaque côté dans le beurre chaud.",
+      "Ajouter les tomates cerises coupées en deux et le gruyère, couvrir et laisser fondre 2 minutes."
+    ],
+    "astuce": "Les tomates un peu ridées sont idéales, elles confisent légèrement à la poêle."
+  },
+  {
+    "titre": "Tartines banane, beurre de cacahuète et cannelle",
+    "categorie": "petit-dejeuner",
+    "temps": 8,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pain",
+        "nom": "tranches de pain complet",
+        "qte": 4,
+        "unite": "tranche"
+      },
+      {
+        "cle": "cacahuete",
+        "nom": "beurre de cacahuète",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "banane",
+        "nom": "banane bien mûre",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "cannelle",
+        "nom": "cannelle",
+        "qte": 1,
+        "unite": "pincée"
+      },
+      {
+        "cle": "graine",
+        "nom": "graines de chia ou de sésame",
+        "qte": 1,
+        "unite": "c. à c.",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Griller les tranches de pain.",
+      "Tartiner de beurre de cacahuète.",
+      "Écraser grossièrement la banane ou la couper en rondelles et la répartir sur les tartines.",
+      "Saupoudrer de cannelle et de graines."
+    ],
+    "astuce": "Les bananes tachetées s'écrasent facilement et sont plus sucrées."
+  },
+  {
+    "titre": "Gâteau au lait chaud",
+    "categorie": "gouter",
+    "temps": 50,
+    "difficulte": "facile",
+    "portions": 8,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "lait",
+        "nom": "lait",
+        "qte": 150,
+        "unite": "ml"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 60,
+        "unite": "g"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 3,
+        "unite": "pièce"
+      },
+      {
+        "cle": "sucre",
+        "nom": "sucre",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "farine",
+        "nom": "farine",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "levure",
+        "nom": "levure chimique",
+        "qte": 2,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "vanille",
+        "nom": "extrait de vanille",
+        "qte": 1,
+        "unite": "c. à c."
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 175 °C et beurrer un moule.",
+      "Chauffer le lait avec le beurre jusqu'à ce que le beurre fonde, sans bouillir.",
+      "Fouetter les œufs et le sucre 5 minutes jusqu'à ce que le mélange double de volume.",
+      "Ajouter la farine et la levure, puis le lait chaud et la vanille en mélangeant doucement.",
+      "Verser dans le moule et cuire 30 minutes."
+    ],
+    "astuce": "Un gâteau très léger qui utilise un reste de lait ; délicieux avec une compote."
+  },
+  {
+    "titre": "Spitzbuben à la confiture",
+    "categorie": "gouter",
+    "temps": 75,
+    "difficulte": "moyen",
+    "portions": 8,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "farine",
+        "nom": "farine",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre mou",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "sucre",
+        "nom": "sucre glace",
+        "qte": 80,
+        "unite": "g"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "blanc d'œuf",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "amande",
+        "nom": "poudre d'amande",
+        "qte": 40,
+        "unite": "g"
+      },
+      {
+        "cle": "confiture",
+        "nom": "confiture de framboise",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "vanille",
+        "nom": "sucre vanillé",
+        "qte": 1,
+        "unite": "c. à c."
+      }
+    ],
+    "etapes": [
+      "Mélanger le beurre mou, le sucre et la vanille, ajouter le blanc d'œuf puis la farine et la poudre d'amande.",
+      "Former une boule, l'emballer et la réfrigérer 30 minutes.",
+      "Préchauffer le four à 180 °C, étaler la pâte sur 3 mm et découper des ronds, en évidant le centre de la moitié d'entre eux.",
+      "Cuire 10 minutes sur une plaque, jusqu'à ce que les bords blondissent.",
+      "Tartiner les biscuits pleins de confiture, poser les biscuits évidés dessus et saupoudrer de sucre glace."
+    ],
+    "astuce": "Un fond de pot de confiture suffit ; ils se conservent une semaine en boîte."
+  },
+  {
+    "titre": "Compote pommes-prunes à la cannelle",
+    "categorie": "gouter",
+    "temps": 30,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pomme",
+        "nom": "pommes",
+        "qte": 4,
+        "unite": "pièce"
+      },
+      {
+        "cle": "prune",
+        "nom": "prunes",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "cannelle",
+        "nom": "cannelle",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "eau",
+        "nom": "eau",
+        "qte": 50,
+        "unite": "ml"
+      },
+      {
+        "cle": "sucre",
+        "nom": "sucre",
+        "qte": 1,
+        "unite": "c. à s.",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Éplucher les pommes et les couper en morceaux ; dénoyauter les prunes.",
+      "Mettre les fruits dans une casserole avec l'eau et la cannelle.",
+      "Cuire 20 minutes à couvert à feu doux en remuant de temps en temps.",
+      "Écraser à la fourchette ou mixer selon la texture souhaitée, et sucrer seulement si nécessaire."
+    ],
+    "astuce": "Elle se garde 5 jours au frigo ou se congèle en portions."
+  },
+  {
+    "titre": "Barres croustillantes cacahuète et avoine sans cuisson",
+    "categorie": "gouter",
+    "temps": 130,
+    "difficulte": "facile",
+    "portions": 8,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "flocon_avoine",
+        "nom": "flocons d'avoine",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "cacahuete",
+        "nom": "beurre de cacahuète",
+        "qte": 120,
+        "unite": "g"
+      },
+      {
+        "cle": "miel",
+        "nom": "miel",
+        "qte": 80,
+        "unite": "g"
+      },
+      {
+        "cle": "raisin_sec",
+        "nom": "dattes ou raisins secs",
+        "qte": 60,
+        "unite": "g"
+      },
+      {
+        "cle": "chocolat",
+        "nom": "chocolat noir",
+        "qte": 50,
+        "unite": "g",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Faire tiédir le beurre de cacahuète et le miel dans une casserole jusqu'à ce qu'ils soient fluides.",
+      "Ajouter les flocons et les fruits secs hachés et bien mélanger.",
+      "Tasser fermement dans un moule carré tapissé de papier cuisson.",
+      "Filer le chocolat fondu sur le dessus et réfrigérer 2 heures avant de couper en barres."
+    ],
+    "astuce": "Avec du sirop d'érable à la place du miel, la recette devient vegan."
+  },
+  {
+    "titre": "Smoothie fraise, banane et lait d'avoine",
+    "categorie": "gouter",
+    "temps": 5,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "fraise",
+        "nom": "fraises",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "banane",
+        "nom": "banane bien mûre",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "lait_vegetal",
+        "nom": "lait d'avoine",
+        "qte": 300,
+        "unite": "ml"
+      },
+      {
+        "cle": "flocon_avoine",
+        "nom": "flocons d'avoine",
+        "qte": 2,
+        "unite": "c. à s.",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Équeuter les fraises.",
+      "Mettre tous les ingrédients dans le blender.",
+      "Mixer 1 minute jusqu'à ce que ce soit bien lisse.",
+      "Servir aussitôt, bien frais."
+    ],
+    "astuce": "Congeler les fraises et bananes trop mûres pour un smoothie encore plus frais."
+  },
+  {
+    "titre": "Madeleines au miel",
+    "categorie": "gouter",
+    "temps": 80,
+    "difficulte": "facile",
+    "portions": 6,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "sucre",
+        "nom": "sucre",
+        "qte": 70,
+        "unite": "g"
+      },
+      {
+        "cle": "miel",
+        "nom": "miel",
+        "qte": 30,
+        "unite": "g"
+      },
+      {
+        "cle": "farine",
+        "nom": "farine",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "levure",
+        "nom": "levure chimique",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre fondu",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "citron",
+        "nom": "citron (zeste)",
+        "qte": 1,
+        "unite": "pièce",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Fouetter les œufs, le sucre et le miel jusqu'à ce que le mélange blanchisse.",
+      "Ajouter la farine, la levure et le zeste, puis le beurre fondu tiède.",
+      "Réfrigérer la pâte au moins 1 heure.",
+      "Préchauffer le four à 220 °C, remplir des moules à madeleines beurrés aux trois quarts.",
+      "Enfourner, baisser à 180 °C et cuire 10 minutes jusqu'à ce que la bosse apparaisse."
+    ],
+    "astuce": "Un miel qui a cristallisé fond sans problème avec le beurre chaud."
+  },
+  {
+    "titre": "Rochers à la noix de coco",
+    "categorie": "gouter",
+    "temps": 30,
+    "difficulte": "facile",
+    "portions": 6,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "oeuf",
+        "nom": "blancs d'œufs",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "noix_coco",
+        "nom": "noix de coco râpée",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "sucre",
+        "nom": "sucre",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "vanille",
+        "nom": "extrait de vanille",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "chocolat",
+        "nom": "chocolat noir",
+        "qte": 40,
+        "unite": "g",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 180 °C.",
+      "Mélanger les blancs non montés, le sucre, la vanille et la noix de coco.",
+      "Former de petites pyramides avec les doigts mouillés et les poser sur une plaque recouverte de papier cuisson.",
+      "Cuire 12 à 15 minutes jusqu'à ce que les pointes soient dorées.",
+      "Une fois refroidis, tremper la base dans le chocolat fondu si on le souhaite."
+    ],
+    "astuce": "Deux blancs d'œufs restants suffisent pour une vingtaine de rochers."
+  },
+  {
+    "titre": "Cake à l'orange entière",
+    "categorie": "gouter",
+    "temps": 65,
+    "difficulte": "facile",
+    "portions": 8,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "orange",
+        "nom": "orange non traitée",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 3,
+        "unite": "pièce"
+      },
+      {
+        "cle": "sucre",
+        "nom": "sucre",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "farine",
+        "nom": "farine",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "levure",
+        "nom": "levure chimique",
+        "qte": 2,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 100,
+        "unite": "ml"
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 180 °C et chemiser un moule à cake.",
+      "Laver l'orange, la couper en morceaux en retirant les pépins et la mixer finement avec sa peau.",
+      "Fouetter les œufs et le sucre, ajouter l'huile et la purée d'orange.",
+      "Incorporer la farine et la levure.",
+      "Verser dans le moule et cuire 45 minutes ; la lame d'un couteau doit ressortir sèche."
+    ],
+    "astuce": "Idéal pour une orange un peu molle oubliée dans la corbeille : rien ne se jette, même pas la peau."
+  },
+  {
+    "titre": "Biscuits avoine et raisins secs",
+    "categorie": "gouter",
+    "temps": 30,
+    "difficulte": "facile",
+    "portions": 8,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "flocon_avoine",
+        "nom": "flocons d'avoine",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "farine",
+        "nom": "farine",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre mou",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "sucre",
+        "nom": "sucre roux",
+        "qte": 90,
+        "unite": "g"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œuf",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "raisin_sec",
+        "nom": "raisins secs",
+        "qte": 80,
+        "unite": "g"
+      },
+      {
+        "cle": "cannelle",
+        "nom": "cannelle",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "levure",
+        "nom": "levure chimique",
+        "qte": 0.5,
+        "unite": "c. à c."
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 180 °C.",
+      "Mélanger le beurre mou et le sucre, puis ajouter l'œuf.",
+      "Incorporer les flocons, la farine, la levure, la cannelle et les raisins.",
+      "Former des boules de la taille d'une noix, les aplatir légèrement sur une plaque.",
+      "Cuire 12 minutes : les biscuits doivent rester un peu tendres au centre."
+    ],
+    "astuce": "Le fond de paquet de muesli remplace volontiers une partie des flocons."
+  },
+  {
+    "titre": "Lassi mangue et yaourt",
+    "categorie": "gouter",
+    "temps": 5,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "mangue",
+        "nom": "mangue bien mûre",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "yaourt",
+        "nom": "yaourt nature",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "lait",
+        "nom": "lait froid",
+        "qte": 100,
+        "unite": "ml"
+      },
+      {
+        "cle": "miel",
+        "nom": "miel",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "cannelle",
+        "nom": "cardamome ou cannelle",
+        "qte": 1,
+        "unite": "pincée",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Éplucher la mangue et couper la chair en morceaux.",
+      "Mixer la mangue avec le yaourt, le lait et le miel jusqu'à ce que ce soit lisse.",
+      "Ajouter la pincée d'épice et mixer encore quelques secondes.",
+      "Servir très frais."
+    ],
+    "astuce": "Une mangue trop mûre, même fibreuse, est parfaite ici."
+  }
+]
