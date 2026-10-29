@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { Ico, FavButton, Basket } from "./bits";
 import CookMode from "./CookMode";
 import Gestes, { useVideos } from "./Gestes";
-import { addToCourses, share, getRatings, sendRating, logCooked, consumeFridge } from "@/lib/client";
+import { addToCourses, share, getRatings, sendRating, logCooked, consumeFridge, planAdd, isoDate } from "@/lib/client";
 import { allergenLabel } from "@/data/allergens";
 
 export function summary(r) {
@@ -31,6 +31,7 @@ export default function RecipeBody({ r, compare = true, fav, onFav, controls, ti
   const [rating, setRating] = useState({ avg: null, mine: 0 });
   const [hover, setHover] = useState(0);
   const [cooked, setCooked] = useState(null); // null | { g, done }
+  const [planOpen, setPlanOpen] = useState(false);
   const Title = titleTag;
   const videos = useVideos();
   const url = `${SITE}/recette/${r.id}`;
@@ -107,11 +108,23 @@ export default function RecipeBody({ r, compare = true, fav, onFav, controls, ti
           {onFav && r.id && <FavButton on={fav} onClick={() => onFav(r.id)} />}
           {r.id && <button type="button" className="chip" onClick={toCourses}><Basket />{coursesLabel}</button>}
           <button type="button" className="chip strong" onClick={() => setCook(true)}>▶ Mode cuisine</button>
+          {r.id && <button type="button" className="chip" onClick={() => setPlanOpen((v) => !v)} aria-expanded={planOpen}>📅 Planning</button>}
           <button type="button" className="chip" onClick={markCooked} disabled={!!cooked}>{cooked ? "✓ Cuisinée !" : "✓ Je l'ai cuisinée"}</button>
           {r.id && <button type="button" className="chip" onClick={onShare}>Partager</button>}
           {r.id && <button type="button" className="chip hide-sm" onClick={() => (pageLink ? window.open(`/recette/${r.id}?imprimer=1`, "_blank") : window.print())}>Imprimer</button>}
           {controls}
         </div>
+        {planOpen && (
+          <div className="plan-quick">
+            <span>Ajouter au planning (soir) :</span>
+            {[0, 1, 2, 3, 4, 5, 6].map((n) => {
+              const d = isoDate(new Date(), n);
+              const label = n === 0 ? "ce soir" : n === 1 ? "demain" : new Date(d + "T12:00:00").toLocaleDateString("fr-CH", { weekday: "long" });
+              return <button key={n} type="button" className="f" onClick={async () => { await planAdd(d, "soir", r.id); setPlanOpen(false); setMsg(`Ajoutée au planning : ${label}.`); }}>{label}</button>;
+            })}
+            <a href="/planning" className="small-note">Ouvrir le planning →</a>
+          </div>
+        )}
         <div className="toast" role="status">{msg}</div>
         {cooked && (
           <div className="cooked">
