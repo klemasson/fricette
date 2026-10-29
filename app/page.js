@@ -68,7 +68,8 @@ export default function Home() {
   const [user, setUser] = useState(null);
   const [favs, setFavs] = useState([]);
   const [favShown, setFavShown] = useState(PAGE);
-  const [auth, setAuth] = useState({ mode: "login", email: "", password: "", error: "", busy: false });
+  const [auth, setAuth] = useState({ mode: "login", email: "", password: "", error: "", info: "", busy: false, token: "" });
+  const [mailEnabled, setMailEnabled] = useState(false);
   const authRef = useRef(null);
   const loaded = useRef(false);
   const ticker = useRef(null);
@@ -95,8 +96,16 @@ export default function Home() {
     try { local = JSON.parse(localStorage.getItem("frc-favs") || "[]"); } catch {}
     setFavs(Array.isArray(local) ? local : []);
     fetch("/api/me", { cache: "no-store" }).then((r) => r.json()).then((d) => {
+      setMailEnabled(!!d.mail);
       if (d.user) { setUser(d.user); setFavs(d.favorites || []); }
     }).catch(() => {});
+    // Lien « mot de passe oublié » reçu par e-mail : https://fricette.ch/?reset=…
+    const resetToken = new URLSearchParams(window.location.search).get("reset");
+    if (resetToken) {
+      window.history.replaceState(null, "", "/");
+      setAuth({ mode: "reset", email: "", password: "", error: "", info: "", busy: false, token: resetToken });
+      setTimeout(() => authRef.current?.showModal?.(), 300);
+    }
     refreshStatus();
     const p = new URLSearchParams(window.location.search).get("paiement");
     const msgs = {
@@ -281,17 +290,24 @@ export default function Home() {
   }
 
   function openAuth(mode) {
-    setAuth({ mode, email: user?.email || "", password: "", error: "", busy: false });
+    setAuth({ mode, email: user?.email || "", password: "", error: "", info: "", busy: false, token: "" });
     requestAnimationFrame(() => authRef.current?.showModal?.());
   }
 
   async function submitAuth(e) {
     e.preventDefault();
-    setAuth((a) => ({ ...a, busy: true, error: "" }));
-    const { mode, email: em, password } = auth;
+    setAuth((a) => ({ ...a, busy: true, error: "", info: "" }));
+    const { mode, email: em, password, token } = auth;
     try {
       let r;
-      if (mode === "delete") {
+      if (mode === "forgot") {
+        r = await fetch("/api/auth/forgot", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ email: em }) });
+        const d = await r.json().catch(() => ({}));
+        return setAuth((a) => ({ ...a, busy: false, error: r.ok ? "" : d.error || "Une erreur est survenue.", info: r.ok ? d.message : "" }));
+      }
+      if (mode === "reset") {
+        r = await fetch("/api/auth/reset", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ token, password }) });
+      } else if (mode === "delete") {
         r = await fetch("/api/me", { method: "DELETE", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ password }) });
       } else {
         r = await fetch(`/api/auth/${mode}`, {
@@ -307,7 +323,12 @@ export default function Home() {
         setStatus({ text: "Ton compte et tes favoris ont été supprimés.", err: false });
       } else {
         setUser(d.user); setFavs(d.favorites || []); saveLocalFavs([]);
-        setStatus({ text: mode === "signup" ? "Compte créé ! Tes favoris sont enregistrés." : "Te revoilà ! Tes favoris sont là.", err: false });
+        setStatus({
+          text: mode === "signup" ? "Compte créé ! Tes favoris sont enregistrés."
+            : mode === "reset" ? "Nouveau mot de passe enregistré. Tu es connecté·e."
+            : "Te revoilà ! Tes favoris sont là.",
+          err: false,
+        });
       }
       authRef.current?.close();
     } catch {
@@ -556,6 +577,19 @@ export default function Home() {
               <h2>Supprimer mon compte</h2>
               <p className="muted">Ton compte et tous tes favoris seront effacés définitivement. Confirme avec ton mot de passe.</p>
             </>
+          ) : auth.mode === "forgot" ? (
+            <>
+              <h2>Mot de passe oublié</h2>
+              <p className="muted">Indique l'adresse de ton compte : on t'envoie un lien pour choisir un nouveau mot de passe.</p>
+              <label className="field">E-mail
+                <input id="auth-email" type="email" required autoComplete="email" value={auth.email} onChange={(e) => setAuth((a) => ({ ...a, email: e.target.value }))} />
+              </label>
+            </>
+          ) : auth.mode === "reset" ? (
+            <>
+              <h2>Nouveau mot de passe</h2>
+              <p className="muted">Choisis ton nouveau mot de passe. Tu seras ensuite connecté·e, et déconnecté·e de tes autres appareils.</p>
+            </>
           ) : (
             <>
               <h2>{auth.mode === "signup" ? "Créer un compte" : "Se connecter"}</h2>
@@ -569,16 +603,32 @@ export default function Home() {
               </label>
             </>
           )}
-          <label className="field">Mot de passe{auth.mode === "signup" && <small> (8 caractères minimum)</small>}
-            <input id="auth-password" type="password" required minLength={auth.mode === "signup" ? 8 : undefined}
-              autoComplete={auth.mode === "signup" ? "new-password" : "current-password"}
-              value={auth.password} onChange={(e) => setAuth((a) => ({ ...a, password: e.target.value }))} />
-          </label>
+          {auth.mode !== "forgot" && (
+            <label className="field">{auth.mode === "reset" ? "Nouveau mot de passe" : "Mot de passe"}{(auth.mode === "signup" || auth.mode === "reset") && <small> (8 caractères minimum)</small>}
+              <input id="auth-password" type="password" required minLength={auth.mode === "signup" || auth.mode === "reset" ? 8 : undefined}
+                autoComplete={auth.mode === "signup" || auth.mode === "reset" ? "new-password" : "current-password"}
+                value={auth.password} onChange={(e) => setAuth((a) => ({ ...a, password: e.target.value }))} />
+            </label>
+          )}
           {auth.error && <p className="status err">{auth.error}</p>}
-          <button className="cta" type="submit" disabled={auth.busy}>
-            {auth.mode === "delete" ? "Supprimer définitivement" : auth.mode === "signup" ? "Créer mon compte" : "Me connecter"}
-          </button>
-          {auth.mode === "login" && <p className="muted small">Mot de passe oublié ? Écris-nous à l'adresse indiquée dans les conditions.</p>}
+          {auth.info && <p className="status ok-msg">{auth.info}</p>}
+          {!(auth.mode === "forgot" && auth.info) && (
+            <button className="cta" type="submit" disabled={auth.busy}>
+              {auth.mode === "delete" ? "Supprimer définitivement"
+                : auth.mode === "signup" ? "Créer mon compte"
+                : auth.mode === "forgot" ? "Recevoir le lien"
+                : auth.mode === "reset" ? "Enregistrer et me connecter"
+                : "Me connecter"}
+            </button>
+          )}
+          {auth.mode === "login" && (
+            mailEnabled
+              ? <button type="button" className="link small-link" onClick={() => setAuth((a) => ({ ...a, mode: "forgot", error: "", info: "", password: "" }))}>Mot de passe oublié ?</button>
+              : <p className="muted small">Mot de passe oublié ? Écris-nous à bonjour@fricette.ch.</p>
+          )}
+          {auth.mode === "forgot" && (
+            <button type="button" className="link small-link" onClick={() => setAuth((a) => ({ ...a, mode: "login", error: "", info: "" }))}>← Retour à la connexion</button>
+          )}
         </form>
       </dialog>
     </div>

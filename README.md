@@ -216,5 +216,10 @@ Les visiteurs peuvent créer un compte (e-mail + mot de passe) pour retrouver le
 
 - Les données sont dans un petit fichier de base de données, `~/fricette-data/fricette.db`, **en dehors** du dossier du site : il ne bouge pas quand tu mets le code à jour. La console du site indique son emplacement au démarrage (`[db] base de données : …`).
 - **Sauvegarde** : Infomaniak sauvegarde ton hébergement automatiquement. Avant de retirer ou recréer le site, copie ce fichier par précaution (console SSH : `cp ~/fricette-data/fricette.db ~/fricette-data/sauvegarde.db`).
-- **Mot de passe oublié** : il n'y a pas encore d'envoi d'e-mail automatique. En attendant, la personne peut t'écrire ; tu peux alors supprimer son compte pour qu'elle en recrée un.
+- **Mot de passe oublié** : le site envoie un lien (valable 1 heure, utilisable une seule fois) depuis `bonjour@fricette.ch`, via le serveur d'Infomaniak. Il suffit de donner au site le mot de passe de cette boîte, une seule fois, dans la console SSH :
+  ```
+  cd ~/sites/fricette.ch
+  read -s -p "Mot de passe de bonjour@fricette.ch : " P && printf 'SMTP_PASSWORD_B64=%s\n' "$(printf %s "$P" | base64 -w0)" >> .env.local && unset P && echo " Enregistré"
+  ```
+  Puis clique sur **Redémarrer**. Tant que ce n'est pas fait, le lien « Mot de passe oublié ? » est remplacé par « Écris-nous à bonjour@fricette.ch ». Si tu changes le mot de passe de la boîte e-mail, refais la commande (après avoir supprimé l'ancienne ligne avec `sed -i '/SMTP_PASSWORD/d' .env.local`).
 - Le message « SQLite is an experimental feature » dans la console est normal.

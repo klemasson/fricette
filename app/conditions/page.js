@@ -28,10 +28,10 @@ export default function Conditions() {
         <li>Un cookie technique anonyme peut être déposé pour le bon fonctionnement du site.</li>
         <li>Si tu crées un compte, nous enregistrons ton adresse e-mail, ton mot de passe sous forme chiffrée (nous ne pouvons pas le lire) et la liste de tes recettes favorites, sur notre hébergement en Suisse (Infomaniak). Un cookie de connexion te garde connecté·e pendant 6 mois.</li>
         <li>Tu peux supprimer ton compte et tes favoris à tout moment, en bas de la page d'accueil (« Supprimer mon compte »). Sans compte, tes favoris restent uniquement dans ton navigateur.</li>
-        <li>Ton adresse e-mail n'est jamais transmise à des tiers ni utilisée pour de la publicité.</li>
+        <li>Ton adresse e-mail sert uniquement à te connecter et à t'envoyer, si tu le demandes, un lien pour changer de mot de passe. Elle n'est jamais transmise à des tiers ni utilisée pour de la publicité.</li>
         <li>Aucune publicité, aucun traceur publicitaire.</li>
       </ul>
-      <p>Pour toute demande concernant tes données : [À COMPLÉTER : e-mail de contact].</p>
+      <p>Pour toute demande concernant tes données : bonjour@fricette.ch.</p>
     </main>
   );
 }

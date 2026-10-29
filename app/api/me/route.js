@@ -1,13 +1,14 @@
 import { NextResponse } from "next/server";
 import { currentUser, endSession, sameOrigin, checkPassword } from "@/lib/auth";
 import { listFavorites, deleteUser, findUserByEmail } from "@/lib/db";
+import { MAIL_ENABLED } from "@/lib/mail";
 
 export const dynamic = "force-dynamic";
 
 export async function GET() {
   const user = await currentUser();
-  if (!user) return NextResponse.json({ user: null, favorites: [] });
-  return NextResponse.json({ user: { email: user.email }, favorites: listFavorites(user.id) });
+  if (!user) return NextResponse.json({ user: null, favorites: [], mail: MAIL_ENABLED });
+  return NextResponse.json({ user: { email: user.email }, favorites: listFavorites(user.id), mail: MAIL_ENABLED });
 }
 
 // Suppression du compte (et de ses favoris), après confirmation du mot de passe.

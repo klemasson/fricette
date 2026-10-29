@@ -263,3 +263,5 @@ footer .in { display: flex; justify-content: space-between; gap: 12px; flex-wrap
   dialog.sheet { width: calc(100vw - 16px); max-height: calc(100dvh - 16px); border-radius: 22px; }
   .sheet .art { aspect-ratio: 16 / 9; }
 }
+.status.ok-msg { color: var(--ok); margin: 0; }
+.small-link { justify-self: start; font-size: 0.9rem; color: var(--muted); }
