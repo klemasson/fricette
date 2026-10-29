@@ -149,7 +149,7 @@
       "Préchauffer le four à 190 °C.",
       "Couper les courgettes en demi-rondelles et les faire revenir 8 minutes à l'huile d'olive avec l'ail haché et le thym, jusqu'à ce qu'elles rendent leur eau.",
       "Égoutter les courgettes et les étaler dans un plat à gratin.",
-      "Battre les œufs avec la crème, poivrer légèrement et verser sur les légumes, puis émietter la feta par-dessus.",
+      "Battre les œufs avec la crème, saler très légèrement (la feta est déjà salée), poivrer et verser sur les légumes, puis émietter la feta par-dessus.",
       "Cuire 25 minutes, jusqu'à ce que l'appareil soit pris et doré, et parsemer de menthe ciselée avant de servir."
     ],
     "astuce": "La feta est déjà salée : goûter avant d'ajouter du sel. Parfait pour écouler les grosses courgettes de fin d'été."
@@ -286,7 +286,7 @@
     "etapes": [
       "Préchauffer le four à 200 °C et cuire les pâtes 2 minutes de moins que le temps indiqué.",
       "Couper le jambon en lanières. Mélanger la crème, le lait et l'œuf, saler et poivrer.",
-      "Mélanger les pâtes égouttées, le jambon et la moitié de l'emmental dans un plat beurré.",
+      "Mélanger les pâtes égouttées, le jambon et la moitié de l'emmental dans un plat à gratin.",
       "Verser l'appareil crème-œuf, couvrir du reste de fromage et enfourner 15 minutes jusqu'à ce que ce soit doré."
     ],
     "astuce": "Idéal pour finir un reste de pâtes déjà cuites : sauter alors la première étape."
@@ -737,7 +737,7 @@
       "Préchauffer le four à 240 °C.",
       "Faire revenir les lardons et l'oignon émincé 5 minutes à la poêle.",
       "Étaler la pâte, la tartiner de crème poivrée en laissant les bords libres.",
-      "Couper les pommes de terre en fines rondelles et les répartir avec les lardons, l'oignon et le fromage en tranches.",
+      "Couper les pommes de terre en fines rondelles, les saler légèrement et les répartir avec les lardons, l'oignon et le fromage en tranches.",
       "Cuire 12 à 15 minutes jusqu'à ce que le fromage bouillonne."
     ],
     "astuce": "Une pizza façon tartiflette qui recycle des pommes de terre vapeur de la veille."
@@ -1031,7 +1031,7 @@
       {
         "cle": "saumon",
         "nom": "pavés de saumon sans peau",
-        "qte": 300,
+        "qte": 400,
         "unite": "g"
       },
       {
@@ -1518,7 +1518,7 @@
     ],
     "etapes": [
       "Râper les pommes de terre, les presser fortement dans un torchon pour retirer l'eau.",
-      "Faire dorer les lardons et l'oignon émincé 5 minutes, puis les mélanger aux pommes de terre ; poivrer.",
+      "Faire dorer les lardons et l'oignon émincé 5 minutes, puis les mélanger aux pommes de terre ; saler légèrement et poivrer.",
       "Faire fondre la moitié du beurre dans une poêle, y tasser le mélange et cuire 15 minutes à feu moyen à couvert.",
       "Retourner, ajouter le reste du beurre, déposer les tranches de raclette et cuire 12 minutes à couvert jusqu'à ce que le fromage soit fondu."
     ],
@@ -1678,9 +1678,9 @@
     "etapes": [
       "Éplucher les pommes de terre, les couper en dés de 1 cm et les cuire 5 minutes à l'eau bouillante salée.",
       "Ajouter les macaronis dans la même eau et cuire le temps indiqué sur le paquet.",
-      "Pendant ce temps, faire dorer les oignons en rondelles dans le beurre 15 minutes, jusqu'à ce qu'ils soient bien caramélisés.",
+      "Pendant ce temps, faire dorer les oignons en rondelles dans le beurre 15 minutes, jusqu'à ce qu'ils soient bien caramélisés. Si désiré, cuire les pommes en morceaux 10 minutes à couvert avec un fond d'eau, puis les écraser en compote.",
       "Égoutter pâtes et pommes de terre, les remettre dans la casserole avec la crème et le fromage, poivrer et mélanger à feu doux 2 minutes.",
-      "Servir couvert d'oignons dorés, avec une compote de pommes rapide à côté."
+      "Servir couvert d'oignons dorés, avec la compote de pommes à côté."
     ],
     "astuce": "La compote de pommes en accompagnement est la tradition d'alpage : une bonne façon de sauver des pommes abîmées."
   },
@@ -2284,7 +2284,7 @@
     "etapes": [
       "Couper le poulet en cubes et le mélanger avec la moitié du yaourt, le curcuma et une pincée de sel.",
       "Faire fondre l'oignon émincé et l'ail dans l'huile 5 minutes, ajouter le curry et cuire 1 minute.",
-      "Ajouter le poulet, le faire saisir 5 minutes, puis verser les tomates et mijoter 15 minutes.",
+      "Ajouter le poulet, le faire saisir 5 minutes, puis verser les tomates et mijoter 15 minutes. Pendant ce temps, cuire le riz.",
       "Hors du feu, incorporer le reste du yaourt. Servir avec le riz cuit et la coriandre."
     ],
     "astuce": "Le yaourt hors du feu évite qu'il tranche et adoucit le piquant."
@@ -2606,7 +2606,7 @@
       }
     ],
     "etapes": [
-      "Faire revenir l'oignon haché 3 minutes, ajouter le bœuf et cuire 6 minutes en l'émiettant.",
+      "Faire revenir l'oignon haché 3 minutes dans l'huile, ajouter le bœuf et cuire 6 minutes en l'émiettant.",
       "Ajouter paprika, cumin, sel, poivre et un trait d'eau, mijoter 2 minutes.",
       "Réchauffer les tortillas à sec dans une poêle.",
       "Garnir de viande, de laitue émincée, de tomate en dés, d'un filet de citron vert et d'une cuillère de yaourt."
@@ -2784,7 +2784,7 @@
     "etapes": [
       "Faire revenir l'oignon, l'ail et le poivron en dés 5 minutes dans l'huile.",
       "Ajouter les épices, puis les tomates, les lentilles rincées et 30 cl d'eau ; saler.",
-      "Laisser mijoter 20 minutes en remuant de temps en temps.",
+      "Laisser mijoter 20 minutes en remuant de temps en temps. Pendant ce temps, cuire le riz.",
       "Ajouter les haricots égouttés et le maïs, cuire encore 10 minutes.",
       "Servir avec le riz cuit."
     ],
@@ -3917,7 +3917,7 @@
     "etapes": [
       "Faire revenir l'oignon, l'ail et le gingembre 3 minutes dans l'huile, ajouter le curry.",
       "Ajouter les lentilles rincées, les tomates, le lait de coco et 30 cl d'eau ; saler.",
-      "Cuire 20 minutes à feu doux en remuant, jusqu'à ce que les lentilles soient fondantes.",
+      "Cuire 20 minutes à feu doux en remuant, jusqu'à ce que les lentilles soient fondantes. Pendant ce temps, cuire le riz.",
       "Ajouter un filet de jus de citron et servir avec le riz."
     ],
     "astuce": "Une poignée d'épinards ou de carottes râpées ajoutée en fin de cuisson enrichit le plat sans effort."
@@ -3991,7 +3991,7 @@
     ],
     "etapes": [
       "Cuire le riz. Couper le bœuf en fines lanières et le mélanger avec la sauce soja, le miel, l'ail et le gingembre.",
-      "Saisir le bœuf 2 minutes à feu très vif dans le wok huilé et le réserver.",
+      "Égoutter le bœuf en réservant la marinade, le saisir 2 minutes à feu très vif dans le wok huilé et le réserver.",
       "Faire sauter les poivrons et l'oignon en lanières 4 minutes.",
       "Remettre le bœuf et sa marinade, mélanger 1 minute et servir avec le riz."
     ],

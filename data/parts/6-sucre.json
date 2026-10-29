@@ -59,7 +59,7 @@
   {
     "titre": "Banana bread aux bananes très mûres",
     "categorie": "dessert",
-    "temps": 70,
+    "temps": 75,
     "difficulte": "facile",
     "portions": 8,
     "regimes": [
@@ -101,7 +101,7 @@
       {
         "cle": "levure",
         "nom": "levure chimique",
-        "qte": 1,
+        "qte": 2,
         "unite": "c. à c."
       },
       {
@@ -131,7 +131,7 @@
   {
     "titre": "Crumble aux pommes et flocons d'avoine",
     "categorie": "dessert",
-    "temps": 45,
+    "temps": 50,
     "difficulte": "facile",
     "portions": 6,
     "regimes": [
@@ -472,6 +472,12 @@
         "nom": "crème",
         "qte": 100,
         "unite": "ml"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre pour le plat",
+        "qte": 10,
+        "unite": "g"
       }
     ],
     "etapes": [
@@ -600,7 +606,7 @@
   {
     "titre": "Mousse au chocolat aérienne",
     "categorie": "dessert",
-    "temps": 20,
+    "temps": 200,
     "difficulte": "moyen",
     "portions": 6,
     "regimes": [
@@ -700,7 +706,7 @@
   {
     "titre": "Crème dessert au chocolat maison",
     "categorie": "dessert",
-    "temps": 20,
+    "temps": 140,
     "difficulte": "facile",
     "portions": 4,
     "regimes": [
@@ -746,7 +752,7 @@
       "Verser le lait chaud sur les jaunes en fouettant, puis remettre le tout dans la casserole.",
       "Cuire à feu doux en remuant sans cesse 3 à 4 minutes, jusqu'à épaississement, puis répartir en ramequins et laisser prendre 2 heures au frais."
     ],
-    "astuce": "Avec de la maïzena à la place de la farine, la crème devient sans gluten ; gardez les blancs pour des meringues."
+    "astuce": "Avec de la maïzena à la place de la farine, la crème devient sans gluten ; garder les blancs pour des meringues."
   },
   {
     "titre": "Tarte fine aux pommes",
@@ -867,7 +873,8 @@
     "portions": 6,
     "regimes": [
       "vegetarien",
-      "sans_porc"
+      "sans_porc",
+      "sans_alcool"
     ],
     "ingredients": [
       {
@@ -910,16 +917,16 @@
     "etapes": [
       "Séparer les œufs ; fouetter les jaunes avec le sucre jusqu'à blanchiment, puis ajouter le mascarpone.",
       "Monter les blancs en neige et les incorporer délicatement à la crème au mascarpone.",
-      "Tremper rapidement les biscuits dans le café additionné d'un trait d'amaretto ou de marsala, et en tapisser le fond d'un plat.",
+      "Tremper rapidement les biscuits dans le café et en tapisser le fond d'un plat.",
       "Alterner couches de crème et de biscuits en terminant par la crème.",
       "Réserver au moins 6 heures au frais et saupoudrer de cacao juste avant de servir."
     ],
-    "astuce": "Des fonds de brioche ou de pain de mie rassis remplacent très bien les biscuits ; sans alcool, il suffit de l'omettre."
+    "astuce": "À préparer idéalement la veille. Des fonds de brioche ou de pain de mie rassis remplacent très bien les biscuits ; pour une version traditionnelle, ajouter un trait d'amaretto ou de marsala au café."
   },
   {
     "titre": "Panna cotta vanille et coulis de fruits rouges",
     "categorie": "dessert",
-    "temps": 20,
+    "temps": 200,
     "difficulte": "moyen",
     "portions": 4,
     "regimes": [
@@ -1236,7 +1243,8 @@
       "Mettre la farine, le sucre et le sel dans un saladier, creuser un puits et y casser les œufs.",
       "Fouetter en versant le lait petit à petit pour obtenir une pâte lisse, puis ajouter le beurre fondu.",
       "Laisser reposer 15 minutes si possible.",
-      "Cuire les crêpes dans une poêle chaude légèrement graissée, environ 1 minute par face."
+      "Cuire les crêpes dans une poêle chaude légèrement graissée, environ 1 minute par face.",
+      "Servir garnies de confiture."
     ],
     "astuce": "Les crêpes en trop se congèlent séparées par du papier cuisson et se réchauffent en 30 secondes à la poêle."
   },
@@ -1443,7 +1451,7 @@
       "Préchauffer le four à 180 °C et chemiser un moule de 22 cm.",
       "Fouetter les œufs et le sucre, puis ajouter l'huile.",
       "Incorporer la farine, la levure et la cannelle, puis les carottes râpées et les noix.",
-      "Cuire 40 minutes, laisser refroidir, puis napper si souhaité de fromage frais sucré d'une cuillère de sucre."
+      "Verser dans le moule et cuire 40 minutes, laisser refroidir, puis napper si souhaité de fromage frais mélangé à une cuillère de sucre."
     ],
     "astuce": "Les carottes un peu molles du fond du bac à légumes sont parfaites ici, on ne voit pas la différence."
   },
@@ -1613,7 +1621,7 @@
       "Préchauffer le four à 200 °C.",
       "Couper les abricots en deux, les dénoyauter et les étaler dans un plat.",
       "Arroser de miel et de vanille et rôtir 20 minutes, jusqu'à ce qu'ils s'affaissent.",
-      "Écraser grossièrement à la fourchette et servir tiède sur du fromage blanc, parsemé d'amandes grillées."
+      "Écraser grossièrement à la fourchette et servir tiède sur du fromage blanc, parsemé d'amandes effilées grillées 2 minutes à sec à la poêle."
     ],
     "astuce": "Rôtir plutôt que bouillir concentre le goût des abricots un peu fades ou trop mous."
   },
@@ -1779,7 +1787,7 @@
       },
       {
         "cle": "orange",
-        "nom": "jus d'orange",
+        "nom": "orange (pour le jus)",
         "qte": 1,
         "unite": "pièce"
       }
@@ -1787,7 +1795,7 @@
     "etapes": [
       "Préchauffer le gril du four à 240 °C.",
       "Couper les pêches en lamelles et les répartir avec les fruits rouges dans 4 plats à gratin individuels.",
-      "Fouetter les jaunes, le sucre et le jus d'orange au bain-marie 6 à 8 minutes, jusqu'à ce que le mélange soit mousseux et épais.",
+      "Fouetter les jaunes, le sucre et le jus de l'orange au bain-marie 6 à 8 minutes, jusqu'à ce que le mélange soit mousseux et épais.",
       "Napper les fruits de sabayon et passer 2 à 3 minutes sous le gril, jusqu'à coloration."
     ],
     "astuce": "Les blancs restants se gardent 3 jours au frais pour des meringues ou un clafoutis."
@@ -1917,7 +1925,7 @@
       "Incorporer la farine, la levure et le sucre sans trop fouetter : quelques grumeaux ne gênent pas.",
       "Chauffer une poêle légèrement beurrée à feu moyen et y verser des petites louches de pâte.",
       "Retourner quand des bulles apparaissent à la surface, après 2 minutes environ, et cuire encore 1 minute.",
-      "Servir avec du sirop d'érable et des fruits frais."
+      "Servir avec du sirop d'érable."
     ],
     "astuce": "Une demi-banane trop mûre oubliée sur le comptoir suffit à parfumer toute la pâte."
   },
@@ -1976,7 +1984,7 @@
       "Ajouter les fruits rouges par-dessus, fermer et placer une nuit au réfrigérateur.",
       "Le matin, remuer, ajouter un peu de lait si c'est trop épais et déguster froid."
     ],
-    "astuce": "Se prépare jusqu'à 2 jours à l'avance : pratique pour écouler yaourts et fruits avant qu'ils ne tournent."
+    "astuce": "À préparer la veille ; se garde jusqu'à 2 jours au frais : pratique pour écouler yaourts et fruits avant qu'ils ne tournent."
   },
   {
     "titre": "Granola maison miel et noisettes",
@@ -2135,7 +2143,13 @@
       },
       {
         "cle": "sel",
-        "nom": "sel, poivre",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
         "qte": null,
         "unite": ""
       },
@@ -2217,7 +2231,7 @@
   {
     "titre": "Bircher muesli maison",
     "categorie": "petit-dejeuner",
-    "temps": 15,
+    "temps": 75,
     "difficulte": "facile",
     "portions": 4,
     "regimes": [
@@ -2385,7 +2399,13 @@
       },
       {
         "cle": "sel",
-        "nom": "sel, poivre",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
         "qte": null,
         "unite": ""
       },
@@ -2398,7 +2418,7 @@
       }
     ],
     "etapes": [
-      "Battre les œufs avec une pincée de sel.",
+      "Griller le pain. Battre les œufs avec une pincée de sel.",
       "Faire fondre le beurre à feu doux, verser les œufs et remuer sans cesse à la spatule pendant 3 à 4 minutes.",
       "Retirer du feu quand ils sont encore un peu baveux et ajouter la crème.",
       "Servir aussitôt sur le pain grillé, poivrer et parsemer de ciboulette."
@@ -2497,7 +2517,13 @@
       },
       {
         "cle": "sel",
-        "nom": "sel, poivre",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
         "qte": null,
         "unite": ""
       },
@@ -2814,7 +2840,7 @@
   {
     "titre": "Energy balls dattes-cacao",
     "categorie": "gouter",
-    "temps": 15,
+    "temps": 55,
     "difficulte": "facile",
     "portions": 6,
     "regimes": [
@@ -2862,7 +2888,7 @@
       "Former des boules de la taille d'une noix et les rouler dans la noix de coco.",
       "Réserver 30 minutes au frais avant de déguster."
     ],
-    "astuce": "Se gardent une semaine au frigo dans une boîte : utilisez les fonds de sachets de fruits secs."
+    "astuce": "Se gardent une semaine au frigo dans une boîte : utiliser les fonds de sachets de fruits secs."
   },
   {
     "titre": "Muffins pomme et flocons d'avoine",
