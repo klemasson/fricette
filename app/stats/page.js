@@ -96,6 +96,10 @@ export default async function Stats({ searchParams }) {
           <p className="muted small">La base (comptes, favoris, listes, newsletter) est copiée automatiquement chaque nuit sur l'hébergement, dans ~/fricette-data/sauvegardes (14 dernières nuits). Tu peux aussi en garder une copie chez toi :</p>
           <a className="btn small" href="/api/admin/sauvegarde">Télécharger une sauvegarde maintenant</a>
         </section>
+        <section className="st-box wide" style={{ marginTop: 14 }}>
+          <h2>Pages du site</h2>
+          <a className="btn small" href="/admin/conditions">Modifier la page Conditions</a>
+        </section>
         <p className="muted small">Comptage anonyme, sans cookie : un « visiteur·jour » est une personne différente un jour donné.</p>
       </main>
     </>
