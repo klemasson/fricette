@@ -766,14 +766,14 @@
       "Saupoudrer de farine, remuer 1 minute puis déglacer avec le vin blanc.",
       "Ajouter le bouillon chaud et le thym, laisser mijoter 20 minutes, puis saler et poivrer.",
       "Répartir la soupe dans des bols allant au four, poser le pain dessus et couvrir de gruyère.",
-      "Gratiner 5 minutes sous le grill du four à 240 °C et servir brûlant."
+      "Gratiner 5 minutes sous le gril du four à 240 °C et servir brûlant."
     ],
     "astuce": "C'est la meilleure façon de recycler une baguette de la veille."
   },
   {
     "titre": "Gaspacho de tomates et concombre",
     "categorie": "soupe",
-    "temps": 15,
+    "temps": 75,
     "difficulte": "facile",
     "portions": 4,
     "regimes": [
@@ -2067,13 +2067,13 @@
       }
     ],
     "etapes": [
-      "Préchauffer le four en mode grill à 220 °C.",
+      "Préchauffer le four en mode gril à 220 °C.",
       "Couper chaque crottin en deux dans l'épaisseur et poser chaque moitié sur une tranche de pain.",
       "Arroser d'un filet de miel, parsemer de thym et passer 5 minutes au four, jusqu'à ce que le fromage dore.",
       "Assaisonner la salade avec l'huile, le vinaigre, le sel et le poivre, ajouter les noix.",
       "Déposer les toasts chauds sur la salade et servir immédiatement."
     ],
-    "astuce": "Une baguette rassise est idéale : elle croustille mieux sous le grill."
+    "astuce": "Une baguette rassise est idéale : elle croustille mieux sous le gril."
   },
   {
     "titre": "Salade grecque",
@@ -2411,7 +2411,7 @@
   {
     "titre": "Salade de carottes râpées au citron",
     "categorie": "salade",
-    "temps": 10,
+    "temps": 20,
     "difficulte": "facile",
     "portions": 2,
     "regimes": [
@@ -2485,7 +2485,7 @@
   {
     "titre": "Salade de concombre au yaourt et à l'aneth",
     "categorie": "salade",
-    "temps": 10,
+    "temps": 20,
     "difficulte": "facile",
     "portions": 2,
     "regimes": [
@@ -2549,7 +2549,7 @@
   {
     "titre": "Salade de chou croquante à la mayonnaise légère",
     "categorie": "salade",
-    "temps": 15,
+    "temps": 35,
     "difficulte": "facile",
     "portions": 4,
     "regimes": [
@@ -3084,7 +3084,7 @@
       "Mélanger le jus d'orange, l'huile, le sel et le poivre.",
       "Disposer fenouil, oranges, olives et oignon émincé, arroser de sauce et parsemer de plumets."
     ],
-    "astuce": "Un fenouil dont les couches extérieures sont abîmées : retirez-les et gardez-les pour une soupe."
+    "astuce": "Si les couches extérieures du fenouil sont abîmées, retirez-les et gardez-les pour une soupe."
   },
   {
     "titre": "Houmous maison",
@@ -3158,7 +3158,7 @@
       }
     ],
     "etapes": [
-      "Égoutter et rincer les pois chiches en gardant un peu de leur jus.",
+      "Égoutter et rincer les pois chiches.",
       "Mixer les pois chiches avec le tahini, le jus de citron, l'ail, le cumin et le sel.",
       "Ajouter l'eau froide petit à petit en mixant jusqu'à obtenir une texture bien lisse.",
       "Servir dans un bol, arrosé d'huile d'olive et saupoudré de paprika."
@@ -3168,7 +3168,7 @@
   {
     "titre": "Tzatziki",
     "categorie": "apero",
-    "temps": 15,
+    "temps": 25,
     "difficulte": "facile",
     "portions": 4,
     "regimes": [
@@ -3369,7 +3369,7 @@
     "etapes": [
       "Cuire les œufs 10 minutes dans l'eau bouillante, puis les plonger dans l'eau froide et les écaler.",
       "Couper les œufs en deux dans la longueur et retirer les jaunes.",
-      "Écraser les jaunes (en gardant un jaune de côté) avec la mayonnaise, la moutarde, le sel et le poivre.",
+      "Réserver un jaune et écraser les autres avec la mayonnaise, la moutarde, le sel et le poivre.",
       "Garnir les blancs de cette farce et émietter le jaune réservé par-dessus.",
       "Parsemer de ciboulette et de paprika, servir sur quelques feuilles de salade."
     ],
@@ -3748,7 +3748,7 @@
     "etapes": [
       "Couper la betterave en morceaux.",
       "Mixer la betterave avec le fromage frais, le jus de citron, le cumin, le sel et le poivre jusqu'à obtenir une crème rose.",
-      "Servir parsemé de noix concassées, avec des bâtonnets de légumes ou du pain grillé."
+      "Servir parsemé de noix concassées, avec des bâtonnets de légumes ou du pain grillé (sans gluten si besoin)."
     ],
     "astuce": "Le fromage frais peut être remplacé par du yaourt grec ou du séré."
   },

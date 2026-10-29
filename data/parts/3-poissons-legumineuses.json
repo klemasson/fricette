@@ -125,11 +125,23 @@
         "unite": "g"
       },
       {
+        "cle": "huile",
+        "nom": "huile",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
         "cle": "graine",
         "nom": "graines de sésame",
         "qte": 1,
         "unite": "c. à c.",
         "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
       }
     ],
     "etapes": [
@@ -359,7 +371,6 @@
     "difficulte": "facile",
     "portions": 2,
     "regimes": [
-      "sans_gluten",
       "sans_lactose",
       "sans_porc",
       "sans_alcool"
@@ -431,7 +442,7 @@
       "Faire revenir l'oignon et l'ail émincés 5 minutes dans l'huile d'olive.",
       "Ajouter les tomates, les herbes et les olives, saler, poivrer et laisser mijoter 10 minutes.",
       "Déposer le colin dans la sauce, couvrir et cuire 8 minutes à feu doux.",
-      "Servir avec de la semoule ou du pain pour saucer."
+      "Servir avec la semoule préparée selon le paquet, ou du pain pour saucer."
     ],
     "astuce": "Des câpres ou un fond de poivron grillé remplacent volontiers les olives."
   },
@@ -1036,7 +1047,7 @@
   {
     "titre": "Rillettes de maquereau en assiette complète",
     "categorie": "plat",
-    "temps": 15,
+    "temps": 25,
     "difficulte": "facile",
     "portions": 2,
     "regimes": [
@@ -1380,7 +1391,7 @@
       {
         "cle": "huile_olive",
         "nom": "huile d'olive",
-        "qte": 1,
+        "qte": 2,
         "unite": "c. à s."
       },
       {
@@ -1397,10 +1408,10 @@
       }
     ],
     "etapes": [
-      "Faire revenir l'échalote ciselée dans l'huile, ajouter le riz et le nacrer 2 minutes.",
-      "Déglacer au vin blanc, puis ajouter le bouillon louche par louche en remuant, pendant 18 minutes.",
+      "Faire revenir l'échalote ciselée dans 1 c. à s. d'huile, ajouter le riz et le nacrer 2 minutes.",
+      "Déglacer au vin blanc, puis ajouter le bouillon louche par louche en remuant, pendant 18 minutes, puis saler et poivrer.",
       "À mi-cuisson, ajouter la courgette en petits dés.",
-      "Saisir les crevettes 2 minutes dans une poêle chaude.",
+      "Pendant ce temps, saisir les crevettes 2 minutes dans une poêle chaude avec un filet d'huile.",
       "Hors du feu, incorporer le beurre et le parmesan au risotto, servir avec les crevettes."
     ],
     "astuce": "Vérifiez que votre bouillon cube est sans gluten ; sans vin, remplacez par un trait de jus de citron en fin de cuisson."
@@ -1549,7 +1560,7 @@
       "Faire revenir l'oignon et l'ail émincés dans une grande casserole avec un peu d'eau, ajouter le curry et la tomate en dés.",
       "Verser le lait de coco, porter à ébullition puis ajouter les moules.",
       "Couvrir et cuire 6 minutes à feu vif en remuant à mi-cuisson.",
-      "Parsemer de coriandre et servir avec du riz ou du pain."
+      "Parsemer de coriandre et servir avec le riz cuit selon le paquet."
     ],
     "astuce": "Un reste de poivron ou de carotte en julienne s'ajoute avec l'oignon."
   },
@@ -2027,7 +2038,7 @@
       "Faire revenir l'oignon émincé dans l'huile avec le cumin et le curcuma 3 minutes.",
       "Ajouter la courge, les lentilles rincées, le lait de coco et 40 cl d'eau, cuire 20 minutes à couvert.",
       "Saler, ajouter le jus de citron et écraser grossièrement une partie de la courge.",
-      "Parsemer de coriandre et servir avec du riz ou du pain plat."
+      "Parsemer de coriandre et servir avec du riz ou du pain plat (sans gluten si besoin)."
     ],
     "astuce": "La patate douce ou la carotte remplacent la courge sans rien changer d'autre."
   },
@@ -2199,9 +2210,9 @@
     "etapes": [
       "Préchauffer le four à 200 °C.",
       "Mixer grossièrement les lentilles avec la moitié de l'oignon, l'ail, le cumin, l'œuf, la chapelure, sel et poivre.",
-      "Former une douzaine de boulettes, les poser sur une plaque huilée et cuire 20 minutes en les retournant à mi-cuisson.",
-      "Faire revenir le reste de l'oignon dans l'huile, ajouter les tomates et cuire 15 minutes.",
-      "Plonger les boulettes dans la sauce et servir avec des pâtes ou du pain."
+      "Former une douzaine de boulettes, les poser sur une plaque huilée avec 1 c. à s. d'huile et cuire 20 minutes en les retournant à mi-cuisson.",
+      "Faire revenir le reste de l'oignon émincé dans l'huile restante, ajouter les tomates et cuire 15 minutes.",
+      "Plonger les boulettes dans la sauce et servir avec les spaghetti cuits selon le paquet, ou du pain."
     ],
     "astuce": "Si la pâte colle trop aux mains, ajoutez une cuillère de chapelure et mouillez-vous les mains."
   },
@@ -2538,7 +2549,7 @@
       "Faire revenir l'oignon et l'ail émincés dans l'huile 5 minutes avec le romarin.",
       "Ajouter les tomates et laisser réduire 8 minutes.",
       "Ajouter les haricots rincés, saler, poivrer et mijoter 8 minutes.",
-      "Incorporer les épinards en fin de cuisson et servir avec du pain grillé."
+      "Incorporer les épinards en fin de cuisson et servir avec du pain grillé (sans gluten si besoin)."
     ],
     "astuce": "Un pain rassis grillé et frotté à l'ail est l'accompagnement idéal."
   },
@@ -2608,7 +2619,7 @@
       "Émincer le poireau et les champignons.",
       "Faire fondre le poireau 8 minutes dans le beurre, ajouter les champignons et cuire 6 minutes à feu vif.",
       "Ajouter les haricots égouttés, la crème et la moutarde, mijoter 5 minutes.",
-      "Saler, poivrer et servir avec des pommes de terre ou du pain."
+      "Saler, poivrer et servir avec des pommes de terre vapeur ou du pain (sans gluten si besoin)."
     ],
     "astuce": "Remplacez la crème par du lait végétal ou de la crème d'avoine pour une version vegan."
   },
@@ -3054,7 +3065,7 @@
       "Faire revenir l'oignon et l'ail émincés dans l'huile avec les épices 4 minutes.",
       "Ajouter les tomates et les pois chiches égouttés, mijoter 10 minutes.",
       "Ajouter les épinards par poignées et laisser tomber 3 minutes.",
-      "Saler, poivrer et servir avec du pain ou de la semoule."
+      "Saler, poivrer et servir avec du riz, ou du pain sans gluten si besoin."
     ],
     "astuce": "Les épinards surgelés conviennent : comptez 5 minutes de cuisson en plus."
   },
@@ -3156,7 +3167,7 @@
       "Faire revenir l'oignon émincé dans l'huile avec les épices 3 minutes.",
       "Ajouter les carottes en rondelles et 30 cl d'eau, cuire 15 minutes à couvert.",
       "Ajouter la courgette en morceaux, les pois chiches et les raisins secs, poursuivre 12 minutes.",
-      "Verser la même quantité d'eau bouillante salée que de semoule, couvrir 5 minutes puis égrainer.",
+      "Pendant ce temps, verser sur la semoule un volume égal d'eau bouillante salée, couvrir 5 minutes puis égrainer à la fourchette.",
       "Servir le tajine sur la semoule avec la coriandre."
     ],
     "astuce": "Remplacez la semoule par du quinoa pour une version sans gluten."
@@ -3247,7 +3258,7 @@
       "Faire revenir l'oignon et le poivron émincés 8 minutes dans l'huile, ajouter les épices.",
       "Ajouter les tomates et les pois chiches, saler, poivrer et cuire 10 minutes.",
       "Creuser 4 puits dans la sauce, y casser les œufs, couvrir et cuire 6 à 8 minutes jusqu'à ce que les blancs soient pris.",
-      "Parsemer de coriandre et servir avec du pain."
+      "Parsemer de coriandre et servir avec du pain (sans gluten si besoin)."
     ],
     "astuce": "Une poignée de feta émiettée en fin de cuisson est délicieuse (mais plus sans lactose)."
   },
@@ -3322,7 +3333,7 @@
     ],
     "etapes": [
       "Cuire le riz selon le paquet.",
-      "Couper le tofu en cubes, le presser dans un torchon et le dorer 8 minutes dans l'huile chaude, réserver.",
+      "Presser le tofu dans un torchon, le couper en cubes et le dorer 8 minutes dans l'huile chaude, réserver.",
       "Faire sauter les légumes en petits morceaux 5 minutes à feu vif avec l'ail et le gingembre.",
       "Remettre le tofu, ajouter la sauce soja et 2 cuillères d'eau, sauter 1 minute.",
       "Servir sur le riz."
@@ -3455,7 +3466,7 @@
       },
       {
         "cle": "pain",
-        "nom": "pain grillé",
+        "nom": "pain grillé (sans gluten si besoin)",
         "qte": 2,
         "unite": "tranche",
         "optionnel": true
