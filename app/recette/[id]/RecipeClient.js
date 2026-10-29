@@ -15,6 +15,7 @@ export default function RecipeClient({ raw }) {
     if (Array.isArray(local)) setFridge(local);
     getList("frigo").then((f) => Array.isArray(f) && setFridge(f));
     getFavorites().then(setFavs);
+    if (new URLSearchParams(window.location.search).has("imprimer")) setTimeout(() => window.print(), 900);
   }, []);
 
   const compare = fridge.length > 0;

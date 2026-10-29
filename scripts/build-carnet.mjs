@@ -2,6 +2,7 @@
 // Usage : npm run carnet   (à relancer après avoir ajouté ou modifié des recettes)
 import fs from "node:fs";
 import path from "node:path";
+import { allergensOf } from "../data/allergens.js";
 
 const dir = "data/parts";
 const files = fs.readdirSync(dir).filter((f) => f.endsWith(".json")).sort();
@@ -15,7 +16,7 @@ for (const f of files) {
     seen.add(id);
     // Photo facultative : public/photos/<id>.jpg (ou .webp / .png). Sinon, le site dessine une illustration.
     const photo = ["webp", "jpg", "jpeg", "png"].map((ext) => `photos/${id}.${ext}`).find((f) => fs.existsSync(path.join("public", f)));
-    all.push({ id, ...r, ...(photo ? { photo: "/" + photo } : {}) });
+    all.push({ id, ...r, allergenes: allergensOf(r), ...(photo ? { photo: "/" + photo } : {}) });
   }
 }
 fs.mkdirSync("public", { recursive: true });

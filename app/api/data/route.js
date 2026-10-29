@@ -2,6 +2,9 @@
 import { NextResponse } from "next/server";
 import { currentUser, sameOrigin } from "@/lib/auth";
 import { setUserData } from "@/lib/db";
+import { ALLERGENS } from "@/data/allergens";
+
+const ALLERGEN_KEYS = ALLERGENS.map((a) => a.key);
 
 export const dynamic = "force-dynamic";
 
@@ -27,6 +30,7 @@ function cleanPrefs(v) {
   if (!v || typeof v !== "object" || Array.isArray(v)) return null;
   const o = {};
   for (const [k, allowed] of Object.entries(PREFS)) if (allowed.includes(v[k])) o[k] = v[k];
+  if (Array.isArray(v.sans)) o.sans = v.sans.filter((x) => ALLERGEN_KEYS.includes(x));
   return o;
 }
 

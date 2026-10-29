@@ -621,3 +621,40 @@ a.btn, a.cta { text-decoration: none; display: inline-block; }
 }
 .acc-card .switch { white-space: normal; align-items: flex-start; }
 .acc .lead strong { overflow-wrap: anywhere; }
+
+/* Installer l'app */
+.install-banner { display: flex; align-items: center; gap: 12px; background: var(--soft); border-radius: 18px; padding: 10px 10px 10px 12px; margin: 0 0 18px; }
+.install-banner img { border-radius: 10px; flex: none; }
+.install-txt { flex: 1; display: grid; font-size: 0.86rem; color: var(--muted); line-height: 1.35; }
+.install-txt strong { color: var(--ink); font-size: 0.95rem; }
+.install-banner .x { width: 30px; height: 30px; border-radius: 50%; color: var(--muted); font-size: 1.1rem; flex: none; }
+.install-inline .install-txt { font-size: 0.92rem; }
+.surprise { display: inline-flex; align-items: center; gap: 8px; }
+@media (max-width: 600px) { .surprise { width: 100%; justify-content: center; } }
+
+/* Impression d'une recette : une page propre, sans boutons */
+@media print {
+  :root { --bg: #fff; --ink: #000; --muted: #444; --line: #ccc; --soft: #f3f3f3; color-scheme: light; }
+  body { font-size: 11pt; }
+  header, footer, .crumbs, .r-actions, .toast, .rate, .gestes, .tagline, .recipes, .cta-band, .install-banner, .float-cta, .note, .ai-tag, .fav { display: none !important; }
+  .recipe-card { border: 0; max-width: none; }
+  .recipe-card .art { aspect-ratio: auto; height: 6cm; }
+  .recipe-card .art img { object-fit: cover; }
+  .sheet-body { padding: 12px 0 0; }
+  h1.r-title { font-size: 22pt; }
+  .cols { grid-template-columns: minmax(0, 1fr) minmax(0, 1.6fr) !important; gap: 18px; }
+  .tip { border: 1px solid #ccc; background: none; }
+  .in { max-width: none; padding: 0; }
+  a { text-decoration: none; }
+}
+
+/* Allergies */
+.placard-row { display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: center; }
+.allergy-btn { display: inline-flex; align-items: center; gap: 6px; border: 1.5px solid var(--line); border-radius: 999px; padding: 6px 13px; font-weight: 600; font-size: 0.9rem; max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.allergy-btn.on { border-color: var(--warn); color: var(--warn); }
+.allergies { margin-top: 12px; background: var(--soft); border-radius: 16px; padding: 12px 14px; }
+.allergy-chips { display: flex; flex-wrap: wrap; gap: 6px; font-weight: 400; }
+.allergy-chips .f { font-size: 0.86rem; padding: 5px 11px; }
+.allergen-line { font-size: 0.88rem; margin: 0; }
+.allergen-line .muted { font-size: 0.82rem; }
+@media (max-width: 600px) { .placard-row { gap: 8px 12px; } .allergy-btn { font-size: 0.84rem; padding: 5px 11px; } }

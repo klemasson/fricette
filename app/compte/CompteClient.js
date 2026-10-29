@@ -1,6 +1,8 @@
 "use client";
 import { useEffect, useState } from "react";
 import { me, getList, setList, getFavorites, loadLocal } from "@/lib/client";
+import { InstallApp } from "@/app/components/Pwa";
+import { ALLERGENS } from "@/data/allergens";
 
 const post = async (url, body, method = "POST") => {
   const r = await fetch(url, { method, headers: { "Content-Type": "application/json" }, body: JSON.stringify(body) });
@@ -132,6 +134,14 @@ export default function CompteClient() {
           <span className="track" aria-hidden="true" />
           J'ai un placard de base (sel, huile, beurre, farine, oignon, ail, pâtes, riz, épices)
         </label>
+        <div className="field" style={{ marginTop: 6 }}>Allergies : masquer les recettes qui contiennent
+          <div className="allergy-chips">
+            {ALLERGENS.map((a) => {
+              const on = (prefs.sans || []).includes(a.key);
+              return <button key={a.key} type="button" className="f" aria-pressed={on} onClick={() => savePrefs({ sans: on ? prefs.sans.filter((x) => x !== a.key) : [...(prefs.sans || []), a.key] })}>{a.label}</button>;
+            })}
+          </div>
+        </div>
         <Msg m={prefMsg} />
       </section>
 
@@ -165,6 +175,12 @@ export default function CompteClient() {
           <Msg m={pw.msg} />
         </form>
         <p className="muted small">Mot de passe oublié ? Déconnecte-toi, puis utilise « Mot de passe oublié » dans la fenêtre de connexion.</p>
+      </section>
+
+      <section className="acc-card">
+        <h2>L'app Fricette</h2>
+        <p className="muted">Installe Fricette sur l'écran d'accueil de ton téléphone : elle s'ouvre comme une app, même sans réseau.</p>
+        <InstallApp />
       </section>
 
       <section className="acc-card">

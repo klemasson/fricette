@@ -3,6 +3,7 @@ import "@fontsource/dm-sans/400.css";
 import "@fontsource/dm-sans/500.css";
 import "@fontsource/dm-sans/700.css";
 import "./globals.css";
+import { ServiceWorker } from "./components/Pwa";
 
 export const metadata = {
   metadataBase: new URL(process.env.SITE_URL || "https://fricette.ch"),
@@ -28,19 +29,20 @@ export const viewport = {
   ],
 };
 
-const ICON =
-  "data:image/svg+xml," +
-  encodeURIComponent(
-    `<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='16' fill='#111'/><text x='32' y='47' text-anchor='middle' font-family='Arial Black, Arial, sans-serif' font-weight='900' font-size='44' fill='#ff4d2e' transform='rotate(-8 32 32)'>c</text></svg>`
-  );
 
 export default function RootLayout({ children }) {
   return (
     <html lang="fr">
       <head>
-        <link rel="icon" href={ICON} />
+        <link rel="icon" href="/icons/favicon-64.png" type="image/png" />
+        <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-title" content="Fricette" />
       </head>
-      <body>{children}</body>
+      <body>
+        {children}
+        <ServiceWorker />
+      </body>
     </html>
   );
 }

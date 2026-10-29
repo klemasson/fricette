@@ -5,6 +5,7 @@ import { Ico, FavButton, Basket } from "./bits";
 import CookMode from "./CookMode";
 import Gestes, { useVideos } from "./Gestes";
 import { addToCourses, share, getRatings, sendRating } from "@/lib/client";
+import { allergenLabel } from "@/data/allergens";
 
 export function summary(r) {
   const ings = r.ingredients || [];
@@ -96,6 +97,7 @@ export default function RecipeBody({ r, compare = true, fav, onFav, controls, ti
           {r.id && <button type="button" className="chip" onClick={toCourses}><Basket />{coursesLabel}</button>}
           <button type="button" className="chip strong" onClick={() => setCook(true)}>▶ Mode cuisine</button>
           {r.id && <button type="button" className="chip" onClick={onShare}>Partager</button>}
+          {r.id && <button type="button" className="chip hide-sm" onClick={() => (pageLink ? window.open(`/recette/${r.id}?imprimer=1`, "_blank") : window.print())}>Imprimer</button>}
           {controls}
         </div>
         <div className="toast" role="status">{msg}</div>
@@ -121,6 +123,9 @@ export default function RecipeBody({ r, compare = true, fav, onFav, controls, ti
           <ol className="steps">{(r.etapes || []).map((e, k) => <li key={k}>{e}<Gestes step={e} videos={videos} /></li>)}</ol>
         </div>
       </div>
+      {r.allergenes?.length > 0 && (
+        <p className="allergen-line"><strong>Allergènes :</strong> {r.allergenes.map(allergenLabel).join(", ")}. <span className="muted">Vérifie les étiquettes des produits utilisés.</span></p>
+      )}
       {r.reste && <div className="tip"><strong>Après la recette : </strong>{r.reste}</div>}
       {r.astuce && <div className="tip"><strong>Astuce : </strong>{r.astuce}</div>}
 

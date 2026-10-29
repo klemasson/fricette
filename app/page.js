@@ -3,12 +3,14 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { suggest, pick, familyOfName, resolve, norm } from "@/lib/match";
 import { VOCAB, BASICS } from "@/data/vocab";
+import { ALLERGENS, allergenLabel } from "@/data/allergens";
 import { FAM, artSvg } from "@/lib/art";
 import { daily } from "@/lib/season";
 import { Ico, Heart, FavButton, StarAvg } from "./components/bits";
 import RecipeBody, { summary } from "./components/RecipeBody";
 import { CoursesLink } from "./components/Live";
 import Scanner from "./components/Scanner";
+import { InstallApp } from "./components/Pwa";
 import { me, getList, setList, mergeAfterLogin, getRatings, track, loadLocal } from "@/lib/client";
 
 const UNITS = ["", "pièce", "g", "kg", "ml", "cl", "l", "tranche", "botte", "boîte", "pot", "c. à s.", "c. à c.", "gousse"];
@@ -73,6 +75,8 @@ export default function Home() {
   const [personnes, setPersonnes] = useState("2");
   const [basiques, setBasiques] = useState(true);
   const [placard, setPlacard] = useState(true);
+  const [sans, setSans] = useState([]);
+  const [showAllergies, setShowAllergies] = useState(false);
   const [carnet, setCarnet] = useState(null);
   const [shown, setShown] = useState(PAGE);
   const [aiRecipes, setAiRecipes] = useState(null);
@@ -194,19 +198,20 @@ export default function Home() {
     if (p.temps !== undefined) setTemps(String(p.temps));
     if (p.regime !== undefined) setRegime(p.regime);
     if (p.placard !== undefined) { setBasiques(!!p.placard); setPlacard(!!p.placard); }
+    if (Array.isArray(p.sans)) setSans(p.sans);
   }
   const prefsReady = useRef(false);
   useEffect(() => {
     if (!loaded.current) return;
     if (!prefsReady.current) { prefsReady.current = true; return; } // pas d'écriture au chargement
-    setList("prefs", { personnes: Number(personnes), temps, regime, placard: basiques && placard });
-  }, [personnes, temps, regime, basiques, placard]);
+    setList("prefs", { personnes: Number(personnes), temps, regime, placard: basiques && placard, sans });
+  }, [personnes, temps, regime, basiques, placard, sans]);
 
-  const opts = { temps: Number(temps), regime, personnes: Number(personnes), basiques, placard, type };
+  const opts = { temps: Number(temps), regime, personnes: Number(personnes), basiques, placard, type, sans };
   const found = useMemo(
     () => (carnet ? suggest(carnet, fridge, opts) : null),
     // eslint-disable-next-line react-hooks/exhaustive-deps
-    [carnet, fridge, temps, regime, personnes, basiques, placard, type]
+    [carnet, fridge, temps, regime, personnes, basiques, placard, type, sans]
   );
   useEffect(() => setShown(PAGE), [fridge, temps, regime, personnes, basiques, placard, type]);
 
@@ -265,6 +270,16 @@ export default function Home() {
       if (x.unite === it.unite && x.qte != null && it.qte != null && x.qte > it.qte) return f.map((y, j) => (j === i ? { ...y, qte: y.qte - it.qte } : y));
       return f.filter((_, j) => j !== i);
     });
+  }
+
+  // Une recette au hasard parmi les meilleures possibles avec le frigo (ou de saison si rien ne colle).
+  function surprise() {
+    const pool = results.length ? results.slice(0, 40) : pick(carnet, (day?.seasonal || carnet).slice(0, 60).map((r) => r.id), fridge, opts);
+    if (!pool.length) return;
+    let r = pool[Math.floor(Math.random() * pool.length)];
+    if (pool.length > 1 && r.id === openRecipe?.id) r = pool[(pool.indexOf(r) + 1) % pool.length];
+    track("page", "surprise");
+    openSheet(r);
   }
 
   function clearFridge() {
@@ -524,6 +539,8 @@ export default function Home() {
         </div>
       </header>
 
+      <div className="in"><InstallApp banner /></div>
+
       <section className="fridge" id="frigo" aria-label="Ton frigo">
         <div className="in">
           <div className="sec">
@@ -639,12 +656,27 @@ export default function Home() {
 
             </div>
             <div className="placard-row">
+              <button type="button" className={"allergy-btn" + (sans.length ? " on" : "")} aria-expanded={showAllergies} onClick={() => setShowAllergies((v) => !v)}>
+                <span aria-hidden="true">⚠︎</span> {sans.length ? `Sans ${sans.map(allergenLabel).join(", ")}` : "Allergies"}
+              </button>
               <label className="switch" title="Sel, poivre, huile, beurre, farine, sucre, oignon, ail, pâtes, riz, semoule, épices, bouillon, moutarde…">
                 <input type="checkbox" checked={basiques && placard} onChange={(e) => { setBasiques(e.target.checked); setPlacard(e.target.checked); }} />
                 <span className="track" aria-hidden="true" />
                 J'ai un placard de base
               </label>
             </div>
+            {showAllergies && (
+              <div className="allergies" role="group" aria-label="Allergies">
+                <p className="hint" style={{ marginTop: 0 }}>Masquer les recettes qui contiennent :</p>
+                <div className="allergy-chips">
+                  {ALLERGENS.map((a) => (
+                    <button key={a.key} type="button" className="f" aria-pressed={sans.includes(a.key)}
+                      onClick={() => setSans((l) => (l.includes(a.key) ? l.filter((x) => x !== a.key) : [...l, a.key]))}>{a.label}</button>
+                  ))}
+                </div>
+                <p className="hint">Déduit des ingrédients des recettes. Vérifie toujours les étiquettes des produits (bouillon, pâtes, sauces…).</p>
+              </div>
+            )}
             <p className="hint">{basiques && placard ? "On suppose que tu as sel, huile, beurre, farine, oignon, ail, pâtes, riz et épices." : "Seuls les ingrédients de ton frigo comptent."}</p>
           </div>
 
@@ -657,6 +689,11 @@ export default function Home() {
             {(
               <button id="see-recipes" className="cta big" type="button" onClick={() => document.getElementById("menu")?.scrollIntoView({ behavior: "smooth" })}>
                 {found && results.length ? `Voir les ${results.length} recettes →` : "Voir les recettes →"}
+              </button>
+            )}
+            {carnet && (
+              <button className="ghost surprise" type="button" onClick={surprise}>
+                <span aria-hidden="true">🎲</span> Surprends-moi
               </button>
             )}
           </div>
