@@ -74,7 +74,7 @@
       "Cuire 4 à 5 minutes par face, sans les bouger, jusqu'à ce qu'elles soient bien dorées et croustillantes.",
       "Égoutter sur du papier absorbant et servir chaud avec la salade verte."
     ],
-    "astuce": "Le riz doit être froid et sec : un riz tout juste cuit colle et les galettes se défont."
+    "astuce": "Le riz doit être froid et sec : un riz tout juste cuit colle et les galettes se défont. Utiliser un riz refroidi rapidement et gardé au frigo, au plus depuis la veille."
   },
   {
     "titre": "Arancini au four au riz de la veille et mozzarella",
@@ -158,7 +158,7 @@
       "Cuire 20 à 25 minutes, jusqu'à ce qu'elles soient dorées et croustillantes.",
       "Pendant ce temps, faire mijoter les tomates concassées 10 minutes avec le reste de l'huile d'olive, du sel et du poivre, puis servir les arancini sur la sauce, parsemés de basilic."
     ],
-    "astuce": "Un reste de risotto donne les arancini les plus fondants, mais un riz blanc bien collé fonctionne aussi."
+    "astuce": "Un reste de risotto donne les arancini les plus fondants, mais un riz blanc bien collé fonctionne aussi ; dans les deux cas, il doit avoir été gardé au frigo."
   },
   {
     "titre": "Riz de la veille sauté au tofu, poireau et gingembre",
@@ -228,10 +228,10 @@
       "Couper le tofu en dés de 1,5 cm, émincer finement le poireau, râper le gingembre et hacher l'ail.",
       "Chauffer la moitié de l'huile dans un wok à feu vif et y dorer le tofu 6 minutes en le retournant, puis le réserver.",
       "Verser le reste de l'huile, ajouter le poireau, le gingembre et l'ail et faire sauter 4 minutes.",
-      "Ajouter le riz en l'égrenant et le faire sauter 4 minutes à feu vif, jusqu'à ce qu'il crépite.",
+      "Ajouter le riz en l'égrenant et le faire sauter 4 minutes à feu vif, jusqu'à ce qu'il crépite et soit brûlant.",
       "Remettre le tofu, arroser de sauce soja, mélanger 1 minute et servir parsemé de graines de sésame."
     ],
-    "astuce": "Le riz de la veille, plus sec, saute sans coller : c'est même mieux qu'un riz tout frais."
+    "astuce": "Le riz de la veille, plus sec, saute sans coller : c'est même mieux qu'un riz tout frais. Il doit avoir été refroidi vite et gardé au frigo."
   },
   {
     "titre": "Gratin de riz de la veille aux courgettes et comté",
@@ -315,7 +315,7 @@
       "Mélanger le riz, les légumes et l'appareil aux œufs, puis étaler dans le plat et parsemer du reste du comté.",
       "Enfourner 20 minutes, jusqu'à ce que le dessus soit doré et que le centre soit pris."
     ],
-    "astuce": "On peut remplacer les courgettes par n'importe quel légume qui traîne : poivron, épinards ou champignons."
+    "astuce": "On peut remplacer les courgettes par n'importe quel légume qui traîne : poivron, épinards ou champignons. Le riz doit avoir été gardé au frigo depuis la veille."
   },
   {
     "titre": "Pâtes de la veille poêlées aux pois chiches et épinards",
@@ -796,7 +796,7 @@
   {
     "titre": "Courgettes farcies au reste de rôti et riz",
     "categorie": "plat",
-    "temps": 55,
+    "temps": 60,
     "difficulte": "moyen",
     "portions": 4,
     "regimes": [
@@ -960,7 +960,7 @@
       "Tartiner chaque tortilla de sauce, puis garnir d'une feuille de salade, de carotte, de cornichons et de bœuf.",
       "Rouler serré en rabattant les bords et couper en deux en biais."
     ],
-    "astuce": "Un reste de poulet rôti ou de porc fonctionne aussi ; emballés dans du papier, les wraps tiennent jusqu'à midi."
+    "astuce": "Un reste de poulet rôti ou de porc fonctionne aussi ; emballés dans du papier et gardés au frais, les wraps tiennent jusqu'à midi."
   },
   {
     "titre": "Nouilles sautées au reste de rôti de porc et brocoli",
@@ -1179,7 +1179,7 @@
       "Faire mousser le beurre avec la sauge dans une grande poêle à feu moyen, ajouter les gnocchis et les dorer 3 minutes.",
       "Servir aussitôt avec le parmesan et un tour de moulin à poivre."
     ],
-    "astuce": "Une purée très beurrée ou très liquide demande plus de farine : ajouter-la cuillère par cuillère."
+    "astuce": "Une purée très beurrée ou très liquide demande plus de farine : l'ajouter cuillère par cuillère."
   },
   {
     "titre": "Nids de purée de la veille aux œufs au four",
@@ -1246,7 +1246,7 @@
     ],
     "etapes": [
       "Préchauffer le four à 200 °C et beurrer un plat à gratin.",
-      "Mélanger la purée avec la muscade, la moitié de l'emmental et les épinards hachés grossièrement.",
+      "Réchauffer la purée 3 minutes à la casserole ou au micro-ondes en remuant, puis la mélanger avec la muscade, la moitié de l'emmental et les épinards hachés grossièrement.",
       "Étaler la purée dans le plat et creuser 4 puits avec le dos d'une cuillère.",
       "Casser un œuf dans chaque puits, saler, poivrer et parsemer du reste de l'emmental sur la purée.",
       "Cuire 12 à 15 minutes, jusqu'à ce que les blancs soient pris et les jaunes encore coulants."
@@ -2372,7 +2372,7 @@
   {
     "titre": "Poivrons farcis au boulgour de la veille et pois chiches",
     "categorie": "plat",
-    "temps": 50,
+    "temps": 55,
     "difficulte": "facile",
     "portions": 4,
     "regimes": [
@@ -2462,7 +2462,7 @@
   {
     "titre": "Brandade express de reste de poisson et pommes de terre",
     "categorie": "plat",
-    "temps": 40,
+    "temps": 45,
     "difficulte": "facile",
     "portions": 4,
     "regimes": [
@@ -2719,7 +2719,7 @@
       },
       {
         "cle": "boeuf_hache",
-        "nom": "reste de sauce bolognaise",
+        "nom": "reste de sauce bolognaise au bœuf",
         "qte": 400,
         "unite": "g"
       },
@@ -3194,7 +3194,7 @@
       "Ajouter les fanes et cuire encore 3 minutes, pas plus, pour qu'elles restent bien vertes.",
       "Mixer finement, poivrer et rectifier le sel."
     ],
-    "astuce": "Une cuillerée de crème ou de fromage frais dans chaque bol adoucit l'amertume des fanes."
+    "astuce": "Une cuillerée de crème végétale (ou de crème fraîche si l'on n'est pas vegan) dans chaque bol adoucit l'amertume des fanes."
   },
   {
     "titre": "Bouillon de carcasse de poulet rôti aux vermicelles",
@@ -3488,7 +3488,7 @@
   {
     "titre": "Pâté végétal de champignons ridés et noix",
     "categorie": "entree",
-    "temps": 25,
+    "temps": 45,
     "difficulte": "facile",
     "portions": 4,
     "regimes": [
@@ -3567,7 +3567,7 @@
       "Les faire revenir 10 minutes à feu vif dans l'huile d'olive avec le thym, jusqu'à ce que l'eau des champignons soit complètement évaporée.",
       "Faire griller les noix 3 minutes à sec dans une poêle.",
       "Mixer champignons et noix avec le jus du demi-citron jusqu'à obtenir une pâte presque lisse, saler et poivrer.",
-      "Servir frais, parsemé de persil, sur du pain grillé."
+      "Laisser refroidir au moins 20 minutes, puis servir frais, parsemé de persil, sur du pain grillé."
     ],
     "astuce": "Les champignons ridés sont plus secs et concentrés : ils donnent un pâté plus goûteux."
   },
