@@ -590,3 +590,34 @@ a.btn, a.cta { text-decoration: none; display: inline-block; }
 .gestes:not(.big) .geste-btn:hover { text-decoration: underline; }
 .gestes:not(.big) .geste-btn.on { background: none; color: var(--accent); }
 .gestes:not(.big) .gestes-btns { gap: 0; }
+
+/* Mon compte */
+.acc-page { max-width: 760px; }
+.acc { display: grid; gap: 16px; }
+.acc .lead { margin-bottom: 4px; }
+.acc-links { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
+.acc-link { background: var(--soft); border-radius: 18px; padding: 14px 16px; text-decoration: none; display: grid; gap: 2px; }
+.acc-link strong { font-family: var(--display); font-size: 1.5rem; }
+.acc-link span { color: var(--muted); font-size: 0.88rem; }
+.acc-link:hover { background: var(--line); }
+.acc-card { border: 1.5px solid var(--line); border-radius: 22px; padding: 20px 22px; display: grid; gap: 10px; }
+.acc-card h2 { font-size: 1.3rem; font-weight: 800; }
+.acc-card .switch { font-weight: 500; }
+.acc-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
+.acc-grid select { font-weight: 400; background: var(--bg); border: 1.5px solid var(--line); border-radius: 14px; padding: 11px 12px; }
+.acc-form { display: grid; gap: 12px; max-width: 420px; }
+.acc-form .btn { justify-self: start; }
+.acc-card .status { margin: 0; min-height: 0; }
+.acc-card.danger { border-color: color-mix(in srgb, var(--accent) 40%, var(--line)); }
+.acc-card .clear-btn { justify-self: start; }
+.danger-btn { background: var(--accent); color: var(--accent-ink); border-radius: 999px; padding: 12px 22px; font-weight: 700; }
+.acc-placeholder { display: inline-block; width: 110px; height: 34px; }
+@media (max-width: 600px) {
+  .acc-grid { grid-template-columns: 1fr; }
+  .acc-links { gap: 6px; }
+  .acc-link { padding: 12px; }
+  .acc-link strong { font-size: 1.2rem; }
+  .acc-card { padding: 18px 16px; }
+}
+.acc-card .switch { white-space: normal; align-items: flex-start; }
+.acc .lead strong { overflow-wrap: anywhere; }

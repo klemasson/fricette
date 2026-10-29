@@ -21,13 +21,22 @@ function clean(list, max) {
   });
 }
 
+// Préférences : petit objet de réglages par défaut.
+const PREFS = { personnes: [1, 2, 3, 4, 6, 8], temps: ["0", "20", "40", "90"], regime: ["", "végétarien", "vegan", "sans gluten", "sans lactose", "sans porc", "halal"], placard: [true, false] };
+function cleanPrefs(v) {
+  if (!v || typeof v !== "object" || Array.isArray(v)) return null;
+  const o = {};
+  for (const [k, allowed] of Object.entries(PREFS)) if (allowed.includes(v[k])) o[k] = v[k];
+  return o;
+}
+
 export async function PUT(request) {
   if (!(await sameOrigin())) return NextResponse.json({ error: "Requête refusée." }, { status: 403 });
   const user = await currentUser();
   if (!user) return NextResponse.json({ error: "Non connecté." }, { status: 401 });
   const body = await request.json().catch(() => ({}));
   const max = KINDS[body.kind];
-  const value = max ? clean(body.value, max) : null;
+  const value = body.kind === "prefs" ? cleanPrefs(body.value) : max ? clean(body.value, max) : null;
   if (!value) return NextResponse.json({ error: "Données invalides." }, { status: 400 });
   setUserData(user.id, body.kind, value);
   return NextResponse.json({ ok: true });

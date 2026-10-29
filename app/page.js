@@ -9,7 +9,7 @@ import { Ico, Heart, FavButton, StarAvg } from "./components/bits";
 import RecipeBody, { summary } from "./components/RecipeBody";
 import { CoursesLink } from "./components/Live";
 import Scanner from "./components/Scanner";
-import { me, getList, setList, mergeAfterLogin, getRatings, track } from "@/lib/client";
+import { me, getList, setList, mergeAfterLogin, getRatings, track, loadLocal } from "@/lib/client";
 
 const UNITS = ["", "pièce", "g", "kg", "ml", "cl", "l", "tranche", "botte", "boîte", "pot", "c. à s.", "c. à c.", "gousse"];
 const PAGE = 8;
@@ -130,6 +130,7 @@ export default function Home() {
       const saved = JSON.parse(localStorage.getItem("olf-frigo") || "null");
       if (Array.isArray(saved)) setFridge(saved);
     } catch {}
+    applyPrefs(loadLocal("frc-prefs", {}));
     loaded.current = true;
     fetch("/carnet.json").then((r) => r.json()).then(setCarnet).catch(() => setCarnet([]));
     let local = [];
@@ -140,12 +141,24 @@ export default function Home() {
       if (d.user) {
         setUser(d.user); setFavs(d.favorites || []);
         if (Array.isArray(d.data?.frigo)) setFridge(d.data.frigo);
+        if (d.data?.prefs) applyPrefs(d.data.prefs);
       }
     });
     getRatings().then((d) => setRatings(d.all || {}));
     const onRatings = (e) => setRatings(e.detail.all || {});
     window.addEventListener("frc:ratings", onRatings);
     track("page", "/");
+    // Liens depuis les autres pages : /?connexion=1 (se connecter), /?connexion=creer, /?compte=supprime
+    const qs = new URLSearchParams(window.location.search);
+    if (qs.get("connexion")) {
+      window.history.replaceState(null, "", "/");
+      setAuth({ mode: qs.get("connexion") === "creer" ? "signup" : "login", email: "", password: "", error: "", info: "", busy: false, token: "" });
+      setTimeout(() => authRef.current?.showModal?.(), 300);
+    }
+    if (qs.get("compte") === "supprime") {
+      window.history.replaceState(null, "", "/");
+      setStatus({ text: "Ton compte et toutes ses données ont été supprimés.", err: false });
+    }
     // Lien « mot de passe oublié » reçu par e-mail : https://fricette.ch/?reset=…
     const resetToken = new URLSearchParams(window.location.search).get("reset");
     if (resetToken) {
@@ -173,6 +186,21 @@ export default function Home() {
     if (!loaded.current) return;
     setList("frigo", fridge);
   }, [fridge]);
+
+  // Réglages (personnes, temps, régime, placard) : retenus sur l'appareil et sur le compte.
+  function applyPrefs(p) {
+    if (!p || typeof p !== "object") return;
+    if (p.personnes) setPersonnes(String(p.personnes));
+    if (p.temps !== undefined) setTemps(String(p.temps));
+    if (p.regime !== undefined) setRegime(p.regime);
+    if (p.placard !== undefined) { setBasiques(!!p.placard); setPlacard(!!p.placard); }
+  }
+  const prefsReady = useRef(false);
+  useEffect(() => {
+    if (!loaded.current) return;
+    if (!prefsReady.current) { prefsReady.current = true; return; } // pas d'écriture au chargement
+    setList("prefs", { personnes: Number(personnes), temps, regime, placard: basiques && placard });
+  }, [personnes, temps, regime, basiques, placard]);
 
   const opts = { temps: Number(temps), regime, personnes: Number(personnes), basiques, placard, type };
   const found = useMemo(
@@ -456,7 +484,7 @@ export default function Home() {
             )}
             <CoursesLink />
             {user
-              ? <button className="nav-link" type="button" onClick={logout} title={user.email}>Se déconnecter</button>
+              ? <a className="btn small" href="/compte" title={user.email}>Mon compte</a>
               : <button className="btn small" type="button" onClick={() => openAuth("login")}>Se connecter</button>}
           </div>
         </nav>
@@ -735,7 +763,7 @@ export default function Home() {
         <div className="in">
           <div>
             <span>fricette · fait avec amour et des restes</span>
-            {user && <> · <span>{user.email}</span> · <button className="link" type="button" onClick={() => openAuth("delete")}>Supprimer mon compte</button></>}
+            {user && <> · <a href="/compte">Mon compte</a></>}
             {info?.pro ? (
               <> · <button className="link" onClick={goPortal}>Gérer mon abonnement</button></>
             ) : info?.billing && info.restore ? (

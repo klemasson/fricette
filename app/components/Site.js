@@ -1,6 +1,6 @@
 // En-tête et pied de page des pages secondaires (recette, ingrédients, courses).
 import { Ico } from "./bits";
-import { CoursesLink, PageView } from "./Live";
+import { CoursesLink, PageView, AccountLink } from "./Live";
 
 export function SiteHeader() {
   return (
@@ -10,7 +10,8 @@ export function SiteHeader() {
         <div className="nav-right">
           <a className="nav-link hide-sm" href="/avec">Idées par ingrédient</a>
           <CoursesLink />
-          <a className="btn small" href="/#frigo">Mon frigo</a>
+          <a className="nav-link hide-sm" href="/#frigo">Mon frigo</a>
+          <AccountLink />
         </div>
       </nav>
     </header>

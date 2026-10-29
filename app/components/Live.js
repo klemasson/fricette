@@ -2,7 +2,7 @@
 // Petits morceaux vivants des pages statiques.
 import { useEffect, useState } from "react";
 import { Basket } from "./bits";
-import { loadLocal, getList, track } from "@/lib/client";
+import { loadLocal, getList, track, me } from "@/lib/client";
 
 export function CoursesLink({ className = "nav-link" }) {
   const [n, setN] = useState(0);
@@ -25,4 +25,14 @@ export function CoursesLink({ className = "nav-link" }) {
 export function PageView({ path }) {
   useEffect(() => { track("page", path || window.location.pathname); }, [path]);
   return null;
+}
+
+/** « Mon compte » si connecté·e, sinon « Se connecter ». */
+export function AccountLink() {
+  const [user, setUser] = useState(undefined);
+  useEffect(() => { me().then((d) => setUser(d.user || null)); }, []);
+  if (user === undefined) return <span className="acc-placeholder" />;
+  return user
+    ? <a className="btn small" href="/compte">Mon compte</a>
+    : <a className="btn small" href="/?connexion=1">Se connecter</a>;
 }
