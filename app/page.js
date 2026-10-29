@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
-import { suggest, pick, familyOfName, resolve, norm } from "@/lib/match";
+import { suggest, pick, familyOfName, resolve, norm, daysLeft } from "@/lib/match";
 import { VOCAB, BASICS } from "@/data/vocab";
 import { ALLERGENS, allergenLabel } from "@/data/allergens";
 import { FAM, artSvg } from "@/lib/art";
@@ -11,6 +11,7 @@ import RecipeBody, { summary } from "./components/RecipeBody";
 import { CoursesLink } from "./components/Live";
 import Scanner from "./components/Scanner";
 import { InstallApp } from "./components/Pwa";
+import Newsletter from "./components/Newsletter";
 import { me, getList, setList, mergeAfterLogin, getRatings, track, loadLocal } from "@/lib/client";
 
 const UNITS = ["", "pièce", "g", "kg", "ml", "cl", "l", "tranche", "botte", "boîte", "pot", "c. à s.", "c. à c.", "gousse"];
@@ -54,6 +55,13 @@ function suggestIngredients(q, have) {
     .map((x) => x[1]);
 }
 const QUICK = ["œufs", "lait", "beurre", "crème", "fromage râpé", "jambon", "yaourt nature", "tomates", "carottes", "courgettes", "pommes de terre", "poulet", "champignons", "poivrons", "salade verte"];
+const isoDay = (plus) => { const d = new Date(); d.setDate(d.getDate() + plus); return d.toLocaleDateString("sv-SE"); };
+function ExpBadge({ exp, onClick }) {
+  const d = daysLeft(exp);
+  if (d == null) return null;
+  const txt = d < 0 ? "date passée" : d === 0 ? "aujourd'hui" : d === 1 ? "demain" : `J-${d}`;
+  return <button type="button" className={"exp-badge" + (d <= 1 ? " hot" : d <= 3 ? " warm" : "")} onClick={onClick} title={`À finir avant le ${exp.split("-").reverse().join(".")}`}>⏰ {txt}</button>;
+}
 const qtyLabel = (it) => (it.unite === "pièce" || !it.unite ? `${it.qte}` : `${it.qte} ${it.unite}`);
 
 const START = [
@@ -159,6 +167,8 @@ export default function Home() {
       setAuth({ mode: qs.get("connexion") === "creer" ? "signup" : "login", email: "", password: "", error: "", info: "", busy: false, token: "" });
       setTimeout(() => authRef.current?.showModal?.(), 300);
     }
+    const nl = { ok: ["Inscription confirmée : à lundi pour 5 idées de saison !", false], lien: ["Ce lien de confirmation n'est plus valable.", true], desinscrit: ["Tu es désinscrit·e de la newsletter.", false] }[qs.get("newsletter")];
+    if (nl) { window.history.replaceState(null, "", "/"); setStatus({ text: nl[0], err: nl[1] }); setTimeout(() => document.getElementById("frigo")?.scrollIntoView({ behavior: "smooth" }), 400); }
     if (qs.get("compte") === "supprime") {
       window.history.replaceState(null, "", "/");
       setStatus({ text: "Ton compte et toutes ses données ont été supprimés.", err: false });
@@ -612,17 +622,25 @@ export default function Home() {
                       {UNITS.filter(Boolean).map((u) => <option key={u} value={u}>{u}</option>)}
                     </select>
                     <button type="button" className="ok" onClick={() => setEditIdx(null)}>OK</button>
+                    <span className="exp-edit">
+                      <span>À finir avant</span>
+                      <input type="date" value={it.exp || ""} min={isoDay(-2)} onChange={(e) => update(i, { exp: e.target.value || undefined })} aria-label={`Date limite de ${it.nom}`} />
+                      <button type="button" className="exp-quick" onClick={() => update(i, { exp: isoDay(1) })}>demain</button>
+                      <button type="button" className="exp-quick" onClick={() => update(i, { exp: isoDay(3) })}>3 jours</button>
+                      {it.exp && <button type="button" className="exp-quick" onClick={() => update(i, { exp: undefined })}>aucune</button>}
+                    </span>
                   </span>
                 ) : (
                   <button type="button" className={"qbtn" + (it.qte == null ? " empty-q" : "")} onClick={() => setEditIdx(i)} aria-label={`Modifier la quantité de ${it.nom}`}>
                     {it.qte == null ? "+ qté" : qtyLabel(it)}
                   </button>
                 )}
+                {editIdx !== i && it.exp && <ExpBadge exp={it.exp} onClick={() => setEditIdx(i)} />}
                 <button className="x" type="button" onClick={() => { setEditIdx(null); remove(i); }} aria-label={`Retirer ${it.nom}`}>×</button>
               </span>
             ))}
           </div>
-          {fridge.length > 0 && <p className="hint hide-sm">Touche une quantité pour la modifier : plus elle est juste, mieux Fricette choisit.</p>}
+          {fridge.length > 0 && <p className="hint hide-sm">Touche une quantité pour la modifier ou indiquer une date limite : les produits à finir vite passent en priorité.</p>}
           {found?.unknown.length > 0 && (
             <p className="note">Le carnet ne connaît pas encore : {found.unknown.join(", ")}.{info?.ai ? " Le chef, lui, saura quoi en faire." : ""}</p>
           )}
@@ -797,6 +815,7 @@ export default function Home() {
       )}
 
       <footer>
+        <div className="in foot-news"><Newsletter /></div>
         <div className="in">
           <div>
             <span>fricette · fait avec amour et des restes</span>
@@ -816,6 +835,7 @@ export default function Home() {
           <span className="foot-links">
             <a href="/avec">Idées par ingrédient</a>
             <a href="/gestes">Gestes en vidéo</a>
+            <a href="/planning">Planning</a>
             <a href="/courses">Liste de courses</a>
             <a href="/conditions">Conditions</a>
           </span>
@@ -909,6 +929,7 @@ function Card({ r, ai, onOpen, fav, onFav, rating }) {
         <div className="txt">
           <h3>{r.titre}</h3>
           <div className="meta">{[r.temps && `${r.temps} min`, r.difficulte, `${r.portions} pers.`].filter(Boolean).join(" · ")}{rating && <> · <StarAvg v={rating} /></>}</div>
+          {r.urgent?.length > 0 && <div className="urgent">⏰ Finit {r.urgent.join(", ")}</div>}
           <div className={"miss" + (missing.length ? "" : " ok")}>
             {missing.length ? `Il manque : ${missing.map((m) => m.nom).join(", ")}` : "Tu as tout"}
             {short.length > 0 && <span className="juste"> · un peu juste : {short.map((m) => m.nom).join(", ")}</span>}

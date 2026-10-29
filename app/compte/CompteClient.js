@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import { me, getList, setList, getFavorites, loadLocal } from "@/lib/client";
 import { InstallApp } from "@/app/components/Pwa";
 import { ALLERGENS } from "@/data/allergens";
+import Newsletter from "@/app/components/Newsletter";
 
 const post = async (url, body, method = "POST") => {
   const r = await fetch(url, { method, headers: { "Content-Type": "application/json" }, body: JSON.stringify(body) });
@@ -143,6 +144,19 @@ export default function CompteClient() {
           </div>
         </div>
         <Msg m={prefMsg} />
+      </section>
+
+      <section className="acc-card">
+        <h2>E-mails</h2>
+        <label className="switch">
+          <input type="checkbox" checked={!!prefs.rappels} onChange={(e) => savePrefs({ rappels: e.target.checked })} />
+          <span className="track" aria-hidden="true" />
+          Me prévenir le matin quand un produit de mon frigo arrive à sa date limite, avec des idées pour le finir
+        </label>
+        <p className="muted small">Indique les dates dans ton frigo : touche la quantité d'un ingrédient, puis « À finir avant ».</p>
+        <div className="field" style={{ marginTop: 8 }}>Newsletter « 5 idées de saison », chaque lundi
+          <Newsletter compact email={email} />
+        </div>
       </section>
 
       <section className="acc-card">

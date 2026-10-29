@@ -25,7 +25,7 @@ function clean(list, max) {
 }
 
 // Préférences : petit objet de réglages par défaut.
-const PREFS = { personnes: [1, 2, 3, 4, 6, 8], temps: ["0", "20", "40", "90"], regime: ["", "végétarien", "vegan", "sans gluten", "sans lactose", "sans porc", "halal"], placard: [true, false] };
+const PREFS = { rappels: [true, false], newsletter: [true, false], personnes: [1, 2, 3, 4, 6, 8], temps: ["0", "20", "40", "90"], regime: ["", "végétarien", "vegan", "sans gluten", "sans lactose", "sans porc", "halal"], placard: [true, false] };
 function cleanPrefs(v) {
   if (!v || typeof v !== "object" || Array.isArray(v)) return null;
   const o = {};
