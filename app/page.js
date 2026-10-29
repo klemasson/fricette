@@ -1,7 +1,8 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
-import { suggest, pick, familyOfName, resolve } from "@/lib/match";
+import { suggest, pick, familyOfName, resolve, norm } from "@/lib/match";
+import { VOCAB, BASICS } from "@/data/vocab";
 import { FAM, artSvg } from "@/lib/art";
 import { daily } from "@/lib/season";
 import { Ico, Heart, FavButton, StarAvg } from "./components/bits";
@@ -11,7 +12,6 @@ import Scanner from "./components/Scanner";
 import { me, getList, setList, mergeAfterLogin, getRatings, track } from "@/lib/client";
 
 const UNITS = ["", "pièce", "g", "kg", "ml", "cl", "l", "tranche", "botte", "boîte", "pot", "c. à s.", "c. à c.", "gousse"];
-const UNIT_LABEL = (u) => (u === "" ? "—" : u);
 const PAGE = 8;
 
 const CHEF_LINES = [
@@ -29,6 +29,31 @@ const PHOTO_LINES = [
   "Je compte tes œufs (deux fois)…",
 ];
 
+// Ingrédients proposés pendant la saisie : noms du vocabulaire et leurs autres écritures.
+const SUG = VOCAB.filter(([cle]) => !BASICS.includes(cle)).map(([cle, nom, syn]) => ({ cle, nom, words: [nom, ...syn].map(norm) }));
+function suggestIngredients(q, have) {
+  const n = norm(q);
+  if (n.length < 2) return [];
+  // Rang : le nom commence par la saisie, puis un mot du nom, puis une autre écriture, puis le reste.
+  const rank = (s) => {
+    const nom = s.words[0];
+    if (nom.startsWith(n)) return 0;
+    if (nom.includes(" " + n)) return 1;
+    if (s.words.some((w) => w.startsWith(n))) return 2;
+    if (s.words.some((w) => w.includes(" " + n))) return 3;
+    if (s.words.some((w) => w.includes(n))) return 4;
+    return 9;
+  };
+  return SUG.filter((s) => !have.has(s.cle))
+    .map((s) => [rank(s), s])
+    .filter(([r]) => r < 9)
+    .sort((a, b) => a[0] - b[0] || a[1].nom.length - b[1].nom.length)
+    .slice(0, 6)
+    .map((x) => x[1]);
+}
+const QUICK = ["œufs", "lait", "beurre", "crème", "fromage râpé", "jambon", "yaourt nature", "tomates", "carottes", "courgettes", "pommes de terre", "poulet", "champignons", "poivrons", "salade verte"];
+const qtyLabel = (it) => (it.unite === "pièce" || !it.unite ? `${it.qte}` : `${it.qte} ${it.unite}`);
+
 const START = [
   { nom: "œufs", qte: 4, unite: "pièce" },
   { nom: "courgette", qte: 2, unite: "pièce" },
@@ -41,8 +66,7 @@ const START = [
 export default function Home() {
   const [fridge, setFridge] = useState(START);
   const [name, setName] = useState("");
-  const [qte, setQte] = useState("");
-  const [unite, setUnite] = useState("pièce");
+  const [focused, setFocused] = useState(false);
   const [temps, setTemps] = useState("40");
   const [regime, setRegime] = useState("");
   const [type, setType] = useState("");
@@ -60,12 +84,17 @@ export default function Home() {
   const [showRestore, setShowRestore] = useState(false);
   const fileRef = useRef(null);
   const [menuVisible, setMenuVisible] = useState(true);
+  const [ctaVisible, setCtaVisible] = useState(false);
   useEffect(() => {
     const el = document.getElementById("menu");
     if (!el || !("IntersectionObserver" in window)) return;
     const io = new IntersectionObserver(([e]) => setMenuVisible(e.isIntersecting || e.boundingClientRect.top < 0), { threshold: 0 });
     io.observe(el);
-    return () => io.disconnect();
+    // Le gros bouton « Voir les recettes » du frigo est à l'écran : pas besoin du bouton flottant.
+    const io2 = new IntersectionObserver(([e]) => setCtaVisible(e.isIntersecting), { threshold: 0 });
+    const cta = document.getElementById("see-recipes");
+    if (cta) io2.observe(cta);
+    return () => { io.disconnect(); io2.disconnect(); };
   }, []);
   const aiRef = useRef(null);
   const sheetRef = useRef(null);
@@ -79,6 +108,8 @@ export default function Home() {
   const [ratings, setRatings] = useState({});
   const [scanOpen, setScanOpen] = useState(false);
   const [cleared, setCleared] = useState(null);
+  const [sugIdx, setSugIdx] = useState(0);
+  const [editIdx, setEditIdx] = useState(null);
   const authRef = useRef(null);
   const loaded = useRef(false);
   const ticker = useRef(null);
@@ -158,21 +189,32 @@ export default function Home() {
     } catch {}
   }
 
-  function add(e) {
-    e.preventDefault();
-    const names = name.split(/[,;\n]/).map((s) => s.trim()).filter(Boolean);
+  function addNames(names) {
+    names = names.map((x) => x.trim()).filter(Boolean);
     if (!names.length) return;
     for (const n of names) { const k = resolve(n); track(k ? "ing" : "unknown", k || n); }
     setFridge((f) => {
       const next = [...f];
       for (const n of names) {
-        const i = next.findIndex((x) => x.nom.toLowerCase() === n.toLowerCase());
-        const item = { nom: n, qte: names.length === 1 && qte !== "" ? Number(qte) : null, unite: names.length === 1 ? unite : "" };
-        if (i >= 0) next[i] = item; else next.push(item);
+        if (!next.some((x) => x.nom.toLowerCase() === n.toLowerCase())) next.push({ nom: n, qte: null, unite: "" });
       }
       return next;
     });
-    setName(""); setQte("");
+    setName(""); setSugIdx(0);
+  }
+
+  function add(e) {
+    e.preventDefault();
+    // Entrée : on ajoute la suggestion surlignée (orthographe connue du carnet), sinon le texte tapé.
+    if (sugs.length && !name.includes(",")) return addNames([(sugs[sugIdx] || sugs[0]).nom]);
+    addNames(name.split(/[,;\n]/));
+  }
+
+  function onAddKey(e) {
+    if (!sugs.length) return;
+    if (e.key === "ArrowDown") { e.preventDefault(); setSugIdx((k) => (k + 1) % sugs.length); }
+    if (e.key === "ArrowUp") { e.preventDefault(); setSugIdx((k) => (k - 1 + sugs.length) % sugs.length); }
+    if (e.key === "Escape") setName("");
   }
 
   // Produit scanné : on additionne si l'ingrédient est déjà là dans la même unité.
@@ -304,6 +346,9 @@ export default function Home() {
     : null;
 
   const results = found?.results || [];
+  const inFridge = new Set(fridge.map((it) => resolve(it.nom)).filter(Boolean));
+  const sugs = useMemo(() => suggestIngredients(name, inFridge), [name, fridge]); // eslint-disable-line react-hooks/exhaustive-deps
+  const quick = QUICK.filter((q) => !inFridge.has(resolve(q))).slice(0, 8);
   const fridgeFams = [...new Set(fridge.map((it) => familyOfName(it.nom)))].filter((f) => f !== "gris");
 
   function openSheet(r) {
@@ -465,14 +510,39 @@ export default function Home() {
               )}
             </div>
           </div>
-          <form className="addrow" onSubmit={add}>
-            <input id="ing" value={name} onChange={(e) => setName(e.target.value)} placeholder="Ajoute un ingrédient (ex. carottes)" aria-label="Ingrédient" autoComplete="off" />
-            <input id="qte" value={qte} onChange={(e) => setQte(e.target.value)} type="number" min="0" step="any" inputMode="decimal" placeholder="Qté" aria-label="Quantité" />
-            <select id="unite" value={unite} onChange={(e) => setUnite(e.target.value)} aria-label="Unité">
-              {UNITS.map((u) => <option key={u} value={u}>{UNIT_LABEL(u)}</option>)}
-            </select>
+          <form className="addbox" onSubmit={add} onKeyDown={onAddKey}>
+            <div className="addfield">
+              <svg className="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14" /></svg>
+              <input id="ing" value={name} onChange={(e) => { setName(e.target.value); setSugIdx(0); }} placeholder="Ajoute un ingrédient : carottes, feta, riz…"
+                aria-label="Ingrédient" autoComplete="off" role="combobox" aria-expanded={sugs.length > 0} aria-controls="ing-sugs"
+                onFocus={() => setFocused(true)} onBlur={() => setFocused(false)} />
+              {focused && sugs.length > 0 && (
+                <ul className="sugs" id="ing-sugs" role="listbox">
+                  {sugs.map((sg, k) => (
+                    <li key={sg.cle} role="option" aria-selected={k === sugIdx}>
+                      <button type="button" onMouseDown={(e) => e.preventDefault()} onClick={() => addNames([sg.nom])}>
+                        <Ico fam={familyOfName(sg.nom)} rot={0} />{sg.nom}
+                      </button>
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </div>
             <button className="btn" type="submit">Ajouter</button>
+            <button className="scan-icon" type="button" onClick={() => setScanOpen(true)} aria-label="Scanner un code-barres" title="Scanner un code-barres">
+              <svg className="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7V5h3M17 5h3v2M20 17v2h-3M7 19H4v-2M8 9v6M11 9v6M14 9v6M17 9v6" /></svg>
+              <span>Scanner</span>
+            </button>
           </form>
+
+          {quick.length > 0 && (
+            <div className="quick" aria-label="Ajout rapide">
+              <span>Ajout rapide :</span>
+              {quick.map((q) => (
+                <button key={q} type="button" className="quick-chip" onClick={() => addNames([q])}>+ {q}</button>
+              ))}
+            </div>
+          )}
 
           {cleared && (
             <p className="undo-bar" role="status">
@@ -480,51 +550,72 @@ export default function Home() {
               <button className="link" type="button" onClick={() => { setFridge(cleared); setCleared(null); }}>Annuler</button>
             </p>
           )}
-          {fridge.length === 0 && <p className="empty">Ton frigo est vide. Ajoute ce qui traîne au frais, ou scanne les codes-barres de tes produits.</p>}
+          {fridge.length === 0 && !cleared && <p className="empty">Ton frigo est vide. Ajoute ce qui traîne au frais, ou scanne les codes-barres de tes produits.</p>}
           <div className="tokens">
             {fridge.map((it, i) => (
-              <span className="token" key={it.nom + i}>
+              <span className={"token" + (editIdx === i ? " editing" : "")} key={it.nom + i}>
                 <Ico fam={familyOfName(it.nom)} />
                 <span className="n">{it.nom}</span>
-                <input
-                  type="number" min="0" step="any" inputMode="decimal" aria-label={`Quantité de ${it.nom}`}
-                  placeholder="qté" value={it.qte ?? ""}
-                  onChange={(e) => update(i, { qte: e.target.value === "" ? null : Number(e.target.value) })}
-                />
-                <select value={it.unite || ""} onChange={(e) => update(i, { unite: e.target.value })} aria-label={`Unité de ${it.nom}`}>
-                  {UNITS.map((u) => <option key={u} value={u}>{UNIT_LABEL(u)}</option>)}
-                </select>
-                <button className="x" type="button" onClick={() => remove(i)} aria-label={`Retirer ${it.nom}`}>×</button>
+                {editIdx === i ? (
+                  <span className="qedit" onKeyDown={(e) => { if (e.key === "Enter" || e.key === "Escape") { e.preventDefault(); setEditIdx(null); } }}>
+                    <input
+                      type="number" min="0" step="any" inputMode="decimal" aria-label={`Quantité de ${it.nom}`} autoFocus
+                      placeholder="qté" value={it.qte ?? ""}
+                      onChange={(e) => update(i, { qte: e.target.value === "" ? null : Number(e.target.value), unite: it.unite || "pièce" })}
+                    />
+                    <select value={it.unite || "pièce"} onChange={(e) => update(i, { unite: e.target.value })} aria-label={`Unité de ${it.nom}`}>
+                      {UNITS.filter(Boolean).map((u) => <option key={u} value={u}>{u}</option>)}
+                    </select>
+                    <button type="button" className="ok" onClick={() => setEditIdx(null)}>OK</button>
+                  </span>
+                ) : (
+                  <button type="button" className={"qbtn" + (it.qte == null ? " empty-q" : "")} onClick={() => setEditIdx(i)} aria-label={`Modifier la quantité de ${it.nom}`}>
+                    {it.qte == null ? "+ qté" : qtyLabel(it)}
+                  </button>
+                )}
+                <button className="x" type="button" onClick={() => { setEditIdx(null); remove(i); }} aria-label={`Retirer ${it.nom}`}>×</button>
               </span>
             ))}
           </div>
+          {fridge.length > 0 && <p className="hint">Touche une quantité pour la modifier : plus elle est juste, mieux Fricette choisit.</p>}
           {found?.unknown.length > 0 && (
             <p className="note">Le carnet ne connaît pas encore : {found.unknown.join(", ")}.{info?.ai ? " Le chef, lui, saura quoi en faire." : ""}</p>
           )}
 
-          <div className="filters" role="group" aria-label="Type de recette">
-            {TYPES.map(([v, l]) => (
-              <button key={v} className="f" type="button" aria-pressed={type === v} onClick={() => setType(v)}>{l}</button>
-            ))}
-            <button className="f" type="button" aria-pressed={basiques} onClick={() => setBasiques((b) => !b)} title="Sel, poivre, huile, farine, sucre, beurre">
-              J'ai les basiques
-            </button>
-            <button className="f" type="button" aria-pressed={placard} onClick={() => setPlacard((b) => !b)} title="Oignon, ail, pâtes, riz, semoule, épices, herbes de Provence, bouillon, moutarde, sauce soja, miel">
-              J'ai un placard classique
-            </button>
-          </div>
-          <div className="opts">
-            <select id="temps" value={temps} onChange={(e) => setTemps(e.target.value)} aria-label="Temps">
-              <option value="0">Temps : peu importe</option><option value="20">≤ 20 min</option>
-              <option value="40">≤ 40 min</option><option value="90">≤ 1 h 30</option>
-            </select>
-            <select id="regime" value={regime} onChange={(e) => setRegime(e.target.value)} aria-label="Régime">
-              <option value="">Régime : aucun</option><option>végétarien</option><option>vegan</option>
-              <option>sans gluten</option><option>sans lactose</option><option>sans porc</option><option>halal</option>
-            </select>
-            <select id="personnes" value={personnes} onChange={(e) => setPersonnes(e.target.value)} aria-label="Nombre de personnes">
-              {[1, 2, 3, 4, 6, 8].map((n) => <option key={n} value={n}>Pour {n}</option>)}
-            </select>
+          <div className="prefs">
+            <div className="filters" role="group" aria-label="Type de recette">
+              {TYPES.map(([v, l]) => (
+                <button key={v} className="f" type="button" aria-pressed={type === v} onClick={() => setType(v)}>{l}</button>
+              ))}
+            </div>
+            <div className="opts">
+              <label className="opt"><span aria-hidden="true">⏱</span>
+                <select id="temps" value={temps} onChange={(e) => setTemps(e.target.value)} aria-label="Temps">
+                  <option value="0">Peu importe le temps</option><option value="20">20 min max</option>
+                  <option value="40">40 min max</option><option value="90">1 h 30 max</option>
+                </select>
+              </label>
+              <label className="opt"><span aria-hidden="true">👥</span>
+                <select id="personnes" value={personnes} onChange={(e) => setPersonnes(e.target.value)} aria-label="Nombre de personnes">
+                  {[1, 2, 3, 4, 6, 8].map((n) => <option key={n} value={n}>Pour {n}</option>)}
+                </select>
+              </label>
+              <label className="opt"><span aria-hidden="true">🌿</span>
+                <select id="regime" value={regime} onChange={(e) => setRegime(e.target.value)} aria-label="Régime">
+                  <option value="">Tout régime</option><option>végétarien</option><option>vegan</option>
+                  <option>sans gluten</option><option>sans lactose</option><option>sans porc</option><option>halal</option>
+                </select>
+              </label>
+
+            </div>
+            <div className="placard-row">
+              <label className="switch" title="Sel, poivre, huile, beurre, farine, sucre, oignon, ail, pâtes, riz, semoule, épices, bouillon, moutarde…">
+                <input type="checkbox" checked={basiques && placard} onChange={(e) => { setBasiques(e.target.checked); setPlacard(e.target.checked); }} />
+                <span className="track" aria-hidden="true" />
+                J'ai un placard de base
+              </label>
+            </div>
+            <p className="hint">{basiques && placard ? "On suppose que tu as sel, huile, beurre, farine, oignon, ail, pâtes, riz et épices." : "Seuls les ingrédients de ton frigo comptent."}</p>
           </div>
 
           <div className="actions">
@@ -533,15 +624,11 @@ export default function Home() {
               <button className="ghost" type="button" onClick={() => fileRef.current?.click()} disabled={busy}>Photo du frigo</button>
               <input ref={fileRef} className="hidden-file" type="file" accept="image/*" onChange={onPhoto} tabIndex={-1} aria-hidden="true" />
             </>}
-            {info && !info.ai && (
-              <button className="cta" type="button" onClick={() => document.getElementById("menu")?.scrollIntoView({ behavior: "smooth" })}>
-                Voir les recettes
+            {(
+              <button id="see-recipes" className="cta big" type="button" onClick={() => document.getElementById("menu")?.scrollIntoView({ behavior: "smooth" })}>
+                {found && results.length ? `Voir les ${results.length} recettes →` : "Voir les recettes →"}
               </button>
             )}
-            <button className="ghost scan-btn" type="button" onClick={() => setScanOpen(true)}>
-              <svg className="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7V5h3M17 5h3v2M20 17v2h-3M7 19H4v-2M8 9v6M11 9v6M14 9v6M17 9v6" /></svg>
-              Scanner un code-barres
-            </button>
           </div>
           <div className={"status" + (status.err ? " err" : "") + (status.chef ? " chef" : "")} role="status">{status.text}</div>
 
@@ -636,7 +723,7 @@ export default function Home() {
         </section>
       )}
 
-      {!menuVisible && results.length > 0 && (
+      {!menuVisible && !ctaVisible && results.length > 0 && (
         <button type="button" className="float-cta" onClick={() => document.getElementById("menu")?.scrollIntoView({ behavior: "smooth" })}>
           Voir les {results.length} recettes ↓
         </button>
