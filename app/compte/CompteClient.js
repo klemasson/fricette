@@ -4,6 +4,7 @@ import { me, getList, setList, getFavorites, loadLocal } from "@/lib/client";
 import { InstallApp } from "@/app/components/Pwa";
 import { ALLERGENS } from "@/data/allergens";
 import Newsletter from "@/app/components/Newsletter";
+import Bilan from "@/app/components/Bilan";
 
 const post = async (url, body, method = "POST") => {
   const r = await fetch(url, { method, headers: { "Content-Type": "application/json" }, body: JSON.stringify(body) });
@@ -109,6 +110,8 @@ export default function CompteClient() {
         <a href="/courses" className="acc-link"><strong>{counts.courses}</strong><span>article{counts.courses > 1 ? "s" : ""} à acheter</span></a>
         <a href="/#frigo" className="acc-link"><strong>Frigo</strong><span>synchronisé</span></a>
       </div>
+
+      <Bilan />
 
       <section className="acc-card">
         <h2>Mes réglages</h2>

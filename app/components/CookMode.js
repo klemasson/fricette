@@ -38,7 +38,7 @@ function beep() {
   try { navigator.vibrate?.([300, 150, 300, 150, 300]); } catch {}
 }
 
-export default function CookMode({ r, onClose }) {
+export default function CookMode({ r, onClose, onDone }) {
   const steps = r.etapes || [];
   const [i, setI] = useState(0);
   const [showIngs, setShowIngs] = useState(false);
@@ -136,7 +136,7 @@ export default function CookMode({ r, onClose }) {
         <button type="button" className="link" onClick={() => setShowIngs((v) => !v)}>{showIngs ? "Cacher" : "Voir"} les ingrédients</button>
         {i < steps.length - 1
           ? <button type="button" className="cta" onClick={() => setI((x) => x + 1)}>Suivante →</button>
-          : <button type="button" className="cta" onClick={onClose}>Bon appétit !</button>}
+          : <button type="button" className="cta" onClick={onDone || onClose}>C'est prêt ! ✓</button>}
       </div>
     </div>
   );

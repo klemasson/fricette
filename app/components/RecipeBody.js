@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { Ico, FavButton, Basket } from "./bits";
 import CookMode from "./CookMode";
 import Gestes, { useVideos } from "./Gestes";
-import { addToCourses, share, getRatings, sendRating } from "@/lib/client";
+import { addToCourses, share, getRatings, sendRating, logCooked, consumeFridge } from "@/lib/client";
 import { allergenLabel } from "@/data/allergens";
 
 export function summary(r) {
@@ -30,6 +30,7 @@ export default function RecipeBody({ r, compare = true, fav, onFav, controls, ti
   const [msg, setMsg] = useState("");
   const [rating, setRating] = useState({ avg: null, mine: 0 });
   const [hover, setHover] = useState(0);
+  const [cooked, setCooked] = useState(null); // null | { g, done }
   const Title = titleTag;
   const videos = useVideos();
   const url = `${SITE}/recette/${r.id}`;
@@ -55,6 +56,16 @@ export default function RecipeBody({ r, compare = true, fav, onFav, controls, ti
     const n = await addToCourses(list.map((i) => ({ nom: i.nom, quantite: i.quantite })), r);
     setMsg(n ? `${n} ingrédient${n > 1 ? "s" : ""} ajouté${n > 1 ? "s" : ""} à ta liste de courses.` : "Déjà dans ta liste de courses.");
   }
+
+  async function markCooked() {
+    const g = await logCooked(r);
+    setCooked({ g, done: false });
+  }
+  async function updateFridge() {
+    const res = await consumeFridge(r);
+    setCooked((c) => ({ ...c, done: true, res }));
+  }
+  const usesFridge = compare && (r.ingredients || []).some((i) => (i.etat === "have" || i.etat === "short") && !i.basique && i.note !== "placard");
 
   async function onShare() {
     const res = await share({ title: r.titre, url });
@@ -96,11 +107,31 @@ export default function RecipeBody({ r, compare = true, fav, onFav, controls, ti
           {onFav && r.id && <FavButton on={fav} onClick={() => onFav(r.id)} />}
           {r.id && <button type="button" className="chip" onClick={toCourses}><Basket />{coursesLabel}</button>}
           <button type="button" className="chip strong" onClick={() => setCook(true)}>▶ Mode cuisine</button>
+          <button type="button" className="chip" onClick={markCooked} disabled={!!cooked}>{cooked ? "✓ Cuisinée !" : "✓ Je l'ai cuisinée"}</button>
           {r.id && <button type="button" className="chip" onClick={onShare}>Partager</button>}
           {r.id && <button type="button" className="chip hide-sm" onClick={() => (pageLink ? window.open(`/recette/${r.id}?imprimer=1`, "_blank") : window.print())}>Imprimer</button>}
           {controls}
         </div>
         <div className="toast" role="status">{msg}</div>
+        {cooked && (
+          <div className="cooked">
+            <strong>Bravo ! 🌱</strong>{" "}
+            {cooked.g > 0 ? <>Environ <b>{cooked.g >= 1000 ? `${(cooked.g / 1000).toFixed(1).replace(".", ",")} kg` : `${cooked.g} g`}</b> d'aliments sauvés de la poubelle.</> : "Recette ajoutée à ton bilan."}
+            {usesFridge && !cooked.done && (
+              <div className="cooked-actions">
+                <button type="button" className="btn small" onClick={updateFridge}>Retirer ce que j'ai utilisé de mon frigo</button>
+                <button type="button" className="link" onClick={() => setCooked((c) => ({ ...c, done: true }))}>Non merci</button>
+              </div>
+            )}
+            {cooked.done && cooked.res && (
+              <p className="small-note">
+                {cooked.res.changed.length ? `Frigo mis à jour : ${cooked.res.changed.join(", ")}.` : "Rien à retirer automatiquement."}
+                {cooked.res.unknown.length ? ` Vérifie les quantités de : ${cooked.res.unknown.join(", ")}.` : ""}
+              </p>
+            )}
+            <a className="small-note" href="/compte#bilan">Voir mon bilan anti-gaspi →</a>
+          </div>
+        )}
       </div>
 
       <div className="cols">
@@ -145,7 +176,7 @@ export default function RecipeBody({ r, compare = true, fav, onFav, controls, ti
         </div>
       )}
 
-      {cook && <CookMode r={r} onClose={() => setCook(false)} />}
+      {cook && <CookMode r={r} onClose={() => setCook(false)} onDone={() => { setCook(false); if (!cooked) markCooked(); }} />}
     </>
   );
 }

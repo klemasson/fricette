@@ -12,6 +12,7 @@ import { CoursesLink } from "./components/Live";
 import Scanner from "./components/Scanner";
 import { InstallApp } from "./components/Pwa";
 import Newsletter from "./components/Newsletter";
+import Bilan from "./components/Bilan";
 import { me, getList, setList, mergeAfterLogin, getRatings, track, loadLocal } from "@/lib/client";
 
 const UNITS = ["", "pièce", "g", "kg", "ml", "cl", "l", "tranche", "botte", "boîte", "pot", "c. à s.", "c. à c.", "gousse"];
@@ -159,6 +160,8 @@ export default function Home() {
     getRatings().then((d) => setRatings(d.all || {}));
     const onRatings = (e) => setRatings(e.detail.all || {});
     window.addEventListener("frc:ratings", onRatings);
+    const onFrigo = (e) => Array.isArray(e.detail) && setFridge(e.detail);
+    window.addEventListener("frc:frigo", onFrigo);
     track("page", "/");
     // Liens depuis les autres pages : /?connexion=1 (se connecter), /?connexion=creer, /?compte=supprime
     const qs = new URLSearchParams(window.location.search);
@@ -193,7 +196,7 @@ export default function Home() {
       setStatus({ text: msgs[p][0], err: msgs[p][1] });
       window.history.replaceState(null, "", "/");
     }
-    return () => window.removeEventListener("frc:ratings", onRatings);
+    return () => { window.removeEventListener("frc:ratings", onRatings); window.removeEventListener("frc:frigo", onFrigo); };
   }, []);
 
   useEffect(() => {
@@ -590,6 +593,7 @@ export default function Home() {
             </button>
           </form>
 
+          <Bilan compact />
           {quick.length > 0 && (
             <div className="quick" aria-label="Ajout rapide">
               <span>Ajout rapide :</span>

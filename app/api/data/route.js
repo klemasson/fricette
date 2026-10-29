@@ -8,7 +8,7 @@ const ALLERGEN_KEYS = ALLERGENS.map((a) => a.key);
 
 export const dynamic = "force-dynamic";
 
-const KINDS = { courses: 300, frigo: 200 }; // nombre maximum d'éléments
+const KINDS = { courses: 300, frigo: 200, cuisine: 1000, planning: 30 }; // nombre maximum d'éléments
 
 function clean(list, max) {
   if (!Array.isArray(list)) return null;
