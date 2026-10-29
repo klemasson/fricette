@@ -1,0 +1,3706 @@
+[
+  {
+    "titre": "Linguine aux poivrons poêlés, câpres et basilic",
+    "categorie": "plat",
+    "temps": 25,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pates",
+        "nom": "linguine",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "poivron",
+        "nom": "poivrons rouges et jaunes",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousses d'ail",
+        "qte": 2,
+        "unite": "gousse"
+      },
+      {
+        "cle": "capre",
+        "nom": "câpres",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "basilic",
+        "nom": "basilic",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Porter une grande casserole d'eau salée à ébullition.",
+      "Couper les poivrons en fines lanières et émincer l'ail.",
+      "Faire revenir les poivrons 12 minutes à feu moyen dans l'huile d'olive, en remuant, jusqu'à ce qu'ils soient tendres et légèrement colorés ; ajouter l'ail et les câpres les 2 dernières minutes.",
+      "Pendant ce temps, cuire les linguine al dente selon le paquet et réserver une louche d'eau de cuisson.",
+      "Égoutter les pâtes, les verser dans la poêle avec un peu d'eau de cuisson et mélanger 1 minute pour lier.",
+      "Poivrer, goûter le sel (les câpres sont déjà salées) et parsemer de basilic déchiré."
+    ],
+    "astuce": "Les poivrons un peu fripés du bac à légumes sont parfaits ici : la cuisson longue les rend fondants."
+  },
+  {
+    "titre": "Fusilli à la sauce de lentilles corail et tomate",
+    "categorie": "plat",
+    "temps": 25,
+    "difficulte": "facile",
+    "portions": 3,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pates",
+        "nom": "fusilli",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "lentille_corail",
+        "nom": "lentilles corail",
+        "qte": 80,
+        "unite": "g"
+      },
+      {
+        "cle": "tomate_concassee",
+        "nom": "tomates concassées",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousse d'ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "herbes_provence",
+        "nom": "herbes de Provence",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Rincer les lentilles corail à l'eau froide.",
+      "Émincer l'oignon et l'ail, puis les faire revenir 3 minutes dans l'huile d'olive à feu moyen.",
+      "Ajouter les lentilles, les tomates concassées, les herbes de Provence et 250 ml d'eau ; saler, poivrer et laisser mijoter 15 minutes à couvert en remuant de temps en temps, jusqu'à ce que les lentilles se défassent.",
+      "Pendant ce temps, cuire les fusilli al dente dans une grande casserole d'eau salée.",
+      "Égoutter les pâtes et les mélanger à la sauce ; rallonger d'un peu d'eau si elle est trop épaisse."
+    ],
+    "astuce": "La sauce se congèle très bien en portions et fait une bolognaise végétale pour les soirs pressés."
+  },
+  {
+    "titre": "Pâtes au fenouil fondant, citron et parmesan",
+    "categorie": "plat",
+    "temps": 25,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pates",
+        "nom": "pâtes courtes (penne, casarecce)",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "fenouil",
+        "nom": "bulbe de fenouil",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "citron",
+        "nom": "citron non traité",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "parmesan",
+        "nom": "parmesan râpé",
+        "qte": 40,
+        "unite": "g"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousse d'ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 15,
+        "unite": "g"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Porter une grande casserole d'eau salée à ébullition.",
+      "Couper le fenouil en deux, retirer le trognon et l'émincer finement ; garder les pluches.",
+      "Faire fondre le fenouil avec l'ail écrasé 12 minutes à feu moyen dans l'huile d'olive et le beurre, en remuant, jusqu'à ce qu'il soit tendre et doré.",
+      "Pendant ce temps, cuire les pâtes al dente et réserver une louche d'eau de cuisson.",
+      "Ajouter les pâtes égouttées dans la poêle avec le zeste et le jus d'un demi-citron, le parmesan et un peu d'eau de cuisson ; mélanger vivement pour obtenir une sauce nappante.",
+      "Poivrer généreusement et parsemer des pluches de fenouil hachées."
+    ],
+    "astuce": "Le reste du citron et du fenouil cru se transforme en salade croquante pour le lendemain."
+  },
+  {
+    "titre": "Pâtes aux pois chiches poêlés, ail et piment",
+    "categorie": "plat",
+    "temps": 20,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pates",
+        "nom": "pâtes courtes",
+        "qte": 180,
+        "unite": "g"
+      },
+      {
+        "cle": "pois_chiche",
+        "nom": "pois chiches cuits",
+        "qte": 240,
+        "unite": "g"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousses d'ail",
+        "qte": 2,
+        "unite": "gousse"
+      },
+      {
+        "cle": "piment_poudre",
+        "nom": "piment en flocons",
+        "qte": 1,
+        "unite": "pincée"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "parmesan",
+        "nom": "parmesan râpé",
+        "qte": 30,
+        "unite": "g"
+      },
+      {
+        "cle": "persil",
+        "nom": "persil",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Cuire les pâtes al dente dans une grande casserole d'eau salée et réserver une louche d'eau de cuisson.",
+      "Égoutter et bien sécher les pois chiches.",
+      "Les faire dorer 8 minutes dans l'huile d'olive à feu moyen-vif, en secouant la poêle, jusqu'à ce qu'ils soient croustillants ; ajouter l'ail émincé et le piment la dernière minute.",
+      "Verser les pâtes égouttées dans la poêle avec un peu d'eau de cuisson et le parmesan, et mélanger 1 minute.",
+      "Poivrer et parsemer de persil haché."
+    ],
+    "astuce": "Pour une version vegan, remplacer le parmesan par une cuillère de chapelure dorée à l'huile."
+  },
+  {
+    "titre": "Pâtes aux aubergines poêlées, tomates et ricotta",
+    "categorie": "plat",
+    "temps": 25,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pates",
+        "nom": "pâtes courtes",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "aubergine",
+        "nom": "aubergine",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "tomate_cerise",
+        "nom": "tomates cerises",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "ricotta",
+        "nom": "ricotta",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousse d'ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "basilic",
+        "nom": "basilic",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Couper l'aubergine en cubes de 1,5 cm.",
+      "Les faire dorer 10 minutes dans l'huile d'olive à feu moyen-vif, en remuant souvent, jusqu'à ce qu'ils soient fondants ; saler.",
+      "Ajouter l'ail émincé et les tomates cerises coupées en deux et cuire encore 5 minutes, jusqu'à ce qu'elles éclatent.",
+      "Pendant ce temps, cuire les pâtes al dente dans une grande casserole d'eau salée et réserver une louche d'eau de cuisson.",
+      "Mélanger les pâtes égouttées à la poêlée avec un peu d'eau de cuisson, puis répartir dans les assiettes.",
+      "Déposer des cuillerées de ricotta, poivrer et parsemer de basilic."
+    ],
+    "astuce": "Une aubergine un peu molle convient très bien : coupée en cubes, elle dore aussi bien qu'une ferme."
+  },
+  {
+    "titre": "Pâtes à l'avocat, citron vert et basilic",
+    "categorie": "plat",
+    "temps": 15,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pates",
+        "nom": "spaghetti",
+        "qte": 180,
+        "unite": "g"
+      },
+      {
+        "cle": "avocat",
+        "nom": "avocats bien mûrs",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "citron_vert",
+        "nom": "citron vert",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "ail",
+        "nom": "petite gousse d'ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "basilic",
+        "nom": "basilic",
+        "qte": 10,
+        "unite": "pièce"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "tomate_cerise",
+        "nom": "tomates cerises",
+        "qte": 100,
+        "unite": "g",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Cuire les spaghetti al dente dans une grande casserole d'eau salée et réserver une louche d'eau de cuisson.",
+      "Pendant ce temps, mixer la chair des avocats avec l'ail, les feuilles de basilic, le jus du citron vert, l'huile d'olive, du sel et du poivre jusqu'à obtenir une crème lisse.",
+      "Égoutter les pâtes et les mélanger hors du feu avec la crème d'avocat, en ajoutant un peu d'eau de cuisson pour l'assouplir.",
+      "Servir aussitôt avec les tomates cerises coupées en quatre."
+    ],
+    "astuce": "Idéal pour sauver des avocats trop mûrs ; la sauce noircit vite, donc la préparer au dernier moment."
+  },
+  {
+    "titre": "Pâtes aux choux de Bruxelles émincés, noisettes et parmesan",
+    "categorie": "plat",
+    "temps": 25,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pates",
+        "nom": "pâtes courtes",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "chou_bruxelles",
+        "nom": "choux de Bruxelles",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "noisette",
+        "nom": "noisettes",
+        "qte": 30,
+        "unite": "g"
+      },
+      {
+        "cle": "parmesan",
+        "nom": "parmesan râpé",
+        "qte": 40,
+        "unite": "g"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousse d'ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 20,
+        "unite": "g"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 0.5,
+        "unite": "pièce",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Porter une grande casserole d'eau salée à ébullition.",
+      "Parer les choux de Bruxelles et les émincer finement ; concasser grossièrement les noisettes.",
+      "Torréfier les noisettes 3 minutes à sec dans une grande poêle, puis les réserver.",
+      "Faire sauter les choux émincés et l'ail 8 minutes dans le beurre et l'huile à feu vif, jusqu'à ce qu'ils soient tendres et dorés par endroits.",
+      "Pendant ce temps, cuire les pâtes al dente et réserver une louche d'eau de cuisson.",
+      "Mélanger les pâtes égouttées aux choux avec le parmesan, un peu d'eau de cuisson et un filet de jus de citron ; servir parsemé de noisettes et poivré."
+    ],
+    "astuce": "Émincés finement, les choux de Bruxelles cuisent en quelques minutes et perdent leur amertume."
+  },
+  {
+    "titre": "Omelette aux champignons, ciboulette et gruyère",
+    "categorie": "plat",
+    "temps": 15,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "champignon",
+        "nom": "champignons de Paris",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "gruyere",
+        "nom": "gruyère râpé",
+        "qte": 40,
+        "unite": "g"
+      },
+      {
+        "cle": "ciboulette",
+        "nom": "ciboulette",
+        "qte": 0.5,
+        "unite": "botte"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 20,
+        "unite": "g"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Émincer les champignons et ciseler la ciboulette.",
+      "Faire sauter les champignons 6 minutes à feu vif dans la moitié du beurre, jusqu'à ce que leur eau soit évaporée et qu'ils dorent ; saler, puis les réserver.",
+      "Battre les œufs avec la moitié de la ciboulette, du sel et du poivre.",
+      "Faire fondre le reste du beurre dans la poêle à feu moyen, verser les œufs et ramener les bords vers le centre pendant 2 minutes.",
+      "Quand le dessus est encore baveux, répartir les champignons et le gruyère sur une moitié, plier l'omelette et la glisser sur l'assiette.",
+      "Parsemer du reste de ciboulette."
+    ],
+    "astuce": "Les champignons un peu ridés gagnent en goût : il suffit de bien les saisir pour évaporer leur eau."
+  },
+  {
+    "titre": "Omelette aux poireaux fondants et chèvre frais",
+    "categorie": "plat",
+    "temps": 20,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "poireau",
+        "nom": "poireau",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "chevre",
+        "nom": "chèvre frais",
+        "qte": 60,
+        "unite": "g"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 20,
+        "unite": "g"
+      },
+      {
+        "cle": "muscade",
+        "nom": "muscade",
+        "qte": 1,
+        "unite": "pincée",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Émincer finement le poireau et bien le rincer.",
+      "Le faire fondre 10 minutes à couvert dans le beurre à feu doux, avec une pincée de sel, jusqu'à ce qu'il soit tendre.",
+      "Battre les œufs avec la muscade, du sel et du poivre, puis les verser sur les poireaux.",
+      "Cuire 3 minutes à feu moyen en ramenant les bords vers le centre, puis émietter le chèvre sur le dessus.",
+      "Couvrir 1 minute pour que le chèvre tiédisse, plier l'omelette et servir."
+    ],
+    "astuce": "Le vert du poireau convient aussi, à condition de l'émincer très fin et de le cuire 3 minutes de plus."
+  },
+  {
+    "titre": "Omelette aux tomates cerises, mozzarella et basilic",
+    "categorie": "plat",
+    "temps": 15,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "tomate_cerise",
+        "nom": "tomates cerises",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "mozzarella",
+        "nom": "mozzarella",
+        "qte": 125,
+        "unite": "g"
+      },
+      {
+        "cle": "basilic",
+        "nom": "basilic",
+        "qte": 8,
+        "unite": "pièce"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Couper les tomates cerises en deux et la mozzarella en dés ; égoutter les dés sur du papier absorbant.",
+      "Saisir les tomates 2 minutes dans l'huile d'olive à feu vif dans une poêle de 24 cm.",
+      "Battre les œufs avec du sel et du poivre et les verser sur les tomates, à feu moyen.",
+      "Cuire 3 minutes en ramenant les bords vers le centre, puis parsemer de mozzarella.",
+      "Couvrir et cuire 2 minutes à feu doux, jusqu'à ce que la mozzarella file ; servir à plat avec le basilic déchiré."
+    ],
+    "astuce": "Avec une salade verte et une tranche de pain, c'est un souper complet en un quart d'heure."
+  },
+  {
+    "titre": "Croque aux champignons, épinards et gruyère",
+    "categorie": "plat",
+    "temps": 20,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pain_mie",
+        "nom": "pain de mie",
+        "qte": 4,
+        "unite": "tranche"
+      },
+      {
+        "cle": "champignon",
+        "nom": "champignons de Paris",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "epinard",
+        "nom": "jeunes pousses d'épinards",
+        "qte": 60,
+        "unite": "g"
+      },
+      {
+        "cle": "gruyere",
+        "nom": "gruyère râpé",
+        "qte": 80,
+        "unite": "g"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousse d'ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre mou",
+        "qte": 25,
+        "unite": "g"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Émincer les champignons et les faire sauter 5 minutes à feu vif dans une noisette du beurre avec l'ail haché.",
+      "Ajouter les épinards et remuer 1 minute jusqu'à ce qu'ils tombent ; saler, poivrer et bien égoutter.",
+      "Beurrer chaque tranche de pain de mie sur une face avec le reste du beurre.",
+      "Garnir deux tranches, face non beurrée vers le haut, de la moitié du gruyère, de la poêlée, puis du reste du gruyère ; refermer avec les tranches restantes, face beurrée vers l'extérieur.",
+      "Cuire les croques 3 à 4 minutes de chaque côté à feu moyen dans la poêle, en appuyant avec une spatule, jusqu'à ce qu'ils soient dorés et le fromage fondu."
+    ],
+    "astuce": "Une salade verte vinaigrée à côté équilibre bien le fromage fondu."
+  },
+  {
+    "titre": "Croque tomate, mozzarella et pesto à la poêle",
+    "categorie": "plat",
+    "temps": 15,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pain_mie",
+        "nom": "pain de mie",
+        "qte": 4,
+        "unite": "tranche"
+      },
+      {
+        "cle": "mozzarella",
+        "nom": "mozzarella",
+        "qte": 125,
+        "unite": "g"
+      },
+      {
+        "cle": "tomate",
+        "nom": "tomate",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "pesto",
+        "nom": "pesto",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre mou",
+        "qte": 20,
+        "unite": "g"
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Couper la tomate et la mozzarella en tranches fines ; éponger la mozzarella.",
+      "Beurrer chaque tranche de pain de mie sur une face.",
+      "Tartiner l'autre face de pesto, puis garnir deux tranches de mozzarella et de tomate ; poivrer et refermer, face beurrée vers l'extérieur.",
+      "Cuire 3 à 4 minutes de chaque côté à feu moyen en appuyant légèrement, jusqu'à ce que le pain soit doré et la mozzarella fondue."
+    ],
+    "astuce": "Bien éponger la tomate et la mozzarella évite un croque détrempé."
+  },
+  {
+    "titre": "Wraps aux œufs brouillés, avocat et tomate",
+    "categorie": "plat",
+    "temps": 15,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "tortilla",
+        "nom": "tortillas de blé",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 4,
+        "unite": "pièce"
+      },
+      {
+        "cle": "avocat",
+        "nom": "avocat",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "tomate",
+        "nom": "tomate",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "fromage_rape",
+        "nom": "fromage râpé",
+        "qte": 40,
+        "unite": "g"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 10,
+        "unite": "g"
+      },
+      {
+        "cle": "piment_poudre",
+        "nom": "piment en poudre",
+        "qte": 1,
+        "unite": "pincée",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Couper la tomate en dés et l'avocat en lamelles ; saler légèrement.",
+      "Battre les œufs avec du sel et du poivre.",
+      "Les cuire dans le beurre à feu doux 3 minutes en remuant sans cesse, jusqu'à ce qu'ils soient crémeux ; ajouter le fromage râpé hors du feu.",
+      "Réchauffer les tortillas 30 secondes de chaque côté dans une poêle sèche.",
+      "Garnir chaque tortilla d'œufs brouillés, d'avocat et de tomate, saupoudrer de piment et rouler en serrant."
+    ],
+    "astuce": "Roulés dans du papier alu, ils s'emportent facilement pour un repas sur le pouce."
+  },
+  {
+    "titre": "Wraps de pois chiches écrasés, carotte râpée et yaourt au cumin",
+    "categorie": "plat",
+    "temps": 15,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "tortilla",
+        "nom": "tortillas de blé",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "pois_chiche",
+        "nom": "pois chiches cuits",
+        "qte": 240,
+        "unite": "g"
+      },
+      {
+        "cle": "carotte",
+        "nom": "carotte",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "yaourt",
+        "nom": "yaourt nature",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "cumin",
+        "nom": "cumin",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 0.5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "salade",
+        "nom": "feuilles de salade",
+        "qte": 4,
+        "unite": "pièce"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Mélanger le yaourt avec la moitié du cumin, une pincée de sel et un trait de jus de citron.",
+      "Écraser les pois chiches égouttés à la fourchette avec l'huile d'olive, le reste du cumin, le reste du jus de citron, du sel et du poivre.",
+      "Râper la carotte.",
+      "Réchauffer les tortillas 30 secondes de chaque côté dans une poêle sèche.",
+      "Garnir chaque tortilla de salade, de pois chiches écrasés et de carotte râpée, napper de sauce au yaourt et rouler."
+    ],
+    "astuce": "Avec un yaourt végétal, la recette devient entièrement vegan."
+  },
+  {
+    "titre": "Riz sauté aux champignons, oignons nouveaux et œuf",
+    "categorie": "plat",
+    "temps": 20,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "riz",
+        "nom": "riz cuit (de la veille)",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "champignon",
+        "nom": "champignons",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon_nouveau",
+        "nom": "oignons nouveaux",
+        "qte": 3,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "sauce_soja",
+        "nom": "sauce soja",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "gingembre",
+        "nom": "gingembre frais",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "graine",
+        "nom": "graines de sésame",
+        "qte": 1,
+        "unite": "c. à c.",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Émincer les champignons et les oignons nouveaux, en séparant le blanc du vert.",
+      "Saisir les champignons 5 minutes à feu vif dans la moitié de l'huile, jusqu'à ce qu'ils soient dorés.",
+      "Ajouter le blanc des oignons et le gingembre râpé, cuire 1 minute, puis pousser le tout sur le côté.",
+      "Casser les œufs dans l'espace libre, les brouiller 1 minute, puis ajouter le riz égrené et le reste de l'huile.",
+      "Faire sauter 4 minutes à feu vif, arroser de sauce soja et mélanger.",
+      "Servir parsemé du vert des oignons et de sésame."
+    ],
+    "astuce": "Le riz doit être froid et sec : du riz cuit la veille donne des grains bien séparés."
+  },
+  {
+    "titre": "Riz sauté au tofu, haricots verts et cacahuètes",
+    "categorie": "plat",
+    "temps": 25,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "riz",
+        "nom": "riz cuit (de la veille)",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "tofu",
+        "nom": "tofu ferme",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "haricot_vert",
+        "nom": "haricots verts",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "cacahuete",
+        "nom": "cacahuètes grillées",
+        "qte": 30,
+        "unite": "g"
+      },
+      {
+        "cle": "sauce_soja",
+        "nom": "sauce soja",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "ail",
+        "nom": "gousse d'ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "piment",
+        "nom": "piment frais",
+        "qte": 0.5,
+        "unite": "pièce",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Couper le tofu en dés et les haricots verts en tronçons de 2 cm.",
+      "Dorer le tofu 6 minutes à feu vif dans la moitié de l'huile, puis l'arroser d'1 c. à s. de sauce soja et le réserver.",
+      "Faire sauter les haricots verts 5 minutes dans le reste de l'huile avec 2 c. à s. d'eau, jusqu'à ce qu'ils soient croquants-tendres.",
+      "Ajouter l'ail haché et le piment émincé, puis le riz égrené ; faire sauter 4 minutes à feu vif.",
+      "Remettre le tofu, ajouter le reste de la sauce soja et les cacahuètes concassées, et mélanger 1 minute."
+    ],
+    "astuce": "Des haricots verts surgelés conviennent sans décongélation ; compter 2 minutes de plus."
+  },
+  {
+    "titre": "Gnocchis poêlés aux champignons et crème à l'ail",
+    "categorie": "plat",
+    "temps": 20,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "gnocchi",
+        "nom": "gnocchis",
+        "qte": 500,
+        "unite": "g"
+      },
+      {
+        "cle": "champignon",
+        "nom": "champignons",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "creme",
+        "nom": "crème à cuisiner",
+        "qte": 150,
+        "unite": "ml"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousses d'ail",
+        "qte": 2,
+        "unite": "gousse"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 20,
+        "unite": "g"
+      },
+      {
+        "cle": "parmesan",
+        "nom": "parmesan râpé",
+        "qte": 30,
+        "unite": "g"
+      },
+      {
+        "cle": "persil",
+        "nom": "persil",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Faire dorer les gnocchis 6 à 8 minutes dans la moitié du beurre à feu moyen-vif, en les retournant, puis les réserver.",
+      "Dans la même poêle, saisir les champignons émincés 5 minutes à feu vif dans le reste du beurre.",
+      "Ajouter l'ail haché, cuire 30 secondes, puis verser la crème ; saler, poivrer et laisser réduire 2 minutes.",
+      "Remettre les gnocchis, ajouter le parmesan et mélanger 1 minute pour bien les enrober.",
+      "Servir parsemé de persil haché."
+    ],
+    "astuce": "Pas besoin de précuire les gnocchis du commerce : poêlés directement, ils restent croustillants dehors."
+  },
+  {
+    "titre": "Gnocchis aux petits pois, ricotta et citron",
+    "categorie": "plat",
+    "temps": 15,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "gnocchi",
+        "nom": "gnocchis",
+        "qte": 500,
+        "unite": "g"
+      },
+      {
+        "cle": "petit_pois",
+        "nom": "petits pois surgelés",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "ricotta",
+        "nom": "ricotta",
+        "qte": 120,
+        "unite": "g"
+      },
+      {
+        "cle": "citron",
+        "nom": "citron non traité",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "parmesan",
+        "nom": "parmesan râpé",
+        "qte": 30,
+        "unite": "g"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 15,
+        "unite": "g"
+      },
+      {
+        "cle": "menthe",
+        "nom": "menthe fraîche",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Porter une grande casserole d'eau salée à ébullition.",
+      "Mélanger la ricotta avec le parmesan, le zeste du citron, un trait de son jus, du sel et du poivre.",
+      "Plonger les petits pois 2 minutes dans l'eau bouillante, puis ajouter les gnocchis et cuire jusqu'à ce qu'ils remontent à la surface ; réserver une louche d'eau de cuisson.",
+      "Égoutter et remettre dans la casserole avec le beurre, la crème de ricotta et un peu d'eau de cuisson ; mélanger doucement à feu doux 1 minute.",
+      "Servir avec de la menthe ciselée."
+    ],
+    "astuce": "Le reste de ricotta se tartine sur du pain grillé avec du miel au petit-déjeuner."
+  },
+  {
+    "titre": "Gnocchis poêlés aux courgettes, pesto et pignons",
+    "categorie": "plat",
+    "temps": 20,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "gnocchi",
+        "nom": "gnocchis",
+        "qte": 500,
+        "unite": "g"
+      },
+      {
+        "cle": "courgette",
+        "nom": "courgette",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "pesto",
+        "nom": "pesto",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "pignon",
+        "nom": "pignons de pin",
+        "qte": 20,
+        "unite": "g"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "parmesan",
+        "nom": "parmesan",
+        "qte": 20,
+        "unite": "g",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Torréfier les pignons 2 minutes à sec dans une grande poêle, puis les réserver.",
+      "Couper la courgette en demi-rondelles.",
+      "Faire dorer les gnocchis 6 minutes dans l'huile d'olive à feu moyen-vif, puis ajouter la courgette et poursuivre 5 minutes en remuant, jusqu'à ce qu'elle soit tendre et dorée.",
+      "Hors du feu, ajouter le pesto et 2 c. à s. d'eau, saler légèrement, poivrer et mélanger.",
+      "Servir parsemé de pignons et de copeaux de parmesan."
+    ],
+    "astuce": "Le pesto se remplace par un reste d'herbes mixées avec de l'huile d'olive et quelques noix."
+  },
+  {
+    "titre": "Pois chiches poêlés aux épinards, tomates et cumin",
+    "categorie": "plat",
+    "temps": 20,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pois_chiche",
+        "nom": "pois chiches cuits",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "epinard",
+        "nom": "épinards frais",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "tomate_concassee",
+        "nom": "tomates concassées",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousses d'ail",
+        "qte": 2,
+        "unite": "gousse"
+      },
+      {
+        "cle": "cumin",
+        "nom": "cumin",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "paprika",
+        "nom": "paprika",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 0.5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Émincer l'oignon et l'ail et les faire revenir 4 minutes dans l'huile d'olive à feu moyen.",
+      "Ajouter le cumin et le paprika, remuer 30 secondes, puis les pois chiches égouttés ; les faire dorer 4 minutes.",
+      "Verser les tomates concassées, saler, poivrer et laisser mijoter 5 minutes.",
+      "Ajouter les épinards par poignées et remuer jusqu'à ce qu'ils tombent, environ 2 minutes.",
+      "Arroser de jus de citron et servir bien chaud."
+    ],
+    "astuce": "Avec du pain pita ou un reste de riz, c'est un plat complet ; avec du pain, il n'est plus sans gluten."
+  },
+  {
+    "titre": "Haricots blancs sautés aux tomates cerises et feta",
+    "categorie": "plat",
+    "temps": 15,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "haricot_blanc",
+        "nom": "haricots blancs cuits",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "tomate_cerise",
+        "nom": "tomates cerises",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "feta",
+        "nom": "feta",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousses d'ail",
+        "qte": 2,
+        "unite": "gousse"
+      },
+      {
+        "cle": "herbes_provence",
+        "nom": "herbes de Provence",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "persil",
+        "nom": "persil",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Rincer et égoutter les haricots blancs.",
+      "Faire revenir l'ail émincé 1 minute dans l'huile d'olive à feu moyen, puis ajouter les tomates cerises entières.",
+      "Cuire 5 minutes à feu moyen-vif en secouant la poêle, jusqu'à ce que les tomates éclatent ; les écraser légèrement à la fourchette.",
+      "Ajouter les haricots et les herbes de Provence, poivrer et cuire 4 minutes pour les réchauffer dans le jus.",
+      "Émietter la feta par-dessus, parsemer de persil et servir dans la poêle."
+    ],
+    "astuce": "Servi avec du pain grillé frotté à l'ail, c'est parfait pour finir une boîte de haricots ouverte."
+  },
+  {
+    "titre": "Quesadillas aux épinards, champignons et mozzarella",
+    "categorie": "plat",
+    "temps": 20,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "tortilla",
+        "nom": "tortillas de blé",
+        "qte": 4,
+        "unite": "pièce"
+      },
+      {
+        "cle": "epinard",
+        "nom": "épinards frais",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "champignon",
+        "nom": "champignons",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "mozzarella",
+        "nom": "mozzarella râpée",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "petit oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "paprika",
+        "nom": "paprika",
+        "qte": 0.5,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Émincer l'oignon et les champignons, puis les faire sauter 6 minutes à feu vif dans l'huile avec le paprika.",
+      "Ajouter les épinards, remuer 1 minute jusqu'à ce qu'ils tombent, saler, poivrer et égoutter dans une passoire.",
+      "Répartir sur deux tortillas la moitié de la mozzarella, la poêlée, puis le reste de la mozzarella ; couvrir avec les deux autres tortillas.",
+      "Cuire chaque quesadilla 2 à 3 minutes de chaque côté dans une poêle sèche à feu moyen, jusqu'à ce qu'elle soit dorée et le fromage fondu.",
+      "Couper en quartiers et servir aussitôt."
+    ],
+    "astuce": "Un reste de maïs ou de haricots rouges se glisse très bien dans la garniture."
+  },
+  {
+    "titre": "Nouilles au beurre de cacahuète, concombre et oignons nouveaux",
+    "categorie": "plat",
+    "temps": 15,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pates",
+        "nom": "nouilles de blé",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "cacahuete",
+        "nom": "beurre de cacahuète",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sauce_soja",
+        "nom": "sauce soja",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "citron_vert",
+        "nom": "citron vert",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "concombre",
+        "nom": "concombre",
+        "qte": 0.5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oignon_nouveau",
+        "nom": "oignons nouveaux",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "gingembre",
+        "nom": "gingembre frais",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "sucre",
+        "nom": "sucre",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "graine",
+        "nom": "graines de sésame",
+        "qte": 1,
+        "unite": "c. à c.",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Cuire les nouilles selon le paquet, les égoutter en réservant 4 c. à s. d'eau de cuisson, puis les rincer brièvement.",
+      "Fouetter le beurre de cacahuète avec la sauce soja, le jus du citron vert, le gingembre râpé, le sucre et l'eau de cuisson réservée, jusqu'à obtenir une sauce lisse.",
+      "Couper le concombre en bâtonnets et émincer les oignons nouveaux.",
+      "Mélanger les nouilles à la sauce, puis les garnir de concombre, d'oignons nouveaux et de sésame."
+    ],
+    "astuce": "Tiède ou froid, ce plat se transporte bien dans une boîte pour le lunch."
+  },
+  {
+    "titre": "Polenta crémeuse au gorgonzola et poires poêlées",
+    "categorie": "plat",
+    "temps": 20,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "polenta",
+        "nom": "polenta instantanée",
+        "qte": 120,
+        "unite": "g"
+      },
+      {
+        "cle": "lait",
+        "nom": "lait",
+        "qte": 300,
+        "unite": "ml"
+      },
+      {
+        "cle": "bleu",
+        "nom": "gorgonzola",
+        "qte": 80,
+        "unite": "g"
+      },
+      {
+        "cle": "poire",
+        "nom": "poires",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "noix",
+        "nom": "cerneaux de noix",
+        "qte": 30,
+        "unite": "g"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 20,
+        "unite": "g"
+      },
+      {
+        "cle": "miel",
+        "nom": "miel",
+        "qte": 1,
+        "unite": "c. à c.",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Couper les poires en quartiers, les épépiner puis les recouper en lamelles épaisses.",
+      "Les faire dorer 5 minutes dans la moitié du beurre à feu moyen, avec le miel, en les retournant à mi-cuisson.",
+      "Porter le lait et 300 ml d'eau salée à ébullition, verser la polenta en pluie en fouettant et cuire 5 minutes à feu doux en remuant.",
+      "Hors du feu, incorporer le reste du beurre et la moitié du gorgonzola ; poivrer.",
+      "Répartir la polenta dans les assiettes, garnir de poires, du reste du gorgonzola en morceaux et de noix concassées."
+    ],
+    "astuce": "Des poires trop mûres pour être croquées sont idéales : poêlées, elles deviennent fondantes et caramélisées."
+  },
+  {
+    "titre": "Dal de lentilles corail au lait de coco et épinards, riz",
+    "categorie": "plat",
+    "temps": 25,
+    "difficulte": "facile",
+    "portions": 3,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "lentille_corail",
+        "nom": "lentilles corail",
+        "qte": 180,
+        "unite": "g"
+      },
+      {
+        "cle": "lait_coco",
+        "nom": "lait de coco",
+        "qte": 200,
+        "unite": "ml"
+      },
+      {
+        "cle": "epinard",
+        "nom": "épinards frais",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "riz",
+        "nom": "riz basmati",
+        "qte": 180,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousses d'ail",
+        "qte": 2,
+        "unite": "gousse"
+      },
+      {
+        "cle": "gingembre",
+        "nom": "gingembre frais",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "curry",
+        "nom": "curry",
+        "qte": 2,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Rincer le riz et le cuire 12 minutes dans 1,5 fois son volume d'eau salée, à couvert et à feu doux.",
+      "Pendant ce temps, faire revenir l'oignon émincé, l'ail et le gingembre râpés 3 minutes dans l'huile.",
+      "Ajouter le curry, remuer 30 secondes, puis les lentilles rincées, le lait de coco et 400 ml d'eau ; saler.",
+      "Laisser mijoter 15 minutes à feu moyen en remuant souvent, jusqu'à ce que les lentilles soient fondues.",
+      "Incorporer les épinards et cuire 1 minute, puis servir avec le riz."
+    ],
+    "astuce": "Le dal épaissit en refroidissant : le détendre avec un peu d'eau en le réchauffant le lendemain."
+  },
+  {
+    "titre": "Croque-madame à la poêle",
+    "categorie": "plat",
+    "temps": 15,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pain_mie",
+        "nom": "pain de mie",
+        "qte": 4,
+        "unite": "tranche"
+      },
+      {
+        "cle": "jambon",
+        "nom": "jambon",
+        "qte": 2,
+        "unite": "tranche"
+      },
+      {
+        "cle": "gruyere",
+        "nom": "gruyère râpé",
+        "qte": 80,
+        "unite": "g"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre mou",
+        "qte": 30,
+        "unite": "g"
+      },
+      {
+        "cle": "moutarde",
+        "nom": "moutarde",
+        "qte": 1,
+        "unite": "c. à c.",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Beurrer les tranches de pain de mie sur une face avec les deux tiers du beurre.",
+      "Tartiner l'autre face de moutarde, puis garnir deux tranches de la moitié du gruyère, d'une tranche de jambon et du reste du gruyère ; refermer, face beurrée vers l'extérieur.",
+      "Cuire les croques 3 à 4 minutes de chaque côté à feu moyen en appuyant avec une spatule, jusqu'à ce qu'ils soient dorés.",
+      "Pendant ce temps, cuire les œufs au plat dans le reste du beurre 3 minutes à feu doux, jusqu'à ce que le blanc soit pris ; saler et poivrer.",
+      "Déposer un œuf sur chaque croque et servir aussitôt."
+    ],
+    "astuce": "Un reste de jambon blanc ou de dinde fumée fait aussi bien l'affaire."
+  },
+  {
+    "titre": "Croque-monsieur au thon et à la tomate",
+    "categorie": "plat",
+    "temps": 15,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pain_mie",
+        "nom": "pain de mie",
+        "qte": 4,
+        "unite": "tranche"
+      },
+      {
+        "cle": "thon",
+        "nom": "thon au naturel",
+        "qte": 1,
+        "unite": "boîte"
+      },
+      {
+        "cle": "tomate",
+        "nom": "tomate",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "emmental",
+        "nom": "emmental râpé",
+        "qte": 70,
+        "unite": "g"
+      },
+      {
+        "cle": "fromage_frais",
+        "nom": "fromage frais",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre mou",
+        "qte": 20,
+        "unite": "g"
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Égoutter le thon et l'écraser à la fourchette avec le fromage frais et du poivre.",
+      "Couper la tomate en tranches fines et les éponger.",
+      "Beurrer chaque tranche de pain sur une face, puis garnir deux tranches côté non beurré de thon, de tomate et d'emmental ; refermer, face beurrée vers l'extérieur.",
+      "Cuire 3 à 4 minutes de chaque côté à feu moyen, en appuyant légèrement, jusqu'à ce qu'ils soient dorés et le fromage fondu."
+    ],
+    "astuce": "Quelques câpres ou cornichons hachés dans la farce relèvent le thon."
+  },
+  {
+    "titre": "Croque raclette, jambon cru et cornichons",
+    "categorie": "plat",
+    "temps": 15,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pain_mie",
+        "nom": "pain de mie complet",
+        "qte": 4,
+        "unite": "tranche"
+      },
+      {
+        "cle": "raclette",
+        "nom": "fromage à raclette",
+        "qte": 4,
+        "unite": "tranche"
+      },
+      {
+        "cle": "jambon_cru",
+        "nom": "jambon cru ou viande séchée",
+        "qte": 4,
+        "unite": "tranche"
+      },
+      {
+        "cle": "cornichon",
+        "nom": "cornichons",
+        "qte": 4,
+        "unite": "pièce"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre mou",
+        "qte": 20,
+        "unite": "g"
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "paprika",
+        "nom": "paprika",
+        "qte": 1,
+        "unite": "pincée",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Couper les cornichons en fines lamelles dans la longueur.",
+      "Beurrer chaque tranche de pain sur une face.",
+      "Garnir deux tranches, côté non beurré, d'une tranche de raclette, du jambon cru, des cornichons, puis d'une seconde tranche de raclette ; poivrer, saupoudrer de paprika et refermer, face beurrée vers l'extérieur.",
+      "Cuire 4 minutes de chaque côté à feu moyen-doux, couvert les 2 premières minutes, jusqu'à ce que le fromage coule."
+    ],
+    "astuce": "Parfait pour utiliser les dernières tranches de raclette restées après une soirée."
+  },
+  {
+    "titre": "Wraps de poulet au paprika, salade et sauce yaourt",
+    "categorie": "plat",
+    "temps": 20,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "tortilla",
+        "nom": "tortillas de blé",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "poulet",
+        "nom": "blancs de poulet",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "paprika",
+        "nom": "paprika",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "yaourt",
+        "nom": "yaourt nature",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "ail",
+        "nom": "petite gousse d'ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "salade",
+        "nom": "feuilles de salade",
+        "qte": 4,
+        "unite": "pièce"
+      },
+      {
+        "cle": "tomate",
+        "nom": "tomate",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Couper le poulet en fines lanières et les mélanger avec le paprika, du sel et du poivre.",
+      "Mélanger le yaourt avec l'ail râpé et une pincée de sel.",
+      "Saisir le poulet 6 à 7 minutes dans l'huile à feu vif, jusqu'à ce qu'il soit doré et bien cuit à cœur, sans trace rosée.",
+      "Réchauffer les tortillas 30 secondes de chaque côté dans une poêle sèche.",
+      "Garnir de salade, de tomate en dés et de poulet, napper de sauce au yaourt et rouler."
+    ],
+    "astuce": "Un reste de poulet rôti effiloché remplace le blanc cru : 2 minutes à la poêle suffisent."
+  },
+  {
+    "titre": "Wraps au saumon fumé, fromage frais, concombre et aneth",
+    "categorie": "plat",
+    "temps": 10,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "tortilla",
+        "nom": "tortillas de blé",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "saumon_fume",
+        "nom": "saumon fumé",
+        "qte": 120,
+        "unite": "g"
+      },
+      {
+        "cle": "fromage_frais",
+        "nom": "fromage frais",
+        "qte": 80,
+        "unite": "g"
+      },
+      {
+        "cle": "concombre",
+        "nom": "concombre",
+        "qte": 0.5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "aneth",
+        "nom": "aneth",
+        "qte": 0.5,
+        "unite": "botte"
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 0.5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "salade",
+        "nom": "feuilles de salade",
+        "qte": 2,
+        "unite": "pièce",
+        "optionnel": true
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Mélanger le fromage frais avec l'aneth haché, un trait de jus de citron et du poivre.",
+      "Couper le concombre en fins bâtonnets.",
+      "Tartiner les tortillas de fromage frais, puis les garnir de salade, de saumon fumé et de concombre.",
+      "Rouler en serrant et couper chaque wrap en deux en biais."
+    ],
+    "astuce": "Les chutes de saumon fumé, moins chères, sont parfaites pour ces wraps."
+  },
+  {
+    "titre": "Wraps de dinde au curry, carotte et coriandre",
+    "categorie": "plat",
+    "temps": 20,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "tortilla",
+        "nom": "tortillas de blé",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "dinde",
+        "nom": "escalopes de dinde",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "curry",
+        "nom": "curry",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "carotte",
+        "nom": "carotte",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "yaourt",
+        "nom": "yaourt nature",
+        "qte": 80,
+        "unite": "g"
+      },
+      {
+        "cle": "citron_vert",
+        "nom": "citron vert",
+        "qte": 0.5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "coriandre",
+        "nom": "coriandre",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Couper la dinde en lanières et l'enrober de la moitié du curry et d'une pincée de sel.",
+      "Mélanger le yaourt avec le reste du curry, le jus du demi-citron vert et une pincée de sel ; râper la carotte.",
+      "Saisir la dinde 5 à 6 minutes dans l'huile à feu vif, jusqu'à ce qu'elle soit dorée et bien cuite à cœur.",
+      "Réchauffer les tortillas 30 secondes de chaque côté dans une poêle sèche.",
+      "Garnir de carotte râpée, de dinde et de sauce au curry, parsemer de coriandre et rouler."
+    ],
+    "astuce": "Ajouter quelques raisins secs ou des dés de pomme apporte une note sucrée qui va bien avec le curry."
+  },
+  {
+    "titre": "Riz sauté au poulet, poivron et sauce soja-miel",
+    "categorie": "plat",
+    "temps": 20,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "riz",
+        "nom": "riz cuit (de la veille)",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "poulet",
+        "nom": "blanc de poulet",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "poivron",
+        "nom": "poivron rouge",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oignon_nouveau",
+        "nom": "oignons nouveaux",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "sauce_soja",
+        "nom": "sauce soja",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "miel",
+        "nom": "miel",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "ail",
+        "nom": "gousse d'ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 2,
+        "unite": "c. à s."
+      }
+    ],
+    "etapes": [
+      "Couper le poulet en petits dés et le poivron en carrés ; émincer les oignons nouveaux.",
+      "Mélanger la sauce soja et le miel.",
+      "Saisir le poulet 5 minutes dans l'huile à feu vif, jusqu'à ce qu'il soit doré et bien cuit à cœur.",
+      "Ajouter le poivron, l'ail haché et le blanc des oignons et faire sauter 3 minutes.",
+      "Ajouter le riz égrené et faire sauter 4 minutes, puis verser la sauce soja-miel et mélanger 1 minute.",
+      "Servir parsemé du vert des oignons."
+    ],
+    "astuce": "Ce riz se réchauffe bien à la poêle le lendemain avec une cuillère d'eau."
+  },
+  {
+    "titre": "Riz sauté au jambon, carotte et oignons nouveaux",
+    "categorie": "plat",
+    "temps": 20,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_lactose",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "riz",
+        "nom": "riz cuit (de la veille)",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "jambon",
+        "nom": "jambon",
+        "qte": 3,
+        "unite": "tranche"
+      },
+      {
+        "cle": "carotte",
+        "nom": "carotte",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oignon_nouveau",
+        "nom": "oignons nouveaux",
+        "qte": 3,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "sauce_soja",
+        "nom": "sauce soja",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 2,
+        "unite": "c. à s."
+      }
+    ],
+    "etapes": [
+      "Couper le jambon en petits carrés, la carotte en petits dés et émincer les oignons nouveaux.",
+      "Faire sauter la carotte 4 minutes dans l'huile à feu vif, puis ajouter le jambon et le blanc des oignons 2 minutes.",
+      "Pousser sur le côté, casser les œufs dans la poêle et les brouiller 1 minute.",
+      "Ajouter le riz égrené et faire sauter 4 minutes à feu vif.",
+      "Arroser de sauce soja, mélanger et servir parsemé du vert des oignons."
+    ],
+    "astuce": "Une poignée de petits pois surgelés ajoutée avec le riz complète le plat."
+  },
+  {
+    "titre": "Riz sauté au chorizo, poivron et petits pois",
+    "categorie": "plat",
+    "temps": 20,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_lactose",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "riz",
+        "nom": "riz cuit (de la veille)",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "chorizo",
+        "nom": "chorizo",
+        "qte": 80,
+        "unite": "g"
+      },
+      {
+        "cle": "poivron",
+        "nom": "poivron",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "petit_pois",
+        "nom": "petits pois surgelés",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "paprika",
+        "nom": "paprika",
+        "qte": 0.5,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 0.5,
+        "unite": "pièce",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Couper le chorizo en petits dés, le poivron en lanières courtes et émincer l'oignon.",
+      "Faire revenir le chorizo 2 minutes dans l'huile d'olive à feu moyen, jusqu'à ce qu'il rende sa graisse rouge.",
+      "Ajouter l'oignon et le poivron et cuire 5 minutes.",
+      "Ajouter les petits pois, le riz égrené et le paprika ; faire sauter 5 minutes à feu vif, jusqu'à ce que le riz soit chaud et légèrement grillé.",
+      "Saler si besoin et servir avec un quartier de citron."
+    ],
+    "astuce": "Le chorizo est très parfumé : un petit bout suffit à donner du goût à tout le plat."
+  },
+  {
+    "titre": "Gnocchis poêlés aux lardons et choux de Bruxelles",
+    "categorie": "plat",
+    "temps": 25,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "gnocchi",
+        "nom": "gnocchis",
+        "qte": 500,
+        "unite": "g"
+      },
+      {
+        "cle": "lardons",
+        "nom": "lardons",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "chou_bruxelles",
+        "nom": "choux de Bruxelles",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 15,
+        "unite": "g"
+      },
+      {
+        "cle": "parmesan",
+        "nom": "parmesan râpé",
+        "qte": 20,
+        "unite": "g",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Parer les choux de Bruxelles et les couper en deux ; les cuire 5 minutes à l'eau bouillante salée, puis les égoutter.",
+      "Faire dorer les lardons 4 minutes à sec dans une grande poêle avec l'oignon émincé, puis les réserver en laissant la graisse.",
+      "Ajouter le beurre et les gnocchis et les faire dorer 6 minutes à feu moyen-vif en les retournant.",
+      "Ajouter les choux, face coupée contre la poêle, et cuire 4 minutes jusqu'à ce qu'ils colorent.",
+      "Remettre les lardons et l'oignon, poivrer, mélanger et servir parsemé de parmesan."
+    ],
+    "astuce": "Les choux de Bruxelles se remplacent par des quartiers de chou pointu ou des brocolis."
+  },
+  {
+    "titre": "Gnocchis à la crème de saumon fumé et ciboulette",
+    "categorie": "plat",
+    "temps": 15,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "gnocchi",
+        "nom": "gnocchis",
+        "qte": 500,
+        "unite": "g"
+      },
+      {
+        "cle": "saumon_fume",
+        "nom": "saumon fumé",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "creme",
+        "nom": "crème à cuisiner",
+        "qte": 150,
+        "unite": "ml"
+      },
+      {
+        "cle": "ciboulette",
+        "nom": "ciboulette",
+        "qte": 0.5,
+        "unite": "botte"
+      },
+      {
+        "cle": "citron",
+        "nom": "citron non traité",
+        "qte": 0.5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "epinard",
+        "nom": "jeunes pousses d'épinards",
+        "qte": 50,
+        "unite": "g",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Porter une grande casserole d'eau salée à ébullition et y cuire les gnocchis jusqu'à ce qu'ils remontent à la surface.",
+      "Pendant ce temps, chauffer la crème dans une poêle avec le zeste du demi-citron et la laisser réduire 2 minutes.",
+      "Ajouter les épinards et le saumon fumé coupé en lanières, et remuer 1 minute.",
+      "Ajouter les gnocchis égouttés, la moitié de la ciboulette ciselée et un trait de jus de citron ; mélanger.",
+      "Poivrer et servir parsemé du reste de ciboulette."
+    ],
+    "astuce": "Le saumon fumé ne doit que tiédir : trop chauffé, il perd son moelleux."
+  },
+  {
+    "titre": "Spaghetti au chorizo, tomates cerises et persil",
+    "categorie": "plat",
+    "temps": 20,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_lactose",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pates",
+        "nom": "spaghetti",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "chorizo",
+        "nom": "chorizo",
+        "qte": 80,
+        "unite": "g"
+      },
+      {
+        "cle": "tomate_cerise",
+        "nom": "tomates cerises",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousse d'ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "persil",
+        "nom": "persil",
+        "qte": 0.5,
+        "unite": "botte"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Cuire les spaghetti al dente dans une grande casserole d'eau salée et réserver une louche d'eau de cuisson.",
+      "Pendant ce temps, faire revenir le chorizo en fines rondelles 2 minutes dans l'huile d'olive à feu moyen.",
+      "Ajouter l'ail émincé et les tomates cerises coupées en deux ; cuire 6 minutes jusqu'à ce qu'elles fondent en sauce.",
+      "Ajouter les spaghetti égouttés avec un peu d'eau de cuisson et mélanger 1 minute à feu vif.",
+      "Poivrer et parsemer de persil haché."
+    ],
+    "astuce": "Les tomates cerises un peu ridées sont parfaites : elles fondent plus vite en sauce."
+  },
+  {
+    "titre": "Pâtes à la saucisse émiettée, brocoli et piment",
+    "categorie": "plat",
+    "temps": 25,
+    "difficulte": "facile",
+    "portions": 3,
+    "regimes": [
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pates",
+        "nom": "orecchiette ou pâtes courtes",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "saucisse",
+        "nom": "saucisses à rôtir (chair)",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "brocoli",
+        "nom": "brocoli",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousses d'ail",
+        "qte": 2,
+        "unite": "gousse"
+      },
+      {
+        "cle": "piment_poudre",
+        "nom": "piment en flocons",
+        "qte": 1,
+        "unite": "pincée"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "parmesan",
+        "nom": "parmesan râpé",
+        "qte": 30,
+        "unite": "g"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Porter une grande casserole d'eau salée à ébullition ; couper le brocoli en petits bouquets.",
+      "Retirer la peau des saucisses et émietter la chair dans l'huile d'olive chaude ; la cuire 7 à 8 minutes à feu moyen-vif en l'écrasant, jusqu'à ce qu'elle soit dorée et bien cuite, sans trace rosée.",
+      "Cuire les pâtes dans l'eau bouillante et ajouter le brocoli 4 minutes avant la fin ; réserver une louche d'eau de cuisson.",
+      "Ajouter l'ail émincé et le piment à la saucisse et cuire 1 minute.",
+      "Verser les pâtes et le brocoli égouttés dans la poêle avec un peu d'eau de cuisson et le parmesan, puis mélanger en écrasant légèrement le brocoli."
+    ],
+    "astuce": "Le brocoli un peu fatigué fond dans la sauce : c'est même mieux ainsi."
+  },
+  {
+    "titre": "Spaghetti aux crevettes, épinards et ail citronné",
+    "categorie": "plat",
+    "temps": 20,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pates",
+        "nom": "spaghetti",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "crevette",
+        "nom": "crevettes décortiquées",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "epinard",
+        "nom": "jeunes pousses d'épinards",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousses d'ail",
+        "qte": 3,
+        "unite": "gousse"
+      },
+      {
+        "cle": "citron",
+        "nom": "citron non traité",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "piment_poudre",
+        "nom": "piment en flocons",
+        "qte": 1,
+        "unite": "pincée",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Cuire les spaghetti al dente dans une grande casserole d'eau salée et réserver une louche d'eau de cuisson.",
+      "Pendant ce temps, éponger les crevettes et les saisir 2 minutes par face dans l'huile d'olive à feu vif, jusqu'à ce qu'elles soient roses ; les réserver.",
+      "Baisser le feu, faire revenir l'ail émincé et le piment 1 minute sans coloration, puis ajouter les épinards jusqu'à ce qu'ils tombent.",
+      "Ajouter les spaghetti, les crevettes, le zeste et le jus du citron et un peu d'eau de cuisson ; mélanger 1 minute.",
+      "Saler, poivrer et servir."
+    ],
+    "astuce": "Des crevettes surgelées s'utilisent après décongélation au réfrigérateur ou sous l'eau froide."
+  },
+  {
+    "titre": "Poisson blanc poêlé, sauce vierge et semoule",
+    "categorie": "plat",
+    "temps": 20,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "poisson_blanc",
+        "nom": "filets de cabillaud ou de colin",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "semoule",
+        "nom": "semoule moyenne",
+        "qte": 120,
+        "unite": "g"
+      },
+      {
+        "cle": "tomate",
+        "nom": "tomates",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "olive",
+        "nom": "olives noires",
+        "qte": 10,
+        "unite": "pièce"
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "basilic",
+        "nom": "basilic",
+        "qte": 8,
+        "unite": "pièce"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 4,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Verser 150 ml d'eau bouillante salée sur la semoule, ajouter 1 c. à s. d'huile d'olive, couvrir et laisser gonfler 5 minutes, puis égrener.",
+      "Pour la sauce vierge, couper les tomates en petits dés, hacher les olives et le basilic, puis mélanger avec 2 c. à s. d'huile d'olive, le jus d'un demi-citron, du sel et du poivre.",
+      "Éponger le poisson, le saler et le poivrer.",
+      "Le cuire dans le reste de l'huile d'olive 3 à 4 minutes par face à feu moyen, jusqu'à ce que la chair soit nacrée et se détache en lamelles.",
+      "Servir le poisson sur la semoule, napper de sauce vierge et accompagner du reste du citron en quartiers."
+    ],
+    "astuce": "La sauce vierge se prépare aussi avec des tomates cerises ou un reste de poivron cru."
+  },
+  {
+    "titre": "Saumon poêlé, courgettes au citron et quinoa",
+    "categorie": "plat",
+    "temps": 25,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "saumon",
+        "nom": "pavés de saumon",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "quinoa",
+        "nom": "quinoa",
+        "qte": 120,
+        "unite": "g"
+      },
+      {
+        "cle": "courgette",
+        "nom": "courgettes",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "citron",
+        "nom": "citron non traité",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousse d'ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "aneth",
+        "nom": "aneth",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Rincer le quinoa et le cuire 15 minutes dans 2 fois son volume d'eau salée, puis l'égoutter.",
+      "Pendant ce temps, couper les courgettes en demi-rondelles et les faire sauter 7 minutes à feu vif dans la moitié de l'huile avec l'ail haché ; ajouter le zeste du citron et la moitié de son jus, saler et poivrer.",
+      "Saler les pavés de saumon et les cuire côté peau 5 minutes dans le reste de l'huile à feu moyen, sans les bouger.",
+      "Les retourner et cuire encore 2 minutes, jusqu'à ce que le cœur soit juste rosé.",
+      "Servir le saumon sur le quinoa et les courgettes, arrosé du reste du jus de citron et parsemé d'aneth."
+    ],
+    "astuce": "Le reste de quinoa et de courgettes fait une bonne salade froide avec un peu de feta."
+  },
+  {
+    "titre": "Crevettes sautées aux haricots verts, gingembre et riz",
+    "categorie": "plat",
+    "temps": 25,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "crevette",
+        "nom": "crevettes décortiquées",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "haricot_vert",
+        "nom": "haricots verts",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "riz",
+        "nom": "riz jasmin",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "gingembre",
+        "nom": "gingembre frais",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "ail",
+        "nom": "gousses d'ail",
+        "qte": 2,
+        "unite": "gousse"
+      },
+      {
+        "cle": "sauce_soja",
+        "nom": "sauce soja",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "citron_vert",
+        "nom": "citron vert",
+        "qte": 0.5,
+        "unite": "pièce",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Rincer le riz et le cuire 12 minutes dans 1,5 fois son volume d'eau, à couvert et à feu doux.",
+      "Couper les haricots verts en deux et les faire sauter 5 minutes à feu vif dans la moitié de l'huile avec 3 c. à s. d'eau, jusqu'à ce qu'ils soient croquants-tendres ; les réserver.",
+      "Saisir les crevettes 2 minutes dans le reste de l'huile, ajouter le gingembre râpé et l'ail émincé et cuire 1 minute de plus, jusqu'à ce qu'elles soient roses.",
+      "Remettre les haricots, arroser de sauce soja et faire sauter 1 minute.",
+      "Servir avec le riz et un quartier de citron vert."
+    ],
+    "astuce": "Des haricots verts surgelés conviennent : compter 2 minutes de cuisson en plus."
+  },
+  {
+    "titre": "Filets de poisson panés à la poêle, petits pois au beurre",
+    "categorie": "plat",
+    "temps": 25,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "poisson_blanc",
+        "nom": "filets de colin ou de lieu",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "chapelure",
+        "nom": "chapelure",
+        "qte": 60,
+        "unite": "g"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œuf",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "farine",
+        "nom": "farine",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "petit_pois",
+        "nom": "petits pois surgelés",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 20,
+        "unite": "g"
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Éponger les filets et les saler. Préparer trois assiettes : la farine, l'œuf battu, la chapelure.",
+      "Passer chaque filet dans la farine, puis dans l'œuf et enfin dans la chapelure en appuyant.",
+      "Cuire les petits pois 5 minutes à l'eau bouillante salée, les égoutter et les mélanger au beurre avec du poivre.",
+      "Dorer le poisson dans l'huile chaude 3 à 4 minutes par face à feu moyen, jusqu'à ce que la panure soit croustillante et la chair nacrée.",
+      "Égoutter sur du papier absorbant et servir avec les petits pois et des quartiers de citron."
+    ],
+    "astuce": "Un reste de purée ou des pommes de terre vapeur complètent bien l'assiette."
+  },
+  {
+    "titre": "Émincé de poulet au citron et câpres, tagliatelles",
+    "categorie": "plat",
+    "temps": 25,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "poulet",
+        "nom": "blancs de poulet",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "pates",
+        "nom": "tagliatelles",
+        "qte": 180,
+        "unite": "g"
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "capre",
+        "nom": "câpres",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "bouillon",
+        "nom": "bouillon de volaille",
+        "qte": 150,
+        "unite": "ml"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 30,
+        "unite": "g"
+      },
+      {
+        "cle": "farine",
+        "nom": "farine",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "persil",
+        "nom": "persil",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Cuire les tagliatelles al dente dans une grande casserole d'eau salée.",
+      "Pendant ce temps, couper le poulet en fines lanières, les saler, les poivrer et les fariner légèrement.",
+      "Les saisir 6 minutes dans la moitié du beurre à feu vif, jusqu'à ce qu'elles soient dorées et bien cuites à cœur ; les réserver.",
+      "Verser dans la poêle le bouillon et le jus du citron, gratter les sucs et laisser réduire 3 minutes de moitié.",
+      "Hors du feu, ajouter le reste du beurre et les câpres en remuant pour lier la sauce, puis remettre le poulet.",
+      "Servir sur les tagliatelles égouttées, parsemé de persil haché."
+    ],
+    "astuce": "La même sauce va très bien avec des escalopes de dinde ou de veau."
+  },
+  {
+    "titre": "Émincé de poulet à l'ananas et poivron, riz",
+    "categorie": "plat",
+    "temps": 25,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "poulet",
+        "nom": "blancs de poulet",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "ananas",
+        "nom": "ananas (frais ou en boîte)",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "poivron",
+        "nom": "poivron rouge",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "riz",
+        "nom": "riz basmati",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "ketchup",
+        "nom": "ketchup",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sauce_soja",
+        "nom": "sauce soja",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "vinaigre",
+        "nom": "vinaigre de riz ou de cidre",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Rincer le riz et le cuire 12 minutes dans 1,5 fois son volume d'eau salée, à couvert et à feu doux.",
+      "Couper le poulet en lanières, le poivron et l'oignon en morceaux, et l'ananas en dés.",
+      "Mélanger le ketchup, la sauce soja, le vinaigre et 4 c. à s. d'eau.",
+      "Saisir le poulet 5 minutes dans l'huile à feu vif, puis ajouter le poivron et l'oignon et cuire 4 minutes ; vérifier que le poulet est bien cuit à cœur.",
+      "Ajouter l'ananas et la sauce et laisser napper 2 minutes en remuant ; servir avec le riz."
+    ],
+    "astuce": "Un reste d'ananas un peu trop mûr est idéal : il caramélise mieux."
+  },
+  {
+    "titre": "Escalopes de veau au citron, épinards à l'ail",
+    "categorie": "plat",
+    "temps": 20,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "veau",
+        "nom": "escalopes de veau fines",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "epinard",
+        "nom": "épinards frais",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousses d'ail",
+        "qte": 2,
+        "unite": "gousse"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 30,
+        "unite": "g"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Faire revenir l'ail émincé 1 minute dans l'huile d'olive, ajouter les épinards et remuer 3 minutes jusqu'à ce qu'ils tombent ; saler, poivrer et garder au chaud.",
+      "Éponger les escalopes, les saler et les poivrer.",
+      "Les saisir 1 minute 30 par face dans la moitié du beurre bien chaud, jusqu'à ce qu'elles soient dorées, puis les réserver sur une assiette chaude.",
+      "Verser le jus du citron et 3 c. à s. d'eau dans la poêle, gratter les sucs, puis ajouter le reste du beurre hors du feu.",
+      "Servir les escalopes nappées de sauce sur le lit d'épinards."
+    ],
+    "astuce": "Les épinards réduisent énormément : 300 g en sachet donnent à peine deux portions."
+  },
+  {
+    "titre": "Steak, sauce au poivre et haricots verts",
+    "categorie": "plat",
+    "temps": 25,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "boeuf",
+        "nom": "steaks de bœuf (entrecôte, rumsteck)",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "haricot_vert",
+        "nom": "haricots verts",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "creme",
+        "nom": "crème entière",
+        "qte": 100,
+        "unite": "ml"
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre noir concassé",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "echalote",
+        "nom": "échalote",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 20,
+        "unite": "g"
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Sortir les steaks du réfrigérateur 10 minutes avant la cuisson.",
+      "Cuire les haricots verts 8 minutes à l'eau bouillante salée, les égoutter et les garder au chaud avec la moitié du beurre.",
+      "Enrober les steaks du poivre concassé en appuyant, puis les saisir dans l'huile à feu vif 2 à 3 minutes par face selon la cuisson désirée ; saler et réserver.",
+      "Dans la même poêle, faire fondre l'échalote hachée 1 minute dans le reste du beurre, puis verser la crème et laisser réduire 2 minutes en grattant les sucs.",
+      "Servir les steaks nappés de sauce avec les haricots verts."
+    ],
+    "astuce": "Laisser reposer la viande 2 minutes pendant la sauce : elle reste plus juteuse."
+  },
+  {
+    "titre": "Chili express au bœuf haché et haricots rouges",
+    "categorie": "plat",
+    "temps": 25,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "boeuf_hache",
+        "nom": "bœuf haché",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "haricot_rouge",
+        "nom": "haricots rouges cuits",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "tomate_concassee",
+        "nom": "tomates concassées",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "mais",
+        "nom": "maïs en grains",
+        "qte": 140,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "poivron",
+        "nom": "poivron",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "cumin",
+        "nom": "cumin",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "piment_poudre",
+        "nom": "piment en poudre",
+        "qte": 0.5,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "coriandre",
+        "nom": "coriandre",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Émincer l'oignon et couper le poivron en dés.",
+      "Les faire revenir 4 minutes dans l'huile à feu moyen-vif, puis ajouter le bœuf haché et le cuire 5 minutes en l'émiettant, jusqu'à ce qu'il soit bien doré.",
+      "Ajouter le cumin et le piment, remuer 30 secondes, puis verser les tomates concassées ; saler.",
+      "Ajouter les haricots rouges et le maïs égouttés et laisser mijoter 10 minutes à feu moyen en remuant de temps en temps.",
+      "Servir bien chaud, parsemé de coriandre."
+    ],
+    "astuce": "Servi avec du riz, il reste sans gluten ; encore meilleur le lendemain, il se congèle aussi très bien."
+  },
+  {
+    "titre": "Côtelettes d'agneau aux herbes, courgettes poêlées",
+    "categorie": "plat",
+    "temps": 25,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "agneau",
+        "nom": "côtelettes d'agneau",
+        "qte": 6,
+        "unite": "pièce"
+      },
+      {
+        "cle": "courgette",
+        "nom": "courgettes",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "herbes_provence",
+        "nom": "herbes de Provence",
+        "qte": 2,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "ail",
+        "nom": "gousses d'ail",
+        "qte": 2,
+        "unite": "gousse"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 0.5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "menthe",
+        "nom": "menthe fraîche",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Frotter les côtelettes avec 1 c. à s. d'huile d'olive, la moitié des herbes et une gousse d'ail écrasée ; les laisser 10 minutes à température ambiante.",
+      "Couper les courgettes en rondelles épaisses et les faire dorer 8 minutes à feu vif dans 1 c. à s. d'huile d'olive avec l'autre gousse d'ail émincée et le reste des herbes ; saler et poivrer.",
+      "Saisir les côtelettes dans le reste de l'huile à feu vif 2 à 3 minutes par face, jusqu'à ce qu'elles soient bien dorées et rosées à cœur ; saler et poivrer.",
+      "Les laisser reposer 2 minutes, puis servir avec les courgettes arrosées de jus de citron et parsemées de menthe."
+    ],
+    "astuce": "Les côtelettes se cuisent aussi au gril du barbecue, 2 minutes par face."
+  },
+  {
+    "titre": "Omelette au saumon fumé, épinards et ciboulette",
+    "categorie": "plat",
+    "temps": 15,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "saumon_fume",
+        "nom": "saumon fumé",
+        "qte": 80,
+        "unite": "g"
+      },
+      {
+        "cle": "epinard",
+        "nom": "jeunes pousses d'épinards",
+        "qte": 60,
+        "unite": "g"
+      },
+      {
+        "cle": "fromage_frais",
+        "nom": "fromage frais",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "ciboulette",
+        "nom": "ciboulette",
+        "qte": 0.5,
+        "unite": "botte"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 15,
+        "unite": "g"
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Battre les œufs avec la moitié de la ciboulette ciselée et du poivre (pas de sel, le saumon l'est déjà).",
+      "Faire tomber les épinards 1 minute dans le beurre à feu moyen, puis verser les œufs.",
+      "Cuire 3 minutes en ramenant les bords vers le centre, jusqu'à ce que le dessus soit encore crémeux.",
+      "Répartir le saumon fumé en lanières et des noisettes de fromage frais sur une moitié, plier l'omelette et la glisser sur l'assiette.",
+      "Parsemer du reste de ciboulette."
+    ],
+    "astuce": "Les chutes de saumon fumé conviennent parfaitement et coûtent moins cher."
+  }
+]

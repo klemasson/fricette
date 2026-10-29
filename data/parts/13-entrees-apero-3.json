@@ -1,0 +1,3489 @@
+[
+  {
+    "titre": "Verrines d'avocat, crevettes et citron vert",
+    "categorie": "entree",
+    "temps": 25,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "avocat",
+        "nom": "avocats mûrs",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "crevette",
+        "nom": "crevettes cuites décortiquées",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "citron_vert",
+        "nom": "citron vert",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "tomate_cerise",
+        "nom": "tomates cerises",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "coriandre",
+        "nom": "coriandre fraîche",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Presser le citron vert.",
+      "Écraser la chair des avocats à la fourchette avec la moitié du jus de citron vert, du sel et du poivre.",
+      "Couper les tomates cerises en quartiers et les saler légèrement.",
+      "Mélanger les crevettes avec l'huile d'olive, le reste du jus de citron vert et la coriandre ciselée.",
+      "Répartir l'avocat au fond de 4 verrines, ajouter les tomates puis les crevettes, et réserver 15 minutes au frais avant de servir."
+    ],
+    "astuce": "Un avocat un peu trop mûr pour être tranché est parfait pour la couche crémeuse du fond."
+  },
+  {
+    "titre": "Carpaccio de champignons de Paris au citron et ciboulette",
+    "categorie": "entree",
+    "temps": 20,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "champignon",
+        "nom": "champignons de Paris bien blancs",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "ciboulette",
+        "nom": "ciboulette",
+        "qte": 0.5,
+        "unite": "botte"
+      },
+      {
+        "cle": "parmesan",
+        "nom": "parmesan",
+        "qte": 30,
+        "unite": "g",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Essuyer les champignons avec un papier humide, couper le bout terreux des pieds et les trancher très finement, idéalement à la mandoline.",
+      "Les disposer en rosace sur 4 assiettes, en faisant se chevaucher les lamelles.",
+      "Fouetter le jus du citron avec l'huile d'olive, le sel et le poivre, puis napper les champignons et laisser mariner 10 minutes.",
+      "Parsemer de ciboulette ciselée et de copeaux de parmesan au moment de servir."
+    ],
+    "astuce": "Seuls les champignons très frais et fermes conviennent ici ; ceux qui brunissent finiront mieux en poêlée."
+  },
+  {
+    "titre": "Tartare de saumon fumé, concombre et aneth",
+    "categorie": "entree",
+    "temps": 20,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "saumon_fume",
+        "nom": "saumon fumé",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "concombre",
+        "nom": "concombre",
+        "qte": 0.5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "echalote",
+        "nom": "échalote",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "aneth",
+        "nom": "aneth frais",
+        "qte": 0.5,
+        "unite": "botte"
+      },
+      {
+        "cle": "creme",
+        "nom": "crème épaisse",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Couper le saumon fumé en petits dés au couteau.",
+      "Épépiner le demi-concombre à la cuillère et le tailler en dés de 5 mm ; hacher finement l'échalote et ciseler l'aneth.",
+      "Mélanger le saumon, le concombre, l'échalote, l'aneth et la crème avec le jus de la moitié du citron, puis poivrer (inutile de saler).",
+      "Dresser dans un emporte-pièce sur 4 assiettes et servir aussitôt avec le reste du citron coupé en quartiers."
+    ],
+    "astuce": "Les chutes de saumon fumé, vendues moins cher, sont idéales pour un tartare."
+  },
+  {
+    "titre": "Poireaux vinaigrette et œuf dur émietté",
+    "categorie": "entree",
+    "temps": 30,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "poireau",
+        "nom": "poireaux fins",
+        "qte": 4,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "moutarde",
+        "nom": "moutarde",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "vinaigre",
+        "nom": "vinaigre de vin",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "huile",
+        "nom": "huile de colza",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "persil",
+        "nom": "persil",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Cuire les œufs 10 minutes dans l'eau bouillante, les refroidir à l'eau froide puis les écaler.",
+      "Nettoyer les poireaux en gardant le blanc et le vert tendre, les couper en tronçons de 10 cm et les cuire 12 à 15 minutes à l'eau salée frémissante, jusqu'à ce qu'un couteau les traverse sans résistance.",
+      "Égoutter les poireaux et les presser délicatement pour retirer l'excès d'eau.",
+      "Fouetter la moutarde, le vinaigre, le sel et le poivre, puis ajouter l'huile en filet.",
+      "Napper les poireaux tièdes de vinaigrette, émietter les œufs à la fourchette par-dessus et parsemer de persil haché."
+    ],
+    "astuce": "Les verts durs des poireaux se gardent au congélateur pour parfumer un bouillon."
+  },
+  {
+    "titre": "Céleri rémoulade à la pomme",
+    "categorie": "entree",
+    "temps": 45,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "celeri",
+        "nom": "céleri-rave",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "pomme",
+        "nom": "pomme acidulée",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 0.5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "mayonnaise",
+        "nom": "mayonnaise",
+        "qte": 4,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "moutarde",
+        "nom": "moutarde",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "persil",
+        "nom": "persil",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Éplucher le céleri-rave et le râper avec la grosse râpe, puis l'arroser aussitôt du jus de citron pour qu'il ne noircisse pas.",
+      "Couper la pomme, sans l'éplucher, en fins bâtonnets.",
+      "Mélanger la mayonnaise, la moutarde, le sel et le poivre, puis y enrober le céleri et la pomme.",
+      "Réserver 30 minutes au frais pour que le céleri s'attendrisse, puis parsemer de persil haché."
+    ],
+    "astuce": "Le reste du céleri-rave fait une excellente purée ou une soupe avec une pomme de terre."
+  },
+  {
+    "titre": "Asperges vertes rôties, œuf mollet et parmesan",
+    "categorie": "entree",
+    "temps": 25,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "asperge",
+        "nom": "asperges vertes",
+        "qte": 500,
+        "unite": "g"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 4,
+        "unite": "pièce"
+      },
+      {
+        "cle": "parmesan",
+        "nom": "parmesan",
+        "qte": 30,
+        "unite": "g"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "citron",
+        "nom": "citron (zeste)",
+        "qte": 0.5,
+        "unite": "pièce",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 220 °C.",
+      "Casser la base dure des asperges, les étaler sur une plaque, arroser d'huile d'olive, saler et rôtir 12 à 15 minutes, jusqu'à ce qu'elles soient tendres et légèrement dorées.",
+      "Pendant ce temps, plonger les œufs 6 minutes dans l'eau bouillante, les refroidir à l'eau froide et les écaler délicatement.",
+      "Répartir les asperges sur 4 assiettes, poser un œuf ouvert en deux par-dessus, puis ajouter des copeaux de parmesan, le zeste de citron et du poivre."
+    ],
+    "astuce": "Les bases dures des asperges, épluchées, parfument très bien un velouté."
+  },
+  {
+    "titre": "Millefeuille de tomates, mozzarella et pesto",
+    "categorie": "entree",
+    "temps": 15,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "tomate",
+        "nom": "grosses tomates bien mûres",
+        "qte": 3,
+        "unite": "pièce"
+      },
+      {
+        "cle": "mozzarella",
+        "nom": "mozzarella",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "pesto",
+        "nom": "pesto vert",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "basilic",
+        "nom": "basilic frais",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Couper les tomates en tranches de 1 cm d'épaisseur et les saler légèrement ; trancher la mozzarella.",
+      "Détendre le pesto avec l'huile d'olive.",
+      "Monter 4 millefeuilles en alternant tranche de tomate, tranche de mozzarella et un peu de pesto, sur trois étages.",
+      "Poivrer, décorer de feuilles de basilic et servir à température ambiante."
+    ],
+    "astuce": "Sortez les tomates du réfrigérateur une heure avant : elles auront bien plus de goût."
+  },
+  {
+    "titre": "Champignons farcis au fromage frais et à la chapelure",
+    "categorie": "entree",
+    "temps": 30,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "champignon",
+        "nom": "gros champignons de Paris",
+        "qte": 12,
+        "unite": "pièce"
+      },
+      {
+        "cle": "fromage_frais",
+        "nom": "fromage frais",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousse d'ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "persil",
+        "nom": "persil",
+        "qte": 0.5,
+        "unite": "botte"
+      },
+      {
+        "cle": "chapelure",
+        "nom": "chapelure",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 200 °C.",
+      "Retirer les pieds des champignons et les hacher finement ; hacher le persil.",
+      "Mélanger les pieds hachés avec le fromage frais, l'ail pressé, le persil, le sel et le poivre.",
+      "Garnir les chapeaux de cette farce, les poser sur une plaque, saupoudrer de chapelure et arroser d'huile d'olive.",
+      "Cuire 18 à 20 minutes, jusqu'à ce que le dessus soit doré et les champignons tendres."
+    ],
+    "astuce": "Un reste de pain rassis mixé fait une chapelure maison parfaite pour ce gratiné."
+  },
+  {
+    "titre": "Flans de carottes au cumin",
+    "categorie": "entree",
+    "temps": 50,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "carotte",
+        "nom": "carottes",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 3,
+        "unite": "pièce"
+      },
+      {
+        "cle": "creme",
+        "nom": "crème entière",
+        "qte": 150,
+        "unite": "ml"
+      },
+      {
+        "cle": "cumin",
+        "nom": "cumin",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre (pour les ramequins)",
+        "qte": 10,
+        "unite": "g"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Éplucher les carottes, les couper en rondelles et les cuire 15 minutes à l'eau salée, puis bien les égoutter.",
+      "Préchauffer le four à 180 °C et beurrer 4 ramequins.",
+      "Mixer les carottes avec les œufs, la crème, le cumin, le sel et le poivre jusqu'à obtenir une crème lisse.",
+      "Verser dans les ramequins et cuire 25 minutes au bain-marie, jusqu'à ce qu'une lame plantée au centre ressorte sèche.",
+      "Laisser tiédir 5 minutes, puis démouler sur assiette ou servir dans les ramequins."
+    ],
+    "astuce": "Idéal pour des carottes un peu molles qui ne sont plus assez croquantes pour être râpées."
+  },
+  {
+    "titre": "Soufflé au gruyère",
+    "categorie": "entree",
+    "temps": 50,
+    "difficulte": "moyen",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 40,
+        "unite": "g"
+      },
+      {
+        "cle": "farine",
+        "nom": "farine",
+        "qte": 40,
+        "unite": "g"
+      },
+      {
+        "cle": "lait",
+        "nom": "lait",
+        "qte": 300,
+        "unite": "ml"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 4,
+        "unite": "pièce"
+      },
+      {
+        "cle": "gruyere",
+        "nom": "gruyère râpé",
+        "qte": 120,
+        "unite": "g"
+      },
+      {
+        "cle": "muscade",
+        "nom": "muscade",
+        "qte": 1,
+        "unite": "pincée"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 200 °C et beurrer généreusement un moule à soufflé de 1,5 l avec un peu du beurre.",
+      "Faire fondre le reste du beurre, ajouter la farine et cuire 1 minute, puis verser le lait en fouettant et laisser épaissir 3 minutes à feu doux.",
+      "Hors du feu, incorporer les jaunes d'œufs un à un, le gruyère, la muscade, le sel et le poivre.",
+      "Monter les blancs en neige ferme avec une pincée de sel et les incorporer délicatement à la spatule, en deux fois.",
+      "Verser dans le moule et cuire 25 minutes sans ouvrir le four, jusqu'à ce que le soufflé soit bien gonflé et doré ; servir immédiatement."
+    ],
+    "astuce": "Un mélange de restes de fromages à pâte dure (gruyère, comté, emmental) fonctionne tout aussi bien."
+  },
+  {
+    "titre": "Cocktail de crevettes, sauce rose et laitue",
+    "categorie": "entree",
+    "temps": 15,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "crevette",
+        "nom": "crevettes cuites décortiquées",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "salade",
+        "nom": "laitue",
+        "qte": 0.5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "mayonnaise",
+        "nom": "mayonnaise",
+        "qte": 4,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "ketchup",
+        "nom": "ketchup",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 0.5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "paprika",
+        "nom": "paprika",
+        "qte": 1,
+        "unite": "pincée",
+        "optionnel": true
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Laver la laitue, l'essorer et la couper en fines lanières, puis la répartir dans 4 coupes ou verres.",
+      "Mélanger la mayonnaise, le ketchup, le jus du demi-citron et le poivre.",
+      "Enrober les crevettes de cette sauce rose et les déposer sur la laitue.",
+      "Saupoudrer d'une pincée de paprika et servir bien frais."
+    ],
+    "astuce": "Des crevettes surgelées décongelées une nuit au réfrigérateur font très bien l'affaire."
+  },
+  {
+    "titre": "Figues rôties au chèvre et jambon cru",
+    "categorie": "entree",
+    "temps": 25,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "sans_gluten",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "figue",
+        "nom": "figues fraîches",
+        "qte": 8,
+        "unite": "pièce"
+      },
+      {
+        "cle": "chevre",
+        "nom": "bûche de chèvre",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "jambon_cru",
+        "nom": "jambon cru",
+        "qte": 4,
+        "unite": "tranche"
+      },
+      {
+        "cle": "miel",
+        "nom": "miel",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "salade",
+        "nom": "jeunes pousses",
+        "qte": 80,
+        "unite": "g",
+        "optionnel": true
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 200 °C.",
+      "Inciser les figues en croix sur les deux tiers de leur hauteur et les poser dans un plat.",
+      "Glisser un morceau de chèvre dans chaque figue, arroser de miel et poivrer.",
+      "Rôtir 12 minutes, jusqu'à ce que les figues s'ouvrent et que le chèvre fonde.",
+      "Servir sur les jeunes pousses avec une demi-tranche de jambon cru déchirée par figue."
+    ],
+    "astuce": "Les figues trop mûres, un peu molles, sont parfaites rôties."
+  },
+  {
+    "titre": "Tarte fine feuilletée aux champignons et persillade",
+    "categorie": "entree",
+    "temps": 35,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pate_feuilletee",
+        "nom": "pâte feuilletée rectangulaire",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "champignon",
+        "nom": "champignons",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 20,
+        "unite": "g"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousses d'ail",
+        "qte": 2,
+        "unite": "gousse"
+      },
+      {
+        "cle": "persil",
+        "nom": "persil",
+        "qte": 0.5,
+        "unite": "botte"
+      },
+      {
+        "cle": "creme",
+        "nom": "crème épaisse",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 200 °C.",
+      "Émincer les champignons et les faire sauter 8 minutes dans le beurre à feu vif, jusqu'à ce que leur eau soit évaporée.",
+      "Ajouter l'ail et le persil hachés, cuire encore 1 minute, puis saler et poivrer.",
+      "Dérouler la pâte sur une plaque, la piquer et étaler la crème en laissant une bordure de 1 cm.",
+      "Répartir les champignons et cuire 20 minutes, jusqu'à ce que la pâte soit gonflée et dorée ; couper en 4 rectangles."
+    ],
+    "astuce": "Un mélange de champignons (pleurotes, chanterelles) rend la tarte encore plus parfumée."
+  },
+  {
+    "titre": "Coquilles de poisson blanc et crevettes gratinées",
+    "categorie": "entree",
+    "temps": 40,
+    "difficulte": "moyen",
+    "portions": 4,
+    "regimes": [
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "poisson_blanc",
+        "nom": "filet de poisson blanc",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "crevette",
+        "nom": "crevettes crues décortiquées",
+        "qte": 120,
+        "unite": "g"
+      },
+      {
+        "cle": "champignon",
+        "nom": "champignons",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "echalote",
+        "nom": "échalote",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 20,
+        "unite": "g"
+      },
+      {
+        "cle": "farine",
+        "nom": "farine",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "creme",
+        "nom": "crème entière",
+        "qte": 150,
+        "unite": "ml"
+      },
+      {
+        "cle": "fromage_rape",
+        "nom": "fromage râpé",
+        "qte": 40,
+        "unite": "g"
+      },
+      {
+        "cle": "chapelure",
+        "nom": "chapelure",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four en mode grill à 220 °C.",
+      "Faire suer l'échalote hachée 3 minutes dans le beurre, ajouter les champignons émincés et cuire 5 minutes.",
+      "Saupoudrer de farine, mélanger, verser la crème et laisser épaissir 2 minutes.",
+      "Ajouter le poisson coupé en dés et les crevettes, cuire 4 minutes à feu doux jusqu'à ce que le poisson devienne opaque, puis saler et poivrer.",
+      "Répartir dans 4 coquilles ou ramequins, parsemer de fromage râpé et de chapelure, et gratiner 6 à 8 minutes."
+    ],
+    "astuce": "Du poisson et des crevettes surgelés conviennent : bien les égoutter après décongélation."
+  },
+  {
+    "titre": "Poivrons grillés marinés, feta et basilic",
+    "categorie": "entree",
+    "temps": 55,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "poivron",
+        "nom": "poivrons rouges et jaunes",
+        "qte": 4,
+        "unite": "pièce"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousse d'ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "vinaigre",
+        "nom": "vinaigre balsamique",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "feta",
+        "nom": "feta",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "basilic",
+        "nom": "basilic frais",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four en mode grill à 240 °C et griller les poivrons entiers 25 minutes, en les retournant, jusqu'à ce que la peau noircisse.",
+      "Les enfermer 10 minutes dans un saladier couvert, puis les peler, les épépiner et les couper en lanières.",
+      "Arroser d'huile d'olive et de vinaigre, ajouter l'ail émincé, saler, poivrer et laisser mariner 15 minutes.",
+      "Émietter la feta par-dessus et parsemer de basilic au moment de servir."
+    ],
+    "astuce": "Couverts d'huile dans un bocal, les poivrons marinés se gardent 4 jours au réfrigérateur."
+  },
+  {
+    "titre": "Gougères au gruyère",
+    "categorie": "apero",
+    "temps": 45,
+    "difficulte": "moyen",
+    "portions": 8,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "eau",
+        "nom": "eau",
+        "qte": 125,
+        "unite": "ml"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 50,
+        "unite": "g"
+      },
+      {
+        "cle": "farine",
+        "nom": "farine",
+        "qte": 75,
+        "unite": "g"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "gruyere",
+        "nom": "gruyère râpé",
+        "qte": 80,
+        "unite": "g"
+      },
+      {
+        "cle": "muscade",
+        "nom": "muscade",
+        "qte": 1,
+        "unite": "pincée",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 200 °C et couvrir une plaque de papier cuisson.",
+      "Porter à ébullition l'eau, le beurre et une pincée de sel, puis hors du feu verser la farine d'un coup et remuer vivement.",
+      "Remettre 1 minute sur feu doux en remuant, jusqu'à ce que la pâte forme une boule qui se détache de la casserole.",
+      "Hors du feu, incorporer les œufs un à un, puis 60 g de gruyère et la muscade.",
+      "Déposer des petits tas de la taille d'une noix sur la plaque, parsemer du reste du gruyère et cuire 20 à 25 minutes sans ouvrir le four, jusqu'à ce qu'elles soient bien dorées."
+    ],
+    "astuce": "Crues, les gougères se congèlent sur la plaque : on les cuit ensuite sans décongeler, 5 minutes de plus."
+  },
+  {
+    "titre": "Cake salé au chorizo et poivron",
+    "categorie": "apero",
+    "temps": 70,
+    "difficulte": "facile",
+    "portions": 8,
+    "regimes": [
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "farine",
+        "nom": "farine",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "levure",
+        "nom": "levure chimique",
+        "qte": 2,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 3,
+        "unite": "pièce"
+      },
+      {
+        "cle": "lait",
+        "nom": "lait",
+        "qte": 100,
+        "unite": "ml"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 80,
+        "unite": "ml"
+      },
+      {
+        "cle": "gruyere",
+        "nom": "gruyère râpé",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "chorizo",
+        "nom": "chorizo",
+        "qte": 120,
+        "unite": "g"
+      },
+      {
+        "cle": "poivron",
+        "nom": "poivron rouge",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 180 °C et chemiser un moule à cake de papier cuisson.",
+      "Couper le chorizo et le poivron en petits dés.",
+      "Fouetter les œufs avec le lait, l'huile, le sel et le poivre, puis ajouter la farine et la levure et mélanger juste assez pour obtenir une pâte lisse.",
+      "Incorporer le gruyère, le chorizo et le poivron, verser dans le moule et cuire 45 minutes, jusqu'à ce qu'une lame ressorte sèche.",
+      "Laisser tiédir 10 minutes avant de démouler et de couper en tranches ou en cubes."
+    ],
+    "astuce": "Coupé en tranches, le cake se congèle très bien et se réchauffe quelques minutes au four."
+  },
+  {
+    "titre": "Cake salé carotte, cumin et emmental",
+    "categorie": "apero",
+    "temps": 70,
+    "difficulte": "facile",
+    "portions": 8,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "farine",
+        "nom": "farine",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "levure",
+        "nom": "levure chimique",
+        "qte": 2,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 3,
+        "unite": "pièce"
+      },
+      {
+        "cle": "yaourt",
+        "nom": "yaourt nature",
+        "qte": 1,
+        "unite": "pot"
+      },
+      {
+        "cle": "huile",
+        "nom": "huile de colza",
+        "qte": 60,
+        "unite": "ml"
+      },
+      {
+        "cle": "carotte",
+        "nom": "carottes",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "emmental",
+        "nom": "emmental râpé",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "cumin",
+        "nom": "cumin",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "graine",
+        "nom": "graines de tournesol",
+        "qte": 2,
+        "unite": "c. à s.",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 180 °C et chemiser un moule à cake de papier cuisson.",
+      "Éplucher et râper finement les carottes.",
+      "Fouetter les œufs avec le yaourt, l'huile, le cumin, le sel et le poivre, puis ajouter la farine et la levure et mélanger sans trop travailler.",
+      "Incorporer les carottes et l'emmental, verser dans le moule et parsemer de graines de tournesol.",
+      "Cuire 45 minutes, jusqu'à ce qu'une lame ressorte sèche, puis laisser tiédir avant de démouler."
+    ],
+    "astuce": "Parfait pour écouler les dernières carottes du bac à légumes ; la courgette râpée et pressée marche aussi."
+  },
+  {
+    "titre": "Tartinade de lentilles corail au cumin",
+    "categorie": "apero",
+    "temps": 30,
+    "difficulte": "facile",
+    "portions": 6,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "lentille_corail",
+        "nom": "lentilles corail",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousse d'ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "cumin",
+        "nom": "cumin",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 0.5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "paprika",
+        "nom": "paprika",
+        "qte": 1,
+        "unite": "pincée",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Faire revenir l'oignon émincé 5 minutes dans 1 c. à s. d'huile d'olive, puis ajouter l'ail haché et le cumin et cuire 1 minute.",
+      "Ajouter les lentilles rincées et 350 ml d'eau, puis cuire 15 minutes à feu doux, jusqu'à ce que les lentilles se défassent et que l'eau soit absorbée.",
+      "Laisser refroidir, puis mixer avec le jus du demi-citron, le reste de l'huile d'olive et du sel.",
+      "Servir dans un bol, saupoudré de paprika, avec du pain grillé ou des bâtonnets de légumes."
+    ],
+    "astuce": "Elle se garde 4 jours au réfrigérateur dans une boîte fermée."
+  },
+  {
+    "titre": "Tapenade d'olives noires aux câpres",
+    "categorie": "apero",
+    "temps": 10,
+    "difficulte": "facile",
+    "portions": 6,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "olive",
+        "nom": "olives noires dénoyautées",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "capre",
+        "nom": "câpres",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "ail",
+        "nom": "gousse d'ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 0.5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 4,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "herbes_provence",
+        "nom": "thym ou herbes de Provence",
+        "qte": 0.5,
+        "unite": "c. à c.",
+        "optionnel": true
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Égoutter les olives et les câpres.",
+      "Les mixer par à-coups avec l'ail, les herbes et le jus du demi-citron.",
+      "Ajouter l'huile d'olive en filet en mixant brièvement, pour garder une texture un peu grossière.",
+      "Poivrer sans saler et servir avec du pain grillé ou des légumes crus."
+    ],
+    "astuce": "Un reste de tapenade parfume des pâtes ou se tartine sur une pâte feuilletée avant de la rouler en palmiers."
+  },
+  {
+    "titre": "Tartinade de poivrons rôtis aux noix",
+    "categorie": "apero",
+    "temps": 45,
+    "difficulte": "facile",
+    "portions": 6,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "poivron",
+        "nom": "poivrons rouges",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "noix",
+        "nom": "cerneaux de noix",
+        "qte": 60,
+        "unite": "g"
+      },
+      {
+        "cle": "chapelure",
+        "nom": "chapelure",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "ail",
+        "nom": "gousse d'ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "paprika",
+        "nom": "paprika",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 0.5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 230 °C et rôtir les poivrons entiers 25 minutes, en les retournant, jusqu'à ce que la peau noircisse.",
+      "Les couvrir 10 minutes dans un saladier, puis les peler et les épépiner.",
+      "Torréfier les noix 3 minutes dans une poêle sèche.",
+      "Mixer les poivrons, les noix, la chapelure, l'ail, le paprika, le jus du demi-citron, l'huile d'olive et le sel jusqu'à obtenir une pâte épaisse."
+    ],
+    "astuce": "Pour une version sans gluten, remplacer la chapelure par 20 g de noix supplémentaires."
+  },
+  {
+    "titre": "Tartinade de petits pois à la ricotta et au citron",
+    "categorie": "apero",
+    "temps": 15,
+    "difficulte": "facile",
+    "portions": 6,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "petit_pois",
+        "nom": "petits pois surgelés",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "ricotta",
+        "nom": "ricotta",
+        "qte": 125,
+        "unite": "g"
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "menthe",
+        "nom": "feuilles de menthe",
+        "qte": 6,
+        "unite": "pièce",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Cuire les petits pois 4 minutes à l'eau bouillante salée, puis les refroidir dans de l'eau glacée et les égoutter.",
+      "Râper le zeste du citron et presser son jus.",
+      "Mixer les petits pois avec la ricotta, le zeste, la moitié du jus de citron, la menthe, l'huile d'olive, le sel et le poivre, en gardant un peu de texture.",
+      "Goûter, ajouter le reste du jus de citron si besoin et servir sur du pain grillé."
+    ],
+    "astuce": "Le passage dans l'eau glacée garde aux petits pois leur vert éclatant."
+  },
+  {
+    "titre": "Sablés salés au parmesan et aux herbes de Provence",
+    "categorie": "apero",
+    "temps": 60,
+    "difficulte": "facile",
+    "portions": 8,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "farine",
+        "nom": "farine",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre mou",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "parmesan",
+        "nom": "parmesan râpé",
+        "qte": 80,
+        "unite": "g"
+      },
+      {
+        "cle": "herbes_provence",
+        "nom": "herbes de Provence",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "oeuf",
+        "nom": "jaune d'œuf",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Sabler du bout des doigts la farine, le beurre en dés, le parmesan, les herbes et le poivre.",
+      "Ajouter le jaune d'œuf, former une boule sans trop pétrir, puis rouler en boudin de 4 cm de diamètre.",
+      "Filmer et réserver 30 minutes au réfrigérateur.",
+      "Préchauffer le four à 180 °C, couper le boudin en tranches de 7 mm et les poser sur une plaque recouverte de papier cuisson.",
+      "Cuire 12 à 15 minutes, jusqu'à ce que les bords soient juste dorés, puis laisser refroidir sur une grille."
+    ],
+    "astuce": "Le blanc restant sert pour une omelette ou des financiers ; le boudin cru se congèle."
+  },
+  {
+    "titre": "Palmiers feuilletés au jambon et à la moutarde",
+    "categorie": "apero",
+    "temps": 40,
+    "difficulte": "facile",
+    "portions": 6,
+    "regimes": [
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pate_feuilletee",
+        "nom": "pâte feuilletée rectangulaire",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "moutarde",
+        "nom": "moutarde",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "jambon",
+        "nom": "jambon",
+        "qte": 3,
+        "unite": "tranche"
+      },
+      {
+        "cle": "fromage_rape",
+        "nom": "fromage râpé",
+        "qte": 50,
+        "unite": "g"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "jaune d'œuf (dorure)",
+        "qte": 1,
+        "unite": "pièce",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 200 °C.",
+      "Dérouler la pâte, la tartiner de moutarde, couvrir de jambon et parsemer de fromage râpé.",
+      "Rouler les deux longs côtés vers le centre jusqu'à ce qu'ils se rejoignent, filmer et placer 15 minutes au congélateur pour raffermir.",
+      "Couper en tranches de 1 cm, les poser espacées sur une plaque recouverte de papier cuisson et les badigeonner de jaune d'œuf battu.",
+      "Cuire 15 minutes, jusqu'à ce que les palmiers soient bien dorés."
+    ],
+    "astuce": "Le passage au congélateur permet des tranches nettes qui gardent leur forme en cœur."
+  },
+  {
+    "titre": "Brochettes de tomates cerises, mozzarella et basilic",
+    "categorie": "apero",
+    "temps": 15,
+    "difficulte": "facile",
+    "portions": 6,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "tomate_cerise",
+        "nom": "tomates cerises",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "mozzarella",
+        "nom": "billes de mozzarella",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "basilic",
+        "nom": "basilic frais",
+        "qte": 1,
+        "unite": "botte"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "vinaigre",
+        "nom": "vinaigre balsamique",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Égoutter les billes de mozzarella et effeuiller le basilic.",
+      "Piquer sur des petites brochettes une tomate cerise, une feuille de basilic pliée et une bille de mozzarella, puis recommencer.",
+      "Mélanger l'huile d'olive, le vinaigre, le sel et le poivre.",
+      "Arroser les brochettes de cette sauce juste avant de servir."
+    ],
+    "astuce": "Une boule de mozzarella classique coupée en cubes remplace très bien les billes."
+  },
+  {
+    "titre": "Croquettes de pommes de terre au gruyère",
+    "categorie": "apero",
+    "temps": 60,
+    "difficulte": "moyen",
+    "portions": 6,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pomme_de_terre",
+        "nom": "pommes de terre farineuses",
+        "qte": 500,
+        "unite": "g"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "gruyere",
+        "nom": "gruyère râpé",
+        "qte": 80,
+        "unite": "g"
+      },
+      {
+        "cle": "muscade",
+        "nom": "muscade",
+        "qte": 1,
+        "unite": "pincée"
+      },
+      {
+        "cle": "farine",
+        "nom": "farine",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "chapelure",
+        "nom": "chapelure",
+        "qte": 80,
+        "unite": "g"
+      },
+      {
+        "cle": "huile",
+        "nom": "huile",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Éplucher les pommes de terre, les cuire 20 minutes à l'eau salée, bien les égoutter et les écraser en purée sèche ; laisser tiédir.",
+      "Incorporer un des œufs, le gruyère, la muscade, le sel et le poivre, puis former une vingtaine de petits boudins.",
+      "Préchauffer le four à 220 °C et huiler une plaque avec la moitié de l'huile.",
+      "Rouler les croquettes dans la farine, puis dans l'autre œuf battu, puis dans la chapelure, et les poser sur la plaque.",
+      "Arroser du reste de l'huile et cuire 20 minutes en les retournant à mi-cuisson, jusqu'à ce qu'elles soient dorées et croustillantes."
+    ],
+    "astuce": "Un reste de purée de la veille, bien ferme, fait gagner 25 minutes."
+  },
+  {
+    "titre": "Gressins au sésame et parmesan",
+    "categorie": "apero",
+    "temps": 30,
+    "difficulte": "facile",
+    "portions": 6,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pate_pizza",
+        "nom": "pâte à pizza rectangulaire",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "parmesan",
+        "nom": "parmesan râpé",
+        "qte": 40,
+        "unite": "g"
+      },
+      {
+        "cle": "graine",
+        "nom": "graines de sésame",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "fleur de sel",
+        "qte": 1,
+        "unite": "pincée"
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 220 °C.",
+      "Dérouler la pâte, la badigeonner d'huile d'olive, puis parsemer de parmesan, de sésame et de fleur de sel en pressant légèrement.",
+      "Couper en bandes de 1,5 cm de large, les torsader et les poser sur une plaque recouverte de papier cuisson.",
+      "Cuire 12 à 15 minutes, jusqu'à ce qu'ils soient dorés et croustillants, puis laisser refroidir sur une grille."
+    ],
+    "astuce": "Conservés dans une boîte en fer, ils restent croustillants 3 jours."
+  },
+  {
+    "titre": "Pois chiches grillés au paprika",
+    "categorie": "apero",
+    "temps": 45,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pois_chiche",
+        "nom": "pois chiches cuits",
+        "qte": 1,
+        "unite": "boîte"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "paprika",
+        "nom": "paprika",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "cumin",
+        "nom": "cumin",
+        "qte": 0.5,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 200 °C.",
+      "Égoutter et rincer les pois chiches, puis les sécher soigneusement dans un torchon en retirant les peaux qui se détachent.",
+      "Les mélanger avec l'huile d'olive, les étaler sur une plaque et rôtir 30 à 35 minutes en secouant deux fois, jusqu'à ce qu'ils soient bien croustillants.",
+      "À la sortie du four, les enrober aussitôt de paprika, de cumin et de sel, puis laisser refroidir."
+    ],
+    "astuce": "Le jus de la boîte (aquafaba) se monte en neige comme des blancs d'œufs pour une mousse vegan."
+  },
+  {
+    "titre": "Rillettes de saumon au fromage frais",
+    "categorie": "apero",
+    "temps": 80,
+    "difficulte": "facile",
+    "portions": 6,
+    "regimes": [
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "saumon",
+        "nom": "pavé de saumon frais",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "saumon_fume",
+        "nom": "saumon fumé",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "fromage_frais",
+        "nom": "fromage frais",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 0.5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "echalote",
+        "nom": "échalote",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "ciboulette",
+        "nom": "ciboulette",
+        "qte": 0.5,
+        "unite": "botte"
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Cuire le saumon frais 8 minutes dans de l'eau frémissante, le laisser refroidir, retirer la peau et l'effeuiller à la fourchette.",
+      "Couper le saumon fumé en petits morceaux, hacher finement l'échalote et ciseler la ciboulette.",
+      "Mélanger le fromage frais avec le jus du demi-citron, l'échalote, la ciboulette et le poivre.",
+      "Ajouter les deux saumons et mélanger sans tout écraser, puis réserver 1 heure au frais avant de servir sur des toasts."
+    ],
+    "astuce": "Les rillettes se gardent 2 jours au réfrigérateur dans un bocal bien fermé."
+  },
+  {
+    "titre": "Guacamole et chips de tortilla au four",
+    "categorie": "apero",
+    "temps": 25,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "tortilla",
+        "nom": "tortillas de blé",
+        "qte": 4,
+        "unite": "pièce"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "avocat",
+        "nom": "avocats mûrs",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "tomate",
+        "nom": "tomate",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oignon_rouge",
+        "nom": "oignon rouge",
+        "qte": 0.5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "citron_vert",
+        "nom": "citron vert",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "coriandre",
+        "nom": "coriandre fraîche",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "piment",
+        "nom": "piment frais",
+        "qte": 0.5,
+        "unite": "pièce",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 200 °C, badigeonner les tortillas d'huile d'olive, les saler et les couper chacune en 8 triangles.",
+      "Les étaler sur une plaque et cuire 8 à 10 minutes, jusqu'à ce qu'elles soient dorées et croustillantes.",
+      "Hacher finement l'oignon rouge et le piment, et couper la tomate épépinée en petits dés.",
+      "Écraser les avocats avec le jus du citron vert et du sel, puis incorporer la tomate, l'oignon, le piment et la coriandre ciselée.",
+      "Servir aussitôt avec les chips tièdes."
+    ],
+    "astuce": "Les tortillas un peu sèches qui traînent au placard font les meilleures chips."
+  },
+  {
+    "titre": "Courgettes rôties au parmesan et herbes de Provence",
+    "categorie": "accompagnement",
+    "temps": 30,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "courgette",
+        "nom": "courgettes",
+        "qte": 3,
+        "unite": "pièce"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "herbes_provence",
+        "nom": "herbes de Provence",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "ail",
+        "nom": "gousse d'ail",
+        "qte": 1,
+        "unite": "gousse",
+        "optionnel": true
+      },
+      {
+        "cle": "parmesan",
+        "nom": "parmesan râpé",
+        "qte": 40,
+        "unite": "g"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 220 °C.",
+      "Couper les courgettes en quatre dans la longueur, puis en tronçons de 8 cm.",
+      "Mélanger l'huile d'olive, les herbes, l'ail râpé, le sel et le poivre, puis y enrober les courgettes.",
+      "Les disposer peau contre la plaque, parsemer de parmesan et rôtir 20 minutes, jusqu'à ce qu'elles soient tendres avec une croûte dorée."
+    ],
+    "astuce": "Les grosses courgettes un peu oubliées au frigo conviennent : retirer simplement le cœur à graines."
+  },
+  {
+    "titre": "Bouquets de chou-fleur rôtis au paprika et citron",
+    "categorie": "accompagnement",
+    "temps": 35,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "chou_fleur",
+        "nom": "chou-fleur",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "paprika",
+        "nom": "paprika",
+        "qte": 2,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "ail",
+        "nom": "gousses d'ail",
+        "qte": 2,
+        "unite": "gousse"
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 0.5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "persil",
+        "nom": "persil",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 220 °C.",
+      "Détailler le chou-fleur en bouquets moyens et les mélanger avec l'huile d'olive, le paprika, l'ail écrasé et le sel.",
+      "Étaler sur une plaque en une seule couche et rôtir 25 minutes en remuant à mi-cuisson, jusqu'à ce que les bords soient bien dorés.",
+      "Arroser du jus du demi-citron et parsemer de persil haché avant de servir."
+    ],
+    "astuce": "La tige pelée et les petites feuilles rôtissent aussi très bien : ne rien jeter."
+  },
+  {
+    "titre": "Purée de brocoli et pommes de terre à l'ail",
+    "categorie": "accompagnement",
+    "temps": 30,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "brocoli",
+        "nom": "brocoli",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "pomme_de_terre",
+        "nom": "pommes de terre",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousses d'ail",
+        "qte": 2,
+        "unite": "gousse"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 30,
+        "unite": "g"
+      },
+      {
+        "cle": "lait",
+        "nom": "lait",
+        "qte": 100,
+        "unite": "ml"
+      },
+      {
+        "cle": "muscade",
+        "nom": "muscade",
+        "qte": 1,
+        "unite": "pincée",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Éplucher les pommes de terre et les couper en morceaux ; détailler le brocoli en bouquets et peler la tige avant de la couper en dés.",
+      "Cuire les pommes de terre et les gousses d'ail pelées 10 minutes à l'eau salée, ajouter le brocoli et poursuivre 10 minutes.",
+      "Égoutter, puis écraser au presse-purée avec le beurre et le lait chaud.",
+      "Assaisonner de sel, de poivre et de muscade."
+    ],
+    "astuce": "Un brocoli qui commence à jaunir trouve ici une seconde vie."
+  },
+  {
+    "titre": "Tian de légumes provençal",
+    "categorie": "accompagnement",
+    "temps": 80,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "courgette",
+        "nom": "courgettes",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "aubergine",
+        "nom": "aubergine",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "tomate",
+        "nom": "tomates",
+        "qte": 4,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousses d'ail",
+        "qte": 2,
+        "unite": "gousse"
+      },
+      {
+        "cle": "herbes_provence",
+        "nom": "herbes de Provence",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 4,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 180 °C.",
+      "Émincer l'oignon et l'ail, les faire fondre 5 minutes dans 1 c. à s. d'huile d'olive et les étaler au fond d'un plat à gratin.",
+      "Couper la courgette, l'aubergine et les tomates en rondelles de 5 mm et les ranger debout, serrées, en les alternant.",
+      "Saler, poivrer, parsemer d'herbes et arroser du reste de l'huile d'olive.",
+      "Cuire 30 minutes couvert d'aluminium, puis 30 minutes à découvert, jusqu'à ce que les légumes soient fondants et dorés sur le dessus."
+    ],
+    "astuce": "Encore meilleur le lendemain, froid ou réchauffé, avec un œuf au plat."
+  },
+  {
+    "titre": "Chou blanc poêlé aux lardons et cumin",
+    "categorie": "accompagnement",
+    "temps": 30,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "sans_gluten",
+      "sans_lactose",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "chou",
+        "nom": "chou blanc",
+        "qte": 500,
+        "unite": "g"
+      },
+      {
+        "cle": "lardons",
+        "nom": "lardons fumés",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "cumin",
+        "nom": "graines de cumin",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "vinaigre",
+        "nom": "vinaigre de cidre",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Émincer finement le chou et l'oignon.",
+      "Faire dorer les lardons 5 minutes à sec dans une grande poêle, puis ajouter l'oignon et cuire 3 minutes.",
+      "Ajouter le chou et le cumin, puis cuire 12 à 15 minutes à feu moyen, à demi couvert, en remuant souvent, jusqu'à ce que le chou soit tendre et légèrement caramélisé.",
+      "Déglacer avec le vinaigre, poivrer et rectifier le sel si besoin."
+    ],
+    "astuce": "Parfait pour finir un demi-chou ; le chou pointu cuit encore plus vite."
+  },
+  {
+    "titre": "Carottes sautées au gingembre et au sésame",
+    "categorie": "accompagnement",
+    "temps": 20,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "carotte",
+        "nom": "carottes",
+        "qte": 500,
+        "unite": "g"
+      },
+      {
+        "cle": "graine",
+        "nom": "graines de sésame",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "gingembre",
+        "nom": "gingembre frais",
+        "qte": 15,
+        "unite": "g"
+      },
+      {
+        "cle": "sauce_soja",
+        "nom": "sauce soja",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "miel",
+        "nom": "miel",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "oignon_nouveau",
+        "nom": "oignon nouveau",
+        "qte": 1,
+        "unite": "pièce",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Éplucher les carottes et les tailler en fins bâtonnets ; griller le sésame 2 minutes à sec dans le wok et le réserver.",
+      "Chauffer l'huile dans le wok à feu vif et y sauter les carottes 6 à 7 minutes, jusqu'à ce qu'elles soient tendres mais encore croquantes.",
+      "Ajouter le gingembre râpé et cuire 1 minute, puis verser la sauce soja et le miel et enrober 1 minute.",
+      "Parsemer de sésame grillé et d'oignon nouveau émincé."
+    ],
+    "astuce": "Le gingembre se garde au congélateur et se râpe directement sans l'éplucher."
+  },
+  {
+    "titre": "Pommes de terre hasselback au beurre d'ail",
+    "categorie": "accompagnement",
+    "temps": 65,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pomme_de_terre",
+        "nom": "pommes de terre moyennes",
+        "qte": 8,
+        "unite": "pièce"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 40,
+        "unite": "g"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousses d'ail",
+        "qte": 2,
+        "unite": "gousse"
+      },
+      {
+        "cle": "herbes_provence",
+        "nom": "thym ou romarin",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 210 °C.",
+      "Laver les pommes de terre sans les éplucher, poser chacune entre les manches de deux cuillères en bois et l'entailler tous les 3 mm sans couper le fond.",
+      "Faire fondre le beurre avec l'ail pressé et les herbes.",
+      "Badigeonner les pommes de terre avec la moitié du beurre en le faisant pénétrer entre les lamelles, saler et poser dans un plat.",
+      "Cuire 50 minutes en badigeonnant du reste du beurre à mi-cuisson, jusqu'à ce que les lamelles s'ouvrent et soient croustillantes ; poivrer."
+    ],
+    "astuce": "Les cuillères en bois servent de butée : impossible de trancher la pomme de terre jusqu'au bout."
+  },
+  {
+    "titre": "Quartiers de patate douce rôtis au cumin et sauce yaourt",
+    "categorie": "accompagnement",
+    "temps": 40,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "patate_douce",
+        "nom": "patates douces",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "cumin",
+        "nom": "cumin",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "paprika",
+        "nom": "paprika",
+        "qte": 0.5,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "yaourt",
+        "nom": "yaourt nature",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 0.5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousse d'ail",
+        "qte": 1,
+        "unite": "gousse",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 220 °C.",
+      "Brosser les patates douces sans les éplucher et les couper en quartiers dans la longueur.",
+      "Les enrober d'huile d'olive, de cumin, de paprika et de sel, puis les rôtir 30 minutes sur une plaque en les retournant à mi-cuisson.",
+      "Mélanger le yaourt avec le jus du demi-citron, l'ail râpé et une pincée de sel, et servir avec les quartiers chauds."
+    ],
+    "astuce": "La sauce yaourt accompagne aussi des falafels ou des légumes grillés."
+  },
+  {
+    "titre": "Betteraves rôties au miel et vinaigre balsamique",
+    "categorie": "accompagnement",
+    "temps": 60,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "betterave",
+        "nom": "betteraves crues",
+        "qte": 600,
+        "unite": "g"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "herbes_provence",
+        "nom": "thym",
+        "qte": 0.5,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "miel",
+        "nom": "miel",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "vinaigre",
+        "nom": "vinaigre balsamique",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "noix",
+        "nom": "noix",
+        "qte": 30,
+        "unite": "g",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 200 °C.",
+      "Éplucher les betteraves (avec des gants) et les couper en quartiers.",
+      "Les mélanger avec l'huile d'olive, le thym, le sel et le poivre dans un plat, couvrir d'aluminium et cuire 30 minutes.",
+      "Mélanger le miel et le vinaigre, en napper les betteraves et poursuivre 15 à 20 minutes à découvert en remuant, jusqu'à ce qu'elles soient tendres et laquées.",
+      "Parsemer de noix concassées avant de servir."
+    ],
+    "astuce": "Les fanes, si elles sont fraîches, se poêlent comme des épinards."
+  },
+  {
+    "titre": "Endives caramélisées au miel",
+    "categorie": "accompagnement",
+    "temps": 30,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "endive",
+        "nom": "endives",
+        "qte": 4,
+        "unite": "pièce"
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 0.5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 30,
+        "unite": "g"
+      },
+      {
+        "cle": "miel",
+        "nom": "miel",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Couper les endives en deux dans la longueur, retirer le petit cône dur et amer à la base, puis les arroser du jus de citron.",
+      "Faire fondre le beurre à feu moyen et y poser les endives face coupée ; cuire 8 minutes, jusqu'à ce qu'elles soient bien dorées.",
+      "Les retourner, ajouter le miel et 3 c. à s. d'eau, couvrir et cuire 10 minutes à feu doux.",
+      "Découvrir et laisser réduire en arrosant les endives de leur jus jusqu'à ce qu'il nappe, puis saler et poivrer."
+    ],
+    "astuce": "Elles accompagnent très bien une volaille ou un poisson blanc."
+  },
+  {
+    "titre": "Frites de polenta au parmesan",
+    "categorie": "accompagnement",
+    "temps": 105,
+    "difficulte": "moyen",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "polenta",
+        "nom": "polenta (cuisson rapide)",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "bouillon",
+        "nom": "cube de bouillon de légumes",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 20,
+        "unite": "g"
+      },
+      {
+        "cle": "parmesan",
+        "nom": "parmesan râpé",
+        "qte": 40,
+        "unite": "g"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "herbes_provence",
+        "nom": "herbes de Provence",
+        "qte": 1,
+        "unite": "c. à c.",
+        "optionnel": true
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Porter 600 ml d'eau à ébullition avec le cube de bouillon, verser la polenta en pluie en fouettant et cuire 5 minutes en remuant.",
+      "Hors du feu, ajouter le beurre, la moitié du parmesan et du poivre, puis étaler sur 1,5 cm d'épaisseur dans un plat chemisé de papier cuisson.",
+      "Laisser refroidir 1 heure au réfrigérateur, jusqu'à ce que la polenta soit bien ferme.",
+      "Préchauffer le four à 220 °C, couper la polenta en bâtonnets, les enrober d'huile d'olive et d'herbes et les poser sur une plaque recouverte de papier cuisson.",
+      "Cuire 25 minutes en les retournant à mi-cuisson, puis parsemer du reste du parmesan."
+    ],
+    "astuce": "Un reste de polenta crémeuse de la veille, déjà pris au frigo, permet de commencer directement à la découpe."
+  },
+  {
+    "titre": "Poêlée de champignons à la persillade",
+    "categorie": "accompagnement",
+    "temps": 20,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "champignon",
+        "nom": "champignons",
+        "qte": 500,
+        "unite": "g"
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 20,
+        "unite": "g"
+      },
+      {
+        "cle": "echalote",
+        "nom": "échalote",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousses d'ail",
+        "qte": 2,
+        "unite": "gousse"
+      },
+      {
+        "cle": "persil",
+        "nom": "persil",
+        "qte": 0.5,
+        "unite": "botte"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Nettoyer les champignons avec un papier humide, sans les tremper, et les couper en quartiers ; hacher l'échalote, l'ail et le persil.",
+      "Chauffer l'huile et le beurre à feu vif et saisir les champignons 8 à 10 minutes sans trop remuer, jusqu'à ce que leur eau soit évaporée et qu'ils soient dorés.",
+      "Ajouter l'échalote, l'ail et le persil et cuire encore 2 minutes.",
+      "Saler seulement à la fin et poivrer."
+    ],
+    "astuce": "Saler en fin de cuisson évite que les champignons rendent leur eau et bouillent au lieu de dorer."
+  },
+  {
+    "titre": "Quiche aux épinards et feta",
+    "categorie": "plat",
+    "temps": 65,
+    "difficulte": "facile",
+    "portions": 6,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pate_brisee",
+        "nom": "pâte brisée",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "epinard",
+        "nom": "épinards frais",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousse d'ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "feta",
+        "nom": "feta",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 3,
+        "unite": "pièce"
+      },
+      {
+        "cle": "creme",
+        "nom": "crème entière",
+        "qte": 200,
+        "unite": "ml"
+      },
+      {
+        "cle": "lait",
+        "nom": "lait",
+        "qte": 100,
+        "unite": "ml"
+      },
+      {
+        "cle": "muscade",
+        "nom": "muscade",
+        "qte": 1,
+        "unite": "pincée",
+        "optionnel": true
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 200 °C, foncer un moule de 26 cm avec la pâte et la piquer à la fourchette.",
+      "Faire tomber les épinards 3 minutes dans l'huile d'olive avec l'ail haché, puis les presser fortement pour retirer leur eau et les hacher grossièrement.",
+      "Battre les œufs avec la crème, le lait, la muscade et le poivre (la feta suffit à saler).",
+      "Répartir les épinards et la feta émiettée sur la pâte, puis verser l'appareil.",
+      "Cuire 35 à 40 minutes, jusqu'à ce que la quiche soit prise et dorée, et laisser reposer 10 minutes avant de couper."
+    ],
+    "astuce": "250 g d'épinards surgelés, bien décongelés et pressés, remplacent les frais."
+  },
+  {
+    "titre": "Quiche au thon et poivron rouge",
+    "categorie": "plat",
+    "temps": 60,
+    "difficulte": "facile",
+    "portions": 6,
+    "regimes": [
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pate_brisee",
+        "nom": "pâte brisée",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "moutarde",
+        "nom": "moutarde",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "poivron",
+        "nom": "poivron rouge",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "thon",
+        "nom": "thon au naturel",
+        "qte": 2,
+        "unite": "boîte"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 3,
+        "unite": "pièce"
+      },
+      {
+        "cle": "creme",
+        "nom": "crème entière",
+        "qte": 200,
+        "unite": "ml"
+      },
+      {
+        "cle": "lait",
+        "nom": "lait",
+        "qte": 100,
+        "unite": "ml"
+      },
+      {
+        "cle": "gruyere",
+        "nom": "gruyère râpé",
+        "qte": 60,
+        "unite": "g"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 200 °C, foncer un moule de 26 cm avec la pâte et tartiner le fond de moutarde.",
+      "Faire revenir l'oignon émincé et le poivron en lanières 8 minutes dans l'huile d'olive.",
+      "Égoutter et émietter le thon, puis le répartir sur la pâte avec les légumes.",
+      "Battre les œufs avec la crème, le lait, le sel et le poivre, verser sur la garniture et parsemer de gruyère.",
+      "Cuire 35 minutes, jusqu'à ce que la quiche soit prise et bien dorée."
+    ],
+    "astuce": "Servie tiède avec une salade verte, elle se garde aussi 2 jours au frigo pour un lunch."
+  },
+  {
+    "titre": "Tarte aux oignons fondants et au cumin",
+    "categorie": "plat",
+    "temps": 80,
+    "difficulte": "facile",
+    "portions": 6,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "oignon",
+        "nom": "oignons",
+        "qte": 800,
+        "unite": "g"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 30,
+        "unite": "g"
+      },
+      {
+        "cle": "farine",
+        "nom": "farine",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "pate_brisee",
+        "nom": "pâte brisée",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "creme",
+        "nom": "crème entière",
+        "qte": 150,
+        "unite": "ml"
+      },
+      {
+        "cle": "lait",
+        "nom": "lait",
+        "qte": 100,
+        "unite": "ml"
+      },
+      {
+        "cle": "cumin",
+        "nom": "graines de cumin",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Émincer finement les oignons et les faire fondre 20 minutes dans le beurre à feu doux, d'abord à couvert puis à découvert, jusqu'à ce qu'ils soient tendres et blonds.",
+      "Saupoudrer de farine, mélanger 1 minute et laisser tiédir.",
+      "Préchauffer le four à 200 °C et foncer un moule de 26 cm avec la pâte.",
+      "Battre les œufs avec la crème, le lait, le sel et le poivre, ajouter les oignons et verser sur la pâte, puis parsemer de cumin.",
+      "Cuire 35 minutes, jusqu'à ce que la tarte soit prise et dorée."
+    ],
+    "astuce": "Une salade de carottes râpées l'accompagne parfaitement pour un repas complet."
+  },
+  {
+    "titre": "Tarte au chou-fleur, curry et gruyère",
+    "categorie": "plat",
+    "temps": 70,
+    "difficulte": "facile",
+    "portions": 6,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "chou_fleur",
+        "nom": "chou-fleur",
+        "qte": 500,
+        "unite": "g"
+      },
+      {
+        "cle": "pate_brisee",
+        "nom": "pâte brisée",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 3,
+        "unite": "pièce"
+      },
+      {
+        "cle": "creme",
+        "nom": "crème entière",
+        "qte": 200,
+        "unite": "ml"
+      },
+      {
+        "cle": "lait",
+        "nom": "lait",
+        "qte": 100,
+        "unite": "ml"
+      },
+      {
+        "cle": "curry",
+        "nom": "curry",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "gruyere",
+        "nom": "gruyère râpé",
+        "qte": 80,
+        "unite": "g"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Détailler le chou-fleur en petits bouquets, les cuire 6 minutes à l'eau bouillante salée et bien les égoutter.",
+      "Préchauffer le four à 200 °C et foncer un moule de 26 cm avec la pâte.",
+      "Battre les œufs avec la crème, le lait, le curry, le sel, le poivre et la moitié du gruyère.",
+      "Répartir le chou-fleur sur la pâte, verser l'appareil et parsemer du reste du gruyère.",
+      "Cuire 35 à 40 minutes, jusqu'à ce que la tarte soit prise et gratinée."
+    ],
+    "astuce": "Un demi chou-fleur oublié suffit ; le brocoli fonctionne de la même façon."
+  },
+  {
+    "titre": "Tarte courgette, ricotta et citron",
+    "categorie": "plat",
+    "temps": 55,
+    "difficulte": "facile",
+    "portions": 6,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pate_feuilletee",
+        "nom": "pâte feuilletée ronde",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "ricotta",
+        "nom": "ricotta",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "parmesan",
+        "nom": "parmesan râpé",
+        "qte": 40,
+        "unite": "g"
+      },
+      {
+        "cle": "citron",
+        "nom": "citron (zeste)",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "basilic",
+        "nom": "basilic frais",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "courgette",
+        "nom": "courgettes",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 200 °C, foncer un moule de 26 cm avec la pâte et la piquer.",
+      "Mélanger la ricotta, les œufs, le parmesan, le zeste du citron, le basilic ciselé, le sel et le poivre, puis étaler sur le fond de tarte.",
+      "Trancher les courgettes en rondelles très fines et les disposer en rosace serrée sur la garniture.",
+      "Badigeonner d'huile d'olive, saler légèrement et cuire 35 minutes, jusqu'à ce que les courgettes soient dorées et la garniture prise."
+    ],
+    "astuce": "Le jus du citron restant relève une vinaigrette pour la salade d'accompagnement."
+  },
+  {
+    "titre": "Quiche au jambon, petits pois et emmental",
+    "categorie": "plat",
+    "temps": 60,
+    "difficulte": "facile",
+    "portions": 6,
+    "regimes": [
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pate_brisee",
+        "nom": "pâte brisée",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "petit_pois",
+        "nom": "petits pois surgelés",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "jambon",
+        "nom": "jambon",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 3,
+        "unite": "pièce"
+      },
+      {
+        "cle": "creme",
+        "nom": "crème entière",
+        "qte": 200,
+        "unite": "ml"
+      },
+      {
+        "cle": "lait",
+        "nom": "lait",
+        "qte": 100,
+        "unite": "ml"
+      },
+      {
+        "cle": "emmental",
+        "nom": "emmental râpé",
+        "qte": 80,
+        "unite": "g"
+      },
+      {
+        "cle": "muscade",
+        "nom": "muscade",
+        "qte": 1,
+        "unite": "pincée",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 200 °C, foncer un moule de 26 cm avec la pâte et la piquer.",
+      "Plonger les petits pois 2 minutes dans l'eau bouillante, les égoutter et couper le jambon en lanières.",
+      "Battre les œufs avec la crème, le lait, l'emmental, la muscade, peu de sel et le poivre.",
+      "Répartir le jambon et les petits pois sur la pâte, puis verser l'appareil.",
+      "Cuire 35 à 40 minutes, jusqu'à ce que la quiche soit prise et dorée."
+    ],
+    "astuce": "Idéale pour finir un paquet de jambon entamé et le fond du sachet de petits pois."
+  },
+  {
+    "titre": "Pissaladière aux oignons confits et olives",
+    "categorie": "plat",
+    "temps": 75,
+    "difficulte": "facile",
+    "portions": 6,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "oignon",
+        "nom": "oignons",
+        "qte": 1,
+        "unite": "kg"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "herbes_provence",
+        "nom": "thym ou herbes de Provence",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "pate_pizza",
+        "nom": "pâte à pizza rectangulaire",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "olive",
+        "nom": "olives noires",
+        "qte": 60,
+        "unite": "g"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Émincer finement les oignons et les faire compoter 35 minutes à feu doux dans l'huile d'olive avec les herbes et une pincée de sel, à couvert, en remuant souvent, jusqu'à ce qu'ils soient fondants et à peine dorés.",
+      "Laisser tiédir et préchauffer le four à 220 °C.",
+      "Dérouler la pâte sur une plaque et y étaler les oignons en laissant une petite bordure.",
+      "Disposer les olives, poivrer et cuire 20 minutes, jusqu'à ce que la pâte soit dorée et croustillante dessous."
+    ],
+    "astuce": "Coupée en petits carrés, elle se sert aussi froide à l'apéritif."
+  },
+  {
+    "titre": "Tatin de tomates cerises et chèvre",
+    "categorie": "plat",
+    "temps": 50,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "oignon_rouge",
+        "nom": "oignon rouge",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "miel",
+        "nom": "miel",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "vinaigre",
+        "nom": "vinaigre balsamique",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "tomate_cerise",
+        "nom": "tomates cerises",
+        "qte": 500,
+        "unite": "g"
+      },
+      {
+        "cle": "chevre",
+        "nom": "bûche de chèvre",
+        "qte": 120,
+        "unite": "g"
+      },
+      {
+        "cle": "pate_feuilletee",
+        "nom": "pâte feuilletée ronde",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "basilic",
+        "nom": "basilic frais",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 200 °C.",
+      "Faire fondre l'oignon rouge émincé 5 minutes dans l'huile d'olive, ajouter le miel et le vinaigre, cuire 1 minute, puis verser au fond d'un moule à manqué de 24 cm.",
+      "Serrer les tomates cerises entières par-dessus, saler, poivrer et répartir le chèvre en rondelles.",
+      "Couvrir de pâte feuilletée en rentrant les bords à l'intérieur du moule et percer une petite cheminée au centre.",
+      "Cuire 30 minutes, jusqu'à ce que la pâte soit bien dorée, laisser reposer 5 minutes puis retourner sur un plat et parsemer de basilic."
+    ],
+    "astuce": "Les tomates cerises un peu ridées sont parfaites : la cuisson concentre leur goût."
+  }
+]

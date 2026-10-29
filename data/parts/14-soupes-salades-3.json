@@ -1,0 +1,4498 @@
+[
+  {
+    "titre": "Velouté de courge rôtie, pomme et gingembre",
+    "categorie": "soupe",
+    "temps": 50,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "courge",
+        "nom": "courge butternut",
+        "qte": 900,
+        "unite": "g"
+      },
+      {
+        "cle": "pomme",
+        "nom": "pomme acidulée",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "gingembre",
+        "nom": "gingembre frais",
+        "qte": 15,
+        "unite": "g"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "eau",
+        "nom": "eau",
+        "qte": 800,
+        "unite": "ml"
+      },
+      {
+        "cle": "creme",
+        "nom": "crème entière",
+        "qte": 4,
+        "unite": "c. à s.",
+        "optionnel": true
+      },
+      {
+        "cle": "graine",
+        "nom": "graines de courge",
+        "qte": 2,
+        "unite": "c. à s.",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 200 °C. Éplucher la courge, l'épépiner et la couper en cubes de 3 cm ; couper la pomme en quartiers sans le trognon.",
+      "Étaler courge et pomme sur une plaque, arroser de la moitié de l'huile d'olive, saler et rôtir 30 minutes, jusqu'à ce que les bords caramélisent.",
+      "Pendant ce temps, émincer l'oignon, râper le gingembre et les faire fondre 5 minutes dans le reste de l'huile d'olive, dans une casserole.",
+      "Ajouter la courge et la pomme rôties, verser l'eau et laisser frémir 8 minutes.",
+      "Mixer finement, rectifier le sel et le poivre, puis servir avec un filet de crème et les graines de courge grillées à sec."
+    ],
+    "astuce": "Le rôtissage concentre le goût : on peut rôtir une double plaque et congeler la moitié du velouté en portions."
+  },
+  {
+    "titre": "Soupe de haricots rouges, maïs et paprika fumé",
+    "categorie": "soupe",
+    "temps": 35,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "haricot_rouge",
+        "nom": "haricots rouges égouttés",
+        "qte": 2,
+        "unite": "boîte"
+      },
+      {
+        "cle": "mais",
+        "nom": "maïs égoutté",
+        "qte": 1,
+        "unite": "boîte"
+      },
+      {
+        "cle": "tomate_concassee",
+        "nom": "tomates concassées",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "ail",
+        "nom": "ail",
+        "qte": 2,
+        "unite": "gousse"
+      },
+      {
+        "cle": "poivron",
+        "nom": "poivron rouge",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "paprika",
+        "nom": "paprika fumé",
+        "qte": 2,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "cumin",
+        "nom": "cumin moulu",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "bouillon",
+        "nom": "bouillon de légumes",
+        "qte": 800,
+        "unite": "ml"
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "coriandre",
+        "nom": "coriandre fraîche",
+        "qte": 4,
+        "unite": "c. à s.",
+        "optionnel": true
+      },
+      {
+        "cle": "citron_vert",
+        "nom": "citron vert",
+        "qte": 1,
+        "unite": "pièce",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Émincer l'oignon, hacher l'ail et couper le poivron en petits dés.",
+      "Faire revenir l'oignon et le poivron 6 minutes dans l'huile, puis ajouter l'ail, le paprika fumé et le cumin et remuer 1 minute.",
+      "Ajouter les tomates concassées, les haricots rouges rincés et le bouillon, et laisser mijoter 15 minutes à feu moyen.",
+      "Prélever deux louches de soupe, les mixer et les remettre dans la casserole pour l'épaissir, puis ajouter le maïs et chauffer 3 minutes.",
+      "Saler si besoin et servir avec la coriandre ciselée et un quartier de citron vert."
+    ],
+    "astuce": "Servie sur un reste de riz, elle devient un plat complet ; elle se congèle très bien."
+  },
+  {
+    "titre": "Bouillon aux boulettes de veau et vermicelles",
+    "categorie": "soupe",
+    "temps": 45,
+    "difficulte": "moyen",
+    "portions": 4,
+    "regimes": [
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "veau",
+        "nom": "veau haché",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œuf",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "chapelure",
+        "nom": "chapelure",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "persil",
+        "nom": "persil plat",
+        "qte": 4,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "carotte",
+        "nom": "carottes",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "celeri",
+        "nom": "céleri branche",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "poireau",
+        "nom": "poireau",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "bouillon",
+        "nom": "bouillon de bœuf",
+        "qte": 1.5,
+        "unite": "l"
+      },
+      {
+        "cle": "pates",
+        "nom": "vermicelles",
+        "qte": 80,
+        "unite": "g"
+      },
+      {
+        "cle": "muscade",
+        "nom": "noix de muscade",
+        "qte": 1,
+        "unite": "pincée"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Mélanger le veau haché avec l'œuf, la chapelure, la moitié du persil haché, la muscade, le sel et le poivre, puis former une vingtaine de petites boulettes.",
+      "Couper les carottes en rondelles, le céleri et le poireau en fines tranches.",
+      "Porter le bouillon à ébullition, ajouter les légumes et cuire 10 minutes à petits frémissements.",
+      "Plonger les boulettes et les cuire 10 minutes sans faire bouillir fort, jusqu'à ce qu'elles soient bien cuites à cœur.",
+      "Ajouter les vermicelles et cuire encore 4 minutes, puis servir parsemé du reste du persil."
+    ],
+    "astuce": "On peut remplacer le veau par du poulet haché ; les boulettes crues se congèlent à plat avant d'être ensachées."
+  },
+  {
+    "titre": "Soupe de lentilles vertes, lardons et carottes",
+    "categorie": "soupe",
+    "temps": 50,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "sans_gluten",
+      "sans_lactose",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "lentille",
+        "nom": "lentilles vertes",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "lardons",
+        "nom": "lardons fumés",
+        "qte": 125,
+        "unite": "g"
+      },
+      {
+        "cle": "carotte",
+        "nom": "carottes",
+        "qte": 3,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "ail",
+        "nom": "ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "eau",
+        "nom": "eau",
+        "qte": 1.4,
+        "unite": "l"
+      },
+      {
+        "cle": "vinaigre",
+        "nom": "vinaigre de vin",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "persil",
+        "nom": "persil",
+        "qte": 2,
+        "unite": "c. à s.",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Rincer les lentilles. Émincer l'oignon, hacher l'ail et couper les carottes en petits dés.",
+      "Faire dorer les lardons 5 minutes à sec dans une grande casserole, puis ajouter l'oignon et les carottes et cuire 5 minutes.",
+      "Ajouter l'ail, les lentilles et l'eau, porter à ébullition puis laisser mijoter 30 minutes à couvert, jusqu'à ce que les lentilles soient très tendres.",
+      "Mixer brièvement un tiers de la soupe pour la lier, ajouter le vinaigre, puis saler prudemment (les lardons sont salés) et poivrer.",
+      "Servir bien chaud, parsemé de persil."
+    ],
+    "astuce": "Le filet de vinaigre à la fin réveille les lentilles ; la soupe épaissit en refroidissant, détendre avec un peu d'eau en la réchauffant."
+  },
+  {
+    "titre": "Velouté de brocoli au bleu et aux noix",
+    "categorie": "soupe",
+    "temps": 30,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "brocoli",
+        "nom": "brocoli",
+        "qte": 600,
+        "unite": "g"
+      },
+      {
+        "cle": "pomme_de_terre",
+        "nom": "pomme de terre",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 15,
+        "unite": "g"
+      },
+      {
+        "cle": "eau",
+        "nom": "eau",
+        "qte": 900,
+        "unite": "ml"
+      },
+      {
+        "cle": "bleu",
+        "nom": "fromage bleu",
+        "qte": 80,
+        "unite": "g"
+      },
+      {
+        "cle": "noix",
+        "nom": "cerneaux de noix",
+        "qte": 30,
+        "unite": "g"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Émincer l'oignon, couper le brocoli en bouquets et éplucher sa tige avant de la trancher, couper la pomme de terre en dés.",
+      "Faire fondre l'oignon 4 minutes dans le beurre, ajouter le brocoli, la pomme de terre et l'eau, saler légèrement et cuire 15 minutes à couvert.",
+      "Retirer du feu, ajouter les deux tiers du bleu émietté et mixer jusqu'à obtenir un velouté lisse et vert vif.",
+      "Concasser les noix et les griller 3 minutes à sec dans une poêle.",
+      "Poivrer et servir avec le reste du bleu émietté et les noix grillées."
+    ],
+    "astuce": "Une façon idéale de finir un reste de fromage bleu ; le gorgonzola ou la fourme fonctionnent aussi."
+  },
+  {
+    "titre": "Soupe de betterave, chou et aneth",
+    "categorie": "soupe",
+    "temps": 55,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "betterave",
+        "nom": "betteraves crues",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "chou",
+        "nom": "chou blanc",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "carotte",
+        "nom": "carotte",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "pomme_de_terre",
+        "nom": "pommes de terre",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "concentre_tomate",
+        "nom": "concentré de tomate",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "eau",
+        "nom": "eau",
+        "qte": 1.3,
+        "unite": "l"
+      },
+      {
+        "cle": "vinaigre",
+        "nom": "vinaigre de cidre",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "yaourt",
+        "nom": "yaourt grec",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "aneth",
+        "nom": "aneth frais",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Éplucher les betteraves, la carotte et les pommes de terre ; râper grossièrement betteraves et carotte, couper les pommes de terre en dés et émincer finement le chou et l'oignon.",
+      "Faire revenir l'oignon, la betterave et la carotte 8 minutes dans l'huile, puis ajouter le concentré de tomate et le vinaigre et remuer 1 minute.",
+      "Ajouter le chou, les pommes de terre et l'eau, saler, porter à ébullition et laisser mijoter 30 minutes à couvert.",
+      "Goûter et rectifier le sel et le poivre ; la soupe doit être d'un rouge profond et les légumes fondants.",
+      "Servir avec une cuillerée de yaourt grec et l'aneth ciselé."
+    ],
+    "astuce": "Elle est encore meilleure le lendemain ; mettre des gants pour râper les betteraves évite les doigts roses."
+  },
+  {
+    "titre": "Soupe froide d'avocat, concombre et citron vert",
+    "categorie": "soupe",
+    "temps": 15,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "avocat",
+        "nom": "avocats bien mûrs",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "concombre",
+        "nom": "concombre",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "yaourt",
+        "nom": "yaourt nature",
+        "qte": 180,
+        "unite": "g"
+      },
+      {
+        "cle": "citron_vert",
+        "nom": "citron vert",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oignon_nouveau",
+        "nom": "oignon nouveau",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "coriandre",
+        "nom": "coriandre fraîche",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "eau",
+        "nom": "eau très froide",
+        "qte": 300,
+        "unite": "ml"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "tomate_cerise",
+        "nom": "tomates cerises",
+        "qte": 6,
+        "unite": "pièce",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Éplucher le concombre, en réserver 5 cm pour la garniture et couper le reste en morceaux.",
+      "Mixer les avocats, le concombre, le yaourt, le jus du citron vert, la moitié de l'oignon nouveau, les deux tiers de la coriandre et l'eau froide jusqu'à obtenir une crème lisse.",
+      "Saler, poivrer et ajuster l'épaisseur avec un peu d'eau si besoin.",
+      "Couper en petits dés le concombre réservé et les tomates cerises, ciseler le reste de l'oignon nouveau.",
+      "Servir aussitôt bien frais, garni des dés, du reste de la coriandre et d'un filet d'huile d'olive."
+    ],
+    "astuce": "À préparer au dernier moment, l'avocat noircit vite ; pour une version vegan, remplacer le yaourt par du lait de coco."
+  },
+  {
+    "titre": "Soupe au pistou de fin d'été",
+    "categorie": "soupe",
+    "temps": 50,
+    "difficulte": "moyen",
+    "portions": 6,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "haricot_blanc",
+        "nom": "haricots blancs égouttés",
+        "qte": 1,
+        "unite": "boîte"
+      },
+      {
+        "cle": "haricot_vert",
+        "nom": "haricots verts",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "courgette",
+        "nom": "courgette",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "carotte",
+        "nom": "carottes",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "pomme_de_terre",
+        "nom": "pommes de terre",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "tomate",
+        "nom": "tomates",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "pates",
+        "nom": "petites pâtes (coquillettes)",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "eau",
+        "nom": "eau",
+        "qte": 2,
+        "unite": "l"
+      },
+      {
+        "cle": "basilic",
+        "nom": "basilic",
+        "qte": 1,
+        "unite": "botte"
+      },
+      {
+        "cle": "ail",
+        "nom": "ail",
+        "qte": 2,
+        "unite": "gousse"
+      },
+      {
+        "cle": "parmesan",
+        "nom": "parmesan râpé",
+        "qte": 50,
+        "unite": "g"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 5,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Couper carottes, pommes de terre et courgette en dés, les haricots verts en tronçons de 2 cm, émincer l'oignon et concasser les tomates.",
+      "Faire suer l'oignon 3 minutes dans 1 c. à s. d'huile d'olive, ajouter carottes, pommes de terre et tomates, couvrir d'eau, saler et cuire 15 minutes à frémissement.",
+      "Ajouter la courgette, les haricots verts, les haricots blancs rincés et les pâtes, et cuire encore 12 minutes.",
+      "Pendant ce temps, piler ou mixer les feuilles de basilic avec l'ail, le parmesan et le reste de l'huile d'olive pour obtenir le pistou.",
+      "Hors du feu, poivrer la soupe et servir chaque bol avec une bonne cuillerée de pistou."
+    ],
+    "astuce": "Le pistou s'ajoute dans l'assiette et non dans la marmite, pour garder sa couleur et son parfum ; la soupe se garde 3 jours au frais."
+  },
+  {
+    "titre": "Bouillon de poulet au riz, citron et œuf",
+    "categorie": "soupe",
+    "temps": 50,
+    "difficulte": "moyen",
+    "portions": 4,
+    "regimes": [
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "poulet",
+        "nom": "cuisses de poulet",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "carotte",
+        "nom": "carotte",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "celeri",
+        "nom": "céleri branche",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "eau",
+        "nom": "eau",
+        "qte": 1.5,
+        "unite": "l"
+      },
+      {
+        "cle": "riz",
+        "nom": "riz",
+        "qte": 80,
+        "unite": "g"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "aneth",
+        "nom": "aneth frais",
+        "qte": 2,
+        "unite": "c. à s.",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Mettre les cuisses de poulet, l'oignon coupé en deux, la carotte et le céleri en tronçons dans l'eau froide salée, porter à ébullition, écumer et cuire 30 minutes à frémissement.",
+      "Retirer le poulet et les légumes, effilocher la viande sans peau ni os ; vérifier qu'elle n'est plus rosée près de l'os.",
+      "Cuire le riz 15 minutes dans le bouillon frémissant, puis remettre le poulet effiloché.",
+      "Fouetter les œufs avec le jus du citron, puis y verser une louche de bouillon chaud en fouettant sans cesse.",
+      "Hors du feu, reverser ce mélange dans la casserole en remuant : le bouillon devient crémeux sans bouillir. Poivrer et servir avec l'aneth."
+    ],
+    "astuce": "Ne plus faire bouillir après l'ajout des œufs pour éviter qu'ils ne tranchent ; la carotte cuite peut être coupée en dés et remise dans la soupe."
+  },
+  {
+    "titre": "Soupe de poireaux, haricots blancs et parmesan",
+    "categorie": "soupe",
+    "temps": 35,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "poireau",
+        "nom": "poireaux",
+        "qte": 3,
+        "unite": "pièce"
+      },
+      {
+        "cle": "haricot_blanc",
+        "nom": "haricots blancs égouttés",
+        "qte": 2,
+        "unite": "boîte"
+      },
+      {
+        "cle": "ail",
+        "nom": "ail",
+        "qte": 2,
+        "unite": "gousse"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "bouillon",
+        "nom": "bouillon de légumes",
+        "qte": 1,
+        "unite": "l"
+      },
+      {
+        "cle": "parmesan",
+        "nom": "parmesan",
+        "qte": 40,
+        "unite": "g"
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 0.5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "pain",
+        "nom": "pain rassis grillé",
+        "qte": 4,
+        "unite": "tranche",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Fendre les poireaux, les laver soigneusement et les émincer finement, vert tendre compris ; hacher l'ail.",
+      "Faire fondre les poireaux 10 minutes à feu doux dans l'huile d'olive, avec une pincée de sel, sans les colorer, puis ajouter l'ail 1 minute.",
+      "Ajouter les haricots blancs rincés et le bouillon, puis laisser frémir 10 minutes.",
+      "Mixer la moitié de la soupe et la remettre dans la casserole pour obtenir une texture crémeuse avec des morceaux, puis râper la moitié du parmesan dedans.",
+      "Ajouter le jus du demi-citron, poivrer et servir avec le reste du parmesan râpé et le pain grillé."
+    ],
+    "astuce": "Une croûte de parmesan mise à mijoter dans la soupe donne encore plus de goût : la retirer avant de mixer."
+  },
+  {
+    "titre": "Velouté de patate douce, cacahuète et gingembre",
+    "categorie": "soupe",
+    "temps": 40,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "patate_douce",
+        "nom": "patates douces",
+        "qte": 700,
+        "unite": "g"
+      },
+      {
+        "cle": "tomate_concassee",
+        "nom": "tomates concassées",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "ail",
+        "nom": "ail",
+        "qte": 2,
+        "unite": "gousse"
+      },
+      {
+        "cle": "gingembre",
+        "nom": "gingembre frais",
+        "qte": 20,
+        "unite": "g"
+      },
+      {
+        "cle": "cacahuete",
+        "nom": "beurre de cacahuète nature",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "cumin",
+        "nom": "cumin moulu",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "eau",
+        "nom": "eau",
+        "qte": 900,
+        "unite": "ml"
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "piment",
+        "nom": "piment frais",
+        "qte": 0.5,
+        "unite": "pièce",
+        "optionnel": true
+      },
+      {
+        "cle": "epinard",
+        "nom": "pousses d'épinard",
+        "qte": 60,
+        "unite": "g",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Éplucher et couper les patates douces en cubes, émincer l'oignon, hacher l'ail et râper le gingembre.",
+      "Faire revenir l'oignon 5 minutes dans l'huile, ajouter l'ail, le gingembre, le cumin et le piment émincé et remuer 1 minute.",
+      "Ajouter les patates douces, les tomates concassées et l'eau, saler et laisser mijoter 20 minutes à couvert.",
+      "Incorporer le beurre de cacahuète et mixer jusqu'à obtenir un velouté onctueux.",
+      "Ajouter les pousses d'épinard, laisser tomber 1 minute dans la soupe chaude et servir."
+    ],
+    "astuce": "Pour une version plus nourrissante, ajouter une boîte de pois chiches égouttés en fin de cuisson."
+  },
+  {
+    "titre": "Soupe d'épinards, pommes de terre et muscade",
+    "categorie": "soupe",
+    "temps": 30,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "epinard",
+        "nom": "épinards frais",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "pomme_de_terre",
+        "nom": "pommes de terre",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 20,
+        "unite": "g"
+      },
+      {
+        "cle": "eau",
+        "nom": "eau",
+        "qte": 900,
+        "unite": "ml"
+      },
+      {
+        "cle": "lait",
+        "nom": "lait",
+        "qte": 200,
+        "unite": "ml"
+      },
+      {
+        "cle": "muscade",
+        "nom": "noix de muscade",
+        "qte": 2,
+        "unite": "pincée"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 2,
+        "unite": "pièce",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Émincer l'oignon et couper les pommes de terre épluchées en petits dés.",
+      "Faire fondre l'oignon 4 minutes dans le beurre, ajouter les pommes de terre et l'eau, saler et cuire 15 minutes.",
+      "Si on les utilise, cuire les œufs 9 minutes dans l'eau bouillante, les refroidir et les écaler.",
+      "Ajouter les épinards et le lait dans la soupe et cuire 2 minutes, juste le temps que les feuilles tombent.",
+      "Mixer finement avec la muscade, poivrer et servir avec les œufs durs coupés en quartiers."
+    ],
+    "astuce": "Fonctionne aussi avec des épinards surgelés (400 g) ou un reste de blettes ; ne pas cuire trop longtemps pour garder le vert vif."
+  },
+  {
+    "titre": "Velouté de fenouil et pommes de terre à l'aneth",
+    "categorie": "soupe",
+    "temps": 35,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "fenouil",
+        "nom": "bulbes de fenouil",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "pomme_de_terre",
+        "nom": "pommes de terre",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "echalote",
+        "nom": "échalote",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "eau",
+        "nom": "eau",
+        "qte": 900,
+        "unite": "ml"
+      },
+      {
+        "cle": "fromage_frais",
+        "nom": "fromage frais",
+        "qte": 60,
+        "unite": "g"
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 0.5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "aneth",
+        "nom": "aneth frais",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Émincer les fenouils en réservant les plumets, couper les pommes de terre en dés et ciseler l'échalote.",
+      "Faire suer l'échalote et le fenouil 8 minutes dans l'huile d'olive à feu moyen, sans coloration.",
+      "Ajouter les pommes de terre et l'eau, saler et cuire 18 minutes à couvert.",
+      "Ajouter le fromage frais, le zeste et le jus du demi-citron, puis mixer finement.",
+      "Poivrer et servir parsemé d'aneth et des plumets de fenouil hachés."
+    ],
+    "astuce": "Les tiges dures du fenouil peuvent cuire avec la soupe : une fois mixées, elles ne se remarquent pas."
+  },
+  {
+    "titre": "Chaudrée de poisson blanc, maïs et pommes de terre",
+    "categorie": "soupe",
+    "temps": 40,
+    "difficulte": "moyen",
+    "portions": 4,
+    "regimes": [
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "poisson_blanc",
+        "nom": "filets de cabillaud ou de colin",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "pomme_de_terre",
+        "nom": "pommes de terre",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "mais",
+        "nom": "maïs égoutté",
+        "qte": 1,
+        "unite": "boîte"
+      },
+      {
+        "cle": "poireau",
+        "nom": "poireau",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "celeri",
+        "nom": "céleri branche",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 20,
+        "unite": "g"
+      },
+      {
+        "cle": "eau",
+        "nom": "eau",
+        "qte": 700,
+        "unite": "ml"
+      },
+      {
+        "cle": "lait",
+        "nom": "lait",
+        "qte": 300,
+        "unite": "ml"
+      },
+      {
+        "cle": "ciboulette",
+        "nom": "ciboulette",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Émincer le poireau et le céleri, couper les pommes de terre épluchées en dés de 1,5 cm et le poisson en gros cubes.",
+      "Faire fondre le poireau et le céleri 6 minutes dans le beurre, ajouter les pommes de terre et l'eau, saler et cuire 15 minutes.",
+      "Écraser grossièrement une partie des pommes de terre à la fourchette dans la casserole pour lier la soupe, puis ajouter le lait et le maïs.",
+      "Déposer les cubes de poisson et cuire 5 minutes à petits frémissements, jusqu'à ce que la chair s'effeuille.",
+      "Poivrer généreusement et servir parsemé de ciboulette ciselée."
+    ],
+    "astuce": "Le poisson surgelé convient très bien : l'ajouter encore pris, en prolongeant la cuisson de 3 minutes."
+  },
+  {
+    "titre": "Soupe de pois chiches au chorizo et épinards",
+    "categorie": "soupe",
+    "temps": 35,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "sans_lactose",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pois_chiche",
+        "nom": "pois chiches égouttés",
+        "qte": 2,
+        "unite": "boîte"
+      },
+      {
+        "cle": "chorizo",
+        "nom": "chorizo",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "epinard",
+        "nom": "pousses d'épinard",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "ail",
+        "nom": "ail",
+        "qte": 2,
+        "unite": "gousse"
+      },
+      {
+        "cle": "tomate_concassee",
+        "nom": "tomates concassées",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "paprika",
+        "nom": "paprika",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "bouillon",
+        "nom": "bouillon de légumes",
+        "qte": 800,
+        "unite": "ml"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Couper le chorizo en petits dés, émincer l'oignon et hacher l'ail.",
+      "Faire revenir le chorizo 3 minutes dans l'huile d'olive jusqu'à ce qu'il rende son huile rouge, puis ajouter l'oignon et cuire 5 minutes.",
+      "Ajouter l'ail et le paprika 30 secondes, puis les tomates concassées, les pois chiches rincés et le bouillon.",
+      "Laisser mijoter 15 minutes, puis écraser une partie des pois chiches contre la paroi pour épaissir la soupe.",
+      "Ajouter les épinards, remuer 2 minutes jusqu'à ce qu'ils tombent, rectifier l'assaisonnement et servir."
+    ],
+    "astuce": "Un reste de saucisse fumée peut remplacer le chorizo ; la soupe se garde 3 jours au réfrigérateur."
+  },
+  {
+    "titre": "Velouté de carottes, lentilles corail et gingembre",
+    "categorie": "soupe",
+    "temps": 35,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "carotte",
+        "nom": "carottes",
+        "qte": 500,
+        "unite": "g"
+      },
+      {
+        "cle": "lentille_corail",
+        "nom": "lentilles corail",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "gingembre",
+        "nom": "gingembre frais",
+        "qte": 20,
+        "unite": "g"
+      },
+      {
+        "cle": "curcuma",
+        "nom": "curcuma",
+        "qte": 0.5,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "lait_coco",
+        "nom": "lait de coco",
+        "qte": 200,
+        "unite": "ml"
+      },
+      {
+        "cle": "eau",
+        "nom": "eau",
+        "qte": 1,
+        "unite": "l"
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "citron_vert",
+        "nom": "citron vert",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "coriandre",
+        "nom": "coriandre fraîche",
+        "qte": 2,
+        "unite": "c. à s.",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Éplucher et couper les carottes en rondelles, émincer l'oignon, râper le gingembre et rincer les lentilles.",
+      "Faire revenir l'oignon 4 minutes dans l'huile, ajouter le gingembre et le curcuma et remuer 1 minute.",
+      "Ajouter les carottes, les lentilles et l'eau, saler et cuire 20 minutes à frémissement, jusqu'à ce que les lentilles se défassent.",
+      "Ajouter les trois quarts du lait de coco et le jus du citron vert, puis mixer finement.",
+      "Servir avec un filet du reste de lait de coco et la coriandre ciselée."
+    ],
+    "astuce": "Les lentilles corail rendent le velouté rassasiant sans crème ; un bon moyen d'écouler un sac de carottes un peu molles."
+  },
+  {
+    "titre": "Bouillon de bœuf aux légumes d'hiver et petites pâtes",
+    "categorie": "soupe",
+    "temps": 150,
+    "difficulte": "moyen",
+    "portions": 6,
+    "regimes": [
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "boeuf",
+        "nom": "bœuf à braiser (paleron ou jarret)",
+        "qte": 600,
+        "unite": "g"
+      },
+      {
+        "cle": "carotte",
+        "nom": "carottes",
+        "qte": 3,
+        "unite": "pièce"
+      },
+      {
+        "cle": "navet",
+        "nom": "navets",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "poireau",
+        "nom": "poireau",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "celeri",
+        "nom": "céleri-rave",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "eau",
+        "nom": "eau",
+        "qte": 2.5,
+        "unite": "l"
+      },
+      {
+        "cle": "pates",
+        "nom": "petites pâtes",
+        "qte": 120,
+        "unite": "g"
+      },
+      {
+        "cle": "persil",
+        "nom": "persil",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Mettre le bœuf en gros morceaux dans l'eau froide avec l'oignon coupé en deux, porter à ébullition et écumer soigneusement.",
+      "Saler, couvrir partiellement et laisser frémir 1 h 30, jusqu'à ce que la viande soit tendre.",
+      "Couper les carottes, les navets et le céleri en petits dés, émincer le poireau, puis les ajouter au bouillon et cuire 20 minutes.",
+      "Retirer la viande, l'effilocher ou la couper en petits cubes, retirer l'oignon et remettre la viande dans le bouillon.",
+      "Ajouter les pâtes, cuire le temps indiqué sur le paquet, poivrer et servir parsemé de persil."
+    ],
+    "astuce": "Doubler la quantité de bouillon et congeler la moitié sans les pâtes : une base de soupe prête pour les soirs pressés."
+  },
+  {
+    "titre": "Velouté d'asperges vertes au citron",
+    "categorie": "soupe",
+    "temps": 30,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "asperge",
+        "nom": "asperges vertes",
+        "qte": 500,
+        "unite": "g"
+      },
+      {
+        "cle": "pomme_de_terre",
+        "nom": "pomme de terre",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "echalote",
+        "nom": "échalotes",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 20,
+        "unite": "g"
+      },
+      {
+        "cle": "eau",
+        "nom": "eau",
+        "qte": 800,
+        "unite": "ml"
+      },
+      {
+        "cle": "creme",
+        "nom": "crème",
+        "qte": 100,
+        "unite": "ml"
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 0.5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "ciboulette",
+        "nom": "ciboulette",
+        "qte": 2,
+        "unite": "c. à s.",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Casser la base dure des asperges, couper les pointes (5 cm) et réserver ; tronçonner le reste des tiges. Couper la pomme de terre en dés et ciseler les échalotes.",
+      "Faire fondre les échalotes 3 minutes dans le beurre, ajouter les tronçons d'asperges, la pomme de terre et l'eau, saler et cuire 15 minutes.",
+      "Ajouter les pointes réservées dans la casserole pendant les 4 dernières minutes, puis les retirer avec une écumoire.",
+      "Ajouter la crème, le zeste et le jus du demi-citron, puis mixer finement et poivrer.",
+      "Servir garni des pointes d'asperges et de ciboulette ciselée."
+    ],
+    "astuce": "Les bases dures cuites 20 minutes dans l'eau donnent un bouillon parfumé à utiliser à la place de l'eau."
+  },
+  {
+    "titre": "Bouillon de champignons, tofu et nouilles au gingembre",
+    "categorie": "soupe",
+    "temps": 30,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "champignon",
+        "nom": "champignons de Paris",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "tofu",
+        "nom": "tofu ferme",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "pates",
+        "nom": "nouilles de riz ou de blé",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "gingembre",
+        "nom": "gingembre frais",
+        "qte": 25,
+        "unite": "g"
+      },
+      {
+        "cle": "ail",
+        "nom": "ail",
+        "qte": 2,
+        "unite": "gousse"
+      },
+      {
+        "cle": "sauce_soja",
+        "nom": "sauce soja",
+        "qte": 4,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "bouillon",
+        "nom": "bouillon de légumes",
+        "qte": 1.2,
+        "unite": "l"
+      },
+      {
+        "cle": "chou",
+        "nom": "chou chinois ou chou pointu",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon_nouveau",
+        "nom": "oignons nouveaux",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "piment",
+        "nom": "piment frais",
+        "qte": 0.5,
+        "unite": "pièce",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Émincer les champignons, couper le tofu en cubes, le chou en lanières, les oignons nouveaux en rondelles ; trancher finement le gingembre et l'ail.",
+      "Faire dorer les champignons 5 minutes dans l'huile à feu vif, puis ajouter le gingembre et l'ail 1 minute.",
+      "Verser le bouillon et la sauce soja, porter à frémissement et laisser infuser 10 minutes.",
+      "Ajouter les nouilles, le tofu et le chou et cuire le temps indiqué sur le paquet des nouilles (3 à 5 minutes).",
+      "Servir dans de grands bols, parsemé d'oignons nouveaux et de piment émincé."
+    ],
+    "astuce": "Avec des nouilles de riz et une sauce soja sans gluten (tamari), le bol devient sans gluten."
+  },
+  {
+    "titre": "Soupe d'aubergine rôtie, tomate et cumin",
+    "categorie": "soupe",
+    "temps": 50,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "aubergine",
+        "nom": "aubergines",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "tomate",
+        "nom": "tomates mûres",
+        "qte": 4,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "ail",
+        "nom": "ail",
+        "qte": 3,
+        "unite": "gousse"
+      },
+      {
+        "cle": "cumin",
+        "nom": "cumin moulu",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 4,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "eau",
+        "nom": "eau",
+        "qte": 700,
+        "unite": "ml"
+      },
+      {
+        "cle": "yaourt",
+        "nom": "yaourt nature",
+        "qte": 4,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "menthe",
+        "nom": "menthe fraîche",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 220 °C. Couper les aubergines en cubes, les tomates en quartiers et l'oignon en lamelles.",
+      "Étaler sur une plaque avec les gousses d'ail en chemise, arroser de 3 c. à s. d'huile d'olive, saler et rôtir 30 minutes en remuant à mi-cuisson.",
+      "Presser l'ail pour le sortir de sa peau et mettre tous les légumes rôtis dans une casserole avec le cumin et l'eau.",
+      "Porter à frémissement 5 minutes, puis mixer en gardant un peu de texture et poivrer.",
+      "Servir avec une cuillerée de yaourt, la menthe ciselée et un filet du reste de l'huile d'olive."
+    ],
+    "astuce": "Une bonne façon d'utiliser des tomates trop mûres de fin d'été ; la soupe se déguste aussi tiède."
+  },
+  {
+    "titre": "Salade tiède de lentilles, courge rôtie et chèvre",
+    "categorie": "salade",
+    "temps": 45,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "lentille",
+        "nom": "lentilles vertes",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "courge",
+        "nom": "courge (potimarron)",
+        "qte": 600,
+        "unite": "g"
+      },
+      {
+        "cle": "chevre",
+        "nom": "fromage de chèvre frais",
+        "qte": 120,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon_rouge",
+        "nom": "oignon rouge",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "salade",
+        "nom": "roquette ou mâche",
+        "qte": 60,
+        "unite": "g"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 5,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "vinaigre",
+        "nom": "vinaigre balsamique",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "moutarde",
+        "nom": "moutarde",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "graine",
+        "nom": "graines de courge",
+        "qte": 2,
+        "unite": "c. à s.",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 200 °C. Couper la courge en cubes (la peau du potimarron se mange) et l'oignon rouge en quartiers, les mélanger avec 2 c. à s. d'huile d'olive et du sel, puis rôtir 30 minutes.",
+      "Pendant ce temps, cuire les lentilles 20 à 25 minutes dans un grand volume d'eau non salée, jusqu'à ce qu'elles soient tendres mais entières, puis les égoutter.",
+      "Fouetter la moutarde, le vinaigre, le reste de l'huile d'olive, le sel et le poivre, puis mélanger aux lentilles encore tièdes.",
+      "Ajouter la courge et l'oignon rôtis, puis la roquette.",
+      "Parsemer de chèvre émietté et de graines de courge, et servir tiède."
+    ],
+    "astuce": "Les lentilles assaisonnées tièdes absorbent mieux la vinaigrette ; la salade se garde 2 jours au frais, la roquette ajoutée au dernier moment."
+  },
+  {
+    "titre": "Salade de quinoa, betterave rôtie, orange et noix",
+    "categorie": "salade",
+    "temps": 50,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "quinoa",
+        "nom": "quinoa",
+        "qte": 180,
+        "unite": "g"
+      },
+      {
+        "cle": "betterave",
+        "nom": "betteraves crues",
+        "qte": 3,
+        "unite": "pièce"
+      },
+      {
+        "cle": "orange",
+        "nom": "oranges",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "noix",
+        "nom": "cerneaux de noix",
+        "qte": 50,
+        "unite": "g"
+      },
+      {
+        "cle": "salade",
+        "nom": "mâche",
+        "qte": 60,
+        "unite": "g"
+      },
+      {
+        "cle": "persil",
+        "nom": "persil plat",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 4,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "vinaigre",
+        "nom": "vinaigre de cidre",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 200 °C. Éplucher les betteraves, les couper en quartiers, les arroser de 1 c. à s. d'huile d'olive, saler et rôtir 35 minutes.",
+      "Rincer le quinoa et le cuire 12 minutes dans deux fois son volume d'eau salée, puis le laisser gonfler 5 minutes à couvert et l'égrener.",
+      "Peler une orange à vif et la couper en suprêmes au-dessus d'un bol pour recueillir le jus ; presser la deuxième.",
+      "Fouetter le jus d'orange avec le vinaigre, le reste de l'huile d'olive, le sel et le poivre, puis mélanger au quinoa avec le persil haché.",
+      "Ajouter les betteraves rôties, les suprêmes d'orange, la mâche et les noix concassées juste avant de servir."
+    ],
+    "astuce": "Des betteraves déjà cuites (sous vide) font gagner 30 minutes : les couper simplement en quartiers."
+  },
+  {
+    "titre": "Salade de boulgour, courgettes grillées et feta",
+    "categorie": "salade",
+    "temps": 35,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "boulgour",
+        "nom": "boulgour",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "courgette",
+        "nom": "courgettes",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "feta",
+        "nom": "feta",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "tomate_cerise",
+        "nom": "tomates cerises",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "menthe",
+        "nom": "menthe fraîche",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 5,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "ail",
+        "nom": "ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Verser 400 ml d'eau bouillante salée sur le boulgour, couvrir et laisser gonfler 15 minutes, puis égrener à la fourchette.",
+      "Couper les courgettes en rondelles de 5 mm, les badigeonner de 2 c. à s. d'huile d'olive et les griller 3 minutes de chaque côté dans une poêle-gril bien chaude.",
+      "Mélanger le jus du citron, l'ail pressé, le reste de l'huile d'olive, le sel et le poivre.",
+      "Mélanger le boulgour avec la vinaigrette, les courgettes grillées, les tomates cerises coupées en deux et la menthe ciselée.",
+      "Émietter la feta par-dessus et servir à température ambiante."
+    ],
+    "astuce": "Elle se garde 2 jours au frais dans une boîte, parfaite pour les lunchs ; ajouter un peu de citron au moment de servir."
+  },
+  {
+    "titre": "Salade de riz aux crevettes, mangue et coriandre",
+    "categorie": "salade",
+    "temps": 30,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "riz",
+        "nom": "riz basmati",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "crevette",
+        "nom": "crevettes cuites décortiquées",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "mangue",
+        "nom": "mangue bien mûre",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "concombre",
+        "nom": "concombre",
+        "qte": 0.5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oignon_rouge",
+        "nom": "oignon rouge",
+        "qte": 0.5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "coriandre",
+        "nom": "coriandre fraîche",
+        "qte": 4,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "citron_vert",
+        "nom": "citrons verts",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "nuoc_mam",
+        "nom": "sauce poisson (nuoc-mâm)",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "piment",
+        "nom": "piment frais",
+        "qte": 0.5,
+        "unite": "pièce",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Cuire le riz 12 minutes dans l'eau bouillante salée, l'égoutter, le rincer à l'eau froide et bien l'égoutter.",
+      "Couper la mangue et le concombre en petits dés, émincer très finement l'oignon rouge et le piment.",
+      "Fouetter le jus des citrons verts avec la sauce poisson et l'huile.",
+      "Mélanger le riz, les crevettes, la mangue, le concombre, l'oignon rouge et le piment avec la sauce.",
+      "Ajouter la coriandre ciselée, mélanger délicatement et servir frais."
+    ],
+    "astuce": "Les crevettes surgelées cuites se décongèlent en 10 minutes dans un bol d'eau froide ; les éponger avant de les ajouter."
+  },
+  {
+    "titre": "Salade de pois chiches au thon, tomates cerises et olives",
+    "categorie": "salade",
+    "temps": 15,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pois_chiche",
+        "nom": "pois chiches égouttés",
+        "qte": 1,
+        "unite": "boîte"
+      },
+      {
+        "cle": "thon",
+        "nom": "thon au naturel égoutté",
+        "qte": 1,
+        "unite": "boîte"
+      },
+      {
+        "cle": "tomate_cerise",
+        "nom": "tomates cerises",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "olive",
+        "nom": "olives noires",
+        "qte": 50,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon_rouge",
+        "nom": "oignon rouge",
+        "qte": 0.5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "persil",
+        "nom": "persil plat",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 0.5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "capre",
+        "nom": "câpres",
+        "qte": 1,
+        "unite": "c. à s.",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Rincer et égoutter les pois chiches, émincer finement l'oignon rouge et couper les tomates cerises en deux.",
+      "Fouetter le jus du demi-citron avec l'huile d'olive, le sel et le poivre.",
+      "Mélanger les pois chiches, l'oignon, les tomates, les olives et les câpres avec la vinaigrette.",
+      "Ajouter le thon émietté en gros morceaux et le persil haché, puis mélanger délicatement.",
+      "Laisser reposer 5 minutes pour que les saveurs se mélangent et servir."
+    ],
+    "astuce": "Une salade de placard idéale pour un lunch : elle tient très bien dans une boîte jusqu'au lendemain."
+  },
+  {
+    "titre": "Salade de haricots rouges, maïs, avocat et citron vert",
+    "categorie": "salade",
+    "temps": 15,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "haricot_rouge",
+        "nom": "haricots rouges égouttés",
+        "qte": 1,
+        "unite": "boîte"
+      },
+      {
+        "cle": "mais",
+        "nom": "maïs égoutté",
+        "qte": 1,
+        "unite": "boîte"
+      },
+      {
+        "cle": "avocat",
+        "nom": "avocats",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "poivron",
+        "nom": "poivron rouge",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oignon_rouge",
+        "nom": "oignon rouge",
+        "qte": 0.5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "coriandre",
+        "nom": "coriandre fraîche",
+        "qte": 4,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "citron_vert",
+        "nom": "citrons verts",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "cumin",
+        "nom": "cumin moulu",
+        "qte": 0.5,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Rincer et égoutter les haricots rouges et le maïs.",
+      "Couper le poivron en petits dés et émincer finement l'oignon rouge.",
+      "Fouetter le jus des citrons verts avec l'huile d'olive, le cumin, le sel et le poivre.",
+      "Mélanger haricots, maïs, poivron et oignon avec la sauce, puis ajouter les avocats coupés en dés et la coriandre ciselée.",
+      "Mélanger délicatement pour ne pas écraser l'avocat et servir aussitôt."
+    ],
+    "astuce": "Sans l'avocat, la salade se garde 2 jours au frais ; ajouter l'avocat au moment de servir."
+  },
+  {
+    "titre": "Salade de cervelas au gruyère et cornichons",
+    "categorie": "salade",
+    "temps": 20,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "sans_gluten",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "saucisse",
+        "nom": "cervelas",
+        "qte": 3,
+        "unite": "pièce"
+      },
+      {
+        "cle": "gruyere",
+        "nom": "gruyère",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "cornichon",
+        "nom": "cornichons",
+        "qte": 6,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "ciboulette",
+        "nom": "ciboulette",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "moutarde",
+        "nom": "moutarde",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "vinaigre",
+        "nom": "vinaigre de vin",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 4,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "salade",
+        "nom": "salade verte",
+        "qte": 100,
+        "unite": "g",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Peler les cervelas, les couper en deux dans la longueur puis en demi-rondelles fines.",
+      "Couper le gruyère en petits bâtonnets, les cornichons en rondelles et émincer très finement l'oignon.",
+      "Fouetter la moutarde avec le vinaigre, le sel et le poivre, puis ajouter l'huile en filet.",
+      "Mélanger cervelas, gruyère, cornichons et oignon avec la vinaigrette et laisser mariner 10 minutes.",
+      "Servir sur quelques feuilles de salade verte, parsemé de ciboulette ciselée."
+    ],
+    "astuce": "Un classique des buvettes suisses ; une salade de pommes de terre tiède l'accompagne parfaitement pour un repas complet."
+  },
+  {
+    "titre": "Salade de pâtes, brocoli, poulet et parmesan",
+    "categorie": "salade",
+    "temps": 30,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pates",
+        "nom": "pâtes courtes (fusilli)",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "brocoli",
+        "nom": "brocoli",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "poulet",
+        "nom": "blancs de poulet",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "parmesan",
+        "nom": "parmesan",
+        "qte": 40,
+        "unite": "g"
+      },
+      {
+        "cle": "tomate_cerise",
+        "nom": "tomates cerises",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 5,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "moutarde",
+        "nom": "moutarde",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "pignon",
+        "nom": "pignons de pin",
+        "qte": 2,
+        "unite": "c. à s.",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Cuire les pâtes dans une grande casserole d'eau bouillante salée en ajoutant le brocoli en petits bouquets 3 minutes avant la fin ; égoutter et rincer à l'eau froide.",
+      "Saler et poivrer les blancs de poulet, les cuire 6 à 7 minutes de chaque côté dans 1 c. à s. d'huile d'olive, jusqu'à ce qu'ils ne soient plus rosés à cœur, puis les trancher.",
+      "Fouetter le jus et le zeste du citron avec la moutarde, le reste de l'huile d'olive, le sel et le poivre.",
+      "Mélanger les pâtes, le brocoli, les tomates cerises coupées en deux et le poulet avec la vinaigrette.",
+      "Parsemer de copeaux de parmesan et de pignons grillés à sec, puis servir."
+    ],
+    "astuce": "Un reste de poulet rôti remplace très bien les blancs ; ajouter un peu de citron si la salade a attendu au frais."
+  },
+  {
+    "titre": "Salade tiède de choux de Bruxelles émincés, lardons et pomme",
+    "categorie": "salade",
+    "temps": 25,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "sans_gluten",
+      "sans_lactose",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "chou_bruxelles",
+        "nom": "choux de Bruxelles",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "lardons",
+        "nom": "lardons fumés",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "pomme",
+        "nom": "pomme croquante",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "echalote",
+        "nom": "échalote",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "noisette",
+        "nom": "noisettes",
+        "qte": 40,
+        "unite": "g"
+      },
+      {
+        "cle": "vinaigre",
+        "nom": "vinaigre de cidre",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "moutarde",
+        "nom": "moutarde à l'ancienne",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "miel",
+        "nom": "miel",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Retirer les feuilles abîmées des choux de Bruxelles et les émincer très finement au couteau ; ciseler l'échalote.",
+      "Torréfier les noisettes 4 minutes à sec dans une grande poêle, puis les concasser.",
+      "Dans la même poêle, faire dorer les lardons 5 minutes, ajouter l'échalote 1 minute, puis les choux émincés et les faire sauter 3 minutes à feu vif : ils doivent rester croquants.",
+      "Fouetter la moutarde, le miel, le vinaigre, l'huile, le sel et le poivre.",
+      "Hors du feu, mélanger les choux avec la vinaigrette et la pomme coupée en fins bâtonnets, puis parsemer de noisettes et servir tiède."
+    ],
+    "astuce": "Émincés finement, les choux de Bruxelles perdent leur amertume ; une version végétarienne se fait avec des dés de tofu fumé."
+  },
+  {
+    "titre": "Salade de lentilles vertes, betterave et œufs mollets",
+    "categorie": "salade",
+    "temps": 35,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "lentille",
+        "nom": "lentilles vertes",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "betterave",
+        "nom": "betteraves cuites",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 4,
+        "unite": "pièce"
+      },
+      {
+        "cle": "echalote",
+        "nom": "échalote",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "salade",
+        "nom": "mâche",
+        "qte": 80,
+        "unite": "g"
+      },
+      {
+        "cle": "moutarde",
+        "nom": "moutarde",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "vinaigre",
+        "nom": "vinaigre de vin",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "huile",
+        "nom": "huile de colza",
+        "qte": 4,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "ciboulette",
+        "nom": "ciboulette",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Cuire les lentilles 20 à 25 minutes dans un grand volume d'eau non salée, puis les égoutter.",
+      "Plonger les œufs dans l'eau bouillante 6 minutes 30, les refroidir dans l'eau glacée et les écaler délicatement.",
+      "Fouetter la moutarde, le vinaigre, l'huile, le sel et le poivre, puis ajouter l'échalote ciselée.",
+      "Mélanger les lentilles tièdes avec la moitié de la vinaigrette, et les betteraves coupées en dés avec le reste de la vinaigrette.",
+      "Dresser la mâche, les lentilles et les betteraves, poser les œufs coupés en deux et parsemer de ciboulette."
+    ],
+    "astuce": "Assaisonner la betterave à part évite que toute la salade devienne rose."
+  },
+  {
+    "titre": "Salade de quinoa aux asperges, petits pois et menthe",
+    "categorie": "salade",
+    "temps": 30,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "quinoa",
+        "nom": "quinoa",
+        "qte": 180,
+        "unite": "g"
+      },
+      {
+        "cle": "asperge",
+        "nom": "asperges vertes",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "petit_pois",
+        "nom": "petits pois surgelés",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "radis",
+        "nom": "radis",
+        "qte": 6,
+        "unite": "pièce"
+      },
+      {
+        "cle": "ricotta",
+        "nom": "ricotta",
+        "qte": 125,
+        "unite": "g"
+      },
+      {
+        "cle": "menthe",
+        "nom": "menthe fraîche",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 4,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Rincer le quinoa et le cuire 12 minutes dans deux fois son volume d'eau salée, puis le laisser gonfler 5 minutes à couvert.",
+      "Couper la base dure des asperges et les tronçonner en morceaux de 3 cm.",
+      "Cuire les asperges 3 minutes dans l'eau bouillante salée, ajouter les petits pois 2 minutes, puis égoutter et refroidir à l'eau froide.",
+      "Fouetter le zeste et le jus du citron avec l'huile d'olive, le sel et le poivre, puis mélanger avec le quinoa, les asperges, les petits pois et les radis émincés.",
+      "Déposer la ricotta en petites cuillerées, parsemer de menthe ciselée et servir."
+    ],
+    "astuce": "La feta ou le chèvre frais remplacent bien la ricotta ; sans fromage, la salade devient vegan."
+  },
+  {
+    "titre": "Salade de haricots blancs, tomates cerises, mozzarella et basilic",
+    "categorie": "salade",
+    "temps": 15,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "haricot_blanc",
+        "nom": "haricots blancs égouttés",
+        "qte": 2,
+        "unite": "boîte"
+      },
+      {
+        "cle": "tomate_cerise",
+        "nom": "tomates cerises",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "mozzarella",
+        "nom": "mozzarella (billes ou boule)",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "basilic",
+        "nom": "basilic",
+        "qte": 0.5,
+        "unite": "botte"
+      },
+      {
+        "cle": "oignon_rouge",
+        "nom": "oignon rouge",
+        "qte": 0.5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "ail",
+        "nom": "ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "vinaigre",
+        "nom": "vinaigre balsamique",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 4,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Rincer et égoutter soigneusement les haricots blancs.",
+      "Fouetter le vinaigre balsamique avec l'huile d'olive, l'ail pressé, le sel et le poivre.",
+      "Mélanger les haricots avec l'oignon rouge émincé finement et la vinaigrette, puis laisser reposer 5 minutes.",
+      "Ajouter les tomates cerises coupées en deux et la mozzarella en morceaux.",
+      "Parsemer de feuilles de basilic déchirées et servir avec du pain si on le souhaite."
+    ],
+    "astuce": "Une salade complète en 15 minutes ; elle supporte bien d'attendre quelques heures, le basilic ajouté au dernier moment."
+  },
+  {
+    "titre": "Salade de mâche, champignons poêlés et œuf mollet",
+    "categorie": "salade",
+    "temps": 25,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "salade",
+        "nom": "mâche",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "champignon",
+        "nom": "champignons de Paris",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "echalote",
+        "nom": "échalote",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "ail",
+        "nom": "ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "persil",
+        "nom": "persil",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 4,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "vinaigre",
+        "nom": "vinaigre balsamique",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "noix",
+        "nom": "cerneaux de noix",
+        "qte": 30,
+        "unite": "g",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Plonger les œufs dans l'eau bouillante 6 minutes 30, les refroidir dans l'eau froide et les écaler.",
+      "Couper les champignons en quartiers et les faire sauter 6 minutes à feu vif dans 2 c. à s. d'huile d'olive, sans remuer au début, pour bien les dorer.",
+      "Ajouter l'échalote ciselée, l'ail haché et le persil, saler, poivrer et cuire encore 1 minute.",
+      "Mélanger le vinaigre balsamique avec le reste de l'huile d'olive et assaisonner la mâche.",
+      "Dresser la mâche, les champignons chauds et les noix, puis poser un œuf mollet ouvert sur chaque assiette."
+    ],
+    "astuce": "Un mélange de champignons des bois en saison rend cette salade encore plus automnale."
+  },
+  {
+    "titre": "Salade de fenouil, poire et parmesan",
+    "categorie": "salade",
+    "temps": 15,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "fenouil",
+        "nom": "bulbes de fenouil",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "poire",
+        "nom": "poires mûres mais fermes",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "parmesan",
+        "nom": "parmesan",
+        "qte": 40,
+        "unite": "g"
+      },
+      {
+        "cle": "noisette",
+        "nom": "noisettes",
+        "qte": 40,
+        "unite": "g"
+      },
+      {
+        "cle": "salade",
+        "nom": "roquette",
+        "qte": 50,
+        "unite": "g"
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "miel",
+        "nom": "miel",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Torréfier les noisettes 4 minutes à sec dans une poêle, puis les concasser grossièrement.",
+      "Émincer le fenouil très finement (à la mandoline si possible) en gardant les plumets.",
+      "Fouetter le jus du citron avec le miel, l'huile d'olive, le sel et le poivre, puis y mélanger le fenouil aussitôt.",
+      "Couper les poires en fines lamelles et les ajouter avec la roquette.",
+      "Parsemer de copeaux de parmesan, de noisettes et des plumets hachés, puis servir."
+    ],
+    "astuce": "Le citron empêche la poire et le fenouil de noircir : la salade peut attendre 30 minutes avant de servir."
+  },
+  {
+    "titre": "Salade de pommes de terre rôties, poulet et sauce yaourt aux herbes",
+    "categorie": "salade",
+    "temps": 45,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pomme_de_terre",
+        "nom": "pommes de terre fermes",
+        "qte": 800,
+        "unite": "g"
+      },
+      {
+        "cle": "poulet",
+        "nom": "blancs de poulet",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "salade",
+        "nom": "salade romaine",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "concombre",
+        "nom": "concombre",
+        "qte": 0.5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "yaourt",
+        "nom": "yaourt grec",
+        "qte": 180,
+        "unite": "g"
+      },
+      {
+        "cle": "herbes",
+        "nom": "herbes fraîches (ciboulette, persil, aneth)",
+        "qte": 4,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "ail",
+        "nom": "ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 0.5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "paprika",
+        "nom": "paprika",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 210 °C. Couper les pommes de terre en quartiers, les mélanger avec 2 c. à s. d'huile d'olive, la moitié du paprika et du sel, et rôtir 35 minutes.",
+      "Assaisonner les blancs de poulet avec le reste du paprika, du sel et du poivre, puis les cuire 6 à 7 minutes par face dans le reste de l'huile d'olive, jusqu'à ce qu'ils soient bien cuits à cœur.",
+      "Mélanger le yaourt avec les herbes ciselées, l'ail pressé, le jus du demi-citron, le sel et le poivre.",
+      "Disposer la romaine en lanières et le concombre en rondelles, puis ajouter les pommes de terre chaudes et le poulet tranché.",
+      "Napper de sauce yaourt aux herbes et servir aussitôt."
+    ],
+    "astuce": "Un reste de pommes de terre cuites à l'eau fait l'affaire : les couper en morceaux et les dorer 10 minutes à la poêle."
+  },
+  {
+    "titre": "Salade de pâtes au saumon fumé, concombre et aneth",
+    "categorie": "salade",
+    "temps": 25,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pates",
+        "nom": "pâtes courtes (farfalle)",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "saumon_fume",
+        "nom": "saumon fumé",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "concombre",
+        "nom": "concombre",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "fromage_frais",
+        "nom": "fromage frais",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "yaourt",
+        "nom": "yaourt nature",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "aneth",
+        "nom": "aneth frais",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "capre",
+        "nom": "câpres",
+        "qte": 1,
+        "unite": "c. à s.",
+        "optionnel": true
+      },
+      {
+        "cle": "oignon_nouveau",
+        "nom": "oignon nouveau",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Cuire les pâtes dans l'eau bouillante salée, les égoutter, les rincer à l'eau froide et bien les égoutter.",
+      "Couper le concombre en demi-rondelles, l'oignon nouveau en fines rondelles et le saumon fumé en lanières.",
+      "Mélanger le fromage frais, le yaourt, le zeste et le jus du citron, les deux tiers de l'aneth ciselé, le sel et le poivre.",
+      "Mélanger les pâtes avec la sauce, le concombre, l'oignon nouveau et les câpres.",
+      "Ajouter le saumon fumé et le reste de l'aneth juste avant de servir."
+    ],
+    "astuce": "Une bonne façon de finir des chutes de saumon fumé, moins chères que les tranches entières."
+  },
+  {
+    "titre": "Salade de sardines, pommes de terre et oignon rouge",
+    "categorie": "salade",
+    "temps": 30,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "sardine",
+        "nom": "sardines à l'huile",
+        "qte": 1,
+        "unite": "boîte"
+      },
+      {
+        "cle": "pomme_de_terre",
+        "nom": "pommes de terre fermes",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon_rouge",
+        "nom": "oignon rouge",
+        "qte": 0.5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "tomate",
+        "nom": "tomate",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "persil",
+        "nom": "persil plat",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 0.5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "moutarde",
+        "nom": "moutarde",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "salade",
+        "nom": "salade verte",
+        "qte": 50,
+        "unite": "g",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Cuire les pommes de terre 20 minutes dans l'eau salée, jusqu'à ce que la pointe d'un couteau s'enfonce facilement, puis les couper en rondelles tièdes.",
+      "Pendant ce temps, émincer très finement l'oignon rouge et le laisser macérer dans le jus du demi-citron avec une pincée de sel.",
+      "Fouetter la moutarde avec l'huile d'olive et le jus de macération de l'oignon, poivrer et mélanger aux pommes de terre tièdes.",
+      "Ajouter la tomate en quartiers, l'oignon rouge et le persil haché.",
+      "Dresser sur la salade verte et poser les sardines égouttées en gros morceaux par-dessus."
+    ],
+    "astuce": "Macérer l'oignon rouge dans le citron l'adoucit ; on peut remplacer les sardines par du maquereau en boîte."
+  },
+  {
+    "titre": "Salade croquante de chou, poulet et cacahuètes à la sauce soja",
+    "categorie": "salade",
+    "temps": 30,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "chou",
+        "nom": "chou chinois ou chou pointu",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "poulet",
+        "nom": "blancs de poulet",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "carotte",
+        "nom": "carottes",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oignon_nouveau",
+        "nom": "oignons nouveaux",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "cacahuete",
+        "nom": "cacahuètes grillées non salées",
+        "qte": 50,
+        "unite": "g"
+      },
+      {
+        "cle": "coriandre",
+        "nom": "coriandre fraîche",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sauce_soja",
+        "nom": "sauce soja",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "citron_vert",
+        "nom": "citron vert",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "miel",
+        "nom": "miel",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "gingembre",
+        "nom": "gingembre frais",
+        "qte": 10,
+        "unite": "g"
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Saler les blancs de poulet et les cuire 6 à 7 minutes de chaque côté dans 1 c. à s. d'huile, jusqu'à ce qu'ils soient bien cuits à cœur, puis les laisser tiédir et les effilocher.",
+      "Émincer très finement le chou, râper les carottes et couper les oignons nouveaux en rondelles.",
+      "Fouetter la sauce soja, le jus du citron vert, le miel, le gingembre râpé et le reste de l'huile.",
+      "Mélanger le chou, les carottes, les oignons nouveaux et le poulet avec la sauce.",
+      "Parsemer de cacahuètes concassées et de coriandre ciselée, puis servir."
+    ],
+    "astuce": "Le chou garde son croquant plusieurs heures : on peut préparer la salade le matin et ajouter les cacahuètes au moment de servir."
+  },
+  {
+    "titre": "Salade de bœuf sauté, concombre, menthe et citron vert",
+    "categorie": "salade",
+    "temps": 25,
+    "difficulte": "moyen",
+    "portions": 2,
+    "regimes": [
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "boeuf",
+        "nom": "rumsteck ou bavette",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "concombre",
+        "nom": "concombre",
+        "qte": 0.5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "tomate_cerise",
+        "nom": "tomates cerises",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon_rouge",
+        "nom": "oignon rouge",
+        "qte": 0.5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "salade",
+        "nom": "salade verte",
+        "qte": 80,
+        "unite": "g"
+      },
+      {
+        "cle": "menthe",
+        "nom": "menthe fraîche",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "coriandre",
+        "nom": "coriandre fraîche",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "citron_vert",
+        "nom": "citrons verts",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "nuoc_mam",
+        "nom": "sauce poisson (nuoc-mâm)",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sucre",
+        "nom": "sucre",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "piment",
+        "nom": "piment frais",
+        "qte": 0.5,
+        "unite": "pièce",
+        "optionnel": true
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 1,
+        "unite": "c. à s."
+      }
+    ],
+    "etapes": [
+      "Sortir la viande du réfrigérateur 15 minutes avant de la cuire.",
+      "Saisir le bœuf 2 à 3 minutes de chaque côté dans l'huile très chaude, puis le laisser reposer 5 minutes sur une planche.",
+      "Pendant ce temps, mélanger le jus des citrons verts, la sauce poisson, le sucre et le piment émincé jusqu'à dissolution du sucre.",
+      "Couper le concombre en bâtonnets, les tomates cerises en deux et émincer finement l'oignon rouge.",
+      "Trancher le bœuf finement, le mélanger avec les légumes, la salade, les herbes et la sauce, puis servir aussitôt."
+    ],
+    "astuce": "La sauce acidulée « cuit » légèrement la viande rosée ; un reste de rôti de bœuf froid convient aussi."
+  },
+  {
+    "titre": "Salade de céleri, pomme et noix au yaourt",
+    "categorie": "salade",
+    "temps": 20,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "celeri",
+        "nom": "céleri-rave",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "pomme",
+        "nom": "pommes acidulées",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "noix",
+        "nom": "cerneaux de noix",
+        "qte": 60,
+        "unite": "g"
+      },
+      {
+        "cle": "raisin",
+        "nom": "raisins blancs",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "yaourt",
+        "nom": "yaourt nature",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "mayonnaise",
+        "nom": "mayonnaise",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "ciboulette",
+        "nom": "ciboulette",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Éplucher le céleri-rave et le râper grossièrement, puis l'arroser aussitôt de la moitié du jus du citron.",
+      "Couper les pommes en petits bâtonnets avec la peau et les arroser du reste du jus de citron.",
+      "Mélanger le yaourt et la mayonnaise, saler et poivrer.",
+      "Mélanger le céleri, les pommes et les raisins coupés en deux avec la sauce.",
+      "Parsemer de noix concassées et de ciboulette ciselée, puis servir frais."
+    ],
+    "astuce": "Elle se garde un jour au frais ; ajouter des dés de poulet rôti pour en faire un repas complet."
+  },
+  {
+    "titre": "Taboulé de chou-fleur cru aux herbes et citron",
+    "categorie": "salade",
+    "temps": 20,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "chou_fleur",
+        "nom": "chou-fleur",
+        "qte": 500,
+        "unite": "g"
+      },
+      {
+        "cle": "tomate",
+        "nom": "tomates",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "concombre",
+        "nom": "concombre",
+        "qte": 0.5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "persil",
+        "nom": "persil plat",
+        "qte": 1,
+        "unite": "botte"
+      },
+      {
+        "cle": "menthe",
+        "nom": "menthe fraîche",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "oignon_nouveau",
+        "nom": "oignons nouveaux",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "citron",
+        "nom": "citrons",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 4,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "raisin_sec",
+        "nom": "raisins secs",
+        "qte": 30,
+        "unite": "g",
+        "optionnel": true
+      },
+      {
+        "cle": "amande",
+        "nom": "amandes effilées",
+        "qte": 30,
+        "unite": "g",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Râper le chou-fleur cru (tiges comprises) à la grosse râpe ou le mixer par à-coups jusqu'à obtenir une semoule.",
+      "Couper les tomates et le concombre en petits dés, hacher finement le persil, la menthe et les oignons nouveaux.",
+      "Mélanger le jus des citrons avec l'huile d'olive, le sel et le poivre.",
+      "Mélanger le chou-fleur, les légumes, les herbes et les raisins secs avec la vinaigrette, puis laisser reposer 10 minutes au frais.",
+      "Parsemer d'amandes effilées grillées à sec juste avant de servir."
+    ],
+    "astuce": "Les feuilles et le trognon du chou-fleur se râpent aussi : rien ne se perd."
+  },
+  {
+    "titre": "Salade de semoule, carottes rôties au cumin et yaourt à la menthe",
+    "categorie": "salade",
+    "temps": 40,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "semoule",
+        "nom": "semoule moyenne",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "carotte",
+        "nom": "carottes",
+        "qte": 600,
+        "unite": "g"
+      },
+      {
+        "cle": "pois_chiche",
+        "nom": "pois chiches égouttés",
+        "qte": 1,
+        "unite": "boîte"
+      },
+      {
+        "cle": "cumin",
+        "nom": "cumin moulu",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "miel",
+        "nom": "miel",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 4,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "orange",
+        "nom": "orange",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "yaourt",
+        "nom": "yaourt grec",
+        "qte": 180,
+        "unite": "g"
+      },
+      {
+        "cle": "menthe",
+        "nom": "menthe fraîche",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "ail",
+        "nom": "ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 200 °C. Couper les carottes en biseaux, les mélanger avec les pois chiches égouttés, le cumin, le miel, 2 c. à s. d'huile d'olive et du sel, puis rôtir 25 minutes.",
+      "Verser 200 ml d'eau bouillante salée sur la semoule avec 1 c. à s. d'huile d'olive, couvrir 5 minutes puis égrener à la fourchette.",
+      "Assaisonner la semoule avec le jus et le zeste de l'orange et le reste de l'huile d'olive.",
+      "Mélanger le yaourt avec l'ail pressé, la moitié de la menthe ciselée, du sel et du poivre.",
+      "Dresser la semoule, les carottes et les pois chiches rôtis, napper de yaourt et parsemer du reste de la menthe."
+    ],
+    "astuce": "Elle se mange tiède ou froide ; un bon moyen d'écouler un sac de carottes qui ramollissent."
+  },
+  {
+    "titre": "Bowl de riz au tofu laqué, carottes et concombre au sésame",
+    "categorie": "plat",
+    "temps": 35,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "riz",
+        "nom": "riz",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "tofu",
+        "nom": "tofu ferme",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "sauce_soja",
+        "nom": "sauce soja",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sucre",
+        "nom": "sucre roux",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "gingembre",
+        "nom": "gingembre frais",
+        "qte": 10,
+        "unite": "g"
+      },
+      {
+        "cle": "carotte",
+        "nom": "carottes",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "concombre",
+        "nom": "concombre",
+        "qte": 0.5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "vinaigre",
+        "nom": "vinaigre de riz ou de cidre",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "graine",
+        "nom": "graines de sésame",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "oignon_nouveau",
+        "nom": "oignon nouveau",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 2,
+        "unite": "c. à s."
+      }
+    ],
+    "etapes": [
+      "Cuire le riz selon les indications du paquet.",
+      "Couper le concombre en fines rondelles et les carottes en rubans à l'économe, puis les mélanger avec le vinaigre et une pincée de sucre prélevée sur le sucre roux.",
+      "Éponger le tofu, le couper en cubes et le faire dorer 8 minutes dans l'huile à feu vif, en le retournant.",
+      "Mélanger la sauce soja, le reste du sucre et le gingembre râpé, verser sur le tofu et laisser réduire 1 à 2 minutes jusqu'à ce qu'il soit laqué.",
+      "Répartir le riz dans deux bols, ajouter le tofu, les légumes marinés, l'oignon nouveau émincé et les graines de sésame."
+    ],
+    "astuce": "Presser le tofu 10 minutes entre deux torchons avant de le cuire le rend plus croustillant."
+  },
+  {
+    "titre": "Bowl de quinoa, poulet au curry, chou-fleur rôti et yaourt",
+    "categorie": "plat",
+    "temps": 40,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "quinoa",
+        "nom": "quinoa",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "poulet",
+        "nom": "blancs de poulet",
+        "qte": 3,
+        "unite": "pièce"
+      },
+      {
+        "cle": "chou_fleur",
+        "nom": "chou-fleur",
+        "qte": 600,
+        "unite": "g"
+      },
+      {
+        "cle": "curry",
+        "nom": "curry en poudre",
+        "qte": 2,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 4,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "salade",
+        "nom": "pousses d'épinard ou jeunes pousses",
+        "qte": 80,
+        "unite": "g"
+      },
+      {
+        "cle": "yaourt",
+        "nom": "yaourt nature",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "coriandre",
+        "nom": "coriandre fraîche",
+        "qte": 3,
+        "unite": "c. à s.",
+        "optionnel": true
+      },
+      {
+        "cle": "raisin_sec",
+        "nom": "raisins secs",
+        "qte": 30,
+        "unite": "g",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 210 °C. Couper le chou-fleur en petits bouquets, les mélanger avec 2 c. à s. d'huile d'olive, la moitié du curry et du sel, puis rôtir 25 minutes.",
+      "Rincer le quinoa et le cuire 12 minutes dans deux fois son volume d'eau salée, puis le laisser gonfler 5 minutes à couvert.",
+      "Couper le poulet en lanières, l'assaisonner avec le reste du curry, du sel et du poivre, puis le faire sauter 7 à 8 minutes dans le reste de l'huile d'olive, jusqu'à ce qu'il soit bien cuit à cœur.",
+      "Mélanger le yaourt avec le jus du demi-citron, du sel et du poivre ; couper le reste du citron en quartiers.",
+      "Répartir le quinoa, les jeunes pousses, le chou-fleur et le poulet dans les bols, napper de yaourt et garnir de raisins secs, de coriandre et d'un quartier de citron."
+    ],
+    "astuce": "Chaque élément se garde séparément 3 jours au frais : de quoi composer des lunchs pour la semaine."
+  },
+  {
+    "titre": "Bowl de boulgour, boulettes de bœuf au cumin et sauce yaourt",
+    "categorie": "plat",
+    "temps": 40,
+    "difficulte": "moyen",
+    "portions": 4,
+    "regimes": [
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "boeuf_hache",
+        "nom": "bœuf haché",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "cumin",
+        "nom": "cumin moulu",
+        "qte": 2,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "persil",
+        "nom": "persil plat",
+        "qte": 4,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "boulgour",
+        "nom": "boulgour",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "tomate",
+        "nom": "tomates",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "concombre",
+        "nom": "concombre",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "yaourt",
+        "nom": "yaourt grec",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "ail",
+        "nom": "ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Verser 400 ml d'eau bouillante salée sur le boulgour, couvrir et laisser gonfler 15 minutes.",
+      "Mélanger le bœuf haché avec l'oignon râpé, le cumin, la moitié du persil haché, du sel et du poivre, puis former 16 boulettes.",
+      "Cuire les boulettes 10 à 12 minutes dans 1 c. à s. d'huile d'olive à feu moyen en les retournant, jusqu'à ce qu'elles soient dorées et bien cuites à cœur.",
+      "Couper tomates et concombre en dés et les assaisonner avec la moitié du jus du citron et le reste de l'huile d'olive ; mélanger le yaourt avec l'ail pressé, le reste du jus de citron et du sel.",
+      "Répartir le boulgour, les crudités et les boulettes dans les bols, napper de sauce yaourt et parsemer du reste du persil."
+    ],
+    "astuce": "Les boulettes crues se congèlent très bien ; on peut aussi les faire avec de l'agneau haché."
+  },
+  {
+    "titre": "Bowl de riz, dinde sautée au gingembre et brocoli",
+    "categorie": "plat",
+    "temps": 30,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "riz",
+        "nom": "riz",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "dinde",
+        "nom": "escalopes de dinde",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "brocoli",
+        "nom": "brocoli",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "gingembre",
+        "nom": "gingembre frais",
+        "qte": 20,
+        "unite": "g"
+      },
+      {
+        "cle": "ail",
+        "nom": "ail",
+        "qte": 2,
+        "unite": "gousse"
+      },
+      {
+        "cle": "sauce_soja",
+        "nom": "sauce soja",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "miel",
+        "nom": "miel",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "carotte",
+        "nom": "carotte",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "graine",
+        "nom": "graines de sésame",
+        "qte": 1,
+        "unite": "c. à c.",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Cuire le riz selon les indications du paquet.",
+      "Couper la dinde en fines lanières, le brocoli en petits bouquets et la carotte en fines rondelles ; râper le gingembre et hacher l'ail.",
+      "Faire sauter la dinde 5 minutes à feu vif dans la moitié de l'huile, jusqu'à ce qu'elle soit bien cuite, puis la réserver.",
+      "Dans la même poêle, faire sauter le brocoli et la carotte 4 minutes dans le reste de l'huile avec 3 c. à s. d'eau, puis ajouter le gingembre et l'ail 1 minute.",
+      "Remettre la dinde, ajouter la sauce soja et le miel, mélanger 1 minute et servir sur le riz, parsemé de sésame."
+    ],
+    "astuce": "Un reste de riz de la veille, réchauffé à la poêle, fait parfaitement l'affaire."
+  },
+  {
+    "titre": "Bowl de riz, crevettes à l'ail, ananas et concombre",
+    "categorie": "plat",
+    "temps": 30,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "riz",
+        "nom": "riz basmati",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "crevette",
+        "nom": "crevettes crues décortiquées",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "ail",
+        "nom": "ail",
+        "qte": 2,
+        "unite": "gousse"
+      },
+      {
+        "cle": "ananas",
+        "nom": "ananas frais",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "concombre",
+        "nom": "concombre",
+        "qte": 0.5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "avocat",
+        "nom": "avocat",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "citron_vert",
+        "nom": "citron vert",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "coriandre",
+        "nom": "coriandre fraîche",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "piment_poudre",
+        "nom": "piment en poudre",
+        "qte": 1,
+        "unite": "pincée"
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Cuire le riz selon les indications du paquet.",
+      "Couper l'ananas, le concombre et l'avocat en dés, et les arroser de la moitié du jus du citron vert avec une pincée de sel.",
+      "Faire chauffer l'huile dans une poêle, ajouter l'ail haché 30 secondes, puis les crevettes et le piment, et cuire 2 à 3 minutes jusqu'à ce qu'elles soient roses et opaques.",
+      "Arroser les crevettes du reste du jus de citron vert et saler.",
+      "Répartir le riz dans les bols, ajouter les crevettes et les dés de fruits et légumes, puis parsemer de coriandre."
+    ],
+    "astuce": "Les crevettes surgelées crues se décongèlent en 10 minutes dans l'eau froide ; bien les sécher pour qu'elles dorent."
+  },
+  {
+    "titre": "Bowl de quinoa, champignons rôtis, épinards et œuf mollet",
+    "categorie": "plat",
+    "temps": 35,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "quinoa",
+        "nom": "quinoa",
+        "qte": 120,
+        "unite": "g"
+      },
+      {
+        "cle": "champignon",
+        "nom": "champignons",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "epinard",
+        "nom": "pousses d'épinard",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "ail",
+        "nom": "ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "parmesan",
+        "nom": "parmesan",
+        "qte": 20,
+        "unite": "g"
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 0.5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "herbes_provence",
+        "nom": "thym ou herbes de Provence",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 220 °C. Couper les champignons en quartiers, les mélanger avec 2 c. à s. d'huile d'olive, l'ail haché, le thym, du sel et du poivre, puis rôtir 20 minutes.",
+      "Rincer le quinoa et le cuire 12 minutes dans deux fois son volume d'eau salée, puis le laisser gonfler 5 minutes à couvert.",
+      "Cuire les œufs 6 minutes 30 dans l'eau bouillante, les refroidir et les écaler.",
+      "Mélanger le quinoa chaud avec les épinards, le jus du demi-citron et le reste de l'huile d'olive : les feuilles tombent légèrement.",
+      "Répartir dans les bols, ajouter les champignons rôtis, l'œuf coupé en deux et des copeaux de parmesan."
+    ],
+    "astuce": "Le quinoa cuit se garde 4 jours au frais : en cuire une grande quantité simplifie les bowls de la semaine."
+  },
+  {
+    "titre": "Bowl de riz, poisson blanc au curcuma et concombre au yaourt",
+    "categorie": "plat",
+    "temps": 35,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "riz",
+        "nom": "riz basmati",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "poisson_blanc",
+        "nom": "filets de poisson blanc (colin, cabillaud)",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "curcuma",
+        "nom": "curcuma",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "paprika",
+        "nom": "paprika",
+        "qte": 0.5,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "carotte",
+        "nom": "carottes",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "concombre",
+        "nom": "concombre",
+        "qte": 0.5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "yaourt",
+        "nom": "yaourt nature",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "menthe",
+        "nom": "menthe fraîche",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Cuire le riz selon les indications du paquet.",
+      "Râper les carottes et les assaisonner avec le jus d'un demi-citron, du sel et 1 c. à s. d'huile.",
+      "Râper le concombre, le presser pour retirer l'eau et le mélanger au yaourt avec la menthe ciselée, du sel et du poivre.",
+      "Saupoudrer le poisson de curcuma, de paprika et de sel, puis le cuire 3 à 4 minutes de chaque côté dans le reste de l'huile, jusqu'à ce que la chair soit opaque et s'effeuille.",
+      "Répartir le riz, les carottes et le poisson dans les bols, ajouter le concombre au yaourt et servir avec le reste du citron en quartiers."
+    ],
+    "astuce": "Le poisson surgelé convient : le décongeler la veille au réfrigérateur et bien l'éponger avant cuisson."
+  },
+  {
+    "titre": "Bowl de chou rouge rôti, haricots blancs, pomme et noix",
+    "categorie": "plat",
+    "temps": 45,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "chou",
+        "nom": "chou rouge",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "haricot_blanc",
+        "nom": "haricots blancs égouttés",
+        "qte": 1,
+        "unite": "boîte"
+      },
+      {
+        "cle": "pomme",
+        "nom": "pomme",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "noix",
+        "nom": "cerneaux de noix",
+        "qte": 40,
+        "unite": "g"
+      },
+      {
+        "cle": "riz",
+        "nom": "riz complet",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 4,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "cumin",
+        "nom": "cumin moulu",
+        "qte": 0.5,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "moutarde",
+        "nom": "moutarde à l'ancienne",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "vinaigre",
+        "nom": "vinaigre de cidre",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "persil",
+        "nom": "persil",
+        "qte": 2,
+        "unite": "c. à s.",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 210 °C. Cuire le riz complet selon les indications du paquet (environ 30 minutes).",
+      "Couper le chou rouge en fines tranches de 1 cm, les poser sur une plaque, arroser de 2 c. à s. d'huile d'olive, saupoudrer de cumin et de sel, et rôtir 25 minutes jusqu'à ce que les bords croustillent.",
+      "Ajouter les haricots blancs rincés sur la plaque pendant les 10 dernières minutes.",
+      "Fouetter la moutarde, le vinaigre, le reste de l'huile d'olive, du sel et du poivre.",
+      "Répartir le riz, le chou et les haricots dans les bols, ajouter la pomme en lamelles et les noix, arroser de vinaigrette et parsemer de persil."
+    ],
+    "astuce": "Le reste d'un chou rouge entamé se garde bien, et rôti il devient doux et presque sucré."
+  }
+]
