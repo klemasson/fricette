@@ -13,6 +13,7 @@ import Scanner from "./components/Scanner";
 import { InstallApp } from "./components/Pwa";
 import Newsletter from "./components/Newsletter";
 import Bilan from "./components/Bilan";
+import Logo from "./components/Logo";
 import { me, getList, setList, mergeAfterLogin, getRatings, track, loadLocal } from "@/lib/client";
 
 const UNITS = ["", "pièce", "g", "kg", "ml", "cl", "l", "tranche", "botte", "boîte", "pot", "c. à s.", "c. à c.", "gousse"];
@@ -65,17 +66,21 @@ function ExpBadge({ exp, onClick }) {
 }
 const qtyLabel = (it) => (it.unite === "pièce" || !it.unite ? `${it.qte}` : `${it.qte} ${it.unite}`);
 
-const START = [
-  { nom: "œufs", qte: 4, unite: "pièce" },
-  { nom: "courgette", qte: 2, unite: "pièce" },
-  { nom: "feta", qte: 150, unite: "g" },
-  { nom: "tomates cerises", qte: 250, unite: "g" },
-  { nom: "crème", qte: 20, unite: "cl" },
-  { nom: "pâtes", qte: 500, unite: "g" },
+// Frigos d'exemple pour essayer Fricette en un clic lors de la première visite.
+const EXEMPLES = [
+  { label: "Fin de semaine", emoji: "🥚", items: [
+    { nom: "œufs", qte: 4, unite: "pièce" }, { nom: "courgette", qte: 1, unite: "pièce" }, { nom: "crème", qte: 20, unite: "cl" },
+    { nom: "jambon", qte: 4, unite: "tranche" }, { nom: "fromage râpé", qte: 100, unite: "g" }, { nom: "tomates", qte: 2, unite: "pièce" } ] },
+  { label: "Frigo d'étudiant", emoji: "🍝", items: [
+    { nom: "pâtes", qte: 500, unite: "g" }, { nom: "œufs", qte: 6, unite: "pièce" }, { nom: "thon", qte: 1, unite: "boîte" },
+    { nom: "tomates concassées", qte: 1, unite: "boîte" }, { nom: "fromage râpé", qte: 100, unite: "g" } ] },
+  { label: "Retour du marché", emoji: "🥕", items: [
+    { nom: "poireaux", qte: 2, unite: "pièce" }, { nom: "carottes", qte: 4, unite: "pièce" }, { nom: "pommes de terre", qte: 6, unite: "pièce" },
+    { nom: "champignons", qte: 250, unite: "g" }, { nom: "poulet", qte: 300, unite: "g" }, { nom: "crème", qte: 20, unite: "cl" } ] },
 ];
 
 export default function Home() {
-  const [fridge, setFridge] = useState(START);
+  const [fridge, setFridge] = useState([]);
   const [name, setName] = useState("");
   const [focused, setFocused] = useState(false);
   const [temps, setTemps] = useState("40");
@@ -145,7 +150,7 @@ export default function Home() {
     } catch {}
     applyPrefs(loadLocal("frc-prefs", {}));
     loaded.current = true;
-    fetch("/carnet.json").then((r) => r.json()).then(setCarnet).catch(() => setCarnet([]));
+    fetch("/carnet-lite.json").then((r) => r.json()).then(setCarnet).catch(() => setCarnet([]));
     let local = [];
     try { local = JSON.parse(localStorage.getItem("frc-favs") || "[]"); } catch {}
     setFavs(Array.isArray(local) ? local : []);
@@ -407,8 +412,22 @@ export default function Home() {
   const quick = QUICK.filter((q) => !inFridge.has(resolve(q))).slice(0, 8);
   const fridgeFams = [...new Set(fridge.map((it) => familyOfName(it.nom)))].filter((f) => f !== "gris");
 
-  function openSheet(r) {
+  // Les étapes ne sont pas dans la version légère du carnet : on les charge à l'ouverture.
+  const fullCache = useRef(new Map());
+  async function openSheet(r) {
     if (r.id) track("open", r.id);
+    if (r.id && !r.etapes?.length) {
+      setOpenRecipe({ ...r, etapes: [], loading: true });
+      requestAnimationFrame(() => sheetRef.current?.showModal?.());
+      try {
+        let full = fullCache.current.get(r.id);
+        if (!full) { full = await fetch(`/api/recette/${r.id}`).then((x) => x.json()); fullCache.current.set(r.id, full); }
+        setOpenRecipe((cur) => (cur?.id === r.id ? pick([full], [full.id], fridge, opts)[0] : cur));
+      } catch {
+        setOpenRecipe((cur) => (cur?.id === r.id ? { ...cur, loading: false, etapes: ["Connexion perdue : impossible de charger les étapes. Réessaie."] } : cur));
+      }
+      return;
+    }
     setOpenRecipe(r);
     requestAnimationFrame(() => sheetRef.current?.showModal?.());
   }
@@ -504,7 +523,7 @@ export default function Home() {
     <div className={busy ? "busy" : ""}>
       <header className="in">
         <nav className="nav">
-          <a className="logo" href="/"><Ico fam="rouge" rot={0} />fricette</a>
+          <Logo />
           <div className="nav-right">
             {badge}
             {favs.length > 0 && (
@@ -523,7 +542,10 @@ export default function Home() {
               Dis ce qui traîne au frais et en quelle quantité. Fricette te propose des recettes où il ne te manque
               rien, ou presque.
             </p>
-            <button className="cta" type="button" onClick={() => document.getElementById("frigo")?.scrollIntoView({ behavior: "smooth" })}>
+            <button className="cta" type="button" onClick={() => {
+              document.getElementById("frigo")?.scrollIntoView({ behavior: "smooth" });
+              if (!fridge.length) setTimeout(() => document.getElementById("ing")?.focus({ preventScroll: true }), 500);
+            }}>
               Voir ce que je peux cuisiner
             </button>
             <div className="facts">
@@ -609,7 +631,23 @@ export default function Home() {
               <button className="link" type="button" onClick={() => { setFridge(cleared); setCleared(null); }}>Annuler</button>
             </p>
           )}
-          {fridge.length === 0 && !cleared && <p className="empty">Ton frigo est vide. Ajoute ce qui traîne au frais, ou scanne les codes-barres de tes produits.</p>}
+          {fridge.length === 0 && !cleared && (
+            <div className="welcome">
+              <ol className="how">
+                <li><strong>Dis ce qu'il y a dans ton frigo</strong><span>Tape, touche un ajout rapide ou scanne les codes-barres.</span></li>
+                <li><strong>Fricette trouve les recettes</strong><span>Parmi {carnet?.length || 900}, celles où il ne te manque rien (ou presque).</span></li>
+                <li><strong>Tu cuisines, rien ne se perd</strong><span>Quantités adaptées, mode cuisine pas à pas.</span></li>
+              </ol>
+              <div className="try">
+                <span>Pas d'idée ? Essaie avec un exemple :</span>
+                {EXEMPLES.map((ex) => (
+                  <button key={ex.label} type="button" className="try-btn" onClick={() => { setFridge(ex.items); track("page", "exemple"); }}>
+                    <span aria-hidden="true">{ex.emoji}</span> {ex.label}
+                  </button>
+                ))}
+              </div>
+            </div>
+          )}
           <div className="tokens">
             {fridge.map((it, i) => (
               <span className={"token" + (editIdx === i ? " editing" : "")} key={it.nom + i}>

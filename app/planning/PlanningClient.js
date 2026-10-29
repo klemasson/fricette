@@ -22,7 +22,7 @@ export default function PlanningClient() {
   const [msg, setMsg] = useState("");
 
   useEffect(() => {
-    fetch("/carnet.json").then((r) => r.json()).then(setCarnet).catch(() => setCarnet([]));
+    fetch("/carnet-lite.json").then((r) => r.json()).then(setCarnet).catch(() => setCarnet([]));
     setPlan(loadLocal("frc-planning", []));
     getList("planning").then(setPlan);
     getList("frigo").then((f) => setFridge(Array.isArray(f) ? f : []));

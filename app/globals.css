@@ -743,3 +743,32 @@ a.small-note { color: var(--ok); font-weight: 600; text-decoration: none; }
   .r-actions .chip, .r-actions .fav.labelled { padding: 7px 12px; font-size: 0.86rem; gap: 6px; }
   .r-actions .fav.labelled .heart { width: 16px; height: 16px; }
 }
+
+/* Logo */
+.logo { gap: 7px; font-size: 1.62rem; }
+.logo-ico { width: 1.25em; height: 1.25em; display: inline-flex; flex: none; transform: translateY(-1px); }
+.logo-ico svg { width: 100%; height: 100%; }
+.logo-word { display: inline-flex; align-items: baseline; letter-spacing: -0.045em; }
+.logo-i { position: relative; display: inline-block; }
+.logo-dot { position: absolute; left: 50%; top: -0.2em; width: 0.37em; height: 0.37em; transform: translateX(-22%); display: block; }
+.logo-dot svg { width: 100%; height: 100%; display: block; }
+@media (max-width: 600px) { .logo { font-size: 1.4rem; } }
+
+/* Première visite */
+.welcome { display: grid; gap: 16px; margin: 4px 0 6px; }
+.how { list-style: none; counter-reset: how; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
+.how li { counter-increment: how; background: var(--soft); border-radius: 18px; padding: 14px 16px 16px; display: grid; gap: 4px; align-content: start; }
+.how li::before { content: counter(how); font-family: var(--display); font-weight: 800; font-size: 1.5rem; color: var(--accent); line-height: 1; }
+.how strong { font-size: 1rem; }
+.how span { color: var(--muted); font-size: 0.88rem; line-height: 1.4; }
+.try { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.try > span { color: var(--muted); font-size: 0.92rem; margin-right: 4px; }
+.try-btn { display: inline-flex; gap: 6px; align-items: center; border: 1.5px solid var(--ink); border-radius: 999px; padding: 8px 15px; font-weight: 700; font-size: 0.92rem; }
+.try-btn:hover { background: var(--ink); color: var(--bg); }
+@media (max-width: 600px) {
+  .how { grid-template-columns: 1fr; gap: 6px; }
+  .how li { grid-template-columns: auto 1fr; column-gap: 12px; padding: 10px 14px; }
+  .how li::before { grid-row: span 2; align-self: center; }
+  .try > span { width: 100%; }
+  .try-btn { padding: 7px 12px; font-size: 0.86rem; }
+}

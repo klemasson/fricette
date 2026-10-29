@@ -1,8 +1,8 @@
 // Statistiques de Fricette, visibles seulement par les comptes listés dans le fichier
 // ~/fricette-data/admins (une adresse e-mail par ligne).
-import fs from "node:fs";
 import { currentUser } from "@/lib/auth";
-import { statsSince, dataPath } from "@/lib/db";
+import { admins } from "@/lib/admin";
+import { statsSince, newsletterCount } from "@/lib/db";
 import { getRecipe } from "@/lib/carnet-server";
 import { ingredientName } from "@/lib/match";
 import { SiteHeader } from "@/app/components/Site";
@@ -10,13 +10,6 @@ import { SiteHeader } from "@/app/components/Site";
 export const dynamic = "force-dynamic";
 export const metadata = { title: "Statistiques – Fricette", robots: { index: false } };
 
-function admins() {
-  try {
-    return fs.readFileSync(dataPath("admins"), "utf8").split(/\s+/).map((s) => s.trim().toLowerCase()).filter(Boolean);
-  } catch {
-    return [];
-  }
-}
 
 const dayStr = (d) => d.toLocaleDateString("sv-SE", { timeZone: "Europe/Zurich" });
 const title = (id) => getRecipe(id)?.titre || id;
@@ -75,6 +68,7 @@ export default async function Stats({ searchParams }) {
           <div><strong>{total}</strong><span>visiteurs·jour</span></div>
           <div><strong>{views}</strong><span>pages vues (top 15)</span></div>
           <div><strong>{s.users}</strong><span>comptes ({s.newUsers} nouveaux)</span></div>
+          <div><strong>{newsletterCount()}</strong><span>inscrits à la newsletter</span></div>
         </div>
         <section className="st-box wide">
           <h2>Visiteurs par jour</h2>
@@ -97,6 +91,11 @@ export default async function Stats({ searchParams }) {
           <Top label="Les plus notées" rows={s.topRated} fmt={title} extra={(r) => ` · ★ ${r.a}`} />
           <Top label="Mal notées : à revoir" rows={s.lowRated} fmt={title} extra={(r) => ` · ★ ${r.a}`} />
         </div>
+        <section className="st-box wide" style={{ marginTop: 14 }}>
+          <h2>Sauvegardes</h2>
+          <p className="muted small">La base (comptes, favoris, listes, newsletter) est copiée automatiquement chaque nuit sur l'hébergement, dans ~/fricette-data/sauvegardes (14 dernières nuits). Tu peux aussi en garder une copie chez toi :</p>
+          <a className="btn small" href="/api/admin/sauvegarde">Télécharger une sauvegarde maintenant</a>
+        </section>
         <p className="muted small">Comptage anonyme, sans cookie : un « visiteur·jour » est une personne différente un jour donné.</p>
       </main>
     </>

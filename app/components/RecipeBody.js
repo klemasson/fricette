@@ -164,6 +164,7 @@ export default function RecipeBody({ r, compare = true, fav, onFav, controls, ti
         </div>
         <div>
           <div className="label">Préparation</div>
+          {!r.etapes?.length && <p className="muted">Chargement des étapes…</p>}
           <ol className="steps">{(r.etapes || []).map((e, k) => <li key={k}>{e}<Gestes step={e} videos={videos} /></li>)}</ol>
         </div>
       </div>

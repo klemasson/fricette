@@ -21,6 +21,11 @@ for (const f of files) {
 }
 fs.mkdirSync("public", { recursive: true });
 fs.writeFileSync("public/carnet.json", JSON.stringify(all));
+// Version légère pour la recherche dans le navigateur : sans les étapes ni l'astuce
+// (chargées seulement à l'ouverture d'une recette, via /api/recette/<id>).
+const lite = all.map(({ etapes, astuce, ...r }) => ({ ...r, ingredients: r.ingredients.map(({ cle, nom, qte, unite, optionnel }) => ({ cle, nom, qte, unite, ...(optionnel ? { optionnel } : {}) })) }));
+fs.writeFileSync("public/carnet-lite.json", JSON.stringify(lite));
 const withPhoto = all.filter((r) => r.photo).length;
 console.log(`${withPhoto} recette(s) avec photo.`);
+console.log(`version légère : ${Math.round(fs.statSync("public/carnet-lite.json").size / 1024)} Ko`);
 console.log(`${all.length} recettes écrites dans public/carnet.json (${Math.round(fs.statSync("public/carnet.json").size / 1024)} Ko)`);

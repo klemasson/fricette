@@ -1,6 +1,6 @@
 // Fricette hors ligne : les pages déjà vues, le carnet et les photos restent disponibles sans réseau.
-const V = "frc-v1";
-const PRECACHE = ["/", "/offline", "/carnet.json", "/icons/icon-192.png", "/courses"];
+const V = "frc-v2";
+const PRECACHE = ["/", "/offline", "/carnet-lite.json", "/icons/icon-192.png", "/courses"];
 
 self.addEventListener("install", (e) => {
   e.waitUntil(caches.open(V).then((c) => c.addAll(PRECACHE).catch(() => {})).then(() => self.skipWaiting()));
@@ -35,10 +35,11 @@ self.addEventListener("fetch", (e) => {
   if (req.method !== "GET") return;
   const url = new URL(req.url);
   if (url.origin !== self.location.origin) return;
+  if (url.pathname.startsWith("/api/recette/")) { e.respondWith(networkFirst(req)); return; } // recettes ouvertes : lisibles hors ligne
   if (url.pathname.startsWith("/api/") || url.pathname === "/stats") return;
   if (url.pathname.startsWith("/_next/static/") || url.pathname.startsWith("/photos/") || url.pathname.startsWith("/icons/")) {
     e.respondWith(cacheFirst(req));
-  } else if (url.pathname === "/carnet.json") {
+  } else if (url.pathname === "/carnet-lite.json") {
     e.respondWith(networkFirst(req));
   } else if (req.mode === "navigate") {
     e.respondWith(networkFirst(req, "/offline"));

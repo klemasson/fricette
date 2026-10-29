@@ -2,12 +2,13 @@
 import { Ico } from "./bits";
 import { CoursesLink, PageView, AccountLink } from "./Live";
 import Newsletter from "./Newsletter";
+import Logo from "./Logo";
 
 export function SiteHeader() {
   return (
     <header className="in">
       <nav className="nav">
-        <a className="logo" href="/"><Ico fam="rouge" rot={0} />fricette</a>
+        <Logo />
         <div className="nav-right">
           <a className="nav-link hide-sm" href="/avec">Idées par ingrédient</a>
           <CoursesLink />
