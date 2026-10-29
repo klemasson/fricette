@@ -137,7 +137,7 @@
       "Couper le potimarron en quartiers sans l'éplucher, retirer les graines, et l'oignon en huit.",
       "Mettre légumes et gousses d'ail entières dans un plat, arroser d'huile, saler, poivrer et parsemer de romarin.",
       "Poser les cuisses de poulet par-dessus, peau vers le haut, salées et poivrées.",
-      "Enfourner 45 minutes en arrosant une fois avec le jus, jusqu'à ce que la peau soit bien dorée."
+      "Enfourner 45 minutes en arrosant une fois avec le jus, jusqu'à ce que la peau soit bien dorée et que le jus qui s'écoule de la viande piquée soit clair."
     ],
     "astuce": "Les graines du potimarron, rincées et grillées 10 minutes au four, font un apéro croquant."
   },
@@ -462,7 +462,7 @@
     "etapes": [
       "Cuire les haricots verts 8 minutes à l'eau bouillante salée, égoutter.",
       "Mélanger la chapelure et les herbes ; battre l'œuf dans une assiette creuse.",
-      "Passer les escalopes dans la farine, l'œuf puis la chapelure.",
+      "Saler et poivrer les escalopes, puis les passer dans la farine, l'œuf puis la chapelure.",
       "Les cuire 3 à 4 minutes par face dans 2 c. à s. d'huile chaude.",
       "Faire sauter les haricots 2 minutes avec le reste d'huile et l'ail haché, servir avec un quartier de citron."
     ],
@@ -697,11 +697,11 @@
     "etapes": [
       "Faire fondre l'oignon et les poivrons en dés 10 minutes dans l'huile avec 5 cl d'eau, à couvert.",
       "Cuire les penne selon le paquet.",
-      "Mixer les poivrons avec la crème et le paprika pour obtenir une sauce lisse.",
-      "Dorer la dinde en lanières 4 minutes dans la même poêle, verser la sauce et chauffer 2 minutes.",
+      "Mixer les poivrons et l'oignon avec la crème et le paprika pour obtenir une sauce lisse.",
+      "Dorer la dinde en lanières 4 minutes dans la même poêle, verser la sauce et chauffer 2 minutes, saler et poivrer.",
       "Mélanger avec les pâtes égouttées et servir avec du basilic."
     ],
-    "astuce": "Une moitié de poivron restante peut compléter avec une tomate bien mûre."
+    "astuce": "Une moitié de poivron restante peut se compléter d'une tomate bien mûre."
   },
   {
     "titre": "Poulet mariné au yaourt et aux épices, semoule aux carottes",
@@ -785,10 +785,10 @@
     "etapes": [
       "Couper le poulet en dés et le mélanger avec la moitié du yaourt, les épices, l'ail râpé et du sel ; laisser reposer 10 minutes.",
       "Râper la carotte, la mélanger à la semoule, verser 15 cl d'eau bouillante salée, couvrir 5 minutes puis égrainer.",
-      "Saisir le poulet dans l'huile 6 à 8 minutes jusqu'à ce qu'il soit bien doré.",
+      "Saisir le poulet dans l'huile 6 à 8 minutes jusqu'à ce qu'il soit bien doré et cuit à cœur.",
       "Servir sur la semoule avec le reste de yaourt et un peu de menthe."
     ],
-    "astuce": "La marinade peut se préparer le matin : le poulet n'en sera que plus tendre."
+    "astuce": "La marinade peut se préparer le matin et attendre au réfrigérateur : le poulet n'en sera que plus tendre."
   },
   {
     "titre": "Hauts de cuisse de poulet au four, pommes de terre et olives",
@@ -1009,7 +1009,7 @@
       "Préchauffer le four à 220 °C.",
       "Couper les patates douces en frites, les mélanger avec l'huile, le paprika et du sel, puis les étaler sur une plaque.",
       "Enfourner 25 à 30 minutes en les retournant à mi-cuisson.",
-      "Saisir la bavette 2 à 3 minutes par face dans une poêle très chaude avec une noix de beurre, puis la laisser reposer.",
+      "Saisir la bavette 2 à 3 minutes par face dans une poêle très chaude avec une noix de beurre, saler, poivrer, puis la laisser reposer.",
       "Faire fondre les échalotes émincées 3 minutes dans la poêle avec le reste de beurre, déglacer au vinaigre et napper la viande."
     ],
     "astuce": "Sortir la viande du frigo 20 minutes avant la cuisson pour une cuisson plus homogène."
@@ -1173,7 +1173,7 @@
     "etapes": [
       "Préchauffer le four à 200 °C ; couper les carottes en bâtonnets, les huiler, saler et enfourner 30 minutes.",
       "Mélanger le bœuf avec l'oignon râpé, le cumin, le persil haché, sel et poivre.",
-      "Former de petits boudins allongés et les dorer 8 à 10 minutes dans une poêle avec un filet d'huile.",
+      "Former de petits boudins allongés et les dorer 8 à 10 minutes dans une poêle avec un filet d'huile, jusqu'à ce qu'ils soient bien cuits à cœur.",
       "Mélanger le yaourt avec la menthe ciselée et une pincée de sel.",
       "Servir les keftas sur les carottes avec la sauce."
     ],
@@ -1372,7 +1372,7 @@
       {
         "cle": "huile",
         "nom": "huile neutre",
-        "qte": 2,
+        "qte": 3,
         "unite": "c. à s."
       },
       {
@@ -1396,10 +1396,10 @@
       }
     ],
     "etapes": [
-      "Couper les pommes de terre en petits dés et les faire rissoler 20 minutes dans l'huile, à couvert les 10 premières minutes.",
-      "Faire revenir l'échalote et les champignons émincés 6 minutes dans une autre poêle.",
+      "Couper les pommes de terre en petits dés et les faire rissoler 20 minutes dans 2 c. à s. d'huile, à couvert les 10 premières minutes.",
+      "Faire revenir l'échalote et les champignons émincés 6 minutes dans une autre poêle avec le reste d'huile.",
       "Ajouter la crème, saler, poivrer et laisser réduire 3 minutes.",
-      "Cuire les steaks hachés 3 minutes par face.",
+      "Cuire les steaks hachés 3 à 4 minutes par face, jusqu'à ce qu'ils soient bien cuits à cœur pour les enfants et les personnes fragiles.",
       "Servir les steaks nappés de champignons, avec les pommes de terre et du persil."
     ],
     "astuce": "Les champignons un peu tachés sont parfaits ici : il suffit de les essuyer."
@@ -1477,7 +1477,7 @@
   {
     "titre": "Goulash de bœuf au paprika et pommes de terre",
     "categorie": "plat",
-    "temps": 100,
+    "temps": 110,
     "difficulte": "moyen",
     "portions": 2,
     "regimes": [
@@ -1626,7 +1626,7 @@
     "etapes": [
       "Couper les carottes en rondelles, les mettre dans une poêle avec le beurre, une pincée de sel et de l'eau à mi-hauteur.",
       "Cuire 15 minutes jusqu'à évaporation, puis laisser glacer 2 minutes.",
-      "Couper le filet mignon en médaillons de 2 cm et les saisir 3 minutes par face dans l'huile.",
+      "Couper le filet mignon en médaillons de 2 cm et les saisir 3 minutes par face dans l'huile, saler et poivrer.",
       "Ajouter le miel, la moutarde, le thym et 3 c. à s. d'eau, enrober la viande 1 minute.",
       "Servir les médaillons nappés de sauce avec les carottes."
     ],
@@ -1810,6 +1810,12 @@
         "optionnel": true
       },
       {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
         "cle": "poivre",
         "nom": "poivre",
         "qte": null,
@@ -1822,7 +1828,7 @@
       "Ajouter pommes de terre et haricots, faire sauter 8 minutes jusqu'à ce que tout soit doré.",
       "Poivrer et parsemer de persil."
     ],
-    "astuce": "Des haricots verts surgelés conviennent aussi, sans précuisson."
+    "astuce": "Des haricots verts surgelés conviennent aussi : les ajouter sans précuisson et prolonger la poêlée de quelques minutes."
   },
   {
     "titre": "Côtes de porc aux champignons et chou sauté",
@@ -1887,7 +1893,7 @@
     ],
     "etapes": [
       "Émincer le chou et le blanchir 3 minutes à l'eau bouillante salée, égoutter.",
-      "Saisir les côtes de porc 4 à 5 minutes par face dans 1 c. à s. d'huile, réserver au chaud.",
+      "Saler et poivrer les côtes de porc, les saisir 4 à 5 minutes par face dans 1 c. à s. d'huile, réserver au chaud.",
       "Faire revenir les champignons émincés 5 minutes dans la même poêle.",
       "Ajouter le chou, l'ail haché et le reste d'huile, sauter 5 minutes, puis la moutarde délayée dans 3 c. à s. d'eau.",
       "Servir les côtes sur le chou aux champignons."
@@ -2027,7 +2033,7 @@
       {
         "cle": "huile_olive",
         "nom": "huile d'olive",
-        "qte": 1,
+        "qte": 2,
         "unite": "c. à s."
       },
       {
@@ -2052,10 +2058,10 @@
     ],
     "etapes": [
       "Fariner légèrement les escalopes, saler et poivrer.",
-      "Les cuire 2 minutes par face dans l'huile et la moitié du beurre, réserver au chaud.",
+      "Les cuire 2 minutes par face dans 1 c. à s. d'huile et la moitié du beurre, réserver au chaud.",
       "Déglacer la poêle avec le jus du citron et 3 c. à s. d'eau, ajouter le reste de beurre pour lier la sauce.",
-      "Dans une autre poêle, faire tomber les épinards 3 minutes avec l'ail haché.",
-      "Servir les escalopes nappées de sauce citronnée sur les épinards."
+      "Dans une autre poêle, faire tomber les épinards 3 minutes avec le reste d'huile et l'ail haché.",
+      "Servir les escalopes nappées de sauce citronnée sur les épinards, avec des pommes de terre vapeur si désiré."
     ],
     "astuce": "Le zeste du citron, râpé avant de le presser, relève aussi les épinards."
   },
@@ -2368,7 +2374,7 @@
       "Préchauffer le four à 200 °C.",
       "Couper les pommes de terre en quartiers, les huiler, saler et enfourner 15 minutes sur une plaque.",
       "Ajouter le brocoli en bouquets huilés et salés.",
-      "Poser le saumon sur la plaque, le napper de moutarde mélangée au miel et poursuivre 12 minutes.",
+      "Poser le saumon sur la plaque, saler, poivrer, le napper de moutarde mélangée au miel et poursuivre 12 minutes.",
       "Servir avec un quartier de citron."
     ],
     "astuce": "Un pavé de saumon surgelé se décongèle en une nuit au réfrigérateur."
@@ -3033,7 +3039,7 @@
       {
         "cle": "moule",
         "nom": "moules",
-        "qte": 1,
+        "qte": 1.5,
         "unite": "kg"
       },
       {
@@ -3085,7 +3091,7 @@
       "Gratter et rincer les moules, jeter celles qui restent ouvertes après une petite tape.",
       "Faire fondre le poireau émincé et l'échalote dans le beurre 8 minutes dans une grande casserole.",
       "Ajouter les moules et 5 cl d'eau, couvrir et cuire 5 à 6 minutes à feu vif en secouant.",
-      "Retirer les moules ouvertes, ajouter la crème au jus et laisser réduire 2 minutes.",
+      "Retirer les moules ouvertes en jetant celles restées fermées, ajouter la crème au jus et laisser réduire 2 minutes.",
       "Napper les moules de sauce, poivrer, parsemer de persil et servir avec du pain."
     ],
     "astuce": "Le jus de cuisson restant fait une excellente base de soupe de poisson."
@@ -3383,7 +3389,7 @@
     ],
     "etapes": [
       "Faire revenir le poivron en petits dés 5 minutes à sec ou avec un filet d'eau.",
-      "Ajouter le poulet effiloché, le maïs et le paprika, saler et poivrer.",
+      "Ajouter le poulet effiloché, le maïs et le paprika, saler, poivrer et bien réchauffer 2 minutes.",
       "Garnir la moitié de chaque tortilla de farce et de fromage, puis replier.",
       "Dorer les quesadillas 2 à 3 minutes par face dans une poêle sans matière grasse.",
       "Couper en triangles et servir avec une salade."
@@ -3435,7 +3441,7 @@
       {
         "cle": "beurre",
         "nom": "beurre",
-        "qte": 20,
+        "qte": 30,
         "unite": "g"
       },
       {
@@ -3459,11 +3465,11 @@
       }
     ],
     "etapes": [
-      "Cuire les pommes de terre épluchées 20 minutes à l'eau salée, puis les écraser avec le lait chaud et le beurre.",
-      "Faire revenir l'oignon et les champignons émincés 8 minutes.",
+      "Cuire les pommes de terre épluchées 20 minutes à l'eau salée, puis les écraser avec le lait chaud et 20 g de beurre.",
+      "Faire revenir l'oignon et les champignons émincés 8 minutes dans le reste de beurre.",
       "Hacher finement le reste de rôti au couteau et l'ajouter aux champignons, saler et poivrer.",
       "Étaler la viande dans un plat, couvrir de purée et parsemer de fromage.",
-      "Gratiner 20 minutes à 200 °C."
+      "Gratiner 20 minutes dans le four préchauffé à 200 °C."
     ],
     "astuce": "Le jus du rôti, s'il en reste, rend la farce encore plus moelleuse."
   },
@@ -3675,7 +3681,6 @@
     "difficulte": "facile",
     "portions": 2,
     "regimes": [
-      "sans_lactose",
       "sans_porc",
       "sans_alcool"
     ],

@@ -53,7 +53,7 @@
       "Battre les œufs à la fourchette avec une pincée de sel et du poivre, sans les faire mousser.",
       "Faire fondre le beurre dans une poêle à feu moyen, verser les œufs et ramener les bords vers le centre avec une spatule pendant 1 minute.",
       "Répartir le jambon et le gruyère sur une moitié quand le dessus est encore baveux.",
-      "Replier l'omelette, laisser 30 secondes de plus et servir aussitôt."
+      "Replier l'omelette, laisser 30 secondes de plus et servir aussitôt, parsemé de ciboulette ciselée."
     ],
     "astuce": "Les fins de fromages (comté, emmental, raclette) se mélangent très bien ici : râpez tout ce qui traîne."
   },
@@ -177,7 +177,7 @@
       "Pendant ce temps, faire revenir l'ail émincé dans le beurre 1 minute à feu doux sans le colorer.",
       "Ajouter la crème et laisser frémir 3 minutes.",
       "Égoutter les pâtes en gardant un fond d'eau de cuisson, les verser dans la sauce avec le parmesan.",
-      "Mélanger hors du feu en ajoutant un peu d'eau de cuisson si la sauce est trop épaisse, poivrer généreusement."
+      "Mélanger hors du feu en ajoutant un peu d'eau de cuisson si la sauce est trop épaisse, poivrer généreusement et parsemer de persil haché."
     ],
     "astuce": "Un reste de crème entamée ou un fond de mascarpone fait parfaitement l'affaire."
   },
@@ -537,7 +537,7 @@
       "Couper le poulet en lanières et émincer l'oignon.",
       "Faire dorer le poulet dans le beurre 5 minutes à feu vif, saler, puis le réserver.",
       "Dans la même poêle, faire fondre l'oignon 5 minutes à feu moyen.",
-      "Ajouter la crème et la moutarde, porter à frémissement puis remettre le poulet et laisser mijoter 5 minutes.",
+      "Ajouter la crème et la moutarde, porter à frémissement puis remettre le poulet et laisser mijoter 5 minutes à feu doux, sans faire bouillir, jusqu'à ce que le poulet soit cuit à cœur.",
       "Poivrer et servir avec du riz, des pâtes ou des pommes de terre."
     ],
     "astuce": "Ne pas faire bouillir la sauce après l'ajout de moutarde, elle deviendrait amère."
@@ -667,7 +667,7 @@
       "Couper les pommes de terre en petits dés de 1,5 cm.",
       "Les faire dorer dans l'huile à feu moyen 15 minutes en remuant souvent, à couvert les 5 premières minutes.",
       "Ajouter l'oignon émincé et cuire 3 minutes.",
-      "Ajouter le bœuf haché et le paprika, émietter et cuire 5 minutes jusqu'à ce que la viande soit bien saisie.",
+      "Ajouter le bœuf haché et le paprika, émietter et cuire 5 minutes jusqu'à ce que la viande soit bien cuite et ne soit plus rosée.",
       "Saler, poivrer et parsemer de persil."
     ],
     "astuce": "Un œuf au plat posé dessus transforme cette poêlée en plat encore plus généreux."
@@ -782,7 +782,7 @@
       "Préchauffer le four à 210 °C.",
       "Couper les pommes de terre en quartiers et l'oignon en lamelles épaisses.",
       "Mélanger l'huile, la moutarde, le thym, du sel et du poivre, puis en enrober les pommes de terre et l'oignon sur une plaque.",
-      "Enfourner 15 minutes, ajouter les saucisses piquées à la fourchette et poursuivre 20 minutes en retournant à mi-cuisson."
+      "Enfourner 15 minutes, ajouter les saucisses piquées à la fourchette et poursuivre 20 minutes en retournant à mi-cuisson, jusqu'à ce que les saucisses soient dorées et cuites à cœur."
     ],
     "astuce": "Vérifier la composition des saucisses si l'on cuisine sans gluten : certaines contiennent de la chapelure."
   },
@@ -1095,7 +1095,7 @@
       "Cuire les lentilles rincées 10 minutes dans 60 cl d'eau, sans sel.",
       "Ajouter le riz, le cumin et une bonne pincée de sel, couvrir et cuire 15 minutes à feu doux jusqu'à absorption.",
       "Pendant ce temps, émincer finement les oignons et les faire frire dans l'huile à feu moyen 15 minutes en remuant, jusqu'à ce qu'ils soient bien bruns et croustillants.",
-      "Mélanger la moitié des oignons et leur huile aux lentilles et au riz, servir avec le reste des oignons dessus."
+      "Mélanger la moitié des oignons et leur huile aux lentilles et au riz, poivrer et servir avec le reste des oignons dessus."
     ],
     "astuce": "Inspiré de la mujaddara libanaise : un yaourt nature à côté l'accompagne très bien si l'on n'est pas vegan."
   },
@@ -2353,9 +2353,9 @@
       }
     ],
     "etapes": [
-      "Faire fondre le beurre dans une grande poêle à feu moyen avec l'ail écrasé et le thym.",
+      "Faire fondre le beurre dans une grande poêle à feu moyen.",
       "Ajouter les gnocchis crus en une seule couche et les laisser dorer 4 minutes sans y toucher.",
-      "Les retourner et cuire encore 4 minutes jusqu'à ce qu'ils soient croustillants.",
+      "Les retourner, ajouter l'ail écrasé et le thym, et cuire encore 4 minutes jusqu'à ce qu'ils soient croustillants.",
       "Hors du feu, parsemer de parmesan, poivrer et servir aussitôt."
     ],
     "astuce": "Inutile de les pocher avant : les gnocchis frais du commerce cuisent directement à la poêle."
@@ -2693,7 +2693,7 @@
       "Préchauffer le four à 200 °C.",
       "Couper les pommes de terre en rondelles fines et l'oignon en lamelles, les mélanger dans un plat avec 2 cuillères d'huile, le thym, du sel et du poivre.",
       "Enfourner 25 minutes, jusqu'à ce que les pommes de terre soient tendres et commencent à dorer.",
-      "Poser les filets de poisson dessus, saler, arroser du reste d'huile et de rondelles de citron.",
+      "Poser les filets de poisson dessus, saler, arroser du reste d'huile et couvrir de rondelles de citron.",
       "Remettre au four 12 minutes, jusqu'à ce que le poisson s'effeuille facilement."
     ],
     "astuce": "Les filets surgelés conviennent : les décongeler au frigo la veille et bien les éponger."
