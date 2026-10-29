@@ -1,11 +1,17 @@
 import { NextResponse } from "next/server";
 import { currentUser, endSession, sameOrigin, checkPassword } from "@/lib/auth";
 import { listFavorites, deleteUser, findUserByEmail } from "@/lib/db";
-import { mailEnabled } from "@/lib/mail";
+import { mailEnabled, mailDiagnostic } from "@/lib/mail";
+import { headers } from "next/headers";
 
 export const dynamic = "force-dynamic";
 
 export async function GET() {
+  // Diagnostic seulement pour une requête faite depuis le serveur lui-même (console SSH : curl localhost).
+  const h = await headers();
+  if (/^(localhost|127\.0\.0\.1)(:\d+)?$/.test(h.get("host") || "")) {
+    return NextResponse.json({ mail: mailEnabled(), diagnostic: mailDiagnostic(), version: "dae818d+diag" });
+  }
   const user = await currentUser();
   if (!user) return NextResponse.json({ user: null, favorites: [], mail: mailEnabled() });
   return NextResponse.json({ user: { email: user.email }, favorites: listFavorites(user.id), mail: mailEnabled() });
