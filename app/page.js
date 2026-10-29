@@ -626,11 +626,11 @@ export default function Home() {
             }}>
               Voir ce que je peux cuisiner
             </button>
-            <div className="facts">
-              <span><Ico fam="vert" rot={0} />{carnet?.length || 900} recettes gratuites</span>
-              <span><Ico fam="jaune" rot={0} />les quantités comptent</span>
-              <span><Ico fam="rouge" rot={0} />zéro gaspi</span>
-            </div>
+            <ol className="steps-mini" aria-label="Comment ça marche">
+              <li><b>1</b><span><strong>Ton frigo</strong>tape, dicte ou scanne ce que tu as</span></li>
+              <li><b>2</b><span><strong>Tes recettes</strong>parmi {carnet?.length || 900}, gratuites</span></li>
+              <li><b>3</b><span><strong>Tu cuisines</strong>avec les bonnes quantités, zéro gaspi</span></li>
+            </ol>
             {info?.mock && <p className="mock">Mode simulation : les recettes du chef sont fictives.</p>}
           </div>
           {day?.today ? (
@@ -716,19 +716,18 @@ export default function Home() {
             </p>
           )}
           {fridge.length === 0 && !cleared && (
-            <div className="welcome">
-              <ol className="how">
-                <li><strong>Dis ce qu'il y a dans ton frigo</strong><span>Tape, touche un ajout rapide ou scanne les codes-barres.</span></li>
-                <li><strong>Fricette trouve les recettes</strong><span>Parmi {carnet?.length || 900}, celles où il ne te manque rien (ou presque).</span></li>
-                <li><strong>Tu cuisines, rien ne se perd</strong><span>Quantités adaptées, mode cuisine pas à pas.</span></li>
-              </ol>
+            <div className="empty-fridge">
+              <p><strong>Ton frigo est vide.</strong> Ajoute ce que tu as au frais avec le champ ci-dessus : les recettes apparaissent au fur et à mesure.</p>
               <div className="try">
-                <span>Pas d'idée ? Essaie avec un exemple :</span>
-                {EXEMPLES.map((ex) => (
-                  <button key={ex.label} type="button" className="try-btn" onClick={() => { setFridge(ex.items); track("page", "exemple"); }}>
-                    <span aria-hidden="true">{ex.emoji}</span> {ex.label}
-                  </button>
-                ))}
+                <span>Juste envie de tester ? Remplis le frigo avec un exemple :</span>
+                <div className="try-list">
+                  {EXEMPLES.map((ex) => (
+                    <button key={ex.label} type="button" className="try-btn" onClick={() => { setFridge(ex.items); track("page", "exemple"); }}>
+                      <strong><span aria-hidden="true">{ex.emoji}</span> {ex.label}</strong>
+                      <small>{ex.items.map((x) => x.nom).join(", ")}</small>
+                    </button>
+                  ))}
+                </div>
               </div>
             </div>
           )}
