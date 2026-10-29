@@ -14,6 +14,7 @@ import { InstallApp } from "./components/Pwa";
 import Newsletter from "./components/Newsletter";
 import Bilan from "./components/Bilan";
 import Logo from "./components/Logo";
+import QtySheet from "./components/QtySheet";
 import { me, getList, setList, mergeAfterLogin, getRatings, track, loadLocal, saveLocal } from "@/lib/client";
 
 const UNITS = ["", "pièce", "g", "kg", "ml", "cl", "l", "tranche", "botte", "boîte", "pot", "c. à s.", "c. à c.", "gousse"];
@@ -123,7 +124,7 @@ export default function Home() {
     const io = new IntersectionObserver(([e]) => setMenuVisible(e.isIntersecting || e.boundingClientRect.top < 0), { threshold: 0 });
     io.observe(el);
     // Le gros bouton « Voir les recettes » du frigo est à l'écran : pas besoin du bouton flottant.
-    const io2 = new IntersectionObserver(([e]) => setCtaVisible(e.isIntersecting), { threshold: 0 });
+    const io2 = new IntersectionObserver(([e]) => setCtaVisible(e.isIntersecting || e.boundingClientRect.top > 0), { threshold: 0 }); // bouton flottant seulement une fois le gros bouton dépassé
     const cta = document.getElementById("see-recipes");
     if (cta) io2.observe(cta);
     return () => { io.disconnect(); io2.disconnect(); };
@@ -451,6 +452,19 @@ export default function Home() {
     : null;
 
   const results = found?.results || [];
+  // Unité habituelle d'un ingrédient dans le carnet (lait -> ml, feta -> g, œufs -> pièce)
+  const usualUnit = useMemo(() => {
+    const m = new Map();
+    for (const r of carnet || []) for (const g of r.ingredients) {
+      if (!g.unite || g.unite.startsWith("c. à")) continue;
+      const c = m.get(g.cle) || {}; c[g.unite] = (c[g.unite] || 0) + 1; m.set(g.cle, c);
+    }
+    return m;
+  }, [carnet]);
+  const unitFor = (nom) => {
+    const c = usualUnit.get(resolve(nom));
+    return c ? Object.entries(c).sort((a, b) => b[1] - a[1])[0][0] : "pièce";
+  };
   const settingsSummary = [
     `Pour ${personnes}`,
     temps === "0" ? "tout temps" : `≤ ${temps === "90" ? "1 h 30" : temps + " min"}`,
@@ -672,7 +686,7 @@ export default function Home() {
               <button className="icon-btn" type="button" onClick={() => setScanOpen(true)} aria-label="Scanner un code-barres" title="Scanner un code-barres">
                 <svg className="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7V5h3M17 5h3v2M20 17v2h-3M7 19H4v-2M8 9v6M11 9v6M14 9v6M17 9v6" /></svg>
               </button>
-              <button className="add-btn" type="submit">Ajouter</button>
+              <button className="add-btn" type="submit" aria-label="Ajouter"><span className="hide-sm">Ajouter</span><span className="show-sm" aria-hidden="true">+</span></button>
               {focused && sugs.length > 0 && (
                 <ul className="sugs" id="ing-sugs" role="listbox">
                   {sugs.map((sg, k) => (
@@ -710,37 +724,16 @@ export default function Home() {
                   <span className={"token" + (editIdx === i ? " editing" : "")} key={it.nom + i}>
                     <Ico fam={familyOfName(it.nom)} />
                     <span className="n">{it.nom}</span>
-                    {editIdx === i ? (
-                      <span className="qedit" onKeyDown={(e) => { if (e.key === "Enter" || e.key === "Escape") { e.preventDefault(); setEditIdx(null); } }}>
-                        <input
-                          type="number" min="0" step="any" inputMode="decimal" aria-label={`Quantité de ${it.nom}`} autoFocus
-                          placeholder="qté" value={it.qte ?? ""}
-                          onChange={(e) => update(i, { qte: e.target.value === "" ? null : Number(e.target.value), unite: it.unite || "pièce" })}
-                        />
-                        <select value={it.unite || "pièce"} onChange={(e) => update(i, { unite: e.target.value })} aria-label={`Unité de ${it.nom}`}>
-                          {UNITS.filter(Boolean).map((u) => <option key={u} value={u}>{u}</option>)}
-                        </select>
-                        <button type="button" className="ok" onClick={() => setEditIdx(null)}>OK</button>
-                        <span className="exp-edit">
-                          <span>À finir avant</span>
-                          <input type="date" value={it.exp || ""} min={isoDay(-2)} onChange={(e) => update(i, { exp: e.target.value || undefined })} aria-label={`Date limite de ${it.nom}`} />
-                          <button type="button" className="exp-quick" onClick={() => update(i, { exp: isoDay(1) })}>demain</button>
-                          <button type="button" className="exp-quick" onClick={() => update(i, { exp: isoDay(3) })}>3 jours</button>
-                          {it.exp && <button type="button" className="exp-quick" onClick={() => update(i, { exp: undefined })}>aucune</button>}
-                        </span>
-                      </span>
-                    ) : (
-                      <button type="button" className={"qbtn" + (it.qte == null ? " empty-q" : "")} onClick={() => setEditIdx(i)} aria-label={`Modifier la quantité de ${it.nom}`}>
-                        {it.qte == null ? "+ qté" : qtyLabel(it)}
-                      </button>
-                    )}
-                    {editIdx !== i && it.exp && <ExpBadge exp={it.exp} onClick={() => setEditIdx(i)} />}
+                    <button type="button" className={"qbtn" + (it.qte == null ? " empty-q" : "")} onClick={() => setEditIdx(i)} aria-label={`Préciser ${it.nom}`}>
+                      {it.qte == null ? "+ qté" : qtyLabel(it)}
+                    </button>
+                    {it.exp && <ExpBadge exp={it.exp} onClick={() => setEditIdx(i)} />}
                     <button className="x" type="button" onClick={() => { setEditIdx(null); remove(i); }} aria-label={`Retirer ${it.nom}`}>×</button>
                   </span>
                 ))}
               </div>
             )}
-            {fridge.length > 0 && <p className="hint">Touche une quantité pour la préciser ou ajouter une date limite : les produits à finir vite passent en premier.</p>}
+            {fridge.length > 0 && <p className="hint hide-sm">Touche « + qté » pour préciser une quantité ou une date limite : les produits à finir vite passent en premier.</p>}
             {found?.unknown.length > 0 && (
               <p className="note">Le carnet ne connaît pas encore : {found.unknown.join(", ")}.{info?.ai ? " Le chef, lui, saura quoi en faire." : ""}</p>
             )}
@@ -809,8 +802,8 @@ export default function Home() {
               {fridge.length && found ? `Voir les ${results.length} recette${results.length > 1 ? "s" : ""} →` : "Voir les recettes →"}
             </button>
             {carnet && (
-              <button className="ghost surprise" type="button" onClick={surprise}>
-                <span aria-hidden="true">🎲</span> Surprends-moi
+              <button className="ghost surprise" type="button" onClick={surprise} aria-label="Surprends-moi : une recette au hasard">
+                <span aria-hidden="true">🎲</span> <span className="hide-sm">Surprends-moi</span>
               </button>
             )}
           </div>
@@ -904,7 +897,6 @@ export default function Home() {
             </div>
           )}
 
-          {results.some((r) => r.photo) && <p className="note" style={{ margin: "-10px 0 18px" }}>Photos générées par IA, à titre indicatif.</p>}
 
           {aiRecipes && (
             <div className="grid" ref={aiRef} style={{ marginBottom: 18 }}>
@@ -978,6 +970,12 @@ export default function Home() {
         </div>
       </footer>
 
+      {editIdx != null && fridge[editIdx] && (
+        <QtySheet key={editIdx} item={fridge[editIdx]} defaultUnit={unitFor(fridge[editIdx].nom)}
+          onSave={(patch) => { update(editIdx, patch); setEditIdx(null); }}
+          onRemove={() => { remove(editIdx); setEditIdx(null); }}
+          onClose={() => setEditIdx(null)} />
+      )}
       {scanOpen && <Scanner onAdd={addScanned} onRemove={removeScanned} onClose={() => setScanOpen(false)} />}
 
       <dialog className="sheet" ref={sheetRef} onClose={() => { setOpenRecipe(null); setSheetRaw(null); }} onClick={(e) => { if (e.target === sheetRef.current) sheetRef.current.close(); }}>
