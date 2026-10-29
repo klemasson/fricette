@@ -78,6 +78,7 @@ export default function Home() {
   const [mailEnabled, setMailEnabled] = useState(false);
   const [ratings, setRatings] = useState({});
   const [scanOpen, setScanOpen] = useState(false);
+  const [cleared, setCleared] = useState(null);
   const authRef = useRef(null);
   const loaded = useRef(false);
   const ticker = useRef(null);
@@ -195,6 +196,15 @@ export default function Home() {
       return f.filter((_, j) => j !== i);
     });
   }
+
+  function clearFridge() {
+    setCleared(fridge);
+    setFridge([]);
+    setAiRecipes(null);
+  }
+  useEffect(() => {
+    if (cleared && fridge.length) setCleared(null); // on a rajouté quelque chose : plus besoin d'annuler
+  }, [fridge, cleared]);
 
   const update = (i, patch) => setFridge((f) => f.map((x, j) => (j === i ? { ...x, ...patch } : x)));
   const remove = (i) => setFridge((f) => f.filter((_, j) => j !== i));
@@ -445,7 +455,15 @@ export default function Home() {
         <div className="in">
           <div className="sec">
             <h2>Ton frigo</h2>
-            <span>{fridge.length} ingrédient{fridge.length > 1 ? "s" : ""}</span>
+            <div className="sec-right">
+              <span>{fridge.length} ingrédient{fridge.length > 1 ? "s" : ""}</span>
+              {fridge.length > 0 && (
+                <button className="clear-btn" type="button" onClick={clearFridge} disabled={busy}>
+                  <svg className="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M9 7V4h6v3M6 7l1 13h10l1-13M10 11v6M14 11v6" /></svg>
+                  Vider le frigo
+                </button>
+              )}
+            </div>
           </div>
           <form className="addrow" onSubmit={add}>
             <input id="ing" value={name} onChange={(e) => setName(e.target.value)} placeholder="Ajoute un ingrédient (ex. carottes)" aria-label="Ingrédient" autoComplete="off" />
@@ -456,7 +474,13 @@ export default function Home() {
             <button className="btn" type="submit">Ajouter</button>
           </form>
 
-          {fridge.length === 0 && <p className="empty">Ton frigo est vide. Ajoute ce qui traîne au frais, ou prends-le en photo.</p>}
+          {cleared && (
+            <p className="undo-bar" role="status">
+              Frigo vidé ({cleared.length} ingrédient{cleared.length > 1 ? "s" : ""}).
+              <button className="link" type="button" onClick={() => { setFridge(cleared); setCleared(null); }}>Annuler</button>
+            </p>
+          )}
+          {fridge.length === 0 && <p className="empty">Ton frigo est vide. Ajoute ce qui traîne au frais, ou scanne les codes-barres de tes produits.</p>}
           <div className="tokens">
             {fridge.map((it, i) => (
               <span className="token" key={it.nom + i}>
@@ -518,7 +542,6 @@ export default function Home() {
               <svg className="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7V5h3M17 5h3v2M20 17v2h-3M7 19H4v-2M8 9v6M11 9v6M14 9v6M17 9v6" /></svg>
               Scanner un code-barres
             </button>
-            <button className="link" type="button" onClick={() => { setFridge([]); setAiRecipes(null); }} disabled={busy}>Vider le frigo</button>
           </div>
           <div className={"status" + (status.err ? " err" : "") + (status.chef ? " chef" : "")} role="status">{status.text}</div>
 
