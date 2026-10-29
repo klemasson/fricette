@@ -118,7 +118,7 @@ export default function PlanningClient() {
       <div className="toast" role="status">{msg}</div>
 
       <div className="plan-days">
-        {dates.map((date, i) => (
+        {dates.map((date, i) => (date < isoDate() && !slots.some((sl) => at(date, sl))) ? null : (
           <section key={date} className={"plan-day" + (date === isoDate() ? " today" : "") + (date < isoDate() ? " past" : "")}>
             <h2>{DAYS[i]} <span>{date.split("-").reverse().slice(0, 2).join(".")}</span></h2>
             {slots.map((slot) => {

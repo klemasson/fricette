@@ -80,6 +80,12 @@ export default function Conditions() {
                 <li>Ton adresse e-mail sert uniquement à te connecter et à t'envoyer, si tu le demandes, un lien pour changer de mot de passe. Elle n'est jamais transmise à des tiers ni utilisée pour de la publicité.</li>
                 <li>Tu peux supprimer ton compte et toutes ces données à tout moment, en bas de la page d'accueil (« Supprimer mon compte »).</li>
               </ul>
+              <h3>Listes partagées, rappels et newsletter</h3>
+              <ul>
+                <li>Une liste de courses partagée est enregistrée sur notre serveur. Toute personne qui a son lien secret peut la voir et la modifier ; tu peux la quitter à tout moment.</li>
+                <li>Les rappels « produit à finir » ne sont envoyés que si tu les actives dans « Mon compte ». Ils utilisent les dates que tu indiques dans ton frigo.</li>
+                <li>La newsletter n'est envoyée qu'après confirmation de ton adresse. Chaque e-mail contient un lien de désinscription en un clic ; ton adresse est alors effacée.</li>
+              </ul>
               <h3>Statistiques</h3>
               <ul>
                 <li>Pour améliorer le carnet, nous comptons de façon anonyme les pages vues, les recettes ouvertes et les ingrédients ajoutés au frigo (par exemple « courgette : 120 fois aujourd'hui »).</li>

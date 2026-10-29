@@ -31,6 +31,8 @@ function cleanPrefs(v) {
   const o = {};
   for (const [k, allowed] of Object.entries(PREFS)) if (allowed.includes(v[k])) o[k] = v[k];
   if (Array.isArray(v.sans)) o.sans = v.sans.filter((x) => ALLERGEN_KEYS.includes(x));
+  if (typeof v.shared === "string" && /^[A-Za-z0-9_-]{16,40}$/.test(v.shared)) o.shared = v.shared;
+  if (typeof v.midi === "boolean") o.midi = v.midi;
   return o;
 }
 

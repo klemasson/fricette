@@ -734,3 +734,12 @@ a.small-note { color: var(--ok); font-weight: 600; text-decoration: none; }
 .plan-quick > span { color: var(--muted); }
 .plan-quick .f { font-size: 0.85rem; padding: 5px 11px; text-transform: none; }
 @media (max-width: 600px) { .plan-days { grid-template-columns: 1fr; } .plan-bar { gap: 8px; } }
+.invite { display: grid; gap: 4px; background: var(--p4); border-radius: 18px; padding: 16px 18px; margin-bottom: 8px; }
+.invite span { color: var(--muted); font-size: 0.92rem; }
+.share-link { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; font-size: 0.9rem; color: var(--muted); }
+.share-link input { flex: 1 1 260px; min-width: 0; border: 1.5px solid var(--line); border-radius: 999px; padding: 8px 12px; background: var(--soft); font-size: 0.85rem; }
+.cooked-msg { margin: 0; }
+@media (max-width: 600px) {
+  .r-actions .chip, .r-actions .fav.labelled { padding: 7px 12px; font-size: 0.86rem; gap: 6px; }
+  .r-actions .fav.labelled .heart { width: 16px; height: 16px; }
+}

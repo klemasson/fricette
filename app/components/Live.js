@@ -2,14 +2,14 @@
 // Petits morceaux vivants des pages statiques.
 import { useEffect, useState } from "react";
 import { Basket } from "./bits";
-import { loadLocal, getList, track, me } from "@/lib/client";
+import { loadLocal, getCourses, track, me } from "@/lib/client";
 
 export function CoursesLink({ className = "nav-link" }) {
   const [n, setN] = useState(0);
   useEffect(() => {
     const count = (l) => setN((l || []).filter((x) => !x.done).length);
     count(loadLocal("frc-courses", []));
-    getList("courses").then(count);
+    getCourses().then(count);
     const on = (e) => count(e.detail);
     window.addEventListener("frc:courses", on);
     return () => window.removeEventListener("frc:courses", on);

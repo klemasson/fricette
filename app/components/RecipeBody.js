@@ -85,8 +85,8 @@ export default function RecipeBody({ r, compare = true, fav, onFav, controls, ti
   }
 
   const coursesLabel = compare && missing.length
-    ? `Ajouter les ${missing.length} manquant${missing.length > 1 ? "s" : ""} à mes courses`
-    : "Ajouter à mes courses";
+    ? `${missing.length > 1 ? `Les ${missing.length} manquants` : "Le manquant"} aux courses`
+    : "Ajouter aux courses";
 
   return (
     <>
@@ -128,8 +128,8 @@ export default function RecipeBody({ r, compare = true, fav, onFav, controls, ti
         <div className="toast" role="status">{msg}</div>
         {cooked && (
           <div className="cooked">
-            <strong>Bravo ! 🌱</strong>{" "}
-            {cooked.g > 0 ? <>Environ <b>{cooked.g >= 1000 ? `${(cooked.g / 1000).toFixed(1).replace(".", ",")} kg` : `${cooked.g} g`}</b> d'aliments sauvés de la poubelle.</> : "Recette ajoutée à ton bilan."}
+            <p className="cooked-msg"><strong>Bravo ! 🌱</strong>{" "}
+            {cooked.g > 0 ? <>Environ <b>{cooked.g >= 1000 ? `${(cooked.g / 1000).toFixed(1).replace(".", ",")} kg` : `${cooked.g} g`}</b> d'aliments sauvés de la poubelle.</> : "Recette ajoutée à ton bilan."}</p>
             {usesFridge && !cooked.done && (
               <div className="cooked-actions">
                 <button type="button" className="btn small" onClick={updateFridge}>Retirer ce que j'ai utilisé de mon frigo</button>

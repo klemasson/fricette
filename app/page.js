@@ -217,7 +217,7 @@ export default function Home() {
   useEffect(() => {
     if (!loaded.current) return;
     if (!prefsReady.current) { prefsReady.current = true; return; } // pas d'écriture au chargement
-    setList("prefs", { personnes: Number(personnes), temps, regime, placard: basiques && placard, sans });
+    setList("prefs", { ...loadLocal("frc-prefs", {}), personnes: Number(personnes), temps, regime, placard: basiques && placard, sans });
   }, [personnes, temps, regime, basiques, placard, sans]);
 
   const opts = { temps: Number(temps), regime, personnes: Number(personnes), basiques, placard, type, sans };
