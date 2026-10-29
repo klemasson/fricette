@@ -2,7 +2,7 @@ import crypto from "node:crypto";
 import { NextResponse } from "next/server";
 import { normEmail, sameOrigin, tooManyAttempts, hashToken } from "@/lib/auth";
 import { findUserByEmail, createReset } from "@/lib/db";
-import { sendMail, MAIL_ENABLED, siteUrl } from "@/lib/mail";
+import { sendMail, mailEnabled, siteUrl } from "@/lib/mail";
 import { visitorIp } from "@/lib/session";
 
 export const dynamic = "force-dynamic";
@@ -12,7 +12,7 @@ const OK = { message: "Si un compte existe avec cette adresse, tu vas recevoir u
 
 export async function POST(request) {
   if (!(await sameOrigin())) return NextResponse.json({ error: "Requête refusée." }, { status: 403 });
-  if (!MAIL_ENABLED) return NextResponse.json({ error: "Cette fonction n'est pas encore disponible." }, { status: 503 });
+  if (!mailEnabled()) return NextResponse.json({ error: "Cette fonction n'est pas encore disponible." }, { status: 503 });
   const body = await request.json().catch(() => ({}));
   const email = normEmail(body.email);
   if (!email) return NextResponse.json({ error: "Adresse e-mail invalide." }, { status: 400 });

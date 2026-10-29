@@ -216,10 +216,9 @@ Les visiteurs peuvent créer un compte (e-mail + mot de passe) pour retrouver le
 
 - Les données sont dans un petit fichier de base de données, `~/fricette-data/fricette.db`, **en dehors** du dossier du site : il ne bouge pas quand tu mets le code à jour. La console du site indique son emplacement au démarrage (`[db] base de données : …`).
 - **Sauvegarde** : Infomaniak sauvegarde ton hébergement automatiquement. Avant de retirer ou recréer le site, copie ce fichier par précaution (console SSH : `cp ~/fricette-data/fricette.db ~/fricette-data/sauvegarde.db`).
-- **Mot de passe oublié** : le site envoie un lien (valable 1 heure, utilisable une seule fois) depuis `bonjour@fricette.ch`, via le serveur d'Infomaniak. Il suffit de donner au site le mot de passe de cette boîte, une seule fois, dans la console SSH :
+- **Mot de passe oublié** : le site envoie un lien (valable 1 heure, utilisable une seule fois) depuis `bonjour@fricette.ch`, via le serveur d'Infomaniak. Le mot de passe de cette boîte est rangé dans le fichier `~/fricette-data/smtp-password` (hors du site). Pour l'enregistrer ou le changer, dans la console SSH :
   ```
-  cd ~/sites/fricette.ch
-  read -s -p "Mot de passe de bonjour@fricette.ch : " P && printf 'SMTP_PASSWORD_B64=%s\n' "$(printf %s "$P" | base64 -w0)" >> .env.local && unset P && echo " Enregistré"
+  mkdir -p ~/fricette-data && read -s -p "Mot de passe : " P && printf %s "$P" > ~/fricette-data/smtp-password && chmod 600 ~/fricette-data/smtp-password && unset P && echo " Enregistré"
   ```
-  Puis clique sur **Redémarrer**. Tant que ce n'est pas fait, le lien « Mot de passe oublié ? » est remplacé par « Écris-nous à bonjour@fricette.ch ». Si tu changes le mot de passe de la boîte e-mail, refais la commande (après avoir supprimé l'ancienne ligne avec `sed -i '/SMTP_PASSWORD/d' .env.local`).
+  Pas besoin de redémarrer : le site le lit à chaque envoi. Tant que ce fichier n'existe pas, le lien « Mot de passe oublié ? » est remplacé par « Écris-nous à bonjour@fricette.ch ».
 - Le message « SQLite is an experimental feature » dans la console est normal.
