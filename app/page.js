@@ -7,6 +7,7 @@ import { daily } from "@/lib/season";
 import { Ico, Heart, FavButton, StarAvg } from "./components/bits";
 import RecipeBody, { summary } from "./components/RecipeBody";
 import { CoursesLink } from "./components/Live";
+import Scanner from "./components/Scanner";
 import { me, getList, setList, mergeAfterLogin, getRatings, track } from "@/lib/client";
 
 const UNITS = ["", "pièce", "g", "kg", "ml", "cl", "l", "tranche", "botte", "boîte", "pot", "c. à s.", "c. à c.", "gousse"];
@@ -76,6 +77,7 @@ export default function Home() {
   const [auth, setAuth] = useState({ mode: "login", email: "", password: "", error: "", info: "", busy: false, token: "" });
   const [mailEnabled, setMailEnabled] = useState(false);
   const [ratings, setRatings] = useState({});
+  const [scanOpen, setScanOpen] = useState(false);
   const authRef = useRef(null);
   const loaded = useRef(false);
   const ticker = useRef(null);
@@ -170,6 +172,28 @@ export default function Home() {
       return next;
     });
     setName(""); setQte("");
+  }
+
+  // Produit scanné : on additionne si l'ingrédient est déjà là dans la même unité.
+  const same = (a, b) => a.nom.toLowerCase() === b.nom.toLowerCase();
+  function addScanned(it) {
+    const k = resolve(it.nom); track(k ? "ing" : "unknown", k || it.nom);
+    setFridge((f) => {
+      const i = f.findIndex((x) => same(x, it));
+      if (i < 0) return [...f, it];
+      const x = f[i];
+      const merged = x.unite === it.unite && x.qte != null && it.qte != null ? { ...x, qte: x.qte + it.qte } : { ...x, qte: it.qte ?? x.qte, unite: it.qte != null ? it.unite : x.unite };
+      return f.map((y, j) => (j === i ? merged : y));
+    });
+  }
+  function removeScanned(it) {
+    setFridge((f) => {
+      const i = f.findIndex((x) => same(x, it));
+      if (i < 0) return f;
+      const x = f[i];
+      if (x.unite === it.unite && x.qte != null && it.qte != null && x.qte > it.qte) return f.map((y, j) => (j === i ? { ...y, qte: y.qte - it.qte } : y));
+      return f.filter((_, j) => j !== i);
+    });
   }
 
   const update = (i, patch) => setFridge((f) => f.map((x, j) => (j === i ? { ...x, ...patch } : x)));
@@ -490,6 +514,10 @@ export default function Home() {
                 Voir les recettes
               </button>
             )}
+            <button className="ghost scan-btn" type="button" onClick={() => setScanOpen(true)}>
+              <svg className="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7V5h3M17 5h3v2M20 17v2h-3M7 19H4v-2M8 9v6M11 9v6M14 9v6M17 9v6" /></svg>
+              Scanner un code-barres
+            </button>
             <button className="link" type="button" onClick={() => { setFridge([]); setAiRecipes(null); }} disabled={busy}>Vider le frigo</button>
           </div>
           <div className={"status" + (status.err ? " err" : "") + (status.chef ? " chef" : "")} role="status">{status.text}</div>
@@ -615,6 +643,8 @@ export default function Home() {
           </span>
         </div>
       </footer>
+
+      {scanOpen && <Scanner onAdd={addScanned} onRemove={removeScanned} onClose={() => setScanOpen(false)} />}
 
       <dialog className="sheet" ref={sheetRef} onClose={() => setOpenRecipe(null)} onClick={(e) => { if (e.target === sheetRef.current) sheetRef.current.close(); }}>
         {openRecipe && <Sheet r={openRecipe} onClose={() => sheetRef.current?.close()} fav={favSet.has(openRecipe.id)} onFav={openRecipe.id ? toggleFav : null} />}
