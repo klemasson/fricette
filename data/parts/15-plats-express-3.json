@@ -223,10 +223,10 @@
       "Couper le fenouil en deux, retirer le trognon et l'émincer finement ; garder les pluches.",
       "Faire fondre le fenouil avec l'ail écrasé 12 minutes à feu moyen dans l'huile d'olive et le beurre, en remuant, jusqu'à ce qu'il soit tendre et doré.",
       "Pendant ce temps, cuire les pâtes al dente et réserver une louche d'eau de cuisson.",
-      "Ajouter les pâtes égouttées dans la poêle avec le zeste et le jus d'un demi-citron, le parmesan et un peu d'eau de cuisson ; mélanger vivement pour obtenir une sauce nappante.",
+      "Ajouter les pâtes égouttées dans la poêle avec le zeste du citron, le jus d'une moitié, le parmesan et un peu d'eau de cuisson ; mélanger vivement pour obtenir une sauce nappante.",
       "Poivrer généreusement et parsemer des pluches de fenouil hachées."
     ],
-    "astuce": "Le reste du citron et du fenouil cru se transforme en salade croquante pour le lendemain."
+    "astuce": "Le demi-citron restant se presse sur une salade ou un poisson le lendemain."
   },
   {
     "titre": "Pâtes aux pois chiches poêlés, ail et piment",
@@ -374,10 +374,10 @@
       }
     ],
     "etapes": [
-      "Couper l'aubergine en cubes de 1,5 cm.",
+      "Porter une grande casserole d'eau salée à ébullition et couper l'aubergine en cubes de 1,5 cm.",
       "Les faire dorer 10 minutes dans l'huile d'olive à feu moyen-vif, en remuant souvent, jusqu'à ce qu'ils soient fondants ; saler.",
       "Ajouter l'ail émincé et les tomates cerises coupées en deux et cuire encore 5 minutes, jusqu'à ce qu'elles éclatent.",
-      "Pendant ce temps, cuire les pâtes al dente dans une grande casserole d'eau salée et réserver une louche d'eau de cuisson.",
+      "Pendant ce temps, cuire les pâtes al dente dans l'eau bouillante et réserver une louche d'eau de cuisson.",
       "Mélanger les pâtes égouttées à la poêlée avec un peu d'eau de cuisson, puis répartir dans les assiettes.",
       "Déposer des cuillerées de ricotta, poivrer et parsemer de basilic."
     ],
@@ -386,7 +386,7 @@
   {
     "titre": "Pâtes à l'avocat, citron vert et basilic",
     "categorie": "plat",
-    "temps": 15,
+    "temps": 20,
     "difficulte": "facile",
     "portions": 2,
     "regimes": [
@@ -862,7 +862,7 @@
       }
     ],
     "etapes": [
-      "Couper la tomate et la mozzarella en tranches fines ; éponger la mozzarella.",
+      "Couper la tomate et la mozzarella en tranches fines ; éponger la tomate et la mozzarella.",
       "Beurrer chaque tranche de pain de mie sur une face.",
       "Tartiner l'autre face de pesto, puis garnir deux tranches de mozzarella et de tomate ; poivrer et refermer, face beurrée vers l'extérieur.",
       "Cuire 3 à 4 minutes de chaque côté à feu moyen en appuyant légèrement, jusqu'à ce que le pain soit doré et la mozzarella fondue."
@@ -1254,7 +1254,7 @@
   {
     "titre": "Gnocchis aux petits pois, ricotta et citron",
     "categorie": "plat",
-    "temps": 15,
+    "temps": 20,
     "difficulte": "facile",
     "portions": 2,
     "regimes": [
@@ -1641,7 +1641,7 @@
   {
     "titre": "Nouilles au beurre de cacahuète, concombre et oignons nouveaux",
     "categorie": "plat",
-    "temps": 15,
+    "temps": 20,
     "difficulte": "facile",
     "portions": 2,
     "regimes": [
@@ -2580,7 +2580,7 @@
   {
     "titre": "Gnocchis à la crème de saumon fumé et ciboulette",
     "categorie": "plat",
-    "temps": 15,
+    "temps": 20,
     "difficulte": "facile",
     "portions": 2,
     "regimes": [
