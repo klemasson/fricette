@@ -90,18 +90,7 @@ const qtyLabel = (it) => (it.unite === "pièce" || !it.unite ? `${it.qte}` : `${
 const OLD_DEMO = "œufs|courgette|feta|tomates cerises|crème|pâtes";
 const oldDemo = (f) => f.map((x) => x.nom).join("|") === OLD_DEMO && f.every((x) => !x.exp);
 
-// Frigos d'exemple pour essayer Fricette en un clic lors de la première visite.
-const EXEMPLES = [
-  { label: "Fin de semaine", emoji: "🥚", items: [
-    { nom: "œufs", qte: 4, unite: "pièce" }, { nom: "courgette", qte: 1, unite: "pièce" }, { nom: "crème", qte: 20, unite: "cl" },
-    { nom: "jambon", qte: 4, unite: "tranche" }, { nom: "fromage râpé", qte: 100, unite: "g" }, { nom: "tomates", qte: 2, unite: "pièce" } ] },
-  { label: "Frigo d'étudiant", emoji: "🍝", items: [
-    { nom: "pâtes", qte: 500, unite: "g" }, { nom: "œufs", qte: 6, unite: "pièce" }, { nom: "thon", qte: 1, unite: "boîte" },
-    { nom: "tomates concassées", qte: 1, unite: "boîte" }, { nom: "fromage râpé", qte: 100, unite: "g" } ] },
-  { label: "Retour du marché", emoji: "🥕", items: [
-    { nom: "poireaux", qte: 2, unite: "pièce" }, { nom: "carottes", qte: 4, unite: "pièce" }, { nom: "pommes de terre", qte: 6, unite: "pièce" },
-    { nom: "champignons", qte: 250, unite: "g" }, { nom: "poulet", qte: 300, unite: "g" }, { nom: "crème", qte: 20, unite: "cl" } ] },
-];
+
 
 export default function Home() {
   const [fridge, setFridge] = useState([]);
@@ -114,7 +103,7 @@ export default function Home() {
   const [basiques, setBasiques] = useState(true);
   const [placard, setPlacard] = useState(true);
   const [sans, setSans] = useState([]);
-  const [showAllergies, setShowAllergies] = useState(false);
+  const [showSettings, setShowSettings] = useState(false);
   const [now, setNow] = useState(false);
   const [carnet, setCarnet] = useState(null);
   const [shown, setShown] = useState(PAGE);
@@ -462,6 +451,13 @@ export default function Home() {
     : null;
 
   const results = found?.results || [];
+  const settingsSummary = [
+    `Pour ${personnes}`,
+    temps === "0" ? "tout temps" : `≤ ${temps === "90" ? "1 h 30" : temps + " min"}`,
+    regime,
+    sans.length ? `sans ${sans.map(allergenLabel).join(", ")}` : "",
+    basiques && placard ? "" : "sans placard",
+  ].filter(Boolean).join(" · ");
   const inFridge = new Set(fridge.map((it) => resolve(it.nom)).filter(Boolean));
   const sugs = useMemo(() => suggestIngredients(name, inFridge), [name, fridge]); // eslint-disable-line react-hooks/exhaustive-deps
   const quick = QUICK.filter((q) => !inFridge.has(resolve(q))).slice(0, 8);
@@ -656,24 +652,27 @@ export default function Home() {
 
       <section className="fridge" id="frigo" aria-label="Ton frigo">
         <div className="in">
-          <div className="sec">
-            <h2>Ton frigo</h2>
-            <div className="sec-right">
-              <span>{fridge.length} ingrédient{fridge.length > 1 ? "s" : ""}</span>
-              {fridge.length > 0 && (
-                <button className="clear-btn" type="button" onClick={clearFridge} disabled={busy}>
-                  <svg className="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M9 7V4h6v3M6 7l1 13h10l1-13M10 11v6M14 11v6" /></svg>
-                  Vider le frigo
-                </button>
-              )}
+          <div className="fridge-card">
+            <div className="fridge-head">
+              <h2>Ton frigo</h2>
+              {fridge.length > 0 && <span className="fridge-count">{fridge.length} ingrédient{fridge.length > 1 ? "s" : ""}</span>}
+              {fridge.length > 0 && <button className="clear-link" type="button" onClick={clearFridge} disabled={busy}>Vider</button>}
             </div>
-          </div>
-          <form className="addbox" onSubmit={add} onKeyDown={onAddKey}>
-            <div className="addfield">
-              <svg className="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14" /></svg>
-              <input id="ing" value={name} onChange={(e) => { setName(e.target.value); setSugIdx(0); }} placeholder="Ajoute un ingrédient : carottes, feta, riz…"
+
+            <form className="addbar" onSubmit={add} onKeyDown={onAddKey}>
+              <svg className="i plus" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14" /></svg>
+              <input id="ing" value={name} onChange={(e) => { setName(e.target.value); setSugIdx(0); }} placeholder="Ajoute un ingrédient…"
                 aria-label="Ingrédient" autoComplete="off" role="combobox" aria-expanded={sugs.length > 0} aria-controls="ing-sugs"
                 onFocus={() => setFocused(true)} onBlur={() => setFocused(false)} />
+              {voiceOk && (
+                <button className={"icon-btn" + (listening ? " on" : "")} type="button" onClick={dictate} aria-label="Dicter les ingrédients" title="Dicter">
+                  <svg className="i" viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3" /><path d="M5 11a7 7 0 0 0 14 0M12 18v3" /></svg>
+                </button>
+              )}
+              <button className="icon-btn" type="button" onClick={() => setScanOpen(true)} aria-label="Scanner un code-barres" title="Scanner un code-barres">
+                <svg className="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7V5h3M17 5h3v2M20 17v2h-3M7 19H4v-2M8 9v6M11 9v6M14 9v6M17 9v6" /></svg>
+              </button>
+              <button className="add-btn" type="submit">Ajouter</button>
               {focused && sugs.length > 0 && (
                 <ul className="sugs" id="ing-sugs" role="listbox">
                   {sugs.map((sg, k) => (
@@ -685,148 +684,120 @@ export default function Home() {
                   ))}
                 </ul>
               )}
-            </div>
-            <button className="btn" type="submit">Ajouter</button>
-            {voiceOk && (
-              <button className={"scan-icon mic" + (listening ? " on" : "")} type="button" onClick={dictate} aria-label="Dicter les ingrédients" title="Dicter les ingrédients">
-                <svg className="i" viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3" /><path d="M5 11a7 7 0 0 0 14 0M12 18v3" /></svg>
-                <span>{listening ? "J'écoute…" : "Dicter"}</span>
-              </button>
-            )}
-            <button className="scan-icon" type="button" onClick={() => setScanOpen(true)} aria-label="Scanner un code-barres" title="Scanner un code-barres">
-              <svg className="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7V5h3M17 5h3v2M20 17v2h-3M7 19H4v-2M8 9v6M11 9v6M14 9v6M17 9v6" /></svg>
-              <span>Scanner</span>
-            </button>
-          </form>
+            </form>
+            {listening && <p className="hint">🎤 J'écoute… dis par exemple « quatre œufs, deux courgettes et du riz ».</p>}
 
-          <Bilan compact />
-          {quick.length > 0 && (
-            <div className="quick" aria-label="Ajout rapide">
-              <span>Ajout rapide :</span>
-              {quick.map((q) => (
-                <button key={q} type="button" className="quick-chip" onClick={() => addNames([q])}>+ {q}</button>
-              ))}
-            </div>
-          )}
-
-          {cleared && (
-            <p className="undo-bar" role="status">
-              Frigo vidé ({cleared.length} ingrédient{cleared.length > 1 ? "s" : ""}).
-              <button className="link" type="button" onClick={() => { setFridge(cleared); setCleared(null); }}>Annuler</button>
-            </p>
-          )}
-          {fridge.length === 0 && !cleared && (
-            <div className="empty-fridge">
-              <p><strong>Ton frigo est vide.</strong> Ajoute ce que tu as au frais avec le champ ci-dessus : les recettes apparaissent au fur et à mesure.</p>
-              <div className="try">
-                <span>Juste envie de tester ? Remplis le frigo avec un exemple :</span>
-                <div className="try-list">
-                  {EXEMPLES.map((ex) => (
-                    <button key={ex.label} type="button" className="try-btn" onClick={() => { setFridge(ex.items); track("page", "exemple"); }}>
-                      <strong><span aria-hidden="true">{ex.emoji}</span> {ex.label}</strong>
-                      <small>{ex.items.map((x) => x.nom).join(", ")}</small>
-                    </button>
-                  ))}
-                </div>
+            {quick.length > 0 && (
+              <div className="quick" aria-label="Ajout rapide">
+                {quick.map((q) => (
+                  <button key={q} type="button" className="quick-chip" onClick={() => addNames([q])}>+ {q}</button>
+                ))}
               </div>
-            </div>
-          )}
-          <div className="tokens">
-            {fridge.map((it, i) => (
-              <span className={"token" + (editIdx === i ? " editing" : "")} key={it.nom + i}>
-                <Ico fam={familyOfName(it.nom)} />
-                <span className="n">{it.nom}</span>
-                {editIdx === i ? (
-                  <span className="qedit" onKeyDown={(e) => { if (e.key === "Enter" || e.key === "Escape") { e.preventDefault(); setEditIdx(null); } }}>
-                    <input
-                      type="number" min="0" step="any" inputMode="decimal" aria-label={`Quantité de ${it.nom}`} autoFocus
-                      placeholder="qté" value={it.qte ?? ""}
-                      onChange={(e) => update(i, { qte: e.target.value === "" ? null : Number(e.target.value), unite: it.unite || "pièce" })}
-                    />
-                    <select value={it.unite || "pièce"} onChange={(e) => update(i, { unite: e.target.value })} aria-label={`Unité de ${it.nom}`}>
-                      {UNITS.filter(Boolean).map((u) => <option key={u} value={u}>{u}</option>)}
-                    </select>
-                    <button type="button" className="ok" onClick={() => setEditIdx(null)}>OK</button>
-                    <span className="exp-edit">
-                      <span>À finir avant</span>
-                      <input type="date" value={it.exp || ""} min={isoDay(-2)} onChange={(e) => update(i, { exp: e.target.value || undefined })} aria-label={`Date limite de ${it.nom}`} />
-                      <button type="button" className="exp-quick" onClick={() => update(i, { exp: isoDay(1) })}>demain</button>
-                      <button type="button" className="exp-quick" onClick={() => update(i, { exp: isoDay(3) })}>3 jours</button>
-                      {it.exp && <button type="button" className="exp-quick" onClick={() => update(i, { exp: undefined })}>aucune</button>}
-                    </span>
-                  </span>
-                ) : (
-                  <button type="button" className={"qbtn" + (it.qte == null ? " empty-q" : "")} onClick={() => setEditIdx(i)} aria-label={`Modifier la quantité de ${it.nom}`}>
-                    {it.qte == null ? "+ qté" : qtyLabel(it)}
-                  </button>
-                )}
-                {editIdx !== i && it.exp && <ExpBadge exp={it.exp} onClick={() => setEditIdx(i)} />}
-                <button className="x" type="button" onClick={() => { setEditIdx(null); remove(i); }} aria-label={`Retirer ${it.nom}`}>×</button>
-              </span>
-            ))}
-          </div>
-          {fridge.length > 0 && <p className="hint hide-sm">Touche une quantité pour la modifier ou indiquer une date limite : les produits à finir vite passent en priorité.</p>}
-          {found?.unknown.length > 0 && (
-            <p className="note">Le carnet ne connaît pas encore : {found.unknown.join(", ")}.{info?.ai ? " Le chef, lui, saura quoi en faire." : ""}</p>
-          )}
+            )}
 
-          <div className="prefs">
-            <div className="filters" role="group" aria-label="Type de recette">
+            {cleared && (
+              <p className="undo-bar" role="status">
+                Frigo vidé.
+                <button className="link" type="button" onClick={() => { setFridge(cleared); setCleared(null); }}>Annuler</button>
+              </p>
+            )}
+            {fridge.length === 0 && !cleared && (
+              <p className="fridge-empty">Ton frigo est vide pour l'instant. Ajoute ce qui traîne au frais : les recettes s'affichent au fur et à mesure.</p>
+            )}
+            {fridge.length > 0 && (
+              <div className="tokens">
+                {fridge.map((it, i) => (
+                  <span className={"token" + (editIdx === i ? " editing" : "")} key={it.nom + i}>
+                    <Ico fam={familyOfName(it.nom)} />
+                    <span className="n">{it.nom}</span>
+                    {editIdx === i ? (
+                      <span className="qedit" onKeyDown={(e) => { if (e.key === "Enter" || e.key === "Escape") { e.preventDefault(); setEditIdx(null); } }}>
+                        <input
+                          type="number" min="0" step="any" inputMode="decimal" aria-label={`Quantité de ${it.nom}`} autoFocus
+                          placeholder="qté" value={it.qte ?? ""}
+                          onChange={(e) => update(i, { qte: e.target.value === "" ? null : Number(e.target.value), unite: it.unite || "pièce" })}
+                        />
+                        <select value={it.unite || "pièce"} onChange={(e) => update(i, { unite: e.target.value })} aria-label={`Unité de ${it.nom}`}>
+                          {UNITS.filter(Boolean).map((u) => <option key={u} value={u}>{u}</option>)}
+                        </select>
+                        <button type="button" className="ok" onClick={() => setEditIdx(null)}>OK</button>
+                        <span className="exp-edit">
+                          <span>À finir avant</span>
+                          <input type="date" value={it.exp || ""} min={isoDay(-2)} onChange={(e) => update(i, { exp: e.target.value || undefined })} aria-label={`Date limite de ${it.nom}`} />
+                          <button type="button" className="exp-quick" onClick={() => update(i, { exp: isoDay(1) })}>demain</button>
+                          <button type="button" className="exp-quick" onClick={() => update(i, { exp: isoDay(3) })}>3 jours</button>
+                          {it.exp && <button type="button" className="exp-quick" onClick={() => update(i, { exp: undefined })}>aucune</button>}
+                        </span>
+                      </span>
+                    ) : (
+                      <button type="button" className={"qbtn" + (it.qte == null ? " empty-q" : "")} onClick={() => setEditIdx(i)} aria-label={`Modifier la quantité de ${it.nom}`}>
+                        {it.qte == null ? "+ qté" : qtyLabel(it)}
+                      </button>
+                    )}
+                    {editIdx !== i && it.exp && <ExpBadge exp={it.exp} onClick={() => setEditIdx(i)} />}
+                    <button className="x" type="button" onClick={() => { setEditIdx(null); remove(i); }} aria-label={`Retirer ${it.nom}`}>×</button>
+                  </span>
+                ))}
+              </div>
+            )}
+            {fridge.length > 0 && <p className="hint">Touche une quantité pour la préciser ou ajouter une date limite : les produits à finir vite passent en premier.</p>}
+            {found?.unknown.length > 0 && (
+              <p className="note">Le carnet ne connaît pas encore : {found.unknown.join(", ")}.{info?.ai ? " Le chef, lui, saura quoi en faire." : ""}</p>
+            )}
+            <Bilan compact />
+          </div>
+
+          <div className="toolbar">
+            <div className="seg" role="group" aria-label="Type de recette">
               {TYPES.map(([v, l, short]) => (
-                <button key={v} className="f" type="button" aria-pressed={type === v} onClick={() => setType(v)}>
+                <button key={v} type="button" aria-pressed={type === v} onClick={() => setType(v)}>
                   <span className="hide-sm">{l}</span><span className="show-sm">{short}</span>
                 </button>
               ))}
             </div>
-            <div className="opts">
-              <label className="opt"><span aria-hidden="true">⏱</span>
-                <select id="temps" value={temps} onChange={(e) => setTemps(e.target.value)} aria-label="Temps">
-                  <option value="0">Tout temps</option><option value="20">≤ 20 min</option>
-                  <option value="40">≤ 40 min</option><option value="90">≤ 1 h 30</option>
-                </select>
-              </label>
-              <label className="opt"><span aria-hidden="true">👥</span>
-                <select id="personnes" value={personnes} onChange={(e) => setPersonnes(e.target.value)} aria-label="Nombre de personnes">
-                  {[1, 2, 3, 4, 6, 8].map((n) => <option key={n} value={n}>Pour {n}</option>)}
-                </select>
-              </label>
-              <label className="opt"><span aria-hidden="true">🌿</span>
-                <select id="regime" value={regime} onChange={(e) => setRegime(e.target.value)} aria-label="Régime">
-                  <option value="">Régime</option><option>végétarien</option><option>vegan</option>
-                  <option>sans gluten</option><option>sans lactose</option><option>sans porc</option><option>halal</option>
-                </select>
-              </label>
+            <button type="button" className={"settings-btn" + (showSettings ? " open" : "")} aria-expanded={showSettings} onClick={() => setShowSettings((v) => !v)}>
+              <svg className="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h10M18 7h2M4 17h4M12 17h8" /><circle cx="16" cy="7" r="2" /><circle cx="10" cy="17" r="2" /></svg>
+              <span className="settings-sum">{settingsSummary}</span>
+            </button>
+          </div>
 
-            </div>
-            <div className="placard-row">
-              <label className="switch">
-                <input type="checkbox" checked={now} onChange={(e) => setNow(e.target.checked)} />
-                <span className="track" aria-hidden="true" />
-                Seulement ce que je peux faire maintenant
-              </label>
-              <button type="button" className={"allergy-btn" + (sans.length ? " on" : "")} aria-expanded={showAllergies} onClick={() => setShowAllergies((v) => !v)}>
-                <span aria-hidden="true">⚠︎</span> {sans.length ? `Sans ${sans.map(allergenLabel).join(", ")}` : "Allergies"}
-              </button>
-              <label className="switch" title="Sel, poivre, huile, beurre, farine, sucre, oignon, ail, pâtes, riz, semoule, épices, bouillon, moutarde…">
-                <input type="checkbox" checked={basiques && placard} onChange={(e) => { setBasiques(e.target.checked); setPlacard(e.target.checked); }} />
-                <span className="track" aria-hidden="true" />
-                J'ai un placard de base
-              </label>
-            </div>
-            {showAllergies && (
-              <div className="allergies" role="group" aria-label="Allergies">
-                <p className="hint" style={{ marginTop: 0 }}>Masquer les recettes qui contiennent :</p>
+          {showSettings && (
+            <div className="settings">
+              <div className="settings-grid">
+                <label className="field">Nombre de personnes
+                  <select id="personnes" value={personnes} onChange={(e) => setPersonnes(e.target.value)}>
+                    {[1, 2, 3, 4, 6, 8].map((n) => <option key={n} value={n}>{n} personne{n > 1 ? "s" : ""}</option>)}
+                  </select>
+                </label>
+                <label className="field">Temps maximum
+                  <select id="temps" value={temps} onChange={(e) => setTemps(e.target.value)}>
+                    <option value="0">Peu importe</option><option value="20">20 minutes</option>
+                    <option value="40">40 minutes</option><option value="90">1 h 30</option>
+                  </select>
+                </label>
+                <label className="field">Régime
+                  <select id="regime" value={regime} onChange={(e) => setRegime(e.target.value)}>
+                    <option value="">Aucun</option><option>végétarien</option><option>vegan</option>
+                    <option>sans gluten</option><option>sans lactose</option><option>sans porc</option><option>halal</option>
+                  </select>
+                </label>
+              </div>
+              <div className="field">Allergies : masquer les recettes avec
                 <div className="allergy-chips">
                   {ALLERGENS.map((a) => (
                     <button key={a.key} type="button" className="f" aria-pressed={sans.includes(a.key)}
                       onClick={() => setSans((l) => (l.includes(a.key) ? l.filter((x) => x !== a.key) : [...l, a.key]))}>{a.label}</button>
                   ))}
                 </div>
-                <p className="hint">Déduit des ingrédients des recettes. Vérifie toujours les étiquettes des produits (bouillon, pâtes, sauces…).</p>
               </div>
-            )}
-            <p className="hint">{basiques && placard ? "On suppose que tu as sel, huile, beurre, farine, oignon, ail, pâtes, riz et épices." : "Seuls les ingrédients de ton frigo comptent."}</p>
-          </div>
+              <label className="switch">
+                <input type="checkbox" checked={basiques && placard} onChange={(e) => { setBasiques(e.target.checked); setPlacard(e.target.checked); }} />
+                <span className="track" aria-hidden="true" />
+                <span>J'ai un placard de base <small>sel, huile, beurre, farine, oignon, ail, pâtes, riz, épices</small></span>
+              </label>
+              <button type="button" className="btn small" onClick={() => setShowSettings(false)}>OK</button>
+            </div>
+          )}
 
           <div className="actions">
             {info?.ai && <>
@@ -834,11 +805,9 @@ export default function Home() {
               <button className="ghost" type="button" onClick={() => fileRef.current?.click()} disabled={busy}>Photo du frigo</button>
               <input ref={fileRef} className="hidden-file" type="file" accept="image/*" onChange={onPhoto} tabIndex={-1} aria-hidden="true" />
             </>}
-            {(
-              <button id="see-recipes" className="cta big" type="button" onClick={() => document.getElementById("menu")?.scrollIntoView({ behavior: "smooth" })}>
-                {found && results.length ? `Voir les ${results.length} recettes →` : "Voir les recettes →"}
-              </button>
-            )}
+            <button id="see-recipes" className="cta big" type="button" onClick={() => document.getElementById("menu")?.scrollIntoView({ behavior: "smooth" })} disabled={!fridge.length}>
+              {fridge.length && found ? `Voir les ${results.length} recette${results.length > 1 ? "s" : ""} →` : "Voir les recettes →"}
+            </button>
             {carnet && (
               <button className="ghost surprise" type="button" onClick={surprise}>
                 <span aria-hidden="true">🎲</span> Surprends-moi
@@ -923,6 +892,12 @@ export default function Home() {
             <h2>Au menu</h2>
             <span>{found ? `${results.length} recette${results.length > 1 ? "s" : ""} possible${results.length > 1 ? "s" : ""} avec ton frigo` : "Chargement du carnet…"}</span>
           </div>
+          {fridge.length > 0 && (
+            <div className="seg small menu-seg" role="group" aria-label="Recettes à afficher">
+              <button type="button" aria-pressed={!now} onClick={() => setNow(false)}>Toutes</button>
+              <button type="button" aria-pressed={now} onClick={() => setNow(true)}>✓ Prêtes tout de suite</button>
+            </div>
+          )}
           {fridgeFams.length > 0 && (
             <div className="legend" aria-hidden="true">
               {fridgeFams.map((f) => <span key={f}><Ico fam={f} rot={0} />{FAM[f].l}</span>)}
