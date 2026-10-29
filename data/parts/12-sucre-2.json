@@ -60,7 +60,7 @@
       "Couper les pruneaux en deux, les dénoyauter et les ranger serrés, peau contre la pâte, en rosace.",
       "Saupoudrer de 2 c. à s. de sucre et de cannelle, puis cuire 20 minutes.",
       "Fouetter l'œuf, la crème et le reste du sucre, verser sur les fruits et poursuivre la cuisson 20 minutes.",
-      "Laisser tiédir avant de démouler et servir avec un peu de crème."
+      "Laisser tiédir avant de démouler et de servir."
     ],
     "astuce": "Les pruneaux un peu fripés sont parfaits ici : leur jus concentré caramélise sans détremper la pâte."
   },
@@ -333,7 +333,7 @@
   {
     "titre": "Crème brûlée aux jaunes restants",
     "categorie": "dessert",
-    "temps": 100,
+    "temps": 210,
     "difficulte": "moyen",
     "portions": 4,
     "regimes": [
@@ -393,7 +393,7 @@
   {
     "titre": "Crème anglaise et pommes poêlées",
     "categorie": "dessert",
-    "temps": 30,
+    "temps": 50,
     "difficulte": "facile",
     "portions": 4,
     "regimes": [
@@ -450,7 +450,7 @@
       "Porter le lait à frémissement avec la vanille.",
       "Fouetter les jaunes et 50 g de sucre, verser le lait chaud dessus, puis remettre dans la casserole.",
       "Cuire à feu doux en remuant sans cesse jusqu'à ce que la crème nappe la cuillère (environ 82 °C), sans jamais bouillir.",
-      "Filtrer et laisser refroidir.",
+      "Filtrer et laisser refroidir 20 minutes, idéalement dans un bain d'eau glacée.",
       "Couper les pommes en quartiers et les dorer 8 minutes dans le beurre avec le reste du sucre et la cannelle.",
       "Servir les pommes tièdes nappées de crème anglaise froide."
     ],
@@ -459,7 +459,7 @@
   {
     "titre": "Îles flottantes au caramel",
     "categorie": "dessert",
-    "temps": 40,
+    "temps": 100,
     "difficulte": "moyen",
     "portions": 4,
     "regimes": [
@@ -502,13 +502,13 @@
       }
     ],
     "etapes": [
-      "Séparer les blancs des jaunes et préparer une crème anglaise avec le lait, la vanille, les jaunes et 60 g de sucre, puis la réfrigérer.",
+      "Séparer les blancs des jaunes et préparer une crème anglaise avec le lait, la vanille, les jaunes et 60 g de sucre, puis la laisser refroidir et la réfrigérer 1 heure.",
       "Monter les blancs en neige ferme en ajoutant 30 g de sucre.",
       "Pocher des quenelles de blancs 1 minute de chaque côté dans de l'eau frémissante, puis les égoutter sur un linge.",
       "Faire fondre le reste du sucre à sec jusqu'à obtenir un caramel blond.",
       "Déposer les îles sur la crème, filer le caramel dessus et parsemer d'amandes."
     ],
-    "astuce": "Une recette idéale pour écouler un litre de lait proche de la date et des œufs à finir."
+    "astuce": "Une recette idéale pour écouler un demi-litre de lait proche de la date et des œufs à finir."
   },
   {
     "titre": "Tarte aux abricots et crème d'amande",
@@ -630,7 +630,7 @@
   {
     "titre": "Charlotte aux pommes au pain de mie",
     "categorie": "dessert",
-    "temps": 60,
+    "temps": 75,
     "difficulte": "facile",
     "portions": 6,
     "regimes": [
@@ -752,7 +752,7 @@
   {
     "titre": "Tiramisu aux fraises sans café",
     "categorie": "dessert",
-    "temps": 30,
+    "temps": 210,
     "difficulte": "facile",
     "portions": 6,
     "regimes": [
@@ -801,7 +801,7 @@
     "etapes": [
       "Mixer 150 g de fraises avec 1 c. à s. de sucre et le jus d'orange pour obtenir un coulis.",
       "Couper le reste des fraises en dés.",
-      "Séparer les œufs, fouetter les jaunes avec le sucre puis ajouter le mascarpone ; monter les blancs en neige et les incorporer.",
+      "Séparer les œufs, fouetter les jaunes avec le reste du sucre puis ajouter le mascarpone ; monter les blancs en neige et les incorporer.",
       "Tremper rapidement les biscuits dans le coulis et en tapisser le fond de verrines ou d'un plat.",
       "Alterner fraises, crème et biscuits, terminer par la crème et réfrigérer au moins 3 heures."
     ],
@@ -810,7 +810,7 @@
   {
     "titre": "Poires Belle-Hélène maison",
     "categorie": "dessert",
-    "temps": 35,
+    "temps": 55,
     "difficulte": "facile",
     "portions": 4,
     "regimes": [
@@ -867,7 +867,7 @@
     "etapes": [
       "Porter l'eau, le sucre et la vanille à ébullition.",
       "Éplucher les poires en gardant la queue et les pocher 15 à 20 minutes à frémissement, selon leur maturité.",
-      "Laisser refroidir les poires dans leur sirop.",
+      "Laisser tiédir les poires 20 minutes dans leur sirop.",
       "Chauffer la crème et la verser sur le chocolat cassé, puis lisser.",
       "Servir les poires égouttées nappées de sauce chocolat chaude et parsemées d'amandes."
     ],
@@ -935,7 +935,7 @@
   {
     "titre": "Gâteau de semoule à l'orange",
     "categorie": "dessert",
-    "temps": 50,
+    "temps": 110,
     "difficulte": "facile",
     "portions": 6,
     "regimes": [
@@ -993,7 +993,7 @@
       "Porter le lait à ébullition avec le zeste d'orange, verser la semoule en pluie et cuire 8 minutes en remuant.",
       "Hors du feu, ajouter le sucre, les raisins et les œufs battus.",
       "Verser dans le moule et cuire au four au bain-marie à 180 °C pendant 25 minutes.",
-      "Laisser refroidir complètement avant de démouler."
+      "Laisser refroidir complètement, 1 heure environ, avant de démouler."
     ],
     "astuce": "Parfait pour un fond de bouteille de lait ; servir avec des quartiers d'orange."
   },
@@ -1124,7 +1124,7 @@
   {
     "titre": "Soupe de fraises au basilic et citron vert",
     "categorie": "dessert",
-    "temps": 15,
+    "temps": 45,
     "difficulte": "facile",
     "portions": 4,
     "regimes": [
@@ -1156,7 +1156,7 @@
       },
       {
         "cle": "basilic",
-        "nom": "basilic",
+        "nom": "feuilles de basilic",
         "qte": 6,
         "unite": "pièce"
       },
@@ -1453,7 +1453,7 @@
   {
     "titre": "Mousse de fromage blanc et coulis d'abricot",
     "categorie": "dessert",
-    "temps": 25,
+    "temps": 100,
     "difficulte": "facile",
     "portions": 4,
     "regimes": [
@@ -1575,7 +1575,7 @@
   {
     "titre": "Flan pâtissier sans pâte",
     "categorie": "dessert",
-    "temps": 70,
+    "temps": 240,
     "difficulte": "facile",
     "portions": 6,
     "regimes": [
@@ -1626,7 +1626,7 @@
       "Porter 600 ml de lait à ébullition avec la vanille.",
       "Fouetter les œufs, le sucre, la farine et le reste du lait froid.",
       "Verser le lait chaud dessus, remettre sur le feu et cuire en fouettant jusqu'à épaississement.",
-      "Verser dans le moule et cuire 40 minutes jusqu'à ce que le dessus soit bien doré, puis réfrigérer 3 heures."
+      "Verser dans le moule et cuire 40 minutes jusqu'à ce que le dessus soit bien doré, laisser tiédir puis réfrigérer 3 heures."
     ],
     "astuce": "Avec de la fécule de maïs à la place de la farine, il devient sans gluten."
   },
@@ -1802,6 +1802,12 @@
         "nom": "concombre",
         "qte": 80,
         "unite": "g"
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
       }
     ],
     "etapes": [
@@ -2123,6 +2129,13 @@
         "nom": "beurre",
         "qte": 10,
         "unite": "g"
+      },
+      {
+        "cle": "miel",
+        "nom": "miel",
+        "qte": 2,
+        "unite": "c. à s.",
+        "optionnel": true
       }
     ],
     "etapes": [
@@ -2258,6 +2271,12 @@
         "nom": "sel, poivre",
         "qte": null,
         "unite": ""
+      },
+      {
+        "cle": "huile",
+        "nom": "huile",
+        "qte": 1,
+        "unite": "c. à c."
       }
     ],
     "etapes": [
@@ -2376,6 +2395,12 @@
         "nom": "beurre",
         "qte": 15,
         "unite": "g"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel, poivre",
+        "qte": null,
+        "unite": ""
       }
     ],
     "etapes": [
@@ -2535,6 +2560,12 @@
         "unite": "g"
       },
       {
+        "cle": "sucre",
+        "nom": "sucre glace pour le décor",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
         "cle": "oeuf",
         "nom": "blanc d'œuf",
         "qte": 1,
@@ -2564,7 +2595,7 @@
       "Former une boule, l'emballer et la réfrigérer 30 minutes.",
       "Préchauffer le four à 180 °C, étaler la pâte sur 3 mm et découper des ronds, en évidant le centre de la moitié d'entre eux.",
       "Cuire 10 minutes sur une plaque, jusqu'à ce que les bords blondissent.",
-      "Tartiner les biscuits pleins de confiture, poser les biscuits évidés dessus et saupoudrer de sucre glace."
+      "Laisser refroidir, tartiner les biscuits pleins de confiture, poser les biscuits évidés dessus et saupoudrer de sucre glace."
     ],
     "astuce": "Un fond de pot de confiture suffit ; ils se conservent une semaine en boîte."
   },
@@ -2726,7 +2757,7 @@
   {
     "titre": "Madeleines au miel",
     "categorie": "gouter",
-    "temps": 80,
+    "temps": 90,
     "difficulte": "facile",
     "portions": 6,
     "regimes": [
@@ -2767,8 +2798,8 @@
       },
       {
         "cle": "beurre",
-        "nom": "beurre fondu",
-        "qte": 100,
+        "nom": "beurre",
+        "qte": 110,
         "unite": "g"
       },
       {
@@ -2781,12 +2812,12 @@
     ],
     "etapes": [
       "Fouetter les œufs, le sucre et le miel jusqu'à ce que le mélange blanchisse.",
-      "Ajouter la farine, la levure et le zeste, puis le beurre fondu tiède.",
+      "Ajouter la farine, la levure et le zeste, puis 100 g de beurre fondu tiède.",
       "Réfrigérer la pâte au moins 1 heure.",
-      "Préchauffer le four à 220 °C, remplir des moules à madeleines beurrés aux trois quarts.",
+      "Préchauffer le four à 220 °C, beurrer les moules à madeleines avec le reste du beurre et les remplir aux trois quarts.",
       "Enfourner, baisser à 180 °C et cuire 10 minutes jusqu'à ce que la bosse apparaisse."
     ],
-    "astuce": "Un miel qui a cristallisé fond sans problème avec le beurre chaud."
+    "astuce": "Un miel qui a cristallisé se liquéfie en quelques secondes au bain-marie avant d'être fouetté avec les œufs."
   },
   {
     "titre": "Rochers à la noix de coco",

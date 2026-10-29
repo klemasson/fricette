@@ -225,7 +225,7 @@
       "Foncer un moule avec la pâte et la piquer à la fourchette.",
       "Battre les œufs avec la crème, saler et poivrer.",
       "Répartir la courge sur la pâte, verser l'appareil, ajouter le chèvre en rondelles et les noix concassées.",
-      "Cuire 30 minutes à 190 °C, puis arroser d'un filet de miel à la sortie du four."
+      "Baisser le four à 190 °C et cuire 30 minutes, puis arroser d'un filet de miel à la sortie du four."
     ],
     "astuce": "Les graines de courge, rincées et grillées 10 minutes au four, font un topping croquant."
   },
@@ -1313,7 +1313,7 @@
       "Ajouter les pommes de terre et la carotte en petits dés, puis le bouillon ; cuire 15 minutes.",
       "Ajouter les pâtes et cuire le temps indiqué sur le paquet.",
       "Verser le lait, la crème et les épinards, chauffer sans bouillir 3 minutes.",
-      "Servir avec le gruyère en lamelles fondant dans l'assiette."
+      "Répartir le gruyère en lamelles dans les assiettes et verser la soupe chaude dessus pour qu'il fonde."
     ],
     "astuce": "La soupe de chalet est faite pour recycler les fonds de légumes, de pâtes et de fromage."
   },
@@ -1495,7 +1495,7 @@
       "Faire revenir le veau dans le beurre sans le colorer, saupoudrer de farine et remuer 1 minute.",
       "Ajouter l'oignon émincé, les carottes en rondelles et le bouillon ; mijoter 25 minutes à couvert.",
       "Ajouter les champignons en quartiers et cuire 10 minutes ; pendant ce temps, cuire le riz.",
-      "Mélanger la crème, le jaune d'œuf et le jus de citron, verser hors du feu et remuer sans faire bouillir.",
+      "Mélanger la crème, le jaune d'œuf et le jus de citron, verser dans la blanquette hors du feu et remuer sans faire bouillir.",
       "Rectifier l'assaisonnement et servir avec le riz."
     ],
     "astuce": "Le blanc d'œuf restant se garde 3 jours au frais pour une meringue ou une omelette."
@@ -1700,15 +1700,22 @@
       },
       {
         "cle": "herbes_provence",
-        "nom": "laurier",
+        "nom": "feuille de laurier",
         "qte": 1,
-        "unite": "pincée"
+        "unite": "pièce"
       },
       {
         "cle": "huile",
         "nom": "huile",
         "qte": 1,
         "unite": "c. à s."
+      },
+      {
+        "cle": "moutarde",
+        "nom": "moutarde",
+        "qte": null,
+        "unite": "",
+        "optionnel": true
       }
     ],
     "etapes": [
@@ -2313,9 +2320,9 @@
       },
       {
         "cle": "herbes_provence",
-        "nom": "laurier",
+        "nom": "feuille de laurier",
         "qte": 1,
-        "unite": "pincée"
+        "unite": "pièce"
       },
       {
         "cle": "eau",
@@ -2502,10 +2509,10 @@
       }
     ],
     "etapes": [
-      "Cuire les lentilles 15 minutes dans l'eau.",
+      "Cuire les lentilles 15 minutes dans l'eau, sans les égoutter.",
       "Pendant ce temps, faire dorer lentement les oignons émincés dans l'huile 20 minutes jusqu'à ce qu'ils soient bien bruns.",
-      "Ajouter le riz rincé, le cumin et la cannelle aux lentilles avec la moitié des oignons, saler et cuire 15 minutes à couvert.",
-      "Laisser reposer 5 minutes, puis servir couvert du reste d'oignons croustillants, avec du concombre ou un yaourt."
+      "Ajouter le riz rincé, le cumin et la cannelle aux lentilles et à leur eau de cuisson avec la moitié des oignons, saler et cuire 15 minutes à couvert.",
+      "Laisser reposer 5 minutes, puis servir couvert du reste d'oignons croustillants, avec du concombre en dés."
     ],
     "astuce": "Un plat complet très économique qui se garde 3 jours au frais."
   },
@@ -2681,7 +2688,7 @@
       "Faire dorer l'agneau dans l'huile, ajouter les oignons émincés et cuire 5 minutes.",
       "Ajouter les épices, l'eau, le sel et le poivre ; couvrir et mijoter 1 h 15.",
       "Ajouter les pruneaux et le miel, cuire 20 minutes à découvert pour que la sauce épaississe.",
-      "Faire griller les amandes à sec et en parsemer le tajine au moment de servir avec de la semoule."
+      "Faire griller les amandes à sec et en parsemer le tajine au moment de servir avec de la semoule (ou du riz pour garder le plat sans gluten)."
     ],
     "astuce": "Les pruneaux ou dattes un peu secs reprennent vie dans la sauce."
   },
@@ -3369,7 +3376,7 @@
     "etapes": [
       "Faire un caramel brun avec le sucre et 2 c. à s. d'eau dans une cocotte.",
       "Ajouter le porc en cubes, les échalotes et l'ail émincés, et bien enrober.",
-      "Verser le nuoc mam et l'eau, couvrir et mijoter 40 minutes.",
+      "Verser le nuoc mam et l'eau, couvrir et mijoter 40 minutes ; cuire le riz pendant ce temps.",
       "Ajouter les œufs durs écalés les 10 dernières minutes et laisser réduire jusqu'à une sauce sirupeuse.",
       "Poivrer généreusement et servir avec du riz."
     ],
@@ -3859,7 +3866,7 @@
       "Former deux steaks de 2 cm d'épaisseur sans trop tasser, saler et poivrer.",
       "Cuire les steaks 3 à 4 minutes par face à la poêle très chaude, poser le fromage la dernière minute.",
       "Toaster les pains coupés en deux.",
-      "Monter les burgers : sauce, salade, steak, oignons, tomate et cornichons."
+      "Monter les burgers : ketchup et mayonnaise, salade, steak, oignons, tomate et cornichons."
     ],
     "astuce": "Les pains un peu secs se rattrapent très bien une fois toastés."
   },
