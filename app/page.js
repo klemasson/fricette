@@ -66,6 +66,11 @@ function ExpBadge({ exp, onClick }) {
 }
 const qtyLabel = (it) => (it.unite === "pièce" || !it.unite ? `${it.qte}` : `${it.qte} ${it.unite}`);
 
+// L'ancien frigo de démonstration, pré-rempli pour tout le monde jusqu'en octobre 2026 :
+// s'il n'a pas été modifié, on repart d'un frigo vide.
+const OLD_DEMO = "œufs|courgette|feta|tomates cerises|crème|pâtes";
+const oldDemo = (f) => f.map((x) => x.nom).join("|") === OLD_DEMO && f.every((x) => !x.exp);
+
 // Frigos d'exemple pour essayer Fricette en un clic lors de la première visite.
 const EXEMPLES = [
   { label: "Fin de semaine", emoji: "🥚", items: [
@@ -146,7 +151,7 @@ export default function Home() {
   useEffect(() => {
     try {
       const saved = JSON.parse(localStorage.getItem("olf-frigo") || "null");
-      if (Array.isArray(saved)) setFridge(saved);
+      if (Array.isArray(saved)) setFridge(oldDemo(saved) ? [] : saved);
     } catch {}
     applyPrefs(loadLocal("frc-prefs", {}));
     loaded.current = true;
@@ -158,7 +163,7 @@ export default function Home() {
       setMailEnabled(!!d.mail);
       if (d.user) {
         setUser(d.user); setFavs(d.favorites || []);
-        if (Array.isArray(d.data?.frigo)) setFridge(d.data.frigo);
+        if (Array.isArray(d.data?.frigo)) setFridge(oldDemo(d.data.frigo) ? [] : d.data.frigo);
         if (d.data?.prefs) applyPrefs(d.data.prefs);
       }
     });
@@ -496,7 +501,7 @@ export default function Home() {
         setStatus({ text: "Ton compte et tes favoris ont été supprimés.", err: false });
       } else {
         setUser(d.user); setFavs(d.favorites || []); saveLocalFavs([]);
-        mergeAfterLogin().then((m) => { if (Array.isArray(m.data?.frigo)) setFridge(m.data.frigo); });
+        mergeAfterLogin().then((m) => { if (Array.isArray(m.data?.frigo)) setFridge(oldDemo(m.data.frigo) ? [] : m.data.frigo); });
         setStatus({
           text: mode === "signup" ? "Compte créé ! Tes favoris sont enregistrés."
             : mode === "reset" ? "Nouveau mot de passe enregistré. Tu es connecté·e."
