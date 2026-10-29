@@ -79,14 +79,22 @@ jobs:
           merge-multiple: true
       - name: Ajouter les photos au dépôt
         run: |
-          mkdir -p public/photos
-          cp out/*.webp public/photos/ 2>/dev/null || true
-          { echo "Dernière génération : $(date -u '+%Y-%m-%d %H:%M UTC')"; echo "Photos au total : $(ls public/photos/*.webp 2>/dev/null | wc -l)"; echo; cat out/_log-*.txt 2>/dev/null | grep -E "ERREUR|Error|error|créée|à générer" | head -200; } > scripts/photos-report.txt
-          node scripts/build-carnet.mjs
+          # On repart toujours de la dernière version du dépôt (le carnet a pu changer pendant la
+          # génération), on y dépose les nouvelles photos, on reconstruit le carnet, puis on envoie.
+          # En cas de course avec un autre envoi, on recommence (5 essais).
+          mkdir -p /tmp/new && cp out/*.webp /tmp/new/ 2>/dev/null || true
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add public/photos public/carnet.json scripts/photos-report.txt
-          git diff --cached --quiet && echo "Rien de nouveau" && exit 0
-          git commit -m "Photos des recettes générées automatiquement"
-          git pull --rebase origin main
-          git push origin HEAD:main
+          for i in 1 2 3 4 5; do
+            git fetch origin main && git reset --hard origin/main
+            mkdir -p public/photos
+            cp /tmp/new/*.webp public/photos/ 2>/dev/null || true
+            { echo "Dernière génération : $(date -u '+%Y-%m-%d %H:%M UTC')"; echo "Photos au total : $(ls public/photos/*.webp 2>/dev/null | wc -l)"; echo; cat out/_log-*.txt 2>/dev/null | grep -E "ERREUR|Error|error|créée|à générer" | head -200; } > scripts/photos-report.txt
+            node scripts/build-carnet.mjs
+            git add public/photos public/carnet.json scripts/photos-report.txt
+            if git diff --cached --quiet; then echo "Rien de nouveau"; exit 0; fi
+            git commit -m "Photos des recettes générées automatiquement [skip ci]"
+            if git push origin HEAD:main; then exit 0; fi
+            echo "Envoi refusé, nouvel essai dans 15 s"; sleep 15
+          done
+          exit 1
