@@ -2,6 +2,7 @@
 // Mode cuisine : une étape à la fois, en grand, avec minuteurs et écran qui reste allumé.
 import { useEffect, useRef, useState } from "react";
 import { track } from "@/lib/client";
+import Gestes, { useVideos } from "./Gestes";
 
 /** Durées citées dans une étape : « 8 minutes », « 1 h 30 », « 3 à 4 minutes » (on prend la plus longue). */
 export function durations(text) {
@@ -44,6 +45,7 @@ export default function CookMode({ r, onClose }) {
   const [timers, setTimers] = useState([]); // {id, label, end, done}
   const [now, setNow] = useState(Date.now());
   const lock = useRef(null);
+  const videos = useVideos();
   const box = useRef(null);
 
   useEffect(() => {
@@ -103,6 +105,7 @@ export default function CookMode({ r, onClose }) {
       <div className="cook-main">
         <div className="cook-n">Étape {i + 1} <span>/ {steps.length}</span></div>
         <p className="cook-step">{step}</p>
+        <Gestes step={step} videos={videos} big />
         <div className="cook-timers-start">
           {durations(step).map((d, k) => (
             <button key={k} type="button" className="btn" onClick={() => start(d)}>⏱ Minuteur {d.label}</button>

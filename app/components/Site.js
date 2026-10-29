@@ -24,6 +24,7 @@ export function SiteFooter() {
         <span>fricette · fait avec amour et des restes</span>
         <span className="foot-links">
           <a href="/avec">Idées par ingrédient</a>
+          <a href="/gestes">Gestes en vidéo</a>
           <a href="/courses">Liste de courses</a>
           <a href="/conditions">Conditions</a>
         </span>

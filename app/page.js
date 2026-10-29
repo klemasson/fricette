@@ -442,7 +442,7 @@ export default function Home() {
     setStatus({ text: "Tu es déconnecté·e.", err: false });
   }
 
-  const TYPES = [["", "De tout"], ["plats", "Un plat"], ["soupes-salades", "Soupe & salade"], ["sucre", "Sucré"]];
+  const TYPES = [["", "De tout", "Tout"], ["plats", "Un plat", "Plat"], ["soupes-salades", "Soupe & salade", "Soupe, salade"], ["sucre", "Sucré", "Sucré"]];
 
   return (
     <div className={busy ? "busy" : ""}>
@@ -577,22 +577,24 @@ export default function Home() {
               </span>
             ))}
           </div>
-          {fridge.length > 0 && <p className="hint">Touche une quantité pour la modifier : plus elle est juste, mieux Fricette choisit.</p>}
+          {fridge.length > 0 && <p className="hint hide-sm">Touche une quantité pour la modifier : plus elle est juste, mieux Fricette choisit.</p>}
           {found?.unknown.length > 0 && (
             <p className="note">Le carnet ne connaît pas encore : {found.unknown.join(", ")}.{info?.ai ? " Le chef, lui, saura quoi en faire." : ""}</p>
           )}
 
           <div className="prefs">
             <div className="filters" role="group" aria-label="Type de recette">
-              {TYPES.map(([v, l]) => (
-                <button key={v} className="f" type="button" aria-pressed={type === v} onClick={() => setType(v)}>{l}</button>
+              {TYPES.map(([v, l, short]) => (
+                <button key={v} className="f" type="button" aria-pressed={type === v} onClick={() => setType(v)}>
+                  <span className="hide-sm">{l}</span><span className="show-sm">{short}</span>
+                </button>
               ))}
             </div>
             <div className="opts">
               <label className="opt"><span aria-hidden="true">⏱</span>
                 <select id="temps" value={temps} onChange={(e) => setTemps(e.target.value)} aria-label="Temps">
-                  <option value="0">Peu importe le temps</option><option value="20">20 min max</option>
-                  <option value="40">40 min max</option><option value="90">1 h 30 max</option>
+                  <option value="0">Tout temps</option><option value="20">≤ 20 min</option>
+                  <option value="40">≤ 40 min</option><option value="90">≤ 1 h 30</option>
                 </select>
               </label>
               <label className="opt"><span aria-hidden="true">👥</span>
@@ -602,7 +604,7 @@ export default function Home() {
               </label>
               <label className="opt"><span aria-hidden="true">🌿</span>
                 <select id="regime" value={regime} onChange={(e) => setRegime(e.target.value)} aria-label="Régime">
-                  <option value="">Tout régime</option><option>végétarien</option><option>vegan</option>
+                  <option value="">Régime</option><option>végétarien</option><option>vegan</option>
                   <option>sans gluten</option><option>sans lactose</option><option>sans porc</option><option>halal</option>
                 </select>
               </label>
@@ -748,6 +750,7 @@ export default function Home() {
           </div>
           <span className="foot-links">
             <a href="/avec">Idées par ingrédient</a>
+            <a href="/gestes">Gestes en vidéo</a>
             <a href="/courses">Liste de courses</a>
             <a href="/conditions">Conditions</a>
           </span>

@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { Ico, FavButton, Basket } from "./bits";
 import CookMode from "./CookMode";
+import Gestes, { useVideos } from "./Gestes";
 import { addToCourses, share, getRatings, sendRating } from "@/lib/client";
 
 export function summary(r) {
@@ -29,6 +30,7 @@ export default function RecipeBody({ r, compare = true, fav, onFav, controls, ti
   const [rating, setRating] = useState({ avg: null, mine: 0 });
   const [hover, setHover] = useState(0);
   const Title = titleTag;
+  const videos = useVideos();
   const url = `${SITE}/recette/${r.id}`;
 
   useEffect(() => {
@@ -116,7 +118,7 @@ export default function RecipeBody({ r, compare = true, fav, onFav, controls, ti
         </div>
         <div>
           <div className="label">Préparation</div>
-          <ol className="steps">{(r.etapes || []).map((e, k) => <li key={k}>{e}</li>)}</ol>
+          <ol className="steps">{(r.etapes || []).map((e, k) => <li key={k}>{e}<Gestes step={e} videos={videos} /></li>)}</ol>
         </div>
       </div>
       {r.reste && <div className="tip"><strong>Après la recette : </strong>{r.reste}</div>}
