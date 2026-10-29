@@ -8,7 +8,7 @@ export default function Conditions() {
       <h1>Conditions et confidentialité</h1>
 
       <h2>Éditeur du site</h2>
-      <p>[À COMPLÉTER : ton nom ou celui de ton entreprise, adresse postale, e-mail de contact, numéro IDE si tu en as un.]</p>
+      <p>Kevin Lemasson<br />Rue du Grand Clos 101c<br />1913 Saillon, Suisse<br />Contact : <a href="mailto:bonjour@fricette.ch">bonjour@fricette.ch</a></p>
 
       <h2>Le service</h2>
       <p>
@@ -23,11 +23,12 @@ export default function Conditions() {
 
       <h2>Données personnelles</h2>
       <ul>
-        <li>La liste de ton frigo est enregistrée uniquement dans ton navigateur.</li>
-        <li>La recherche de recettes se fait directement dans ton navigateur : ta liste n'est pas envoyée à nos serveurs.</li>
-        <li>Un cookie technique anonyme peut être déposé pour le bon fonctionnement du site.</li>
-        <li>Si tu crées un compte, nous enregistrons ton adresse e-mail, ton mot de passe sous forme chiffrée (nous ne pouvons pas le lire) et la liste de tes recettes favorites, sur notre hébergement en Suisse (Infomaniak). Un cookie de connexion te garde connecté·e pendant 6 mois.</li>
-        <li>Tu peux supprimer ton compte et tes favoris à tout moment, en bas de la page d'accueil (« Supprimer mon compte »). Sans compte, tes favoris restent uniquement dans ton navigateur.</li>
+        <li>La liste de ton frigo et ta liste de courses sont enregistrées dans ton navigateur. Si tu es connecté·e à un compte, elles sont aussi enregistrées sur ton compte pour te suivre sur tous tes appareils.</li>
+        <li>La recherche de recettes se fait directement dans ton navigateur.</li>
+        <li>Pour améliorer le carnet, nous comptons de façon anonyme les pages vues, les recettes ouvertes et les ingrédients ajoutés au frigo (par exemple « courgette : 120 fois aujourd'hui »). Ces chiffres ne sont reliés à personne : aucun cookie de mesure, aucune adresse IP enregistrée, et l'empreinte qui sert à compter les visiteurs uniques change chaque jour.</li>
+        <li>Un cookie technique anonyme sert à retenir la note que tu donnes aux recettes.</li>
+        <li>Si tu crées un compte, nous enregistrons ton adresse e-mail, ton mot de passe sous forme chiffrée (nous ne pouvons pas le lire), tes recettes favorites, tes notes, ton frigo et ta liste de courses, sur notre hébergement en Suisse (Infomaniak). Un cookie de connexion te garde connecté·e pendant 6 mois.</li>
+        <li>Tu peux supprimer ton compte et toutes ces données à tout moment, en bas de la page d'accueil (« Supprimer mon compte »).</li>
         <li>Ton adresse e-mail sert uniquement à te connecter et à t'envoyer, si tu le demandes, un lien pour changer de mot de passe. Elle n'est jamais transmise à des tiers ni utilisée pour de la publicité.</li>
         <li>Aucune publicité, aucun traceur publicitaire.</li>
       </ul>

@@ -1,0 +1,34 @@
+// En-tête et pied de page des pages secondaires (recette, ingrédients, courses).
+import { Ico } from "./bits";
+import { CoursesLink, PageView } from "./Live";
+
+export function SiteHeader() {
+  return (
+    <header className="in">
+      <nav className="nav">
+        <a className="logo" href="/"><Ico fam="rouge" rot={0} />fricette</a>
+        <div className="nav-right">
+          <a className="nav-link hide-sm" href="/avec">Idées par ingrédient</a>
+          <CoursesLink />
+          <a className="btn small" href="/#frigo">Mon frigo</a>
+        </div>
+      </nav>
+    </header>
+  );
+}
+
+export function SiteFooter() {
+  return (
+    <footer>
+      <div className="in">
+        <span>fricette · fait avec amour et des restes</span>
+        <span className="foot-links">
+          <a href="/avec">Idées par ingrédient</a>
+          <a href="/courses">Liste de courses</a>
+          <a href="/conditions">Conditions</a>
+        </span>
+      </div>
+      <PageView />
+    </footer>
+  );
+}

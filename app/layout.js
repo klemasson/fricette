@@ -5,6 +5,7 @@ import "@fontsource/dm-sans/700.css";
 import "./globals.css";
 
 export const metadata = {
+  metadataBase: new URL(process.env.SITE_URL || "https://fricette.ch"),
   title: "Fricette – ton frigo est plein d'idées",
   description:
     "Dis à Fricette ce qu'il y a dans ton frigo (et combien) : elle te trouve des recettes anti-gaspi, avec ce qu'il te manque.",

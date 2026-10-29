@@ -1,20 +1,20 @@
 import { NextResponse } from "next/server";
 import { currentUser, endSession, sameOrigin, checkPassword } from "@/lib/auth";
-import { listFavorites, deleteUser, findUserByEmail } from "@/lib/db";
+import { listFavorites, deleteUser, findUserByEmail, getUserData } from "@/lib/db";
 import { mailEnabled, mailDiagnostic } from "@/lib/mail";
 import { headers } from "next/headers";
 
 export const dynamic = "force-dynamic";
 
-export async function GET() {
-  // Diagnostic seulement pour une requête faite depuis le serveur lui-même (console SSH : curl localhost).
+export async function GET(request) {
+  // Diagnostic seulement pour une requête faite depuis le serveur lui-même (console SSH : curl "localhost:3000/api/me?diag=1").
   const h = await headers();
-  if (/^(localhost|127\.0\.0\.1)(:\d+)?$/.test(h.get("host") || "")) {
-    return NextResponse.json({ mail: mailEnabled(), diagnostic: mailDiagnostic(), version: "dae818d+diag" });
+  if (new URL(request.url).searchParams.has("diag") && /^(localhost|127\.0\.0\.1)(:\d+)?$/.test(h.get("host") || "")) {
+    return NextResponse.json({ mail: mailEnabled(), diagnostic: mailDiagnostic(), version: "diag" });
   }
   const user = await currentUser();
   if (!user) return NextResponse.json({ user: null, favorites: [], mail: mailEnabled() });
-  return NextResponse.json({ user: { email: user.email }, favorites: listFavorites(user.id), mail: mailEnabled() });
+  return NextResponse.json({ user: { email: user.email }, favorites: listFavorites(user.id), data: getUserData(user.id), mail: mailEnabled() });
 }
 
 // Suppression du compte (et de ses favoris), après confirmation du mot de passe.
