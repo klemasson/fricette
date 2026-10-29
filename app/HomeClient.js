@@ -93,7 +93,7 @@ const oldDemo = (f) => f.map((x) => x.nom).join("|") === OLD_DEMO && f.every((x)
 
 
 
-export default function HomeClient() {
+export default function HomeClient({ mascot }) {
   const [fridge, setFridge] = useState([]);
   const [name, setName] = useState("");
   const [focused, setFocused] = useState(false);
@@ -625,6 +625,7 @@ export default function HomeClient() {
         </nav>
         <div className="hero">
           <div>
+            {mascot}
             <h1>Ton frigo est plein d'idées. <em>On les cuisine.</em></h1>
             <p>
               Dis ce qui traîne au frais et en quelle quantité. Fricette te propose des recettes où il ne te manque

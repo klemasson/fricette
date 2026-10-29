@@ -1,11 +1,6 @@
 import HomeClient from "./HomeClient";
-import Intro from "./components/Intro";
+import Mascot from "./components/Mascot";
 
 export default function Home() {
-  return (
-    <>
-      <Intro />
-      <HomeClient />
-    </>
-  );
+  return <HomeClient mascot={<Mascot />} />;
 }
