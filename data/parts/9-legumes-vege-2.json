@@ -1503,8 +1503,7 @@
     "etapes": [
       "Mixer la moitié de la betterave en purée et couper le reste en petits dés.",
       "Faire revenir l'oignon haché 3 minutes dans l'huile, ajouter le riz et le nacrer 2 minutes.",
-      "Verser le bouillon chaud louche par louche en remuant, pendant 18 minutes.",
-      "Incorporer la purée et les dés de betterave à mi-cuisson.",
+      "Verser le bouillon chaud louche par louche en remuant, pendant 18 minutes ; incorporer la purée et les dés de betterave à mi-cuisson.",
       "Hors du feu, ajouter le beurre, saler, poivrer, puis servir avec le chèvre émietté et les noix."
     ],
     "astuce": "Le risotto restant se façonne en galettes à dorer à la poêle le lendemain."
@@ -1754,7 +1753,7 @@
       "Éplucher les navets et les carottes et les couper en morceaux de taille égale.",
       "Les mettre dans une sauteuse avec 20 g de beurre, le miel, du sel et de l'eau à hauteur.",
       "Cuire à découvert 20 minutes à feu moyen jusqu'à évaporation, puis rouler les légumes dans le glaçage.",
-      "Pendant ce temps, porter l'eau salée à ébullition, verser la polenta et cuire 8 minutes en remuant.",
+      "Pendant ce temps, porter les 500 ml d'eau salée à ébullition, verser la polenta et cuire 8 minutes en remuant.",
       "Incorporer le gruyère et le reste du beurre, puis servir avec les légumes glacés et le persil."
     ],
     "astuce": "Les fanes de navet se hachent et s'ajoutent à la polenta en fin de cuisson."
@@ -2272,7 +2271,7 @@
   {
     "titre": "Gnocchis de patate douce au beurre noisette et sauge",
     "categorie": "plat",
-    "temps": 60,
+    "temps": 80,
     "difficulte": "moyen",
     "portions": 2,
     "regimes": [
@@ -2545,7 +2544,7 @@
       {
         "cle": "ail",
         "nom": "ail",
-        "qte": 1,
+        "qte": 2,
         "unite": "gousse"
       },
       {
@@ -2581,9 +2580,9 @@
     ],
     "etapes": [
       "Émincer les champignons et les saisir 6 minutes à feu vif dans le beurre, sans remuer au début pour qu'ils dorent.",
-      "Ajouter l'ail et le persil hachés, saler, poivrer et cuire encore 1 minute.",
+      "Ajouter une gousse d'ail et le persil hachés, saler, poivrer et cuire encore 1 minute.",
       "Pocher les œufs 3 minutes dans une eau frémissante vinaigrée.",
-      "Griller les tranches de pain et les frotter d'ail si désiré.",
+      "Griller les tranches de pain et les frotter avec l'autre gousse d'ail coupée en deux, si désiré.",
       "Répartir les champignons sur les tartines et poser un œuf poché dessus."
     ],
     "astuce": "Idéal pour finir un pain rassis et des champignons un peu ridés."
@@ -3000,10 +2999,10 @@
       }
     ],
     "etapes": [
-      "Préchauffer le four à 200 °C, couper les aubergines en deux, quadriller la chair, arroser d'huile, saler et rôtir 25 minutes.",
+      "Préchauffer le four à 200 °C, couper les aubergines en deux, quadriller la chair, arroser de 2 c. à s. d'huile, saler et rôtir 25 minutes.",
       "Cuire le boulgour 10 minutes à l'eau salée et l'égoutter.",
       "Évider les aubergines en laissant 1 cm de chair, hacher la chair prélevée.",
-      "Faire revenir l'oignon 4 minutes, ajouter la chair d'aubergine, les tomates en dés et le cumin, et cuire 5 minutes avant d'ajouter le boulgour.",
+      "Faire revenir l'oignon haché 4 minutes dans le reste d'huile, ajouter la chair d'aubergine, les tomates en dés et le cumin, et cuire 5 minutes avant d'ajouter le boulgour.",
       "Farcir les aubergines, parsemer de feta émiettée et enfourner 15 minutes.",
       "Servir avec de la menthe ciselée."
     ],
@@ -3932,7 +3931,7 @@
     ],
     "etapes": [
       "Émincer le poireau et les champignons.",
-      "Faire revenir le poireau 5 minutes dans l'huile, puis ajouter les champignons, l'ail et le thym et cuire 5 minutes.",
+      "Faire revenir le poireau 5 minutes dans l'huile, puis ajouter les champignons, l'ail haché et le thym et cuire 5 minutes.",
       "Ajouter le boulgour, remuer 1 minute, puis verser le bouillon chaud.",
       "Couvrir et cuire 12 minutes à feu doux jusqu'à absorption du liquide.",
       "Laisser reposer 5 minutes, égrener à la fourchette et servir avec du persil."
@@ -4101,7 +4100,7 @@
       "Dorer les gnocchis 8 minutes dans l'huile et le beurre à feu moyen, sans les précuire.",
       "Ajouter l'ail émincé et le kale émincé sans ses côtes, avec 2 c. à s. d'eau.",
       "Cuire 4 minutes en remuant jusqu'à ce que le kale soit tendre.",
-      "Ajouter les noix concassées, saler, poivrer et un filet de citron.",
+      "Ajouter les noix concassées, saler, poivrer et arroser d'un filet de citron.",
       "Servir avec le parmesan."
     ],
     "astuce": "Le kale peut être remplacé par des épinards ou du chou frisé."

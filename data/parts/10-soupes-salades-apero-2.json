@@ -715,7 +715,7 @@
   {
     "titre": "Soupe froide de concombre au yaourt et à la menthe",
     "categorie": "soupe",
-    "temps": 15,
+    "temps": 75,
     "difficulte": "facile",
     "portions": 4,
     "regimes": [
@@ -1091,7 +1091,7 @@
   {
     "titre": "Salade de chou rouge à l'orange et au sésame",
     "categorie": "salade",
-    "temps": 15,
+    "temps": 20,
     "difficulte": "facile",
     "portions": 2,
     "regimes": [
@@ -1375,7 +1375,7 @@
   {
     "titre": "Salade de pois chiches, concombre et persil",
     "categorie": "salade",
-    "temps": 15,
+    "temps": 20,
     "difficulte": "facile",
     "portions": 2,
     "regimes": [
@@ -2294,7 +2294,7 @@
     "etapes": [
       "Égoutter soigneusement le thon et l'émietter à la fourchette.",
       "Ciseler finement l'échalote et la ciboulette, hacher les câpres.",
-      "Mélanger le thon avec le fromage frais, le zeste et le jus du demi-citron, puis ajouter le reste.",
+      "Mélanger le thon avec le fromage frais, le zeste et le jus du demi-citron, puis ajouter l'échalote, la ciboulette et les câpres.",
       "Poivrer, réfrigérer 30 minutes et servir sur des toasts ou des bâtonnets de légumes."
     ],
     "astuce": "Se garde 2 jours au réfrigérateur dans un bocal fermé."
@@ -2429,7 +2429,7 @@
       }
     ],
     "etapes": [
-      "Préchauffer le four à 180 °C et beurrer un moule à cake.",
+      "Préchauffer le four à 180 °C et huiler un moule à cake.",
       "Mélanger la farine et la levure, puis ajouter les œufs un à un, le lait et l'huile pour obtenir une pâte lisse.",
       "Incorporer le jambon en dés, les olives coupées en rondelles et le gruyère, poivrer légèrement.",
       "Verser dans le moule et cuire 45 minutes, jusqu'à ce qu'une lame en ressorte sèche.",
@@ -2766,7 +2766,6 @@
     "difficulte": "facile",
     "portions": 2,
     "regimes": [
-      "sans_gluten",
       "sans_porc",
       "sans_alcool"
     ],
@@ -3413,7 +3412,7 @@
     ],
     "etapes": [
       "Couper les fenouils en quartiers en gardant la base pour qu'ils se tiennent.",
-      "Les faire dorer 5 minutes dans l'huile d'olive de chaque côté.",
+      "Les faire dorer dans l'huile d'olive 5 minutes de chaque côté.",
       "Ajouter l'ail, le zeste et le jus du citron et l'eau, couvrir et braiser 20 minutes à feu doux.",
       "Découvrir et laisser réduire le jus 3 minutes, saler et poivrer."
     ],
