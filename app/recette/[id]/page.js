@@ -67,13 +67,13 @@ export default async function RecipePage({ params }) {
           </p>
           <article className="recipe-card">
             {r.photo
-              ? <div className="art"><img src={r.photo} alt={r.titre} width="640" height="448" /></div>
+              ? <div className="art"><img src={r.photo} alt={r.titre} width="640" height="448" /><span className="ai-tag">Photo générée par IA</span></div>
               : <div className="art" dangerouslySetInnerHTML={{ __html: artSvg(r.titre, [], { w: 640, h: 300 }) }} />}
             <div className="sheet-body">
               <RecipeClient raw={r} />
               <p className="note">
                 {r.regimes.filter((x) => REG[x]).map((x) => REG[x]).join(" · ")}
-                {r.photo && <>{r.regimes.some((x) => REG[x]) ? " · " : ""}Photo générée par IA, à titre indicatif.</>}
+                
               </p>
             </div>
           </article>

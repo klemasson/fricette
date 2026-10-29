@@ -467,3 +467,6 @@ a.btn, a.cta { text-decoration: none; display: inline-block; }
 .undo-bar .link { color: var(--bg); font-weight: 700; }
 @media (max-width: 600px) { .clear-btn { padding: 6px 12px; font-size: 0.85rem; } .sec-right { gap: 8px; } }
 .recipes.season { padding-top: 48px; } @media (max-width: 600px) { .recipes.season { padding-top: 28px; } }
+.ai-tag { position: absolute; left: 12px; bottom: 12px; background: rgba(0, 0, 0, 0.55); color: #fff; font-size: 0.75rem; font-weight: 600; padding: 3px 9px; border-radius: 999px; backdrop-filter: blur(4px); pointer-events: none; }
+.daily-img { position: relative; }
+.daily-img .ai-tag { left: 8px; bottom: 8px; font-size: 0.68rem; padding: 2px 7px; }

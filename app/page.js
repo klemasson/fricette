@@ -434,7 +434,7 @@ export default function Home() {
           </div>
           {day?.today ? (
             <button type="button" className="daily" onClick={() => openSheet(pick(carnet, [day.today.id], fridge, opts)[0])}>
-              <span className="daily-img"><img src={day.today.photo} alt="" /></span>
+              <span className="daily-img"><img src={day.today.photo} alt="" /><span className="ai-tag">Photo IA</span></span>
               <span className="daily-txt">
                 <span className="label">La recette du jour</span>
                 <strong>{day.today.titre}</strong>
@@ -770,7 +770,7 @@ function Sheet({ r, onClose, fav, onFav }) {
   return (
     <article>
       {r.photo
-        ? <div className="art"><img src={r.photo} alt={r.titre} /></div>
+        ? <div className="art"><img src={r.photo} alt={r.titre} /><span className="ai-tag">Photo générée par IA</span></div>
         : <div className="art" dangerouslySetInnerHTML={{ __html: artSvg(r.titre, fams, { w: 640, h: 280 }) }} />}
       <button className="close" type="button" onClick={onClose} aria-label="Fermer">×</button>
       <div className="sheet-body">
