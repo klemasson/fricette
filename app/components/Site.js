@@ -10,6 +10,7 @@ export function SiteHeader() {
       <nav className="nav">
         <Logo />
         <div className="nav-right">
+          <a className="nav-link" href="/?q=" aria-label="Chercher une recette"><svg className="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7" /><path d="m20 20-4-4" /></svg></a>
           <a className="nav-link hide-sm" href="/avec">Idées par ingrédient</a>
           <CoursesLink />
           <a className="nav-link hide-sm" href="/#frigo">Mon frigo</a>

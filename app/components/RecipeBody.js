@@ -13,9 +13,10 @@ export function summary(r) {
   const have = core.filter((i) => i.etat === "have" || i.etat === "short");
   const missing = core.filter((i) => i.etat === "need");
   const short = core.filter((i) => i.etat === "short");
+  const swaps = core.filter((i) => i.etat === "swap");
   const pct = core.length ? Math.round((have.length / core.length) * 100) : 0;
   const fams = have.filter((i) => !i.basique).map((i) => i.fam || "gris");
-  return { ings, have, missing, short, pct, fams };
+  return { ings, have, missing, short, swaps, pct, fams };
 }
 
 const SITE = "https://fricette.ch";
@@ -155,7 +156,8 @@ export default function RecipeBody({ r, compare = true, fav, onFav, controls, ti
               <li key={k} className={compare ? i.etat : i.etat === "option" ? "option" : ""}>
                 <span className="n">
                   <Ico fam={compare && (i.etat === "need" || i.etat === "option") ? "gris" : i.fam} />
-                  <span>{i.nom}{i.etat === "option" && <em> (facultatif)</em>}{compare && i.note && <em> · {i.note}</em>}</span>
+                  <span>{i.nom}{i.etat === "option" && <em> (facultatif)</em>}{compare && i.note && <em> · {i.note}</em>}
+                    {compare && i.etat === "need" && i.alt?.length > 0 && <em className="alt"> · sinon {i.alt.join(" ou ")}</em>}</span>
                 </span>
                 <span className="q">{i.quantite}</span>
               </li>

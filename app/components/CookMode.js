@@ -42,6 +42,8 @@ export default function CookMode({ r, onClose, onDone }) {
   const steps = r.etapes || [];
   const [i, setI] = useState(0);
   const [showIngs, setShowIngs] = useState(false);
+  const [big, setBig] = useState(() => { try { return localStorage.getItem("frc-cook-big") === "1"; } catch { return false; } });
+  const touch = useRef(null);
   const [timers, setTimers] = useState([]); // {id, label, end, done}
   const [now, setNow] = useState(Date.now());
   const lock = useRef(null);
@@ -89,13 +91,23 @@ export default function CookMode({ r, onClose, onDone }) {
   const step = steps[i] || "";
 
   return (
-    <div className="cook" role="dialog" aria-modal="true" aria-label={`Mode cuisine : ${r.titre}`} ref={box} tabIndex={-1}>
+    <div className={"cook" + (big ? " big" : "")} role="dialog" aria-modal="true" aria-label={`Mode cuisine : ${r.titre}`} ref={box} tabIndex={-1}
+      onTouchStart={(e) => { const t = e.touches[0]; touch.current = { x: t.clientX, y: t.clientY }; }}
+      onTouchEnd={(e) => {
+        // Glisser vers la gauche : étape suivante ; vers la droite : précédente.
+        const s0 = touch.current; touch.current = null; if (!s0) return;
+        const t = e.changedTouches[0], dx = t.clientX - s0.x, dy = t.clientY - s0.y;
+        if (Math.abs(dx) > 60 && Math.abs(dx) > Math.abs(dy) * 1.5) setI((x) => Math.min(Math.max(x + (dx < 0 ? 1 : -1), 0), steps.length - 1));
+      }}>
       <div className="cook-top">
         <div>
           <div className="label">Mode cuisine · l'écran reste allumé</div>
           <strong className="cook-title">{r.titre}</strong>
         </div>
-        <button type="button" className="ghost small" onClick={onClose}>Fermer</button>
+        <div className="cook-top-btns">
+          <button type="button" className="ghost small" onClick={() => setBig((v) => { try { localStorage.setItem("frc-cook-big", v ? "0" : "1"); } catch {} return !v; })} aria-pressed={big} aria-label="Agrandir le texte">{big ? "A−" : "A+"}</button>
+          <button type="button" className="ghost small" onClick={onClose}>Fermer</button>
+        </div>
       </div>
 
       <div className="cook-progress" aria-hidden="true">
@@ -103,7 +115,7 @@ export default function CookMode({ r, onClose, onDone }) {
       </div>
 
       <div className="cook-main">
-        <div className="cook-n">Étape {i + 1} <span>/ {steps.length}</span></div>
+        <div className="cook-n">Étape {i + 1} <span>/ {steps.length}</span><small className="swipe-hint">glisse pour changer d'étape</small></div>
         <p className="cook-step">{step}</p>
         <Gestes step={step} videos={videos} big />
         <div className="cook-timers-start">

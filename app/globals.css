@@ -772,3 +772,50 @@ a.small-note { color: var(--ok); font-weight: 600; text-decoration: none; }
   .try > span { width: 100%; }
   .try-btn { padding: 7px 12px; font-size: 0.86rem; }
 }
+
+/* Remplacements et badges clairs */
+.ing li.swap .n { color: var(--ok); }
+.ing li.swap em { color: var(--ok); }
+.ing em.alt { color: var(--muted); }
+.swaps { font-size: 0.84rem; color: var(--ok); font-weight: 600; }
+.score.ok { background: var(--ok); color: #fff; }
+.score.one { background: var(--bg); color: var(--warn); }
+.score.more { background: var(--bg); color: var(--accent); }
+
+/* Recherche */
+.searchbar { position: relative; display: flex; align-items: center; margin-bottom: 28px; scroll-margin-top: 16px; }
+.searchbar > svg.i { position: absolute; left: 18px; color: var(--muted); }
+.searchbar input { width: 100%; border: 1.5px solid var(--line); background: var(--bg); border-radius: 999px; padding: 15px 48px 15px 48px; font-size: 1.02rem; }
+.searchbar input:focus { outline: none; border-color: var(--ink); }
+.searchbar .x { position: absolute; right: 10px; width: 32px; height: 32px; border-radius: 50%; color: var(--muted); font-size: 1.2rem; }
+.searchbar input::-webkit-search-cancel-button { display: none; }
+
+/* Vues récemment */
+.recent { padding-top: 6px; padding-bottom: 26px; }
+.recent-head { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 10px; }
+.recent-head strong { font-family: var(--display); font-size: 1.2rem; }
+.recent-head .link { font-size: 0.85rem; color: var(--muted); }
+.recent-row { display: flex; gap: 10px; overflow-x: auto; scrollbar-width: none; padding-bottom: 4px; }
+.recent-row::-webkit-scrollbar { display: none; }
+.recent-card { flex: none; width: 150px; display: grid; gap: 6px; text-align: left; font-size: 0.86rem; font-weight: 600; line-height: 1.25; }
+.recent-card img, .recent-card .ph { width: 150px; height: 100px; object-fit: cover; border-radius: 14px; background: var(--soft); display: block; }
+
+/* Dictée */
+.scan-icon.mic.on { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+@media (max-width: 600px) {
+  .addbox { grid-template-columns: minmax(0, 1fr) auto auto; }
+  .addbox .btn { grid-column: 1 / 2; }
+  .recent { padding-bottom: 18px; }
+  .recent-card { width: 128px; }
+  .recent-card img, .recent-card .ph { width: 128px; height: 86px; }
+}
+
+/* Mode cuisine : texte agrandi, glisser */
+.cook-top-btns { display: flex; gap: 6px; }
+.cook.big .cook-step { font-size: clamp(1.9rem, 6vw, 3.2rem); }
+.cook.big .cook-ings { font-size: 1.15rem; }
+.swipe-hint { display: none; font-family: var(--body); font-weight: 500; font-size: 0.75rem; color: var(--muted); margin-left: 10px; }
+@media (hover: none) { .swipe-hint { display: inline; } }
+.chip.select { padding: 0 4px 0 8px; height: 40px; }
+.chip.select select { padding: 0 4px; line-height: 1.2; height: 100%; }
+@media (max-width: 600px) { .chip.select { height: 34px; } }

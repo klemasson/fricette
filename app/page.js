@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
-import { suggest, pick, familyOfName, resolve, norm, daysLeft } from "@/lib/match";
+import { suggest, pick, familyOfName, resolve, norm, daysLeft, searchCarnet } from "@/lib/match";
 import { VOCAB, BASICS } from "@/data/vocab";
 import { ALLERGENS, allergenLabel } from "@/data/allergens";
 import { FAM, artSvg } from "@/lib/art";
@@ -14,7 +14,7 @@ import { InstallApp } from "./components/Pwa";
 import Newsletter from "./components/Newsletter";
 import Bilan from "./components/Bilan";
 import Logo from "./components/Logo";
-import { me, getList, setList, mergeAfterLogin, getRatings, track, loadLocal } from "@/lib/client";
+import { me, getList, setList, mergeAfterLogin, getRatings, track, loadLocal, saveLocal } from "@/lib/client";
 
 const UNITS = ["", "pièce", "g", "kg", "ml", "cl", "l", "tranche", "botte", "boîte", "pot", "c. à s.", "c. à c.", "gousse"];
 const PAGE = 8;
@@ -57,6 +57,25 @@ function suggestIngredients(q, have) {
     .map((x) => x[1]);
 }
 const QUICK = ["œufs", "lait", "beurre", "crème", "fromage râpé", "jambon", "yaourt nature", "tomates", "carottes", "courgettes", "pommes de terre", "poulet", "champignons", "poivrons", "salade verte"];
+// Transforme une phrase dictée en ingrédients : « quatre œufs, 200 g de feta et un reste de riz ».
+const NOMBRES = { un: 1, une: 1, deux: 2, trois: 3, quatre: 4, cinq: 5, six: 6, sept: 7, huit: 8, neuf: 9, dix: 10, douze: 12, demi: 0.5, "une demi": 0.5 };
+const UNITES_DITES = [[/^(kilos?|kg)$/, "kg"], [/^(grammes?|g)$/, "g"], [/^(litres?|l)$/, "l"], [/^(centilitres?|cl)$/, "cl"], [/^(millilitres?|ml)$/, "ml"], [/^tranches?$/, "tranche"], [/^(boîtes?|boites?)$/, "boîte"], [/^pots?$/, "pot"], [/^bottes?$/, "botte"], [/^gousses?$/, "gousse"]];
+function parseSpoken(text) {
+  return text.toLowerCase().split(/,| et |;| puis /).map((x) => x.trim()).filter(Boolean).map((part) => {
+    let words = part.replace(/^(du|de la|des|de l'|d'|un reste de|un peu de|il y a|j'ai)\s+/, "").split(/\s+/);
+    let qte = null, unite = "";
+    const n = /^\d+([.,]\d+)?$/.test(words[0]) ? parseFloat(words[0].replace(",", ".")) : NOMBRES[words[0]];
+    if (n) { qte = n; unite = "pièce"; words = words.slice(1); }
+    const u = UNITES_DITES.find(([re]) => re.test(words[0] || ""));
+    if (u && qte != null) { unite = u[1]; words = words.slice(1); }
+    if (words[0] === "de" || words[0] === "d'") words = words.slice(1);
+    let nom = words.join(" ").replace(/^(d'|de |du |des )/, "").trim();
+    const sg = suggestIngredients(nom, new Set())[0];
+    if (sg && norm(sg.nom).startsWith(norm(nom).slice(0, 4))) nom = sg.nom;
+    return nom ? { nom, qte, unite } : null;
+  }).filter(Boolean);
+}
+
 const isoDay = (plus) => { const d = new Date(); d.setDate(d.getDate() + plus); return d.toLocaleDateString("sv-SE"); };
 function ExpBadge({ exp, onClick }) {
   const d = daysLeft(exp);
@@ -96,6 +115,7 @@ export default function Home() {
   const [placard, setPlacard] = useState(true);
   const [sans, setSans] = useState([]);
   const [showAllergies, setShowAllergies] = useState(false);
+  const [now, setNow] = useState(false);
   const [carnet, setCarnet] = useState(null);
   const [shown, setShown] = useState(PAGE);
   const [aiRecipes, setAiRecipes] = useState(null);
@@ -154,6 +174,9 @@ export default function Home() {
       if (Array.isArray(saved)) setFridge(oldDemo(saved) ? [] : saved);
     } catch {}
     applyPrefs(loadLocal("frc-prefs", {}));
+    setRecent(loadLocal("frc-recent", []));
+    const q0 = new URLSearchParams(window.location.search).get("q");
+    if (q0 !== null) { setQuery(q0); window.history.replaceState(null, "", "/"); setTimeout(() => { document.getElementById("recherche")?.scrollIntoView({ behavior: "smooth", block: "start" }); document.getElementById("search")?.focus({ preventScroll: true }); }, 400); }
     loaded.current = true;
     fetch("/carnet-lite.json").then((r) => r.json()).then(setCarnet).catch(() => setCarnet([]));
     let local = [];
@@ -230,11 +253,11 @@ export default function Home() {
     setList("prefs", { ...loadLocal("frc-prefs", {}), personnes: Number(personnes), temps, regime, placard: basiques && placard, sans });
   }, [personnes, temps, regime, basiques, placard, sans]);
 
-  const opts = { temps: Number(temps), regime, personnes: Number(personnes), basiques, placard, type, sans };
+  const opts = { temps: Number(temps), regime, personnes: Number(personnes), basiques, placard, type, sans, now };
   const found = useMemo(
     () => (carnet ? suggest(carnet, fridge, opts) : null),
     // eslint-disable-next-line react-hooks/exhaustive-deps
-    [carnet, fridge, temps, regime, personnes, basiques, placard, type, sans]
+    [carnet, fridge, temps, regime, personnes, basiques, placard, type, sans, now]
   );
   useEffect(() => setShown(PAGE), [fridge, temps, regime, personnes, basiques, placard, type]);
 
@@ -264,6 +287,33 @@ export default function Home() {
     // Entrée : on ajoute la suggestion surlignée (orthographe connue du carnet), sinon le texte tapé.
     if (sugs.length && !name.includes(",")) return addNames([(sugs[sugIdx] || sugs[0]).nom]);
     addNames(name.split(/[,;\n]/));
+  }
+
+  // Dictée : « quatre œufs, deux courgettes et un reste de riz »
+  const [voiceOk, setVoiceOk] = useState(false);
+  const [listening, setListening] = useState(false);
+  useEffect(() => { setVoiceOk(!!(window.SpeechRecognition || window.webkitSpeechRecognition)); }, []);
+  function dictate() {
+    const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+    if (!SR || listening) return;
+    const rec = new SR();
+    rec.lang = "fr-FR"; rec.interimResults = false; rec.maxAlternatives = 1;
+    rec.onresult = (e) => {
+      const text = e.results[0][0].transcript;
+      const items = parseSpoken(text);
+      if (!items.length) return;
+      for (const it of items) { const k = resolve(it.nom); track(k ? "ing" : "unknown", k || it.nom); }
+      setFridge((f) => {
+        const next = [...f];
+        for (const it of items) if (!next.some((x) => x.nom.toLowerCase() === it.nom.toLowerCase())) next.push(it);
+        return next;
+      });
+      setStatus({ text: `Ajouté : ${items.map((x) => x.nom).join(", ")}. Vérifie les quantités si besoin.`, err: false });
+    };
+    rec.onerror = (e) => setStatus({ text: e.error === "not-allowed" ? "Autorise le micro pour dicter tes ingrédients." : "Je n'ai pas bien entendu, réessaie.", err: true });
+    rec.onend = () => setListening(false);
+    setListening(true);
+    rec.start();
   }
 
   function onAddKey(e) {
@@ -419,23 +469,46 @@ export default function Home() {
 
   // Les étapes ne sont pas dans la version légère du carnet : on les charge à l'ouverture.
   const fullCache = useRef(new Map());
+  const [sheetRaw, setSheetRaw] = useState(null); // recette complète ouverte (pour recalculer les quantités)
+  const [sheetPers, setSheetPers] = useState(2);
   async function openSheet(r) {
-    if (r.id) track("open", r.id);
-    if (r.id && !r.etapes?.length) {
-      setOpenRecipe({ ...r, etapes: [], loading: true });
-      requestAnimationFrame(() => sheetRef.current?.showModal?.());
-      try {
-        let full = fullCache.current.get(r.id);
-        if (!full) { full = await fetch(`/api/recette/${r.id}`).then((x) => x.json()); fullCache.current.set(r.id, full); }
-        setOpenRecipe((cur) => (cur?.id === r.id ? pick([full], [full.id], fridge, opts)[0] : cur));
-      } catch {
-        setOpenRecipe((cur) => (cur?.id === r.id ? { ...cur, loading: false, etapes: ["Connexion perdue : impossible de charger les étapes. Réessaie."] } : cur));
-      }
-      return;
+    const show = () => requestAnimationFrame(() => { if (!sheetRef.current?.open) sheetRef.current?.showModal?.(); });
+    if (!r.id) { setSheetRaw(null); setOpenRecipe(r); show(); return; } // recette du chef
+    track("open", r.id);
+    rememberRecent(r.id);
+    setSheetPers(Number(personnes));
+    let full = fullCache.current.get(r.id);
+    if (full) { setSheetRaw(full); setOpenRecipe(r); show(); return; }
+    setSheetRaw(null);
+    setOpenRecipe({ ...r, etapes: [], loading: true });
+    show();
+    try {
+      full = await fetch(`/api/recette/${r.id}`).then((x) => x.json());
+      fullCache.current.set(r.id, full);
+      setSheetRaw((cur) => cur || full);
+    } catch {
+      setOpenRecipe((cur) => (cur?.id === r.id ? { ...cur, loading: false, etapes: ["Connexion perdue : impossible de charger les étapes. Réessaie."] } : cur));
     }
-    setOpenRecipe(r);
-    requestAnimationFrame(() => sheetRef.current?.showModal?.());
   }
+  const sheetRecipe = sheetRaw && openRecipe?.id === sheetRaw.id
+    ? pick([sheetRaw], [sheetRaw.id], fridge, { ...opts, personnes: sheetPers })[0]
+    : openRecipe;
+
+  // Recettes vues récemment (sur cet appareil)
+  const [recent, setRecent] = useState([]);
+  function rememberRecent(id) {
+    setRecent((l) => {
+      const next = [id, ...l.filter((x) => x !== id)].slice(0, 12);
+      saveLocal("frc-recent", next);
+      return next;
+    });
+  }
+
+  // Recherche par nom
+  const [query, setQuery] = useState("");
+  const searchResults = useMemo(() => (carnet && query.trim().length >= 2 ? pick(carnet, searchCarnet(carnet, query).map((r) => r.id), fridge, opts) : null),
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [carnet, query, fridge, personnes, basiques, placard]);
 
   const day = useMemo(() => (carnet && carnet.length ? daily(carnet) : null), [carnet]);
   const seasonal = day && carnet ? pick(carnet, day.seasonal.slice(0, 4).map((r) => r.id), fridge, opts) : [];
@@ -614,6 +687,12 @@ export default function Home() {
               )}
             </div>
             <button className="btn" type="submit">Ajouter</button>
+            {voiceOk && (
+              <button className={"scan-icon mic" + (listening ? " on" : "")} type="button" onClick={dictate} aria-label="Dicter les ingrédients" title="Dicter les ingrédients">
+                <svg className="i" viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3" /><path d="M5 11a7 7 0 0 0 14 0M12 18v3" /></svg>
+                <span>{listening ? "J'écoute…" : "Dicter"}</span>
+              </button>
+            )}
             <button className="scan-icon" type="button" onClick={() => setScanOpen(true)} aria-label="Scanner un code-barres" title="Scanner un code-barres">
               <svg className="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7V5h3M17 5h3v2M20 17v2h-3M7 19H4v-2M8 9v6M11 9v6M14 9v6M17 9v6" /></svg>
               <span>Scanner</span>
@@ -721,6 +800,11 @@ export default function Home() {
 
             </div>
             <div className="placard-row">
+              <label className="switch">
+                <input type="checkbox" checked={now} onChange={(e) => setNow(e.target.checked)} />
+                <span className="track" aria-hidden="true" />
+                Seulement ce que je peux faire maintenant
+              </label>
               <button type="button" className={"allergy-btn" + (sans.length ? " on" : "")} aria-expanded={showAllergies} onClick={() => setShowAllergies((v) => !v)}>
                 <span aria-hidden="true">⚠︎</span> {sans.length ? `Sans ${sans.map(allergenLabel).join(", ")}` : "Allergies"}
               </button>
@@ -782,6 +866,20 @@ export default function Home() {
         </div>
       </section>
 
+      {recent.length > 0 && carnet && (
+        <section className="recent in" aria-label="Vues récemment">
+          <div className="recent-head"><strong>Vues récemment</strong><button type="button" className="link" onClick={() => { setRecent([]); saveLocal("frc-recent", []); }}>Effacer</button></div>
+          <div className="recent-row">
+            {pick(carnet, recent, fridge, opts).map((r) => (
+              <button key={"r" + r.id} type="button" className="recent-card" onClick={() => openSheet(r)}>
+                {r.photo ? <img src={r.photo} alt="" loading="lazy" /> : <span className="ph" />}
+                <span>{r.titre}</span>
+              </button>
+            ))}
+          </div>
+        </section>
+      )}
+
       {favs.length > 0 && (
         <section className="recipes favs" id="favoris" aria-label="Mes favoris">
           <div className="in">
@@ -805,6 +903,23 @@ export default function Home() {
 
       <section className="recipes" id="menu" aria-label="Recettes">
         <div className="in">
+          <div className="searchbar" id="recherche">
+            <svg className="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7" /><path d="m20 20-4-4" /></svg>
+            <input id="search" type="search" value={query} onChange={(e) => setQuery(e.target.value)} placeholder="Chercher une recette : risotto, tiramisu, poulet…" aria-label="Chercher une recette par son nom" autoComplete="off" />
+            {query && <button type="button" className="x" onClick={() => setQuery("")} aria-label="Effacer la recherche">×</button>}
+          </div>
+          {searchResults ? (
+            <>
+              <div className="sec">
+                <h2>Recherche</h2>
+                <span>{searchResults.length ? `${searchResults.length} recette${searchResults.length > 1 ? "s" : ""} pour « ${query.trim()} »` : `Aucune recette pour « ${query.trim()} »`}</span>
+              </div>
+              {searchResults.length === 0 && <p className="empty">Essaie un autre mot, ou un ingrédient : « courgette », « chocolat »…</p>}
+              <div className="grid" style={{ marginBottom: 34 }}>
+                {searchResults.map((r) => <Card key={"q" + r.id} r={r} onOpen={openSheet} fav={favSet.has(r.id)} onFav={toggleFav} rating={ratings[r.id]} />)}
+              </div>
+            </>
+          ) : null}
           <div className="sec">
             <h2>Au menu</h2>
             <span>{found ? `${results.length} recette${results.length > 1 ? "s" : ""} possible${results.length > 1 ? "s" : ""} avec ton frigo` : "Chargement du carnet…"}</span>
@@ -891,8 +1006,9 @@ export default function Home() {
 
       {scanOpen && <Scanner onAdd={addScanned} onRemove={removeScanned} onClose={() => setScanOpen(false)} />}
 
-      <dialog className="sheet" ref={sheetRef} onClose={() => setOpenRecipe(null)} onClick={(e) => { if (e.target === sheetRef.current) sheetRef.current.close(); }}>
-        {openRecipe && <Sheet r={openRecipe} onClose={() => sheetRef.current?.close()} fav={favSet.has(openRecipe.id)} onFav={openRecipe.id ? toggleFav : null} />}
+      <dialog className="sheet" ref={sheetRef} onClose={() => { setOpenRecipe(null); setSheetRaw(null); }} onClick={(e) => { if (e.target === sheetRef.current) sheetRef.current.close(); }}>
+        {sheetRecipe && <Sheet r={sheetRecipe} onClose={() => sheetRef.current?.close()} fav={favSet.has(sheetRecipe.id)} onFav={sheetRecipe.id ? toggleFav : null}
+          persons={sheetRaw ? sheetPers : null} onPersons={setSheetPers} />}
       </dialog>
 
       <dialog className="sheet auth" ref={authRef} onClick={(e) => { if (e.target === authRef.current) authRef.current.close(); }}>
@@ -962,7 +1078,8 @@ export default function Home() {
 }
 
 function Card({ r, ai, onOpen, fav, onFav, rating }) {
-  const { missing, short, pct, fams } = summary(r);
+  const { missing, short, swaps, fams } = summary(r);
+  const badge = missing.length === 0 ? ["ok", "✓ Tu as tout"] : [missing.length === 1 ? "one" : "more", `Il manque ${missing.length}`];
   return (
     <div className={"card" + (ai ? " ai" : "")}>
       <button type="button" className="card-hit" onClick={() => onOpen(r)}>
@@ -971,16 +1088,19 @@ function Card({ r, ai, onOpen, fav, onFav, rating }) {
             ? <img src={r.photo} alt="" loading="lazy" />
             : <div className="fill" dangerouslySetInnerHTML={{ __html: artSvg(r.titre, fams) }} />}
           {ai && <span className="chef-tag">Le chef</span>}
-          <span className="score">{pct} %</span>
+          <span className={"score " + badge[0]}>{badge[1]}</span>
         </div>
         <div className="txt">
           <h3>{r.titre}</h3>
           <div className="meta">{[r.temps && `${r.temps} min`, r.difficulte, `${r.portions} pers.`].filter(Boolean).join(" · ")}{rating && <> · <StarAvg v={rating} /></>}</div>
           {r.urgent?.length > 0 && <div className="urgent">⏰ Finit {r.urgent.join(", ")}</div>}
-          <div className={"miss" + (missing.length ? "" : " ok")}>
-            {missing.length ? `Il manque : ${missing.map((m) => m.nom).join(", ")}` : "Tu as tout"}
-            {short.length > 0 && <span className="juste"> · un peu juste : {short.map((m) => m.nom).join(", ")}</span>}
-          </div>
+          {(missing.length > 0 || short.length > 0) && (
+            <div className="miss">
+              {missing.length > 0 && `Il manque : ${missing.map((m) => m.nom).join(", ")}`}
+              {short.length > 0 && <span className="juste">{missing.length ? " · " : ""}un peu juste : {short.map((m) => m.nom).join(", ")}</span>}
+            </div>
+          )}
+          {swaps?.length > 0 && <div className="swaps">↔ {swaps.map((x) => `${x.swap} au lieu de ${x.nom}`).join(", ")}</div>}
         </div>
       </button>
       {onFav && r.id && <FavButton on={fav} onClick={() => onFav(r.id)} label={false} />}
@@ -988,7 +1108,7 @@ function Card({ r, ai, onOpen, fav, onFav, rating }) {
   );
 }
 
-function Sheet({ r, onClose, fav, onFav }) {
+function Sheet({ r, onClose, fav, onFav, persons, onPersons }) {
   const { fams } = summary(r);
   return (
     <article>
@@ -997,7 +1117,14 @@ function Sheet({ r, onClose, fav, onFav }) {
         : <div className="art" dangerouslySetInnerHTML={{ __html: artSvg(r.titre, fams, { w: 640, h: 280 }) }} />}
       <button className="close" type="button" onClick={onClose} aria-label="Fermer">×</button>
       <div className="sheet-body">
-        <RecipeBody r={r} fav={fav} onFav={onFav} pageLink />
+        <RecipeBody r={r} fav={fav} onFav={onFav} pageLink controls={persons ? (
+          <label className="chip select">
+            <span className="sr">Nombre de personnes</span>
+            <select value={persons} onChange={(e) => onPersons(Number(e.target.value))} aria-label="Nombre de personnes">
+              {[1, 2, 3, 4, 5, 6, 8, 10, 12].map((n) => <option key={n} value={n}>👥 Pour {n}</option>)}
+            </select>
+          </label>
+        ) : null} />
       </div>
     </article>
   );
