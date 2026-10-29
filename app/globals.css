@@ -819,3 +819,13 @@ a.small-note { color: var(--ok); font-weight: 600; text-decoration: none; }
 .chip.select { padding: 0 4px 0 8px; height: 40px; }
 .chip.select select { padding: 0 4px; line-height: 1.2; height: 100%; }
 @media (max-width: 600px) { .chip.select { height: 34px; } }
+
+/* Ligne d'ajout : champ + boutons, sans retour à la ligne bizarre (avec ou sans « Dicter ») */
+.addbox { display: flex; flex-wrap: wrap; gap: 8px; }
+.addbox .addfield { flex: 1 1 320px; min-width: 0; }
+.addbox > .btn, .addbox > .scan-icon { flex: none; }
+.addbox > .scan-icon { padding: 0 18px; min-height: 50px; }
+@media (max-width: 600px) {
+  .addbox .addfield { flex-basis: 100%; }
+  .addbox > .btn, .addbox > .scan-icon { flex: 1 1 0; justify-content: center; min-height: 44px; padding: 0 10px; }
+}
