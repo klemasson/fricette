@@ -1,0 +1,4504 @@
+[
+  {
+    "titre": "Fondue au gruyère, emmental et vin blanc",
+    "categorie": "plat",
+    "temps": 30,
+    "difficulte": "moyen",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "sans_porc"
+    ],
+    "ingredients": [
+      {
+        "cle": "gruyere",
+        "nom": "gruyère",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "emmental",
+        "nom": "emmental",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "vin_blanc",
+        "nom": "vin blanc sec",
+        "qte": 300,
+        "unite": "ml"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousse d'ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "farine",
+        "nom": "farine (ou maïzena)",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "pain",
+        "nom": "pain mi-blanc de la veille",
+        "qte": 600,
+        "unite": "g"
+      },
+      {
+        "cle": "muscade",
+        "nom": "noix de muscade",
+        "qte": 1,
+        "unite": "pincée"
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Couper le pain en cubes de 3 cm en gardant un peu de croûte sur chaque morceau.",
+      "Couper la gousse d'ail en deux et en frotter tout l'intérieur du caquelon.",
+      "Râper le gruyère et l'emmental, puis les mélanger avec la farine.",
+      "Chauffer le vin blanc dans le caquelon à feu moyen jusqu'aux premiers frémissements.",
+      "Ajouter le fromage par poignées en remuant en forme de huit, sans laisser bouillir, environ 10 minutes, jusqu'à obtenir une crème lisse et filante.",
+      "Assaisonner de poivre et de muscade, poser le caquelon sur le réchaud et servir aussitôt avec les cubes de pain."
+    ],
+    "astuce": "La croûte de fromage qui reste au fond se décolle à la spatule et se partage : c'est la « religieuse », la meilleure part."
+  },
+  {
+    "titre": "Croûte aux champignons à la crème",
+    "categorie": "plat",
+    "temps": 25,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_porc"
+    ],
+    "ingredients": [
+      {
+        "cle": "pain",
+        "nom": "tranches épaisses de pain de campagne",
+        "qte": 4,
+        "unite": "tranche"
+      },
+      {
+        "cle": "champignon",
+        "nom": "champignons de Paris",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "echalote",
+        "nom": "échalote",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 20,
+        "unite": "g"
+      },
+      {
+        "cle": "vin_blanc",
+        "nom": "vin blanc",
+        "qte": 50,
+        "unite": "ml",
+        "optionnel": true
+      },
+      {
+        "cle": "creme",
+        "nom": "crème entière",
+        "qte": 150,
+        "unite": "ml"
+      },
+      {
+        "cle": "gruyere",
+        "nom": "gruyère râpé",
+        "qte": 60,
+        "unite": "g"
+      },
+      {
+        "cle": "persil",
+        "nom": "persil plat",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 200 °C et faire griller les tranches de pain 8 minutes sur une plaque.",
+      "Émincer l'échalote et trancher les champignons.",
+      "Faire fondre l'échalote 2 minutes dans le beurre, puis saisir les champignons 6 minutes à feu vif jusqu'à ce que leur eau s'évapore.",
+      "Déglacer au vin blanc, ajouter la crème et laisser réduire 3 minutes ; saler, poivrer et ajouter le persil haché.",
+      "Répartir les champignons sur le pain grillé, parsemer de gruyère et gratiner 6 minutes jusqu'à ce que le fromage bouillonne."
+    ],
+    "astuce": "Un mélange de champignons fatigués (bruns, pleurotes, de Paris) donne encore plus de goût."
+  },
+  {
+    "titre": "Polenta et brasato de bœuf au vin rouge",
+    "categorie": "plat",
+    "temps": 180,
+    "difficulte": "moyen",
+    "portions": 4,
+    "regimes": [
+      "sans_porc"
+    ],
+    "ingredients": [
+      {
+        "cle": "boeuf",
+        "nom": "bœuf à braiser",
+        "qte": 800,
+        "unite": "g"
+      },
+      {
+        "cle": "vin_rouge",
+        "nom": "vin rouge corsé",
+        "qte": 500,
+        "unite": "ml"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "carotte",
+        "nom": "carottes",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "celeri",
+        "nom": "branche de céleri",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousses d'ail",
+        "qte": 2,
+        "unite": "gousse"
+      },
+      {
+        "cle": "concentre_tomate",
+        "nom": "concentré de tomate",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "bouillon",
+        "nom": "bouillon de bœuf",
+        "qte": 300,
+        "unite": "ml"
+      },
+      {
+        "cle": "polenta",
+        "nom": "polenta (semoule de maïs)",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "lait",
+        "nom": "lait",
+        "qte": 500,
+        "unite": "ml"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 30,
+        "unite": "g"
+      },
+      {
+        "cle": "parmesan",
+        "nom": "parmesan râpé",
+        "qte": 40,
+        "unite": "g"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Couper le bœuf en gros cubes de 5 cm, saler, poivrer et le saisir dans l'huile d'olive en cocotte, 8 minutes, pour bien le colorer ; réserver.",
+      "Hacher l'oignon, les carottes, le céleri et l'ail, les faire revenir 5 minutes dans la cocotte, puis ajouter le concentré de tomate 1 minute.",
+      "Remettre la viande, verser le vin rouge et le bouillon, couvrir et laisser mijoter 2 h 30 à feu très doux, jusqu'à ce que la viande se défasse à la fourchette.",
+      "30 minutes avant la fin, porter le lait et 500 ml d'eau salée à ébullition, verser la polenta en pluie en fouettant et cuire en remuant le temps indiqué sur le paquet.",
+      "Hors du feu, incorporer le beurre et le parmesan à la polenta, puis servir avec le bœuf et sa sauce réduite."
+    ],
+    "astuce": "Le brasato est encore meilleur réchauffé le lendemain ; les restes de polenta froide se coupent en tranches à griller."
+  },
+  {
+    "titre": "Risotto tessinois à la saucisse et au vin rouge",
+    "categorie": "plat",
+    "temps": 35,
+    "difficulte": "moyen",
+    "portions": 4,
+    "regimes": [],
+    "ingredients": [
+      {
+        "cle": "riz_risotto",
+        "nom": "riz à risotto",
+        "qte": 320,
+        "unite": "g"
+      },
+      {
+        "cle": "saucisse",
+        "nom": "saucisses de porc à rôtir (type luganighe)",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "vin_rouge",
+        "nom": "vin rouge (merlot)",
+        "qte": 200,
+        "unite": "ml"
+      },
+      {
+        "cle": "bouillon",
+        "nom": "bouillon de légumes chaud",
+        "qte": 1,
+        "unite": "l"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 30,
+        "unite": "g"
+      },
+      {
+        "cle": "parmesan",
+        "nom": "parmesan râpé",
+        "qte": 50,
+        "unite": "g"
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Maintenir le bouillon chaud à feu doux et hacher finement l'oignon.",
+      "Retirer la chair des saucisses de leur boyau et la faire dorer en l'émiettant dans l'huile d'olive 6 minutes, jusqu'à ce qu'elle soit bien cuite.",
+      "Ajouter l'oignon 3 minutes, puis le riz et le nacrer 2 minutes en remuant.",
+      "Verser le vin rouge et laisser absorber, puis ajouter le bouillon louche par louche pendant 18 minutes en remuant souvent.",
+      "Hors du feu, incorporer le beurre et le parmesan, poivrer, couvrir 2 minutes et servir."
+    ],
+    "astuce": "Une saucisse de veau ou de volaille convient aussi : le risotto prend alors une couleur plus claire mais reste très parfumé."
+  },
+  {
+    "titre": "Cordon-bleu de porc au gruyère",
+    "categorie": "plat",
+    "temps": 35,
+    "difficulte": "moyen",
+    "portions": 2,
+    "regimes": [
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "porc",
+        "nom": "escalopes de porc fines",
+        "qte": 4,
+        "unite": "pièce"
+      },
+      {
+        "cle": "jambon",
+        "nom": "jambon",
+        "qte": 2,
+        "unite": "tranche"
+      },
+      {
+        "cle": "gruyere",
+        "nom": "gruyère",
+        "qte": 2,
+        "unite": "tranche"
+      },
+      {
+        "cle": "farine",
+        "nom": "farine",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œuf",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "chapelure",
+        "nom": "chapelure",
+        "qte": 60,
+        "unite": "g"
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 4,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 20,
+        "unite": "g"
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 0.5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Aplatir les escalopes entre deux feuilles de papier cuisson pour qu'elles fassent 5 mm d'épaisseur.",
+      "Garnir deux escalopes d'une tranche de jambon et d'une tranche de gruyère pliées pour ne pas déborder, couvrir avec les deux autres et bien presser les bords.",
+      "Saler, poivrer, puis passer chaque cordon-bleu dans la farine, l'œuf battu et la chapelure en appuyant.",
+      "Cuire dans l'huile et le beurre à feu moyen, 5 à 6 minutes par face, jusqu'à ce que la panure soit dorée, le porc cuit à cœur et le fromage fondu.",
+      "Servir aussitôt avec des quartiers de citron."
+    ],
+    "astuce": "Avec une escalope de dinde ou de veau, c'est tout aussi bon ; les cordons-bleus panés se congèlent crus."
+  },
+  {
+    "titre": "Fondue chinoise au bouillon et sauces maison",
+    "categorie": "plat",
+    "temps": 45,
+    "difficulte": "moyen",
+    "portions": 4,
+    "regimes": [
+      "sans_lactose",
+      "sans_porc"
+    ],
+    "ingredients": [
+      {
+        "cle": "boeuf",
+        "nom": "bœuf émincé très finement pour fondue",
+        "qte": 600,
+        "unite": "g"
+      },
+      {
+        "cle": "bouillon",
+        "nom": "bouillon de bœuf",
+        "qte": 1.5,
+        "unite": "l"
+      },
+      {
+        "cle": "vin_blanc",
+        "nom": "vin blanc",
+        "qte": 100,
+        "unite": "ml"
+      },
+      {
+        "cle": "gingembre",
+        "nom": "gingembre frais",
+        "qte": 20,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon_nouveau",
+        "nom": "oignons nouveaux",
+        "qte": 3,
+        "unite": "pièce"
+      },
+      {
+        "cle": "champignon",
+        "nom": "champignons de Paris",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "carotte",
+        "nom": "carottes",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "mayonnaise",
+        "nom": "mayonnaise",
+        "qte": 6,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "curry",
+        "nom": "curry en poudre",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "ketchup",
+        "nom": "ketchup",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sauce_soja",
+        "nom": "sauce soja",
+        "qte": 4,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "riz",
+        "nom": "riz",
+        "qte": 250,
+        "unite": "g"
+      }
+    ],
+    "etapes": [
+      "Cuire le riz selon les indications du paquet.",
+      "Porter à frémissement le bouillon avec le vin blanc, le gingembre en lamelles et les blancs des oignons nouveaux émincés, et laisser infuser 10 minutes.",
+      "Couper les carottes en fines rondelles et les champignons en deux, puis les disposer sur des assiettes avec la viande.",
+      "Préparer les sauces : la moitié de la mayonnaise avec le curry, le reste avec le ketchup, et la sauce soja avec les verts d'oignons ciselés.",
+      "Verser le bouillon dans le caquelon sur le réchaud ; chacun cuit sa viande 30 secondes à 1 minute et les légumes 2 à 3 minutes."
+    ],
+    "astuce": "En fin de repas, le bouillon enrichi se boit en tasse ou se congèle pour une soupe aux nouilles."
+  },
+  {
+    "titre": "Cholera valaisan aux pommes, poireaux et raclette",
+    "categorie": "plat",
+    "temps": 90,
+    "difficulte": "moyen",
+    "portions": 6,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pate_feuilletee",
+        "nom": "pâtes feuilletées rondes",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "pomme_de_terre",
+        "nom": "pommes de terre fermes",
+        "qte": 500,
+        "unite": "g"
+      },
+      {
+        "cle": "poireau",
+        "nom": "poireaux",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "pomme",
+        "nom": "pommes acidulées",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "raclette",
+        "nom": "fromage à raclette",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 20,
+        "unite": "g"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œuf",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "muscade",
+        "nom": "noix de muscade",
+        "qte": 1,
+        "unite": "pincée"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Cuire les pommes de terre en robe des champs 20 minutes, les laisser tiédir, puis les éplucher et les couper en rondelles.",
+      "Émincer les poireaux et l'oignon, les faire fondre 10 minutes dans le beurre, puis saler, poivrer et ajouter la muscade.",
+      "Préchauffer le four à 200 °C et foncer un moule de 24 cm avec une pâte feuilletée en la laissant dépasser.",
+      "Alterner les couches de pommes de terre, de poireaux, de pommes en fines lamelles et de raclette en tranches.",
+      "Couvrir avec la seconde pâte, souder les bords, percer une cheminée au centre et dorer à l'œuf battu.",
+      "Cuire 40 minutes jusqu'à ce que la tourte soit bien dorée et gonflée, puis laisser reposer 5 minutes avant de couper."
+    ],
+    "astuce": "Ce gâteau valaisan se mange aussi froid, en pique-nique ; il accueille les restes de pommes de terre cuites de la veille."
+  },
+  {
+    "titre": "Saltimbocca de veau au jambon cru et sauge",
+    "categorie": "plat",
+    "temps": 20,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [],
+    "ingredients": [
+      {
+        "cle": "veau",
+        "nom": "escalopes de veau fines",
+        "qte": 4,
+        "unite": "pièce"
+      },
+      {
+        "cle": "jambon_cru",
+        "nom": "jambon cru",
+        "qte": 4,
+        "unite": "tranche"
+      },
+      {
+        "cle": "herbes",
+        "nom": "feuilles de sauge fraîche",
+        "qte": 4,
+        "unite": "pièce"
+      },
+      {
+        "cle": "farine",
+        "nom": "farine",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 30,
+        "unite": "g"
+      },
+      {
+        "cle": "vin_blanc",
+        "nom": "vin blanc sec",
+        "qte": 80,
+        "unite": "ml"
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Aplatir légèrement les escalopes, poser sur chacune une tranche de jambon cru et une feuille de sauge, puis fixer avec un cure-dent.",
+      "Poivrer et fariner légèrement uniquement le côté veau.",
+      "Cuire dans le beurre mousseux à feu moyen-vif, 2 minutes côté jambon puis 1 à 2 minutes côté veau ; réserver au chaud.",
+      "Verser le vin blanc dans la poêle, gratter les sucs et laisser réduire 2 minutes.",
+      "Napper les saltimbocca de cette sauce et servir aussitôt."
+    ],
+    "astuce": "Inutile de saler : le jambon cru suffit. La viande séchée des Grisons remplace très bien le jambon cru."
+  },
+  {
+    "titre": "Poulet à la cacciatora",
+    "categorie": "plat",
+    "temps": 60,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc"
+    ],
+    "ingredients": [
+      {
+        "cle": "poulet",
+        "nom": "hauts de cuisse de poulet avec peau",
+        "qte": 8,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousses d'ail",
+        "qte": 2,
+        "unite": "gousse"
+      },
+      {
+        "cle": "poivron",
+        "nom": "poivron rouge",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "champignon",
+        "nom": "champignons",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "vin_rouge",
+        "nom": "vin rouge",
+        "qte": 150,
+        "unite": "ml"
+      },
+      {
+        "cle": "tomate_concassee",
+        "nom": "tomates concassées",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "olive",
+        "nom": "olives noires",
+        "qte": 60,
+        "unite": "g"
+      },
+      {
+        "cle": "herbes_provence",
+        "nom": "romarin séché",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Saler, poivrer le poulet et le dorer côté peau 8 minutes dans l'huile d'olive, dans une cocotte ; réserver.",
+      "Faire revenir 6 minutes l'oignon émincé, l'ail haché, le poivron en lanières et les champignons en quartiers.",
+      "Verser le vin rouge et laisser réduire 2 minutes, puis ajouter les tomates, le romarin et les olives.",
+      "Remettre le poulet, peau vers le haut, couvrir et laisser mijoter 35 minutes à feu doux, jusqu'à ce que la viande soit cuite à cœur et se détache de l'os."
+    ],
+    "astuce": "Servi avec une polenta ou des pâtes, c'est un plat complet ; il se congèle très bien."
+  },
+  {
+    "titre": "Spaghetti au parmesan et poivre façon cacio e pepe",
+    "categorie": "plat",
+    "temps": 15,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pates",
+        "nom": "spaghetti",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "parmesan",
+        "nom": "parmesan ou pecorino finement râpé",
+        "qte": 80,
+        "unite": "g"
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre noir concassé",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 15,
+        "unite": "g"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Cuire les spaghetti dans 1,5 l d'eau peu salée, en les égouttant 1 minute avant la fin du temps indiqué ; garder un bol d'eau de cuisson.",
+      "Torréfier le poivre à sec dans une grande poêle 1 minute, puis ajouter 100 ml d'eau de cuisson.",
+      "Mélanger le fromage avec 4 c. à s. d'eau de cuisson tiède pour former une pâte lisse.",
+      "Verser les spaghetti et le beurre dans la poêle, retirer du feu et ajouter la pâte de fromage en mélangeant vivement.",
+      "Ajouter un peu d'eau de cuisson jusqu'à obtenir une sauce crémeuse qui enrobe les pâtes, puis servir immédiatement."
+    ],
+    "astuce": "Ne remettez pas la poêle sur le feu après le fromage : il ferait des grumeaux au lieu de napper."
+  },
+  {
+    "titre": "Parmigiana d'aubergines",
+    "categorie": "plat",
+    "temps": 80,
+    "difficulte": "moyen",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "aubergine",
+        "nom": "aubergines",
+        "qte": 3,
+        "unite": "pièce"
+      },
+      {
+        "cle": "tomate_concassee",
+        "nom": "tomates concassées",
+        "qte": 700,
+        "unite": "g"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousses d'ail",
+        "qte": 2,
+        "unite": "gousse"
+      },
+      {
+        "cle": "basilic",
+        "nom": "basilic",
+        "qte": 1,
+        "unite": "botte"
+      },
+      {
+        "cle": "mozzarella",
+        "nom": "mozzarella",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "parmesan",
+        "nom": "parmesan râpé",
+        "qte": 80,
+        "unite": "g"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 6,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 220 °C, couper les aubergines en tranches de 1 cm, les badigeonner avec 4 c. à s. d'huile d'olive et les rôtir 20 minutes en les retournant à mi-cuisson.",
+      "Faire revenir l'ail haché dans le reste de l'huile, ajouter les tomates, saler, poivrer et mijoter 15 minutes, puis ajouter la moitié du basilic.",
+      "Baisser le four à 190 °C et monter des couches de sauce, d'aubergines, de mozzarella en tranches et de parmesan dans un plat à gratin.",
+      "Terminer par de la sauce et du parmesan, puis cuire 30 minutes jusqu'à ce que ça bouillonne.",
+      "Laisser reposer 10 minutes et parsemer du reste du basilic avant de servir."
+    ],
+    "astuce": "Encore meilleure le lendemain, froide ou réchauffée ; les aubergines rôties au four évitent la friture."
+  },
+  {
+    "titre": "Osso buco de veau à la gremolata",
+    "categorie": "plat",
+    "temps": 120,
+    "difficulte": "moyen",
+    "portions": 4,
+    "regimes": [
+      "sans_porc"
+    ],
+    "ingredients": [
+      {
+        "cle": "veau",
+        "nom": "tranches de jarret de veau",
+        "qte": 4,
+        "unite": "pièce"
+      },
+      {
+        "cle": "farine",
+        "nom": "farine",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 20,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "carotte",
+        "nom": "carotte",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "celeri",
+        "nom": "branche de céleri",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousses d'ail",
+        "qte": 2,
+        "unite": "gousse"
+      },
+      {
+        "cle": "vin_blanc",
+        "nom": "vin blanc sec",
+        "qte": 150,
+        "unite": "ml"
+      },
+      {
+        "cle": "tomate_concassee",
+        "nom": "tomates concassées",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "bouillon",
+        "nom": "bouillon de bœuf",
+        "qte": 250,
+        "unite": "ml"
+      },
+      {
+        "cle": "citron",
+        "nom": "citron non traité",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "persil",
+        "nom": "persil plat",
+        "qte": 0.5,
+        "unite": "botte"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Entailler la peau autour des jarrets pour qu'ils ne se recroquevillent pas, saler, poivrer et les fariner.",
+      "Les dorer 4 minutes par face dans l'huile et le beurre en cocotte ; réserver.",
+      "Faire revenir 5 minutes l'oignon, la carotte, le céleri hachés et la moitié de l'ail haché.",
+      "Déglacer au vin blanc, ajouter les tomates et le bouillon, remettre les jarrets, couvrir et mijoter 1 h 30 à feu doux en les retournant une fois.",
+      "Préparer la gremolata en hachant ensemble le zeste du citron, le persil et le reste de l'ail.",
+      "Servir les jarrets nappés de sauce et parsemés de gremolata."
+    ],
+    "astuce": "La moelle de l'os est un délice à tartiner ; le plat se prépare la veille et se réchauffe doucement."
+  },
+  {
+    "titre": "Poulet à l'ail à l'espagnole, pommes de terre au paprika",
+    "categorie": "plat",
+    "temps": 55,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc"
+    ],
+    "ingredients": [
+      {
+        "cle": "poulet",
+        "nom": "hauts de cuisse de poulet avec peau",
+        "qte": 8,
+        "unite": "pièce"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousses d'ail",
+        "qte": 8,
+        "unite": "gousse"
+      },
+      {
+        "cle": "vin_blanc",
+        "nom": "vin blanc sec",
+        "qte": 150,
+        "unite": "ml"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 4,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "pomme_de_terre",
+        "nom": "pommes de terre",
+        "qte": 800,
+        "unite": "g"
+      },
+      {
+        "cle": "paprika",
+        "nom": "paprika fumé",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "persil",
+        "nom": "persil plat",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 210 °C, couper les pommes de terre en cubes et les mélanger avec la moitié de l'huile d'olive, le paprika et du sel ; rôtir 35 minutes.",
+      "Saler, poivrer le poulet et le dorer côté peau 8 minutes dans le reste de l'huile, dans une sauteuse.",
+      "Retourner les morceaux, ajouter les gousses d'ail écrasées dans leur peau et laisser 5 minutes.",
+      "Verser le vin blanc, couvrir et cuire 20 minutes à feu doux, jusqu'à ce que la viande soit cuite à cœur et le jus clair.",
+      "Parsemer de persil haché et servir avec les pommes de terre."
+    ],
+    "astuce": "Les gousses confites s'écrasent sur le pain ; le jus restant parfume un riz le lendemain."
+  },
+  {
+    "titre": "Fideuà aux crevettes et poisson blanc",
+    "categorie": "plat",
+    "temps": 40,
+    "difficulte": "moyen",
+    "portions": 4,
+    "regimes": [
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pates",
+        "nom": "vermicelles ou spaghettini cassés en morceaux de 3 cm",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "crevette",
+        "nom": "crevettes décortiquées",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "poisson_blanc",
+        "nom": "filet de poisson blanc",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousses d'ail",
+        "qte": 2,
+        "unite": "gousse"
+      },
+      {
+        "cle": "poivron",
+        "nom": "poivron rouge",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "tomate_concassee",
+        "nom": "tomates concassées",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "paprika",
+        "nom": "paprika",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "bouillon",
+        "nom": "bouillon de poisson ou de légumes chaud",
+        "qte": 750,
+        "unite": "ml"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Dorer les pâtes cassées dans 2 c. à s. d'huile d'olive, dans une grande poêle, 4 minutes en remuant ; réserver.",
+      "Faire revenir dans le reste de l'huile l'oignon, le poivron et l'ail hachés 6 minutes, puis ajouter le paprika et les tomates 3 minutes.",
+      "Ajouter les pâtes et le bouillon chaud, saler et cuire 8 minutes à feu moyen sans remuer.",
+      "Poser le poisson en cubes et les crevettes, puis cuire encore 5 à 6 minutes jusqu'à ce que le liquide soit absorbé et le poisson opaque.",
+      "Servir avec des quartiers de citron."
+    ],
+    "astuce": "Passer la poêle 3 minutes sous le grill du four : les pâtes du dessus se redressent et deviennent croustillantes, comme à Valence."
+  },
+  {
+    "titre": "Pastitsio, gratin de pâtes au bœuf et béchamel",
+    "categorie": "plat",
+    "temps": 80,
+    "difficulte": "moyen",
+    "portions": 6,
+    "regimes": [
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pates",
+        "nom": "penne ou gros macaronis",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "boeuf_hache",
+        "nom": "bœuf haché",
+        "qte": 500,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "tomate_concassee",
+        "nom": "tomates concassées",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "cannelle",
+        "nom": "cannelle",
+        "qte": 0.5,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 50,
+        "unite": "g"
+      },
+      {
+        "cle": "farine",
+        "nom": "farine",
+        "qte": 50,
+        "unite": "g"
+      },
+      {
+        "cle": "lait",
+        "nom": "lait",
+        "qte": 700,
+        "unite": "ml"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œuf",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "parmesan",
+        "nom": "parmesan râpé",
+        "qte": 80,
+        "unite": "g"
+      },
+      {
+        "cle": "muscade",
+        "nom": "noix de muscade",
+        "qte": 1,
+        "unite": "pincée"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 190 °C et cuire les pâtes 2 minutes de moins que le temps indiqué ; égoutter.",
+      "Faire dorer l'oignon haché dans l'huile d'olive, ajouter le bœuf et le cuire 8 minutes en l'émiettant jusqu'à ce qu'il ne soit plus rose, puis les tomates, la cannelle, le sel et le poivre ; mijoter 10 minutes.",
+      "Pour la béchamel, cuire le beurre et la farine 1 minute, verser le lait en fouettant et laisser épaissir 5 minutes ; hors du feu, ajouter la muscade, l'œuf battu et la moitié du parmesan.",
+      "Étaler la moitié des pâtes dans un plat, couvrir de sauce à la viande puis du reste des pâtes, et napper de béchamel.",
+      "Parsemer du reste du parmesan et cuire 35 minutes jusqu'à ce que le dessus soit bien doré ; laisser reposer 10 minutes avant de couper."
+    ],
+    "astuce": "Il se coupe en parts nettes une fois tiédi et se congèle très bien en portions."
+  },
+  {
+    "titre": "Tourte épinards-feta façon spanakopita",
+    "categorie": "plat",
+    "temps": 60,
+    "difficulte": "moyen",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pate_feuilletee",
+        "nom": "pâtes feuilletées rondes",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "epinard",
+        "nom": "épinards frais",
+        "qte": 500,
+        "unite": "g"
+      },
+      {
+        "cle": "feta",
+        "nom": "feta",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oignon_nouveau",
+        "nom": "oignons nouveaux",
+        "qte": 3,
+        "unite": "pièce"
+      },
+      {
+        "cle": "aneth",
+        "nom": "aneth",
+        "qte": 0.5,
+        "unite": "botte"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 200 °C.",
+      "Faire tomber les épinards 4 minutes dans l'huile d'olive avec les oignons nouveaux émincés, puis les presser fortement dans une passoire et les hacher.",
+      "Battre les œufs en réservant 1 c. à s. pour la dorure, puis mélanger avec les épinards, la feta émiettée, l'aneth ciselé et du poivre.",
+      "Foncer un moule avec une pâte, verser la farce, couvrir avec la seconde pâte, souder les bords et dorer avec l'œuf réservé.",
+      "Inciser le dessus et cuire 35 minutes jusqu'à ce que la pâte soit bien dorée."
+    ],
+    "astuce": "Pas besoin de sel : la feta suffit. Des épinards surgelés bien essorés font aussi l'affaire."
+  },
+  {
+    "titre": "Soupe avgolemono au poulet et riz",
+    "categorie": "soupe",
+    "temps": 45,
+    "difficulte": "moyen",
+    "portions": 4,
+    "regimes": [
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "poulet",
+        "nom": "blancs de poulet",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "bouillon",
+        "nom": "bouillon de volaille",
+        "qte": 1.5,
+        "unite": "l"
+      },
+      {
+        "cle": "riz",
+        "nom": "riz",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "citron",
+        "nom": "citrons",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "aneth",
+        "nom": "aneth",
+        "qte": 2,
+        "unite": "c. à s.",
+        "optionnel": true
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Pocher les blancs de poulet 15 minutes dans le bouillon frémissant, jusqu'à ce qu'ils soient cuits à cœur, puis les retirer et les effilocher.",
+      "Cuire le riz 15 minutes dans le même bouillon.",
+      "Battre les œufs avec le jus des citrons jusqu'à ce que le mélange mousse, puis y incorporer peu à peu deux louches de bouillon chaud en fouettant.",
+      "Hors du feu, verser ce mélange dans la casserole en remuant, puis réchauffer très doucement 2 minutes sans bouillir, jusqu'à ce que la soupe devienne nappante.",
+      "Ajouter le poulet, poivrer et parsemer d'aneth."
+    ],
+    "astuce": "Ne jamais laisser bouillir après les œufs, sinon ils tranchent ; c'est une bonne façon d'écouler un reste de poulet rôti."
+  },
+  {
+    "titre": "Kibbeh au four au boulgour et bœuf",
+    "categorie": "plat",
+    "temps": 75,
+    "difficulte": "moyen",
+    "portions": 4,
+    "regimes": [
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "boulgour",
+        "nom": "boulgour fin",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "boeuf_hache",
+        "nom": "bœuf haché",
+        "qte": 600,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignons",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "cumin",
+        "nom": "cumin",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "cannelle",
+        "nom": "cannelle",
+        "qte": 0.5,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "pignon",
+        "nom": "pignons de pin",
+        "qte": 40,
+        "unite": "g"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 4,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "yaourt",
+        "nom": "yaourt nature",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Faire tremper le boulgour 15 minutes dans de l'eau froide, puis le presser fortement entre les mains.",
+      "Mélanger le boulgour avec 400 g de bœuf, un oignon râpé, le cumin, du sel et du poivre, et pétrir jusqu'à obtenir une pâte homogène.",
+      "Pour la farce, faire revenir le second oignon émincé dans la moitié de l'huile, ajouter le reste du bœuf et le cuire 6 minutes jusqu'à ce qu'il ne soit plus rose, puis la cannelle et les pignons.",
+      "Préchauffer le four à 190 °C, étaler la moitié de la pâte dans un plat huilé, couvrir de farce puis du reste de pâte bien lissée.",
+      "Quadriller le dessus en losanges, arroser du reste de l'huile et cuire 35 minutes jusqu'à ce que ce soit doré ; servir avec le yaourt."
+    ],
+    "astuce": "Les parts froides se glissent dans un pain pita avec des crudités pour un lunch."
+  },
+  {
+    "titre": "Fatteh de pois chiches au yaourt et pain grillé",
+    "categorie": "plat",
+    "temps": 25,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pain",
+        "nom": "pains pita ou pain rassis",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "pois_chiche",
+        "nom": "pois chiches en boîte, égouttés",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "yaourt",
+        "nom": "yaourt nature",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "tahini",
+        "nom": "tahini",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "ail",
+        "nom": "gousse d'ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 0.5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "cumin",
+        "nom": "cumin",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "pignon",
+        "nom": "pignons de pin",
+        "qte": 30,
+        "unite": "g"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "persil",
+        "nom": "persil plat",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 200 °C, déchirer le pain en morceaux, l'arroser de la moitié de l'huile d'olive et le griller 8 minutes.",
+      "Chauffer les pois chiches avec le cumin, une pincée de sel et 100 ml d'eau, 5 minutes à feu doux.",
+      "Mélanger le yaourt, le tahini, l'ail pressé, le jus du citron et du sel.",
+      "Dorer les pignons 2 minutes dans le reste de l'huile.",
+      "Disposer le pain grillé dans un plat, couvrir de pois chiches chauds et de leur jus, napper de sauce au yaourt, puis parsemer de pignons et de persil ; servir aussitôt."
+    ],
+    "astuce": "Idéal pour sauver un pain sec : il doit rester croustillant par endroits et s'imbiber ailleurs."
+  },
+  {
+    "titre": "Brochettes de poulet shish taouk, sauce à l'ail",
+    "categorie": "plat",
+    "temps": 150,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "poulet",
+        "nom": "blancs de poulet",
+        "qte": 600,
+        "unite": "g"
+      },
+      {
+        "cle": "yaourt",
+        "nom": "yaourt nature",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousses d'ail",
+        "qte": 4,
+        "unite": "gousse"
+      },
+      {
+        "cle": "paprika",
+        "nom": "paprika",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "concentre_tomate",
+        "nom": "concentré de tomate",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "pain",
+        "nom": "pains pita",
+        "qte": 4,
+        "unite": "pièce"
+      },
+      {
+        "cle": "tomate",
+        "nom": "tomates",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "concombre",
+        "nom": "concombre",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Couper le poulet en cubes et le mélanger avec la moitié du yaourt, le jus du citron, 2 gousses d'ail pressées, le paprika, le concentré de tomate, 2 c. à s. d'huile, du sel et du poivre ; laisser mariner 2 heures au frais.",
+      "Mélanger le reste du yaourt avec le reste de l'ail pressé, le reste de l'huile et une pincée de sel.",
+      "Enfiler le poulet sur des brochettes et le griller à feu moyen-vif 12 à 14 minutes en tournant, jusqu'à ce qu'il soit doré et cuit à cœur.",
+      "Réchauffer les pitas, les garnir de tomates et de concombre en dés, de poulet et de sauce à l'ail."
+    ],
+    "astuce": "La marinade au yaourt peut se préparer le matin pour le soir ; elle rend le poulet très tendre."
+  },
+  {
+    "titre": "Tajine de boulettes de bœuf à la tomate et aux œufs",
+    "categorie": "plat",
+    "temps": 45,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "boeuf_hache",
+        "nom": "bœuf haché",
+        "qte": 500,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "persil",
+        "nom": "persil plat",
+        "qte": 1,
+        "unite": "botte"
+      },
+      {
+        "cle": "cumin",
+        "nom": "cumin",
+        "qte": 2,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "paprika",
+        "nom": "paprika",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "tomate_concassee",
+        "nom": "tomates concassées",
+        "qte": 600,
+        "unite": "g"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousses d'ail",
+        "qte": 2,
+        "unite": "gousse"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 4,
+        "unite": "pièce"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "pain",
+        "nom": "pain pour saucer",
+        "qte": 1,
+        "unite": "pièce",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Râper l'oignon, puis mélanger le bœuf avec la moitié de l'oignon, la moitié du persil haché, 1 c. à c. de cumin, du sel et du poivre ; former des boulettes de la taille d'une noix.",
+      "Dans une sauteuse, faire revenir le reste de l'oignon et l'ail haché dans l'huile d'olive 2 minutes avec le reste du cumin et le paprika.",
+      "Ajouter les tomates et 100 ml d'eau, saler et mijoter 10 minutes.",
+      "Déposer les boulettes dans la sauce, couvrir et cuire 15 minutes à feu doux, jusqu'à ce qu'elles soient cuites à cœur.",
+      "Creuser quatre puits, y casser les œufs, couvrir et cuire 6 à 8 minutes jusqu'à ce que les blancs soient pris ; parsemer du reste du persil et servir avec le pain."
+    ],
+    "astuce": "Les boulettes crues se congèlent à plat : il suffit de les plonger dans la sauce, en prolongeant la cuisson de 5 minutes."
+  },
+  {
+    "titre": "Tajine de poisson aux poivrons et pommes de terre",
+    "categorie": "plat",
+    "temps": 55,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "sans_gluten",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "poisson_blanc",
+        "nom": "filets de poisson blanc épais",
+        "qte": 600,
+        "unite": "g"
+      },
+      {
+        "cle": "pomme_de_terre",
+        "nom": "pommes de terre",
+        "qte": 500,
+        "unite": "g"
+      },
+      {
+        "cle": "poivron",
+        "nom": "poivrons",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "tomate",
+        "nom": "tomates",
+        "qte": 3,
+        "unite": "pièce"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousses d'ail",
+        "qte": 3,
+        "unite": "gousse"
+      },
+      {
+        "cle": "coriandre",
+        "nom": "coriandre",
+        "qte": 1,
+        "unite": "botte"
+      },
+      {
+        "cle": "cumin",
+        "nom": "cumin",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "paprika",
+        "nom": "paprika",
+        "qte": 2,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 4,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "olive",
+        "nom": "olives vertes",
+        "qte": 60,
+        "unite": "g",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préparer la chermoula : mélanger la moitié de la coriandre hachée, l'ail pressé, le cumin, le paprika, le jus du citron, 3 c. à s. d'huile d'olive, du sel et du poivre.",
+      "Enrober le poisson en morceaux avec la moitié de la chermoula et laisser mariner 15 minutes.",
+      "Étaler les pommes de terre en fines rondelles au fond d'une cocotte huilée avec le reste de l'huile, ajouter le reste de la chermoula, 100 ml d'eau, les poivrons en lanières et les tomates en rondelles ; couvrir et cuire 20 minutes à feu moyen.",
+      "Poser le poisson et les olives sur les légumes, couvrir et cuire 10 à 12 minutes jusqu'à ce que le poisson s'effeuille.",
+      "Parsemer du reste de la coriandre et servir."
+    ],
+    "astuce": "Le cabillaud ou le lieu surgelés conviennent : décongelez-les au frais et épongez-les bien."
+  },
+  {
+    "titre": "Chorba à l'agneau et pois chiches",
+    "categorie": "soupe",
+    "temps": 75,
+    "difficulte": "moyen",
+    "portions": 6,
+    "regimes": [
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "agneau",
+        "nom": "épaule d'agneau en petits dés",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "concentre_tomate",
+        "nom": "concentré de tomate",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "tomate_concassee",
+        "nom": "tomates concassées",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "pois_chiche",
+        "nom": "pois chiches en boîte, égouttés",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "pates",
+        "nom": "vermicelles",
+        "qte": 60,
+        "unite": "g"
+      },
+      {
+        "cle": "coriandre",
+        "nom": "coriandre",
+        "qte": 1,
+        "unite": "botte"
+      },
+      {
+        "cle": "paprika",
+        "nom": "paprika",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "curcuma",
+        "nom": "curcuma",
+        "qte": 0.5,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "cannelle",
+        "nom": "cannelle",
+        "qte": 0.5,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Dorer l'agneau 5 minutes dans l'huile d'olive, ajouter l'oignon haché, le paprika, le curcuma, la cannelle et le concentré de tomate, puis cuire 2 minutes.",
+      "Verser les tomates, 1,5 l d'eau et la moitié de la coriandre hachée, saler, poivrer, couvrir et mijoter 45 minutes.",
+      "Ajouter les pois chiches et les vermicelles, puis cuire encore 10 minutes.",
+      "Parsemer du reste de la coriandre et servir avec des quartiers de citron."
+    ],
+    "astuce": "Cette soupe du ramadan se fait aussi avec du poulet ; elle est encore meilleure réchauffée."
+  },
+  {
+    "titre": "Riz aux vermicelles dorés à la libanaise",
+    "categorie": "accompagnement",
+    "temps": 25,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "riz",
+        "nom": "riz long",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "pates",
+        "nom": "vermicelles",
+        "qte": 60,
+        "unite": "g"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 30,
+        "unite": "g"
+      },
+      {
+        "cle": "pignon",
+        "nom": "pignons de pin",
+        "qte": 20,
+        "unite": "g",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Rincer le riz jusqu'à ce que l'eau soit claire et l'égoutter.",
+      "Faire dorer les vermicelles cassés dans le beurre à feu moyen 2 à 3 minutes en remuant, jusqu'à ce qu'ils soient bien bruns.",
+      "Ajouter le riz, remuer 1 minute, puis verser 500 ml d'eau bouillante salée.",
+      "Couvrir et cuire 15 minutes à feu très doux, puis laisser reposer 5 minutes hors du feu et égrener à la fourchette.",
+      "Parsemer de pignons dorés à sec."
+    ],
+    "astuce": "C'est l'accompagnement parfait des brochettes et des ragoûts ; un reste de spaghetti cassés remplace les vermicelles."
+  },
+  {
+    "titre": "Chilaquiles à la sauce tomate et œufs au plat",
+    "categorie": "plat",
+    "temps": 30,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "tortilla",
+        "nom": "tortillas",
+        "qte": 4,
+        "unite": "pièce"
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 4,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "tomate_concassee",
+        "nom": "tomates concassées",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousse d'ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "piment",
+        "nom": "piment frais",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 4,
+        "unite": "pièce"
+      },
+      {
+        "cle": "feta",
+        "nom": "feta",
+        "qte": 60,
+        "unite": "g"
+      },
+      {
+        "cle": "coriandre",
+        "nom": "coriandre",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "avocat",
+        "nom": "avocat",
+        "qte": 1,
+        "unite": "pièce",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 200 °C, couper les tortillas en triangles, les badigeonner de 2 c. à s. d'huile et les cuire 8 à 10 minutes jusqu'à ce qu'elles soient croustillantes.",
+      "Mixer les tomates avec la moitié de l'oignon, l'ail et le piment, puis cuire cette sauce 8 minutes dans 1 c. à s. d'huile ; saler.",
+      "Hors du feu, plonger les chips de tortilla dans la sauce et mélanger 1 minute pour les enrober.",
+      "Cuire les œufs au plat dans le reste de l'huile.",
+      "Dresser les chilaquiles, poser les œufs, puis parsemer de feta émiettée, du reste de l'oignon émincé, de coriandre et d'avocat en dés."
+    ],
+    "astuce": "Une excellente façon de finir des tortillas un peu sèches ; les chips se préparent à l'avance."
+  },
+  {
+    "titre": "Fajitas de bœuf aux poivrons et oignons",
+    "categorie": "plat",
+    "temps": 30,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "boeuf",
+        "nom": "rumsteck ou bavette",
+        "qte": 500,
+        "unite": "g"
+      },
+      {
+        "cle": "poivron",
+        "nom": "poivrons de couleurs",
+        "qte": 3,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignons",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "citron_vert",
+        "nom": "citron vert",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "cumin",
+        "nom": "cumin",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "paprika",
+        "nom": "paprika",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "piment_poudre",
+        "nom": "piment en poudre",
+        "qte": 0.5,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "ail",
+        "nom": "gousse d'ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "tortilla",
+        "nom": "tortillas",
+        "qte": 8,
+        "unite": "pièce"
+      },
+      {
+        "cle": "creme",
+        "nom": "crème épaisse",
+        "qte": 150,
+        "unite": "ml",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Couper le bœuf en fines lanières et le mélanger avec le cumin, le paprika, le piment, l'ail pressé, le jus du citron vert, 1 c. à s. d'huile et du sel ; laisser 10 minutes.",
+      "Couper les poivrons et les oignons en lanières et les sauter 6 minutes à feu vif dans 1 c. à s. d'huile ; réserver.",
+      "Saisir le bœuf dans le reste de l'huile à feu très vif, 2 à 3 minutes, en deux fois, puis remettre les légumes.",
+      "Chauffer les tortillas 20 secondes de chaque côté dans une poêle sèche.",
+      "Garnir les tortillas de bœuf et de légumes et servir avec la crème."
+    ],
+    "astuce": "Le poulet en lanières fonctionne aussi : prolongez la cuisson jusqu'à ce qu'il soit cuit à cœur."
+  },
+  {
+    "titre": "Tinga de poulet sur tortillas grillées",
+    "categorie": "plat",
+    "temps": 45,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "poulet",
+        "nom": "blancs ou hauts de cuisse de poulet",
+        "qte": 600,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignons",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousses d'ail",
+        "qte": 2,
+        "unite": "gousse"
+      },
+      {
+        "cle": "tomate_concassee",
+        "nom": "tomates concassées",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "paprika",
+        "nom": "paprika fumé",
+        "qte": 2,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "piment_poudre",
+        "nom": "piment en poudre",
+        "qte": 0.5,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "cumin",
+        "nom": "cumin",
+        "qte": 0.5,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "tortilla",
+        "nom": "petites tortillas",
+        "qte": 8,
+        "unite": "pièce"
+      },
+      {
+        "cle": "avocat",
+        "nom": "avocats",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "citron_vert",
+        "nom": "citron vert",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "creme",
+        "nom": "crème épaisse",
+        "qte": 100,
+        "unite": "ml"
+      },
+      {
+        "cle": "coriandre",
+        "nom": "coriandre",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Pocher le poulet 20 minutes dans de l'eau frémissante salée, jusqu'à ce qu'il soit cuit à cœur, puis l'effilocher.",
+      "Faire fondre les oignons émincés 8 minutes dans l'huile, ajouter l'ail haché, le paprika, le piment et le cumin 1 minute, puis les tomates ; mijoter 10 minutes.",
+      "Ajouter le poulet effiloché, saler et laisser 5 minutes pour qu'il s'imprègne.",
+      "Griller les tortillas à sec dans une poêle, 1 minute de chaque côté, jusqu'à ce qu'elles soient tachetées de brun.",
+      "Écraser les avocats avec le jus du citron vert et du sel, puis garnir les tortillas de tinga, d'avocat, de crème et de coriandre."
+    ],
+    "astuce": "Un reste de poulet rôti effiloché remplace le poulet poché : il suffit de le réchauffer dans la sauce."
+  },
+  {
+    "titre": "Porc effiloché façon carnitas",
+    "categorie": "plat",
+    "temps": 210,
+    "difficulte": "facile",
+    "portions": 6,
+    "regimes": [
+      "sans_lactose",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "porc",
+        "nom": "échine de porc",
+        "qte": 1.2,
+        "unite": "kg"
+      },
+      {
+        "cle": "orange",
+        "nom": "orange",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousses d'ail",
+        "qte": 4,
+        "unite": "gousse"
+      },
+      {
+        "cle": "cumin",
+        "nom": "cumin",
+        "qte": 2,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "herbes_provence",
+        "nom": "origan séché",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "tortilla",
+        "nom": "petites tortillas",
+        "qte": 12,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oignon_rouge",
+        "nom": "oignon rouge",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "coriandre",
+        "nom": "coriandre",
+        "qte": 1,
+        "unite": "botte"
+      },
+      {
+        "cle": "citron_vert",
+        "nom": "citrons verts",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 160 °C, couper le porc en cubes de 5 cm et les frotter de sel, de poivre, de cumin et d'origan.",
+      "Mettre la viande en cocotte avec l'oignon en quartiers, l'ail écrasé, le jus de l'orange et 300 ml d'eau ; couvrir et cuire 2 h 30 au four, jusqu'à ce que la viande s'effiloche facilement.",
+      "Effilocher la viande à la fourchette, retirer l'oignon et garder le jus.",
+      "Dorer la viande dans l'huile très chaude 5 à 8 minutes avec quelques cuillerées de jus, jusqu'à ce qu'elle soit croustillante par endroits.",
+      "Servir dans les tortillas chauffées, avec l'oignon rouge haché, la coriandre et des quartiers de citron vert."
+    ],
+    "astuce": "Les restes se congèlent avec leur jus et garnissent des burritos ou des bowls de riz."
+  },
+  {
+    "titre": "Soupe de tortilla à la tomate et avocat",
+    "categorie": "soupe",
+    "temps": 35,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "tortilla",
+        "nom": "tortillas",
+        "qte": 4,
+        "unite": "pièce"
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousses d'ail",
+        "qte": 2,
+        "unite": "gousse"
+      },
+      {
+        "cle": "piment",
+        "nom": "piment frais",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "cumin",
+        "nom": "cumin",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "tomate_concassee",
+        "nom": "tomates concassées",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "bouillon",
+        "nom": "bouillon de légumes",
+        "qte": 1,
+        "unite": "l"
+      },
+      {
+        "cle": "citron_vert",
+        "nom": "citron vert",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "avocat",
+        "nom": "avocat",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "fromage_rape",
+        "nom": "fromage râpé",
+        "qte": 60,
+        "unite": "g"
+      },
+      {
+        "cle": "coriandre",
+        "nom": "coriandre",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 200 °C, couper les tortillas en lanières, les mélanger avec 2 c. à s. d'huile et les cuire 8 à 10 minutes jusqu'à ce qu'elles soient croustillantes.",
+      "Faire revenir l'oignon, l'ail et le piment hachés 5 minutes dans le reste de l'huile, puis ajouter le cumin et les tomates 5 minutes.",
+      "Verser le bouillon, mijoter 15 minutes, puis mixer et ajouter le jus du citron vert et du sel.",
+      "Servir la soupe brûlante garnie de lanières de tortilla, d'avocat en dés, de fromage et de coriandre."
+    ],
+    "astuce": "Ajouter un reste de poulet effiloché ou des haricots rouges en fait un repas complet."
+  },
+  {
+    "titre": "Poulet kung pao aux cacahuètes",
+    "categorie": "plat",
+    "temps": 30,
+    "difficulte": "moyen",
+    "portions": 2,
+    "regimes": [
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "poulet",
+        "nom": "blancs de poulet",
+        "qte": 350,
+        "unite": "g"
+      },
+      {
+        "cle": "cacahuete",
+        "nom": "cacahuètes non salées",
+        "qte": 50,
+        "unite": "g"
+      },
+      {
+        "cle": "poivron",
+        "nom": "poivron vert ou rouge",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oignon_nouveau",
+        "nom": "oignons nouveaux",
+        "qte": 3,
+        "unite": "pièce"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousses d'ail",
+        "qte": 2,
+        "unite": "gousse"
+      },
+      {
+        "cle": "gingembre",
+        "nom": "gingembre frais",
+        "qte": 15,
+        "unite": "g"
+      },
+      {
+        "cle": "piment",
+        "nom": "petits piments",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "sauce_soja",
+        "nom": "sauce soja",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "vinaigre",
+        "nom": "vinaigre de riz ou de cidre",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sucre",
+        "nom": "sucre",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "riz",
+        "nom": "riz",
+        "qte": 150,
+        "unite": "g"
+      }
+    ],
+    "etapes": [
+      "Cuire le riz selon les indications du paquet.",
+      "Couper le poulet en dés et le mélanger avec 1 c. à s. de sauce soja ; laisser 10 minutes. Mélanger le reste de la sauce soja avec le vinaigre, le sucre et 3 c. à s. d'eau.",
+      "Faire dorer les cacahuètes 1 minute dans l'huile très chaude au wok, puis les réserver.",
+      "Saisir le poulet 5 minutes jusqu'à ce qu'il soit cuit à cœur, ajouter l'ail et le gingembre hachés, les piments, le poivron en dés et les blancs d'oignons, puis sauter 2 minutes.",
+      "Verser la sauce, laisser réduire 1 minute jusqu'à ce qu'elle enrobe, ajouter les cacahuètes et les verts d'oignons, puis servir avec le riz."
+    ],
+    "astuce": "Retirer les graines des piments pour une version douce ; des noix de cajou remplacent les cacahuètes."
+  },
+  {
+    "titre": "Porc aigre-doux à l'ananas",
+    "categorie": "plat",
+    "temps": 40,
+    "difficulte": "moyen",
+    "portions": 4,
+    "regimes": [
+      "sans_lactose",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "porc",
+        "nom": "filet ou échine de porc",
+        "qte": 500,
+        "unite": "g"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œuf",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "farine",
+        "nom": "farine",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 5,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "ananas",
+        "nom": "ananas frais ou en boîte",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "poivron",
+        "nom": "poivrons",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "ketchup",
+        "nom": "ketchup",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "vinaigre",
+        "nom": "vinaigre",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sucre",
+        "nom": "sucre",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sauce_soja",
+        "nom": "sauce soja",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "riz",
+        "nom": "riz",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Cuire le riz selon les indications du paquet.",
+      "Couper le porc en cubes de 2 cm, saler, les tremper dans l'œuf battu puis les enrober de farine.",
+      "Les frire dans 4 c. à s. d'huile à feu moyen-vif, en plusieurs fois, 6 à 7 minutes jusqu'à ce qu'ils soient dorés et cuits à cœur ; réserver.",
+      "Faire sauter l'oignon et les poivrons en morceaux 4 minutes dans le reste de l'huile, puis l'ananas en dés 2 minutes.",
+      "Ajouter le ketchup, le vinaigre, le sucre, la sauce soja et 100 ml d'eau, faire bouillir 2 minutes jusqu'à ce que ce soit nappant, puis remettre le porc, mélanger et servir avec le riz."
+    ],
+    "astuce": "Servez dès l'enrobage pour garder le croustillant ; le poulet se prépare exactement de la même façon."
+  },
+  {
+    "titre": "Mapo tofu au bœuf haché",
+    "categorie": "plat",
+    "temps": 25,
+    "difficulte": "moyen",
+    "portions": 2,
+    "regimes": [
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "tofu",
+        "nom": "tofu ferme ou soyeux",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "boeuf_hache",
+        "nom": "bœuf haché",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousses d'ail",
+        "qte": 2,
+        "unite": "gousse"
+      },
+      {
+        "cle": "gingembre",
+        "nom": "gingembre frais",
+        "qte": 10,
+        "unite": "g"
+      },
+      {
+        "cle": "piment",
+        "nom": "piment frais",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "piment_poudre",
+        "nom": "piment en poudre",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "sauce_soja",
+        "nom": "sauce soja",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sucre",
+        "nom": "sucre",
+        "qte": 1,
+        "unite": "pincée"
+      },
+      {
+        "cle": "bouillon",
+        "nom": "bouillon de volaille",
+        "qte": 200,
+        "unite": "ml"
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "oignon_nouveau",
+        "nom": "oignons nouveaux",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "riz",
+        "nom": "riz",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Cuire le riz selon les indications du paquet.",
+      "Couper le tofu en cubes de 2 cm et le plonger 2 minutes dans de l'eau frémissante salée pour le raffermir ; égoutter.",
+      "Faire revenir le bœuf dans l'huile au wok 5 minutes en l'émiettant, jusqu'à ce qu'il soit bien cuit et grillé, puis ajouter l'ail, le gingembre et le piment hachés avec le piment en poudre, 1 minute.",
+      "Verser le bouillon, la sauce soja et le sucre, ajouter le tofu et mijoter 5 minutes en remuant délicatement, jusqu'à ce que la sauce réduise.",
+      "Parsemer d'oignons nouveaux émincés et servir sur le riz."
+    ],
+    "astuce": "Pour une version végétarienne, remplacez le bœuf par des champignons hachés et le bouillon de volaille par un bouillon de légumes."
+  },
+  {
+    "titre": "Poulet sauté au basilic à la thaïe",
+    "categorie": "plat",
+    "temps": 20,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "poulet",
+        "nom": "blancs de poulet",
+        "qte": 350,
+        "unite": "g"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousses d'ail",
+        "qte": 3,
+        "unite": "gousse"
+      },
+      {
+        "cle": "piment",
+        "nom": "petits piments",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "haricot_vert",
+        "nom": "haricots verts",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "sauce_soja",
+        "nom": "sauce soja",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "nuoc_mam",
+        "nom": "sauce poisson",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sucre",
+        "nom": "sucre",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "basilic",
+        "nom": "basilic",
+        "qte": 1,
+        "unite": "botte"
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 2,
+        "unite": "pièce",
+        "optionnel": true
+      },
+      {
+        "cle": "riz",
+        "nom": "riz thaï",
+        "qte": 150,
+        "unite": "g"
+      }
+    ],
+    "etapes": [
+      "Cuire le riz selon les indications du paquet.",
+      "Hacher finement le poulet au couteau, ainsi que l'ail et les piments.",
+      "Faire revenir l'ail et les piments 30 secondes dans 1 c. à s. d'huile au wok, ajouter le poulet et le cuire 5 minutes jusqu'à ce qu'il soit cuit à cœur.",
+      "Ajouter les haricots verts en tronçons avec 2 c. à s. d'eau et sauter 3 minutes, puis la sauce soja, la sauce poisson et le sucre 1 minute ; hors du feu, ajouter les feuilles de basilic.",
+      "Cuire les œufs au plat dans le reste de l'huile, bien croustillants sur les bords, et servir sur le riz avec le poulet."
+    ],
+    "astuce": "Le basilic thaï est idéal, mais le basilic ordinaire marche très bien ; un reste de haricots verts cuits s'ajoute à la fin."
+  },
+  {
+    "titre": "Poulet teriyaki, riz et concombre au sésame",
+    "categorie": "plat",
+    "temps": 30,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "poulet",
+        "nom": "hauts de cuisse de poulet désossés",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "sauce_soja",
+        "nom": "sauce soja",
+        "qte": 4,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "miel",
+        "nom": "miel",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "vinaigre",
+        "nom": "vinaigre de riz ou de cidre",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "gingembre",
+        "nom": "gingembre frais",
+        "qte": 10,
+        "unite": "g"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousse d'ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "concombre",
+        "nom": "concombre",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "graine",
+        "nom": "graines de sésame",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "riz",
+        "nom": "riz",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Cuire le riz selon les indications du paquet.",
+      "Trancher finement le concombre, le saler légèrement, puis le mélanger avec la moitié du vinaigre et la moitié du sésame.",
+      "Mélanger la sauce soja, le miel, le reste du vinaigre, le gingembre râpé et l'ail pressé.",
+      "Cuire le poulet côté peau dans l'huile à feu moyen 8 minutes jusqu'à ce qu'il soit croustillant, le retourner et cuire 5 minutes jusqu'à ce qu'il soit cuit à cœur ; retirer l'excès de gras.",
+      "Verser la sauce et laquer le poulet 2 à 3 minutes en l'arrosant, puis le trancher et servir avec le riz, le concombre et le reste du sésame."
+    ],
+    "astuce": "La sauce teriyaki se garde une semaine au frais : doublez les quantités pour laquer aussi des légumes ou du tofu."
+  },
+  {
+    "titre": "Porc pané à la japonaise, sauce curry",
+    "categorie": "plat",
+    "temps": 50,
+    "difficulte": "moyen",
+    "portions": 4,
+    "regimes": [
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "porc",
+        "nom": "côtelettes de porc désossées de 1,5 cm",
+        "qte": 4,
+        "unite": "pièce"
+      },
+      {
+        "cle": "farine",
+        "nom": "farine",
+        "qte": 5,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "chapelure",
+        "nom": "chapelure (idéalement panko)",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 150,
+        "unite": "ml"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 30,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "carotte",
+        "nom": "carottes",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "pomme_de_terre",
+        "nom": "pommes de terre",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "curry",
+        "nom": "curry en poudre",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "bouillon",
+        "nom": "bouillon de volaille",
+        "qte": 600,
+        "unite": "ml"
+      },
+      {
+        "cle": "pomme",
+        "nom": "pomme",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "sauce_soja",
+        "nom": "sauce soja",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "riz",
+        "nom": "riz rond",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Cuire le riz selon les indications du paquet.",
+      "Faire fondre l'oignon émincé 5 minutes dans le beurre, ajouter les carottes et les pommes de terre en dés 2 minutes, puis 2 c. à s. de farine et le curry, 1 minute.",
+      "Verser le bouillon en fouettant, ajouter la pomme râpée et la sauce soja, puis mijoter 20 minutes jusqu'à ce que les légumes soient tendres et la sauce épaisse.",
+      "Saler, poivrer le porc, puis le passer dans le reste de la farine, les œufs battus et la chapelure en pressant bien.",
+      "Frire dans l'huile chaude, 4 à 5 minutes par face à feu moyen, jusqu'à ce que la panure soit dorée et le porc cuit à cœur ; laisser reposer 2 minutes.",
+      "Trancher le porc et le servir sur le riz, nappé de sauce curry."
+    ],
+    "astuce": "La sauce curry se congèle très bien ; elle accompagne aussi un reste de poulet ou des légumes rôtis."
+  },
+  {
+    "titre": "Nikujaga au bœuf et pommes de terre",
+    "categorie": "plat",
+    "temps": 45,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "boeuf",
+        "nom": "bœuf émincé très finement",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "pomme_de_terre",
+        "nom": "pommes de terre",
+        "qte": 600,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignons",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "carotte",
+        "nom": "carottes",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "gingembre",
+        "nom": "gingembre frais",
+        "qte": 10,
+        "unite": "g"
+      },
+      {
+        "cle": "sucre",
+        "nom": "sucre",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sauce_soja",
+        "nom": "sauce soja",
+        "qte": 4,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "petit_pois",
+        "nom": "petits pois surgelés",
+        "qte": 100,
+        "unite": "g"
+      },
+      {
+        "cle": "riz",
+        "nom": "riz rond",
+        "qte": 250,
+        "unite": "g"
+      }
+    ],
+    "etapes": [
+      "Cuire le riz selon les indications du paquet.",
+      "Couper les pommes de terre en gros morceaux, les carottes en biseaux et les oignons en quartiers.",
+      "Faire revenir le bœuf 2 minutes dans l'huile en cocotte, ajouter les légumes et remuer 2 minutes.",
+      "Verser 500 ml d'eau, ajouter le sucre et le gingembre en lamelles, porter à ébullition en écumant et cuire 5 minutes.",
+      "Ajouter la sauce soja, poser une feuille de papier cuisson directement sur les légumes et mijoter 20 minutes jusqu'à ce que les pommes de terre soient tendres.",
+      "Ajouter les petits pois 3 minutes et servir dans des bols avec le riz."
+    ],
+    "astuce": "Ce ragoût sucré-salé japonais est encore meilleur le lendemain, quand les pommes de terre ont bu le jus."
+  },
+  {
+    "titre": "Tofu braisé à la coréenne, épinards au sésame",
+    "categorie": "plat",
+    "temps": 30,
+    "difficulte": "facile",
+    "portions": 2,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "tofu",
+        "nom": "tofu ferme",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sauce_soja",
+        "nom": "sauce soja",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sucre",
+        "nom": "sucre",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "piment_poudre",
+        "nom": "piment en poudre",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "ail",
+        "nom": "gousses d'ail",
+        "qte": 2,
+        "unite": "gousse"
+      },
+      {
+        "cle": "oignon_nouveau",
+        "nom": "oignons nouveaux",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "epinard",
+        "nom": "épinards frais",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "graine",
+        "nom": "graines de sésame",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "riz",
+        "nom": "riz",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Cuire le riz selon les indications du paquet.",
+      "Couper le tofu en tranches de 1 cm, bien les éponger et les dorer 3 à 4 minutes par face dans 1,5 c. à s. d'huile.",
+      "Mélanger la sauce soja, le sucre, le piment, l'ail pressé, les blancs d'oignons émincés et 100 ml d'eau, verser sur le tofu et mijoter 6 à 8 minutes en arrosant, jusqu'à ce que la sauce devienne sirupeuse.",
+      "Blanchir les épinards 1 minute dans de l'eau bouillante, les presser, puis les assaisonner avec le reste de l'huile, la moitié du sésame et une pincée de sel.",
+      "Servir le tofu sur le riz avec les épinards, parsemé des verts d'oignons et du reste du sésame."
+    ],
+    "astuce": "Le tofu braisé se mange aussi froid, en lunch box ; il se garde 3 jours au frais."
+  },
+  {
+    "titre": "Galettes coréennes aux oignons nouveaux",
+    "categorie": "entree",
+    "temps": 25,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "farine",
+        "nom": "farine",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œuf",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oignon_nouveau",
+        "nom": "oignons nouveaux",
+        "qte": 1,
+        "unite": "botte"
+      },
+      {
+        "cle": "carotte",
+        "nom": "carotte",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sauce_soja",
+        "nom": "sauce soja",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "vinaigre",
+        "nom": "vinaigre de riz ou de cidre",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "graine",
+        "nom": "graines de sésame",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "piment_poudre",
+        "nom": "piment en poudre",
+        "qte": 1,
+        "unite": "pincée",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Mélanger la farine, 200 ml d'eau froide, l'œuf et une pincée de sel jusqu'à obtenir une pâte lisse.",
+      "Couper les oignons nouveaux en tronçons de 5 cm et la carotte en fine julienne, puis les ajouter à la pâte.",
+      "Chauffer 1,5 c. à s. d'huile à feu moyen-vif, étaler finement la moitié de la pâte et cuire 4 minutes jusqu'à ce que le dessous soit doré et croustillant, puis retourner et cuire 3 minutes.",
+      "Recommencer avec le reste de l'huile et de la pâte.",
+      "Mélanger la sauce soja, le vinaigre, le sésame et le piment, et servir les galettes coupées en losanges avec cette sauce."
+    ],
+    "astuce": "Un fond de courgette, de chou ou de crevettes s'ajoute facilement à la pâte."
+  },
+  {
+    "titre": "Baguettes garnies au porc caramélisé et pickles de carotte",
+    "categorie": "plat",
+    "temps": 45,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "sans_lactose",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "porc",
+        "nom": "filet mignon de porc",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "sauce_soja",
+        "nom": "sauce soja",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "nuoc_mam",
+        "nom": "sauce poisson",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sucre",
+        "nom": "sucre",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "ail",
+        "nom": "gousses d'ail",
+        "qte": 2,
+        "unite": "gousse"
+      },
+      {
+        "cle": "carotte",
+        "nom": "carottes",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "vinaigre",
+        "nom": "vinaigre",
+        "qte": 100,
+        "unite": "ml"
+      },
+      {
+        "cle": "concombre",
+        "nom": "concombre",
+        "qte": 0.5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "pain",
+        "nom": "petites baguettes",
+        "qte": 4,
+        "unite": "pièce"
+      },
+      {
+        "cle": "mayonnaise",
+        "nom": "mayonnaise",
+        "qte": 4,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "coriandre",
+        "nom": "coriandre",
+        "qte": 1,
+        "unite": "botte"
+      },
+      {
+        "cle": "piment",
+        "nom": "piment frais",
+        "qte": 1,
+        "unite": "pièce",
+        "optionnel": true
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Couper les carottes en fine julienne et les mettre dans le vinaigre avec 100 ml d'eau, 2 c. à s. de sucre et une pincée de sel ; laisser mariner 30 minutes.",
+      "Pendant ce temps, trancher finement le porc et le mélanger avec la sauce soja, la sauce poisson, le reste du sucre et l'ail pressé ; laisser 15 minutes.",
+      "Saisir le porc dans l'huile à feu vif, en deux fois, 3 à 4 minutes jusqu'à ce qu'il soit caramélisé et cuit à cœur.",
+      "Ouvrir les baguettes tiédies au four, les tartiner de mayonnaise et les garnir de porc, de carottes égouttées, de lamelles de concombre, de coriandre et de piment."
+    ],
+    "astuce": "Les pickles de carotte se gardent une semaine au frais en bocal et relèvent aussi salades et bols de riz."
+  },
+  {
+    "titre": "Soupe pho au bœuf, gingembre et herbes fraîches",
+    "categorie": "soupe",
+    "temps": 60,
+    "difficulte": "moyen",
+    "portions": 4,
+    "regimes": [
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "bouillon",
+        "nom": "bouillon de bœuf",
+        "qte": 1.5,
+        "unite": "l"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "gingembre",
+        "nom": "gingembre frais",
+        "qte": 40,
+        "unite": "g"
+      },
+      {
+        "cle": "cannelle",
+        "nom": "bâton de cannelle",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "nuoc_mam",
+        "nom": "sauce poisson",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "sucre",
+        "nom": "sucre",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "pates",
+        "nom": "nouilles de riz plates",
+        "qte": 250,
+        "unite": "g"
+      },
+      {
+        "cle": "boeuf",
+        "nom": "rumsteck",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon_nouveau",
+        "nom": "oignons nouveaux",
+        "qte": 3,
+        "unite": "pièce"
+      },
+      {
+        "cle": "coriandre",
+        "nom": "coriandre",
+        "qte": 1,
+        "unite": "botte"
+      },
+      {
+        "cle": "basilic",
+        "nom": "basilic",
+        "qte": 0.5,
+        "unite": "botte",
+        "optionnel": true
+      },
+      {
+        "cle": "citron_vert",
+        "nom": "citron vert",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "piment",
+        "nom": "piment frais",
+        "qte": 1,
+        "unite": "pièce",
+        "optionnel": true
+      }
+    ],
+    "etapes": [
+      "Couper l'oignon en deux et le gingembre en tranches, puis les noircir 5 minutes à sec dans une poêle.",
+      "Les mettre dans le bouillon avec la cannelle et 500 ml d'eau, frémir 30 minutes, puis filtrer et ajouter la sauce poisson et le sucre.",
+      "Pendant ce temps, placer le bœuf 20 minutes au congélateur pour le trancher très finement, puis cuire les nouilles selon le paquet et les rincer.",
+      "Répartir les nouilles dans de grands bols, poser dessus le bœuf cru en tranches fines et verser le bouillon bouillant, qui le cuit instantanément.",
+      "Garnir d'oignons nouveaux émincés, de coriandre, de basilic, de piment et de quartiers de citron vert."
+    ],
+    "astuce": "Le bouillon parfumé se congèle ; un reste de poulet effiloché remplace le bœuf."
+  },
+  {
+    "titre": "Chana masala aux tomates",
+    "categorie": "plat",
+    "temps": 40,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "vegan",
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pois_chiche",
+        "nom": "pois chiches en boîte, égouttés",
+        "qte": 800,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignons",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousses d'ail",
+        "qte": 3,
+        "unite": "gousse"
+      },
+      {
+        "cle": "gingembre",
+        "nom": "gingembre frais",
+        "qte": 20,
+        "unite": "g"
+      },
+      {
+        "cle": "cumin",
+        "nom": "cumin",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "curcuma",
+        "nom": "curcuma",
+        "qte": 0.5,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "piment_poudre",
+        "nom": "piment en poudre",
+        "qte": 0.5,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "tomate_concassee",
+        "nom": "tomates concassées",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "curry",
+        "nom": "garam masala",
+        "qte": 2,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 0.5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "coriandre",
+        "nom": "coriandre",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "riz",
+        "nom": "riz basmati",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Cuire le riz selon les indications du paquet.",
+      "Faire dorer les oignons finement hachés dans l'huile 10 minutes, jusqu'à ce qu'ils soient bien bruns.",
+      "Ajouter l'ail et le gingembre râpés, le cumin, le curcuma et le piment, puis cuire 1 minute en remuant.",
+      "Verser les tomates et cuire 8 minutes, puis ajouter les pois chiches et 200 ml d'eau ; mijoter 15 minutes en écrasant une partie des pois chiches.",
+      "Ajouter le garam masala, le jus du citron et du sel, parsemer de coriandre et servir avec le riz."
+    ],
+    "astuce": "Une poignée d'épinards en fin de cuisson ou un reste de pommes de terre en dés complètent bien ce curry."
+  },
+  {
+    "titre": "Biryani de poulet au yaourt",
+    "categorie": "plat",
+    "temps": 80,
+    "difficulte": "moyen",
+    "portions": 4,
+    "regimes": [
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "poulet",
+        "nom": "hauts de cuisse de poulet désossés",
+        "qte": 600,
+        "unite": "g"
+      },
+      {
+        "cle": "yaourt",
+        "nom": "yaourt nature",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "curry",
+        "nom": "garam masala",
+        "qte": 2,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "curcuma",
+        "nom": "curcuma",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "ail",
+        "nom": "gousses d'ail",
+        "qte": 3,
+        "unite": "gousse"
+      },
+      {
+        "cle": "gingembre",
+        "nom": "gingembre frais",
+        "qte": 20,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignons",
+        "qte": 3,
+        "unite": "pièce"
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 4,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "riz",
+        "nom": "riz basmati",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "raisin_sec",
+        "nom": "raisins secs",
+        "qte": 40,
+        "unite": "g",
+        "optionnel": true
+      },
+      {
+        "cle": "coriandre",
+        "nom": "coriandre",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "menthe",
+        "nom": "menthe fraîche",
+        "qte": 2,
+        "unite": "c. à s.",
+        "optionnel": true
+      },
+      {
+        "cle": "amande",
+        "nom": "amandes effilées",
+        "qte": 30,
+        "unite": "g",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Couper le poulet en morceaux et le mélanger avec le yaourt, le garam masala, le curcuma, l'ail et le gingembre râpés et du sel ; laisser mariner 20 minutes.",
+      "Pendant ce temps, faire dorer les oignons finement émincés dans l'huile 15 minutes jusqu'à ce qu'ils soient bruns et croustillants, puis en réserver un tiers.",
+      "Rincer le riz et le cuire 6 minutes dans de l'eau bouillante salée, puis l'égoutter : il doit rester ferme.",
+      "Ajouter le poulet et sa marinade aux oignons dans la cocotte et cuire 10 minutes en remuant.",
+      "Couvrir avec le riz, parsemer de raisins secs, de coriandre et de menthe, fermer hermétiquement et cuire 25 minutes à feu très doux, jusqu'à ce que le poulet soit cuit à cœur et le riz tendre.",
+      "Servir parsemé des oignons frits réservés et des amandes dorées."
+    ],
+    "astuce": "Un torchon glissé sous le couvercle garde la vapeur ; les restes se réchauffent avec une cuillerée d'eau."
+  },
+  {
+    "titre": "Keema de bœuf haché aux petits pois",
+    "categorie": "plat",
+    "temps": 35,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "boeuf_hache",
+        "nom": "bœuf haché",
+        "qte": 500,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousses d'ail",
+        "qte": 2,
+        "unite": "gousse"
+      },
+      {
+        "cle": "gingembre",
+        "nom": "gingembre frais",
+        "qte": 15,
+        "unite": "g"
+      },
+      {
+        "cle": "cumin",
+        "nom": "cumin",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "curry",
+        "nom": "curry ou garam masala",
+        "qte": 2,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "tomate_concassee",
+        "nom": "tomates concassées",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "petit_pois",
+        "nom": "petits pois surgelés",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "yaourt",
+        "nom": "yaourt nature",
+        "qte": 100,
+        "unite": "g",
+        "optionnel": true
+      },
+      {
+        "cle": "coriandre",
+        "nom": "coriandre",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "riz",
+        "nom": "riz basmati",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Cuire le riz selon les indications du paquet.",
+      "Faire revenir l'oignon haché 6 minutes dans l'huile, puis l'ail et le gingembre râpés avec le cumin, 1 minute.",
+      "Ajouter le bœuf et le cuire 8 minutes en l'émiettant, jusqu'à ce qu'il ne soit plus rose, puis le curry, les tomates et 100 ml d'eau ; mijoter 10 minutes.",
+      "Ajouter les petits pois et cuire 5 minutes, puis saler.",
+      "Servir avec le riz, un peu de yaourt et la coriandre."
+    ],
+    "astuce": "Le keema garnit aussi des pains pita ou des pommes de terre au four ; il se congèle sans problème."
+  },
+  {
+    "titre": "Naan à la poêle au yaourt",
+    "categorie": "accompagnement",
+    "temps": 45,
+    "difficulte": "facile",
+    "portions": 6,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "farine",
+        "nom": "farine",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "levure",
+        "nom": "levure chimique",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "sucre",
+        "nom": "sucre",
+        "qte": 1,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "yaourt",
+        "nom": "yaourt nature",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 30,
+        "unite": "g"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousse d'ail",
+        "qte": 1,
+        "unite": "gousse",
+        "optionnel": true
+      },
+      {
+        "cle": "coriandre",
+        "nom": "coriandre",
+        "qte": 2,
+        "unite": "c. à s.",
+        "optionnel": true
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Mélanger la farine, la levure, le sucre et une pincée de sel, puis ajouter le yaourt, l'huile et 80 ml d'eau tiède.",
+      "Pétrir 3 minutes jusqu'à obtenir une pâte souple, couvrir et laisser reposer 20 minutes.",
+      "Diviser en 6 boules et les abaisser en ovales de 3 à 4 mm d'épaisseur.",
+      "Cuire dans une poêle très chaude sans matière grasse, 1 à 2 minutes jusqu'à ce que des bulles se forment, puis retourner et cuire 1 minute jusqu'à ce que des taches brunes apparaissent.",
+      "Badigeonner aussitôt de beurre fondu mélangé à l'ail pressé et à la coriandre hachée."
+    ],
+    "astuce": "Les naans se congèlent une fois cuits ; quelques secondes à la poêle suffisent pour les réchauffer."
+  },
+  {
+    "titre": "Mafé de poulet à la cacahuète",
+    "categorie": "plat",
+    "temps": 65,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "poulet",
+        "nom": "hauts de cuisse de poulet",
+        "qte": 800,
+        "unite": "g"
+      },
+      {
+        "cle": "cacahuete",
+        "nom": "beurre de cacahuète non sucré",
+        "qte": 120,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignons",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousses d'ail",
+        "qte": 2,
+        "unite": "gousse"
+      },
+      {
+        "cle": "concentre_tomate",
+        "nom": "concentré de tomate",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "tomate_concassee",
+        "nom": "tomates concassées",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "carotte",
+        "nom": "carottes",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "patate_douce",
+        "nom": "patate douce",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "piment",
+        "nom": "piment frais entier",
+        "qte": 1,
+        "unite": "pièce",
+        "optionnel": true
+      },
+      {
+        "cle": "bouillon",
+        "nom": "bouillon de volaille chaud",
+        "qte": 500,
+        "unite": "ml"
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "riz",
+        "nom": "riz",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Dorer les morceaux de poulet 8 minutes dans l'huile en cocotte ; réserver.",
+      "Faire revenir les oignons et l'ail hachés 5 minutes, ajouter le concentré de tomate 1 minute, puis les tomates.",
+      "Délayer le beurre de cacahuète dans le bouillon chaud et le verser dans la cocotte.",
+      "Remettre le poulet avec les carottes et la patate douce en gros cubes et le piment entier, couvrir et mijoter 35 minutes en remuant de temps en temps pour que ça n'attache pas, jusqu'à ce que le poulet soit cuit à cœur.",
+      "Pendant ce temps, cuire le riz ; saler le mafé et servir."
+    ],
+    "astuce": "Le mafé accueille tous les légumes qui traînent : chou, courge, navet ; il est encore meilleur réchauffé."
+  },
+  {
+    "titre": "Poulet yassa aux oignons et citron",
+    "categorie": "plat",
+    "temps": 130,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "sans_lactose",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "poulet",
+        "nom": "cuisses de poulet",
+        "qte": 4,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignons",
+        "qte": 5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "citron",
+        "nom": "citrons",
+        "qte": 3,
+        "unite": "pièce"
+      },
+      {
+        "cle": "moutarde",
+        "nom": "moutarde",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "ail",
+        "nom": "gousses d'ail",
+        "qte": 3,
+        "unite": "gousse"
+      },
+      {
+        "cle": "piment",
+        "nom": "piment frais",
+        "qte": 1,
+        "unite": "pièce",
+        "optionnel": true
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 4,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "olive",
+        "nom": "olives vertes",
+        "qte": 50,
+        "unite": "g",
+        "optionnel": true
+      },
+      {
+        "cle": "riz",
+        "nom": "riz",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Mélanger le poulet avec les oignons émincés, le jus des citrons, la moutarde, l'ail pressé, le piment émincé, 2 c. à s. d'huile, du sel et du poivre ; laisser mariner au moins 1 heure au frais.",
+      "Égoutter le poulet et le dorer 10 minutes dans le reste de l'huile en cocotte ; réserver.",
+      "Égoutter les oignons de la marinade et les faire fondre 15 minutes dans la cocotte jusqu'à ce qu'ils soient tendres et légèrement dorés.",
+      "Ajouter le liquide de la marinade, 150 ml d'eau, le poulet et les olives, couvrir et mijoter 30 minutes, jusqu'à ce que la viande soit cuite à cœur.",
+      "Pendant ce temps, cuire le riz et servir avec le poulet et ses oignons."
+    ],
+    "astuce": "Mariné la veille, il est encore plus parfumé ; c'est un bon moyen d'écouler un filet d'oignons."
+  },
+  {
+    "titre": "Bobotie au bœuf haché et raisins secs",
+    "categorie": "plat",
+    "temps": 70,
+    "difficulte": "moyen",
+    "portions": 4,
+    "regimes": [
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "boeuf_hache",
+        "nom": "bœuf haché",
+        "qte": 500,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "pain_mie",
+        "nom": "pain de mie",
+        "qte": 2,
+        "unite": "tranche"
+      },
+      {
+        "cle": "lait",
+        "nom": "lait",
+        "qte": 250,
+        "unite": "ml"
+      },
+      {
+        "cle": "curry",
+        "nom": "curry en poudre",
+        "qte": 1,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "curcuma",
+        "nom": "curcuma",
+        "qte": 0.5,
+        "unite": "c. à c."
+      },
+      {
+        "cle": "raisin_sec",
+        "nom": "raisins secs",
+        "qte": 40,
+        "unite": "g"
+      },
+      {
+        "cle": "confiture",
+        "nom": "confiture d'abricots",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 0.5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "oeuf",
+        "nom": "œufs",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "amande",
+        "nom": "amandes effilées",
+        "qte": 20,
+        "unite": "g",
+        "optionnel": true
+      },
+      {
+        "cle": "riz",
+        "nom": "riz",
+        "qte": 300,
+        "unite": "g"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 180 °C et faire tremper le pain de mie dans la moitié du lait.",
+      "Faire revenir l'oignon haché 5 minutes dans l'huile, ajouter le bœuf et le cuire 8 minutes en l'émiettant jusqu'à ce qu'il ne soit plus rose, puis le curry et le curcuma 1 minute.",
+      "Hors du feu, ajouter le pain essoré (garder son lait), les raisins secs, la confiture, le jus du citron et du sel, puis tasser dans un plat à gratin.",
+      "Battre les œufs avec le reste du lait et le lait d'essorage, verser sur la viande et parsemer d'amandes.",
+      "Cuire 35 minutes jusqu'à ce que la crème soit prise et dorée ; pendant ce temps, cuire le riz."
+    ],
+    "astuce": "Ce gratin sud-africain sucré-salé est idéal pour écouler du pain rassis ; il se réchauffe très bien."
+  },
+  {
+    "titre": "Soupe à la farine bâloise",
+    "categorie": "soupe",
+    "temps": 50,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "sans_porc"
+    ],
+    "ingredients": [
+      {
+        "cle": "farine",
+        "nom": "farine",
+        "qte": 60,
+        "unite": "g"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 50,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignons",
+        "qte": 2,
+        "unite": "pièce"
+      },
+      {
+        "cle": "bouillon",
+        "nom": "bouillon de légumes froid",
+        "qte": 1.2,
+        "unite": "l"
+      },
+      {
+        "cle": "vin_rouge",
+        "nom": "vin rouge",
+        "qte": 100,
+        "unite": "ml",
+        "optionnel": true
+      },
+      {
+        "cle": "gruyere",
+        "nom": "gruyère râpé",
+        "qte": 80,
+        "unite": "g"
+      },
+      {
+        "cle": "muscade",
+        "nom": "noix de muscade",
+        "qte": 1,
+        "unite": "pincée"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Torréfier la farine à sec dans une casserole à feu moyen, 10 à 15 minutes en remuant sans arrêt, jusqu'à ce qu'elle prenne une couleur noisette.",
+      "Ajouter le beurre et les oignons finement émincés, puis cuire 5 minutes en remuant.",
+      "Verser le bouillon froid d'un coup en fouettant pour éviter les grumeaux, puis le vin rouge.",
+      "Mijoter 30 minutes à petit feu en remuant de temps en temps, puis saler, poivrer et ajouter la muscade.",
+      "Servir brûlant, parsemé de gruyère râpé."
+    ],
+    "astuce": "La soupe du carnaval de Bâle : surveillez bien la farine, elle passe vite du brun au brûlé."
+  },
+  {
+    "titre": "Pasta e fagioli aux haricots rouges et parmesan",
+    "categorie": "soupe",
+    "temps": 40,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "vegetarien",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "haricot_rouge",
+        "nom": "haricots rouges ou borlotti en boîte, égouttés",
+        "qte": 400,
+        "unite": "g"
+      },
+      {
+        "cle": "pates",
+        "nom": "petites pâtes (ditalini, coquillettes)",
+        "qte": 120,
+        "unite": "g"
+      },
+      {
+        "cle": "oignon",
+        "nom": "oignon",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "carotte",
+        "nom": "carotte",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "celeri",
+        "nom": "branche de céleri",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "ail",
+        "nom": "gousse d'ail",
+        "qte": 1,
+        "unite": "gousse"
+      },
+      {
+        "cle": "herbes_provence",
+        "nom": "branche de romarin",
+        "qte": 1,
+        "unite": "pièce"
+      },
+      {
+        "cle": "tomate_concassee",
+        "nom": "tomates concassées",
+        "qte": 200,
+        "unite": "g"
+      },
+      {
+        "cle": "bouillon",
+        "nom": "bouillon de légumes",
+        "qte": 1,
+        "unite": "l"
+      },
+      {
+        "cle": "huile_olive",
+        "nom": "huile d'olive",
+        "qte": 3,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "parmesan",
+        "nom": "parmesan râpé",
+        "qte": 40,
+        "unite": "g"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Faire revenir l'oignon, la carotte et le céleri finement hachés dans 2 c. à s. d'huile d'olive 8 minutes, puis l'ail haché et le romarin 1 minute.",
+      "Ajouter les tomates 3 minutes, puis les haricots et le bouillon ; mijoter 15 minutes.",
+      "Écraser un tiers des haricots à la fourchette pour épaissir la soupe.",
+      "Ajouter les pâtes et les cuire dans la soupe le temps indiqué sur le paquet, en remuant souvent.",
+      "Retirer le romarin, saler, poivrer, arroser du reste de l'huile et servir avec le parmesan."
+    ],
+    "astuce": "Les petits bouts de pâtes de fonds de paquets mélangés sont parfaits ici ; une croûte de parmesan mijotée dans le bouillon ajoute du goût."
+  },
+  {
+    "titre": "Galettes de rösti au saumon fumé et crème à l'aneth",
+    "categorie": "entree",
+    "temps": 35,
+    "difficulte": "facile",
+    "portions": 4,
+    "regimes": [
+      "sans_gluten",
+      "sans_porc",
+      "sans_alcool"
+    ],
+    "ingredients": [
+      {
+        "cle": "pomme_de_terre",
+        "nom": "pommes de terre fermes",
+        "qte": 500,
+        "unite": "g"
+      },
+      {
+        "cle": "beurre",
+        "nom": "beurre",
+        "qte": 30,
+        "unite": "g"
+      },
+      {
+        "cle": "huile",
+        "nom": "huile neutre",
+        "qte": 2,
+        "unite": "c. à s."
+      },
+      {
+        "cle": "saumon_fume",
+        "nom": "saumon fumé",
+        "qte": 150,
+        "unite": "g"
+      },
+      {
+        "cle": "creme",
+        "nom": "crème épaisse",
+        "qte": 100,
+        "unite": "ml"
+      },
+      {
+        "cle": "aneth",
+        "nom": "aneth",
+        "qte": 0.5,
+        "unite": "botte"
+      },
+      {
+        "cle": "citron",
+        "nom": "citron",
+        "qte": 0.5,
+        "unite": "pièce"
+      },
+      {
+        "cle": "sel",
+        "nom": "sel",
+        "qte": null,
+        "unite": ""
+      },
+      {
+        "cle": "poivre",
+        "nom": "poivre",
+        "qte": null,
+        "unite": ""
+      }
+    ],
+    "etapes": [
+      "Râper grossièrement les pommes de terre crues, les presser fortement dans un torchon, puis saler et poivrer.",
+      "Chauffer le beurre et l'huile à feu moyen, déposer 8 petits tas de pommes de terre et les aplatir.",
+      "Cuire 5 à 6 minutes par face jusqu'à ce qu'ils soient dorés et croustillants, puis les égoutter sur du papier absorbant.",
+      "Mélanger la crème avec l'aneth ciselé, le zeste et le jus du citron et du poivre.",
+      "Dresser les galettes avec le saumon fumé et une cuillerée de crème à l'aneth."
+    ],
+    "astuce": "Les petits röstis se préparent à l'avance et se réchauffent 5 minutes au four à 200 °C."
+  }
+]
