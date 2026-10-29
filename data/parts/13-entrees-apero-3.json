@@ -547,7 +547,7 @@
   {
     "titre": "Flans de carottes au cumin",
     "categorie": "entree",
-    "temps": 50,
+    "temps": 55,
     "difficulte": "facile",
     "portions": 4,
     "regimes": [
@@ -673,7 +673,7 @@
     "etapes": [
       "Préchauffer le four à 200 °C et beurrer généreusement un moule à soufflé de 1,5 l avec un peu du beurre.",
       "Faire fondre le reste du beurre, ajouter la farine et cuire 1 minute, puis verser le lait en fouettant et laisser épaissir 3 minutes à feu doux.",
-      "Hors du feu, incorporer les jaunes d'œufs un à un, le gruyère, la muscade, le sel et le poivre.",
+      "Séparer les blancs des jaunes. Hors du feu, incorporer les jaunes un à un, le gruyère, la muscade, le sel et le poivre.",
       "Monter les blancs en neige ferme avec une pincée de sel et les incorporer délicatement à la spatule, en deux fois.",
       "Verser dans le moule et cuire 25 minutes sans ouvrir le four, jusqu'à ce que le soufflé soit bien gonflé et doré ; servir immédiatement."
     ],
@@ -962,7 +962,7 @@
   {
     "titre": "Poivrons grillés marinés, feta et basilic",
     "categorie": "entree",
-    "temps": 55,
+    "temps": 60,
     "difficulte": "facile",
     "portions": 4,
     "regimes": [
@@ -1560,7 +1560,7 @@
       },
       {
         "cle": "beurre",
-        "nom": "beurre mou",
+        "nom": "beurre froid",
         "qte": 100,
         "unite": "g"
       },
@@ -2235,7 +2235,7 @@
     "etapes": [
       "Éplucher les pommes de terre et les couper en morceaux ; détailler le brocoli en bouquets et peler la tige avant de la couper en dés.",
       "Cuire les pommes de terre et les gousses d'ail pelées 10 minutes à l'eau salée, ajouter le brocoli et poursuivre 10 minutes.",
-      "Égoutter, puis écraser au presse-purée avec le beurre et le lait chaud.",
+      "Égoutter, puis écraser au presse-purée avec le beurre et le lait chauffé à part.",
       "Assaisonner de sel, de poivre et de muscade."
     ],
     "astuce": "Un brocoli qui commence à jaunir trouve ici une seconde vie."
@@ -2313,7 +2313,7 @@
     "etapes": [
       "Préchauffer le four à 180 °C.",
       "Émincer l'oignon et l'ail, les faire fondre 5 minutes dans 1 c. à s. d'huile d'olive et les étaler au fond d'un plat à gratin.",
-      "Couper la courgette, l'aubergine et les tomates en rondelles de 5 mm et les ranger debout, serrées, en les alternant.",
+      "Couper les courgettes, l'aubergine et les tomates en rondelles de 5 mm et les ranger debout, serrées, en les alternant.",
       "Saler, poivrer, parsemer d'herbes et arroser du reste de l'huile d'olive.",
       "Cuire 30 minutes couvert d'aluminium, puis 30 minutes à découvert, jusqu'à ce que les légumes soient fondants et dorés sur le dessus."
     ],
@@ -3175,7 +3175,7 @@
       "Répartir le chou-fleur sur la pâte, verser l'appareil et parsemer du reste du gruyère.",
       "Cuire 35 à 40 minutes, jusqu'à ce que la tarte soit prise et gratinée."
     ],
-    "astuce": "Un demi chou-fleur oublié suffit ; le brocoli fonctionne de la même façon."
+    "astuce": "Un demi-chou-fleur oublié suffit ; le brocoli fonctionne de la même façon."
   },
   {
     "titre": "Tarte courgette, ricotta et citron",
