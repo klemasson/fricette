@@ -35,6 +35,12 @@ export function InstallApp({ banner = false }) {
     upd();
     window.addEventListener("frc:installable", upd);
     if (banner && loadLocal("frc-install-hide", 0) > Date.now()) setHidden(true);
+    // Le bandeau n'apparaît qu'à partir de la 2e visite : pas de sollicitation à la toute première arrivée.
+    if (banner) {
+      const n = loadLocal("frc-visits", 0);
+      if (!sessionStorage.getItem("frc-visit-counted")) { saveLocal("frc-visits", n + 1); try { sessionStorage.setItem("frc-visit-counted", "1"); } catch {} }
+      if (n < 1) setHidden(true);
+    }
     return () => window.removeEventListener("frc:installable", upd);
   }, [banner]);
 
