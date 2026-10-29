@@ -157,7 +157,7 @@
     "etapes": [
       "Émincer l'oignon, l'ail et les poivrons en lanières.",
       "Les faire fondre 10 minutes dans l'huile d'olive à feu moyen dans une grande poêle.",
-      "Ajouter le cumin et le paprika, remuer 1 minute, puis verser les tomates concassées et laisser mijoter 8 minutes.",
+      "Ajouter le cumin et le paprika, remuer 1 minute, puis verser les tomates concassées, saler, poivrer et laisser mijoter 8 minutes.",
       "Creuser quatre puits dans la sauce et y casser les œufs.",
       "Couvrir et cuire 6 à 8 minutes à feu doux, jusqu'à ce que les blancs soient pris et les jaunes encore coulants.",
       "Parsemer de coriandre et servir directement dans la poêle."
@@ -421,7 +421,7 @@
     "etapes": [
       "Éplucher les pommes de terre et les couper en fines lamelles, émincer l'oignon.",
       "Les cuire 20 minutes à feu doux dans l'huile d'olive dans une poêle, en remuant, jusqu'à ce qu'elles soient tendres sans trop dorer.",
-      "Battre les œufs avec le sel, y ajouter les pommes de terre égouttées et laisser reposer 5 minutes.",
+      "Battre les œufs avec le sel et le poivre, y ajouter les pommes de terre égouttées et laisser reposer 5 minutes.",
       "Remettre un filet d'huile dans la poêle, verser le mélange et cuire 6 minutes à feu doux.",
       "Retourner la tortilla à l'aide d'une assiette et cuire encore 4 minutes."
     ],
@@ -716,7 +716,7 @@
       "Creuser quatre creux dans la sauce et y casser les œufs.",
       "Ajouter la mozzarella en morceaux entre les œufs.",
       "Couvrir et cuire 7 minutes à feu doux.",
-      "Parsemer de basilic déchiré et servir avec du pain ou de la polenta."
+      "Poivrer, parsemer de basilic déchiré et servir avec du pain ou de la polenta."
     ],
     "astuce": "Un pot de sauce tomate entamé trouve ici une seconde vie."
   },
@@ -1071,7 +1071,7 @@
       "Porter une grande casserole d'eau salée à ébullition, y cuire la pomme de terre 5 minutes.",
       "Ajouter les pâtes et les haricots verts et cuire le temps indiqué sur le paquet.",
       "Égoutter en gardant un peu d'eau, puis mélanger avec le pesto et 2 cuillères d'eau de cuisson.",
-      "Servir avec du parmesan râpé."
+      "Poivrer et servir avec du parmesan râpé."
     ],
     "astuce": "Tout cuit dans la même casserole : moins de vaisselle et d'énergie."
   },
@@ -1157,7 +1157,7 @@
       "Cuire les pâtes dans l'eau bouillante salée.",
       "Faire revenir l'ail émincé et le piment 1 minute dans l'huile d'olive.",
       "Ajouter les tomates, les olives coupées et les câpres, puis mijoter 10 minutes.",
-      "Mélanger avec les pâtes égouttées et parsemer de persil."
+      "Mélanger avec les pâtes égouttées, poivrer et parsemer de persil."
     ],
     "astuce": "Un fond de bocal d'olives ou de câpres se termine ainsi sans effort."
   },
@@ -1390,7 +1390,7 @@
     ],
     "etapes": [
       "Préchauffer le four à 210 °C.",
-      "Couper l'aubergine, le poivron et l'oignon en morceaux, les étaler sur une plaque avec les tomates cerises, l'huile, l'origan et le sel.",
+      "Couper l'aubergine, le poivron et l'oignon en morceaux, les étaler sur une plaque avec les tomates cerises, l'huile, l'origan, le sel et le poivre.",
       "Placer la feta au centre et rôtir 25 minutes.",
       "Pendant ce temps, cuire les pâtes dans l'eau salée.",
       "Écraser la feta avec les légumes rôtis et mélanger avec les pâtes égouttées."
@@ -1468,10 +1468,10 @@
     ],
     "etapes": [
       "Éplucher la courge et la couper en petits dés, émincer l'oignon.",
-      "Les faire revenir 3 minutes dans le beurre, ajouter un verre d'eau, couvrir et cuire 15 minutes.",
+      "Les faire revenir 3 minutes dans les deux tiers du beurre, ajouter un verre d'eau, couvrir et cuire 15 minutes.",
       "Cuire les pâtes dans l'eau salée.",
       "Écraser la courge à la fourchette pour obtenir une sauce, ajouter un peu d'eau de cuisson, le parmesan, la muscade et le poivre.",
-      "Mélanger avec les pâtes et servir avec quelques feuilles de sauge dorées au beurre."
+      "Mélanger avec les pâtes et servir avec quelques feuilles de sauge dorées dans le reste du beurre."
     ],
     "astuce": "Un reste de purée ou de soupe de courge peut remplacer la courge fraîche."
   },
@@ -1624,7 +1624,7 @@
       "Faire dorer le chou-fleur 12 minutes dans l'huile à feu moyen, en remuant.",
       "Cuire les pâtes dans l'eau salée.",
       "Ajouter l'ail haché, les raisins égouttés et les pignons au chou-fleur et cuire 2 minutes.",
-      "Mélanger avec les pâtes et un peu d'eau de cuisson, puis parsemer de persil."
+      "Mélanger avec les pâtes et un peu d'eau de cuisson, poivrer, puis parsemer de persil."
     ],
     "astuce": "Les feuilles vertes du chou-fleur se poêlent avec les bouquets."
   },
@@ -1828,7 +1828,7 @@
       "Laver soigneusement les fanes et garder les feuilles tendres.",
       "Mixer les fanes avec les amandes, l'ail, le parmesan, l'huile et une pincée de sel.",
       "Cuire les pâtes dans l'eau salée.",
-      "Mélanger les pâtes avec le pesto et un peu d'eau de cuisson."
+      "Mélanger les pâtes avec le pesto et un peu d'eau de cuisson, puis poivrer."
     ],
     "astuce": "Le pesto se garde 4 jours au frigo sous une fine couche d'huile."
   },
@@ -1912,7 +1912,7 @@
       "Faire dorer les champignons émincés 5 minutes dans la moitié du beurre, puis réserver.",
       "Dans la même casserole, faire suer l'échalote hachée, ajouter le riz et le nacrer 2 minutes.",
       "Déglacer au vin blanc, puis ajouter le bouillon louche par louche pendant 18 minutes, en remuant.",
-      "Hors du feu, incorporer les champignons, le reste du beurre et le parmesan. Couvrir 2 minutes et servir avec le persil."
+      "Hors du feu, incorporer les champignons, le reste du beurre et le parmesan, saler et poivrer. Couvrir 2 minutes et servir avec le persil."
     ],
     "astuce": "Sans vin, remplacer par un trait de jus de citron en fin de cuisson. Vérifier que le bouillon est sans gluten."
   },
@@ -1989,7 +1989,7 @@
       "Faire suer l'oignon haché dans le beurre, ajouter la courge et le romarin et cuire 5 minutes.",
       "Ajouter le riz et le nacrer 2 minutes.",
       "Verser le bouillon louche par louche pendant 18 minutes, en remuant ; la courge fond en partie et rend le risotto crémeux.",
-      "Hors du feu, incorporer le parmesan, poivrer et laisser reposer 2 minutes."
+      "Hors du feu, incorporer le parmesan, saler, poivrer et laisser reposer 2 minutes."
     ],
     "astuce": "Le potimarron n'a pas besoin d'être épluché."
   },
@@ -2072,7 +2072,7 @@
       "Faire chauffer le bouillon.",
       "Faire suer l'oignon haché dans la moitié du beurre, ajouter le riz et le nacrer 2 minutes.",
       "Ajouter le bouillon louche par louche pendant 18 minutes en remuant ; ajouter les petits pois à mi-cuisson.",
-      "Hors du feu, ajouter le zeste et le jus d'un demi-citron, le reste du beurre et le parmesan.",
+      "Hors du feu, ajouter le zeste du citron et le jus d'une moitié, le reste du beurre et le parmesan, puis saler et poivrer.",
       "Servir avec un peu de menthe ciselée."
     ],
     "astuce": "Les restes de risotto se façonnent en galettes poêlées le lendemain."
@@ -2138,7 +2138,7 @@
       "Émincer le poireau et le faire fondre 5 minutes dans le beurre.",
       "Ajouter le riz et le nacrer 2 minutes.",
       "Verser le bouillon louche par louche pendant 18 minutes, en remuant.",
-      "Hors du feu, incorporer le gruyère, poivrer et servir bien crémeux."
+      "Hors du feu, incorporer le gruyère, saler, poivrer et servir bien crémeux."
     ],
     "astuce": "Un reste de vacherin ou de tomme remplace très bien le gruyère."
   },
@@ -2306,7 +2306,7 @@
       "Émincer finement le chou et couper les carottes en bâtonnets.",
       "Faire sauter les légumes 8 minutes dans l'huile très chaude, jusqu'à ce qu'ils colorent.",
       "Ajouter l'ail haché, la sauce soja et le sirop d'érable et remuer 1 minute.",
-      "Ajouter le riz et le faire sauter 4 minutes.",
+      "Ajouter le riz et le faire sauter 4 minutes, puis poivrer et saler si besoin.",
       "Parsemer de graines de sésame grillées."
     ],
     "astuce": "Le chou rouge rend le plat très coloré."
@@ -2416,11 +2416,11 @@
     "etapes": [
       "Faire revenir l'oignon, l'ail et le poivron émincés 6 minutes dans l'huile d'olive dans une grande poêle.",
       "Ajouter les tomates râpées, le paprika et le curcuma et cuire 3 minutes.",
-      "Ajouter le riz, bien l'enrober, puis verser le bouillon chaud et les haricots verts coupés.",
+      "Ajouter le riz, bien l'enrober, puis verser le bouillon chaud et les haricots verts coupés, saler et poivrer.",
       "Disposer les artichauts, puis cuire 20 minutes à feu doux sans remuer.",
       "Laisser reposer 5 minutes hors du feu et servir avec des quartiers de citron."
     ],
-    "astuce": "Un fond de croûte légèrement grillée au fond de la poêle est recherchée : c'est le meilleur."
+    "astuce": "Une fine croûte grillée au fond de la poêle est recherchée : c'est la meilleure partie."
   },
   {
     "titre": "Riz crémeux aux épinards et feta",
@@ -2593,7 +2593,7 @@
       "Faire revenir l'oignon haché et le gingembre râpé dans l'huile 3 minutes, ajouter le curry et remuer 1 minute.",
       "Ajouter le chou-fleur en bouquets et la carotte en rondelles, puis le lait de coco et un demi-verre d'eau.",
       "Couvrir et mijoter 15 minutes, ajouter les épinards les 2 dernières minutes.",
-      "Saler et servir avec le riz."
+      "Saler, poivrer et servir avec le riz."
     ],
     "astuce": "Accepte tous les légumes qui traînent : courgette, brocoli, poivron, patate douce."
   },
@@ -2685,7 +2685,7 @@
     ],
     "etapes": [
       "Préchauffer le four à 210 °C.",
-      "Couper les légumes en morceaux, les mélanger avec 2 cuillères d'huile, le cumin et le sel, et les rôtir 25 minutes.",
+      "Couper les légumes en morceaux, les mélanger avec 2 cuillères d'huile, le cumin, le sel et le poivre, et les rôtir 25 minutes.",
       "Verser l'eau bouillante salée sur la semoule avec le reste d'huile, couvrir 5 minutes puis égrener.",
       "Mélanger le yaourt avec l'ail râpé, du sel et la menthe.",
       "Servir la semoule garnie de légumes rôtis et de sauce au yaourt."
@@ -2777,7 +2777,7 @@
     "etapes": [
       "Couper l'aubergine en dés et la faire dorer 8 minutes dans 2 cuillères d'huile, puis réserver.",
       "Faire revenir l'oignon haché dans le reste d'huile, ajouter le concentré, le cumin et les tomates en dés, cuire 3 minutes.",
-      "Ajouter le boulgour et l'eau, saler, couvrir et cuire 12 minutes à feu doux.",
+      "Ajouter le boulgour et l'eau, saler, poivrer, couvrir et cuire 12 minutes à feu doux.",
       "Incorporer l'aubergine, couvrir hors du feu 5 minutes et parsemer de persil."
     ],
     "astuce": "Délicieux avec un yaourt nature si l'on n'est pas vegan."
@@ -2861,7 +2861,7 @@
       "Rincer le quinoa et le cuire 12 minutes dans deux fois son volume d'eau salée.",
       "Cuire les œufs 6 minutes dans l'eau bouillante, les refroidir et les écaler.",
       "Faire sauter le brocoli, la carotte et le poivron coupés en petits morceaux 6 minutes dans l'huile avec l'ail.",
-      "Ajouter le quinoa et le tamari, sauter 2 minutes.",
+      "Ajouter le quinoa et le tamari, poivrer et sauter 2 minutes.",
       "Servir surmonté d'un œuf mollet coupé en deux."
     ],
     "astuce": "Utiliser du tamari (et non de la sauce soja classique) pour rester sans gluten."
@@ -2957,7 +2957,7 @@
     "etapes": [
       "Couper les carottes et la courgette en petits dés, émincer l'oignon.",
       "Les faire revenir 10 minutes dans l'huile avec le cumin et la cannelle.",
-      "Ajouter les raisins et le bouillon, porter à ébullition.",
+      "Ajouter les raisins et le bouillon, saler, poivrer et porter à ébullition.",
       "Hors du feu, verser la semoule, couvrir 5 minutes puis égrener à la fourchette.",
       "Parsemer de coriandre."
     ],
@@ -3334,7 +3334,7 @@
       "Cuire les pommes de terre en morceaux 18 minutes dans l'eau salée, puis les écraser grossièrement avec la moitié du beurre.",
       "Faire fondre les poireaux émincés 10 minutes dans le reste du beurre, ajouter la crème et la moutarde, laisser réduire 2 minutes.",
       "Porter une casserole d'eau vinaigrée à frémissement, y glisser les œufs un à un et les pocher 3 minutes.",
-      "Dresser l'écrasé, napper de poireaux à la crème et poser l'œuf poché dessus."
+      "Dresser l'écrasé, napper de poireaux à la crème et poser l'œuf poché dessus, puis poivrer."
     ],
     "astuce": "Les pommes de terre ne s'épluchent pas forcément : la peau apporte du goût."
   },
@@ -3404,7 +3404,7 @@
       "Faire dorer les gnocchis crus 6 minutes dans l'huile d'olive, en remuant, jusqu'à ce qu'ils soient croustillants.",
       "Ajouter les tomates cerises coupées en deux et l'ail haché et cuire 4 minutes jusqu'à ce qu'elles éclatent.",
       "Ajouter la mozzarella en morceaux, couvrir 2 minutes pour la faire fondre.",
-      "Poivrer et parsemer de basilic."
+      "Saler, poivrer et parsemer de basilic."
     ],
     "astuce": "Les gnocchis poêlés sans précuisson restent moelleux à l'intérieur."
   },
@@ -3480,7 +3480,7 @@
       "Préchauffer le four à 200 °C, couper la courge en dés, les mélanger avec l'huile et le sel et les rôtir 25 minutes.",
       "Cuire les gnocchis dans l'eau bouillante salée ; les égoutter dès qu'ils remontent à la surface.",
       "Faire mousser le beurre avec les feuilles de sauge jusqu'à ce qu'il devienne noisette.",
-      "Mélanger les gnocchis et la courge dans le beurre, ajouter le parmesan et les noisettes concassées."
+      "Mélanger les gnocchis et la courge dans le beurre, ajouter le parmesan et les noisettes concassées, puis poivrer."
     ],
     "astuce": "Sans sauge, un peu de thym ou de romarin fait aussi bien."
   },
@@ -3626,7 +3626,7 @@
     "etapes": [
       "Porter le lait et l'eau salés à ébullition, verser la polenta en pluie et cuire 5 minutes en remuant.",
       "Hors du feu, incorporer le parmesan et la moitié du beurre.",
-      "Faire sauter les champignons émincés 6 minutes à feu vif dans le reste du beurre, ajouter l'ail haché et le persil.",
+      "Faire sauter les champignons émincés 6 minutes à feu vif dans le reste du beurre, ajouter l'ail haché et le persil, saler et poivrer.",
       "Servir la polenta nappée de champignons."
     ],
     "astuce": "La polenta refroidie se coupe en tranches à griller le lendemain."
@@ -3703,7 +3703,7 @@
     "etapes": [
       "Couper la courge en dés et les choux de Bruxelles en deux, émincer l'oignon.",
       "Faire dorer la courge et les choux 15 minutes dans l'huile, à feu moyen, en couvrant les 8 premières minutes.",
-      "Ajouter l'oignon et le thym et cuire 5 minutes, puis déglacer au vinaigre.",
+      "Ajouter l'oignon et le thym, saler, poivrer et cuire 5 minutes, puis déglacer au vinaigre.",
       "Cuire les œufs au plat à part et les poser sur la poêlée."
     ],
     "astuce": "Les choux de Bruxelles un peu jaunis se rattrapent en retirant les premières feuilles."
@@ -3878,7 +3878,7 @@
     "etapes": [
       "Cuire le riz selon le paquet.",
       "Couper l'aubergine et la courgette en dés et les faire dorer 10 minutes dans l'huile.",
-      "Ajouter l'ail haché et les tomates, saler et mijoter 10 minutes.",
+      "Ajouter l'ail haché et les tomates, saler, poivrer et mijoter 10 minutes.",
       "Ajouter la mozzarella en morceaux, couvrir 2 minutes hors du feu.",
       "Servir sur le riz avec du basilic."
     ],

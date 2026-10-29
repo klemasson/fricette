@@ -358,10 +358,10 @@
     ],
     "etapes": [
       "Couper le poulet en cubes et la courgette en rondelles épaisses.",
-      "Mélanger l'huile, le jus et le zeste du citron, l'ail écrasé, l'origan, le sel et le poivre, puis y faire mariner le poulet 10 minutes.",
+      "Mélanger l'huile, le jus et le zeste du citron, l'ail écrasé, l'origan, le sel et le poivre, en réserver 2 cuillères, puis faire mariner le poulet 10 minutes dans le reste.",
       "Enfiler en alternant poulet et courgette sur des piques.",
       "Cuire 12 minutes à la poêle-gril ou au barbecue en retournant régulièrement.",
-      "Arroser du reste de marinade chauffée avant de servir."
+      "Arroser de la marinade réservée avant de servir."
     ],
     "astuce": "Faire tremper les piques en bois 15 minutes dans l'eau pour qu'elles ne brûlent pas."
   },
@@ -1097,7 +1097,7 @@
   {
     "titre": "Poulet au vin blanc et champignons",
     "categorie": "plat",
-    "temps": 50,
+    "temps": 60,
     "difficulte": "moyen",
     "portions": 2,
     "regimes": [
@@ -1510,9 +1510,10 @@
       }
     ],
     "etapes": [
+      "Sortir les steaks du réfrigérateur 15 minutes avant de les cuire.",
       "Couper les pommes de terre en petits dés et les faire dorer 15 minutes dans l'huile en remuant.",
       "Ajouter les champignons émincés et l'ail, cuire encore 5 minutes, saler et poivrer.",
-      "Sortir les steaks 15 minutes à l'avance, puis les saisir dans le beurre très chaud 2 à 3 minutes par face selon la cuisson souhaitée.",
+      "Saisir les steaks dans le beurre très chaud 2 à 3 minutes par face selon la cuisson souhaitée.",
       "Laisser reposer 3 minutes, saler, poivrer et servir avec la poêlée persillée."
     ],
     "astuce": "Utiliser des pommes de terre déjà cuites de la veille réduit la cuisson à 8 minutes."
@@ -1593,7 +1594,7 @@
     ],
     "etapes": [
       "Cuire les pommes de terre pelées 20 minutes dans l'eau salée, puis les écraser avec le lait chaud, le beurre, le sel et une pincée de muscade.",
-      "Faire revenir l'oignon haché et les carottes râpées 5 minutes, ajouter le bœuf et cuire 8 minutes.",
+      "Faire revenir l'oignon haché et les carottes râpées 5 minutes, ajouter le bœuf, saler, poivrer et cuire 8 minutes.",
       "Préchauffer le four à 200 °C.",
       "Étaler la viande dans un plat, couvrir de purée et parsemer de fromage râpé.",
       "Enfourner 20 minutes jusqu'à ce que le dessus soit doré."
@@ -2633,8 +2634,7 @@
     ],
     "etapes": [
       "Rincer les lentilles et les mettre dans une casserole avec 3 fois leur volume d'eau froide, l'oignon coupé, les carottes en rondelles, le thym et le laurier.",
-      "Porter à ébullition puis cuire 20 minutes à feu doux.",
-      "Piquer les saucisses et les ajouter sur les lentilles, couvrir et cuire encore 20 minutes.",
+      "Porter à ébullition, poser les saucisses sur les lentilles sans les piquer, couvrir et cuire 30 minutes à feu doux.",
       "Saler en fin de cuisson, poivrer et servir avec de la moutarde."
     ],
     "astuce": "Ne pas saler les lentilles au début : elles resteraient dures."
@@ -3181,7 +3181,7 @@
       "Faire revenir l'oignon émincé et le chorizo en dés 5 minutes dans l'huile.",
       "Ajouter l'ail, les tomates et les haricots rincés.",
       "Laisser mijoter 20 minutes à feu doux en ajoutant un peu d'eau si nécessaire.",
-      "Ajouter les épinards en fin de cuisson, poivrer et servir avec du pain."
+      "Ajouter les épinards en fin de cuisson, saler, poivrer et servir avec du pain."
     ],
     "astuce": "Ce plat est encore meilleur réchauffé le lendemain."
   },
