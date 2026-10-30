@@ -3,6 +3,7 @@ import { Ico } from "./bits";
 import { CoursesLink, PageView, AccountLink } from "./Live";
 import Newsletter from "./Newsletter";
 import Logo from "./Logo";
+import FootSocial from "./FootSocial";
 
 export function SiteHeader() {
   return (
@@ -25,6 +26,7 @@ export function SiteFooter() {
   return (
     <footer>
       <div className="in foot-news"><Newsletter /></div>
+      <FootSocial />
       <div className="in">
         <span>fricette · fait avec amour et des restes</span>
         <span className="foot-links">

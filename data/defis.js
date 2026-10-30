@@ -1,0 +1,28 @@
+// Défis anti-gaspi : un ingrédient « à sauver » par semaine, à tour de rôle.
+// L'administrateur peut en choisir un autre depuis /stats (il remplace celui-ci pour la semaine).
+export const DEFIS = [
+  { cle: "pain", titre: "Sauve ton pain rassis", accroche: "Pain perdu, croûtons, panzanella… le pain dur, c'est le début d'une bonne recette." },
+  { cle: "banane", titre: "Les bananes trop mûres", accroche: "Plus elles sont tachées, plus elles sont sucrées : parfait pour les gâteaux et les smoothies." },
+  { cle: "courgette", titre: "La courgette qui ramollit", accroche: "Râpée, poêlée ou en soupe, elle n'a pas besoin d'être parfaite." },
+  { cle: "yaourt", titre: "Le yaourt presque à date", accroche: "Sauces, marinades, gâteaux : un yaourt se finit en un clin d'œil." },
+  { cle: "pomme_de_terre", titre: "Les patates qui germent", accroche: "On retire les germes et on cuisine : purée, galettes, gratin." },
+  { cle: "carotte", titre: "Les carottes fatiguées", accroche: "Un peu molles ? En soupe, en purée ou rôties, personne ne verra la différence." },
+  { cle: "riz", titre: "Le riz d'hier", accroche: "Le riz cuit de la veille fait le meilleur riz sauté. Si, si." },
+  { cle: "epinard", titre: "Les épinards qui fanent", accroche: "Ils fondent dans une omelette, une sauce ou des pâtes en deux minutes." },
+  { cle: "creme", titre: "La crème entamée", accroche: "Un fond de crème transforme des pâtes, une soupe ou un gratin." },
+  { cle: "pomme", titre: "Les pommes ridées", accroche: "Compote, crumble, pommes au four : elles sont faites pour ça." },
+  { cle: "poivron", titre: "Le demi-poivron oublié", accroche: "Dans une poêlée, une omelette ou une sauce tomate, il trouve toujours sa place." },
+  { cle: "champignon", titre: "Les champignons à finir", accroche: "Poêlés à feu vif, en risotto ou en sauce : à cuisiner avant qu'ils ne noircissent." },
+  { cle: "lait", titre: "Le lait à finir", accroche: "Crêpes, béchamel, riz au lait : le lait se cuisine plus qu'on ne le pense." },
+  { cle: "tomate", titre: "Les tomates trop mûres", accroche: "Les plus molles font les meilleures sauces." },
+  { cle: "poireau", titre: "Le poireau du fond du bac", accroche: "Fondue de poireaux, quiche ou soupe : il se garde, mais pas éternellement." },
+  { cle: "brocoli", titre: "Le brocoli qui jaunit", accroche: "Tiges comprises ! Tout se mange, en gratin, en soupe ou sauté." },
+  { cle: "jambon", titre: "Les tranches de jambon ouvertes", accroche: "Croque, quiche, pâtes ou cake salé : un paquet ouvert se finit vite." },
+  { cle: "citron", titre: "Le demi-citron", accroche: "Zeste, jus, vinaigrette ou dessert : il réveille tout." },
+  { cle: "fromage_rape", titre: "Le fond de fromage râpé", accroche: "Gratins, omelettes, galettes : rien ne se perd." },
+  { cle: "chou", titre: "Le chou entamé", accroche: "Sauté, en salade ou mijoté, un chou se cuisine toute la semaine." },
+  { cle: "salade", titre: "La salade qui flétrit", accroche: "Elle se cuit aussi : en soupe, poêlée ou en velouté." },
+  { cle: "oeuf", titre: "Les œufs à finir", accroche: "Omelette, frittata, shakshuka : la valeur sûre du frigo." },
+  { cle: "concombre", titre: "Le concombre à moitié", accroche: "Tzatziki, salade fraîche ou soupe froide : il se finit sans cuisson." },
+  { cle: "courge", titre: "La courge entamée", accroche: "Une fois ouverte, elle se garde mal : en soupe, rôtie ou en risotto." },
+];

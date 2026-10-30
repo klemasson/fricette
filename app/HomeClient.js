@@ -11,6 +11,7 @@ import RecipeBody, { summary } from "./components/RecipeBody";
 import { CoursesLink } from "./components/Live";
 import Scanner from "./components/Scanner";
 import { InstallApp } from "./components/Pwa";
+import FootSocial from "./components/FootSocial";
 import Newsletter from "./components/Newsletter";
 import Bilan from "./components/Bilan";
 import Logo from "./components/Logo";
@@ -139,6 +140,8 @@ export default function HomeClient() {
   const [auth, setAuth] = useState({ mode: "login", email: "", password: "", error: "", info: "", busy: false, token: "" });
   const [mailEnabled, setMailEnabled] = useState(false);
   const [ratings, setRatings] = useState({});
+  const [pc, setPc] = useState({}); // nombre de photos de réalisations par recette
+  const [defi, setDefi] = useState(null);
   const [scanOpen, setScanOpen] = useState(false);
   const [cleared, setCleared] = useState(null);
   const [sugIdx, setSugIdx] = useState(0);
@@ -181,6 +184,8 @@ export default function HomeClient() {
       }
     });
     getRatings().then((d) => setRatings(d.all || {}));
+    fetch("/api/realisations/compteurs").then((r) => r.json()).then((d) => d && typeof d === "object" && setPc(d)).catch(() => {});
+    fetch("/api/defi").then((r) => (r.ok ? r.json() : null)).then((d) => d?.slug && setDefi(d)).catch(() => {});
     const onRatings = (e) => setRatings(e.detail.all || {});
     window.addEventListener("frc:ratings", onRatings);
     const onFrigo = (e) => Array.isArray(e.detail) && setFridge(e.detail);
@@ -832,6 +837,19 @@ export default function HomeClient() {
         </div>
       </section>
 
+      {defi && (
+        <div className="in">
+          <a className="defi" href={`/avec/${defi.slug}`}>
+            <span className="defi-ico" aria-hidden="true">🏆</span>
+            <span className="defi-txt">
+              <span className="label">Défi anti-gaspi de la semaine</span>
+              <strong>{defi.titre}</strong>
+              {defi.accroche && <span className="defi-acc">{defi.accroche}</span>}
+            </span>
+            <span className="defi-go">{defi.n} recettes →</span>
+          </a>
+        </div>
+      )}
       {recent.length > 0 && carnet && (
         <section className="recent in" aria-label="Vues récemment">
           <div className="recent-head"><strong>Vues récemment</strong><button type="button" className="link" onClick={() => { setRecent([]); saveLocal("frc-recent", []); }}>Effacer</button></div>
@@ -858,7 +876,7 @@ export default function HomeClient() {
               </span>
             </div>
             <div className="grid">
-              {favRecipes.slice(0, favShown).map((r) => <Card key={"f" + r.id} r={r} onOpen={openSheet} fav onFav={toggleFav} rating={ratings[r.id]} />)}
+              {favRecipes.slice(0, favShown).map((r) => <Card key={"f" + r.id} r={r} onOpen={openSheet} fav onFav={toggleFav} rating={ratings[r.id]} photos={pc[r.id]} />)}
             </div>
             {favRecipes.length > favShown && (
               <button className="ghost more" type="button" onClick={() => setFavShown((n) => n + PAGE)}>Voir plus de favoris</button>
@@ -882,7 +900,7 @@ export default function HomeClient() {
               </div>
               {searchResults.length === 0 && <p className="empty">Essaie un autre mot, ou un ingrédient : « courgette », « chocolat »…</p>}
               <div className="grid" style={{ marginBottom: 34 }}>
-                {searchResults.map((r) => <Card key={"q" + r.id} r={r} onOpen={openSheet} fav={favSet.has(r.id)} onFav={toggleFav} rating={ratings[r.id]} />)}
+                {searchResults.map((r) => <Card key={"q" + r.id} r={r} onOpen={openSheet} fav={favSet.has(r.id)} onFav={toggleFav} rating={ratings[r.id]} photos={pc[r.id]} />)}
               </div>
             </>
           ) : null}
@@ -917,7 +935,7 @@ export default function HomeClient() {
             </p>
           )}
           <div className="grid">
-            {results.slice(0, shown).map((r) => <Card key={r.id} r={r} onOpen={openSheet} fav={favSet.has(r.id)} onFav={toggleFav} rating={ratings[r.id]} />)}
+            {results.slice(0, shown).map((r) => <Card key={r.id} r={r} onOpen={openSheet} fav={favSet.has(r.id)} onFav={toggleFav} rating={ratings[r.id]} photos={pc[r.id]} />)}
           </div>
           {results.length > shown && (
             <button className="ghost more" type="button" onClick={() => setShown((n) => n + PAGE)}>
@@ -935,7 +953,7 @@ export default function HomeClient() {
               <span><a href="/avec">Toutes les idées par ingrédient →</a></span>
             </div>
             <div className="grid">
-              {seasonal.map((r) => <Card key={"s" + r.id} r={r} onOpen={openSheet} fav={favSet.has(r.id)} onFav={toggleFav} rating={ratings[r.id]} />)}
+              {seasonal.map((r) => <Card key={"s" + r.id} r={r} onOpen={openSheet} fav={favSet.has(r.id)} onFav={toggleFav} rating={ratings[r.id]} photos={pc[r.id]} />)}
             </div>
           </div>
         </section>
@@ -949,6 +967,7 @@ export default function HomeClient() {
 
       <footer>
         <div className="in foot-news"><Newsletter /></div>
+        <FootSocial />
         <div className="in">
           <div>
             <span>fricette · fait avec amour et des restes</span>
@@ -1055,7 +1074,7 @@ export default function HomeClient() {
   );
 }
 
-function Card({ r, ai, onOpen, fav, onFav, rating }) {
+function Card({ r, ai, onOpen, fav, onFav, rating, photos }) {
   const { missing, short, swaps, fams } = summary(r);
   const badge = missing.length === 0 ? ["ok", "✓ Tu as tout"] : [missing.length === 1 ? "one" : "more", `Il manque ${missing.length}`];
   return (
@@ -1070,7 +1089,7 @@ function Card({ r, ai, onOpen, fav, onFav, rating }) {
         </div>
         <div className="txt">
           <h3>{r.titre}</h3>
-          <div className="meta">{[r.temps && `${r.temps} min`, r.difficulte, `${r.portions} pers.`].filter(Boolean).join(" · ")}{rating && <> · <StarAvg v={rating} /></>}</div>
+          <div className="meta">{[r.temps && `${r.temps} min`, r.difficulte, `${r.portions} pers.`].filter(Boolean).join(" · ")}{rating && <> · <StarAvg v={rating} /></>}{photos > 0 && <> · <span className="ph-count" title={`${photos} photo${photos > 1 ? "s" : ""} de la communauté`}>📸 {photos}</span></>}</div>
           {r.urgent?.length > 0 && <div className="urgent">⏰ Finit {r.urgent.join(", ")}</div>}
           {(missing.length > 0 || short.length > 0) && (
             <div className="miss">

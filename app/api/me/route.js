@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import { currentUser, endSession, sameOrigin, checkPassword } from "@/lib/auth";
-import { listFavorites, deleteUser, findUserByEmail, getUserData } from "@/lib/db";
+import { listFavorites, deleteUser, findUserByEmail, getUserData, feedbackUnread, pendingPhotos } from "@/lib/db";
 import { mailEnabled } from "@/lib/mail";
 import { isAdminEmail } from "@/lib/admin";
 import { deleteUserPhotos } from "@/lib/photos";
@@ -10,7 +10,8 @@ export const dynamic = "force-dynamic";
 export async function GET() {
   const user = await currentUser();
   if (!user) return NextResponse.json({ user: null, favorites: [], mail: mailEnabled() });
-  return NextResponse.json({ user: { email: user.email, admin: isAdminEmail(user.email) || undefined }, favorites: listFavorites(user.id), data: getUserData(user.id), mail: mailEnabled() });
+  const admin = isAdminEmail(user.email);
+  return NextResponse.json({ user: { email: user.email, admin: admin || undefined, ...(admin ? { todo: { photos: pendingPhotos(), messages: feedbackUnread() } } : {}) }, favorites: listFavorites(user.id), data: getUserData(user.id), mail: mailEnabled() });
 }
 
 // Suppression du compte (et de ses favoris), après confirmation du mot de passe.

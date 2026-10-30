@@ -5,6 +5,11 @@ import { statsSince, newsletterCount, pendingPhotos } from "@/lib/db";
 import { getRecipe } from "@/lib/carnet-server";
 import { ingredientName } from "@/lib/match";
 import { SiteHeader } from "@/app/components/Site";
+import { currentDefi } from "@/lib/defi";
+import { ingredientPages } from "@/lib/carnet-server";
+import { feedbackList } from "@/lib/db";
+import DefiForm from "./DefiForm";
+import Messages from "./Messages";
 
 export const dynamic = "force-dynamic";
 export const metadata = { title: "Statistiques – Fricette", robots: { index: false } };
@@ -94,6 +99,14 @@ export default async function Stats({ searchParams }) {
           <h2>Sauvegardes</h2>
           <p className="muted small">La base (comptes, favoris, listes, newsletter) est copiée automatiquement chaque nuit sur l'hébergement, dans ~/fricette-data/sauvegardes (14 dernières nuits). Tu peux aussi en garder une copie chez toi :</p>
           <a className="btn small" href="/api/admin/sauvegarde">Télécharger une sauvegarde maintenant</a>
+        </section>
+        <section className="st-box wide" style={{ marginTop: 14 }} id="messages">
+          <h2>Messages des visiteurs</h2>
+          <Messages initial={feedbackList(50)} />
+        </section>
+        <section className="st-box wide" style={{ marginTop: 14 }}>
+          <h2>Défi de la semaine</h2>
+          <DefiForm defi={currentDefi()} options={ingredientPages().sort((a, b) => b.n - a.n)} />
         </section>
         <section className="st-box wide" style={{ marginTop: 14 }}>
           <h2>Pages du site</h2>

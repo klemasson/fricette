@@ -7,6 +7,7 @@ import Gestes, { useVideos } from "./Gestes";
 import Realisations from "./Realisations";
 import { addToCourses, share, getRatings, sendRating, logCooked, consumeFridge, planAdd, isoDate } from "@/lib/client";
 import { allergenLabel } from "@/data/allergens";
+import { shareStory } from "@/lib/story";
 
 export function summary(r) {
   const ings = r.ingredients || [];
@@ -34,6 +35,7 @@ export default function RecipeBody({ r, compare = true, fav, onFav, controls, ti
   const [hover, setHover] = useState(0);
   const [cooked, setCooked] = useState(null); // null | { g, done }
   const [planOpen, setPlanOpen] = useState(false);
+  const [shareOpen, setShareOpen] = useState(false);
   const Title = titleTag;
   const videos = useVideos();
   const url = `${SITE}/recette/${r.id}`;
@@ -76,6 +78,20 @@ export default function RecipeBody({ r, compare = true, fav, onFav, controls, ti
     if (res === "fail") setMsg(url);
   }
 
+  async function onStory() {
+    setMsg("Création de l'image…");
+    try {
+      const res = await shareStory({ r, photo: r.photo, ai: true });
+      setMsg(res === "downloaded" ? "Image téléchargée : publie-la en story sur Instagram ou TikTok !" : res === "shared" ? "Merci pour le partage ! 🧡" : "");
+    } catch {
+      setMsg("Impossible de créer l'image sur cet appareil.");
+    }
+  }
+
+  function openPhoto() {
+    window.dispatchEvent(new CustomEvent("frc:photo-open", { detail: r.id }));
+  }
+
   async function rate(stars) {
     const next = stars === rating.mine ? 0 : stars;
     try {
@@ -110,9 +126,10 @@ export default function RecipeBody({ r, compare = true, fav, onFav, controls, ti
           {onFav && r.id && <FavButton on={fav} onClick={() => onFav(r.id)} />}
           {r.id && <button type="button" className="chip" onClick={toCourses}><Basket />{coursesLabel}</button>}
           <button type="button" className="chip strong" onClick={() => setCook(true)}>▶ Mode cuisine</button>
-          {r.id && <button type="button" className="chip" onClick={() => setPlanOpen((v) => !v)} aria-expanded={planOpen}>📅 Planning</button>}
+          {r.id && <button type="button" className="chip" onClick={() => { setPlanOpen((v) => !v); setShareOpen(false); }} aria-expanded={planOpen}>📅 Planning</button>}
           <button type="button" className="chip" onClick={markCooked} disabled={!!cooked}>{cooked ? "✓ Cuisinée !" : "✓ Je l'ai cuisinée"}</button>
-          {r.id && <button type="button" className="chip" onClick={onShare}>Partager</button>}
+          {r.id && <button type="button" className="chip" onClick={openPhoto}>📸 Ma photo</button>}
+          {r.id && <button type="button" className="chip" onClick={() => { setShareOpen((v) => !v); setPlanOpen(false); }} aria-expanded={shareOpen}>Partager</button>}
           {r.id && <button type="button" className="chip hide-sm" onClick={() => (pageLink ? window.open(`/recette/${r.id}?imprimer=1`, "_blank") : window.print())}>Imprimer</button>}
           {controls}
         </div>
@@ -125,6 +142,13 @@ export default function RecipeBody({ r, compare = true, fav, onFav, controls, ti
               return <button key={n} type="button" className="f" onClick={async () => { await planAdd(d, "soir", r.id); setPlanOpen(false); setMsg(`Ajoutée au planning : ${label}.`); }}>{label}</button>;
             })}
             <a href="/planning" className="small-note">Ouvrir le planning →</a>
+          </div>
+        )}
+        {shareOpen && (
+          <div className="plan-quick">
+            <span>Partager :</span>
+            <button type="button" className="f" onClick={() => { setShareOpen(false); onShare(); }}>🔗 Le lien</button>
+            <button type="button" className="f" onClick={() => { setShareOpen(false); onStory(); }}>📱 Image pour story Instagram / TikTok</button>
           </div>
         )}
         <div className="toast" role="status">{msg}</div>
@@ -193,7 +217,7 @@ export default function RecipeBody({ r, compare = true, fav, onFav, controls, ti
         </div>
       )}
 
-      {r.id && <Realisations recipeId={r.id} title={r.titre} />}
+      {r.id && <Realisations recipeId={r.id} title={r.titre} recipe={r} />}
 
       {cook && <CookMode r={r} onClose={() => setCook(false)} onDone={() => { setCook(false); if (!cooked) markCooked(); }} />}
     </>

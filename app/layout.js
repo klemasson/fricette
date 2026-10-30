@@ -38,6 +38,11 @@ export default function RootLayout({ children }) {
         <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-title" content="Fricette" />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          "@context": "https://schema.org", "@type": "Organization", name: "Fricette", url: "https://fricette.ch",
+          logo: "https://fricette.ch/icons/icon-512.png",
+          sameAs: ["https://www.instagram.com/fricette.ch/", "https://www.tiktok.com/@fricette.ch"],
+        }) }} />
       </head>
       <body>
         {children}

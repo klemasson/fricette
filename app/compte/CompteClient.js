@@ -22,6 +22,7 @@ export default function CompteClient() {
   const [state, setState] = useState("loading"); // loading | out | in
   const [email, setEmail] = useState("");
   const [admin, setAdmin] = useState(false);
+  const [todo, setTodo] = useState({});
   const [counts, setCounts] = useState({ favs: 0, courses: 0 });
   const [prefs, setPrefs] = useState({ personnes: 2, temps: "40", regime: "", placard: true });
   const [prefMsg, setPrefMsg] = useState(null);
@@ -34,6 +35,7 @@ export default function CompteClient() {
       if (!d.user) return setState("out");
       setEmail(d.user.email);
       setAdmin(!!d.user.admin);
+      setTodo(d.user.todo || {});
       setState("in");
       const [favs, courses, p] = await Promise.all([getFavorites(), getList("courses"), getList("prefs")]);
       setCounts({ favs: favs.length, courses: courses.filter((x) => !x.done).length });
@@ -118,8 +120,9 @@ export default function CompteClient() {
           <h2>Administration</h2>
           <p className="muted small">Ton compte est administrateur de Fricette.</p>
           <div className="actions" style={{ marginTop: 0 }}>
-            <a className="btn small" href="/admin/photos">Photos à valider</a>
-            <a className="ghost small" href="/stats">Statistiques</a>
+            <a className="btn small" href="/admin/photos">Photos à valider{todo.photos ? ` (${todo.photos})` : ""}</a>
+            <a className="ghost small" href="/stats#messages">Messages{todo.messages ? ` (${todo.messages} non lu${todo.messages > 1 ? "s" : ""})` : ""}</a>
+            <a className="ghost small" href="/stats">Statistiques et défi</a>
             <a className="ghost small" href="/admin/conditions">Modifier les Conditions</a>
           </div>
         </section>

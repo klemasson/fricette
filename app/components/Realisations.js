@@ -1,6 +1,7 @@
 "use client";
 // « Ils l'ont faite » : photos des plats partagées par les visiteurs, sous chaque recette.
 import { useEffect, useRef, useState } from "react";
+import { shareStory } from "@/lib/story";
 
 /** Réduit la photo dans le navigateur (1280 px max) : envoi rapide, même depuis un téléphone. */
 async function shrink(file) {
@@ -30,7 +31,7 @@ async function shrink(file) {
 
 const when = (t) => new Date(t).toLocaleDateString("fr-CH", { day: "numeric", month: "long", year: "numeric" });
 
-export default function Realisations({ recipeId, title }) {
+export default function Realisations({ recipeId, title, recipe }) {
   const [list, setList] = useState(null);
   const [logged, setLogged] = useState(false);
   const [open, setOpen] = useState(false);
@@ -51,6 +52,18 @@ export default function Realisations({ recipeId, title }) {
   useEffect(() => {
     try { const p = localStorage.getItem("frc-prenom"); if (p) setForm((f) => ({ ...f, prenom: p })); } catch {}
   }, []);
+  // Bouton « 📸 Ma photo » en haut de la recette : on descend ici et on ouvre le formulaire.
+  useEffect(() => {
+    const on = (e) => {
+      if (e.detail !== recipeId) return;
+      document.getElementById("photos")?.scrollIntoView({ behavior: "smooth", block: "start" });
+      if (logged) { setOpen(true); setMsg(null); }
+      else setMsg({ text: "Pour partager ta photo, il faut un compte gratuit : touche « Partager ma photo » pour te connecter." });
+    };
+    window.addEventListener("frc:photo-open", on);
+    return () => window.removeEventListener("frc:photo-open", on);
+  }, [recipeId, logged]);
+
   useEffect(() => {
     if (!view) return;
     const k = (e) => e.key === "Escape" && setView(null);
@@ -166,6 +179,7 @@ export default function Realisations({ recipeId, title }) {
               <span><strong>{view.prenom || "Un·e cuisinier·ère"}</strong> · {when(view.created)}{view.texte && <><br />« {view.texte} »</>}</span>
               <span className="real-acts">
                 {view.mine && <button type="button" className="link" onClick={() => act(view, "supprimer")}>Supprimer</button>}
+                {!view.attente && recipe && <button type="button" className="link" onClick={() => shareStory({ r: recipe, photo: `/api/realisations/${view.id}/image`, kicker: "Fait maison avec Fricette", by: view.prenom })}>Partager en story</button>}
                 {!view.attente && <button type="button" className="link" onClick={() => act(view, "signaler")}>Signaler</button>}
                 <button type="button" className="btn small" onClick={() => setView(null)}>Fermer</button>
               </span>
