@@ -1160,3 +1160,15 @@ dialog.fb-dlg::backdrop { background: rgba(10, 10, 12, 0.45); }
 .cal-items li a:hover { color: var(--accent); }
 .cal-items li.imp { color: var(--muted); font-style: italic; }
 @media (max-width: 640px) { .cal-cols { grid-template-columns: minmax(0, 1fr); } .cal-month { padding: 14px 16px; } }
+
+/* Invitation à créer un compte */
+.nudge { position: fixed; z-index: 80; right: 16px; bottom: 16px; width: min(380px, calc(100vw - 32px)); background: var(--bg); color: var(--ink); border: 1px solid var(--line); border-radius: 22px; padding: 18px 18px 14px; box-shadow: 0 12px 40px rgba(0,0,0,.18); display: grid; gap: 6px; animation: nudge-in .35s ease-out; }
+.nudge strong { font-family: var(--display); font-size: 1.15rem; padding-right: 24px; }
+.nudge p { margin: 0; color: var(--muted); font-size: 0.93rem; }
+.nudge small { color: var(--muted); font-size: 0.78rem; }
+.nudge-act { display: flex; align-items: center; gap: 14px; margin-top: 6px; flex-wrap: wrap; }
+.nudge-x { position: absolute; top: 8px; right: 10px; width: 32px; height: 32px; border-radius: 50%; font-size: 1.4rem; line-height: 1; color: var(--muted); }
+.nudge-x:hover { background: var(--soft); }
+@keyframes nudge-in { from { transform: translateY(16px); opacity: 0; } to { transform: none; opacity: 1; } }
+@media (prefers-reduced-motion: reduce) { .nudge { animation: none; } }
+@media (max-width: 560px) { .nudge { left: 12px; right: 12px; bottom: 12px; width: auto; } }

@@ -4,6 +4,7 @@ import { useEffect, useMemo, useState } from "react";
 import RecipeBody from "@/app/components/RecipeBody";
 import { pick } from "@/lib/match";
 import { getList, getFavorites, setFavorite, loadLocal } from "@/lib/client";
+import { nudge } from "@/app/components/SignupNudge";
 
 export default function RecipeClient({ raw }) {
   const [personnes, setPersonnes] = useState(raw.portions);
@@ -26,6 +27,7 @@ export default function RecipeClient({ raw }) {
 
   async function toggleFav(id) {
     const on = !favs.includes(id);
+    if (on) nudge("favori");
     setFavs((f) => (on ? [id, ...f] : f.filter((x) => x !== id)));
     try { setFavs(await setFavorite(id, on)); } catch { setFavs(favs); }
   }

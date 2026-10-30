@@ -4,6 +4,7 @@ import "@fontsource/dm-sans/500.css";
 import "@fontsource/dm-sans/700.css";
 import "./globals.css";
 import { ServiceWorker } from "./components/Pwa";
+import SignupNudge from "./components/SignupNudge";
 
 export const metadata = {
   metadataBase: new URL(process.env.SITE_URL || "https://fricette.ch"),
@@ -47,6 +48,7 @@ export default function RootLayout({ children }) {
       <body>
         {children}
         <ServiceWorker />
+        <SignupNudge />
       </body>
     </html>
   );

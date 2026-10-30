@@ -6,6 +6,7 @@ import CookMode from "./CookMode";
 import Gestes, { useVideos } from "./Gestes";
 import Realisations from "./Realisations";
 import Astuces from "./Astuces";
+import { nudge } from "./SignupNudge";
 import { getList, addToCourses, share, getRatings, sendRating, logCooked, consumeFridge, planAdd, isoDate } from "@/lib/client";
 import { allergenLabel } from "@/data/allergens";
 import { shareStory } from "@/lib/story";
@@ -42,6 +43,9 @@ export default function RecipeBody({ r, compare = true, fav, onFav, controls, ti
   const videos = useVideos();
   const url = `${SITE}/recette/${r.id}`;
 
+  // Compte les recettes consultées (invitation douce à créer un compte après 3).
+  useEffect(() => { if (r.id) nudge("vue"); }, [r.id]);
+
   useEffect(() => {
     if (!r.id) return;
     let alive = true;
@@ -68,6 +72,7 @@ export default function RecipeBody({ r, compare = true, fav, onFav, controls, ti
     const res = await logCooked(r);
     let extra = {};
     try { extra = { photo: !!(await getList("prefs"))?.photo }; } catch {}
+    nudge("cuisine");
     setCooked({ g: res.g, chf: res.chf, defi: res.defi, nouveaux: newBadges(res.before, res.after, extra), done: false });
   }
   async function updateFridge() {

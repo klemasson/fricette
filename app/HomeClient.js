@@ -12,6 +12,7 @@ import { CoursesLink } from "./components/Live";
 import Scanner from "./components/Scanner";
 import { InstallApp } from "./components/Pwa";
 import FootSocial from "./components/FootSocial";
+import { nudge } from "./components/SignupNudge";
 import Newsletter from "./components/Newsletter";
 import Bilan from "./components/Bilan";
 import Logo from "./components/Logo";
@@ -540,6 +541,7 @@ export default function HomeClient() {
     setFavs(next);
     if (!user) {
       saveLocalFavs(next);
+      if (on) nudge("favori");
       if (on && next.length === 1) setStatus({ text: "Ajoutée à tes favoris. Crée un compte pour les retrouver sur tous tes appareils.", err: false });
       return;
     }
