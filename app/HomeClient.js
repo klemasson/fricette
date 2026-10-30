@@ -584,7 +584,12 @@ export default function HomeClient() {
         setStatus({ text: "Ton compte et tes favoris ont été supprimés.", err: false });
       } else {
         setUser(d.user); setFavs(d.favorites || []); saveLocalFavs([]);
-        mergeAfterLogin().then((m) => { if (Array.isArray(m.data?.frigo)) setFridge(oldDemo(m.data.frigo) ? [] : m.data.frigo); });
+        const back = (() => { try { const b = sessionStorage.getItem("frc-after-login"); sessionStorage.removeItem("frc-after-login"); return b; } catch { return null; } })();
+        mergeAfterLogin().then((m) => {
+          if (Array.isArray(m.data?.frigo)) setFridge(oldDemo(m.data.frigo) ? [] : m.data.frigo);
+          // Venu·e d'une recette pour partager une photo : on y retourne.
+          if (back && back.startsWith("/") && !back.startsWith("//")) window.location.href = back;
+        });
         setStatus({
           text: mode === "signup" ? "Compte créé ! Tes favoris sont enregistrés."
             : mode === "reset" ? "Nouveau mot de passe enregistré. Tu es connecté·e."
@@ -962,6 +967,7 @@ export default function HomeClient() {
           </div>
           <span className="foot-links">
             <a href="/avec">Idées par ingrédient</a>
+            <a href="/realisations">Vos réalisations</a>
             <a href="/gestes">Gestes en vidéo</a>
             <a href="/planning">Planning</a>
             <a href="/courses">Liste de courses</a>

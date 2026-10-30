@@ -1,8 +1,7 @@
-// Statistiques de Fricette, visibles seulement par les comptes listés dans le fichier
-// ~/fricette-data/admins (une adresse e-mail par ligne).
+// Statistiques de Fricette, visibles seulement par les administrateurs (voir lib/admin.js).
 import { currentUser } from "@/lib/auth";
-import { admins } from "@/lib/admin";
-import { statsSince, newsletterCount } from "@/lib/db";
+import { isAdminEmail } from "@/lib/admin";
+import { statsSince, newsletterCount, pendingPhotos } from "@/lib/db";
 import { getRecipe } from "@/lib/carnet-server";
 import { ingredientName } from "@/lib/match";
 import { SiteHeader } from "@/app/components/Site";
@@ -36,7 +35,7 @@ function Top({ label, rows, fmt = (v) => v, extra }) {
 
 export default async function Stats({ searchParams }) {
   const user = await currentUser();
-  const ok = user && admins().includes(user.email.toLowerCase());
+  const ok = user && isAdminEmail(user.email);
   if (!ok) {
     return (
       <>
@@ -98,7 +97,10 @@ export default async function Stats({ searchParams }) {
         </section>
         <section className="st-box wide" style={{ marginTop: 14 }}>
           <h2>Pages du site</h2>
-          <a className="btn small" href="/admin/conditions">Modifier la page Conditions</a>
+          <div className="actions" style={{ marginTop: 0 }}>
+            <a className="btn small" href="/admin/photos">Photos des réalisations{pendingPhotos() ? ` (${pendingPhotos()} à valider)` : ""}</a>
+            <a className="btn small" href="/admin/conditions">Modifier la page Conditions</a>
+          </div>
         </section>
         <p className="muted small">Comptage anonyme, sans cookie : un « visiteur·jour » est une personne différente un jour donné.</p>
       </main>

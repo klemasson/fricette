@@ -21,6 +21,7 @@ function Msg({ m }) {
 export default function CompteClient() {
   const [state, setState] = useState("loading"); // loading | out | in
   const [email, setEmail] = useState("");
+  const [admin, setAdmin] = useState(false);
   const [counts, setCounts] = useState({ favs: 0, courses: 0 });
   const [prefs, setPrefs] = useState({ personnes: 2, temps: "40", regime: "", placard: true });
   const [prefMsg, setPrefMsg] = useState(null);
@@ -32,6 +33,7 @@ export default function CompteClient() {
     me(true).then(async (d) => {
       if (!d.user) return setState("out");
       setEmail(d.user.email);
+      setAdmin(!!d.user.admin);
       setState("in");
       const [favs, courses, p] = await Promise.all([getFavorites(), getList("courses"), getList("prefs")]);
       setCounts({ favs: favs.length, courses: courses.filter((x) => !x.done).length });
@@ -110,6 +112,18 @@ export default function CompteClient() {
         <a href="/courses" className="acc-link"><strong>{counts.courses}</strong><span>article{counts.courses > 1 ? "s" : ""} à acheter</span></a>
         <a href="/#frigo" className="acc-link"><strong>Frigo</strong><span>synchronisé</span></a>
       </div>
+
+      {admin && (
+        <section className="acc-card">
+          <h2>Administration</h2>
+          <p className="muted small">Ton compte est administrateur de Fricette.</p>
+          <div className="actions" style={{ marginTop: 0 }}>
+            <a className="btn small" href="/admin/photos">Photos à valider</a>
+            <a className="ghost small" href="/stats">Statistiques</a>
+            <a className="ghost small" href="/admin/conditions">Modifier les Conditions</a>
+          </div>
+        </section>
+      )}
 
       <Bilan />
 

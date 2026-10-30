@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { Ico, FavButton, Basket } from "./bits";
 import CookMode from "./CookMode";
 import Gestes, { useVideos } from "./Gestes";
+import Realisations from "./Realisations";
 import { addToCourses, share, getRatings, sendRating, logCooked, consumeFridge, planAdd, isoDate } from "@/lib/client";
 import { allergenLabel } from "@/data/allergens";
 
@@ -143,7 +144,7 @@ export default function RecipeBody({ r, compare = true, fav, onFav, controls, ti
                 {cooked.res.unknown.length ? ` Vérifie les quantités de : ${cooked.res.unknown.join(", ")}.` : ""}
               </p>
             )}
-            <a className="small-note" href="/compte#bilan">Voir mon bilan anti-gaspi →</a>
+            <span className="small-note"><a href="#photos" onClick={(e) => { e.preventDefault(); e.currentTarget.closest(".sheet, main, body")?.querySelector("#photos")?.scrollIntoView({ behavior: "smooth" }); }}>📸 Partage une photo de ton plat</a> · <a href="/compte#bilan">Voir mon bilan anti-gaspi →</a></span>
           </div>
         )}
       </div>
@@ -191,6 +192,8 @@ export default function RecipeBody({ r, compare = true, fav, onFav, controls, ti
           </span>
         </div>
       )}
+
+      {r.id && <Realisations recipeId={r.id} title={r.titre} />}
 
       {cook && <CookMode r={r} onClose={() => setCook(false)} onDone={() => { setCook(false); if (!cooked) markCooked(); }} />}
     </>

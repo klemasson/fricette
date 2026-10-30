@@ -41,6 +41,12 @@ Fricette est gratuit, sans publicité. Créer un compte est facultatif.
 - Les rappels « produit à finir » ne sont envoyés que si tu les actives dans « Mon compte ». Ils utilisent les dates que tu indiques dans ton frigo.
 - La newsletter n'est envoyée qu'après confirmation de ton adresse. Chaque e-mail contient un lien de désinscription en un clic ; ton adresse est alors effacée.
 
+### Photos de tes réalisations {#photos}
+- Si tu as un compte, tu peux partager la photo d'un plat que tu as cuisiné. Elle est vérifiée par l'équipe avant d'apparaître sur le site.
+- Tu confirmes que la photo est la tienne et qu'elle ne montre aucune personne reconnaissable. Tu gardes tes droits sur ta photo ; tu autorises simplement Fricette à l'afficher sur le site, avec le prénom que tu as indiqué (facultatif).
+- Tu peux supprimer ta photo à tout moment en l'ouvrant sur la recette. Elle est aussi effacée si tu supprimes ton compte.
+- Nous retirons les photos hors sujet, choquantes ou qui ne respectent pas ces règles. Une photo peut être signalée par n'importe qui.
+
 ### Statistiques
 - Pour améliorer le carnet, nous comptons de façon anonyme les pages vues, les recettes ouvertes et les ingrédients ajoutés au frigo (par exemple « courgette : 120 fois aujourd'hui »).
 - Ces chiffres ne sont reliés à personne : aucun cookie de mesure, aucune adresse IP enregistrée, et l'empreinte qui sert à compter les visiteurs uniques change chaque jour.
