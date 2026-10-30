@@ -5,9 +5,11 @@ import { Ico, FavButton, Basket } from "./bits";
 import CookMode from "./CookMode";
 import Gestes, { useVideos } from "./Gestes";
 import Realisations from "./Realisations";
-import { addToCourses, share, getRatings, sendRating, logCooked, consumeFridge, planAdd, isoDate } from "@/lib/client";
+import Astuces from "./Astuces";
+import { getList, addToCourses, share, getRatings, sendRating, logCooked, consumeFridge, planAdd, isoDate } from "@/lib/client";
 import { allergenLabel } from "@/data/allergens";
 import { shareStory } from "@/lib/story";
+import { newBadges } from "@/lib/badges";
 
 export function summary(r) {
   const ings = r.ingredients || [];
@@ -63,8 +65,10 @@ export default function RecipeBody({ r, compare = true, fav, onFav, controls, ti
   }
 
   async function markCooked() {
-    const g = await logCooked(r);
-    setCooked({ g, done: false });
+    const res = await logCooked(r);
+    let extra = {};
+    try { extra = { photo: !!(await getList("prefs"))?.photo }; } catch {}
+    setCooked({ g: res.g, chf: res.chf, defi: res.defi, nouveaux: newBadges(res.before, res.after, extra), done: false });
   }
   async function updateFridge() {
     const res = await consumeFridge(r);
@@ -155,7 +159,13 @@ export default function RecipeBody({ r, compare = true, fav, onFav, controls, ti
         {cooked && (
           <div className="cooked">
             <p className="cooked-msg"><strong>Bravo ! 🌱</strong>{" "}
-            {cooked.g > 0 ? <>Environ <b>{cooked.g >= 1000 ? `${(cooked.g / 1000).toFixed(1).replace(".", ",")} kg` : `${cooked.g} g`}</b> d'aliments sauvés de la poubelle.</> : "Recette ajoutée à ton bilan."}</p>
+            {cooked.g > 0 ? <>Environ <b>{cooked.g >= 1000 ? `${(cooked.g / 1000).toFixed(1).replace(".", ",")} kg` : `${cooked.g} g`}</b> d'aliments sauvés de la poubelle{cooked.chf >= 0.5 ? <>, soit <b>≈ {cooked.chf >= 10 ? Math.round(cooked.chf) : cooked.chf.toFixed(1).replace(".", ",")} CHF</b> économisés</> : ""}.</> : "Recette ajoutée à ton bilan."}
+            {cooked.defi && <> 🏆 <b>Défi de la semaine relevé !</b></>}</p>
+            {cooked.nouveaux?.length > 0 && (
+              <div className="cooked-badges" aria-live="polite">
+                {cooked.nouveaux.map((b) => <span key={b.id}>{b.emoji} Nouveau badge : {b.nom}</span>)}
+              </div>
+            )}
             {usesFridge && !cooked.done && (
               <div className="cooked-actions">
                 <button type="button" className="btn small" onClick={updateFridge}>Retirer ce que j'ai utilisé de mon frigo</button>
@@ -168,7 +178,7 @@ export default function RecipeBody({ r, compare = true, fav, onFav, controls, ti
                 {cooked.res.unknown.length ? ` Vérifie les quantités de : ${cooked.res.unknown.join(", ")}.` : ""}
               </p>
             )}
-            <span className="small-note"><a href="#photos" onClick={(e) => { e.preventDefault(); e.currentTarget.closest(".sheet, main, body")?.querySelector("#photos")?.scrollIntoView({ behavior: "smooth" }); }}>📸 Partage une photo de ton plat</a> · <a href="/compte#bilan">Voir mon bilan anti-gaspi →</a></span>
+            <span className="small-note"><a href="#photos" onClick={(e) => { e.preventDefault(); e.currentTarget.closest(".sheet, main, body")?.querySelector("#photos")?.scrollIntoView({ behavior: "smooth" }); }}>📸 Partage une photo de ton plat</a> · <a href="/compte#badges">Mon bilan et mes badges →</a></span>
           </div>
         )}
       </div>
@@ -218,6 +228,7 @@ export default function RecipeBody({ r, compare = true, fav, onFav, controls, ti
       )}
 
       {r.id && <Realisations recipeId={r.id} title={r.titre} recipe={r} />}
+      {r.id && <Astuces recipeId={r.id} />}
 
       {cook && <CookMode r={r} onClose={() => setCook(false)} onDone={() => { setCook(false); if (!cooked) markCooked(); }} />}
     </>

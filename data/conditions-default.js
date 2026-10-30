@@ -47,6 +47,18 @@ Fricette est gratuit, sans publicité. Créer un compte est facultatif.
 - Tu peux supprimer ta photo à tout moment en l'ouvrant sur la recette. Elle est aussi effacée si tu supprimes ton compte.
 - Nous retirons les photos hors sujet, choquantes ou qui ne respectent pas ces règles. Une photo peut être signalée par n'importe qui.
 
+### Astuces des membres {#astuces}
+- Avec un compte, tu peux partager une astuce sous une recette (variante, remplacement, conseil). Elle est relue par l'équipe avant d'être publiée, avec le prénom que tu as indiqué (facultatif).
+- Pas de liens, de publicité ni de propos blessants. Tu peux supprimer ton astuce à tout moment ; elle est effacée si tu supprimes ton compte.
+
+### Concours photo du mois {#concours}
+- Organisé par Fricette (Kevin Lemasson, Saillon). Participation gratuite, sans obligation d'achat, avec un compte Fricette. Ouvert aux personnes majeures résidant en Suisse ; les mineurs participent avec l'accord d'un parent.
+- Toutes les photos de plats publiées sur Fricette pendant un mois civil participent automatiquement au concours de ce mois. Elles doivent montrer une recette du site cuisinée par la personne qui l'envoie.
+- La photo gagnante est choisie par l'équipe de Fricette au début du mois suivant, selon l'envie que donne le plat, la créativité et l'esprit anti-gaspi. Cette décision n'est pas susceptible de recours.
+- La personne gagnante est prévenue à l'adresse e-mail de son compte. Sans réponse dans les 30 jours, le lot peut être remis en jeu. Le lot n'est ni échangeable ni convertible en argent.
+- La photo gagnante et le prénom indiqué peuvent être montrés sur le site et sur les comptes Instagram et TikTok de Fricette.
+- Fricette peut modifier ou arrêter le concours à tout moment, en l'annonçant sur cette page.
+
 ### Statistiques
 - Pour améliorer le carnet, nous comptons de façon anonyme les pages vues, les recettes ouvertes et les ingrédients ajoutés au frigo (par exemple « courgette : 120 fois aujourd'hui »).
 - Ces chiffres ne sont reliés à personne : aucun cookie de mesure, aucune adresse IP enregistrée, et l'empreinte qui sert à compter les visiteurs uniques change chaque jour.

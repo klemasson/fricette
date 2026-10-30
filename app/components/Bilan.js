@@ -38,9 +38,9 @@ export default function Bilan({ compact = false }) {
             <div><strong>{kg(b.mois.g)}</strong><span>sauvés ce mois-ci</span></div>
             <div><strong>≈ {b.mois.chf} CHF</strong><span>économisés ce mois-ci</span></div>
             <div><strong>{b.n}</strong><span>recette{b.n > 1 ? "s" : ""} cuisinée{b.n > 1 ? "s" : ""} au total</span></div>
-            <div><strong>{kg(b.g)}</strong><span>sauvés depuis le début</span></div>
+            <div><strong>{kg(b.g)} · ≈ {b.chf} CHF</strong><span>sauvés depuis le début</span></div>
           </div>
-          <p className="muted small">Estimation à partir des ingrédients de ton frigo utilisés dans les recettes (prix moyen de 10 CHF le kilo).</p>
+          <p className="muted small">Estimation à partir des ingrédients de ton frigo utilisés dans les recettes, avec des prix moyens suisses par aliment.</p>
           {list.length > 0 && (
             <ul className="bilan-last">
               {list.slice(-5).reverse().map((x, k) => (

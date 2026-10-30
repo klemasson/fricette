@@ -1,7 +1,7 @@
 // Statistiques de Fricette, visibles seulement par les administrateurs (voir lib/admin.js).
 import { currentUser } from "@/lib/auth";
 import { isAdminEmail } from "@/lib/admin";
-import { statsSince, newsletterCount, pendingPhotos } from "@/lib/db";
+import { statsSince, newsletterCount, pendingPhotos, pendingTips } from "@/lib/db";
 import { getRecipe } from "@/lib/carnet-server";
 import { ingredientName } from "@/lib/match";
 import { SiteHeader } from "@/app/components/Site";
@@ -112,7 +112,7 @@ export default async function Stats({ searchParams }) {
           <h2>Pages du site</h2>
           <div className="actions" style={{ marginTop: 0 }}>
             <a className="btn small" href="/admin/comptes">Liste des comptes</a>
-            <a className="btn small" href="/admin/photos">Photos des réalisations{pendingPhotos() ? ` (${pendingPhotos()} à valider)` : ""}</a>
+            <a className="btn small" href="/admin/photos">Photos, astuces et concours{pendingPhotos() + pendingTips() ? ` (${pendingPhotos() + pendingTips()} à valider)` : ""}</a>
             <a className="btn small" href="/admin/conditions">Modifier la page Conditions</a>
           </div>
         </section>

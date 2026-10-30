@@ -956,6 +956,16 @@ export default function HomeClient() {
               {seasonal.map((r) => <Card key={"s" + r.id} r={r} onOpen={openSheet} fav={favSet.has(r.id)} onFav={toggleFav} rating={ratings[r.id]} photos={pc[r.id]} />)}
             </div>
           </div>
+          <div className="in"><div className="tagline idees-line">
+            <span>Plus d'idées :</span>
+            <a className="f" href="/idees/recettes-15-minutes">En 15 minutes</a>
+            <a className="f" href="/idees/recettes-petit-budget">Petit budget</a>
+            <a className="f" href="/idees/recettes-3-ingredients">3 ingrédients</a>
+            <a className="f" href="/idees/que-faire-avec-des-restes-de-pates">Restes de pâtes</a>
+            <a className="f" href="/idees/que-faire-avec-des-restes-de-raclette">Restes de raclette</a>
+            <a className="f" href="/saison">Calendrier de saison</a>
+            <a className="f" href="/idees">Toutes les idées →</a>
+          </div></div>
         </section>
       )}
 
@@ -986,7 +996,10 @@ export default function HomeClient() {
           </div>
           <span className="foot-links">
             <a href="/avec">Idées par ingrédient</a>
+            <a href="/idees">Idées de recettes</a>
+            <a href="/saison">Calendrier de saison</a>
             <a href="/realisations">Vos réalisations</a>
+            <a href="/concours">Concours photo</a>
             <a href="/gestes">Gestes en vidéo</a>
             <a href="/planning">Planning</a>
             <a href="/courses">Liste de courses</a>

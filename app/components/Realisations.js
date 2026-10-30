@@ -2,6 +2,7 @@
 // « Ils l'ont faite » : photos des plats partagées par les visiteurs, sous chaque recette.
 import { useEffect, useRef, useState } from "react";
 import { shareStory } from "@/lib/story";
+import { getList as getUserList, setList as setUserList } from "@/lib/client";
 
 /** Réduit la photo dans le navigateur (1280 px max) : envoi rapide, même depuis un téléphone. */
 async function shrink(file) {
@@ -97,6 +98,7 @@ export default function Realisations({ recipeId, title, recipe }) {
       const d = await r.json().catch(() => ({}));
       if (!r.ok) throw new Error(d.error || "L'envoi n'a pas marché. Réessaie.");
       try { localStorage.setItem("frc-prenom", form.prenom); } catch {}
+      try { const p = (await getUserList("prefs")) || {}; if (!p.photo) await setUserList("prefs", { ...p, photo: true }); } catch {} // badge « Photographe »
       setForm((f) => ({ ...f, file: null, preview: "", texte: "", accord: false }));
       setOpen(false);
       setMsg({ text: d.attente ? "Merci ! 🎉 Ta photo apparaîtra ici dès qu'elle aura été vérifiée (en général dans la journée)." : "Photo publiée !" });
@@ -162,6 +164,7 @@ export default function Realisations({ recipeId, title, recipe }) {
               <input type="checkbox" checked={form.accord} onChange={(e) => setForm((f) => ({ ...f, accord: e.target.checked }))} />
               <span>C'est ma photo, elle ne montre personne de reconnaissable, et j'accepte qu'elle soit publiée sur Fricette (<a href="/conditions#photos" target="_blank">conditions</a>).</span>
             </label>
+            <p className="muted small" style={{ margin: 0 }}>🏆 Ta photo participe au <a href="/concours" target="_blank">concours du mois</a>.</p>
             <div className="actions" style={{ marginTop: 0 }}>
               <button className="btn" type="submit" disabled={busy}>{busy ? "Envoi…" : "Envoyer ma photo"}</button>
               <button className="link" type="button" onClick={() => { setOpen(false); setMsg(null); }}>Annuler</button>

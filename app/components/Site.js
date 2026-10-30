@@ -12,7 +12,7 @@ export function SiteHeader() {
         <Logo />
         <div className="nav-right">
           <a className="nav-link" href="/?q=" aria-label="Chercher une recette"><svg className="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7" /><path d="m20 20-4-4" /></svg></a>
-          <a className="nav-link hide-sm" href="/avec">Idées par ingrédient</a>
+          <a className="nav-link hide-sm" href="/idees">Idées de recettes</a>
           <CoursesLink />
           <a className="nav-link hide-sm" href="/#frigo">Mon frigo</a>
           <AccountLink />
@@ -31,7 +31,10 @@ export function SiteFooter() {
         <span>fricette · fait avec amour et des restes</span>
         <span className="foot-links">
           <a href="/avec">Idées par ingrédient</a>
-          <a href="/realisations">Vos réalisations</a>
+          <a href="/idees">Idées de recettes</a>
+            <a href="/saison">Calendrier de saison</a>
+            <a href="/realisations">Vos réalisations</a>
+            <a href="/concours">Concours photo</a>
           <a href="/gestes">Gestes en vidéo</a>
           <a href="/planning">Planning</a>
           <a href="/courses">Liste de courses</a>

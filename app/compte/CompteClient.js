@@ -5,6 +5,7 @@ import { InstallApp } from "@/app/components/Pwa";
 import { ALLERGENS } from "@/data/allergens";
 import Newsletter from "@/app/components/Newsletter";
 import Bilan from "@/app/components/Bilan";
+import Badges from "@/app/components/Badges";
 
 const post = async (url, body, method = "POST") => {
   const r = await fetch(url, { method, headers: { "Content-Type": "application/json" }, body: JSON.stringify(body) });
@@ -120,7 +121,7 @@ export default function CompteClient() {
           <h2>Administration</h2>
           <p className="muted small">Ton compte est administrateur de Fricette.</p>
           <div className="actions" style={{ marginTop: 0 }}>
-            <a className="btn small" href="/admin/photos">Photos à valider{todo.photos ? ` (${todo.photos})` : ""}</a>
+            <a className="btn small" href="/admin/photos">Photos, astuces, concours{todo.photos ? ` (${todo.photos})` : ""}</a>
             <a className="ghost small" href="/stats#messages">Messages{todo.messages ? ` (${todo.messages} non lu${todo.messages > 1 ? "s" : ""})` : ""}</a>
             <a className="ghost small" href="/admin/comptes">Comptes créés</a>
             <a className="ghost small" href="/stats">Statistiques et défi</a>
@@ -130,6 +131,7 @@ export default function CompteClient() {
       )}
 
       <Bilan />
+      <Badges />
 
       <section className="acc-card">
         <h2>Mes réglages</h2>

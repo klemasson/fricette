@@ -4,8 +4,11 @@ import { artSvg } from "@/lib/art";
 import { SiteHeader, SiteFooter } from "@/app/components/Site";
 import RecipeClient from "./RecipeClient";
 import LinkCard from "@/app/components/LinkCard";
+import { ratingSummary } from "@/lib/db";
 
 export const dynamicParams = false;
+// La page est régénérée au plus toutes les heures, pour que la note moyenne (étoiles Google) reste à jour.
+export const revalidate = 3600;
 export function generateStaticParams() {
   return carnet().map((r) => ({ id: r.id }));
 }
@@ -56,6 +59,12 @@ export default async function RecipePage({ params }) {
     suitableForDiet: r.regimes.filter((x) => DIETS[x]).map((x) => `https://schema.org/${DIETS[x]}`),
     keywords: ["anti-gaspi", ...r.ingredients.slice(0, 5).map((g) => g.nom)].join(", "),
   };
+  // Note moyenne donnée par les visiteurs (affichée aussi sur la page) : Google peut la montrer en étoiles.
+  let note = null;
+  try { note = ratingSummary()[r.id] || null; } catch {}
+  if (note && note[1] >= 1) {
+    ld.aggregateRating = { "@type": "AggregateRating", ratingValue: note[0], ratingCount: note[1], bestRating: 5, worstRating: 1 };
+  }
 
   return (
     <>
