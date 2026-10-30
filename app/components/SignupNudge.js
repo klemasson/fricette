@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 import { me } from "@/lib/client";
 
 const TEXTS = {
-  vues: ["Garde tout sous la main 📌", "Crée ton compte gratuit : ton frigo, tes favoris et ta liste de courses te suivent sur tous tes appareils."],
+  vues: ["Ton carnet anti-gaspi t'attend 📒", "Crée ton compte gratuit : ton frigo, tes favoris et ta liste de courses te suivent sur tous tes appareils."],
   favori: ["Ne perds pas tes favoris ❤️", "Pour l'instant, ils ne sont gardés que sur cet appareil. Avec un compte gratuit, tu les retrouves partout."],
   cuisine: ["Bravo pour ce plat ! 🌱", "Crée ton compte gratuit pour garder ton bilan anti-gaspi, gagner des badges et partager la photo de ton plat."],
 };
