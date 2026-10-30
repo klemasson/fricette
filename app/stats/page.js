@@ -71,7 +71,7 @@ export default async function Stats({ searchParams }) {
         <div className="st-kpis">
           <div><strong>{total}</strong><span>visiteurs·jour</span></div>
           <div><strong>{views}</strong><span>pages vues (top 15)</span></div>
-          <div><strong>{s.users}</strong><span>comptes ({s.newUsers} nouveaux)</span></div>
+          <a href="/admin/comptes" className="st-kpi-link"><strong>{s.users}</strong><span>comptes ({s.newUsers} nouveaux) · voir la liste →</span></a>
           <div><strong>{newsletterCount()}</strong><span>inscrits à la newsletter</span></div>
         </div>
         <section className="st-box wide">
@@ -111,6 +111,7 @@ export default async function Stats({ searchParams }) {
         <section className="st-box wide" style={{ marginTop: 14 }}>
           <h2>Pages du site</h2>
           <div className="actions" style={{ marginTop: 0 }}>
+            <a className="btn small" href="/admin/comptes">Liste des comptes</a>
             <a className="btn small" href="/admin/photos">Photos des réalisations{pendingPhotos() ? ` (${pendingPhotos()} à valider)` : ""}</a>
             <a className="btn small" href="/admin/conditions">Modifier la page Conditions</a>
           </div>

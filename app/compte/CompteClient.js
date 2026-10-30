@@ -122,6 +122,7 @@ export default function CompteClient() {
           <div className="actions" style={{ marginTop: 0 }}>
             <a className="btn small" href="/admin/photos">Photos à valider{todo.photos ? ` (${todo.photos})` : ""}</a>
             <a className="ghost small" href="/stats#messages">Messages{todo.messages ? ` (${todo.messages} non lu${todo.messages > 1 ? "s" : ""})` : ""}</a>
+            <a className="ghost small" href="/admin/comptes">Comptes créés</a>
             <a className="ghost small" href="/stats">Statistiques et défi</a>
             <a className="ghost small" href="/admin/conditions">Modifier les Conditions</a>
           </div>

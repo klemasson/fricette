@@ -1091,3 +1091,15 @@ dialog.fb-dlg::backdrop { background: rgba(10, 10, 12, 0.45); }
 .fb-top { display: flex; justify-content: space-between; gap: 10px; flex-wrap: wrap; }
 .fb-top small { color: var(--muted); }
 .fb-act { display: flex; gap: 14px; flex-wrap: wrap; font-size: 0.9rem; align-items: center; }
+
+/* Liste des comptes (administration) */
+.acc-toolbar { display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: center; justify-content: space-between; margin-bottom: 12px; }
+.acc-toolbar input { flex: 1 1 220px; border: 1.5px solid var(--line); border-radius: 999px; padding: 10px 16px; background: var(--bg); color: var(--ink); font: inherit; }
+.acc-table-wrap { overflow-x: auto; }
+.acc-table { width: 100%; border-collapse: collapse; font-size: 0.92rem; }
+.acc-table th { text-align: left; font-weight: 600; color: var(--muted); font-size: 0.8rem; padding: 6px 10px; border-bottom: 1px solid var(--line); white-space: nowrap; }
+.acc-table td { padding: 9px 10px; border-bottom: 1px solid var(--line); white-space: nowrap; }
+.acc-table td.em { font-weight: 600; white-space: normal; word-break: break-all; min-width: 180px; }
+.st-kpis a.st-kpi-link { background: var(--soft); border-radius: 18px; padding: 16px 18px; display: grid; color: var(--ink); text-decoration: none; }
+.st-kpis a.st-kpi-link:hover { background: var(--p1); }
+.st-kpis a.st-kpi-link span { color: var(--accent); font-weight: 600; }
