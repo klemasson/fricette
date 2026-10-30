@@ -1,6 +1,6 @@
 // Concours photo du mois.
 import { SiteHeader, SiteFooter } from "@/app/components/Site";
-import { entries, lot, monthKey, monthLabel, prevMonth, winner, pastWinners } from "@/lib/concours";
+import { entries, lot, monthKey, monthLabel, prevMonth, winner, pastWinners, actif } from "@/lib/concours";
 import { getRecipe } from "@/lib/carnet-server";
 
 export const dynamic = "force-dynamic";
@@ -25,6 +25,26 @@ const Photo = ({ p, big }) => {
 };
 
 export default function Concours() {
+  if (!actif()) {
+    const past = pastWinners(12);
+    return (
+      <>
+        <SiteHeader />
+        <main className="in listing">
+          <p className="crumbs"><a href="/realisations">Vos réalisations</a> › <span>Concours photo</span></p>
+          <h1>Concours photo</h1>
+          <p className="lead">Pas de concours en ce moment. Tu peux quand même partager les photos de tes plats : elles apparaissent dans <a href="/realisations">Vos réalisations</a>. Suis-nous sur Instagram pour être prévenu·e du prochain concours !</p>
+          {past.length > 0 && (
+            <section style={{ marginTop: 28 }}>
+              <h2>Les gagnant·es précédent·es</h2>
+              <ul className="gal">{past.map((w) => <Photo key={w.mois} p={{ ...w, texte: `${monthLabel(w.mois)}${w.texte ? " · " + w.texte : ""}` }} />)}</ul>
+            </section>
+          )}
+        </main>
+        <SiteFooter />
+      </>
+    );
+  }
   const now = monthKey();
   const list = entries(now);
   const last = prevMonth(now);

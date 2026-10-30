@@ -40,6 +40,7 @@ export default function Realisations({ recipeId, title, recipe }) {
   const [form, setForm] = useState({ file: null, preview: "", prenom: "", texte: "", accord: false });
   const [busy, setBusy] = useState(false);
   const [msg, setMsg] = useState(null);
+  const [concours, setConcours] = useState(false);
   const input = useRef(null);
 
   async function load() {
@@ -50,6 +51,7 @@ export default function Realisations({ recipeId, title, recipe }) {
     } catch { setList([]); }
   }
   useEffect(() => { load(); /* eslint-disable-next-line react-hooks/exhaustive-deps */ }, [recipeId]);
+  useEffect(() => { fetch("/api/concours").then((r) => r.json()).then((d) => setConcours(!!d.actif)).catch(() => {}); }, []);
   useEffect(() => {
     try { const p = localStorage.getItem("frc-prenom"); if (p) setForm((f) => ({ ...f, prenom: p })); } catch {}
   }, []);
@@ -164,7 +166,7 @@ export default function Realisations({ recipeId, title, recipe }) {
               <input type="checkbox" checked={form.accord} onChange={(e) => setForm((f) => ({ ...f, accord: e.target.checked }))} />
               <span>C'est ma photo, elle ne montre personne de reconnaissable, et j'accepte qu'elle soit publiée sur Fricette (<a href="/conditions#photos" target="_blank">conditions</a>).</span>
             </label>
-            <p className="muted small" style={{ margin: 0 }}>🏆 Ta photo participe au <a href="/concours" target="_blank">concours du mois</a>.</p>
+            {concours && <p className="muted small" style={{ margin: 0 }}>🏆 Ta photo participe au <a href="/concours" target="_blank">concours du mois</a>.</p>}
             <div className="actions" style={{ marginTop: 0 }}>
               <button className="btn" type="submit" disabled={busy}>{busy ? "Envoi…" : "Envoyer ma photo"}</button>
               <button className="link" type="button" onClick={() => { setOpen(false); setMsg(null); }}>Annuler</button>

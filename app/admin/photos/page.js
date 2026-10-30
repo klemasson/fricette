@@ -8,7 +8,7 @@ import Moderate from "./Moderate";
 import ConcoursAdmin from "./ConcoursAdmin";
 import TipsAdmin from "./TipsAdmin";
 import { tipsByStatus } from "@/lib/db";
-import { entries, lot, monthKey, monthLabel, prevMonth, winner } from "@/lib/concours";
+import { entries, lot, monthKey, monthLabel, prevMonth, winner, actif } from "@/lib/concours";
 import { getDb } from "@/lib/db";
 
 export const dynamic = "force-dynamic";
@@ -42,7 +42,7 @@ export default async function AdminPhotos() {
         <p className="tagline"><a className="f" href="#astuces">Astuces</a><a className="f" href="#concours">Concours du mois</a></p>
         <Moderate pending={photosByStatus("attente").map(row)} online={photosByStatus("ok", 120).map(row)} />
         <TipsAdmin pending={tipsByStatus("attente").map(tipRow)} online={tipsByStatus("ok", 100).map(tipRow)} />
-        <ConcoursAdmin lot={lot()} months={[prevMonth(monthKey()), monthKey()].map((key) => {
+        <ConcoursAdmin actif={actif()} lot={lot()} months={[prevMonth(monthKey()), monthKey()].map((key) => {
           const emails = new Map(getDb().prepare("SELECT id, email FROM users").all().map((u) => [u.id, u.email]));
           return {
             key, label: monthLabel(key), winner: winner(key)?.id || "",

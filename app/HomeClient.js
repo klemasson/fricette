@@ -999,7 +999,6 @@ export default function HomeClient() {
             <a href="/idees">Idées de recettes</a>
             <a href="/saison">Calendrier de saison</a>
             <a href="/realisations">Vos réalisations</a>
-            <a href="/concours">Concours photo</a>
             <a href="/gestes">Gestes en vidéo</a>
             <a href="/planning">Planning</a>
             <a href="/courses">Liste de courses</a>

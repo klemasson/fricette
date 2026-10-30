@@ -2,7 +2,7 @@
 import { NextResponse } from "next/server";
 import { sameOrigin } from "@/lib/auth";
 import { currentAdmin } from "@/lib/admin";
-import { setWinner, setLot } from "@/lib/concours";
+import { setWinner, setLot, setActif } from "@/lib/concours";
 import { photoGet } from "@/lib/db";
 
 export const dynamic = "force-dynamic";
@@ -11,6 +11,10 @@ export async function POST(request) {
   if (!(await sameOrigin())) return NextResponse.json({ error: "Requête refusée." }, { status: 403 });
   if (!(await currentAdmin())) return NextResponse.json({ error: "Réservé aux administrateurs." }, { status: 403 });
   const b = await request.json().catch(() => ({}));
+  if (typeof b.actif === "boolean") {
+    setActif(b.actif);
+    return NextResponse.json({ ok: true, actif: b.actif });
+  }
   if (typeof b.lot === "string") {
     setLot(b.lot.replace(/[<>]/g, "").trim().slice(0, 140));
     return NextResponse.json({ ok: true });

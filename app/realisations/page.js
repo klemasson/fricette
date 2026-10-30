@@ -2,7 +2,7 @@
 import { SiteHeader, SiteFooter } from "@/app/components/Site";
 import { photosLatest, photosTopRecipes } from "@/lib/db";
 import { getRecipe } from "@/lib/carnet-server";
-import { lot } from "@/lib/concours";
+import { lot, actif } from "@/lib/concours";
 
 export const dynamic = "force-dynamic";
 export const metadata = {
@@ -20,10 +20,10 @@ export default function Realisations() {
       <main className="in listing">
         <h1>Vos réalisations 📸</h1>
         <p className="lead">Les plats cuisinés par la communauté avec ce qu'il restait dans le frigo. Tu as fait une recette ? Ouvre-la et touche « Partager ma photo ».</p>
-        <div className="concours-band">
+        {actif() && <div className="concours-band">
           <span>🏆 <strong>Concours photo du mois</strong> : la plus belle photo gagne {lot()}.</span>
           <a href="/concours">Participer →</a>
-        </div>
+        </div>}
         {top.length >= 2 && (
           <section className="top-photos">
             <h2>Les plus cuisinées par la communauté</h2>
