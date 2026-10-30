@@ -33,6 +33,7 @@ export function SiteFooter() {
           <a href="/avec">Idées par ingrédient</a>
           <a href="/idees">Idées de recettes</a>
             <a href="/saison">Calendrier de saison</a>
+            <a href="/defi">Défi de la semaine</a>
             <a href="/realisations">Vos réalisations</a>
           <a href="/gestes">Gestes en vidéo</a>
           <a href="/planning">Planning</a>

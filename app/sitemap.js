@@ -12,6 +12,7 @@ export default function sitemap() {
     { url: `${SITE}/idees`, changeFrequency: "weekly", priority: 0.8 },
     ...collections().map((c) => ({ url: `${SITE}/idees/${c.slug}`, changeFrequency: "weekly", priority: 0.7 })),
     { url: `${SITE}/saison`, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${SITE}/defi`, changeFrequency: "weekly", priority: 0.6 },
     ...ingredientPages().map((p) => ({ url: `${SITE}/avec/${p.slug}`, changeFrequency: "weekly", priority: 0.7 })),
     ...carnet().map((r) => ({ url: `${SITE}/recette/${r.id}`, changeFrequency: "monthly", priority: 0.6, images: r.photo ? [`${SITE}${r.photo}`] : undefined })),
     { url: `${SITE}/conditions`, changeFrequency: "yearly", priority: 0.2 },

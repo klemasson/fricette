@@ -39,6 +39,14 @@ export default function RecipeBody({ r, compare = true, fav, onFav, controls, ti
   const [cooked, setCooked] = useState(null); // null | { g, done }
   const [planOpen, setPlanOpen] = useState(false);
   const [shareOpen, setShareOpen] = useState(false);
+  const [defi, setDefi] = useState(null);
+  useEffect(() => {
+    let alive = true;
+    fetch("/api/defi").then((x) => x.json()).then((d) => {
+      if (alive && d?.cle && (r.ingredients || []).some((i) => i.cle === d.cle && i.etat !== "option")) setDefi(d);
+    }).catch(() => {});
+    return () => { alive = false; };
+  }, [r.id]); // eslint-disable-line react-hooks/exhaustive-deps
   const Title = titleTag;
   const videos = useVideos();
   const url = `${SITE}/recette/${r.id}`;
@@ -152,6 +160,9 @@ export default function RecipeBody({ r, compare = true, fav, onFav, controls, ti
             })}
             <a href="/planning" className="small-note">Ouvrir le planning →</a>
           </div>
+        )}
+        {defi && !cooked && (
+          <p className="defi-hint">🏆 Cette recette compte pour le <a href="/defi">défi de la semaine</a> ({defi.nom}) : cuisine-la et appuie sur « ✓ Je l'ai cuisinée ».</p>
         )}
         {shareOpen && (
           <div className="plan-quick">

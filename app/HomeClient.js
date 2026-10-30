@@ -143,6 +143,7 @@ export default function HomeClient() {
   const [ratings, setRatings] = useState({});
   const [pc, setPc] = useState({}); // nombre de photos de réalisations par recette
   const [defi, setDefi] = useState(null);
+  const defiDone = !!defi && (loadLocal("frc-cuisine", []) || []).some((x) => x.defi === defi.semaine);
   const [scanOpen, setScanOpen] = useState(false);
   const [cleared, setCleared] = useState(null);
   const [sugIdx, setSugIdx] = useState(0);
@@ -841,14 +842,14 @@ export default function HomeClient() {
 
       {defi && (
         <div className="in">
-          <a className="defi" href={`/avec/${defi.slug}`}>
+          <a className="defi" href="/defi">
             <span className="defi-ico" aria-hidden="true">🏆</span>
             <span className="defi-txt">
               <span className="label">Défi anti-gaspi de la semaine</span>
-              <strong>{defi.titre}</strong>
-              {defi.accroche && <span className="defi-acc">{defi.accroche}</span>}
+              <strong>{defiDone ? "✓ Défi relevé : " : ""}{defi.titre}</strong>
+              <span className="defi-acc">{defiDone ? "Bravo ! Un nouveau défi arrive lundi." : "Cuisine une des recettes du défi avant dimanche et gagne ton badge."}</span>
             </span>
-            <span className="defi-go">{defi.n} recettes →</span>
+            <span className="defi-go">{defiDone ? "Voir →" : "Je relève le défi →"}</span>
           </a>
         </div>
       )}
@@ -1000,6 +1001,7 @@ export default function HomeClient() {
             <a href="/avec">Idées par ingrédient</a>
             <a href="/idees">Idées de recettes</a>
             <a href="/saison">Calendrier de saison</a>
+            <a href="/defi">Défi de la semaine</a>
             <a href="/realisations">Vos réalisations</a>
             <a href="/gestes">Gestes en vidéo</a>
             <a href="/planning">Planning</a>
