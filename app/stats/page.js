@@ -10,6 +10,8 @@ import { ingredientPages } from "@/lib/carnet-server";
 import { feedbackList } from "@/lib/db";
 import DefiForm from "./DefiForm";
 import Messages from "./Messages";
+import Exclu from "./Exclu";
+import { cookies } from "next/headers";
 
 export const dynamic = "force-dynamic";
 export const metadata = { title: "Statistiques – Fricette", robots: { index: false } };
@@ -68,6 +70,10 @@ export default async function Stats({ searchParams }) {
         <p className="lead">
           {[7, 30, 90, 365].map((d) => <a key={d} className={"f" + (d === days ? " on" : "")} href={`/stats?jours=${d}`}>{d} jours</a>)}
         </p>
+        <section className="st-box wide" style={{ marginBottom: 14 }}>
+          <h2>Tes propres visites</h2>
+          <Exclu initial={(await cookies()).get("frc_exclu")?.value === "1"} />
+        </section>
         <div className="st-kpis">
           <div><strong>{total}</strong><span>visiteurs·jour</span></div>
           <div><strong>{views}</strong><span>pages vues (top 15)</span></div>
@@ -116,7 +122,7 @@ export default async function Stats({ searchParams }) {
             <a className="btn small" href="/admin/conditions">Modifier la page Conditions</a>
           </div>
         </section>
-        <p className="muted small">Comptage anonyme, sans cookie : un « visiteur·jour » est une personne différente un jour donné.</p>
+        <p className="muted small">Comptage anonyme, sans cookie de mesure : un « visiteur·jour » est une personne différente un jour donné. Les robots (Google, UptimeRobot…) et les administrateurs ne sont pas comptés. Les visites passées ne peuvent pas être triées après coup, puisqu'elles sont anonymes.</p>
       </main>
     </>
   );
