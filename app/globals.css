@@ -1205,3 +1205,4 @@ dialog.fb-dlg::backdrop { background: rgba(10, 10, 12, 0.45); }
 .offre { display: grid; gap: 8px; } .offre p { margin: 0; }
 .offre-list { margin: 4px 0; padding-left: 0; list-style: none; display: grid; gap: 8px; font-size: 0.93rem; }
 .offre code { background: var(--soft); padding: 1px 6px; border-radius: 6px; font-size: 0.85em; }
+.editor-cols .field { align-content: start; }

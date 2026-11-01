@@ -127,6 +127,7 @@ export default function CompteClient() {
             <a className="ghost small" href="/admin/comptes">Comptes créés</a>
             <a className="ghost small" href="/stats">Statistiques et défi</a>
             <a className="ghost small" href="/admin/conditions">Modifier les Conditions</a>
+            <a className="ghost small" href="/admin/emails">Modifier l'e-mail de bienvenue</a>
           </div>
         </section>
       )}
