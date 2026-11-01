@@ -3,6 +3,7 @@ import { normEmail, hashPassword, startSession, sameOrigin, tooManyAttempts } fr
 import { findUserByEmail, createUser, setFavorite, listFavorites } from "@/lib/db";
 import { recipeExists } from "@/lib/recipes";
 import { visitorIp } from "@/lib/session";
+import { sendWelcome } from "@/lib/jobs";
 
 export const dynamic = "force-dynamic";
 
@@ -25,5 +26,6 @@ export async function POST(request) {
   const local = Array.isArray(body.favorites) ? body.favorites.slice(0, 1000) : [];
   for (const rid of local) if (recipeExists(rid)) setFavorite(id, rid, true);
   await startSession(id);
+  sendWelcome(email).catch((e) => console.error("[bienvenue]", e?.message));
   return NextResponse.json({ user: { email }, favorites: listFavorites(id) });
 }

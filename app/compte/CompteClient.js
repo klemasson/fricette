@@ -6,6 +6,7 @@ import { ALLERGENS } from "@/data/allergens";
 import Newsletter from "@/app/components/Newsletter";
 import Bilan from "@/app/components/Bilan";
 import Badges from "@/app/components/Badges";
+import PushToggle from "@/app/components/PushToggle";
 
 const post = async (url, body, method = "POST") => {
   const r = await fetch(url, { method, headers: { "Content-Type": "application/json" }, body: JSON.stringify(body) });
@@ -180,6 +181,12 @@ export default function CompteClient() {
         <div className="field" style={{ marginTop: 8 }}>Newsletter « 5 idées de saison », chaque lundi
           <Newsletter compact email={email} />
         </div>
+      </section>
+
+      <section className="acc-card">
+        <h2>Notifications</h2>
+        <p className="muted small">Reçois un petit rappel sur ce téléphone ou cet ordinateur : le défi du lundi et les produits à finir.</p>
+        <PushToggle />
       </section>
 
       <section className="acc-card">

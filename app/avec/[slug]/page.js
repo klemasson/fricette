@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import { ingredientPages, recipesWith, cleOf, capital } from "@/lib/carnet-server";
 import { SiteHeader, SiteFooter } from "@/app/components/Site";
 import LinkCard from "@/app/components/LinkCard";
+import More from "./More";
 
 export const dynamicParams = false;
 export function generateStaticParams() {
@@ -51,7 +52,7 @@ export default async function AvecPage({ params }) {
             <section key={label} className="recipes" aria-label={label}>
               <div className="in">
                 <div className="sec"><h2>{label}</h2><span>{rs.length} recette{rs.length > 1 ? "s" : ""}</span></div>
-                <div className="grid">{rs.map((r) => <LinkCard key={r.id} r={r} />)}</div>
+                <More total={rs.length}>{rs.map((r) => <LinkCard key={r.id} r={r} />)}</More>
               </div>
             </section>
           );

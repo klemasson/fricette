@@ -39,6 +39,7 @@ Fricette est gratuit, sans publicité. Créer un compte est facultatif.
 ### Listes partagées, rappels et newsletter
 - Une liste de courses partagée est enregistrée sur notre serveur. Toute personne qui a son lien secret peut la voir et la modifier ; tu peux la quitter à tout moment.
 - Les rappels « produit à finir » ne sont envoyés que si tu les actives dans « Mon compte ». Ils utilisent les dates que tu indiques dans ton frigo.
+- Les notifications sur ton téléphone ou ton ordinateur ne sont envoyées que si tu les actives (défi du lundi, produits à finir). Tu peux les couper à tout moment dans « Mon compte » ou dans les réglages de ton appareil.
 - La newsletter n'est envoyée qu'après confirmation de ton adresse. Chaque e-mail contient un lien de désinscription en un clic ; ton adresse est alors effacée.
 
 ### Photos de tes réalisations {#photos}

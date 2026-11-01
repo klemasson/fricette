@@ -3,7 +3,9 @@ import { currentDefi } from "@/lib/defi";
 import { recipesWith, capital } from "@/lib/carnet-server";
 import { SiteHeader, SiteFooter } from "@/app/components/Site";
 import LinkCard from "@/app/components/LinkCard";
+import More from "@/app/avec/[slug]/More";
 import DefiStatus from "./DefiStatus";
+import PushToggle from "@/app/components/PushToggle";
 
 export const dynamic = "force-dynamic";
 export const metadata = {
@@ -38,12 +40,13 @@ export default function Defi() {
             <li><b>3</b><span><strong>Appuie sur « ✓ Je l'ai cuisinée »</strong>le bouton se trouve sous le titre de la recette. Le défi est relevé et tu gagnes le badge 🏆 « Défi relevé ».</span></li>
           </ol>
           <DefiStatus semaine={d.semaine} />
+          <PushToggle compact />
           <p className="muted small">Un nouveau défi commence chaque lundi. Avec un compte gratuit, tes défis et tes badges sont gardés sur tous tes appareils.</p>
         </div>
         <section className="recipes" aria-label={`Recettes avec ${d.nom}`}>
           <div className="in">
             <div className="sec"><h2>Les recettes du défi</h2><span>{list.length} recettes avec {d.nom}</span></div>
-            <div className="grid">{list.map((r) => <LinkCard key={r.id} r={r} />)}</div>
+            <More total={list.length}>{list.map((r) => <LinkCard key={r.id} r={r} />)}</More>
           </div>
         </section>
       </main>

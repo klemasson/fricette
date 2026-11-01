@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import { collections, collection } from "@/lib/collections";
 import { SiteHeader, SiteFooter } from "@/app/components/Site";
 import LinkCard from "@/app/components/LinkCard";
+import More from "@/app/avec/[slug]/More";
 
 export const dynamicParams = false;
 export function generateStaticParams() {
@@ -43,7 +44,7 @@ export default async function CollectionPage({ params }) {
         </div>
         <section className="recipes" aria-label={c.titre}>
           <div className="in">
-            <div className="grid">{shown.map((r) => <LinkCard key={r.id} r={r} />)}</div>
+            <More total={shown.length}>{shown.map((r) => <LinkCard key={r.id} r={r} />)}</More>
           </div>
         </section>
         <div className="in listing">

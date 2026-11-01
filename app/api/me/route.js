@@ -4,6 +4,7 @@ import { listFavorites, deleteUser, findUserByEmail, getUserData, feedbackUnread
 import { mailEnabled } from "@/lib/mail";
 import { isAdminEmail } from "@/lib/admin";
 import { deleteUserPhotos } from "@/lib/photos";
+import { subsDeleteUser } from "@/lib/push";
 
 export const dynamic = "force-dynamic";
 
@@ -26,6 +27,7 @@ export async function DELETE(request) {
   }
   deleteUserPhotos(user.id);
   tipsDeleteUser(user.id);
+  subsDeleteUser(user.id);
   deleteUser(user.id);
   await endSession();
   return NextResponse.json({ ok: true });

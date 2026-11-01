@@ -11,6 +11,9 @@ import { feedbackList } from "@/lib/db";
 import DefiForm from "./DefiForm";
 import Messages from "./Messages";
 import Exclu from "./Exclu";
+import MailBackup from "./MailBackup";
+import Offre from "./Offre";
+import { pushCount } from "@/lib/push";
 import { cookies } from "next/headers";
 
 export const dynamic = "force-dynamic";
@@ -79,6 +82,7 @@ export default async function Stats({ searchParams }) {
           <div><strong>{views}</strong><span>pages vues (top 15)</span></div>
           <a href="/admin/comptes" className="st-kpi-link"><strong>{s.users}</strong><span>comptes ({s.newUsers} nouveaux) · voir la liste →</span></a>
           <div><strong>{newsletterCount()}</strong><span>inscrits à la newsletter</span></div>
+          <div><strong>{pushCount()}</strong><span>appareils avec notifications</span></div>
         </div>
         <section className="st-box wide">
           <h2>Visiteurs par jour</h2>
@@ -103,8 +107,11 @@ export default async function Stats({ searchParams }) {
         </div>
         <section className="st-box wide" style={{ marginTop: 14 }}>
           <h2>Sauvegardes</h2>
-          <p className="muted small">La base (comptes, favoris, listes, newsletter) est copiée automatiquement chaque nuit sur l'hébergement, dans ~/fricette-data/sauvegardes (14 dernières nuits). Tu peux aussi en garder une copie chez toi :</p>
-          <a className="btn small" href="/api/admin/sauvegarde">Télécharger une sauvegarde maintenant</a>
+          <p className="muted small">La base (comptes, favoris, listes, notes, astuces, newsletter) est copiée automatiquement chaque nuit sur l'hébergement, dans ~/fricette-data/sauvegardes (14 dernières nuits), et <strong>envoyée chaque dimanche matin par e-mail</strong> aux administrateurs : garde ces e-mails, c'est ta copie de secours hors du serveur.</p>
+          <div className="actions" style={{ marginTop: 0 }}>
+            <a className="btn small" href="/api/admin/sauvegarde">Télécharger une sauvegarde maintenant</a>
+            <MailBackup />
+          </div>
         </section>
         <section className="st-box wide" style={{ marginTop: 14 }} id="messages">
           <h2>Messages des visiteurs</h2>
@@ -113,6 +120,10 @@ export default async function Stats({ searchParams }) {
         <section className="st-box wide" style={{ marginTop: 14 }}>
           <h2>Défi de la semaine</h2>
           <DefiForm defi={currentDefi()} options={ingredientPages().sort((a, b) => b.n - a.n)} />
+        </section>
+        <section className="st-box wide" style={{ marginTop: 14 }}>
+          <h2>Offre payante (Fricette+)</h2>
+          <Offre />
         </section>
         <section className="st-box wide" style={{ marginTop: 14 }}>
           <h2>Pages du site</h2>

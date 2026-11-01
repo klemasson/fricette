@@ -1187,3 +1187,21 @@ dialog.fb-dlg::backdrop { background: rgba(10, 10, 12, 0.45); }
 .defi-hint a { color: var(--ink); font-weight: 700; }
 .exclu { display: grid; gap: 6px; } .exclu p { margin: 0; }
 .exclu .link { justify-self: start; }
+
+/* Cibles tactiles plus grandes sur téléphone (au moins ~40 px de haut) */
+@media (max-width: 700px) {
+  .nav-link { min-height: 44px; display: inline-flex; align-items: center; }
+  .quick-chip, .f, .chip, .chip.select select, .geste-btn { min-height: 40px; }
+  .fav { width: 40px !important; height: 40px !important; }
+  .geste-btn { padding-block: 8px; display: inline-flex; align-items: center; }
+  .stars button { min-width: 40px; min-height: 40px; }
+  .foot-links a, .foot-net a { display: inline-block; padding-block: 10px; }
+  .crumbs a, .rate-links a, .small-note a, a.small-note { display: inline-block; padding-block: 8px; }
+  .link { min-height: 36px; }
+}
+.more-row { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 16px; justify-content: center; margin-top: 22px; }
+.mail-backup { display: inline-flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.push { display: grid; gap: 10px; justify-items: start; } .push .status { margin: 0; }
+.offre { display: grid; gap: 8px; } .offre p { margin: 0; }
+.offre-list { margin: 4px 0; padding-left: 0; list-style: none; display: grid; gap: 8px; font-size: 0.93rem; }
+.offre code { background: var(--soft); padding: 1px 6px; border-radius: 6px; font-size: 0.85em; }
