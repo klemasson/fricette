@@ -7,6 +7,7 @@ import Newsletter from "@/app/components/Newsletter";
 import Bilan from "@/app/components/Bilan";
 import Badges from "@/app/components/Badges";
 import PushToggle from "@/app/components/PushToggle";
+import { useFeatures } from "@/lib/features-client";
 
 const post = async (url, body, method = "POST") => {
   const r = await fetch(url, { method, headers: { "Content-Type": "application/json" }, body: JSON.stringify(body) });
@@ -25,6 +26,7 @@ export default function CompteClient() {
   const [email, setEmail] = useState("");
   const [admin, setAdmin] = useState(false);
   const [todo, setTodo] = useState({});
+  const feat = useFeatures();
   const [counts, setCounts] = useState({ favs: 0, courses: 0 });
   const [prefs, setPrefs] = useState({ personnes: 2, temps: "40", regime: "", placard: true });
   const [prefMsg, setPrefMsg] = useState(null);
@@ -128,6 +130,7 @@ export default function CompteClient() {
             <a className="ghost small" href="/stats">Statistiques et défi</a>
             <a className="ghost small" href="/admin/conditions">Modifier les Conditions</a>
             <a className="ghost small" href="/admin/emails">Modifier l'e-mail de bienvenue</a>
+            <a className="btn small" href="/admin/options">⚙️ Options du site</a>
           </div>
         </section>
       )}
@@ -171,24 +174,24 @@ export default function CompteClient() {
         <Msg m={prefMsg} />
       </section>
 
-      <section className="acc-card">
+      {(feat.rappels || feat.newsletter) && <section className="acc-card">
         <h2>E-mails</h2>
-        <label className="switch">
+        {feat.rappels && <><label className="switch">
           <input type="checkbox" checked={!!prefs.rappels} onChange={(e) => savePrefs({ rappels: e.target.checked })} />
           <span className="track" aria-hidden="true" />
           Me prévenir le matin quand un produit de mon frigo arrive à sa date limite, avec des idées pour le finir
         </label>
-        <p className="muted small">Indique les dates dans ton frigo : touche la quantité d'un ingrédient, puis « À finir avant ».</p>
-        <div className="field" style={{ marginTop: 8 }}>Newsletter « 5 idées de saison », chaque lundi
+        <p className="muted small">Indique les dates dans ton frigo : touche la quantité d'un ingrédient, puis « À finir avant ».</p></>}
+        {feat.newsletter && <div className="field" style={{ marginTop: 8 }}>Newsletter « 5 idées de saison », chaque lundi
           <Newsletter compact email={email} />
-        </div>
-      </section>
+        </div>}
+      </section>}
 
-      <section className="acc-card">
+      {feat.push && <section className="acc-card">
         <h2>Notifications</h2>
         <p className="muted small">Reçois un petit rappel sur ce téléphone ou cet ordinateur : le défi du lundi et les produits à finir.</p>
         <PushToggle />
-      </section>
+      </section>}
 
       <section className="acc-card">
         <h2>Adresse e-mail</h2>

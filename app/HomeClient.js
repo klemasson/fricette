@@ -12,6 +12,8 @@ import { CoursesLink } from "./components/Live";
 import Scanner from "./components/Scanner";
 import { InstallApp } from "./components/Pwa";
 import FootSocial from "./components/FootSocial";
+import FootLinks from "./components/FootLinks";
+import { useFeatures } from "@/lib/features-client";
 import { nudge } from "./components/SignupNudge";
 import Newsletter from "./components/Newsletter";
 import Bilan from "./components/Bilan";
@@ -143,6 +145,7 @@ export default function HomeClient() {
   const [ratings, setRatings] = useState({});
   const [pc, setPc] = useState({}); // nombre de photos de réalisations par recette
   const [defi, setDefi] = useState(null);
+  const feat = useFeatures();
   const defiDone = !!defi && (loadLocal("frc-cuisine", []) || []).some((x) => x.defi === defi.semaine);
   const [scanOpen, setScanOpen] = useState(false);
   const [cleared, setCleared] = useState(null);
@@ -675,7 +678,7 @@ export default function HomeClient() {
         </div>
       </header>
 
-      <div className="in"><InstallApp banner /></div>
+      {feat.installer && <div className="in"><InstallApp banner /></div>}
 
       <section className="fridge" id="frigo" aria-label="Ton frigo">
         <div className="in">
@@ -691,14 +694,14 @@ export default function HomeClient() {
               <input id="ing" value={name} onChange={(e) => { setName(e.target.value); setSugIdx(0); }} placeholder="Ajoute un ingrédient…"
                 aria-label="Ingrédient" autoComplete="off" role="combobox" aria-expanded={sugs.length > 0} aria-controls="ing-sugs"
                 onFocus={() => setFocused(true)} onBlur={() => setFocused(false)} />
-              {voiceOk && (
+              {voiceOk && feat.dictee && (
                 <button className={"icon-btn" + (listening ? " on" : "")} type="button" onClick={dictate} aria-label="Dicter les ingrédients" title="Dicter">
                   <svg className="i" viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3" /><path d="M5 11a7 7 0 0 0 14 0M12 18v3" /></svg>
                 </button>
               )}
-              <button className="icon-btn" type="button" onClick={() => setScanOpen(true)} aria-label="Scanner un code-barres" title="Scanner un code-barres">
+              {feat.scanner && <button className="icon-btn" type="button" onClick={() => setScanOpen(true)} aria-label="Scanner un code-barres" title="Scanner un code-barres">
                 <svg className="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7V5h3M17 5h3v2M20 17v2h-3M7 19H4v-2M8 9v6M11 9v6M14 9v6M17 9v6" /></svg>
-              </button>
+              </button>}
               <button className="add-btn" type="submit" aria-label="Ajouter"><span className="hide-sm">Ajouter</span><span className="show-sm" aria-hidden="true">+</span></button>
               {focused && sugs.length > 0 && (
                 <ul className="sugs" id="ing-sugs" role="listbox">
@@ -840,7 +843,7 @@ export default function HomeClient() {
         </div>
       </section>
 
-      {defi && (
+      {defi && feat.defi && (
         <div className="in">
           <a className="defi" href="/defi">
             <span className="defi-ico" aria-hidden="true">🏆</span>
@@ -997,17 +1000,7 @@ export default function HomeClient() {
               </form>
             )}
           </div>
-          <span className="foot-links">
-            <a href="/avec">Idées par ingrédient</a>
-            <a href="/idees">Idées de recettes</a>
-            <a href="/saison">Calendrier de saison</a>
-            <a href="/defi">Défi de la semaine</a>
-            <a href="/realisations">Vos réalisations</a>
-            <a href="/gestes">Gestes en vidéo</a>
-            <a href="/planning">Planning</a>
-            <a href="/courses">Liste de courses</a>
-            <a href="/conditions">Conditions</a>
-          </span>
+          <FootLinks />
         </div>
       </footer>
 

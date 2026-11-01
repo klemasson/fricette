@@ -132,6 +132,7 @@ export default async function Stats({ searchParams }) {
             <a className="btn small" href="/admin/photos">Photos, astuces et concours{pendingPhotos() + pendingTips() ? ` (${pendingPhotos() + pendingTips()} à valider)` : ""}</a>
             <a className="btn small" href="/admin/conditions">Modifier la page Conditions</a>
             <a className="btn small" href="/admin/emails">Modifier l'e-mail de bienvenue</a>
+            <a className="btn small" href="/admin/options">⚙️ Options du site (activer / désactiver)</a>
           </div>
         </section>
         <p className="muted small">Comptage anonyme, sans cookie de mesure : un « visiteur·jour » est une personne différente un jour donné. Les robots (Google, UptimeRobot…) et les administrateurs ne sont pas comptés. Les visites passées ne peuvent pas être triées après coup, puisqu'elles sont anonymes.</p>

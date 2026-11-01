@@ -3,11 +3,13 @@
 import { useEffect, useState } from "react";
 import { getList, loadLocal } from "@/lib/client";
 import { badges } from "@/lib/badges";
+import { useFeatures } from "@/lib/features-client";
 
 export default function Badges() {
   const [list, setL] = useState(null);
   const [extra, setExtra] = useState({});
   const [all, setAll] = useState(false);
+  const f = useFeatures();
   useEffect(() => {
     setL(loadLocal("frc-cuisine", []));
     getList("cuisine").then(setL);
@@ -16,7 +18,7 @@ export default function Badges() {
     window.addEventListener("frc:cuisine", on);
     return () => window.removeEventListener("frc:cuisine", on);
   }, []);
-  if (!list) return null;
+  if (!list || !f.badges) return null;
   const b = badges(list, extra);
   const ok = b.filter((x) => x.ok);
   const next = b.filter((x) => !x.ok).sort((a, c) => c.progres - a.progres);

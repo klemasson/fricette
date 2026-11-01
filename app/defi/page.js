@@ -6,6 +6,7 @@ import LinkCard from "@/app/components/LinkCard";
 import More from "@/app/avec/[slug]/More";
 import DefiStatus from "./DefiStatus";
 import PushToggle from "@/app/components/PushToggle";
+import { feature } from "@/lib/features";
 
 export const dynamic = "force-dynamic";
 export const metadata = {
@@ -21,6 +22,7 @@ function daysLeft() {
 }
 
 export default function Defi() {
+  if (!feature("defi")) return (<><SiteHeader /><main className="in listing"><h1>Défi de la semaine</h1><p className="lead">Pas de défi en ce moment. <a href="/">Trouver une recette avec ton frigo →</a></p></main><SiteFooter /></>);
   const d = currentDefi();
   const list = recipesWith(d.cle);
   const left = daysLeft();

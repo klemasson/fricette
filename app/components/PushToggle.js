@@ -2,6 +2,7 @@
 // Activer / couper les notifications sur ce téléphone ou cet ordinateur.
 import { useEffect, useState } from "react";
 import { me, loadLocal, saveLocal } from "@/lib/client";
+import { useFeatures } from "@/lib/features-client";
 
 function b64(s) {
   const p = "=".repeat((4 - (s.length % 4)) % 4);
@@ -15,6 +16,7 @@ export default function PushToggle({ compact = false }) {
   const [prefs, setPrefs] = useState({ defi: true, dates: true });
   const [busy, setBusy] = useState(false);
   const [msg, setMsg] = useState("");
+  const f = useFeatures();
 
   useEffect(() => {
     me().then((d) => setLogged(!!d.user));
@@ -72,7 +74,7 @@ export default function PushToggle({ compact = false }) {
     if (st === "on") enable(next, false);
   }
 
-  if (st === "load") return null;
+  if (st === "load" || !f.push) return null;
   if (st === "nosupport") return compact ? null : <p className="muted small">Ce navigateur ne permet pas les notifications.</p>;
   if (st === "ios") return <p className="muted small">📱 Sur iPhone, installe d'abord Fricette sur ton écran d'accueil (bouton Partager, puis « Sur l'écran d'accueil »). Ouvre ensuite Fricette depuis l'icône pour activer les notifications.</p>;
   if (st === "denied") return <p className="muted small">Les notifications sont bloquées pour Fricette. Pour les réactiver, ouvre les réglages du navigateur (ou du téléphone) et autorise les notifications pour fricette.ch.</p>;

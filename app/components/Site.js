@@ -4,6 +4,7 @@ import { CoursesLink, PageView, AccountLink } from "./Live";
 import Newsletter from "./Newsletter";
 import Logo from "./Logo";
 import FootSocial from "./FootSocial";
+import FootLinks from "./FootLinks";
 
 export function SiteHeader() {
   return (
@@ -29,17 +30,7 @@ export function SiteFooter() {
       <FootSocial />
       <div className="in">
         <span>fricette · fait avec amour et des restes</span>
-        <span className="foot-links">
-          <a href="/avec">Idées par ingrédient</a>
-          <a href="/idees">Idées de recettes</a>
-            <a href="/saison">Calendrier de saison</a>
-            <a href="/defi">Défi de la semaine</a>
-            <a href="/realisations">Vos réalisations</a>
-          <a href="/gestes">Gestes en vidéo</a>
-          <a href="/planning">Planning</a>
-          <a href="/courses">Liste de courses</a>
-          <a href="/conditions">Conditions</a>
-        </span>
+        <FootLinks />
       </div>
       <PageView />
     </footer>

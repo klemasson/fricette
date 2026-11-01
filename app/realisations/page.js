@@ -3,6 +3,7 @@ import { SiteHeader, SiteFooter } from "@/app/components/Site";
 import { photosLatest, photosTopRecipes } from "@/lib/db";
 import { getRecipe } from "@/lib/carnet-server";
 import { lot, actif } from "@/lib/concours";
+import { feature } from "@/lib/features";
 
 export const dynamic = "force-dynamic";
 export const metadata = {
@@ -12,6 +13,7 @@ export const metadata = {
 };
 
 export default function Realisations() {
+  if (!feature("photos")) return (<><SiteHeader /><main className="in listing"><h1>Vos réalisations</h1><p className="lead">Cette page n'est pas disponible pour le moment. <a href="/">Trouver une recette →</a></p></main><SiteFooter /></>);
   const top = photosTopRecipes(10).map((t) => ({ ...t, r: getRecipe(t.recipe_id) })).filter((t) => t.r);
   const list = photosLatest(60).map((p) => ({ ...p, titre: getRecipe(p.recipe_id)?.titre })).filter((p) => p.titre);
   return (

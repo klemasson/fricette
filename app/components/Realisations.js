@@ -32,7 +32,7 @@ async function shrink(file) {
 
 const when = (t) => new Date(t).toLocaleDateString("fr-CH", { day: "numeric", month: "long", year: "numeric" });
 
-export default function Realisations({ recipeId, title, recipe }) {
+export default function Realisations({ recipeId, title, recipe, storyOk = true }) {
   const [list, setList] = useState(null);
   const [logged, setLogged] = useState(false);
   const [open, setOpen] = useState(false);
@@ -184,7 +184,7 @@ export default function Realisations({ recipeId, title, recipe }) {
               <span><strong>{view.prenom || "Un·e cuisinier·ère"}</strong> · {when(view.created)}{view.texte && <><br />« {view.texte} »</>}</span>
               <span className="real-acts">
                 {view.mine && <button type="button" className="link" onClick={() => act(view, "supprimer")}>Supprimer</button>}
-                {!view.attente && recipe && <button type="button" className="link" onClick={() => shareStory({ r: recipe, photo: `/api/realisations/${view.id}/image`, kicker: "Fait maison avec Fricette", by: view.prenom })}>Partager en story</button>}
+                {!view.attente && recipe && storyOk && <button type="button" className="link" onClick={() => shareStory({ r: recipe, photo: `/api/realisations/${view.id}/image`, kicker: "Fait maison avec Fricette", by: view.prenom })}>Partager en story</button>}
                 {!view.attente && <button type="button" className="link" onClick={() => act(view, "signaler")}>Signaler</button>}
                 <button type="button" className="btn small" onClick={() => setView(null)}>Fermer</button>
               </span>

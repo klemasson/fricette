@@ -4,6 +4,7 @@
 // Seulement pour les visiteurs sans compte, une fois par visite, et plus pendant 14 jours si on la ferme.
 import { useEffect, useState } from "react";
 import { me } from "@/lib/client";
+import { loadFeatures } from "@/lib/features-client";
 
 const TEXTS = {
   vues: ["Ton carnet anti-gaspi t'attend 📒", "Crée ton compte gratuit : ton frigo, tes favoris et ta liste de courses te suivent sur tous tes appareils."],
@@ -35,6 +36,7 @@ export default function SignupNudge() {
   useEffect(() => {
     let wait = null;
     const on = async (e) => {
+      if (!(await loadFeatures()).invitation) return;
       if (get("frc-nudge-shown", sessionStorage)) return;
       const off = Number(get(OFF) || 0);
       if (off && Date.now() - off < 14 * 86400000) return;

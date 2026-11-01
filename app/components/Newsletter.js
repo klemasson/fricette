@@ -1,10 +1,12 @@
 "use client";
 import { useState } from "react";
+import { useFeatures } from "@/lib/features-client";
 
 export default function Newsletter({ compact = false, email: initial = "" }) {
   const [email, setEmail] = useState(initial);
   const [msg, setMsg] = useState(null);
   const [busy, setBusy] = useState(false);
+  const f = useFeatures();
   async function submit(e) {
     e.preventDefault();
     setBusy(true);
@@ -17,6 +19,7 @@ export default function Newsletter({ compact = false, email: initial = "" }) {
     }
     setBusy(false);
   }
+  if (!f.newsletter) return null;
   return (
     <form className={"news" + (compact ? " compact" : "")} onSubmit={submit}>
       {!compact && <strong>5 idées de saison, chaque lundi</strong>}

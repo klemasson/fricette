@@ -5,6 +5,7 @@ import { isAdminEmail } from "@/lib/admin";
 import { photoAdd, photosForRecipe, photosToday } from "@/lib/db";
 import { recipeExists } from "@/lib/recipes";
 import { getRecipe } from "@/lib/carnet-server";
+import { feature } from "@/lib/features";
 import { MAX_BYTES, sniff, newPhotoId, savePhotoFile, notifyAdmins } from "@/lib/photos";
 
 export const dynamic = "force-dynamic";
@@ -26,6 +27,7 @@ export async function GET(request) {
 
 export async function POST(request) {
   if (!(await sameOrigin())) return NextResponse.json({ error: "Requête refusée." }, { status: 403 });
+  if (!feature("photos")) return NextResponse.json({ error: "Le partage de photos est fermé pour le moment." }, { status: 403 });
   const user = await currentUser();
   if (!user) return NextResponse.json({ error: "Connecte-toi pour partager une photo." }, { status: 401 });
   if (photosToday(user.id) >= 10) return NextResponse.json({ error: "Tu as déjà partagé 10 photos aujourd'hui. Reviens demain !" }, { status: 429 });

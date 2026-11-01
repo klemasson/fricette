@@ -1206,3 +1206,9 @@ dialog.fb-dlg::backdrop { background: rgba(10, 10, 12, 0.45); }
 .offre-list { margin: 4px 0; padding-left: 0; list-style: none; display: grid; gap: 8px; font-size: 0.93rem; }
 .offre code { background: var(--soft); padding: 1px 6px; border-radius: 6px; font-size: 0.85em; }
 .editor-cols .field { align-content: start; }
+.opts { display: grid; gap: 14px; margin-top: 18px; }
+.opt-list { list-style: none; padding: 0; margin: 10px 0 0; display: grid; gap: 14px; }
+.opt-list .switch { align-items: flex-start; }
+.opt-st { font-size: 0.78rem; font-weight: 700; color: var(--muted); background: var(--soft); border-radius: 999px; padding: 2px 8px; margin-left: 4px; }
+.opt-st.on { color: var(--ok); background: var(--p2); }
+.opt-list .switch { white-space: normal; display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 12px; } .opt-list .switch > span:last-child { min-width: 0; }

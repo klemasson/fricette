@@ -11,6 +11,7 @@ import { getList, addToCourses, share, getRatings, sendRating, logCooked, consum
 import { allergenLabel } from "@/data/allergens";
 import { shareStory } from "@/lib/story";
 import { newBadges } from "@/lib/badges";
+import { useFeatures } from "@/lib/features-client";
 
 export function summary(r) {
   const ings = r.ingredients || [];
@@ -40,6 +41,7 @@ export default function RecipeBody({ r, compare = true, fav, onFav, controls, ti
   const [planOpen, setPlanOpen] = useState(false);
   const [shareOpen, setShareOpen] = useState(false);
   const [defi, setDefi] = useState(null);
+  const feat = useFeatures();
   useEffect(() => {
     let alive = true;
     fetch("/api/defi").then((x) => x.json()).then((d) => {
@@ -145,7 +147,7 @@ export default function RecipeBody({ r, compare = true, fav, onFav, controls, ti
           <button type="button" className="chip strong" onClick={() => setCook(true)}>▶ Mode cuisine</button>
           {r.id && <button type="button" className="chip" onClick={() => { setPlanOpen((v) => !v); setShareOpen(false); }} aria-expanded={planOpen}>📅 Planning</button>}
           <button type="button" className="chip" onClick={markCooked} disabled={!!cooked}>{cooked ? "✓ Cuisinée !" : "✓ Je l'ai cuisinée"}</button>
-          {r.id && <button type="button" className="chip" onClick={openPhoto}>📸 Ma photo</button>}
+          {r.id && feat.photos && <button type="button" className="chip" onClick={openPhoto}>📸 Ma photo</button>}
           {r.id && <button type="button" className="chip" onClick={() => { setShareOpen((v) => !v); setPlanOpen(false); }} aria-expanded={shareOpen}>Partager</button>}
           {r.id && <button type="button" className="chip hide-sm" onClick={() => (pageLink ? window.open(`/recette/${r.id}?imprimer=1`, "_blank") : window.print())}>Imprimer</button>}
           {controls}
@@ -161,14 +163,14 @@ export default function RecipeBody({ r, compare = true, fav, onFav, controls, ti
             <a href="/planning" className="small-note">Ouvrir le planning →</a>
           </div>
         )}
-        {defi && !cooked && (
+        {defi && feat.defi && !cooked && (
           <p className="defi-hint">🏆 Cette recette compte pour le <a href="/defi">défi de la semaine</a> ({defi.nom}) : cuisine-la et appuie sur « ✓ Je l'ai cuisinée ».</p>
         )}
         {shareOpen && (
           <div className="plan-quick">
             <span>Partager :</span>
             <button type="button" className="f" onClick={() => { setShareOpen(false); onShare(); }}>🔗 Le lien</button>
-            <button type="button" className="f" onClick={() => { setShareOpen(false); onStory(); }}>📱 Image pour story Instagram / TikTok</button>
+            {feat.story && <button type="button" className="f" onClick={() => { setShareOpen(false); onStory(); }}>📱 Image pour story Instagram / TikTok</button>}
           </div>
         )}
         <div className="toast" role="status">{msg}</div>
@@ -176,8 +178,8 @@ export default function RecipeBody({ r, compare = true, fav, onFav, controls, ti
           <div className="cooked">
             <p className="cooked-msg"><strong>Bravo ! 🌱</strong>{" "}
             {cooked.g > 0 ? <>Environ <b>{cooked.g >= 1000 ? `${(cooked.g / 1000).toFixed(1).replace(".", ",")} kg` : `${cooked.g} g`}</b> d'aliments sauvés de la poubelle{cooked.chf >= 0.5 ? <>, soit <b>≈ {cooked.chf >= 10 ? Math.round(cooked.chf) : cooked.chf.toFixed(1).replace(".", ",")} CHF</b> économisés</> : ""}.</> : "Recette ajoutée à ton bilan."}
-            {cooked.defi && <> 🏆 <b>Défi de la semaine relevé !</b></>}</p>
-            {cooked.nouveaux?.length > 0 && (
+            {feat.defi && cooked.defi && <> 🏆 <b>Défi de la semaine relevé !</b></>}</p>
+            {feat.badges && cooked.nouveaux?.length > 0 && (
               <div className="cooked-badges" aria-live="polite">
                 {cooked.nouveaux.map((b) => <span key={b.id}>{b.emoji} Nouveau badge : {b.nom}</span>)}
               </div>
@@ -194,7 +196,7 @@ export default function RecipeBody({ r, compare = true, fav, onFav, controls, ti
                 {cooked.res.unknown.length ? ` Vérifie les quantités de : ${cooked.res.unknown.join(", ")}.` : ""}
               </p>
             )}
-            <span className="small-note"><a href="#photos" onClick={(e) => { e.preventDefault(); e.currentTarget.closest(".sheet, main, body")?.querySelector("#photos")?.scrollIntoView({ behavior: "smooth" }); }}>📸 Partage une photo de ton plat</a> · <a href="/compte#badges">Mon bilan et mes badges →</a></span>
+            <span className="small-note">{feat.photos && <><a href="#photos" onClick={(e) => { e.preventDefault(); e.currentTarget.closest(".sheet, main, body")?.querySelector("#photos")?.scrollIntoView({ behavior: "smooth" }); }}>📸 Partage une photo de ton plat</a> · </>}<a href="/compte#badges">Mon bilan et mes badges →</a></span>
           </div>
         )}
       </div>
@@ -243,8 +245,8 @@ export default function RecipeBody({ r, compare = true, fav, onFav, controls, ti
         </div>
       )}
 
-      {r.id && <Realisations recipeId={r.id} title={r.titre} recipe={r} />}
-      {r.id && <Astuces recipeId={r.id} />}
+      {r.id && feat.photos && <Realisations recipeId={r.id} title={r.titre} recipe={r} storyOk={feat.story} />}
+      {r.id && feat.astuces && <Astuces recipeId={r.id} />}
 
       {cook && <CookMode r={r} onClose={() => setCook(false)} onDone={() => { setCook(false); if (!cooked) markCooked(); }} />}
     </>

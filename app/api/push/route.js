@@ -3,6 +3,7 @@ import { NextResponse } from "next/server";
 import { currentUser, sameOrigin, tooManyAttempts } from "@/lib/auth";
 import { vapid, saveSub, removeSub, send } from "@/lib/push";
 import { visitorIp } from "@/lib/session";
+import { feature } from "@/lib/features";
 
 export const dynamic = "force-dynamic";
 
@@ -12,6 +13,7 @@ export async function GET() {
 
 export async function POST(request) {
   if (!(await sameOrigin())) return NextResponse.json({ error: "Requête refusée." }, { status: 403 });
+  if (!feature("push")) return NextResponse.json({ error: "Les notifications sont désactivées." }, { status: 403 });
   if (tooManyAttempts("push:" + (await visitorIp()), 30)) return NextResponse.json({ error: "Trop de tentatives." }, { status: 429 });
   const b = await request.json().catch(() => ({}));
   const sub = b.subscription;

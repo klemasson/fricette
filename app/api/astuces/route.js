@@ -6,6 +6,7 @@ import { tipAdd, tipsForRecipe, tipsToday, kvGet, kvSet, getDb } from "@/lib/db"
 import { recipeExists } from "@/lib/recipes";
 import { getRecipe } from "@/lib/carnet-server";
 import { sendMail, mailEnabled, siteUrl } from "@/lib/mail";
+import { feature } from "@/lib/features";
 
 export const dynamic = "force-dynamic";
 const clean = (s, n) => String(s || "").replace(/[\u0000-\u0009\u000b-\u001f<>]/g, " ").replace(/[ \t]+/g, " ").replace(/\n{3,}/g, "\n\n").trim().slice(0, n);
@@ -36,6 +37,7 @@ async function notify(title) {
 
 export async function POST(request) {
   if (!(await sameOrigin())) return NextResponse.json({ error: "Requête refusée." }, { status: 403 });
+  if (!feature("astuces")) return NextResponse.json({ error: "Les astuces sont fermées pour le moment." }, { status: 403 });
   const user = await currentUser();
   if (!user) return NextResponse.json({ error: "Connecte-toi pour partager une astuce." }, { status: 401 });
   if (tipsToday(user.id) >= 10) return NextResponse.json({ error: "Tu as déjà partagé 10 astuces aujourd'hui. Reviens demain !" }, { status: 429 });

@@ -5,12 +5,13 @@ import { normEmail, sameOrigin, tooManyAttempts } from "@/lib/auth";
 import { newsletterAdd } from "@/lib/db";
 import { sendMail, mailEnabled, siteUrl } from "@/lib/mail";
 import { visitorIp } from "@/lib/session";
+import { feature } from "@/lib/features";
 
 export const dynamic = "force-dynamic";
 
 export async function POST(request) {
   if (!(await sameOrigin())) return NextResponse.json({ error: "Requête refusée." }, { status: 403 });
-  if (!mailEnabled()) return NextResponse.json({ error: "L'inscription n'est pas disponible pour le moment." }, { status: 503 });
+  if (!mailEnabled() || !feature("newsletter")) return NextResponse.json({ error: "L'inscription n'est pas disponible pour le moment." }, { status: 503 });
   if (tooManyAttempts("news:" + (await visitorIp()), 5)) return NextResponse.json({ error: "Trop de demandes. Réessaie plus tard." }, { status: 429 });
   const body = await request.json().catch(() => ({}));
   const email = normEmail(body.email);
