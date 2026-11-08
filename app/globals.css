@@ -1192,7 +1192,8 @@ dialog.fb-dlg::backdrop { background: rgba(10, 10, 12, 0.45); }
 @media (max-width: 700px) {
   .nav-link { min-height: 44px; display: inline-flex; align-items: center; }
   .quick-chip, .f, .chip, .chip.select select, .geste-btn { min-height: 40px; }
-  .fav { width: 40px !important; height: 40px !important; }
+  .fav:not(.labelled) { width: 40px !important; height: 40px !important; }
+  .fav.labelled { min-height: 40px; }
   .geste-btn { padding-block: 8px; display: inline-flex; align-items: center; }
   .stars button { min-width: 40px; min-height: 40px; }
   .foot-links a, .foot-net a { display: inline-block; padding-block: 10px; }
